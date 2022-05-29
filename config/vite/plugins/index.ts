@@ -2,7 +2,6 @@ import { configPluginVue } from './pluginVue';
 import { configPluginVueJsx } from './pluginVueJsx';
 import { ConfigEnv } from 'vite';
 import { configPluginHtml } from './vitePluginHtml';
-import { configSvgIconsPlugin } from './vitePluginSvgIcons';
 import { configPluginLegacy } from './vitePluginLegacy';
 import { configPluginImagemin } from './vitePluginImagemin';
 import { configPluginVisualizer } from './rollupPluginVisualizer';
@@ -24,7 +23,6 @@ export const createVitePlugins = ({ mode, command }: ConfigEnv, viteEnv: ViteEnv
         configPluginVueJsx(),
         configPluginVueSetupExtend(), // 支持在 setup 上使用组件 name
         configPluginHtml(isBuild, viteEnv),
-        configSvgIconsPlugin(isBuild),
     ];
 
     if (VITE_UNPLUGINS_COMPONENTS) plugins.push(configPluginUnpluginComponents(viteEnv));
