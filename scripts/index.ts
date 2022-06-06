@@ -20,8 +20,9 @@ const generateIcons = async () => {
                 path.resolve(__dirname, `../src/icons/${svgIdentifier}.tsx`),
                 `
 // GENERATE BY ./scripts/generate.ts
-// DON NOT EDIT IT MANUALLY
-export default '${svgIdentifier}'
+// 不要手动修改！！！
+const components = ${svgIdentifier}
+export default components
                 `.trim()
             );
         })
