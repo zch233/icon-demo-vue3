@@ -1,4 +1,5 @@
 import { FunctionalComponent } from 'vue';
+import Icon from './Icon.vue';
 
 const customCache = new Set<string>();
 
@@ -7,7 +8,7 @@ export interface CustomIconOptions {
     extraCommonProps?: { [key: string]: any };
 }
 
-export const createFromIconfont = (options: CustomIconOptions): FunctionalComponent<{ icon: string }> => {
+export const createFromIconfont = (options: CustomIconOptions): FunctionalComponent<{ icon: string; prefix?: string }> => {
     const { scriptUrl, extraCommonProps = {} } = options;
     if (typeof document !== 'undefined' && typeof window !== 'undefined' && typeof document.createElement === 'function') {
         if (Array.isArray(scriptUrl)) {
@@ -20,14 +21,14 @@ export const createFromIconfont = (options: CustomIconOptions): FunctionalCompon
         console.warn('😩😩😩 Make sure in browser environment');
     }
     return (props, context) => {
-        const { icon, ...restProps } = { ...extraCommonProps, ...props, ...context.attrs };
+        const { icon, prefix, ...restProps } = { ...extraCommonProps, ...props, ...context.attrs };
         return (
             <>
-                <span class='gupoIconfont' {...restProps}>
-                    <svg class='gupoIconfont-svg' aria-hidden='true'>
-                        <use xlinkHref={`#icon-${icon}`} />
+                <Icon {...restProps} name={icon}>
+                    <svg class='gupoIcon-icon' aria-hidden='true'>
+                        <use xlinkHref={`#${prefix || 'icon'}-${icon}`} />
                     </svg>
-                </span>
+                </Icon>
             </>
         );
     };

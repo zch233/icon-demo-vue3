@@ -21,8 +21,22 @@ const generateIcons = async () => {
                 `
 // GENERATE BY ./scripts/generate.ts
 // 不要手动修改！！！
-const components = ${svgIdentifier}
-export default components
+
+import { FunctionalComponent } from 'vue';
+import Icon, {IconProps} from '../components/Icon';
+import ${svgIdentifier}Svg from '@ant-design/icons-svg/lib/asn/${svgIdentifier}';
+
+export interface ${svgIdentifier}IconType extends FunctionalComponent<IconProps> {
+  displayName: string;
+}
+
+const ${svgIdentifier}: ${svgIdentifier}IconType = (props, context) => 
+    <Icon {{ ...props, ...context.attrs }} icon={${svgIdentifier}Svg} />
+    ;
+
+${svgIdentifier}.displayName = '${svgIdentifier}';
+
+export default ${svgIdentifier};
                 `.trim()
             );
         })
