@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ThunderboltTwoToneSvg from '@ant-design/icons-svg/lib/asn/ThunderboltTwoTone';
 
 export interface ThunderboltTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ThunderboltTwoToneIconType extends FunctionalComponent<IconProp
 }
 
 const ThunderboltTwoTone: ThunderboltTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ThunderboltTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ThunderboltTwoToneSvg} />
     ;
 
 ThunderboltTwoTone.displayName = 'ThunderboltTwoTone';
 
-export default ThunderboltTwoTone;
+export default FunctionalComponent;

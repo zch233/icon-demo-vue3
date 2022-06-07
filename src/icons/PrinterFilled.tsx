@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PrinterFilledSvg from '@ant-design/icons-svg/lib/asn/PrinterFilled';
 
 export interface PrinterFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PrinterFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const PrinterFilled: PrinterFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PrinterFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PrinterFilledSvg} />
     ;
 
 PrinterFilled.displayName = 'PrinterFilled';
 
-export default PrinterFilled;
+export default FunctionalComponent;

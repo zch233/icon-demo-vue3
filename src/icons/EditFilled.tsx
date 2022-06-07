@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import EditFilledSvg from '@ant-design/icons-svg/lib/asn/EditFilled';
 
 export interface EditFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface EditFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const EditFilled: EditFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={EditFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={EditFilledSvg} />
     ;
 
 EditFilled.displayName = 'EditFilled';
 
-export default EditFilled;
+export default FunctionalComponent;

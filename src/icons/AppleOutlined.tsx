@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import AppleOutlinedSvg from '@ant-design/icons-svg/lib/asn/AppleOutlined';
 
 export interface AppleOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface AppleOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const AppleOutlined: AppleOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={AppleOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={AppleOutlinedSvg} />
     ;
 
 AppleOutlined.displayName = 'AppleOutlined';
 
-export default AppleOutlined;
+export default FunctionalComponent;

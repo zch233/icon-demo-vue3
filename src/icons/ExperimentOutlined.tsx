@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ExperimentOutlinedSvg from '@ant-design/icons-svg/lib/asn/ExperimentOutlined';
 
 export interface ExperimentOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ExperimentOutlinedIconType extends FunctionalComponent<IconProp
 }
 
 const ExperimentOutlined: ExperimentOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ExperimentOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ExperimentOutlinedSvg} />
     ;
 
 ExperimentOutlined.displayName = 'ExperimentOutlined';
 
-export default ExperimentOutlined;
+export default FunctionalComponent;

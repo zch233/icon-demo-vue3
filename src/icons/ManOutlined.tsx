@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ManOutlinedSvg from '@ant-design/icons-svg/lib/asn/ManOutlined';
 
 export interface ManOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ManOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const ManOutlined: ManOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ManOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ManOutlinedSvg} />
     ;
 
 ManOutlined.displayName = 'ManOutlined';
 
-export default ManOutlined;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import RobotFilledSvg from '@ant-design/icons-svg/lib/asn/RobotFilled';
 
 export interface RobotFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface RobotFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const RobotFilled: RobotFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={RobotFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={RobotFilledSvg} />
     ;
 
 RobotFilled.displayName = 'RobotFilled';
 
-export default RobotFilled;
+export default FunctionalComponent;

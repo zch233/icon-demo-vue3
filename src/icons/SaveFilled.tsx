@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import SaveFilledSvg from '@ant-design/icons-svg/lib/asn/SaveFilled';
 
 export interface SaveFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface SaveFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const SaveFilled: SaveFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={SaveFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={SaveFilledSvg} />
     ;
 
 SaveFilled.displayName = 'SaveFilled';
 
-export default SaveFilled;
+export default FunctionalComponent;

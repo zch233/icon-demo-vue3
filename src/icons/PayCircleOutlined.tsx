@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PayCircleOutlinedSvg from '@ant-design/icons-svg/lib/asn/PayCircleOutlined';
 
 export interface PayCircleOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PayCircleOutlinedIconType extends FunctionalComponent<IconProps
 }
 
 const PayCircleOutlined: PayCircleOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PayCircleOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PayCircleOutlinedSvg} />
     ;
 
 PayCircleOutlined.displayName = 'PayCircleOutlined';
 
-export default PayCircleOutlined;
+export default FunctionalComponent;

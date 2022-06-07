@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import RedditOutlinedSvg from '@ant-design/icons-svg/lib/asn/RedditOutlined';
 
 export interface RedditOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface RedditOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const RedditOutlined: RedditOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={RedditOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={RedditOutlinedSvg} />
     ;
 
 RedditOutlined.displayName = 'RedditOutlined';
 
-export default RedditOutlined;
+export default FunctionalComponent;

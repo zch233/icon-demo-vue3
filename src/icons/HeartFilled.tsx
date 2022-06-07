@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import HeartFilledSvg from '@ant-design/icons-svg/lib/asn/HeartFilled';
 
 export interface HeartFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface HeartFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const HeartFilled: HeartFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={HeartFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={HeartFilledSvg} />
     ;
 
 HeartFilled.displayName = 'HeartFilled';
 
-export default HeartFilled;
+export default FunctionalComponent;

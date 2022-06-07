@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PercentageOutlinedSvg from '@ant-design/icons-svg/lib/asn/PercentageOutlined';
 
 export interface PercentageOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PercentageOutlinedIconType extends FunctionalComponent<IconProp
 }
 
 const PercentageOutlined: PercentageOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PercentageOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PercentageOutlinedSvg} />
     ;
 
 PercentageOutlined.displayName = 'PercentageOutlined';
 
-export default PercentageOutlined;
+export default FunctionalComponent;

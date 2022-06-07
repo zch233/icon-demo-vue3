@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FilePptFilledSvg from '@ant-design/icons-svg/lib/asn/FilePptFilled';
 
 export interface FilePptFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FilePptFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const FilePptFilled: FilePptFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FilePptFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FilePptFilledSvg} />
     ;
 
 FilePptFilled.displayName = 'FilePptFilled';
 
-export default FilePptFilled;
+export default FunctionalComponent;

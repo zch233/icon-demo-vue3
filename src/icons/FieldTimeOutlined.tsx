@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FieldTimeOutlinedSvg from '@ant-design/icons-svg/lib/asn/FieldTimeOutlined';
 
 export interface FieldTimeOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FieldTimeOutlinedIconType extends FunctionalComponent<IconProps
 }
 
 const FieldTimeOutlined: FieldTimeOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FieldTimeOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FieldTimeOutlinedSvg} />
     ;
 
 FieldTimeOutlined.displayName = 'FieldTimeOutlined';
 
-export default FieldTimeOutlined;
+export default FunctionalComponent;

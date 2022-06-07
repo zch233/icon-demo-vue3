@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PaperClipOutlinedSvg from '@ant-design/icons-svg/lib/asn/PaperClipOutlined';
 
 export interface PaperClipOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PaperClipOutlinedIconType extends FunctionalComponent<IconProps
 }
 
 const PaperClipOutlined: PaperClipOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PaperClipOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PaperClipOutlinedSvg} />
     ;
 
 PaperClipOutlined.displayName = 'PaperClipOutlined';
 
-export default PaperClipOutlined;
+export default FunctionalComponent;

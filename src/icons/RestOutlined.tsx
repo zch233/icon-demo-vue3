@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import RestOutlinedSvg from '@ant-design/icons-svg/lib/asn/RestOutlined';
 
 export interface RestOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface RestOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const RestOutlined: RestOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={RestOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={RestOutlinedSvg} />
     ;
 
 RestOutlined.displayName = 'RestOutlined';
 
-export default RestOutlined;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import SplitCellsOutlinedSvg from '@ant-design/icons-svg/lib/asn/SplitCellsOutlined';
 
 export interface SplitCellsOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface SplitCellsOutlinedIconType extends FunctionalComponent<IconProp
 }
 
 const SplitCellsOutlined: SplitCellsOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={SplitCellsOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={SplitCellsOutlinedSvg} />
     ;
 
 SplitCellsOutlined.displayName = 'SplitCellsOutlined';
 
-export default SplitCellsOutlined;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DeleteColumnOutlinedSvg from '@ant-design/icons-svg/lib/asn/DeleteColumnOutlined';
 
 export interface DeleteColumnOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DeleteColumnOutlinedIconType extends FunctionalComponent<IconPr
 }
 
 const DeleteColumnOutlined: DeleteColumnOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DeleteColumnOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DeleteColumnOutlinedSvg} />
     ;
 
 DeleteColumnOutlined.displayName = 'DeleteColumnOutlined';
 
-export default DeleteColumnOutlined;
+export default FunctionalComponent;

@@ -1,13 +1,7 @@
 <script lang="tsx">
-import { defineComponent, h, HTMLAttributes } from 'vue';
+import { defineComponent, h } from 'vue';
 import { IconDefinition } from '@ant-design/icons-svg/lib/types';
 import { AbstractNode } from '@ant-design/icons-svg/es/types';
-
-export interface IconProps extends HTMLAttributes {
-    spin?: boolean;
-    rotate?: number;
-    size?: number;
-}
 
 export default defineComponent({
     props: {

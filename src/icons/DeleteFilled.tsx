@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DeleteFilledSvg from '@ant-design/icons-svg/lib/asn/DeleteFilled';
 
 export interface DeleteFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DeleteFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const DeleteFilled: DeleteFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DeleteFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DeleteFilledSvg} />
     ;
 
 DeleteFilled.displayName = 'DeleteFilled';
 
-export default DeleteFilled;
+export default FunctionalComponent;

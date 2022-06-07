@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import UnlockFilledSvg from '@ant-design/icons-svg/lib/asn/UnlockFilled';
 
 export interface UnlockFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface UnlockFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const UnlockFilled: UnlockFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={UnlockFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={UnlockFilledSvg} />
     ;
 
 UnlockFilled.displayName = 'UnlockFilled';
 
-export default UnlockFilled;
+export default FunctionalComponent;

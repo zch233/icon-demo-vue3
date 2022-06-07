@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import LoginOutlinedSvg from '@ant-design/icons-svg/lib/asn/LoginOutlined';
 
 export interface LoginOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface LoginOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const LoginOutlined: LoginOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={LoginOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={LoginOutlinedSvg} />
     ;
 
 LoginOutlined.displayName = 'LoginOutlined';
 
-export default LoginOutlined;
+export default FunctionalComponent;

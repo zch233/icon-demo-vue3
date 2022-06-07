@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ColumnWidthOutlinedSvg from '@ant-design/icons-svg/lib/asn/ColumnWidthOutlined';
 
 export interface ColumnWidthOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ColumnWidthOutlinedIconType extends FunctionalComponent<IconPro
 }
 
 const ColumnWidthOutlined: ColumnWidthOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ColumnWidthOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ColumnWidthOutlinedSvg} />
     ;
 
 ColumnWidthOutlined.displayName = 'ColumnWidthOutlined';
 
-export default ColumnWidthOutlined;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import HolderOutlinedSvg from '@ant-design/icons-svg/lib/asn/HolderOutlined';
 
 export interface HolderOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface HolderOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const HolderOutlined: HolderOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={HolderOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={HolderOutlinedSvg} />
     ;
 
 HolderOutlined.displayName = 'HolderOutlined';
 
-export default HolderOutlined;
+export default FunctionalComponent;

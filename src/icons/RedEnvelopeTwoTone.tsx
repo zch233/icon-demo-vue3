@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import RedEnvelopeTwoToneSvg from '@ant-design/icons-svg/lib/asn/RedEnvelopeTwoTone';
 
 export interface RedEnvelopeTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface RedEnvelopeTwoToneIconType extends FunctionalComponent<IconProp
 }
 
 const RedEnvelopeTwoTone: RedEnvelopeTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={RedEnvelopeTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={RedEnvelopeTwoToneSvg} />
     ;
 
 RedEnvelopeTwoTone.displayName = 'RedEnvelopeTwoTone';
 
-export default RedEnvelopeTwoTone;
+export default FunctionalComponent;

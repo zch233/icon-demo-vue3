@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import MinusSquareOutlinedSvg from '@ant-design/icons-svg/lib/asn/MinusSquareOutlined';
 
 export interface MinusSquareOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface MinusSquareOutlinedIconType extends FunctionalComponent<IconPro
 }
 
 const MinusSquareOutlined: MinusSquareOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={MinusSquareOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={MinusSquareOutlinedSvg} />
     ;
 
 MinusSquareOutlined.displayName = 'MinusSquareOutlined';
 
-export default MinusSquareOutlined;
+export default FunctionalComponent;

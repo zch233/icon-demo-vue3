@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import HistoryOutlinedSvg from '@ant-design/icons-svg/lib/asn/HistoryOutlined';
 
 export interface HistoryOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface HistoryOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const HistoryOutlined: HistoryOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={HistoryOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={HistoryOutlinedSvg} />
     ;
 
 HistoryOutlined.displayName = 'HistoryOutlined';
 
-export default HistoryOutlined;
+export default FunctionalComponent;

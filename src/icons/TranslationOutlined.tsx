@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import TranslationOutlinedSvg from '@ant-design/icons-svg/lib/asn/TranslationOutlined';
 
 export interface TranslationOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface TranslationOutlinedIconType extends FunctionalComponent<IconPro
 }
 
 const TranslationOutlined: TranslationOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={TranslationOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={TranslationOutlinedSvg} />
     ;
 
 TranslationOutlined.displayName = 'TranslationOutlined';
 
-export default TranslationOutlined;
+export default FunctionalComponent;

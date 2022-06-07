@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PhoneFilledSvg from '@ant-design/icons-svg/lib/asn/PhoneFilled';
 
 export interface PhoneFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PhoneFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const PhoneFilled: PhoneFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PhoneFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PhoneFilledSvg} />
     ;
 
 PhoneFilled.displayName = 'PhoneFilled';
 
-export default PhoneFilled;
+export default FunctionalComponent;

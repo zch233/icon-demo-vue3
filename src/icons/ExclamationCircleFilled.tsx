@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ExclamationCircleFilledSvg from '@ant-design/icons-svg/lib/asn/ExclamationCircleFilled';
 
 export interface ExclamationCircleFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ExclamationCircleFilledIconType extends FunctionalComponent<Ico
 }
 
 const ExclamationCircleFilled: ExclamationCircleFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ExclamationCircleFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ExclamationCircleFilledSvg} />
     ;
 
 ExclamationCircleFilled.displayName = 'ExclamationCircleFilled';
 
-export default ExclamationCircleFilled;
+export default FunctionalComponent;

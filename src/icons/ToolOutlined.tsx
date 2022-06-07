@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ToolOutlinedSvg from '@ant-design/icons-svg/lib/asn/ToolOutlined';
 
 export interface ToolOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ToolOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const ToolOutlined: ToolOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ToolOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ToolOutlinedSvg} />
     ;
 
 ToolOutlined.displayName = 'ToolOutlined';
 
-export default ToolOutlined;
+export default FunctionalComponent;

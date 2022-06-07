@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FileZipTwoToneSvg from '@ant-design/icons-svg/lib/asn/FileZipTwoTone';
 
 export interface FileZipTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FileZipTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const FileZipTwoTone: FileZipTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FileZipTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FileZipTwoToneSvg} />
     ;
 
 FileZipTwoTone.displayName = 'FileZipTwoTone';
 
-export default FileZipTwoTone;
+export default FunctionalComponent;

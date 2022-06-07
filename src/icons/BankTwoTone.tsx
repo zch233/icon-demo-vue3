@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import BankTwoToneSvg from '@ant-design/icons-svg/lib/asn/BankTwoTone';
 
 export interface BankTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface BankTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const BankTwoTone: BankTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={BankTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={BankTwoToneSvg} />
     ;
 
 BankTwoTone.displayName = 'BankTwoTone';
 
-export default BankTwoTone;
+export default FunctionalComponent;

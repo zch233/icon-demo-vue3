@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import GooglePlusSquareFilledSvg from '@ant-design/icons-svg/lib/asn/GooglePlusSquareFilled';
 
 export interface GooglePlusSquareFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface GooglePlusSquareFilledIconType extends FunctionalComponent<Icon
 }
 
 const GooglePlusSquareFilled: GooglePlusSquareFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={GooglePlusSquareFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={GooglePlusSquareFilledSvg} />
     ;
 
 GooglePlusSquareFilled.displayName = 'GooglePlusSquareFilled';
 
-export default GooglePlusSquareFilled;
+export default FunctionalComponent;

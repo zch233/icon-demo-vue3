@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CiOutlinedSvg from '@ant-design/icons-svg/lib/asn/CiOutlined';
 
 export interface CiOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CiOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const CiOutlined: CiOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CiOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CiOutlinedSvg} />
     ;
 
 CiOutlined.displayName = 'CiOutlined';
 
-export default CiOutlined;
+export default FunctionalComponent;

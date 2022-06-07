@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import RestFilledSvg from '@ant-design/icons-svg/lib/asn/RestFilled';
 
 export interface RestFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface RestFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const RestFilled: RestFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={RestFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={RestFilledSvg} />
     ;
 
 RestFilled.displayName = 'RestFilled';
 
-export default RestFilled;
+export default FunctionalComponent;

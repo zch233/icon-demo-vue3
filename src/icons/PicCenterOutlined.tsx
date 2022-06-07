@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PicCenterOutlinedSvg from '@ant-design/icons-svg/lib/asn/PicCenterOutlined';
 
 export interface PicCenterOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PicCenterOutlinedIconType extends FunctionalComponent<IconProps
 }
 
 const PicCenterOutlined: PicCenterOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PicCenterOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PicCenterOutlinedSvg} />
     ;
 
 PicCenterOutlined.displayName = 'PicCenterOutlined';
 
-export default PicCenterOutlined;
+export default FunctionalComponent;

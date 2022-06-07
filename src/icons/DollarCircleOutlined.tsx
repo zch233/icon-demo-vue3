@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DollarCircleOutlinedSvg from '@ant-design/icons-svg/lib/asn/DollarCircleOutlined';
 
 export interface DollarCircleOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DollarCircleOutlinedIconType extends FunctionalComponent<IconPr
 }
 
 const DollarCircleOutlined: DollarCircleOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DollarCircleOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DollarCircleOutlinedSvg} />
     ;
 
 DollarCircleOutlined.displayName = 'DollarCircleOutlined';
 
-export default DollarCircleOutlined;
+export default FunctionalComponent;

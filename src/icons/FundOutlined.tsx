@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FundOutlinedSvg from '@ant-design/icons-svg/lib/asn/FundOutlined';
 
 export interface FundOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FundOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const FundOutlined: FundOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FundOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FundOutlinedSvg} />
     ;
 
 FundOutlined.displayName = 'FundOutlined';
 
-export default FundOutlined;
+export default FunctionalComponent;

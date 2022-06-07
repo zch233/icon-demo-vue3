@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DashboardOutlinedSvg from '@ant-design/icons-svg/lib/asn/DashboardOutlined';
 
 export interface DashboardOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DashboardOutlinedIconType extends FunctionalComponent<IconProps
 }
 
 const DashboardOutlined: DashboardOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DashboardOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DashboardOutlinedSvg} />
     ;
 
 DashboardOutlined.displayName = 'DashboardOutlined';
 
-export default DashboardOutlined;
+export default FunctionalComponent;

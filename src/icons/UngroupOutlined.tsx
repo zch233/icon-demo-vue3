@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import UngroupOutlinedSvg from '@ant-design/icons-svg/lib/asn/UngroupOutlined';
 
 export interface UngroupOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface UngroupOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const UngroupOutlined: UngroupOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={UngroupOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={UngroupOutlinedSvg} />
     ;
 
 UngroupOutlined.displayName = 'UngroupOutlined';
 
-export default UngroupOutlined;
+export default FunctionalComponent;

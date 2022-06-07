@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DiffFilledSvg from '@ant-design/icons-svg/lib/asn/DiffFilled';
 
 export interface DiffFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DiffFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const DiffFilled: DiffFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DiffFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DiffFilledSvg} />
     ;
 
 DiffFilled.displayName = 'DiffFilled';
 
-export default DiffFilled;
+export default FunctionalComponent;

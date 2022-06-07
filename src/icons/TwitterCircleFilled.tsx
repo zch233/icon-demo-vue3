@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import TwitterCircleFilledSvg from '@ant-design/icons-svg/lib/asn/TwitterCircleFilled';
 
 export interface TwitterCircleFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface TwitterCircleFilledIconType extends FunctionalComponent<IconPro
 }
 
 const TwitterCircleFilled: TwitterCircleFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={TwitterCircleFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={TwitterCircleFilledSvg} />
     ;
 
 TwitterCircleFilled.displayName = 'TwitterCircleFilled';
 
-export default TwitterCircleFilled;
+export default FunctionalComponent;

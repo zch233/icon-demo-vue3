@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import YoutubeFilledSvg from '@ant-design/icons-svg/lib/asn/YoutubeFilled';
 
 export interface YoutubeFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface YoutubeFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const YoutubeFilled: YoutubeFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={YoutubeFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={YoutubeFilledSvg} />
     ;
 
 YoutubeFilled.displayName = 'YoutubeFilled';
 
-export default YoutubeFilled;
+export default FunctionalComponent;

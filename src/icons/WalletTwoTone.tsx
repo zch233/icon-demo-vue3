@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import WalletTwoToneSvg from '@ant-design/icons-svg/lib/asn/WalletTwoTone';
 
 export interface WalletTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface WalletTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const WalletTwoTone: WalletTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={WalletTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={WalletTwoToneSvg} />
     ;
 
 WalletTwoTone.displayName = 'WalletTwoTone';
 
-export default WalletTwoTone;
+export default FunctionalComponent;

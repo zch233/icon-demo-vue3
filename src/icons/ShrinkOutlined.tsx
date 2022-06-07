@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ShrinkOutlinedSvg from '@ant-design/icons-svg/lib/asn/ShrinkOutlined';
 
 export interface ShrinkOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ShrinkOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const ShrinkOutlined: ShrinkOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ShrinkOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ShrinkOutlinedSvg} />
     ;
 
 ShrinkOutlined.displayName = 'ShrinkOutlined';
 
-export default ShrinkOutlined;
+export default FunctionalComponent;

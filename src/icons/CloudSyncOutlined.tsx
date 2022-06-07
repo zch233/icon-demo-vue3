@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CloudSyncOutlinedSvg from '@ant-design/icons-svg/lib/asn/CloudSyncOutlined';
 
 export interface CloudSyncOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CloudSyncOutlinedIconType extends FunctionalComponent<IconProps
 }
 
 const CloudSyncOutlined: CloudSyncOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CloudSyncOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CloudSyncOutlinedSvg} />
     ;
 
 CloudSyncOutlined.displayName = 'CloudSyncOutlined';
 
-export default CloudSyncOutlined;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import BoxPlotTwoToneSvg from '@ant-design/icons-svg/lib/asn/BoxPlotTwoTone';
 
 export interface BoxPlotTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface BoxPlotTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const BoxPlotTwoTone: BoxPlotTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={BoxPlotTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={BoxPlotTwoToneSvg} />
     ;
 
 BoxPlotTwoTone.displayName = 'BoxPlotTwoTone';
 
-export default BoxPlotTwoTone;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FileAddOutlinedSvg from '@ant-design/icons-svg/lib/asn/FileAddOutlined';
 
 export interface FileAddOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FileAddOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const FileAddOutlined: FileAddOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FileAddOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FileAddOutlinedSvg} />
     ;
 
 FileAddOutlined.displayName = 'FileAddOutlined';
 
-export default FileAddOutlined;
+export default FunctionalComponent;

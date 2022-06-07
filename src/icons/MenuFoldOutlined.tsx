@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import MenuFoldOutlinedSvg from '@ant-design/icons-svg/lib/asn/MenuFoldOutlined';
 
 export interface MenuFoldOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface MenuFoldOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const MenuFoldOutlined: MenuFoldOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={MenuFoldOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={MenuFoldOutlinedSvg} />
     ;
 
 MenuFoldOutlined.displayName = 'MenuFoldOutlined';
 
-export default MenuFoldOutlined;
+export default FunctionalComponent;

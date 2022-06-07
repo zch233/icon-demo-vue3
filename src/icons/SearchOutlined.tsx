@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import SearchOutlinedSvg from '@ant-design/icons-svg/lib/asn/SearchOutlined';
 
 export interface SearchOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface SearchOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const SearchOutlined: SearchOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={SearchOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={SearchOutlinedSvg} />
     ;
 
 SearchOutlined.displayName = 'SearchOutlined';
 
-export default SearchOutlined;
+export default FunctionalComponent;

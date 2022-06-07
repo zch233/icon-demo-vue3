@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CodepenSquareFilledSvg from '@ant-design/icons-svg/lib/asn/CodepenSquareFilled';
 
 export interface CodepenSquareFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CodepenSquareFilledIconType extends FunctionalComponent<IconPro
 }
 
 const CodepenSquareFilled: CodepenSquareFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CodepenSquareFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CodepenSquareFilledSvg} />
     ;
 
 CodepenSquareFilled.displayName = 'CodepenSquareFilled';
 
-export default CodepenSquareFilled;
+export default FunctionalComponent;

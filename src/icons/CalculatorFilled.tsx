@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CalculatorFilledSvg from '@ant-design/icons-svg/lib/asn/CalculatorFilled';
 
 export interface CalculatorFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CalculatorFilledIconType extends FunctionalComponent<IconProps>
 }
 
 const CalculatorFilled: CalculatorFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CalculatorFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CalculatorFilledSvg} />
     ;
 
 CalculatorFilled.displayName = 'CalculatorFilled';
 
-export default CalculatorFilled;
+export default FunctionalComponent;

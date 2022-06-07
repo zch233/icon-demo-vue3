@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PieChartTwoToneSvg from '@ant-design/icons-svg/lib/asn/PieChartTwoTone';
 
 export interface PieChartTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PieChartTwoToneIconType extends FunctionalComponent<IconProps> 
 }
 
 const PieChartTwoTone: PieChartTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PieChartTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PieChartTwoToneSvg} />
     ;
 
 PieChartTwoTone.displayName = 'PieChartTwoTone';
 
-export default PieChartTwoTone;
+export default FunctionalComponent;

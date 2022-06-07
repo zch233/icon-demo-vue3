@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import InsuranceTwoToneSvg from '@ant-design/icons-svg/lib/asn/InsuranceTwoTone';
 
 export interface InsuranceTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface InsuranceTwoToneIconType extends FunctionalComponent<IconProps>
 }
 
 const InsuranceTwoTone: InsuranceTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={InsuranceTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={InsuranceTwoToneSvg} />
     ;
 
 InsuranceTwoTone.displayName = 'InsuranceTwoTone';
 
-export default InsuranceTwoTone;
+export default FunctionalComponent;

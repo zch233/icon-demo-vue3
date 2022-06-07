@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import MinusCircleFilledSvg from '@ant-design/icons-svg/lib/asn/MinusCircleFilled';
 
 export interface MinusCircleFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface MinusCircleFilledIconType extends FunctionalComponent<IconProps
 }
 
 const MinusCircleFilled: MinusCircleFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={MinusCircleFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={MinusCircleFilledSvg} />
     ;
 
 MinusCircleFilled.displayName = 'MinusCircleFilled';
 
-export default MinusCircleFilled;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CloudTwoToneSvg from '@ant-design/icons-svg/lib/asn/CloudTwoTone';
 
 export interface CloudTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CloudTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const CloudTwoTone: CloudTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CloudTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CloudTwoToneSvg} />
     ;
 
 CloudTwoTone.displayName = 'CloudTwoTone';
 
-export default CloudTwoTone;
+export default FunctionalComponent;

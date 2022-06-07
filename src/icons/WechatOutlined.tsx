@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import WechatOutlinedSvg from '@ant-design/icons-svg/lib/asn/WechatOutlined';
 
 export interface WechatOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface WechatOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const WechatOutlined: WechatOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={WechatOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={WechatOutlinedSvg} />
     ;
 
 WechatOutlined.displayName = 'WechatOutlined';
 
-export default WechatOutlined;
+export default FunctionalComponent;

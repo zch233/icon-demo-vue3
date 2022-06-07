@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import RightSquareFilledSvg from '@ant-design/icons-svg/lib/asn/RightSquareFilled';
 
 export interface RightSquareFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface RightSquareFilledIconType extends FunctionalComponent<IconProps
 }
 
 const RightSquareFilled: RightSquareFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={RightSquareFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={RightSquareFilledSvg} />
     ;
 
 RightSquareFilled.displayName = 'RightSquareFilled';
 
-export default RightSquareFilled;
+export default FunctionalComponent;

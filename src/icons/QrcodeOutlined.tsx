@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import QrcodeOutlinedSvg from '@ant-design/icons-svg/lib/asn/QrcodeOutlined';
 
 export interface QrcodeOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface QrcodeOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const QrcodeOutlined: QrcodeOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={QrcodeOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={QrcodeOutlinedSvg} />
     ;
 
 QrcodeOutlined.displayName = 'QrcodeOutlined';
 
-export default QrcodeOutlined;
+export default FunctionalComponent;

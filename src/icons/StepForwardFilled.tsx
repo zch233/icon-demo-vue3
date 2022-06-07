@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import StepForwardFilledSvg from '@ant-design/icons-svg/lib/asn/StepForwardFilled';
 
 export interface StepForwardFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface StepForwardFilledIconType extends FunctionalComponent<IconProps
 }
 
 const StepForwardFilled: StepForwardFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={StepForwardFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={StepForwardFilledSvg} />
     ;
 
 StepForwardFilled.displayName = 'StepForwardFilled';
 
-export default StepForwardFilled;
+export default FunctionalComponent;

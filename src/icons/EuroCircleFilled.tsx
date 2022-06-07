@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import EuroCircleFilledSvg from '@ant-design/icons-svg/lib/asn/EuroCircleFilled';
 
 export interface EuroCircleFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface EuroCircleFilledIconType extends FunctionalComponent<IconProps>
 }
 
 const EuroCircleFilled: EuroCircleFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={EuroCircleFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={EuroCircleFilledSvg} />
     ;
 
 EuroCircleFilled.displayName = 'EuroCircleFilled';
 
-export default EuroCircleFilled;
+export default FunctionalComponent;

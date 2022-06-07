@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CloseCircleFilledSvg from '@ant-design/icons-svg/lib/asn/CloseCircleFilled';
 
 export interface CloseCircleFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CloseCircleFilledIconType extends FunctionalComponent<IconProps
 }
 
 const CloseCircleFilled: CloseCircleFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CloseCircleFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CloseCircleFilledSvg} />
     ;
 
 CloseCircleFilled.displayName = 'CloseCircleFilled';
 
-export default CloseCircleFilled;
+export default FunctionalComponent;

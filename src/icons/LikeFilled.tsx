@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import LikeFilledSvg from '@ant-design/icons-svg/lib/asn/LikeFilled';
 
 export interface LikeFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface LikeFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const LikeFilled: LikeFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={LikeFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={LikeFilledSvg} />
     ;
 
 LikeFilled.displayName = 'LikeFilled';
 
-export default LikeFilled;
+export default FunctionalComponent;

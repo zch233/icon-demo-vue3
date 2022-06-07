@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import YoutubeOutlinedSvg from '@ant-design/icons-svg/lib/asn/YoutubeOutlined';
 
 export interface YoutubeOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface YoutubeOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const YoutubeOutlined: YoutubeOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={YoutubeOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={YoutubeOutlinedSvg} />
     ;
 
 YoutubeOutlined.displayName = 'YoutubeOutlined';
 
-export default YoutubeOutlined;
+export default FunctionalComponent;

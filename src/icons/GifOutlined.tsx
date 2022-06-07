@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import GifOutlinedSvg from '@ant-design/icons-svg/lib/asn/GifOutlined';
 
 export interface GifOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface GifOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const GifOutlined: GifOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={GifOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={GifOutlinedSvg} />
     ;
 
 GifOutlined.displayName = 'GifOutlined';
 
-export default GifOutlined;
+export default FunctionalComponent;

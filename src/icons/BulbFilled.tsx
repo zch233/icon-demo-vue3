@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import BulbFilledSvg from '@ant-design/icons-svg/lib/asn/BulbFilled';
 
 export interface BulbFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface BulbFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const BulbFilled: BulbFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={BulbFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={BulbFilledSvg} />
     ;
 
 BulbFilled.displayName = 'BulbFilled';
 
-export default BulbFilled;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DotChartOutlinedSvg from '@ant-design/icons-svg/lib/asn/DotChartOutlined';
 
 export interface DotChartOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DotChartOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const DotChartOutlined: DotChartOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DotChartOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DotChartOutlinedSvg} />
     ;
 
 DotChartOutlined.displayName = 'DotChartOutlined';
 
-export default DotChartOutlined;
+export default FunctionalComponent;

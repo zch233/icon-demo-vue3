@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CaretUpOutlinedSvg from '@ant-design/icons-svg/lib/asn/CaretUpOutlined';
 
 export interface CaretUpOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CaretUpOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const CaretUpOutlined: CaretUpOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CaretUpOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CaretUpOutlinedSvg} />
     ;
 
 CaretUpOutlined.displayName = 'CaretUpOutlined';
 
-export default CaretUpOutlined;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import MediumSquareFilledSvg from '@ant-design/icons-svg/lib/asn/MediumSquareFilled';
 
 export interface MediumSquareFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface MediumSquareFilledIconType extends FunctionalComponent<IconProp
 }
 
 const MediumSquareFilled: MediumSquareFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={MediumSquareFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={MediumSquareFilledSvg} />
     ;
 
 MediumSquareFilled.displayName = 'MediumSquareFilled';
 
-export default MediumSquareFilled;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import SmileTwoToneSvg from '@ant-design/icons-svg/lib/asn/SmileTwoTone';
 
 export interface SmileTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface SmileTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const SmileTwoTone: SmileTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={SmileTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={SmileTwoToneSvg} />
     ;
 
 SmileTwoTone.displayName = 'SmileTwoTone';
 
-export default SmileTwoTone;
+export default FunctionalComponent;

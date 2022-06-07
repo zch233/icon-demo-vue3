@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DropboxOutlinedSvg from '@ant-design/icons-svg/lib/asn/DropboxOutlined';
 
 export interface DropboxOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DropboxOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const DropboxOutlined: DropboxOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DropboxOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DropboxOutlinedSvg} />
     ;
 
 DropboxOutlined.displayName = 'DropboxOutlined';
 
-export default DropboxOutlined;
+export default FunctionalComponent;

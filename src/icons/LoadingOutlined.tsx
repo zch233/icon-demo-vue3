@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import LoadingOutlinedSvg from '@ant-design/icons-svg/lib/asn/LoadingOutlined';
 
 export interface LoadingOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface LoadingOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const LoadingOutlined: LoadingOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={LoadingOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={LoadingOutlinedSvg} />
     ;
 
 LoadingOutlined.displayName = 'LoadingOutlined';
 
-export default LoadingOutlined;
+export default FunctionalComponent;

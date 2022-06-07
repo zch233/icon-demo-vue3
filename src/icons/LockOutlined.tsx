@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import LockOutlinedSvg from '@ant-design/icons-svg/lib/asn/LockOutlined';
 
 export interface LockOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface LockOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const LockOutlined: LockOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={LockOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={LockOutlinedSvg} />
     ;
 
 LockOutlined.displayName = 'LockOutlined';
 
-export default LockOutlined;
+export default FunctionalComponent;

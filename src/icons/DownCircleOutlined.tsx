@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DownCircleOutlinedSvg from '@ant-design/icons-svg/lib/asn/DownCircleOutlined';
 
 export interface DownCircleOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DownCircleOutlinedIconType extends FunctionalComponent<IconProp
 }
 
 const DownCircleOutlined: DownCircleOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DownCircleOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DownCircleOutlinedSvg} />
     ;
 
 DownCircleOutlined.displayName = 'DownCircleOutlined';
 
-export default DownCircleOutlined;
+export default FunctionalComponent;

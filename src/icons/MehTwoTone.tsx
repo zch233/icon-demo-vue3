@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import MehTwoToneSvg from '@ant-design/icons-svg/lib/asn/MehTwoTone';
 
 export interface MehTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface MehTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const MehTwoTone: MehTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={MehTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={MehTwoToneSvg} />
     ;
 
 MehTwoTone.displayName = 'MehTwoTone';
 
-export default MehTwoTone;
+export default FunctionalComponent;

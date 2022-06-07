@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CrownOutlinedSvg from '@ant-design/icons-svg/lib/asn/CrownOutlined';
 
 export interface CrownOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CrownOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const CrownOutlined: CrownOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CrownOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CrownOutlinedSvg} />
     ;
 
 CrownOutlined.displayName = 'CrownOutlined';
 
-export default CrownOutlined;
+export default FunctionalComponent;

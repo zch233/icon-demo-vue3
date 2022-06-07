@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import HomeOutlinedSvg from '@ant-design/icons-svg/lib/asn/HomeOutlined';
 
 export interface HomeOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface HomeOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const HomeOutlined: HomeOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={HomeOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={HomeOutlinedSvg} />
     ;
 
 HomeOutlined.displayName = 'HomeOutlined';
 
-export default HomeOutlined;
+export default FunctionalComponent;

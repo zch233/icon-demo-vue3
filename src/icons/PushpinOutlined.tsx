@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PushpinOutlinedSvg from '@ant-design/icons-svg/lib/asn/PushpinOutlined';
 
 export interface PushpinOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PushpinOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const PushpinOutlined: PushpinOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PushpinOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PushpinOutlinedSvg} />
     ;
 
 PushpinOutlined.displayName = 'PushpinOutlined';
 
-export default PushpinOutlined;
+export default FunctionalComponent;

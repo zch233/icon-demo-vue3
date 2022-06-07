@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FacebookOutlinedSvg from '@ant-design/icons-svg/lib/asn/FacebookOutlined';
 
 export interface FacebookOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FacebookOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const FacebookOutlined: FacebookOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FacebookOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FacebookOutlinedSvg} />
     ;
 
 FacebookOutlined.displayName = 'FacebookOutlined';
 
-export default FacebookOutlined;
+export default FunctionalComponent;

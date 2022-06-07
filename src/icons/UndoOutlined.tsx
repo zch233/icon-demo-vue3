@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import UndoOutlinedSvg from '@ant-design/icons-svg/lib/asn/UndoOutlined';
 
 export interface UndoOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface UndoOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const UndoOutlined: UndoOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={UndoOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={UndoOutlinedSvg} />
     ;
 
 UndoOutlined.displayName = 'UndoOutlined';
 
-export default UndoOutlined;
+export default FunctionalComponent;

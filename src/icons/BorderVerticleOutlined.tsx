@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import BorderVerticleOutlinedSvg from '@ant-design/icons-svg/lib/asn/BorderVerticleOutlined';
 
 export interface BorderVerticleOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface BorderVerticleOutlinedIconType extends FunctionalComponent<Icon
 }
 
 const BorderVerticleOutlined: BorderVerticleOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={BorderVerticleOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={BorderVerticleOutlinedSvg} />
     ;
 
 BorderVerticleOutlined.displayName = 'BorderVerticleOutlined';
 
-export default BorderVerticleOutlined;
+export default FunctionalComponent;

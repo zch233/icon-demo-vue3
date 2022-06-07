@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import InteractionFilledSvg from '@ant-design/icons-svg/lib/asn/InteractionFilled';
 
 export interface InteractionFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface InteractionFilledIconType extends FunctionalComponent<IconProps
 }
 
 const InteractionFilled: InteractionFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={InteractionFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={InteractionFilledSvg} />
     ;
 
 InteractionFilled.displayName = 'InteractionFilled';
 
-export default InteractionFilled;
+export default FunctionalComponent;

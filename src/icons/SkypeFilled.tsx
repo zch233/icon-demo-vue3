@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import SkypeFilledSvg from '@ant-design/icons-svg/lib/asn/SkypeFilled';
 
 export interface SkypeFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface SkypeFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const SkypeFilled: SkypeFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={SkypeFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={SkypeFilledSvg} />
     ;
 
 SkypeFilled.displayName = 'SkypeFilled';
 
-export default SkypeFilled;
+export default FunctionalComponent;

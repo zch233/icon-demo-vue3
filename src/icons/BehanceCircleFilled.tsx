@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import BehanceCircleFilledSvg from '@ant-design/icons-svg/lib/asn/BehanceCircleFilled';
 
 export interface BehanceCircleFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface BehanceCircleFilledIconType extends FunctionalComponent<IconPro
 }
 
 const BehanceCircleFilled: BehanceCircleFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={BehanceCircleFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={BehanceCircleFilledSvg} />
     ;
 
 BehanceCircleFilled.displayName = 'BehanceCircleFilled';
 
-export default BehanceCircleFilled;
+export default FunctionalComponent;

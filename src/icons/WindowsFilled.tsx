@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import WindowsFilledSvg from '@ant-design/icons-svg/lib/asn/WindowsFilled';
 
 export interface WindowsFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface WindowsFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const WindowsFilled: WindowsFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={WindowsFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={WindowsFilledSvg} />
     ;
 
 WindowsFilled.displayName = 'WindowsFilled';
 
-export default WindowsFilled;
+export default FunctionalComponent;

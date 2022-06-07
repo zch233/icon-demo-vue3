@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import SortAscendingOutlinedSvg from '@ant-design/icons-svg/lib/asn/SortAscendingOutlined';
 
 export interface SortAscendingOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface SortAscendingOutlinedIconType extends FunctionalComponent<IconP
 }
 
 const SortAscendingOutlined: SortAscendingOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={SortAscendingOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={SortAscendingOutlinedSvg} />
     ;
 
 SortAscendingOutlined.displayName = 'SortAscendingOutlined';
 
-export default SortAscendingOutlined;
+export default FunctionalComponent;

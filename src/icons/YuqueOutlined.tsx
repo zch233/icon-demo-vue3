@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import YuqueOutlinedSvg from '@ant-design/icons-svg/lib/asn/YuqueOutlined';
 
 export interface YuqueOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface YuqueOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const YuqueOutlined: YuqueOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={YuqueOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={YuqueOutlinedSvg} />
     ;
 
 YuqueOutlined.displayName = 'YuqueOutlined';
 
-export default YuqueOutlined;
+export default FunctionalComponent;

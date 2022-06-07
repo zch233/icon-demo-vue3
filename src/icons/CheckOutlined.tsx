@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CheckOutlinedSvg from '@ant-design/icons-svg/lib/asn/CheckOutlined';
 
 export interface CheckOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CheckOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const CheckOutlined: CheckOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CheckOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CheckOutlinedSvg} />
     ;
 
 CheckOutlined.displayName = 'CheckOutlined';
 
-export default CheckOutlined;
+export default FunctionalComponent;

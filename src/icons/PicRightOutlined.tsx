@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PicRightOutlinedSvg from '@ant-design/icons-svg/lib/asn/PicRightOutlined';
 
 export interface PicRightOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PicRightOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const PicRightOutlined: PicRightOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PicRightOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PicRightOutlinedSvg} />
     ;
 
 PicRightOutlined.displayName = 'PicRightOutlined';
 
-export default PicRightOutlined;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DatabaseFilledSvg from '@ant-design/icons-svg/lib/asn/DatabaseFilled';
 
 export interface DatabaseFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DatabaseFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const DatabaseFilled: DatabaseFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DatabaseFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DatabaseFilledSvg} />
     ;
 
 DatabaseFilled.displayName = 'DatabaseFilled';
 
-export default DatabaseFilled;
+export default FunctionalComponent;

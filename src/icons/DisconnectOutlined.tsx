@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DisconnectOutlinedSvg from '@ant-design/icons-svg/lib/asn/DisconnectOutlined';
 
 export interface DisconnectOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DisconnectOutlinedIconType extends FunctionalComponent<IconProp
 }
 
 const DisconnectOutlined: DisconnectOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DisconnectOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DisconnectOutlinedSvg} />
     ;
 
 DisconnectOutlined.displayName = 'DisconnectOutlined';
 
-export default DisconnectOutlined;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FireFilledSvg from '@ant-design/icons-svg/lib/asn/FireFilled';
 
 export interface FireFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FireFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const FireFilled: FireFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FireFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FireFilledSvg} />
     ;
 
 FireFilled.displayName = 'FireFilled';
 
-export default FireFilled;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DislikeTwoToneSvg from '@ant-design/icons-svg/lib/asn/DislikeTwoTone';
 
 export interface DislikeTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DislikeTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const DislikeTwoTone: DislikeTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DislikeTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DislikeTwoToneSvg} />
     ;
 
 DislikeTwoTone.displayName = 'DislikeTwoTone';
 
-export default DislikeTwoTone;
+export default FunctionalComponent;

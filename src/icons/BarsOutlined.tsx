@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import BarsOutlinedSvg from '@ant-design/icons-svg/lib/asn/BarsOutlined';
 
 export interface BarsOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface BarsOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const BarsOutlined: BarsOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={BarsOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={BarsOutlinedSvg} />
     ;
 
 BarsOutlined.displayName = 'BarsOutlined';
 
-export default BarsOutlined;
+export default FunctionalComponent;

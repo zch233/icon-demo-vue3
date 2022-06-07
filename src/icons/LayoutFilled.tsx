@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import LayoutFilledSvg from '@ant-design/icons-svg/lib/asn/LayoutFilled';
 
 export interface LayoutFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface LayoutFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const LayoutFilled: LayoutFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={LayoutFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={LayoutFilledSvg} />
     ;
 
 LayoutFilled.displayName = 'LayoutFilled';
 
-export default LayoutFilled;
+export default FunctionalComponent;

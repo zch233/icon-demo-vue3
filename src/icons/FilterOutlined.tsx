@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FilterOutlinedSvg from '@ant-design/icons-svg/lib/asn/FilterOutlined';
 
 export interface FilterOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FilterOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const FilterOutlined: FilterOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FilterOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FilterOutlinedSvg} />
     ;
 
 FilterOutlined.displayName = 'FilterOutlined';
 
-export default FilterOutlined;
+export default FunctionalComponent;

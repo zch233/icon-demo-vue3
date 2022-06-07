@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import StopOutlinedSvg from '@ant-design/icons-svg/lib/asn/StopOutlined';
 
 export interface StopOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface StopOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const StopOutlined: StopOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={StopOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={StopOutlinedSvg} />
     ;
 
 StopOutlined.displayName = 'StopOutlined';
 
-export default StopOutlined;
+export default FunctionalComponent;

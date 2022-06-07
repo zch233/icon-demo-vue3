@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import TrophyOutlinedSvg from '@ant-design/icons-svg/lib/asn/TrophyOutlined';
 
 export interface TrophyOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface TrophyOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const TrophyOutlined: TrophyOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={TrophyOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={TrophyOutlinedSvg} />
     ;
 
 TrophyOutlined.displayName = 'TrophyOutlined';
 
-export default TrophyOutlined;
+export default FunctionalComponent;

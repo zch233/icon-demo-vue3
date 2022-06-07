@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CiCircleOutlinedSvg from '@ant-design/icons-svg/lib/asn/CiCircleOutlined';
 
 export interface CiCircleOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CiCircleOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const CiCircleOutlined: CiCircleOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CiCircleOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CiCircleOutlinedSvg} />
     ;
 
 CiCircleOutlined.displayName = 'CiCircleOutlined';
 
-export default CiCircleOutlined;
+export default FunctionalComponent;

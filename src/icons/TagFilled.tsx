@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import TagFilledSvg from '@ant-design/icons-svg/lib/asn/TagFilled';
 
 export interface TagFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface TagFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const TagFilled: TagFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={TagFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={TagFilledSvg} />
     ;
 
 TagFilled.displayName = 'TagFilled';
 
-export default TagFilled;
+export default FunctionalComponent;

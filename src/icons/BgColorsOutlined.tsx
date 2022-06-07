@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import BgColorsOutlinedSvg from '@ant-design/icons-svg/lib/asn/BgColorsOutlined';
 
 export interface BgColorsOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface BgColorsOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const BgColorsOutlined: BgColorsOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={BgColorsOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={BgColorsOutlinedSvg} />
     ;
 
 BgColorsOutlined.displayName = 'BgColorsOutlined';
 
-export default BgColorsOutlined;
+export default FunctionalComponent;

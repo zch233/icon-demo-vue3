@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import MobileOutlinedSvg from '@ant-design/icons-svg/lib/asn/MobileOutlined';
 
 export interface MobileOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface MobileOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const MobileOutlined: MobileOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={MobileOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={MobileOutlinedSvg} />
     ;
 
 MobileOutlined.displayName = 'MobileOutlined';
 
-export default MobileOutlined;
+export default FunctionalComponent;

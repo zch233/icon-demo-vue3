@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import Html5FilledSvg from '@ant-design/icons-svg/lib/asn/Html5Filled';
 
 export interface Html5FilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface Html5FilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const Html5Filled: Html5FilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={Html5FilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={Html5FilledSvg} />
     ;
 
 Html5Filled.displayName = 'Html5Filled';
 
-export default Html5Filled;
+export default FunctionalComponent;

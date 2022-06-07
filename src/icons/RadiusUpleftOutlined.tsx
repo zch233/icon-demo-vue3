@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import RadiusUpleftOutlinedSvg from '@ant-design/icons-svg/lib/asn/RadiusUpleftOutlined';
 
 export interface RadiusUpleftOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface RadiusUpleftOutlinedIconType extends FunctionalComponent<IconPr
 }
 
 const RadiusUpleftOutlined: RadiusUpleftOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={RadiusUpleftOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={RadiusUpleftOutlinedSvg} />
     ;
 
 RadiusUpleftOutlined.displayName = 'RadiusUpleftOutlined';
 
-export default RadiusUpleftOutlined;
+export default FunctionalComponent;

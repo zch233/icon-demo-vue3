@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import GoldTwoToneSvg from '@ant-design/icons-svg/lib/asn/GoldTwoTone';
 
 export interface GoldTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface GoldTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const GoldTwoTone: GoldTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={GoldTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={GoldTwoToneSvg} />
     ;
 
 GoldTwoTone.displayName = 'GoldTwoTone';
 
-export default GoldTwoTone;
+export default FunctionalComponent;

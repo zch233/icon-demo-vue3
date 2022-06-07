@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DribbbleOutlinedSvg from '@ant-design/icons-svg/lib/asn/DribbbleOutlined';
 
 export interface DribbbleOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DribbbleOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const DribbbleOutlined: DribbbleOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DribbbleOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DribbbleOutlinedSvg} />
     ;
 
 DribbbleOutlined.displayName = 'DribbbleOutlined';
 
-export default DribbbleOutlined;
+export default FunctionalComponent;

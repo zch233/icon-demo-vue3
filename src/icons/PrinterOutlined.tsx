@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PrinterOutlinedSvg from '@ant-design/icons-svg/lib/asn/PrinterOutlined';
 
 export interface PrinterOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PrinterOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const PrinterOutlined: PrinterOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PrinterOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PrinterOutlinedSvg} />
     ;
 
 PrinterOutlined.displayName = 'PrinterOutlined';
 
-export default PrinterOutlined;
+export default FunctionalComponent;

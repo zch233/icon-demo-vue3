@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import SecurityScanOutlinedSvg from '@ant-design/icons-svg/lib/asn/SecurityScanOutlined';
 
 export interface SecurityScanOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface SecurityScanOutlinedIconType extends FunctionalComponent<IconPr
 }
 
 const SecurityScanOutlined: SecurityScanOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={SecurityScanOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={SecurityScanOutlinedSvg} />
     ;
 
 SecurityScanOutlined.displayName = 'SecurityScanOutlined';
 
-export default SecurityScanOutlined;
+export default FunctionalComponent;

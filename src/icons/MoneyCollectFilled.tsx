@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import MoneyCollectFilledSvg from '@ant-design/icons-svg/lib/asn/MoneyCollectFilled';
 
 export interface MoneyCollectFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface MoneyCollectFilledIconType extends FunctionalComponent<IconProp
 }
 
 const MoneyCollectFilled: MoneyCollectFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={MoneyCollectFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={MoneyCollectFilledSvg} />
     ;
 
 MoneyCollectFilled.displayName = 'MoneyCollectFilled';
 
-export default MoneyCollectFilled;
+export default FunctionalComponent;

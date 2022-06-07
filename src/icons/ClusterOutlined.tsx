@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ClusterOutlinedSvg from '@ant-design/icons-svg/lib/asn/ClusterOutlined';
 
 export interface ClusterOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ClusterOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const ClusterOutlined: ClusterOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ClusterOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ClusterOutlinedSvg} />
     ;
 
 ClusterOutlined.displayName = 'ClusterOutlined';
 
-export default ClusterOutlined;
+export default FunctionalComponent;

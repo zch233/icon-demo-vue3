@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import StarOutlinedSvg from '@ant-design/icons-svg/lib/asn/StarOutlined';
 
 export interface StarOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface StarOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const StarOutlined: StarOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={StarOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={StarOutlinedSvg} />
     ;
 
 StarOutlined.displayName = 'StarOutlined';
 
-export default StarOutlined;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import GitlabOutlinedSvg from '@ant-design/icons-svg/lib/asn/GitlabOutlined';
 
 export interface GitlabOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface GitlabOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const GitlabOutlined: GitlabOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={GitlabOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={GitlabOutlinedSvg} />
     ;
 
 GitlabOutlined.displayName = 'GitlabOutlined';
 
-export default GitlabOutlined;
+export default FunctionalComponent;

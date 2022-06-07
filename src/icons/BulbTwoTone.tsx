@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import BulbTwoToneSvg from '@ant-design/icons-svg/lib/asn/BulbTwoTone';
 
 export interface BulbTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface BulbTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const BulbTwoTone: BulbTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={BulbTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={BulbTwoToneSvg} />
     ;
 
 BulbTwoTone.displayName = 'BulbTwoTone';
 
-export default BulbTwoTone;
+export default FunctionalComponent;

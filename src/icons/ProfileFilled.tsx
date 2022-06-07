@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ProfileFilledSvg from '@ant-design/icons-svg/lib/asn/ProfileFilled';
 
 export interface ProfileFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ProfileFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const ProfileFilled: ProfileFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ProfileFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ProfileFilledSvg} />
     ;
 
 ProfileFilled.displayName = 'ProfileFilled';
 
-export default ProfileFilled;
+export default FunctionalComponent;

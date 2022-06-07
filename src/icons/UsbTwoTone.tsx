@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import UsbTwoToneSvg from '@ant-design/icons-svg/lib/asn/UsbTwoTone';
 
 export interface UsbTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface UsbTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const UsbTwoTone: UsbTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={UsbTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={UsbTwoToneSvg} />
     ;
 
 UsbTwoTone.displayName = 'UsbTwoTone';
 
-export default UsbTwoTone;
+export default FunctionalComponent;

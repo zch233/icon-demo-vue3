@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CodepenCircleOutlinedSvg from '@ant-design/icons-svg/lib/asn/CodepenCircleOutlined';
 
 export interface CodepenCircleOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CodepenCircleOutlinedIconType extends FunctionalComponent<IconP
 }
 
 const CodepenCircleOutlined: CodepenCircleOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CodepenCircleOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CodepenCircleOutlinedSvg} />
     ;
 
 CodepenCircleOutlined.displayName = 'CodepenCircleOutlined';
 
-export default CodepenCircleOutlined;
+export default FunctionalComponent;

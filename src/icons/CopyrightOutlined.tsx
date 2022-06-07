@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CopyrightOutlinedSvg from '@ant-design/icons-svg/lib/asn/CopyrightOutlined';
 
 export interface CopyrightOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CopyrightOutlinedIconType extends FunctionalComponent<IconProps
 }
 
 const CopyrightOutlined: CopyrightOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CopyrightOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CopyrightOutlinedSvg} />
     ;
 
 CopyrightOutlined.displayName = 'CopyrightOutlined';
 
-export default CopyrightOutlined;
+export default FunctionalComponent;

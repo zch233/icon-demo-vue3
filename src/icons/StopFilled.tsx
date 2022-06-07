@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import StopFilledSvg from '@ant-design/icons-svg/lib/asn/StopFilled';
 
 export interface StopFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface StopFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const StopFilled: StopFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={StopFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={StopFilledSvg} />
     ;
 
 StopFilled.displayName = 'StopFilled';
 
-export default StopFilled;
+export default FunctionalComponent;

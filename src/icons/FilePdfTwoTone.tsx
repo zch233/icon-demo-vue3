@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FilePdfTwoToneSvg from '@ant-design/icons-svg/lib/asn/FilePdfTwoTone';
 
 export interface FilePdfTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FilePdfTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const FilePdfTwoTone: FilePdfTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FilePdfTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FilePdfTwoToneSvg} />
     ;
 
 FilePdfTwoTone.displayName = 'FilePdfTwoTone';
 
-export default FilePdfTwoTone;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import TaobaoCircleOutlinedSvg from '@ant-design/icons-svg/lib/asn/TaobaoCircleOutlined';
 
 export interface TaobaoCircleOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface TaobaoCircleOutlinedIconType extends FunctionalComponent<IconPr
 }
 
 const TaobaoCircleOutlined: TaobaoCircleOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={TaobaoCircleOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={TaobaoCircleOutlinedSvg} />
     ;
 
 TaobaoCircleOutlined.displayName = 'TaobaoCircleOutlined';
 
-export default TaobaoCircleOutlined;
+export default FunctionalComponent;

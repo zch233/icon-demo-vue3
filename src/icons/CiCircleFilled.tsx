@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CiCircleFilledSvg from '@ant-design/icons-svg/lib/asn/CiCircleFilled';
 
 export interface CiCircleFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CiCircleFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const CiCircleFilled: CiCircleFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CiCircleFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CiCircleFilledSvg} />
     ;
 
 CiCircleFilled.displayName = 'CiCircleFilled';
 
-export default CiCircleFilled;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import RightCircleTwoToneSvg from '@ant-design/icons-svg/lib/asn/RightCircleTwoTone';
 
 export interface RightCircleTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface RightCircleTwoToneIconType extends FunctionalComponent<IconProp
 }
 
 const RightCircleTwoTone: RightCircleTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={RightCircleTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={RightCircleTwoToneSvg} />
     ;
 
 RightCircleTwoTone.displayName = 'RightCircleTwoTone';
 
-export default RightCircleTwoTone;
+export default FunctionalComponent;

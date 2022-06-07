@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ColumnHeightOutlinedSvg from '@ant-design/icons-svg/lib/asn/ColumnHeightOutlined';
 
 export interface ColumnHeightOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ColumnHeightOutlinedIconType extends FunctionalComponent<IconPr
 }
 
 const ColumnHeightOutlined: ColumnHeightOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ColumnHeightOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ColumnHeightOutlinedSvg} />
     ;
 
 ColumnHeightOutlined.displayName = 'ColumnHeightOutlined';
 
-export default ColumnHeightOutlined;
+export default FunctionalComponent;

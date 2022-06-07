@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import InsuranceFilledSvg from '@ant-design/icons-svg/lib/asn/InsuranceFilled';
 
 export interface InsuranceFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface InsuranceFilledIconType extends FunctionalComponent<IconProps> 
 }
 
 const InsuranceFilled: InsuranceFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={InsuranceFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={InsuranceFilledSvg} />
     ;
 
 InsuranceFilled.displayName = 'InsuranceFilled';
 
-export default InsuranceFilled;
+export default FunctionalComponent;

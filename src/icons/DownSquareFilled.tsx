@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DownSquareFilledSvg from '@ant-design/icons-svg/lib/asn/DownSquareFilled';
 
 export interface DownSquareFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DownSquareFilledIconType extends FunctionalComponent<IconProps>
 }
 
 const DownSquareFilled: DownSquareFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DownSquareFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DownSquareFilledSvg} />
     ;
 
 DownSquareFilled.displayName = 'DownSquareFilled';
 
-export default DownSquareFilled;
+export default FunctionalComponent;

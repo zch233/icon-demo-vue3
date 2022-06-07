@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import LeftSquareTwoToneSvg from '@ant-design/icons-svg/lib/asn/LeftSquareTwoTone';
 
 export interface LeftSquareTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface LeftSquareTwoToneIconType extends FunctionalComponent<IconProps
 }
 
 const LeftSquareTwoTone: LeftSquareTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={LeftSquareTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={LeftSquareTwoToneSvg} />
     ;
 
 LeftSquareTwoTone.displayName = 'LeftSquareTwoTone';
 
-export default LeftSquareTwoTone;
+export default FunctionalComponent;

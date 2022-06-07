@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import SlackSquareOutlinedSvg from '@ant-design/icons-svg/lib/asn/SlackSquareOutlined';
 
 export interface SlackSquareOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface SlackSquareOutlinedIconType extends FunctionalComponent<IconPro
 }
 
 const SlackSquareOutlined: SlackSquareOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={SlackSquareOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={SlackSquareOutlinedSvg} />
     ;
 
 SlackSquareOutlined.displayName = 'SlackSquareOutlined';
 
-export default SlackSquareOutlined;
+export default FunctionalComponent;

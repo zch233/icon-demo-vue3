@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ReloadOutlinedSvg from '@ant-design/icons-svg/lib/asn/ReloadOutlined';
 
 export interface ReloadOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ReloadOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const ReloadOutlined: ReloadOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ReloadOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ReloadOutlinedSvg} />
     ;
 
 ReloadOutlined.displayName = 'ReloadOutlined';
 
-export default ReloadOutlined;
+export default FunctionalComponent;

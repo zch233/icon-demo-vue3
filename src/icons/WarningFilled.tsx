@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import WarningFilledSvg from '@ant-design/icons-svg/lib/asn/WarningFilled';
 
 export interface WarningFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface WarningFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const WarningFilled: WarningFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={WarningFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={WarningFilledSvg} />
     ;
 
 WarningFilled.displayName = 'WarningFilled';
 
-export default WarningFilled;
+export default FunctionalComponent;

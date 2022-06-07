@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import EuroCircleTwoToneSvg from '@ant-design/icons-svg/lib/asn/EuroCircleTwoTone';
 
 export interface EuroCircleTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface EuroCircleTwoToneIconType extends FunctionalComponent<IconProps
 }
 
 const EuroCircleTwoTone: EuroCircleTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={EuroCircleTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={EuroCircleTwoToneSvg} />
     ;
 
 EuroCircleTwoTone.displayName = 'EuroCircleTwoTone';
 
-export default EuroCircleTwoTone;
+export default FunctionalComponent;

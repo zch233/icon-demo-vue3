@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import HddTwoToneSvg from '@ant-design/icons-svg/lib/asn/HddTwoTone';
 
 export interface HddTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface HddTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const HddTwoTone: HddTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={HddTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={HddTwoToneSvg} />
     ;
 
 HddTwoTone.displayName = 'HddTwoTone';
 
-export default HddTwoTone;
+export default FunctionalComponent;

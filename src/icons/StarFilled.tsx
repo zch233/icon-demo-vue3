@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import StarFilledSvg from '@ant-design/icons-svg/lib/asn/StarFilled';
 
 export interface StarFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface StarFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const StarFilled: StarFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={StarFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={StarFilledSvg} />
     ;
 
 StarFilled.displayName = 'StarFilled';
 
-export default StarFilled;
+export default FunctionalComponent;

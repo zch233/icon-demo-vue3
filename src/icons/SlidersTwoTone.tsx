@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import SlidersTwoToneSvg from '@ant-design/icons-svg/lib/asn/SlidersTwoTone';
 
 export interface SlidersTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface SlidersTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const SlidersTwoTone: SlidersTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={SlidersTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={SlidersTwoToneSvg} />
     ;
 
 SlidersTwoTone.displayName = 'SlidersTwoTone';
 
-export default SlidersTwoTone;
+export default FunctionalComponent;

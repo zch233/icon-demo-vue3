@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DesktopOutlinedSvg from '@ant-design/icons-svg/lib/asn/DesktopOutlined';
 
 export interface DesktopOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DesktopOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const DesktopOutlined: DesktopOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DesktopOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DesktopOutlinedSvg} />
     ;
 
 DesktopOutlined.displayName = 'DesktopOutlined';
 
-export default DesktopOutlined;
+export default FunctionalComponent;

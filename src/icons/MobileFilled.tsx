@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import MobileFilledSvg from '@ant-design/icons-svg/lib/asn/MobileFilled';
 
 export interface MobileFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface MobileFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const MobileFilled: MobileFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={MobileFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={MobileFilledSvg} />
     ;
 
 MobileFilled.displayName = 'MobileFilled';
 
-export default MobileFilled;
+export default FunctionalComponent;

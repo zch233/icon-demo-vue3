@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import RetweetOutlinedSvg from '@ant-design/icons-svg/lib/asn/RetweetOutlined';
 
 export interface RetweetOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface RetweetOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const RetweetOutlined: RetweetOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={RetweetOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={RetweetOutlinedSvg} />
     ;
 
 RetweetOutlined.displayName = 'RetweetOutlined';
 
-export default RetweetOutlined;
+export default FunctionalComponent;

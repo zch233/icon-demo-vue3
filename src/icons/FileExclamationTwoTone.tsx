@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FileExclamationTwoToneSvg from '@ant-design/icons-svg/lib/asn/FileExclamationTwoTone';
 
 export interface FileExclamationTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FileExclamationTwoToneIconType extends FunctionalComponent<Icon
 }
 
 const FileExclamationTwoTone: FileExclamationTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FileExclamationTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FileExclamationTwoToneSvg} />
     ;
 
 FileExclamationTwoTone.displayName = 'FileExclamationTwoTone';
 
-export default FileExclamationTwoTone;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import MonitorOutlinedSvg from '@ant-design/icons-svg/lib/asn/MonitorOutlined';
 
 export interface MonitorOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface MonitorOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const MonitorOutlined: MonitorOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={MonitorOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={MonitorOutlinedSvg} />
     ;
 
 MonitorOutlined.displayName = 'MonitorOutlined';
 
-export default MonitorOutlined;
+export default FunctionalComponent;

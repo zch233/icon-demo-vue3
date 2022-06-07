@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import UsergroupDeleteOutlinedSvg from '@ant-design/icons-svg/lib/asn/UsergroupDeleteOutlined';
 
 export interface UsergroupDeleteOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface UsergroupDeleteOutlinedIconType extends FunctionalComponent<Ico
 }
 
 const UsergroupDeleteOutlined: UsergroupDeleteOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={UsergroupDeleteOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={UsergroupDeleteOutlinedSvg} />
     ;
 
 UsergroupDeleteOutlined.displayName = 'UsergroupDeleteOutlined';
 
-export default UsergroupDeleteOutlined;
+export default FunctionalComponent;

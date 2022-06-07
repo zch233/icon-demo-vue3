@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import MedicineBoxTwoToneSvg from '@ant-design/icons-svg/lib/asn/MedicineBoxTwoTone';
 
 export interface MedicineBoxTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface MedicineBoxTwoToneIconType extends FunctionalComponent<IconProp
 }
 
 const MedicineBoxTwoTone: MedicineBoxTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={MedicineBoxTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={MedicineBoxTwoToneSvg} />
     ;
 
 MedicineBoxTwoTone.displayName = 'MedicineBoxTwoTone';
 
-export default MedicineBoxTwoTone;
+export default FunctionalComponent;

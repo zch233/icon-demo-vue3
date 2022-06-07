@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import NotificationOutlinedSvg from '@ant-design/icons-svg/lib/asn/NotificationOutlined';
 
 export interface NotificationOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface NotificationOutlinedIconType extends FunctionalComponent<IconPr
 }
 
 const NotificationOutlined: NotificationOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={NotificationOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={NotificationOutlinedSvg} />
     ;
 
 NotificationOutlined.displayName = 'NotificationOutlined';
 
-export default NotificationOutlined;
+export default FunctionalComponent;

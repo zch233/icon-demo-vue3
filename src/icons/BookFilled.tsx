@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import BookFilledSvg from '@ant-design/icons-svg/lib/asn/BookFilled';
 
 export interface BookFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface BookFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const BookFilled: BookFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={BookFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={BookFilledSvg} />
     ;
 
 BookFilled.displayName = 'BookFilled';
 
-export default BookFilled;
+export default FunctionalComponent;

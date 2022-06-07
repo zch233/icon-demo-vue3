@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PushpinFilledSvg from '@ant-design/icons-svg/lib/asn/PushpinFilled';
 
 export interface PushpinFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PushpinFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const PushpinFilled: PushpinFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PushpinFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PushpinFilledSvg} />
     ;
 
 PushpinFilled.displayName = 'PushpinFilled';
 
-export default PushpinFilled;
+export default FunctionalComponent;

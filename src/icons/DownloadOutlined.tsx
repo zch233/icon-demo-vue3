@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DownloadOutlinedSvg from '@ant-design/icons-svg/lib/asn/DownloadOutlined';
 
 export interface DownloadOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DownloadOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const DownloadOutlined: DownloadOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DownloadOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DownloadOutlinedSvg} />
     ;
 
 DownloadOutlined.displayName = 'DownloadOutlined';
 
-export default DownloadOutlined;
+export default FunctionalComponent;

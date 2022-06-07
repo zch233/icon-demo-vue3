@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import EuroOutlinedSvg from '@ant-design/icons-svg/lib/asn/EuroOutlined';
 
 export interface EuroOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface EuroOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const EuroOutlined: EuroOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={EuroOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={EuroOutlinedSvg} />
     ;
 
 EuroOutlined.displayName = 'EuroOutlined';
 
-export default EuroOutlined;
+export default FunctionalComponent;

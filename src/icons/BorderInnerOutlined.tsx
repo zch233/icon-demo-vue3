@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import BorderInnerOutlinedSvg from '@ant-design/icons-svg/lib/asn/BorderInnerOutlined';
 
 export interface BorderInnerOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface BorderInnerOutlinedIconType extends FunctionalComponent<IconPro
 }
 
 const BorderInnerOutlined: BorderInnerOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={BorderInnerOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={BorderInnerOutlinedSvg} />
     ;
 
 BorderInnerOutlined.displayName = 'BorderInnerOutlined';
 
-export default BorderInnerOutlined;
+export default FunctionalComponent;

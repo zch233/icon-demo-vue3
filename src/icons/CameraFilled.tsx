@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CameraFilledSvg from '@ant-design/icons-svg/lib/asn/CameraFilled';
 
 export interface CameraFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CameraFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const CameraFilled: CameraFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CameraFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CameraFilledSvg} />
     ;
 
 CameraFilled.displayName = 'CameraFilled';
 
-export default CameraFilled;
+export default FunctionalComponent;

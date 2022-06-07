@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import SmileOutlinedSvg from '@ant-design/icons-svg/lib/asn/SmileOutlined';
 
 export interface SmileOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface SmileOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const SmileOutlined: SmileOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={SmileOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={SmileOutlinedSvg} />
     ;
 
 SmileOutlined.displayName = 'SmileOutlined';
 
-export default SmileOutlined;
+export default FunctionalComponent;

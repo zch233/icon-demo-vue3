@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PoweroffOutlinedSvg from '@ant-design/icons-svg/lib/asn/PoweroffOutlined';
 
 export interface PoweroffOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PoweroffOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const PoweroffOutlined: PoweroffOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PoweroffOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PoweroffOutlinedSvg} />
     ;
 
 PoweroffOutlined.displayName = 'PoweroffOutlined';
 
-export default PoweroffOutlined;
+export default FunctionalComponent;

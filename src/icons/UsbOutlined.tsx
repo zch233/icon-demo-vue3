@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import UsbOutlinedSvg from '@ant-design/icons-svg/lib/asn/UsbOutlined';
 
 export interface UsbOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface UsbOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const UsbOutlined: UsbOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={UsbOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={UsbOutlinedSvg} />
     ;
 
 UsbOutlined.displayName = 'UsbOutlined';
 
-export default UsbOutlined;
+export default FunctionalComponent;

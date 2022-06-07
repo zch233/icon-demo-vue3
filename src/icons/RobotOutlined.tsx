@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import RobotOutlinedSvg from '@ant-design/icons-svg/lib/asn/RobotOutlined';
 
 export interface RobotOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface RobotOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const RobotOutlined: RobotOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={RobotOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={RobotOutlinedSvg} />
     ;
 
 RobotOutlined.displayName = 'RobotOutlined';
 
-export default RobotOutlined;
+export default FunctionalComponent;

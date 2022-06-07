@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FlagOutlinedSvg from '@ant-design/icons-svg/lib/asn/FlagOutlined';
 
 export interface FlagOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FlagOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const FlagOutlined: FlagOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FlagOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FlagOutlinedSvg} />
     ;
 
 FlagOutlined.displayName = 'FlagOutlined';
 
-export default FlagOutlined;
+export default FunctionalComponent;

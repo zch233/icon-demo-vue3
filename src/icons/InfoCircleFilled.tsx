@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import InfoCircleFilledSvg from '@ant-design/icons-svg/lib/asn/InfoCircleFilled';
 
 export interface InfoCircleFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface InfoCircleFilledIconType extends FunctionalComponent<IconProps>
 }
 
 const InfoCircleFilled: InfoCircleFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={InfoCircleFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={InfoCircleFilledSvg} />
     ;
 
 InfoCircleFilled.displayName = 'InfoCircleFilled';
 
-export default InfoCircleFilled;
+export default FunctionalComponent;

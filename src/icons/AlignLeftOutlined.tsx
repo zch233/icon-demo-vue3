@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import AlignLeftOutlinedSvg from '@ant-design/icons-svg/lib/asn/AlignLeftOutlined';
 
 export interface AlignLeftOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface AlignLeftOutlinedIconType extends FunctionalComponent<IconProps
 }
 
 const AlignLeftOutlined: AlignLeftOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={AlignLeftOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={AlignLeftOutlinedSvg} />
     ;
 
 AlignLeftOutlined.displayName = 'AlignLeftOutlined';
 
-export default AlignLeftOutlined;
+export default FunctionalComponent;

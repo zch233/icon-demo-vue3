@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PushpinTwoToneSvg from '@ant-design/icons-svg/lib/asn/PushpinTwoTone';
 
 export interface PushpinTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PushpinTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const PushpinTwoTone: PushpinTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PushpinTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PushpinTwoToneSvg} />
     ;
 
 PushpinTwoTone.displayName = 'PushpinTwoTone';
 
-export default PushpinTwoTone;
+export default FunctionalComponent;

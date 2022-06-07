@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import NodeIndexOutlinedSvg from '@ant-design/icons-svg/lib/asn/NodeIndexOutlined';
 
 export interface NodeIndexOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface NodeIndexOutlinedIconType extends FunctionalComponent<IconProps
 }
 
 const NodeIndexOutlined: NodeIndexOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={NodeIndexOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={NodeIndexOutlinedSvg} />
     ;
 
 NodeIndexOutlined.displayName = 'NodeIndexOutlined';
 
-export default NodeIndexOutlined;
+export default FunctionalComponent;

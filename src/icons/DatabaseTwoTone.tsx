@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import DatabaseTwoToneSvg from '@ant-design/icons-svg/lib/asn/DatabaseTwoTone';
 
 export interface DatabaseTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface DatabaseTwoToneIconType extends FunctionalComponent<IconProps> 
 }
 
 const DatabaseTwoTone: DatabaseTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={DatabaseTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={DatabaseTwoToneSvg} />
     ;
 
 DatabaseTwoTone.displayName = 'DatabaseTwoTone';
 
-export default DatabaseTwoTone;
+export default FunctionalComponent;

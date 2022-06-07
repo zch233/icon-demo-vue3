@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PropertySafetyFilledSvg from '@ant-design/icons-svg/lib/asn/PropertySafetyFilled';
 
 export interface PropertySafetyFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PropertySafetyFilledIconType extends FunctionalComponent<IconPr
 }
 
 const PropertySafetyFilled: PropertySafetyFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PropertySafetyFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PropertySafetyFilledSvg} />
     ;
 
 PropertySafetyFilled.displayName = 'PropertySafetyFilled';
 
-export default PropertySafetyFilled;
+export default FunctionalComponent;

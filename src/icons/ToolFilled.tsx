@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ToolFilledSvg from '@ant-design/icons-svg/lib/asn/ToolFilled';
 
 export interface ToolFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ToolFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const ToolFilled: ToolFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ToolFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ToolFilledSvg} />
     ;
 
 ToolFilled.displayName = 'ToolFilled';
 
-export default ToolFilled;
+export default FunctionalComponent;

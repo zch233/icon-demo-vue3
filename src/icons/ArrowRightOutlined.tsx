@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ArrowRightOutlinedSvg from '@ant-design/icons-svg/lib/asn/ArrowRightOutlined';
 
 export interface ArrowRightOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ArrowRightOutlinedIconType extends FunctionalComponent<IconProp
 }
 
 const ArrowRightOutlined: ArrowRightOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ArrowRightOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ArrowRightOutlinedSvg} />
     ;
 
 ArrowRightOutlined.displayName = 'ArrowRightOutlined';
 
-export default ArrowRightOutlined;
+export default FunctionalComponent;

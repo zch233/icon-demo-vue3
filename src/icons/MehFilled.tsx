@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import MehFilledSvg from '@ant-design/icons-svg/lib/asn/MehFilled';
 
 export interface MehFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface MehFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const MehFilled: MehFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={MehFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={MehFilledSvg} />
     ;
 
 MehFilled.displayName = 'MehFilled';
 
-export default MehFilled;
+export default FunctionalComponent;

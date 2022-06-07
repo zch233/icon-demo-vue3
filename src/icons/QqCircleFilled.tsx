@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import QqCircleFilledSvg from '@ant-design/icons-svg/lib/asn/QqCircleFilled';
 
 export interface QqCircleFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface QqCircleFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const QqCircleFilled: QqCircleFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={QqCircleFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={QqCircleFilledSvg} />
     ;
 
 QqCircleFilled.displayName = 'QqCircleFilled';
 
-export default QqCircleFilled;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CodeSandboxOutlinedSvg from '@ant-design/icons-svg/lib/asn/CodeSandboxOutlined';
 
 export interface CodeSandboxOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CodeSandboxOutlinedIconType extends FunctionalComponent<IconPro
 }
 
 const CodeSandboxOutlined: CodeSandboxOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CodeSandboxOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CodeSandboxOutlinedSvg} />
     ;
 
 CodeSandboxOutlined.displayName = 'CodeSandboxOutlined';
 
-export default CodeSandboxOutlined;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FastBackwardOutlinedSvg from '@ant-design/icons-svg/lib/asn/FastBackwardOutlined';
 
 export interface FastBackwardOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FastBackwardOutlinedIconType extends FunctionalComponent<IconPr
 }
 
 const FastBackwardOutlined: FastBackwardOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FastBackwardOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FastBackwardOutlinedSvg} />
     ;
 
 FastBackwardOutlined.displayName = 'FastBackwardOutlined';
 
-export default FastBackwardOutlined;
+export default FunctionalComponent;

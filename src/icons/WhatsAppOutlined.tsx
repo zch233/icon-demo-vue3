@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import WhatsAppOutlinedSvg from '@ant-design/icons-svg/lib/asn/WhatsAppOutlined';
 
 export interface WhatsAppOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface WhatsAppOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const WhatsAppOutlined: WhatsAppOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={WhatsAppOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={WhatsAppOutlinedSvg} />
     ;
 
 WhatsAppOutlined.displayName = 'WhatsAppOutlined';
 
-export default WhatsAppOutlined;
+export default FunctionalComponent;

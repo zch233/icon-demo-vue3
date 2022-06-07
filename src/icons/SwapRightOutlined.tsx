@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import SwapRightOutlinedSvg from '@ant-design/icons-svg/lib/asn/SwapRightOutlined';
 
 export interface SwapRightOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface SwapRightOutlinedIconType extends FunctionalComponent<IconProps
 }
 
 const SwapRightOutlined: SwapRightOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={SwapRightOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={SwapRightOutlinedSvg} />
     ;
 
 SwapRightOutlined.displayName = 'SwapRightOutlined';
 
-export default SwapRightOutlined;
+export default FunctionalComponent;

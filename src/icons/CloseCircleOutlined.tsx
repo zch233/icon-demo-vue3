@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CloseCircleOutlinedSvg from '@ant-design/icons-svg/lib/asn/CloseCircleOutlined';
 
 export interface CloseCircleOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CloseCircleOutlinedIconType extends FunctionalComponent<IconPro
 }
 
 const CloseCircleOutlined: CloseCircleOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CloseCircleOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CloseCircleOutlinedSvg} />
     ;
 
 CloseCircleOutlined.displayName = 'CloseCircleOutlined';
 
-export default CloseCircleOutlined;
+export default FunctionalComponent;

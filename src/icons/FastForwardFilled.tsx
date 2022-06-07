@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FastForwardFilledSvg from '@ant-design/icons-svg/lib/asn/FastForwardFilled';
 
 export interface FastForwardFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FastForwardFilledIconType extends FunctionalComponent<IconProps
 }
 
 const FastForwardFilled: FastForwardFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FastForwardFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FastForwardFilledSvg} />
     ;
 
 FastForwardFilled.displayName = 'FastForwardFilled';
 
-export default FastForwardFilled;
+export default FunctionalComponent;

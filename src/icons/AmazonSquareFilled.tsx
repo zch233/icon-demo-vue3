@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import AmazonSquareFilledSvg from '@ant-design/icons-svg/lib/asn/AmazonSquareFilled';
 
 export interface AmazonSquareFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface AmazonSquareFilledIconType extends FunctionalComponent<IconProp
 }
 
 const AmazonSquareFilled: AmazonSquareFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={AmazonSquareFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={AmazonSquareFilledSvg} />
     ;
 
 AmazonSquareFilled.displayName = 'AmazonSquareFilled';
 
-export default AmazonSquareFilled;
+export default FunctionalComponent;

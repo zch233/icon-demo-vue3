@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FilterFilledSvg from '@ant-design/icons-svg/lib/asn/FilterFilled';
 
 export interface FilterFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FilterFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const FilterFilled: FilterFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FilterFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FilterFilledSvg} />
     ;
 
 FilterFilled.displayName = 'FilterFilled';
 
-export default FilterFilled;
+export default FunctionalComponent;

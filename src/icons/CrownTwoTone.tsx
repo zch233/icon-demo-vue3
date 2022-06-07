@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CrownTwoToneSvg from '@ant-design/icons-svg/lib/asn/CrownTwoTone';
 
 export interface CrownTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CrownTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const CrownTwoTone: CrownTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CrownTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CrownTwoToneSvg} />
     ;
 
 CrownTwoTone.displayName = 'CrownTwoTone';
 
-export default CrownTwoTone;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import NumberOutlinedSvg from '@ant-design/icons-svg/lib/asn/NumberOutlined';
 
 export interface NumberOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface NumberOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const NumberOutlined: NumberOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={NumberOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={NumberOutlinedSvg} />
     ;
 
 NumberOutlined.displayName = 'NumberOutlined';
 
-export default NumberOutlined;
+export default FunctionalComponent;

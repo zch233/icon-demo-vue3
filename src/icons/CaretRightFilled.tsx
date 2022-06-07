@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CaretRightFilledSvg from '@ant-design/icons-svg/lib/asn/CaretRightFilled';
 
 export interface CaretRightFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CaretRightFilledIconType extends FunctionalComponent<IconProps>
 }
 
 const CaretRightFilled: CaretRightFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CaretRightFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CaretRightFilledSvg} />
     ;
 
 CaretRightFilled.displayName = 'CaretRightFilled';
 
-export default CaretRightFilled;
+export default FunctionalComponent;

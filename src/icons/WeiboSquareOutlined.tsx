@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import WeiboSquareOutlinedSvg from '@ant-design/icons-svg/lib/asn/WeiboSquareOutlined';
 
 export interface WeiboSquareOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface WeiboSquareOutlinedIconType extends FunctionalComponent<IconPro
 }
 
 const WeiboSquareOutlined: WeiboSquareOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={WeiboSquareOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={WeiboSquareOutlinedSvg} />
     ;
 
 WeiboSquareOutlined.displayName = 'WeiboSquareOutlined';
 
-export default WeiboSquareOutlined;
+export default FunctionalComponent;

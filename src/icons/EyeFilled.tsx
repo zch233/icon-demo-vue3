@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import EyeFilledSvg from '@ant-design/icons-svg/lib/asn/EyeFilled';
 
 export interface EyeFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface EyeFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const EyeFilled: EyeFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={EyeFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={EyeFilledSvg} />
     ;
 
 EyeFilled.displayName = 'EyeFilled';
 
-export default EyeFilled;
+export default FunctionalComponent;

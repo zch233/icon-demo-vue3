@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import SecurityScanFilledSvg from '@ant-design/icons-svg/lib/asn/SecurityScanFilled';
 
 export interface SecurityScanFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface SecurityScanFilledIconType extends FunctionalComponent<IconProp
 }
 
 const SecurityScanFilled: SecurityScanFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={SecurityScanFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={SecurityScanFilledSvg} />
     ;
 
 SecurityScanFilled.displayName = 'SecurityScanFilled';
 
-export default SecurityScanFilled;
+export default FunctionalComponent;

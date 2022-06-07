@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CameraTwoToneSvg from '@ant-design/icons-svg/lib/asn/CameraTwoTone';
 
 export interface CameraTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CameraTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const CameraTwoTone: CameraTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CameraTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CameraTwoToneSvg} />
     ;
 
 CameraTwoTone.displayName = 'CameraTwoTone';
 
-export default CameraTwoTone;
+export default FunctionalComponent;

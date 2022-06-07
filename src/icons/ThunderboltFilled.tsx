@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ThunderboltFilledSvg from '@ant-design/icons-svg/lib/asn/ThunderboltFilled';
 
 export interface ThunderboltFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ThunderboltFilledIconType extends FunctionalComponent<IconProps
 }
 
 const ThunderboltFilled: ThunderboltFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ThunderboltFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ThunderboltFilledSvg} />
     ;
 
 ThunderboltFilled.displayName = 'ThunderboltFilled';
 
-export default ThunderboltFilled;
+export default FunctionalComponent;

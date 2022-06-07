@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FileExcelFilledSvg from '@ant-design/icons-svg/lib/asn/FileExcelFilled';
 
 export interface FileExcelFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FileExcelFilledIconType extends FunctionalComponent<IconProps> 
 }
 
 const FileExcelFilled: FileExcelFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FileExcelFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FileExcelFilledSvg} />
     ;
 
 FileExcelFilled.displayName = 'FileExcelFilled';
 
-export default FileExcelFilled;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import UnlockTwoToneSvg from '@ant-design/icons-svg/lib/asn/UnlockTwoTone';
 
 export interface UnlockTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface UnlockTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const UnlockTwoTone: UnlockTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={UnlockTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={UnlockTwoToneSvg} />
     ;
 
 UnlockTwoTone.displayName = 'UnlockTwoTone';
 
-export default UnlockTwoTone;
+export default FunctionalComponent;

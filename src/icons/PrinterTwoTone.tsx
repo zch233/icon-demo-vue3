@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PrinterTwoToneSvg from '@ant-design/icons-svg/lib/asn/PrinterTwoTone';
 
 export interface PrinterTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PrinterTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const PrinterTwoTone: PrinterTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PrinterTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PrinterTwoToneSvg} />
     ;
 
 PrinterTwoTone.displayName = 'PrinterTwoTone';
 
-export default PrinterTwoTone;
+export default FunctionalComponent;

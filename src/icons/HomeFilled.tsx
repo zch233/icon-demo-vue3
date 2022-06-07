@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import HomeFilledSvg from '@ant-design/icons-svg/lib/asn/HomeFilled';
 
 export interface HomeFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface HomeFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const HomeFilled: HomeFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={HomeFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={HomeFilledSvg} />
     ;
 
 HomeFilled.displayName = 'HomeFilled';
 
-export default HomeFilled;
+export default FunctionalComponent;

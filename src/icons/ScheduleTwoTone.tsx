@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ScheduleTwoToneSvg from '@ant-design/icons-svg/lib/asn/ScheduleTwoTone';
 
 export interface ScheduleTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ScheduleTwoToneIconType extends FunctionalComponent<IconProps> 
 }
 
 const ScheduleTwoTone: ScheduleTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ScheduleTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ScheduleTwoToneSvg} />
     ;
 
 ScheduleTwoTone.displayName = 'ScheduleTwoTone';
 
-export default ScheduleTwoTone;
+export default FunctionalComponent;

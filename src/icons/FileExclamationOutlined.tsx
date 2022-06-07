@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FileExclamationOutlinedSvg from '@ant-design/icons-svg/lib/asn/FileExclamationOutlined';
 
 export interface FileExclamationOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FileExclamationOutlinedIconType extends FunctionalComponent<Ico
 }
 
 const FileExclamationOutlined: FileExclamationOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FileExclamationOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FileExclamationOutlinedSvg} />
     ;
 
 FileExclamationOutlined.displayName = 'FileExclamationOutlined';
 
-export default FileExclamationOutlined;
+export default FunctionalComponent;

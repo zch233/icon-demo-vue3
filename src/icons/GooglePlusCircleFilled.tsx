@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import GooglePlusCircleFilledSvg from '@ant-design/icons-svg/lib/asn/GooglePlusCircleFilled';
 
 export interface GooglePlusCircleFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface GooglePlusCircleFilledIconType extends FunctionalComponent<Icon
 }
 
 const GooglePlusCircleFilled: GooglePlusCircleFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={GooglePlusCircleFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={GooglePlusCircleFilledSvg} />
     ;
 
 GooglePlusCircleFilled.displayName = 'GooglePlusCircleFilled';
 
-export default GooglePlusCircleFilled;
+export default FunctionalComponent;

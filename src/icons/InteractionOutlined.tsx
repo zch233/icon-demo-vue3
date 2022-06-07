@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import InteractionOutlinedSvg from '@ant-design/icons-svg/lib/asn/InteractionOutlined';
 
 export interface InteractionOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface InteractionOutlinedIconType extends FunctionalComponent<IconPro
 }
 
 const InteractionOutlined: InteractionOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={InteractionOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={InteractionOutlinedSvg} />
     ;
 
 InteractionOutlined.displayName = 'InteractionOutlined';
 
-export default InteractionOutlined;
+export default FunctionalComponent;

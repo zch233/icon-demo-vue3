@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import PoundOutlinedSvg from '@ant-design/icons-svg/lib/asn/PoundOutlined';
 
 export interface PoundOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface PoundOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const PoundOutlined: PoundOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={PoundOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={PoundOutlinedSvg} />
     ;
 
 PoundOutlined.displayName = 'PoundOutlined';
 
-export default PoundOutlined;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import TrademarkCircleFilledSvg from '@ant-design/icons-svg/lib/asn/TrademarkCircleFilled';
 
 export interface TrademarkCircleFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface TrademarkCircleFilledIconType extends FunctionalComponent<IconP
 }
 
 const TrademarkCircleFilled: TrademarkCircleFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={TrademarkCircleFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={TrademarkCircleFilledSvg} />
     ;
 
 TrademarkCircleFilled.displayName = 'TrademarkCircleFilled';
 
-export default TrademarkCircleFilled;
+export default FunctionalComponent;

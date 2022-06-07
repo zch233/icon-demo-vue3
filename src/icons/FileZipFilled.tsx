@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FileZipFilledSvg from '@ant-design/icons-svg/lib/asn/FileZipFilled';
 
 export interface FileZipFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FileZipFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const FileZipFilled: FileZipFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FileZipFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FileZipFilledSvg} />
     ;
 
 FileZipFilled.displayName = 'FileZipFilled';
 
-export default FileZipFilled;
+export default FunctionalComponent;

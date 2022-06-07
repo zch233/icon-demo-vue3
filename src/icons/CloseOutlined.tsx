@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CloseOutlinedSvg from '@ant-design/icons-svg/lib/asn/CloseOutlined';
 
 export interface CloseOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CloseOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const CloseOutlined: CloseOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CloseOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CloseOutlinedSvg} />
     ;
 
 CloseOutlined.displayName = 'CloseOutlined';
 
-export default CloseOutlined;
+export default FunctionalComponent;

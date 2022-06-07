@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import AudioFilledSvg from '@ant-design/icons-svg/lib/asn/AudioFilled';
 
 export interface AudioFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface AudioFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const AudioFilled: AudioFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={AudioFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={AudioFilledSvg} />
     ;
 
 AudioFilled.displayName = 'AudioFilled';
 
-export default AudioFilled;
+export default FunctionalComponent;

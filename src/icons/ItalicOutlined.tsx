@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ItalicOutlinedSvg from '@ant-design/icons-svg/lib/asn/ItalicOutlined';
 
 export interface ItalicOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ItalicOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const ItalicOutlined: ItalicOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ItalicOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ItalicOutlinedSvg} />
     ;
 
 ItalicOutlined.displayName = 'ItalicOutlined';
 
-export default ItalicOutlined;
+export default FunctionalComponent;

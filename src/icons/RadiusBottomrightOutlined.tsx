@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import RadiusBottomrightOutlinedSvg from '@ant-design/icons-svg/lib/asn/RadiusBottomrightOutlined';
 
 export interface RadiusBottomrightOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface RadiusBottomrightOutlinedIconType extends FunctionalComponent<I
 }
 
 const RadiusBottomrightOutlined: RadiusBottomrightOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={RadiusBottomrightOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={RadiusBottomrightOutlinedSvg} />
     ;
 
 RadiusBottomrightOutlined.displayName = 'RadiusBottomrightOutlined';
 
-export default RadiusBottomrightOutlined;
+export default FunctionalComponent;

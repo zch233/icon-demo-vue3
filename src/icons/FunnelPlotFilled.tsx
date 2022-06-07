@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FunnelPlotFilledSvg from '@ant-design/icons-svg/lib/asn/FunnelPlotFilled';
 
 export interface FunnelPlotFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FunnelPlotFilledIconType extends FunctionalComponent<IconProps>
 }
 
 const FunnelPlotFilled: FunnelPlotFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FunnelPlotFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FunnelPlotFilledSvg} />
     ;
 
 FunnelPlotFilled.displayName = 'FunnelPlotFilled';
 
-export default FunnelPlotFilled;
+export default FunctionalComponent;

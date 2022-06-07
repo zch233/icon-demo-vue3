@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import AntCloudOutlinedSvg from '@ant-design/icons-svg/lib/asn/AntCloudOutlined';
 
 export interface AntCloudOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface AntCloudOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const AntCloudOutlined: AntCloudOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={AntCloudOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={AntCloudOutlinedSvg} />
     ;
 
 AntCloudOutlined.displayName = 'AntCloudOutlined';
 
-export default AntCloudOutlined;
+export default FunctionalComponent;

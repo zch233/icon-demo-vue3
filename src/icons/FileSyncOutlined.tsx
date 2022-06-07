@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FileSyncOutlinedSvg from '@ant-design/icons-svg/lib/asn/FileSyncOutlined';
 
 export interface FileSyncOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FileSyncOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const FileSyncOutlined: FileSyncOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FileSyncOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FileSyncOutlinedSvg} />
     ;
 
 FileSyncOutlined.displayName = 'FileSyncOutlined';
 
-export default FileSyncOutlined;
+export default FunctionalComponent;

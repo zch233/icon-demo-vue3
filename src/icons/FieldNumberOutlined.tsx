@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FieldNumberOutlinedSvg from '@ant-design/icons-svg/lib/asn/FieldNumberOutlined';
 
 export interface FieldNumberOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FieldNumberOutlinedIconType extends FunctionalComponent<IconPro
 }
 
 const FieldNumberOutlined: FieldNumberOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FieldNumberOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FieldNumberOutlinedSvg} />
     ;
 
 FieldNumberOutlined.displayName = 'FieldNumberOutlined';
 
-export default FieldNumberOutlined;
+export default FunctionalComponent;

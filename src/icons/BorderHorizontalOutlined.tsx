@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import BorderHorizontalOutlinedSvg from '@ant-design/icons-svg/lib/asn/BorderHorizontalOutlined';
 
 export interface BorderHorizontalOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface BorderHorizontalOutlinedIconType extends FunctionalComponent<Ic
 }
 
 const BorderHorizontalOutlined: BorderHorizontalOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={BorderHorizontalOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={BorderHorizontalOutlinedSvg} />
     ;
 
 BorderHorizontalOutlined.displayName = 'BorderHorizontalOutlined';
 
-export default BorderHorizontalOutlined;
+export default FunctionalComponent;

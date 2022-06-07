@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CreditCardTwoToneSvg from '@ant-design/icons-svg/lib/asn/CreditCardTwoTone';
 
 export interface CreditCardTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CreditCardTwoToneIconType extends FunctionalComponent<IconProps
 }
 
 const CreditCardTwoTone: CreditCardTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CreditCardTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CreditCardTwoToneSvg} />
     ;
 
 CreditCardTwoTone.displayName = 'CreditCardTwoTone';
 
-export default CreditCardTwoTone;
+export default FunctionalComponent;

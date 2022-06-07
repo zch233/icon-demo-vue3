@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import MessageTwoToneSvg from '@ant-design/icons-svg/lib/asn/MessageTwoTone';
 
 export interface MessageTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface MessageTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const MessageTwoTone: MessageTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={MessageTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={MessageTwoToneSvg} />
     ;
 
 MessageTwoTone.displayName = 'MessageTwoTone';
 
-export default MessageTwoTone;
+export default FunctionalComponent;

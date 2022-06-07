@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ToTopOutlinedSvg from '@ant-design/icons-svg/lib/asn/ToTopOutlined';
 
 export interface ToTopOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ToTopOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const ToTopOutlined: ToTopOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ToTopOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ToTopOutlinedSvg} />
     ;
 
 ToTopOutlined.displayName = 'ToTopOutlined';
 
-export default ToTopOutlined;
+export default FunctionalComponent;

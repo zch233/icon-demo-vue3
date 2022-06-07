@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import RocketOutlinedSvg from '@ant-design/icons-svg/lib/asn/RocketOutlined';
 
 export interface RocketOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface RocketOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const RocketOutlined: RocketOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={RocketOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={RocketOutlinedSvg} />
     ;
 
 RocketOutlined.displayName = 'RocketOutlined';
 
-export default RocketOutlined;
+export default FunctionalComponent;

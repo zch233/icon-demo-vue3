@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import AndroidOutlinedSvg from '@ant-design/icons-svg/lib/asn/AndroidOutlined';
 
 export interface AndroidOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface AndroidOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const AndroidOutlined: AndroidOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={AndroidOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={AndroidOutlinedSvg} />
     ;
 
 AndroidOutlined.displayName = 'AndroidOutlined';
 
-export default AndroidOutlined;
+export default FunctionalComponent;

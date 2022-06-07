@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import QuestionCircleOutlinedSvg from '@ant-design/icons-svg/lib/asn/QuestionCircleOutlined';
 
 export interface QuestionCircleOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface QuestionCircleOutlinedIconType extends FunctionalComponent<Icon
 }
 
 const QuestionCircleOutlined: QuestionCircleOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={QuestionCircleOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={QuestionCircleOutlinedSvg} />
     ;
 
 QuestionCircleOutlined.displayName = 'QuestionCircleOutlined';
 
-export default QuestionCircleOutlined;
+export default FunctionalComponent;

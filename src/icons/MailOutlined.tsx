@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import MailOutlinedSvg from '@ant-design/icons-svg/lib/asn/MailOutlined';
 
 export interface MailOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface MailOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const MailOutlined: MailOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={MailOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={MailOutlinedSvg} />
     ;
 
 MailOutlined.displayName = 'MailOutlined';
 
-export default MailOutlined;
+export default FunctionalComponent;

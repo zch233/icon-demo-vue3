@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import FileExclamationFilledSvg from '@ant-design/icons-svg/lib/asn/FileExclamationFilled';
 
 export interface FileExclamationFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface FileExclamationFilledIconType extends FunctionalComponent<IconP
 }
 
 const FileExclamationFilled: FileExclamationFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={FileExclamationFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={FileExclamationFilledSvg} />
     ;
 
 FileExclamationFilled.displayName = 'FileExclamationFilled';
 
-export default FileExclamationFilled;
+export default FunctionalComponent;

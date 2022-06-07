@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import GoldenFilledSvg from '@ant-design/icons-svg/lib/asn/GoldenFilled';
 
 export interface GoldenFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface GoldenFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const GoldenFilled: GoldenFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={GoldenFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={GoldenFilledSvg} />
     ;
 
 GoldenFilled.displayName = 'GoldenFilled';
 
-export default GoldenFilled;
+export default FunctionalComponent;

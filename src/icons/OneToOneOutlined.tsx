@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import OneToOneOutlinedSvg from '@ant-design/icons-svg/lib/asn/OneToOneOutlined';
 
 export interface OneToOneOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface OneToOneOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const OneToOneOutlined: OneToOneOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={OneToOneOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={OneToOneOutlinedSvg} />
     ;
 
 OneToOneOutlined.displayName = 'OneToOneOutlined';
 
-export default OneToOneOutlined;
+export default FunctionalComponent;

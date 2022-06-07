@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import RotateLeftOutlinedSvg from '@ant-design/icons-svg/lib/asn/RotateLeftOutlined';
 
 export interface RotateLeftOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface RotateLeftOutlinedIconType extends FunctionalComponent<IconProp
 }
 
 const RotateLeftOutlined: RotateLeftOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={RotateLeftOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={RotateLeftOutlinedSvg} />
     ;
 
 RotateLeftOutlined.displayName = 'RotateLeftOutlined';
 
-export default RotateLeftOutlined;
+export default FunctionalComponent;

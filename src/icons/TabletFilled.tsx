@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import TabletFilledSvg from '@ant-design/icons-svg/lib/asn/TabletFilled';
 
 export interface TabletFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface TabletFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const TabletFilled: TabletFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={TabletFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={TabletFilledSvg} />
     ;
 
 TabletFilled.displayName = 'TabletFilled';
 
-export default TabletFilled;
+export default FunctionalComponent;

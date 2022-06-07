@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import WindowsOutlinedSvg from '@ant-design/icons-svg/lib/asn/WindowsOutlined';
 
 export interface WindowsOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface WindowsOutlinedIconType extends FunctionalComponent<IconProps> 
 }
 
 const WindowsOutlined: WindowsOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={WindowsOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={WindowsOutlinedSvg} />
     ;
 
 WindowsOutlined.displayName = 'WindowsOutlined';
 
-export default WindowsOutlined;
+export default FunctionalComponent;

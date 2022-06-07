@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import LinkOutlinedSvg from '@ant-design/icons-svg/lib/asn/LinkOutlined';
 
 export interface LinkOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface LinkOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const LinkOutlined: LinkOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={LinkOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={LinkOutlinedSvg} />
     ;
 
 LinkOutlined.displayName = 'LinkOutlined';
 
-export default LinkOutlined;
+export default FunctionalComponent;

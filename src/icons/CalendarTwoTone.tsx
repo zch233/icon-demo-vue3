@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CalendarTwoToneSvg from '@ant-design/icons-svg/lib/asn/CalendarTwoTone';
 
 export interface CalendarTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CalendarTwoToneIconType extends FunctionalComponent<IconProps> 
 }
 
 const CalendarTwoTone: CalendarTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CalendarTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CalendarTwoToneSvg} />
     ;
 
 CalendarTwoTone.displayName = 'CalendarTwoTone';
 
-export default CalendarTwoTone;
+export default FunctionalComponent;

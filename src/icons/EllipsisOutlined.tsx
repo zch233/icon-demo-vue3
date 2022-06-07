@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import EllipsisOutlinedSvg from '@ant-design/icons-svg/lib/asn/EllipsisOutlined';
 
 export interface EllipsisOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface EllipsisOutlinedIconType extends FunctionalComponent<IconProps>
 }
 
 const EllipsisOutlined: EllipsisOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={EllipsisOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={EllipsisOutlinedSvg} />
     ;
 
 EllipsisOutlined.displayName = 'EllipsisOutlined';
 
-export default EllipsisOutlined;
+export default FunctionalComponent;

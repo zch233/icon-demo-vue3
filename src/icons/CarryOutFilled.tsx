@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CarryOutFilledSvg from '@ant-design/icons-svg/lib/asn/CarryOutFilled';
 
 export interface CarryOutFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CarryOutFilledIconType extends FunctionalComponent<IconProps> {
 }
 
 const CarryOutFilled: CarryOutFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CarryOutFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CarryOutFilledSvg} />
     ;
 
 CarryOutFilled.displayName = 'CarryOutFilled';
 
-export default CarryOutFilled;
+export default FunctionalComponent;

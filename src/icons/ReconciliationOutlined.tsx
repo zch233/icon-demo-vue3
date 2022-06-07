@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ReconciliationOutlinedSvg from '@ant-design/icons-svg/lib/asn/ReconciliationOutlined';
 
 export interface ReconciliationOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ReconciliationOutlinedIconType extends FunctionalComponent<Icon
 }
 
 const ReconciliationOutlined: ReconciliationOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ReconciliationOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ReconciliationOutlinedSvg} />
     ;
 
 ReconciliationOutlined.displayName = 'ReconciliationOutlined';
 
-export default ReconciliationOutlined;
+export default FunctionalComponent;

@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import BlockOutlinedSvg from '@ant-design/icons-svg/lib/asn/BlockOutlined';
 
 export interface BlockOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface BlockOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const BlockOutlined: BlockOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={BlockOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={BlockOutlinedSvg} />
     ;
 
 BlockOutlined.displayName = 'BlockOutlined';
 
-export default BlockOutlined;
+export default FunctionalComponent;

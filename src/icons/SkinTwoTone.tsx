@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import SkinTwoToneSvg from '@ant-design/icons-svg/lib/asn/SkinTwoTone';
 
 export interface SkinTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface SkinTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const SkinTwoTone: SkinTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={SkinTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={SkinTwoToneSvg} />
     ;
 
 SkinTwoTone.displayName = 'SkinTwoTone';
 
-export default SkinTwoTone;
+export default FunctionalComponent;

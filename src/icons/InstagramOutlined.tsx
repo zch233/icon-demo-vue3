@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import InstagramOutlinedSvg from '@ant-design/icons-svg/lib/asn/InstagramOutlined';
 
 export interface InstagramOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface InstagramOutlinedIconType extends FunctionalComponent<IconProps
 }
 
 const InstagramOutlined: InstagramOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={InstagramOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={InstagramOutlinedSvg} />
     ;
 
 InstagramOutlined.displayName = 'InstagramOutlined';
 
-export default InstagramOutlined;
+export default FunctionalComponent;

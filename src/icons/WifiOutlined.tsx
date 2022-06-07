@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import WifiOutlinedSvg from '@ant-design/icons-svg/lib/asn/WifiOutlined';
 
 export interface WifiOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface WifiOutlinedIconType extends FunctionalComponent<IconProps> {
 }
 
 const WifiOutlined: WifiOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={WifiOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={WifiOutlinedSvg} />
     ;
 
 WifiOutlined.displayName = 'WifiOutlined';
 
-export default WifiOutlined;
+export default FunctionalComponent;

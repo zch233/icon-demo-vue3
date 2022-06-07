@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import ShoppingCartOutlinedSvg from '@ant-design/icons-svg/lib/asn/ShoppingCartOutlined';
 
 export interface ShoppingCartOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface ShoppingCartOutlinedIconType extends FunctionalComponent<IconPr
 }
 
 const ShoppingCartOutlined: ShoppingCartOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={ShoppingCartOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={ShoppingCartOutlinedSvg} />
     ;
 
 ShoppingCartOutlined.displayName = 'ShoppingCartOutlined';
 
-export default ShoppingCartOutlined;
+export default FunctionalComponent;

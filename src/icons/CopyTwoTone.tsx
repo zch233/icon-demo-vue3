@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import CopyTwoToneSvg from '@ant-design/icons-svg/lib/asn/CopyTwoTone';
 
 export interface CopyTwoToneIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface CopyTwoToneIconType extends FunctionalComponent<IconProps> {
 }
 
 const CopyTwoTone: CopyTwoToneIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={CopyTwoToneSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={CopyTwoToneSvg} />
     ;
 
 CopyTwoTone.displayName = 'CopyTwoTone';
 
-export default CopyTwoTone;
+export default FunctionalComponent;

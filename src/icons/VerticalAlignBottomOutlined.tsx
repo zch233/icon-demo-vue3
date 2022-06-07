@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import VerticalAlignBottomOutlinedSvg from '@ant-design/icons-svg/lib/asn/VerticalAlignBottomOutlined';
 
 export interface VerticalAlignBottomOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface VerticalAlignBottomOutlinedIconType extends FunctionalComponent
 }
 
 const VerticalAlignBottomOutlined: VerticalAlignBottomOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={VerticalAlignBottomOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={VerticalAlignBottomOutlinedSvg} />
     ;
 
 VerticalAlignBottomOutlined.displayName = 'VerticalAlignBottomOutlined';
 
-export default VerticalAlignBottomOutlined;
+export default FunctionalComponent;

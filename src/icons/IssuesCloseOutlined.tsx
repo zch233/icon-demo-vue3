@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import IssuesCloseOutlinedSvg from '@ant-design/icons-svg/lib/asn/IssuesCloseOutlined';
 
 export interface IssuesCloseOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface IssuesCloseOutlinedIconType extends FunctionalComponent<IconPro
 }
 
 const IssuesCloseOutlined: IssuesCloseOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={IssuesCloseOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={IssuesCloseOutlinedSvg} />
     ;
 
 IssuesCloseOutlined.displayName = 'IssuesCloseOutlined';
 
-export default IssuesCloseOutlined;
+export default FunctionalComponent;

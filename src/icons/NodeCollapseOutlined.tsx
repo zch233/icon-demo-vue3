@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import NodeCollapseOutlinedSvg from '@ant-design/icons-svg/lib/asn/NodeCollapseOutlined';
 
 export interface NodeCollapseOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface NodeCollapseOutlinedIconType extends FunctionalComponent<IconPr
 }
 
 const NodeCollapseOutlined: NodeCollapseOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={NodeCollapseOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={NodeCollapseOutlinedSvg} />
     ;
 
 NodeCollapseOutlined.displayName = 'NodeCollapseOutlined';
 
-export default NodeCollapseOutlined;
+export default FunctionalComponent;

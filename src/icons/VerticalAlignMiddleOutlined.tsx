@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import VerticalAlignMiddleOutlinedSvg from '@ant-design/icons-svg/lib/asn/VerticalAlignMiddleOutlined';
 
 export interface VerticalAlignMiddleOutlinedIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface VerticalAlignMiddleOutlinedIconType extends FunctionalComponent
 }
 
 const VerticalAlignMiddleOutlined: VerticalAlignMiddleOutlinedIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={VerticalAlignMiddleOutlinedSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={VerticalAlignMiddleOutlinedSvg} />
     ;
 
 VerticalAlignMiddleOutlined.displayName = 'VerticalAlignMiddleOutlined';
 
-export default VerticalAlignMiddleOutlined;
+export default FunctionalComponent;

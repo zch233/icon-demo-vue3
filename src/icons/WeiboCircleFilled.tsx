@@ -2,7 +2,8 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon, {IconProps} from '../components/Icon';
+import Icon from '../components/Icon.vue';
+import {IconProps} from '../components/utils'
 import WeiboCircleFilledSvg from '@ant-design/icons-svg/lib/asn/WeiboCircleFilled';
 
 export interface WeiboCircleFilledIconType extends FunctionalComponent<IconProps> {
@@ -10,9 +11,9 @@ export interface WeiboCircleFilledIconType extends FunctionalComponent<IconProps
 }
 
 const WeiboCircleFilled: WeiboCircleFilledIconType = (props, context) => 
-    <Icon {{ ...props, ...context.attrs }} icon={WeiboCircleFilledSvg} />
+    <Icon {...{ ...props, ...context.attrs }} icon={WeiboCircleFilledSvg} />
     ;
 
 WeiboCircleFilled.displayName = 'WeiboCircleFilled';
 
-export default WeiboCircleFilled;
+export default FunctionalComponent;
