@@ -13,4 +13,4 @@ const TrophyOutlined: TrophyOutlinedIconType = (props, context) => <Icon {...{ .
 
 TrophyOutlined.displayName = 'TrophyOutlined';
 
-export default FunctionalComponent;
+export default TrophyOutlined;

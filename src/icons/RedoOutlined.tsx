@@ -13,4 +13,4 @@ const RedoOutlined: RedoOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 RedoOutlined.displayName = 'RedoOutlined';
 
-export default FunctionalComponent;
+export default RedoOutlined;

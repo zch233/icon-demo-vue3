@@ -13,4 +13,4 @@ const LeftSquareOutlined: LeftSquareOutlinedIconType = (props, context) => <Icon
 
 LeftSquareOutlined.displayName = 'LeftSquareOutlined';
 
-export default FunctionalComponent;
+export default LeftSquareOutlined;

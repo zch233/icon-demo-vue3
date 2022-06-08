@@ -13,4 +13,4 @@ const CarryOutTwoTone: CarryOutTwoToneIconType = (props, context) => <Icon {...{
 
 CarryOutTwoTone.displayName = 'CarryOutTwoTone';
 
-export default FunctionalComponent;
+export default CarryOutTwoTone;

@@ -13,4 +13,4 @@ const QqOutlined: QqOutlinedIconType = (props, context) => <Icon {...{ ...props,
 
 QqOutlined.displayName = 'QqOutlined';
 
-export default FunctionalComponent;
+export default QqOutlined;

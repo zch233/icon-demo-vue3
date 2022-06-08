@@ -13,4 +13,4 @@ const SearchOutlined: SearchOutlinedIconType = (props, context) => <Icon {...{ .
 
 SearchOutlined.displayName = 'SearchOutlined';
 
-export default FunctionalComponent;
+export default SearchOutlined;

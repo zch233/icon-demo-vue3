@@ -13,4 +13,4 @@ const FileExclamationTwoTone: FileExclamationTwoToneIconType = (props, context) 
 
 FileExclamationTwoTone.displayName = 'FileExclamationTwoTone';
 
-export default FunctionalComponent;
+export default FileExclamationTwoTone;

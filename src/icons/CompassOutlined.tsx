@@ -13,4 +13,4 @@ const CompassOutlined: CompassOutlinedIconType = (props, context) => <Icon {...{
 
 CompassOutlined.displayName = 'CompassOutlined';
 
-export default FunctionalComponent;
+export default CompassOutlined;

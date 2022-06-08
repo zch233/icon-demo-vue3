@@ -13,4 +13,4 @@ const PlaySquareTwoTone: PlaySquareTwoToneIconType = (props, context) => <Icon {
 
 PlaySquareTwoTone.displayName = 'PlaySquareTwoTone';
 
-export default FunctionalComponent;
+export default PlaySquareTwoTone;

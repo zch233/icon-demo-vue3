@@ -13,4 +13,4 @@ const AliyunOutlined: AliyunOutlinedIconType = (props, context) => <Icon {...{ .
 
 AliyunOutlined.displayName = 'AliyunOutlined';
 
-export default FunctionalComponent;
+export default AliyunOutlined;

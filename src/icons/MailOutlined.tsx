@@ -13,4 +13,4 @@ const MailOutlined: MailOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 MailOutlined.displayName = 'MailOutlined';
 
-export default FunctionalComponent;
+export default MailOutlined;

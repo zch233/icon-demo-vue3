@@ -13,4 +13,4 @@ const OrderedListOutlined: OrderedListOutlinedIconType = (props, context) => <Ic
 
 OrderedListOutlined.displayName = 'OrderedListOutlined';
 
-export default FunctionalComponent;
+export default OrderedListOutlined;

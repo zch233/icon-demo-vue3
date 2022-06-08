@@ -13,4 +13,4 @@ const AntCloudOutlined: AntCloudOutlinedIconType = (props, context) => <Icon {..
 
 AntCloudOutlined.displayName = 'AntCloudOutlined';
 
-export default FunctionalComponent;
+export default AntCloudOutlined;

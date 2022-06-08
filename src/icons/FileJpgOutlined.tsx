@@ -13,4 +13,4 @@ const FileJpgOutlined: FileJpgOutlinedIconType = (props, context) => <Icon {...{
 
 FileJpgOutlined.displayName = 'FileJpgOutlined';
 
-export default FunctionalComponent;
+export default FileJpgOutlined;

@@ -13,4 +13,4 @@ const SlackSquareFilled: SlackSquareFilledIconType = (props, context) => <Icon {
 
 SlackSquareFilled.displayName = 'SlackSquareFilled';
 
-export default FunctionalComponent;
+export default SlackSquareFilled;

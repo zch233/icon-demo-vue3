@@ -13,4 +13,4 @@ const SnippetsTwoTone: SnippetsTwoToneIconType = (props, context) => <Icon {...{
 
 SnippetsTwoTone.displayName = 'SnippetsTwoTone';
 
-export default FunctionalComponent;
+export default SnippetsTwoTone;

@@ -13,4 +13,4 @@ const ScanOutlined: ScanOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 ScanOutlined.displayName = 'ScanOutlined';
 
-export default FunctionalComponent;
+export default ScanOutlined;

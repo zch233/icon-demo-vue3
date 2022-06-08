@@ -13,4 +13,4 @@ const MedicineBoxTwoTone: MedicineBoxTwoToneIconType = (props, context) => <Icon
 
 MedicineBoxTwoTone.displayName = 'MedicineBoxTwoTone';
 
-export default FunctionalComponent;
+export default MedicineBoxTwoTone;

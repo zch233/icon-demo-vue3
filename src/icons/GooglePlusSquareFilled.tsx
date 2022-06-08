@@ -13,4 +13,4 @@ const GooglePlusSquareFilled: GooglePlusSquareFilledIconType = (props, context) 
 
 GooglePlusSquareFilled.displayName = 'GooglePlusSquareFilled';
 
-export default FunctionalComponent;
+export default GooglePlusSquareFilled;

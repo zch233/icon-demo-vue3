@@ -13,4 +13,4 @@ const DropboxSquareFilled: DropboxSquareFilledIconType = (props, context) => <Ic
 
 DropboxSquareFilled.displayName = 'DropboxSquareFilled';
 
-export default FunctionalComponent;
+export default DropboxSquareFilled;

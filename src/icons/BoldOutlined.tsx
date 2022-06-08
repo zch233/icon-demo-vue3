@@ -13,4 +13,4 @@ const BoldOutlined: BoldOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 BoldOutlined.displayName = 'BoldOutlined';
 
-export default FunctionalComponent;
+export default BoldOutlined;

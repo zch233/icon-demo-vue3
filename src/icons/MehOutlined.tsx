@@ -13,4 +13,4 @@ const MehOutlined: MehOutlinedIconType = (props, context) => <Icon {...{ ...prop
 
 MehOutlined.displayName = 'MehOutlined';
 
-export default FunctionalComponent;
+export default MehOutlined;

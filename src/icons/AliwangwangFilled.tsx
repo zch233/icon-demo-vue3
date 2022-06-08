@@ -13,4 +13,4 @@ const AliwangwangFilled: AliwangwangFilledIconType = (props, context) => <Icon {
 
 AliwangwangFilled.displayName = 'AliwangwangFilled';
 
-export default FunctionalComponent;
+export default AliwangwangFilled;

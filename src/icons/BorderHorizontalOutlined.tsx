@@ -13,4 +13,4 @@ const BorderHorizontalOutlined: BorderHorizontalOutlinedIconType = (props, conte
 
 BorderHorizontalOutlined.displayName = 'BorderHorizontalOutlined';
 
-export default FunctionalComponent;
+export default BorderHorizontalOutlined;

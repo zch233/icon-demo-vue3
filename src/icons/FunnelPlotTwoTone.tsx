@@ -13,4 +13,4 @@ const FunnelPlotTwoTone: FunnelPlotTwoToneIconType = (props, context) => <Icon {
 
 FunnelPlotTwoTone.displayName = 'FunnelPlotTwoTone';
 
-export default FunctionalComponent;
+export default FunnelPlotTwoTone;

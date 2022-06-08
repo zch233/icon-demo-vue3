@@ -13,4 +13,4 @@ const RestFilled: RestFilledIconType = (props, context) => <Icon {...{ ...props,
 
 RestFilled.displayName = 'RestFilled';
 
-export default FunctionalComponent;
+export default RestFilled;

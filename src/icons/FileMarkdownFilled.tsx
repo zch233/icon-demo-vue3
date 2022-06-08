@@ -13,4 +13,4 @@ const FileMarkdownFilled: FileMarkdownFilledIconType = (props, context) => <Icon
 
 FileMarkdownFilled.displayName = 'FileMarkdownFilled';
 
-export default FunctionalComponent;
+export default FileMarkdownFilled;

@@ -13,4 +13,4 @@ const BuildOutlined: BuildOutlinedIconType = (props, context) => <Icon {...{ ...
 
 BuildOutlined.displayName = 'BuildOutlined';
 
-export default FunctionalComponent;
+export default BuildOutlined;

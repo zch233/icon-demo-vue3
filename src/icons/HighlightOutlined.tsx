@@ -13,4 +13,4 @@ const HighlightOutlined: HighlightOutlinedIconType = (props, context) => <Icon {
 
 HighlightOutlined.displayName = 'HighlightOutlined';
 
-export default FunctionalComponent;
+export default HighlightOutlined;

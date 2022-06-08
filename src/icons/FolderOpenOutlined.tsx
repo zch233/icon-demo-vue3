@@ -13,4 +13,4 @@ const FolderOpenOutlined: FolderOpenOutlinedIconType = (props, context) => <Icon
 
 FolderOpenOutlined.displayName = 'FolderOpenOutlined';
 
-export default FunctionalComponent;
+export default FolderOpenOutlined;

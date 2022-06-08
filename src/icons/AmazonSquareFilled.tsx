@@ -13,4 +13,4 @@ const AmazonSquareFilled: AmazonSquareFilledIconType = (props, context) => <Icon
 
 AmazonSquareFilled.displayName = 'AmazonSquareFilled';
 
-export default FunctionalComponent;
+export default AmazonSquareFilled;

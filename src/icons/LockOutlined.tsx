@@ -13,4 +13,4 @@ const LockOutlined: LockOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 LockOutlined.displayName = 'LockOutlined';
 
-export default FunctionalComponent;
+export default LockOutlined;

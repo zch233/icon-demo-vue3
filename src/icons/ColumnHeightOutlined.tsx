@@ -13,4 +13,4 @@ const ColumnHeightOutlined: ColumnHeightOutlinedIconType = (props, context) => <
 
 ColumnHeightOutlined.displayName = 'ColumnHeightOutlined';
 
-export default FunctionalComponent;
+export default ColumnHeightOutlined;

@@ -13,4 +13,4 @@ const DatabaseOutlined: DatabaseOutlinedIconType = (props, context) => <Icon {..
 
 DatabaseOutlined.displayName = 'DatabaseOutlined';
 
-export default FunctionalComponent;
+export default DatabaseOutlined;

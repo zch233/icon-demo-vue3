@@ -13,4 +13,4 @@ const WalletTwoTone: WalletTwoToneIconType = (props, context) => <Icon {...{ ...
 
 WalletTwoTone.displayName = 'WalletTwoTone';
 
-export default FunctionalComponent;
+export default WalletTwoTone;

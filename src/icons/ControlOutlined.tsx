@@ -13,4 +13,4 @@ const ControlOutlined: ControlOutlinedIconType = (props, context) => <Icon {...{
 
 ControlOutlined.displayName = 'ControlOutlined';
 
-export default FunctionalComponent;
+export default ControlOutlined;

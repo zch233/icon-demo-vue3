@@ -13,4 +13,4 @@ const CloseCircleTwoTone: CloseCircleTwoToneIconType = (props, context) => <Icon
 
 CloseCircleTwoTone.displayName = 'CloseCircleTwoTone';
 
-export default FunctionalComponent;
+export default CloseCircleTwoTone;

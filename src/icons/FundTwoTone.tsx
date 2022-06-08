@@ -13,4 +13,4 @@ const FundTwoTone: FundTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 FundTwoTone.displayName = 'FundTwoTone';
 
-export default FunctionalComponent;
+export default FundTwoTone;

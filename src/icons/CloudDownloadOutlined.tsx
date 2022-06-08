@@ -13,4 +13,4 @@ const CloudDownloadOutlined: CloudDownloadOutlinedIconType = (props, context) =>
 
 CloudDownloadOutlined.displayName = 'CloudDownloadOutlined';
 
-export default FunctionalComponent;
+export default CloudDownloadOutlined;

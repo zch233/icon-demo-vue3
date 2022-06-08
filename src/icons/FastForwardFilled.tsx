@@ -13,4 +13,4 @@ const FastForwardFilled: FastForwardFilledIconType = (props, context) => <Icon {
 
 FastForwardFilled.displayName = 'FastForwardFilled';
 
-export default FunctionalComponent;
+export default FastForwardFilled;

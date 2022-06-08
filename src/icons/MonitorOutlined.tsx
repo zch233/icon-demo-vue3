@@ -13,4 +13,4 @@ const MonitorOutlined: MonitorOutlinedIconType = (props, context) => <Icon {...{
 
 MonitorOutlined.displayName = 'MonitorOutlined';
 
-export default FunctionalComponent;
+export default MonitorOutlined;

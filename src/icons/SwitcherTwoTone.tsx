@@ -13,4 +13,4 @@ const SwitcherTwoTone: SwitcherTwoToneIconType = (props, context) => <Icon {...{
 
 SwitcherTwoTone.displayName = 'SwitcherTwoTone';
 
-export default FunctionalComponent;
+export default SwitcherTwoTone;

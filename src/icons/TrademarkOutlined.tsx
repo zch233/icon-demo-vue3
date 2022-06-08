@@ -13,4 +13,4 @@ const TrademarkOutlined: TrademarkOutlinedIconType = (props, context) => <Icon {
 
 TrademarkOutlined.displayName = 'TrademarkOutlined';
 
-export default FunctionalComponent;
+export default TrademarkOutlined;

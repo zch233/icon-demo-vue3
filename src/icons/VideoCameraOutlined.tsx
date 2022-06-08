@@ -13,4 +13,4 @@ const VideoCameraOutlined: VideoCameraOutlinedIconType = (props, context) => <Ic
 
 VideoCameraOutlined.displayName = 'VideoCameraOutlined';
 
-export default FunctionalComponent;
+export default VideoCameraOutlined;

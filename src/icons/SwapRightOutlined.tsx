@@ -13,4 +13,4 @@ const SwapRightOutlined: SwapRightOutlinedIconType = (props, context) => <Icon {
 
 SwapRightOutlined.displayName = 'SwapRightOutlined';
 
-export default FunctionalComponent;
+export default SwapRightOutlined;

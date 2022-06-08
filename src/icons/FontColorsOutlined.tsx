@@ -13,4 +13,4 @@ const FontColorsOutlined: FontColorsOutlinedIconType = (props, context) => <Icon
 
 FontColorsOutlined.displayName = 'FontColorsOutlined';
 
-export default FunctionalComponent;
+export default FontColorsOutlined;

@@ -13,4 +13,4 @@ const BuildFilled: BuildFilledIconType = (props, context) => <Icon {...{ ...prop
 
 BuildFilled.displayName = 'BuildFilled';
 
-export default FunctionalComponent;
+export default BuildFilled;

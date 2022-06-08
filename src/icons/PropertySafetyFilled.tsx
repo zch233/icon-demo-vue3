@@ -13,4 +13,4 @@ const PropertySafetyFilled: PropertySafetyFilledIconType = (props, context) => <
 
 PropertySafetyFilled.displayName = 'PropertySafetyFilled';
 
-export default FunctionalComponent;
+export default PropertySafetyFilled;

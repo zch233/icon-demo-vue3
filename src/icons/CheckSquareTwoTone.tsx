@@ -13,4 +13,4 @@ const CheckSquareTwoTone: CheckSquareTwoToneIconType = (props, context) => <Icon
 
 CheckSquareTwoTone.displayName = 'CheckSquareTwoTone';
 
-export default FunctionalComponent;
+export default CheckSquareTwoTone;

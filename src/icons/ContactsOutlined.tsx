@@ -13,4 +13,4 @@ const ContactsOutlined: ContactsOutlinedIconType = (props, context) => <Icon {..
 
 ContactsOutlined.displayName = 'ContactsOutlined';
 
-export default FunctionalComponent;
+export default ContactsOutlined;

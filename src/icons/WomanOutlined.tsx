@@ -13,4 +13,4 @@ const WomanOutlined: WomanOutlinedIconType = (props, context) => <Icon {...{ ...
 
 WomanOutlined.displayName = 'WomanOutlined';
 
-export default FunctionalComponent;
+export default WomanOutlined;

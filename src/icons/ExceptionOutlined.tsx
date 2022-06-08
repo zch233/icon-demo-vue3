@@ -13,4 +13,4 @@ const ExceptionOutlined: ExceptionOutlinedIconType = (props, context) => <Icon {
 
 ExceptionOutlined.displayName = 'ExceptionOutlined';
 
-export default FunctionalComponent;
+export default ExceptionOutlined;

@@ -13,4 +13,4 @@ const CameraTwoTone: CameraTwoToneIconType = (props, context) => <Icon {...{ ...
 
 CameraTwoTone.displayName = 'CameraTwoTone';
 
-export default FunctionalComponent;
+export default CameraTwoTone;

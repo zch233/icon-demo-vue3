@@ -13,4 +13,4 @@ const WechatFilled: WechatFilledIconType = (props, context) => <Icon {...{ ...pr
 
 WechatFilled.displayName = 'WechatFilled';
 
-export default FunctionalComponent;
+export default WechatFilled;

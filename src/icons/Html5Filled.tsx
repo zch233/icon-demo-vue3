@@ -13,4 +13,4 @@ const Html5Filled: Html5FilledIconType = (props, context) => <Icon {...{ ...prop
 
 Html5Filled.displayName = 'Html5Filled';
 
-export default FunctionalComponent;
+export default Html5Filled;

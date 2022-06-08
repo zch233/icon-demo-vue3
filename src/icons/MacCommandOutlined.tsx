@@ -13,4 +13,4 @@ const MacCommandOutlined: MacCommandOutlinedIconType = (props, context) => <Icon
 
 MacCommandOutlined.displayName = 'MacCommandOutlined';
 
-export default FunctionalComponent;
+export default MacCommandOutlined;

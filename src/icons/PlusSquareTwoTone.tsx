@@ -13,4 +13,4 @@ const PlusSquareTwoTone: PlusSquareTwoToneIconType = (props, context) => <Icon {
 
 PlusSquareTwoTone.displayName = 'PlusSquareTwoTone';
 
-export default FunctionalComponent;
+export default PlusSquareTwoTone;

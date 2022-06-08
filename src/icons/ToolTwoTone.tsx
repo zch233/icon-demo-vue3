@@ -13,4 +13,4 @@ const ToolTwoTone: ToolTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 ToolTwoTone.displayName = 'ToolTwoTone';
 
-export default FunctionalComponent;
+export default ToolTwoTone;

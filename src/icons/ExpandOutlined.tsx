@@ -13,4 +13,4 @@ const ExpandOutlined: ExpandOutlinedIconType = (props, context) => <Icon {...{ .
 
 ExpandOutlined.displayName = 'ExpandOutlined';
 
-export default FunctionalComponent;
+export default ExpandOutlined;

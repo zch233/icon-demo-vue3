@@ -13,4 +13,4 @@ const InteractionTwoTone: InteractionTwoToneIconType = (props, context) => <Icon
 
 InteractionTwoTone.displayName = 'InteractionTwoTone';
 
-export default FunctionalComponent;
+export default InteractionTwoTone;

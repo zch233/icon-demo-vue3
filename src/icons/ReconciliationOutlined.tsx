@@ -13,4 +13,4 @@ const ReconciliationOutlined: ReconciliationOutlinedIconType = (props, context) 
 
 ReconciliationOutlined.displayName = 'ReconciliationOutlined';
 
-export default FunctionalComponent;
+export default ReconciliationOutlined;

@@ -13,4 +13,4 @@ const ColumnWidthOutlined: ColumnWidthOutlinedIconType = (props, context) => <Ic
 
 ColumnWidthOutlined.displayName = 'ColumnWidthOutlined';
 
-export default FunctionalComponent;
+export default ColumnWidthOutlined;

@@ -13,4 +13,4 @@ const ApiTwoTone: ApiTwoToneIconType = (props, context) => <Icon {...{ ...props,
 
 ApiTwoTone.displayName = 'ApiTwoTone';
 
-export default FunctionalComponent;
+export default ApiTwoTone;

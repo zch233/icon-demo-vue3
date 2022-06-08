@@ -13,4 +13,4 @@ const HomeTwoTone: HomeTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 HomeTwoTone.displayName = 'HomeTwoTone';
 
-export default FunctionalComponent;
+export default HomeTwoTone;

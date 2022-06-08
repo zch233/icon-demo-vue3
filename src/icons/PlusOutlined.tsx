@@ -13,4 +13,4 @@ const PlusOutlined: PlusOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 PlusOutlined.displayName = 'PlusOutlined';
 
-export default FunctionalComponent;
+export default PlusOutlined;

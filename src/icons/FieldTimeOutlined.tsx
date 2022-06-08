@@ -13,4 +13,4 @@ const FieldTimeOutlined: FieldTimeOutlinedIconType = (props, context) => <Icon {
 
 FieldTimeOutlined.displayName = 'FieldTimeOutlined';
 
-export default FunctionalComponent;
+export default FieldTimeOutlined;

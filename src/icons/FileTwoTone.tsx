@@ -13,4 +13,4 @@ const FileTwoTone: FileTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 FileTwoTone.displayName = 'FileTwoTone';
 
-export default FunctionalComponent;
+export default FileTwoTone;

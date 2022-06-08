@@ -13,4 +13,4 @@ const VerifiedOutlined: VerifiedOutlinedIconType = (props, context) => <Icon {..
 
 VerifiedOutlined.displayName = 'VerifiedOutlined';
 
-export default FunctionalComponent;
+export default VerifiedOutlined;

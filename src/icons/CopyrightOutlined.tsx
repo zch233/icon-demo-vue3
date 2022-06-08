@@ -13,4 +13,4 @@ const CopyrightOutlined: CopyrightOutlinedIconType = (props, context) => <Icon {
 
 CopyrightOutlined.displayName = 'CopyrightOutlined';
 
-export default FunctionalComponent;
+export default CopyrightOutlined;

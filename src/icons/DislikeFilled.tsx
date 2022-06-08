@@ -13,4 +13,4 @@ const DislikeFilled: DislikeFilledIconType = (props, context) => <Icon {...{ ...
 
 DislikeFilled.displayName = 'DislikeFilled';
 
-export default FunctionalComponent;
+export default DislikeFilled;

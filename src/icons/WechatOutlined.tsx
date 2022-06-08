@@ -13,4 +13,4 @@ const WechatOutlined: WechatOutlinedIconType = (props, context) => <Icon {...{ .
 
 WechatOutlined.displayName = 'WechatOutlined';
 
-export default FunctionalComponent;
+export default WechatOutlined;

@@ -13,4 +13,4 @@ const FacebookFilled: FacebookFilledIconType = (props, context) => <Icon {...{ .
 
 FacebookFilled.displayName = 'FacebookFilled';
 
-export default FunctionalComponent;
+export default FacebookFilled;

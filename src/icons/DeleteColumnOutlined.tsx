@@ -13,4 +13,4 @@ const DeleteColumnOutlined: DeleteColumnOutlinedIconType = (props, context) => <
 
 DeleteColumnOutlined.displayName = 'DeleteColumnOutlined';
 
-export default FunctionalComponent;
+export default DeleteColumnOutlined;

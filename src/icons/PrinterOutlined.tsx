@@ -13,4 +13,4 @@ const PrinterOutlined: PrinterOutlinedIconType = (props, context) => <Icon {...{
 
 PrinterOutlined.displayName = 'PrinterOutlined';
 
-export default FunctionalComponent;
+export default PrinterOutlined;

@@ -13,4 +13,4 @@ const CodepenSquareFilled: CodepenSquareFilledIconType = (props, context) => <Ic
 
 CodepenSquareFilled.displayName = 'CodepenSquareFilled';
 
-export default FunctionalComponent;
+export default CodepenSquareFilled;

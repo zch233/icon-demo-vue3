@@ -13,4 +13,4 @@ const LinkOutlined: LinkOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 LinkOutlined.displayName = 'LinkOutlined';
 
-export default FunctionalComponent;
+export default LinkOutlined;

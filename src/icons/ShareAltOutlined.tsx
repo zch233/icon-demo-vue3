@@ -13,4 +13,4 @@ const ShareAltOutlined: ShareAltOutlinedIconType = (props, context) => <Icon {..
 
 ShareAltOutlined.displayName = 'ShareAltOutlined';
 
-export default FunctionalComponent;
+export default ShareAltOutlined;

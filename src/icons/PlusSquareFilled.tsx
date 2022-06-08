@@ -13,4 +13,4 @@ const PlusSquareFilled: PlusSquareFilledIconType = (props, context) => <Icon {..
 
 PlusSquareFilled.displayName = 'PlusSquareFilled';
 
-export default FunctionalComponent;
+export default PlusSquareFilled;

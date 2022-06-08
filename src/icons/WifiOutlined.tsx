@@ -13,4 +13,4 @@ const WifiOutlined: WifiOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 WifiOutlined.displayName = 'WifiOutlined';
 
-export default FunctionalComponent;
+export default WifiOutlined;

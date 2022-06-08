@@ -13,4 +13,4 @@ const TrademarkCircleTwoTone: TrademarkCircleTwoToneIconType = (props, context) 
 
 TrademarkCircleTwoTone.displayName = 'TrademarkCircleTwoTone';
 
-export default FunctionalComponent;
+export default TrademarkCircleTwoTone;

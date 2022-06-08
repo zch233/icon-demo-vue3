@@ -13,4 +13,4 @@ const CodeSandboxSquareFilled: CodeSandboxSquareFilledIconType = (props, context
 
 CodeSandboxSquareFilled.displayName = 'CodeSandboxSquareFilled';
 
-export default FunctionalComponent;
+export default CodeSandboxSquareFilled;

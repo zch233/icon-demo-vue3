@@ -13,4 +13,4 @@ const SketchOutlined: SketchOutlinedIconType = (props, context) => <Icon {...{ .
 
 SketchOutlined.displayName = 'SketchOutlined';
 
-export default FunctionalComponent;
+export default SketchOutlined;

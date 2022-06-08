@@ -13,4 +13,4 @@ const DownOutlined: DownOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 DownOutlined.displayName = 'DownOutlined';
 
-export default FunctionalComponent;
+export default DownOutlined;

@@ -13,4 +13,4 @@ const InfoCircleTwoTone: InfoCircleTwoToneIconType = (props, context) => <Icon {
 
 InfoCircleTwoTone.displayName = 'InfoCircleTwoTone';
 
-export default FunctionalComponent;
+export default InfoCircleTwoTone;

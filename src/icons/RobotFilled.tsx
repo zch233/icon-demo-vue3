@@ -13,4 +13,4 @@ const RobotFilled: RobotFilledIconType = (props, context) => <Icon {...{ ...prop
 
 RobotFilled.displayName = 'RobotFilled';
 
-export default FunctionalComponent;
+export default RobotFilled;

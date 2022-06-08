@@ -13,4 +13,4 @@ const PoundCircleFilled: PoundCircleFilledIconType = (props, context) => <Icon {
 
 PoundCircleFilled.displayName = 'PoundCircleFilled';
 
-export default FunctionalComponent;
+export default PoundCircleFilled;

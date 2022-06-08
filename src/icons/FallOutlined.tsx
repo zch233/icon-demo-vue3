@@ -13,4 +13,4 @@ const FallOutlined: FallOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 FallOutlined.displayName = 'FallOutlined';
 
-export default FunctionalComponent;
+export default FallOutlined;

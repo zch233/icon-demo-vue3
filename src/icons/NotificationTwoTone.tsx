@@ -13,4 +13,4 @@ const NotificationTwoTone: NotificationTwoToneIconType = (props, context) => <Ic
 
 NotificationTwoTone.displayName = 'NotificationTwoTone';
 
-export default FunctionalComponent;
+export default NotificationTwoTone;

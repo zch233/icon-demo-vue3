@@ -13,4 +13,4 @@ const HomeOutlined: HomeOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 HomeOutlined.displayName = 'HomeOutlined';
 
-export default FunctionalComponent;
+export default HomeOutlined;

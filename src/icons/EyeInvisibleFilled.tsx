@@ -13,4 +13,4 @@ const EyeInvisibleFilled: EyeInvisibleFilledIconType = (props, context) => <Icon
 
 EyeInvisibleFilled.displayName = 'EyeInvisibleFilled';
 
-export default FunctionalComponent;
+export default EyeInvisibleFilled;

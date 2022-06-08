@@ -13,4 +13,4 @@ const DeleteFilled: DeleteFilledIconType = (props, context) => <Icon {...{ ...pr
 
 DeleteFilled.displayName = 'DeleteFilled';
 
-export default FunctionalComponent;
+export default DeleteFilled;

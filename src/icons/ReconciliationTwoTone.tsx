@@ -13,4 +13,4 @@ const ReconciliationTwoTone: ReconciliationTwoToneIconType = (props, context) =>
 
 ReconciliationTwoTone.displayName = 'ReconciliationTwoTone';
 
-export default FunctionalComponent;
+export default ReconciliationTwoTone;

@@ -13,4 +13,4 @@ const ContainerTwoTone: ContainerTwoToneIconType = (props, context) => <Icon {..
 
 ContainerTwoTone.displayName = 'ContainerTwoTone';
 
-export default FunctionalComponent;
+export default ContainerTwoTone;

@@ -13,4 +13,4 @@ const IssuesCloseOutlined: IssuesCloseOutlinedIconType = (props, context) => <Ic
 
 IssuesCloseOutlined.displayName = 'IssuesCloseOutlined';
 
-export default FunctionalComponent;
+export default IssuesCloseOutlined;

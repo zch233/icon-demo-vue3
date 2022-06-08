@@ -13,4 +13,4 @@ const MinusSquareFilled: MinusSquareFilledIconType = (props, context) => <Icon {
 
 MinusSquareFilled.displayName = 'MinusSquareFilled';
 
-export default FunctionalComponent;
+export default MinusSquareFilled;

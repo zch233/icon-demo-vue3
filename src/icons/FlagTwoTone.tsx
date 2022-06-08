@@ -13,4 +13,4 @@ const FlagTwoTone: FlagTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 FlagTwoTone.displayName = 'FlagTwoTone';
 
-export default FunctionalComponent;
+export default FlagTwoTone;

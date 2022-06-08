@@ -13,4 +13,4 @@ const SafetyCertificateTwoTone: SafetyCertificateTwoToneIconType = (props, conte
 
 SafetyCertificateTwoTone.displayName = 'SafetyCertificateTwoTone';
 
-export default FunctionalComponent;
+export default SafetyCertificateTwoTone;

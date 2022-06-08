@@ -13,4 +13,4 @@ const UnlockFilled: UnlockFilledIconType = (props, context) => <Icon {...{ ...pr
 
 UnlockFilled.displayName = 'UnlockFilled';
 
-export default FunctionalComponent;
+export default UnlockFilled;

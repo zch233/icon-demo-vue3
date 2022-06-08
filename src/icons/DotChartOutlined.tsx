@@ -13,4 +13,4 @@ const DotChartOutlined: DotChartOutlinedIconType = (props, context) => <Icon {..
 
 DotChartOutlined.displayName = 'DotChartOutlined';
 
-export default FunctionalComponent;
+export default DotChartOutlined;

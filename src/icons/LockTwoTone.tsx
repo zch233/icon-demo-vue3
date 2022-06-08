@@ -13,4 +13,4 @@ const LockTwoTone: LockTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 LockTwoTone.displayName = 'LockTwoTone';
 
-export default FunctionalComponent;
+export default LockTwoTone;

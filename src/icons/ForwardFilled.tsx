@@ -13,4 +13,4 @@ const ForwardFilled: ForwardFilledIconType = (props, context) => <Icon {...{ ...
 
 ForwardFilled.displayName = 'ForwardFilled';
 
-export default FunctionalComponent;
+export default ForwardFilled;

@@ -13,4 +13,4 @@ const FileZipOutlined: FileZipOutlinedIconType = (props, context) => <Icon {...{
 
 FileZipOutlined.displayName = 'FileZipOutlined';
 
-export default FunctionalComponent;
+export default FileZipOutlined;

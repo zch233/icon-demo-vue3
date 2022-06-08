@@ -13,4 +13,4 @@ const BugOutlined: BugOutlinedIconType = (props, context) => <Icon {...{ ...prop
 
 BugOutlined.displayName = 'BugOutlined';
 
-export default FunctionalComponent;
+export default BugOutlined;

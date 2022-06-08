@@ -13,4 +13,4 @@ const ProjectFilled: ProjectFilledIconType = (props, context) => <Icon {...{ ...
 
 ProjectFilled.displayName = 'ProjectFilled';
 
-export default FunctionalComponent;
+export default ProjectFilled;

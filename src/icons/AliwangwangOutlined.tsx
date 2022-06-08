@@ -13,4 +13,4 @@ const AliwangwangOutlined: AliwangwangOutlinedIconType = (props, context) => <Ic
 
 AliwangwangOutlined.displayName = 'AliwangwangOutlined';
 
-export default FunctionalComponent;
+export default AliwangwangOutlined;

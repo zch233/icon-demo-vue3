@@ -13,4 +13,4 @@ const TagTwoTone: TagTwoToneIconType = (props, context) => <Icon {...{ ...props,
 
 TagTwoTone.displayName = 'TagTwoTone';
 
-export default FunctionalComponent;
+export default TagTwoTone;

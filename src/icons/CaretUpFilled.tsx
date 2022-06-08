@@ -13,4 +13,4 @@ const CaretUpFilled: CaretUpFilledIconType = (props, context) => <Icon {...{ ...
 
 CaretUpFilled.displayName = 'CaretUpFilled';
 
-export default FunctionalComponent;
+export default CaretUpFilled;

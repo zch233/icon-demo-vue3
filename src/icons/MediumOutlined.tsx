@@ -13,4 +13,4 @@ const MediumOutlined: MediumOutlinedIconType = (props, context) => <Icon {...{ .
 
 MediumOutlined.displayName = 'MediumOutlined';
 
-export default FunctionalComponent;
+export default MediumOutlined;

@@ -13,4 +13,4 @@ const MinusSquareOutlined: MinusSquareOutlinedIconType = (props, context) => <Ic
 
 MinusSquareOutlined.displayName = 'MinusSquareOutlined';
 
-export default FunctionalComponent;
+export default MinusSquareOutlined;

@@ -13,4 +13,4 @@ const GlobalOutlined: GlobalOutlinedIconType = (props, context) => <Icon {...{ .
 
 GlobalOutlined.displayName = 'GlobalOutlined';
 
-export default FunctionalComponent;
+export default GlobalOutlined;

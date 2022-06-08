@@ -13,4 +13,4 @@ const FileZipTwoTone: FileZipTwoToneIconType = (props, context) => <Icon {...{ .
 
 FileZipTwoTone.displayName = 'FileZipTwoTone';
 
-export default FunctionalComponent;
+export default FileZipTwoTone;

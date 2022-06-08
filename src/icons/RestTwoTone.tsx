@@ -13,4 +13,4 @@ const RestTwoTone: RestTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 RestTwoTone.displayName = 'RestTwoTone';
 
-export default FunctionalComponent;
+export default RestTwoTone;

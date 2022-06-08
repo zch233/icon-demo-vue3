@@ -13,4 +13,4 @@ const LeftCircleFilled: LeftCircleFilledIconType = (props, context) => <Icon {..
 
 LeftCircleFilled.displayName = 'LeftCircleFilled';
 
-export default FunctionalComponent;
+export default LeftCircleFilled;

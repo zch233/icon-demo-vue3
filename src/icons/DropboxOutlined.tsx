@@ -13,4 +13,4 @@ const DropboxOutlined: DropboxOutlinedIconType = (props, context) => <Icon {...{
 
 DropboxOutlined.displayName = 'DropboxOutlined';
 
-export default FunctionalComponent;
+export default DropboxOutlined;

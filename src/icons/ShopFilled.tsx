@@ -13,4 +13,4 @@ const ShopFilled: ShopFilledIconType = (props, context) => <Icon {...{ ...props,
 
 ShopFilled.displayName = 'ShopFilled';
 
-export default FunctionalComponent;
+export default ShopFilled;

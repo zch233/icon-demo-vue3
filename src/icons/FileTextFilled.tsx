@@ -13,4 +13,4 @@ const FileTextFilled: FileTextFilledIconType = (props, context) => <Icon {...{ .
 
 FileTextFilled.displayName = 'FileTextFilled';
 
-export default FunctionalComponent;
+export default FileTextFilled;

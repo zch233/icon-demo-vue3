@@ -13,4 +13,4 @@ const YuqueFilled: YuqueFilledIconType = (props, context) => <Icon {...{ ...prop
 
 YuqueFilled.displayName = 'YuqueFilled';
 
-export default FunctionalComponent;
+export default YuqueFilled;

@@ -13,4 +13,4 @@ const StopTwoTone: StopTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 StopTwoTone.displayName = 'StopTwoTone';
 
-export default FunctionalComponent;
+export default StopTwoTone;

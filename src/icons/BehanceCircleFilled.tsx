@@ -13,4 +13,4 @@ const BehanceCircleFilled: BehanceCircleFilledIconType = (props, context) => <Ic
 
 BehanceCircleFilled.displayName = 'BehanceCircleFilled';
 
-export default FunctionalComponent;
+export default BehanceCircleFilled;

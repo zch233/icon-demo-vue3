@@ -13,4 +13,4 @@ const CloseSquareTwoTone: CloseSquareTwoToneIconType = (props, context) => <Icon
 
 CloseSquareTwoTone.displayName = 'CloseSquareTwoTone';
 
-export default FunctionalComponent;
+export default CloseSquareTwoTone;

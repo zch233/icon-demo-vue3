@@ -13,4 +13,4 @@ const RedEnvelopeTwoTone: RedEnvelopeTwoToneIconType = (props, context) => <Icon
 
 RedEnvelopeTwoTone.displayName = 'RedEnvelopeTwoTone';
 
-export default FunctionalComponent;
+export default RedEnvelopeTwoTone;

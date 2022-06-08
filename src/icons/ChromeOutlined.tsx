@@ -13,4 +13,4 @@ const ChromeOutlined: ChromeOutlinedIconType = (props, context) => <Icon {...{ .
 
 ChromeOutlined.displayName = 'ChromeOutlined';
 
-export default FunctionalComponent;
+export default ChromeOutlined;

@@ -13,4 +13,4 @@ const CodepenCircleFilled: CodepenCircleFilledIconType = (props, context) => <Ic
 
 CodepenCircleFilled.displayName = 'CodepenCircleFilled';
 
-export default FunctionalComponent;
+export default CodepenCircleFilled;

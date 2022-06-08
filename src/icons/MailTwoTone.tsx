@@ -13,4 +13,4 @@ const MailTwoTone: MailTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 MailTwoTone.displayName = 'MailTwoTone';
 
-export default FunctionalComponent;
+export default MailTwoTone;

@@ -13,4 +13,4 @@ const HeartTwoTone: HeartTwoToneIconType = (props, context) => <Icon {...{ ...pr
 
 HeartTwoTone.displayName = 'HeartTwoTone';
 
-export default FunctionalComponent;
+export default HeartTwoTone;

@@ -13,4 +13,4 @@ const DashOutlined: DashOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 DashOutlined.displayName = 'DashOutlined';
 
-export default FunctionalComponent;
+export default DashOutlined;

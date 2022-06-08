@@ -13,4 +13,4 @@ const FilterTwoTone: FilterTwoToneIconType = (props, context) => <Icon {...{ ...
 
 FilterTwoTone.displayName = 'FilterTwoTone';
 
-export default FunctionalComponent;
+export default FilterTwoTone;

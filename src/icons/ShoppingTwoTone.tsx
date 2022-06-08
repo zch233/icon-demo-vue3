@@ -13,4 +13,4 @@ const ShoppingTwoTone: ShoppingTwoToneIconType = (props, context) => <Icon {...{
 
 ShoppingTwoTone.displayName = 'ShoppingTwoTone';
 
-export default FunctionalComponent;
+export default ShoppingTwoTone;

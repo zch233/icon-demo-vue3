@@ -13,4 +13,4 @@ const CloudOutlined: CloudOutlinedIconType = (props, context) => <Icon {...{ ...
 
 CloudOutlined.displayName = 'CloudOutlined';
 
-export default FunctionalComponent;
+export default CloudOutlined;

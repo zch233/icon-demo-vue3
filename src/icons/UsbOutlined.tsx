@@ -13,4 +13,4 @@ const UsbOutlined: UsbOutlinedIconType = (props, context) => <Icon {...{ ...prop
 
 UsbOutlined.displayName = 'UsbOutlined';
 
-export default FunctionalComponent;
+export default UsbOutlined;

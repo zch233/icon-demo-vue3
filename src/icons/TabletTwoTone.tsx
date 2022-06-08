@@ -13,4 +13,4 @@ const TabletTwoTone: TabletTwoToneIconType = (props, context) => <Icon {...{ ...
 
 TabletTwoTone.displayName = 'TabletTwoTone';
 
-export default FunctionalComponent;
+export default TabletTwoTone;

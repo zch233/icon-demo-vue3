@@ -13,4 +13,4 @@ const FundProjectionScreenOutlined: FundProjectionScreenOutlinedIconType = (prop
 
 FundProjectionScreenOutlined.displayName = 'FundProjectionScreenOutlined';
 
-export default FunctionalComponent;
+export default FundProjectionScreenOutlined;

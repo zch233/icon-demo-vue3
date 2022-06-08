@@ -13,4 +13,4 @@ const ClockCircleTwoTone: ClockCircleTwoToneIconType = (props, context) => <Icon
 
 ClockCircleTwoTone.displayName = 'ClockCircleTwoTone';
 
-export default FunctionalComponent;
+export default ClockCircleTwoTone;

@@ -13,4 +13,4 @@ const GooglePlusCircleFilled: GooglePlusCircleFilledIconType = (props, context) 
 
 GooglePlusCircleFilled.displayName = 'GooglePlusCircleFilled';
 
-export default FunctionalComponent;
+export default GooglePlusCircleFilled;

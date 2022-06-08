@@ -13,4 +13,4 @@ const ClusterOutlined: ClusterOutlinedIconType = (props, context) => <Icon {...{
 
 ClusterOutlined.displayName = 'ClusterOutlined';
 
-export default FunctionalComponent;
+export default ClusterOutlined;

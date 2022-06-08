@@ -13,4 +13,4 @@ const CheckOutlined: CheckOutlinedIconType = (props, context) => <Icon {...{ ...
 
 CheckOutlined.displayName = 'CheckOutlined';
 
-export default FunctionalComponent;
+export default CheckOutlined;

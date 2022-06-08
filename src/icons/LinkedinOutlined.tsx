@@ -13,4 +13,4 @@ const LinkedinOutlined: LinkedinOutlinedIconType = (props, context) => <Icon {..
 
 LinkedinOutlined.displayName = 'LinkedinOutlined';
 
-export default FunctionalComponent;
+export default LinkedinOutlined;

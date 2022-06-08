@@ -13,4 +13,4 @@ const DeleteTwoTone: DeleteTwoToneIconType = (props, context) => <Icon {...{ ...
 
 DeleteTwoTone.displayName = 'DeleteTwoTone';
 
-export default FunctionalComponent;
+export default DeleteTwoTone;

@@ -13,4 +13,4 @@ const MobileTwoTone: MobileTwoToneIconType = (props, context) => <Icon {...{ ...
 
 MobileTwoTone.displayName = 'MobileTwoTone';
 
-export default FunctionalComponent;
+export default MobileTwoTone;

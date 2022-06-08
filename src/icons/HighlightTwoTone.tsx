@@ -13,4 +13,4 @@ const HighlightTwoTone: HighlightTwoToneIconType = (props, context) => <Icon {..
 
 HighlightTwoTone.displayName = 'HighlightTwoTone';
 
-export default FunctionalComponent;
+export default HighlightTwoTone;

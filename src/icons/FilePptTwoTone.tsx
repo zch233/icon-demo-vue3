@@ -13,4 +13,4 @@ const FilePptTwoTone: FilePptTwoToneIconType = (props, context) => <Icon {...{ .
 
 FilePptTwoTone.displayName = 'FilePptTwoTone';
 
-export default FunctionalComponent;
+export default FilePptTwoTone;

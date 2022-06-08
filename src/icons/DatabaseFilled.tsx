@@ -13,4 +13,4 @@ const DatabaseFilled: DatabaseFilledIconType = (props, context) => <Icon {...{ .
 
 DatabaseFilled.displayName = 'DatabaseFilled';
 
-export default FunctionalComponent;
+export default DatabaseFilled;

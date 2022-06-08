@@ -13,4 +13,4 @@ const MenuUnfoldOutlined: MenuUnfoldOutlinedIconType = (props, context) => <Icon
 
 MenuUnfoldOutlined.displayName = 'MenuUnfoldOutlined';
 
-export default FunctionalComponent;
+export default MenuUnfoldOutlined;

@@ -13,4 +13,4 @@ const SkypeFilled: SkypeFilledIconType = (props, context) => <Icon {...{ ...prop
 
 SkypeFilled.displayName = 'SkypeFilled';
 
-export default FunctionalComponent;
+export default SkypeFilled;

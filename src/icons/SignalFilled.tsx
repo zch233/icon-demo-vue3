@@ -13,4 +13,4 @@ const SignalFilled: SignalFilledIconType = (props, context) => <Icon {...{ ...pr
 
 SignalFilled.displayName = 'SignalFilled';
 
-export default FunctionalComponent;
+export default SignalFilled;

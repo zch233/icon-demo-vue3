@@ -13,4 +13,4 @@ const CreditCardOutlined: CreditCardOutlinedIconType = (props, context) => <Icon
 
 CreditCardOutlined.displayName = 'CreditCardOutlined';
 
-export default FunctionalComponent;
+export default CreditCardOutlined;

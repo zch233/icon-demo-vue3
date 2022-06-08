@@ -13,4 +13,4 @@ const DribbbleSquareOutlined: DribbbleSquareOutlinedIconType = (props, context) 
 
 DribbbleSquareOutlined.displayName = 'DribbbleSquareOutlined';
 
-export default FunctionalComponent;
+export default DribbbleSquareOutlined;

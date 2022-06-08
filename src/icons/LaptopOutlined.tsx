@@ -13,4 +13,4 @@ const LaptopOutlined: LaptopOutlinedIconType = (props, context) => <Icon {...{ .
 
 LaptopOutlined.displayName = 'LaptopOutlined';
 
-export default FunctionalComponent;
+export default LaptopOutlined;

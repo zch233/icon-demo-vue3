@@ -13,4 +13,4 @@ const HddOutlined: HddOutlinedIconType = (props, context) => <Icon {...{ ...prop
 
 HddOutlined.displayName = 'HddOutlined';
 
-export default FunctionalComponent;
+export default HddOutlined;

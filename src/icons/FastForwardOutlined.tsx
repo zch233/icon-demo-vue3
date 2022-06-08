@@ -13,4 +13,4 @@ const FastForwardOutlined: FastForwardOutlinedIconType = (props, context) => <Ic
 
 FastForwardOutlined.displayName = 'FastForwardOutlined';
 
-export default FunctionalComponent;
+export default FastForwardOutlined;

@@ -13,4 +13,4 @@ const IeSquareFilled: IeSquareFilledIconType = (props, context) => <Icon {...{ .
 
 IeSquareFilled.displayName = 'IeSquareFilled';
 
-export default FunctionalComponent;
+export default IeSquareFilled;

@@ -13,4 +13,4 @@ const MinusOutlined: MinusOutlinedIconType = (props, context) => <Icon {...{ ...
 
 MinusOutlined.displayName = 'MinusOutlined';
 
-export default FunctionalComponent;
+export default MinusOutlined;

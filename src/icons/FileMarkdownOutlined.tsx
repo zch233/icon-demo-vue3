@@ -13,4 +13,4 @@ const FileMarkdownOutlined: FileMarkdownOutlinedIconType = (props, context) => <
 
 FileMarkdownOutlined.displayName = 'FileMarkdownOutlined';
 
-export default FunctionalComponent;
+export default FileMarkdownOutlined;

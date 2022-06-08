@@ -13,4 +13,4 @@ const FullscreenOutlined: FullscreenOutlinedIconType = (props, context) => <Icon
 
 FullscreenOutlined.displayName = 'FullscreenOutlined';
 
-export default FunctionalComponent;
+export default FullscreenOutlined;

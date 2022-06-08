@@ -13,4 +13,4 @@ const AppstoreTwoTone: AppstoreTwoToneIconType = (props, context) => <Icon {...{
 
 AppstoreTwoTone.displayName = 'AppstoreTwoTone';
 
-export default FunctionalComponent;
+export default AppstoreTwoTone;

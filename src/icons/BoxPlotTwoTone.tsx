@@ -13,4 +13,4 @@ const BoxPlotTwoTone: BoxPlotTwoToneIconType = (props, context) => <Icon {...{ .
 
 BoxPlotTwoTone.displayName = 'BoxPlotTwoTone';
 
-export default FunctionalComponent;
+export default BoxPlotTwoTone;

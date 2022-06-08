@@ -13,4 +13,4 @@ const ProjectTwoTone: ProjectTwoToneIconType = (props, context) => <Icon {...{ .
 
 ProjectTwoTone.displayName = 'ProjectTwoTone';
 
-export default FunctionalComponent;
+export default ProjectTwoTone;

@@ -13,4 +13,4 @@ const TabletFilled: TabletFilledIconType = (props, context) => <Icon {...{ ...pr
 
 TabletFilled.displayName = 'TabletFilled';
 
-export default FunctionalComponent;
+export default TabletFilled;

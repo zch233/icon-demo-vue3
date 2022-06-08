@@ -13,4 +13,4 @@ const CreditCardTwoTone: CreditCardTwoToneIconType = (props, context) => <Icon {
 
 CreditCardTwoTone.displayName = 'CreditCardTwoTone';
 
-export default FunctionalComponent;
+export default CreditCardTwoTone;

@@ -13,4 +13,4 @@ const UsergroupDeleteOutlined: UsergroupDeleteOutlinedIconType = (props, context
 
 UsergroupDeleteOutlined.displayName = 'UsergroupDeleteOutlined';
 
-export default FunctionalComponent;
+export default UsergroupDeleteOutlined;

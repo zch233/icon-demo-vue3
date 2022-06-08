@@ -13,4 +13,4 @@ const DislikeTwoTone: DislikeTwoToneIconType = (props, context) => <Icon {...{ .
 
 DislikeTwoTone.displayName = 'DislikeTwoTone';
 
-export default FunctionalComponent;
+export default DislikeTwoTone;

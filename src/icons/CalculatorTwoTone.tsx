@@ -13,4 +13,4 @@ const CalculatorTwoTone: CalculatorTwoToneIconType = (props, context) => <Icon {
 
 CalculatorTwoTone.displayName = 'CalculatorTwoTone';
 
-export default FunctionalComponent;
+export default CalculatorTwoTone;

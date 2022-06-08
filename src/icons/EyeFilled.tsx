@@ -13,4 +13,4 @@ const EyeFilled: EyeFilledIconType = (props, context) => <Icon {...{ ...props, .
 
 EyeFilled.displayName = 'EyeFilled';
 
-export default FunctionalComponent;
+export default EyeFilled;

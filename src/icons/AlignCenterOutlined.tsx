@@ -13,4 +13,4 @@ const AlignCenterOutlined: AlignCenterOutlinedIconType = (props, context) => <Ic
 
 AlignCenterOutlined.displayName = 'AlignCenterOutlined';
 
-export default FunctionalComponent;
+export default AlignCenterOutlined;

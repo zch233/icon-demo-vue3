@@ -13,4 +13,4 @@ const FileSyncOutlined: FileSyncOutlinedIconType = (props, context) => <Icon {..
 
 FileSyncOutlined.displayName = 'FileSyncOutlined';
 
-export default FunctionalComponent;
+export default FileSyncOutlined;

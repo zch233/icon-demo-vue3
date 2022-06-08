@@ -13,4 +13,4 @@ const FastBackwardOutlined: FastBackwardOutlinedIconType = (props, context) => <
 
 FastBackwardOutlined.displayName = 'FastBackwardOutlined';
 
-export default FunctionalComponent;
+export default FastBackwardOutlined;

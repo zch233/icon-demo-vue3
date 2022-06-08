@@ -13,4 +13,4 @@ const PoundCircleTwoTone: PoundCircleTwoToneIconType = (props, context) => <Icon
 
 PoundCircleTwoTone.displayName = 'PoundCircleTwoTone';
 
-export default FunctionalComponent;
+export default PoundCircleTwoTone;

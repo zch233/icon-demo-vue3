@@ -13,4 +13,4 @@ const ThunderboltTwoTone: ThunderboltTwoToneIconType = (props, context) => <Icon
 
 ThunderboltTwoTone.displayName = 'ThunderboltTwoTone';
 
-export default FunctionalComponent;
+export default ThunderboltTwoTone;

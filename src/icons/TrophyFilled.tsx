@@ -13,4 +13,4 @@ const TrophyFilled: TrophyFilledIconType = (props, context) => <Icon {...{ ...pr
 
 TrophyFilled.displayName = 'TrophyFilled';
 
-export default FunctionalComponent;
+export default TrophyFilled;

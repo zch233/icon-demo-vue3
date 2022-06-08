@@ -13,4 +13,4 @@ const NotificationFilled: NotificationFilledIconType = (props, context) => <Icon
 
 NotificationFilled.displayName = 'NotificationFilled';
 
-export default FunctionalComponent;
+export default NotificationFilled;

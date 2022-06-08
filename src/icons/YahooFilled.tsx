@@ -13,4 +13,4 @@ const YahooFilled: YahooFilledIconType = (props, context) => <Icon {...{ ...prop
 
 YahooFilled.displayName = 'YahooFilled';
 
-export default FunctionalComponent;
+export default YahooFilled;

@@ -13,4 +13,4 @@ const BehanceSquareOutlined: BehanceSquareOutlinedIconType = (props, context) =>
 
 BehanceSquareOutlined.displayName = 'BehanceSquareOutlined';
 
-export default FunctionalComponent;
+export default BehanceSquareOutlined;

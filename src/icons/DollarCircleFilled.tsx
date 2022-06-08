@@ -13,4 +13,4 @@ const DollarCircleFilled: DollarCircleFilledIconType = (props, context) => <Icon
 
 DollarCircleFilled.displayName = 'DollarCircleFilled';
 
-export default FunctionalComponent;
+export default DollarCircleFilled;

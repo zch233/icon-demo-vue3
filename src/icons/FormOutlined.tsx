@@ -13,4 +13,4 @@ const FormOutlined: FormOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 FormOutlined.displayName = 'FormOutlined';
 
-export default FunctionalComponent;
+export default FormOutlined;

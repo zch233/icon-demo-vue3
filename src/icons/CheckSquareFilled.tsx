@@ -13,4 +13,4 @@ const CheckSquareFilled: CheckSquareFilledIconType = (props, context) => <Icon {
 
 CheckSquareFilled.displayName = 'CheckSquareFilled';
 
-export default FunctionalComponent;
+export default CheckSquareFilled;

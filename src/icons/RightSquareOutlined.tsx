@@ -13,4 +13,4 @@ const RightSquareOutlined: RightSquareOutlinedIconType = (props, context) => <Ic
 
 RightSquareOutlined.displayName = 'RightSquareOutlined';
 
-export default FunctionalComponent;
+export default RightSquareOutlined;

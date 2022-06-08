@@ -13,4 +13,4 @@ const TwitterSquareFilled: TwitterSquareFilledIconType = (props, context) => <Ic
 
 TwitterSquareFilled.displayName = 'TwitterSquareFilled';
 
-export default FunctionalComponent;
+export default TwitterSquareFilled;

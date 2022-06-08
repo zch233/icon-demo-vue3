@@ -13,4 +13,4 @@ const Html5Outlined: Html5OutlinedIconType = (props, context) => <Icon {...{ ...
 
 Html5Outlined.displayName = 'Html5Outlined';
 
-export default FunctionalComponent;
+export default Html5Outlined;

@@ -13,4 +13,4 @@ const PhoneOutlined: PhoneOutlinedIconType = (props, context) => <Icon {...{ ...
 
 PhoneOutlined.displayName = 'PhoneOutlined';
 
-export default FunctionalComponent;
+export default PhoneOutlined;

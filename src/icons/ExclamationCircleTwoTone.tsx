@@ -13,4 +13,4 @@ const ExclamationCircleTwoTone: ExclamationCircleTwoToneIconType = (props, conte
 
 ExclamationCircleTwoTone.displayName = 'ExclamationCircleTwoTone';
 
-export default FunctionalComponent;
+export default ExclamationCircleTwoTone;

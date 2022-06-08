@@ -13,4 +13,4 @@ const WeiboOutlined: WeiboOutlinedIconType = (props, context) => <Icon {...{ ...
 
 WeiboOutlined.displayName = 'WeiboOutlined';
 
-export default FunctionalComponent;
+export default WeiboOutlined;

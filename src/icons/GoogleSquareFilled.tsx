@@ -13,4 +13,4 @@ const GoogleSquareFilled: GoogleSquareFilledIconType = (props, context) => <Icon
 
 GoogleSquareFilled.displayName = 'GoogleSquareFilled';
 
-export default FunctionalComponent;
+export default GoogleSquareFilled;

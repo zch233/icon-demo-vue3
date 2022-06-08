@@ -13,4 +13,4 @@ const SecurityScanOutlined: SecurityScanOutlinedIconType = (props, context) => <
 
 SecurityScanOutlined.displayName = 'SecurityScanOutlined';
 
-export default FunctionalComponent;
+export default SecurityScanOutlined;

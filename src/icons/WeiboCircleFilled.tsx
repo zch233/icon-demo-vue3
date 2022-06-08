@@ -13,4 +13,4 @@ const WeiboCircleFilled: WeiboCircleFilledIconType = (props, context) => <Icon {
 
 WeiboCircleFilled.displayName = 'WeiboCircleFilled';
 
-export default FunctionalComponent;
+export default WeiboCircleFilled;

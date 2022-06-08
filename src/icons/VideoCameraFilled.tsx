@@ -13,4 +13,4 @@ const VideoCameraFilled: VideoCameraFilledIconType = (props, context) => <Icon {
 
 VideoCameraFilled.displayName = 'VideoCameraFilled';
 
-export default FunctionalComponent;
+export default VideoCameraFilled;

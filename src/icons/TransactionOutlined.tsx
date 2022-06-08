@@ -13,4 +13,4 @@ const TransactionOutlined: TransactionOutlinedIconType = (props, context) => <Ic
 
 TransactionOutlined.displayName = 'TransactionOutlined';
 
-export default FunctionalComponent;
+export default TransactionOutlined;

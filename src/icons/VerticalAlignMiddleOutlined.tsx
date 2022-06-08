@@ -13,4 +13,4 @@ const VerticalAlignMiddleOutlined: VerticalAlignMiddleOutlinedIconType = (props,
 
 VerticalAlignMiddleOutlined.displayName = 'VerticalAlignMiddleOutlined';
 
-export default FunctionalComponent;
+export default VerticalAlignMiddleOutlined;

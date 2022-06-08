@@ -13,4 +13,4 @@ const FileExcelFilled: FileExcelFilledIconType = (props, context) => <Icon {...{
 
 FileExcelFilled.displayName = 'FileExcelFilled';
 
-export default FunctionalComponent;
+export default FileExcelFilled;

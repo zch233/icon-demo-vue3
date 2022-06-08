@@ -13,4 +13,4 @@ const InsuranceTwoTone: InsuranceTwoToneIconType = (props, context) => <Icon {..
 
 InsuranceTwoTone.displayName = 'InsuranceTwoTone';
 
-export default FunctionalComponent;
+export default InsuranceTwoTone;

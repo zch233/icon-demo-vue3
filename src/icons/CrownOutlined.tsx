@@ -13,4 +13,4 @@ const CrownOutlined: CrownOutlinedIconType = (props, context) => <Icon {...{ ...
 
 CrownOutlined.displayName = 'CrownOutlined';
 
-export default FunctionalComponent;
+export default CrownOutlined;

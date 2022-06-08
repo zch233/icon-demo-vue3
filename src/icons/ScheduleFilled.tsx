@@ -13,4 +13,4 @@ const ScheduleFilled: ScheduleFilledIconType = (props, context) => <Icon {...{ .
 
 ScheduleFilled.displayName = 'ScheduleFilled';
 
-export default FunctionalComponent;
+export default ScheduleFilled;

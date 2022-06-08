@@ -13,4 +13,4 @@ const MehFilled: MehFilledIconType = (props, context) => <Icon {...{ ...props, .
 
 MehFilled.displayName = 'MehFilled';
 
-export default FunctionalComponent;
+export default MehFilled;

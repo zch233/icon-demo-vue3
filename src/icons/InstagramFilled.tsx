@@ -13,4 +13,4 @@ const InstagramFilled: InstagramFilledIconType = (props, context) => <Icon {...{
 
 InstagramFilled.displayName = 'InstagramFilled';
 
-export default FunctionalComponent;
+export default InstagramFilled;

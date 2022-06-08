@@ -13,4 +13,4 @@ const PrinterFilled: PrinterFilledIconType = (props, context) => <Icon {...{ ...
 
 PrinterFilled.displayName = 'PrinterFilled';
 
-export default FunctionalComponent;
+export default PrinterFilled;

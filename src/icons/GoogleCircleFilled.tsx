@@ -13,4 +13,4 @@ const GoogleCircleFilled: GoogleCircleFilledIconType = (props, context) => <Icon
 
 GoogleCircleFilled.displayName = 'GoogleCircleFilled';
 
-export default FunctionalComponent;
+export default GoogleCircleFilled;

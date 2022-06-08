@@ -13,4 +13,4 @@ const PlaySquareOutlined: PlaySquareOutlinedIconType = (props, context) => <Icon
 
 PlaySquareOutlined.displayName = 'PlaySquareOutlined';
 
-export default FunctionalComponent;
+export default PlaySquareOutlined;

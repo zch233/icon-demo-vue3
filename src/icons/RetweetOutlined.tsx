@@ -13,4 +13,4 @@ const RetweetOutlined: RetweetOutlinedIconType = (props, context) => <Icon {...{
 
 RetweetOutlined.displayName = 'RetweetOutlined';
 
-export default FunctionalComponent;
+export default RetweetOutlined;

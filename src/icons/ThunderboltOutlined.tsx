@@ -13,4 +13,4 @@ const ThunderboltOutlined: ThunderboltOutlinedIconType = (props, context) => <Ic
 
 ThunderboltOutlined.displayName = 'ThunderboltOutlined';
 
-export default FunctionalComponent;
+export default ThunderboltOutlined;

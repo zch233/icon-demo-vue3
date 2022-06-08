@@ -13,4 +13,4 @@ const ZhihuSquareFilled: ZhihuSquareFilledIconType = (props, context) => <Icon {
 
 ZhihuSquareFilled.displayName = 'ZhihuSquareFilled';
 
-export default FunctionalComponent;
+export default ZhihuSquareFilled;

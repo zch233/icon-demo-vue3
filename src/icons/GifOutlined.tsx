@@ -13,4 +13,4 @@ const GifOutlined: GifOutlinedIconType = (props, context) => <Icon {...{ ...prop
 
 GifOutlined.displayName = 'GifOutlined';
 
-export default FunctionalComponent;
+export default GifOutlined;

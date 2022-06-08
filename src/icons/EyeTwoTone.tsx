@@ -13,4 +13,4 @@ const EyeTwoTone: EyeTwoToneIconType = (props, context) => <Icon {...{ ...props,
 
 EyeTwoTone.displayName = 'EyeTwoTone';
 
-export default FunctionalComponent;
+export default EyeTwoTone;

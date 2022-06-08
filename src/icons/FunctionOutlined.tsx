@@ -13,4 +13,4 @@ const FunctionOutlined: FunctionOutlinedIconType = (props, context) => <Icon {..
 
 FunctionOutlined.displayName = 'FunctionOutlined';
 
-export default FunctionalComponent;
+export default FunctionOutlined;

@@ -13,4 +13,4 @@ const MessageOutlined: MessageOutlinedIconType = (props, context) => <Icon {...{
 
 MessageOutlined.displayName = 'MessageOutlined';
 
-export default FunctionalComponent;
+export default MessageOutlined;

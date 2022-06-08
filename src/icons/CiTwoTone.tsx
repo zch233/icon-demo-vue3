@@ -13,4 +13,4 @@ const CiTwoTone: CiTwoToneIconType = (props, context) => <Icon {...{ ...props, .
 
 CiTwoTone.displayName = 'CiTwoTone';
 
-export default FunctionalComponent;
+export default CiTwoTone;

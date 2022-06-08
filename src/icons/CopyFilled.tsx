@@ -13,4 +13,4 @@ const CopyFilled: CopyFilledIconType = (props, context) => <Icon {...{ ...props,
 
 CopyFilled.displayName = 'CopyFilled';
 
-export default FunctionalComponent;
+export default CopyFilled;

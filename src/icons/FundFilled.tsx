@@ -13,4 +13,4 @@ const FundFilled: FundFilledIconType = (props, context) => <Icon {...{ ...props,
 
 FundFilled.displayName = 'FundFilled';
 
-export default FunctionalComponent;
+export default FundFilled;

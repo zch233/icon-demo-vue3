@@ -13,4 +13,4 @@ const DoubleRightOutlined: DoubleRightOutlinedIconType = (props, context) => <Ic
 
 DoubleRightOutlined.displayName = 'DoubleRightOutlined';
 
-export default FunctionalComponent;
+export default DoubleRightOutlined;

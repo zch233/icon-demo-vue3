@@ -13,4 +13,4 @@ const QuestionCircleOutlined: QuestionCircleOutlinedIconType = (props, context) 
 
 QuestionCircleOutlined.displayName = 'QuestionCircleOutlined';
 
-export default FunctionalComponent;
+export default QuestionCircleOutlined;

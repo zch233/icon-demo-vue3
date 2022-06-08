@@ -13,4 +13,4 @@ const RotateLeftOutlined: RotateLeftOutlinedIconType = (props, context) => <Icon
 
 RotateLeftOutlined.displayName = 'RotateLeftOutlined';
 
-export default FunctionalComponent;
+export default RotateLeftOutlined;

@@ -13,4 +13,4 @@ const CloudTwoTone: CloudTwoToneIconType = (props, context) => <Icon {...{ ...pr
 
 CloudTwoTone.displayName = 'CloudTwoTone';
 
-export default FunctionalComponent;
+export default CloudTwoTone;

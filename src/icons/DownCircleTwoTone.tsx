@@ -13,4 +13,4 @@ const DownCircleTwoTone: DownCircleTwoToneIconType = (props, context) => <Icon {
 
 DownCircleTwoTone.displayName = 'DownCircleTwoTone';
 
-export default FunctionalComponent;
+export default DownCircleTwoTone;

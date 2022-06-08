@@ -13,4 +13,4 @@ const HolderOutlined: HolderOutlinedIconType = (props, context) => <Icon {...{ .
 
 HolderOutlined.displayName = 'HolderOutlined';
 
-export default FunctionalComponent;
+export default HolderOutlined;

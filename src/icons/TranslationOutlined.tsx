@@ -13,4 +13,4 @@ const TranslationOutlined: TranslationOutlinedIconType = (props, context) => <Ic
 
 TranslationOutlined.displayName = 'TranslationOutlined';
 
-export default FunctionalComponent;
+export default TranslationOutlined;

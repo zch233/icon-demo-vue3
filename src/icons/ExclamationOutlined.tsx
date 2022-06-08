@@ -13,4 +13,4 @@ const ExclamationOutlined: ExclamationOutlinedIconType = (props, context) => <Ic
 
 ExclamationOutlined.displayName = 'ExclamationOutlined';
 
-export default FunctionalComponent;
+export default ExclamationOutlined;

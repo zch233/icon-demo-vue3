@@ -13,4 +13,4 @@ const ForkOutlined: ForkOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 ForkOutlined.displayName = 'ForkOutlined';
 
-export default FunctionalComponent;
+export default ForkOutlined;

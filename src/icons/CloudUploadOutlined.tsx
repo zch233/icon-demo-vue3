@@ -13,4 +13,4 @@ const CloudUploadOutlined: CloudUploadOutlinedIconType = (props, context) => <Ic
 
 CloudUploadOutlined.displayName = 'CloudUploadOutlined';
 
-export default FunctionalComponent;
+export default CloudUploadOutlined;

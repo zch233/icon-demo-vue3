@@ -13,4 +13,4 @@ const CopyOutlined: CopyOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 CopyOutlined.displayName = 'CopyOutlined';
 
-export default FunctionalComponent;
+export default CopyOutlined;

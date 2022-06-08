@@ -13,4 +13,4 @@ const PauseOutlined: PauseOutlinedIconType = (props, context) => <Icon {...{ ...
 
 PauseOutlined.displayName = 'PauseOutlined';
 
-export default FunctionalComponent;
+export default PauseOutlined;

@@ -13,4 +13,4 @@ const SisternodeOutlined: SisternodeOutlinedIconType = (props, context) => <Icon
 
 SisternodeOutlined.displayName = 'SisternodeOutlined';
 
-export default FunctionalComponent;
+export default SisternodeOutlined;

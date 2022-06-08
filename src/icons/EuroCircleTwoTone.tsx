@@ -13,4 +13,4 @@ const EuroCircleTwoTone: EuroCircleTwoToneIconType = (props, context) => <Icon {
 
 EuroCircleTwoTone.displayName = 'EuroCircleTwoTone';
 
-export default FunctionalComponent;
+export default EuroCircleTwoTone;

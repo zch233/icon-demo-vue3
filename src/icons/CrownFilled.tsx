@@ -13,4 +13,4 @@ const CrownFilled: CrownFilledIconType = (props, context) => <Icon {...{ ...prop
 
 CrownFilled.displayName = 'CrownFilled';
 
-export default FunctionalComponent;
+export default CrownFilled;

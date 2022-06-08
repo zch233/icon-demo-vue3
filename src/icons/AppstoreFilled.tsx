@@ -13,4 +13,4 @@ const AppstoreFilled: AppstoreFilledIconType = (props, context) => <Icon {...{ .
 
 AppstoreFilled.displayName = 'AppstoreFilled';
 
-export default FunctionalComponent;
+export default AppstoreFilled;

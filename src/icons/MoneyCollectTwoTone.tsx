@@ -13,4 +13,4 @@ const MoneyCollectTwoTone: MoneyCollectTwoToneIconType = (props, context) => <Ic
 
 MoneyCollectTwoTone.displayName = 'MoneyCollectTwoTone';
 
-export default FunctionalComponent;
+export default MoneyCollectTwoTone;

@@ -13,4 +13,4 @@ const SketchCircleFilled: SketchCircleFilledIconType = (props, context) => <Icon
 
 SketchCircleFilled.displayName = 'SketchCircleFilled';
 
-export default FunctionalComponent;
+export default SketchCircleFilled;

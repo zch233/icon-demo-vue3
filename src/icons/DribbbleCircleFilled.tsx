@@ -13,4 +13,4 @@ const DribbbleCircleFilled: DribbbleCircleFilledIconType = (props, context) => <
 
 DribbbleCircleFilled.displayName = 'DribbbleCircleFilled';
 
-export default FunctionalComponent;
+export default DribbbleCircleFilled;

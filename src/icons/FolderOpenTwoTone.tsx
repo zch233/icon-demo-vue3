@@ -13,4 +13,4 @@ const FolderOpenTwoTone: FolderOpenTwoToneIconType = (props, context) => <Icon {
 
 FolderOpenTwoTone.displayName = 'FolderOpenTwoTone';
 
-export default FunctionalComponent;
+export default FolderOpenTwoTone;

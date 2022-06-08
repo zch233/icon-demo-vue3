@@ -13,4 +13,4 @@ const GooglePlusOutlined: GooglePlusOutlinedIconType = (props, context) => <Icon
 
 GooglePlusOutlined.displayName = 'GooglePlusOutlined';
 
-export default FunctionalComponent;
+export default GooglePlusOutlined;

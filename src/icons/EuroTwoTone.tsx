@@ -13,4 +13,4 @@ const EuroTwoTone: EuroTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 EuroTwoTone.displayName = 'EuroTwoTone';
 
-export default FunctionalComponent;
+export default EuroTwoTone;

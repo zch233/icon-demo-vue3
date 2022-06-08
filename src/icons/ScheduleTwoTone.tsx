@@ -13,4 +13,4 @@ const ScheduleTwoTone: ScheduleTwoToneIconType = (props, context) => <Icon {...{
 
 ScheduleTwoTone.displayName = 'ScheduleTwoTone';
 
-export default FunctionalComponent;
+export default ScheduleTwoTone;

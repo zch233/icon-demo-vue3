@@ -13,4 +13,4 @@ const EyeInvisibleTwoTone: EyeInvisibleTwoToneIconType = (props, context) => <Ic
 
 EyeInvisibleTwoTone.displayName = 'EyeInvisibleTwoTone';
 
-export default FunctionalComponent;
+export default EyeInvisibleTwoTone;

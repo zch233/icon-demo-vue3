@@ -13,4 +13,4 @@ const GitlabFilled: GitlabFilledIconType = (props, context) => <Icon {...{ ...pr
 
 GitlabFilled.displayName = 'GitlabFilled';
 
-export default FunctionalComponent;
+export default GitlabFilled;

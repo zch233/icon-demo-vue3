@@ -13,4 +13,4 @@ const UpSquareFilled: UpSquareFilledIconType = (props, context) => <Icon {...{ .
 
 UpSquareFilled.displayName = 'UpSquareFilled';
 
-export default FunctionalComponent;
+export default UpSquareFilled;

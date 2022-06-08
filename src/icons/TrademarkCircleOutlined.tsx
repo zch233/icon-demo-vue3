@@ -13,4 +13,4 @@ const TrademarkCircleOutlined: TrademarkCircleOutlinedIconType = (props, context
 
 TrademarkCircleOutlined.displayName = 'TrademarkCircleOutlined';
 
-export default FunctionalComponent;
+export default TrademarkCircleOutlined;

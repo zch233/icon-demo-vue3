@@ -13,4 +13,4 @@ const UpOutlined: UpOutlinedIconType = (props, context) => <Icon {...{ ...props,
 
 UpOutlined.displayName = 'UpOutlined';
 
-export default FunctionalComponent;
+export default UpOutlined;

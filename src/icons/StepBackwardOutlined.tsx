@@ -13,4 +13,4 @@ const StepBackwardOutlined: StepBackwardOutlinedIconType = (props, context) => <
 
 StepBackwardOutlined.displayName = 'StepBackwardOutlined';
 
-export default FunctionalComponent;
+export default StepBackwardOutlined;

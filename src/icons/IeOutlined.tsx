@@ -13,4 +13,4 @@ const IeOutlined: IeOutlinedIconType = (props, context) => <Icon {...{ ...props,
 
 IeOutlined.displayName = 'IeOutlined';
 
-export default FunctionalComponent;
+export default IeOutlined;

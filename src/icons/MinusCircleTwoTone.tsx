@@ -13,4 +13,4 @@ const MinusCircleTwoTone: MinusCircleTwoToneIconType = (props, context) => <Icon
 
 MinusCircleTwoTone.displayName = 'MinusCircleTwoTone';
 
-export default FunctionalComponent;
+export default MinusCircleTwoTone;

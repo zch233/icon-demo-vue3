@@ -13,4 +13,4 @@ const CloseSquareFilled: CloseSquareFilledIconType = (props, context) => <Icon {
 
 CloseSquareFilled.displayName = 'CloseSquareFilled';
 
-export default FunctionalComponent;
+export default CloseSquareFilled;

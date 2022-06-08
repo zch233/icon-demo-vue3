@@ -13,4 +13,4 @@ const LikeOutlined: LikeOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 LikeOutlined.displayName = 'LikeOutlined';
 
-export default FunctionalComponent;
+export default LikeOutlined;

@@ -13,4 +13,4 @@ const CommentOutlined: CommentOutlinedIconType = (props, context) => <Icon {...{
 
 CommentOutlined.displayName = 'CommentOutlined';
 
-export default FunctionalComponent;
+export default CommentOutlined;

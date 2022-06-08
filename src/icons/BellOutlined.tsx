@@ -13,4 +13,4 @@ const BellOutlined: BellOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 BellOutlined.displayName = 'BellOutlined';
 
-export default FunctionalComponent;
+export default BellOutlined;

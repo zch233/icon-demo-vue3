@@ -13,4 +13,4 @@ const WalletFilled: WalletFilledIconType = (props, context) => <Icon {...{ ...pr
 
 WalletFilled.displayName = 'WalletFilled';
 
-export default FunctionalComponent;
+export default WalletFilled;

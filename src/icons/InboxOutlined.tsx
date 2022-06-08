@@ -13,4 +13,4 @@ const InboxOutlined: InboxOutlinedIconType = (props, context) => <Icon {...{ ...
 
 InboxOutlined.displayName = 'InboxOutlined';
 
-export default FunctionalComponent;
+export default InboxOutlined;

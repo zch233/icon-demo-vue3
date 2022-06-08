@@ -13,4 +13,4 @@ const DingtalkCircleFilled: DingtalkCircleFilledIconType = (props, context) => <
 
 DingtalkCircleFilled.displayName = 'DingtalkCircleFilled';
 
-export default FunctionalComponent;
+export default DingtalkCircleFilled;

@@ -13,4 +13,4 @@ const ItalicOutlined: ItalicOutlinedIconType = (props, context) => <Icon {...{ .
 
 ItalicOutlined.displayName = 'ItalicOutlined';
 
-export default FunctionalComponent;
+export default ItalicOutlined;

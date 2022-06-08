@@ -13,4 +13,4 @@ const HddFilled: HddFilledIconType = (props, context) => <Icon {...{ ...props, .
 
 HddFilled.displayName = 'HddFilled';
 
-export default FunctionalComponent;
+export default HddFilled;

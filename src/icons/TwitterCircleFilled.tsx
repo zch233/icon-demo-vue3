@@ -13,4 +13,4 @@ const TwitterCircleFilled: TwitterCircleFilledIconType = (props, context) => <Ic
 
 TwitterCircleFilled.displayName = 'TwitterCircleFilled';
 
-export default FunctionalComponent;
+export default TwitterCircleFilled;

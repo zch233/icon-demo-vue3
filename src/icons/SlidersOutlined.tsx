@@ -13,4 +13,4 @@ const SlidersOutlined: SlidersOutlinedIconType = (props, context) => <Icon {...{
 
 SlidersOutlined.displayName = 'SlidersOutlined';
 
-export default FunctionalComponent;
+export default SlidersOutlined;

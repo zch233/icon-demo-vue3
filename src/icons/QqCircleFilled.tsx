@@ -13,4 +13,4 @@ const QqCircleFilled: QqCircleFilledIconType = (props, context) => <Icon {...{ .
 
 QqCircleFilled.displayName = 'QqCircleFilled';
 
-export default FunctionalComponent;
+export default QqCircleFilled;

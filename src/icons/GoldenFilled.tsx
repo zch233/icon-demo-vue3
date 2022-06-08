@@ -13,4 +13,4 @@ const GoldenFilled: GoldenFilledIconType = (props, context) => <Icon {...{ ...pr
 
 GoldenFilled.displayName = 'GoldenFilled';
 
-export default FunctionalComponent;
+export default GoldenFilled;

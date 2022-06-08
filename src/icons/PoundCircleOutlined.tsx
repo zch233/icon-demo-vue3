@@ -13,4 +13,4 @@ const PoundCircleOutlined: PoundCircleOutlinedIconType = (props, context) => <Ic
 
 PoundCircleOutlined.displayName = 'PoundCircleOutlined';
 
-export default FunctionalComponent;
+export default PoundCircleOutlined;

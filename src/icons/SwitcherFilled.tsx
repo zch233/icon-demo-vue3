@@ -13,4 +13,4 @@ const SwitcherFilled: SwitcherFilledIconType = (props, context) => <Icon {...{ .
 
 SwitcherFilled.displayName = 'SwitcherFilled';
 
-export default FunctionalComponent;
+export default SwitcherFilled;

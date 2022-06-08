@@ -13,4 +13,4 @@ const RadiusUprightOutlined: RadiusUprightOutlinedIconType = (props, context) =>
 
 RadiusUprightOutlined.displayName = 'RadiusUprightOutlined';
 
-export default FunctionalComponent;
+export default RadiusUprightOutlined;

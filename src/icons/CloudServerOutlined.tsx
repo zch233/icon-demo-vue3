@@ -13,4 +13,4 @@ const CloudServerOutlined: CloudServerOutlinedIconType = (props, context) => <Ic
 
 CloudServerOutlined.displayName = 'CloudServerOutlined';
 
-export default FunctionalComponent;
+export default CloudServerOutlined;

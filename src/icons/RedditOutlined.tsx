@@ -13,4 +13,4 @@ const RedditOutlined: RedditOutlinedIconType = (props, context) => <Icon {...{ .
 
 RedditOutlined.displayName = 'RedditOutlined';
 
-export default FunctionalComponent;
+export default RedditOutlined;

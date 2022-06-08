@@ -13,4 +13,4 @@ const DribbbleSquareFilled: DribbbleSquareFilledIconType = (props, context) => <
 
 DribbbleSquareFilled.displayName = 'DribbbleSquareFilled';
 
-export default FunctionalComponent;
+export default DribbbleSquareFilled;

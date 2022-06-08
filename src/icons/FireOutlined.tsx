@@ -13,4 +13,4 @@ const FireOutlined: FireOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 FireOutlined.displayName = 'FireOutlined';
 
-export default FunctionalComponent;
+export default FireOutlined;

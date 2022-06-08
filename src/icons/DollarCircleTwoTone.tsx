@@ -13,4 +13,4 @@ const DollarCircleTwoTone: DollarCircleTwoToneIconType = (props, context) => <Ic
 
 DollarCircleTwoTone.displayName = 'DollarCircleTwoTone';
 
-export default FunctionalComponent;
+export default DollarCircleTwoTone;

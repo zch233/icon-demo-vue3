@@ -13,4 +13,4 @@ const CalendarTwoTone: CalendarTwoToneIconType = (props, context) => <Icon {...{
 
 CalendarTwoTone.displayName = 'CalendarTwoTone';
 
-export default FunctionalComponent;
+export default CalendarTwoTone;

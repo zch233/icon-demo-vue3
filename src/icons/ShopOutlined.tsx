@@ -13,4 +13,4 @@ const ShopOutlined: ShopOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 ShopOutlined.displayName = 'ShopOutlined';
 
-export default FunctionalComponent;
+export default ShopOutlined;

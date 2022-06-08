@@ -13,4 +13,4 @@ const SettingOutlined: SettingOutlinedIconType = (props, context) => <Icon {...{
 
 SettingOutlined.displayName = 'SettingOutlined';
 
-export default FunctionalComponent;
+export default SettingOutlined;

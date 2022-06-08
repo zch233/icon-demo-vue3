@@ -13,4 +13,4 @@ const HeatMapOutlined: HeatMapOutlinedIconType = (props, context) => <Icon {...{
 
 HeatMapOutlined.displayName = 'HeatMapOutlined';
 
-export default FunctionalComponent;
+export default HeatMapOutlined;

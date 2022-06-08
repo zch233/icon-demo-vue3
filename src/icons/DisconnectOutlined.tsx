@@ -13,4 +13,4 @@ const DisconnectOutlined: DisconnectOutlinedIconType = (props, context) => <Icon
 
 DisconnectOutlined.displayName = 'DisconnectOutlined';
 
-export default FunctionalComponent;
+export default DisconnectOutlined;

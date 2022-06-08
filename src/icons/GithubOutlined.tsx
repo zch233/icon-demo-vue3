@@ -13,4 +13,4 @@ const GithubOutlined: GithubOutlinedIconType = (props, context) => <Icon {...{ .
 
 GithubOutlined.displayName = 'GithubOutlined';
 
-export default FunctionalComponent;
+export default GithubOutlined;

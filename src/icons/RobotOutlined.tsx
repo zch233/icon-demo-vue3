@@ -13,4 +13,4 @@ const RobotOutlined: RobotOutlinedIconType = (props, context) => <Icon {...{ ...
 
 RobotOutlined.displayName = 'RobotOutlined';
 
-export default FunctionalComponent;
+export default RobotOutlined;

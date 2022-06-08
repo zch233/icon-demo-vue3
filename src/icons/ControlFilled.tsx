@@ -13,4 +13,4 @@ const ControlFilled: ControlFilledIconType = (props, context) => <Icon {...{ ...
 
 ControlFilled.displayName = 'ControlFilled';
 
-export default FunctionalComponent;
+export default ControlFilled;

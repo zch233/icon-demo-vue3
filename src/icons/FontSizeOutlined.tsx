@@ -13,4 +13,4 @@ const FontSizeOutlined: FontSizeOutlinedIconType = (props, context) => <Icon {..
 
 FontSizeOutlined.displayName = 'FontSizeOutlined';
 
-export default FunctionalComponent;
+export default FontSizeOutlined;

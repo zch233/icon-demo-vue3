@@ -13,4 +13,4 @@ const CodeFilled: CodeFilledIconType = (props, context) => <Icon {...{ ...props,
 
 CodeFilled.displayName = 'CodeFilled';
 
-export default FunctionalComponent;
+export default CodeFilled;

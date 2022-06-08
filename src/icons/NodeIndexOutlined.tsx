@@ -13,4 +13,4 @@ const NodeIndexOutlined: NodeIndexOutlinedIconType = (props, context) => <Icon {
 
 NodeIndexOutlined.displayName = 'NodeIndexOutlined';
 
-export default FunctionalComponent;
+export default NodeIndexOutlined;

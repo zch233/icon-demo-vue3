@@ -13,4 +13,4 @@ const CiCircleTwoTone: CiCircleTwoToneIconType = (props, context) => <Icon {...{
 
 CiCircleTwoTone.displayName = 'CiCircleTwoTone';
 
-export default FunctionalComponent;
+export default CiCircleTwoTone;

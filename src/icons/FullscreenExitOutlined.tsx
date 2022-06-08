@@ -13,4 +13,4 @@ const FullscreenExitOutlined: FullscreenExitOutlinedIconType = (props, context) 
 
 FullscreenExitOutlined.displayName = 'FullscreenExitOutlined';
 
-export default FunctionalComponent;
+export default FullscreenExitOutlined;

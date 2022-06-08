@@ -13,4 +13,4 @@ const StepBackwardFilled: StepBackwardFilledIconType = (props, context) => <Icon
 
 StepBackwardFilled.displayName = 'StepBackwardFilled';
 
-export default FunctionalComponent;
+export default StepBackwardFilled;

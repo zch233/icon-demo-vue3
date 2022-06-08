@@ -13,4 +13,4 @@ const GroupOutlined: GroupOutlinedIconType = (props, context) => <Icon {...{ ...
 
 GroupOutlined.displayName = 'GroupOutlined';
 
-export default FunctionalComponent;
+export default GroupOutlined;

@@ -13,4 +13,4 @@ const GithubFilled: GithubFilledIconType = (props, context) => <Icon {...{ ...pr
 
 GithubFilled.displayName = 'GithubFilled';
 
-export default FunctionalComponent;
+export default GithubFilled;

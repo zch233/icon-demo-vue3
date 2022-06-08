@@ -13,4 +13,4 @@ const FormatPainterFilled: FormatPainterFilledIconType = (props, context) => <Ic
 
 FormatPainterFilled.displayName = 'FormatPainterFilled';
 
-export default FunctionalComponent;
+export default FormatPainterFilled;

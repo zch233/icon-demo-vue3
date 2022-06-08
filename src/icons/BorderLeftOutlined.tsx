@@ -13,4 +13,4 @@ const BorderLeftOutlined: BorderLeftOutlinedIconType = (props, context) => <Icon
 
 BorderLeftOutlined.displayName = 'BorderLeftOutlined';
 
-export default FunctionalComponent;
+export default BorderLeftOutlined;

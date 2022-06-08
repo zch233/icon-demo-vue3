@@ -13,4 +13,4 @@ const DeploymentUnitOutlined: DeploymentUnitOutlinedIconType = (props, context) 
 
 DeploymentUnitOutlined.displayName = 'DeploymentUnitOutlined';
 
-export default FunctionalComponent;
+export default DeploymentUnitOutlined;

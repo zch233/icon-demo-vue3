@@ -13,4 +13,4 @@ const FileUnknownFilled: FileUnknownFilledIconType = (props, context) => <Icon {
 
 FileUnknownFilled.displayName = 'FileUnknownFilled';
 
-export default FunctionalComponent;
+export default FileUnknownFilled;

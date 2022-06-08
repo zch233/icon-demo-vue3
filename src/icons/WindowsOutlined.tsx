@@ -13,4 +13,4 @@ const WindowsOutlined: WindowsOutlinedIconType = (props, context) => <Icon {...{
 
 WindowsOutlined.displayName = 'WindowsOutlined';
 
-export default FunctionalComponent;
+export default WindowsOutlined;

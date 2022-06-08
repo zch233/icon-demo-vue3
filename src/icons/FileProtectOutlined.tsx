@@ -13,4 +13,4 @@ const FileProtectOutlined: FileProtectOutlinedIconType = (props, context) => <Ic
 
 FileProtectOutlined.displayName = 'FileProtectOutlined';
 
-export default FunctionalComponent;
+export default FileProtectOutlined;

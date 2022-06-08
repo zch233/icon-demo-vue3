@@ -13,4 +13,4 @@ const ShoppingCartOutlined: ShoppingCartOutlinedIconType = (props, context) => <
 
 ShoppingCartOutlined.displayName = 'ShoppingCartOutlined';
 
-export default FunctionalComponent;
+export default ShoppingCartOutlined;

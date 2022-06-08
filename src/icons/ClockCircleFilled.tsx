@@ -13,4 +13,4 @@ const ClockCircleFilled: ClockCircleFilledIconType = (props, context) => <Icon {
 
 ClockCircleFilled.displayName = 'ClockCircleFilled';
 
-export default FunctionalComponent;
+export default ClockCircleFilled;

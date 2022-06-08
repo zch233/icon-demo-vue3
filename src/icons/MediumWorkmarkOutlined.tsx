@@ -13,4 +13,4 @@ const MediumWorkmarkOutlined: MediumWorkmarkOutlinedIconType = (props, context) 
 
 MediumWorkmarkOutlined.displayName = 'MediumWorkmarkOutlined';
 
-export default FunctionalComponent;
+export default MediumWorkmarkOutlined;

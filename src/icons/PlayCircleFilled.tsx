@@ -13,4 +13,4 @@ const PlayCircleFilled: PlayCircleFilledIconType = (props, context) => <Icon {..
 
 PlayCircleFilled.displayName = 'PlayCircleFilled';
 
-export default FunctionalComponent;
+export default PlayCircleFilled;

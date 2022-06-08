@@ -13,4 +13,4 @@ const LeftCircleTwoTone: LeftCircleTwoToneIconType = (props, context) => <Icon {
 
 LeftCircleTwoTone.displayName = 'LeftCircleTwoTone';
 
-export default FunctionalComponent;
+export default LeftCircleTwoTone;

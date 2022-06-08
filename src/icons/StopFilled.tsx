@@ -13,4 +13,4 @@ const StopFilled: StopFilledIconType = (props, context) => <Icon {...{ ...props,
 
 StopFilled.displayName = 'StopFilled';
 
-export default FunctionalComponent;
+export default StopFilled;

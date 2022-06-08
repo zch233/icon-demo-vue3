@@ -13,4 +13,4 @@ const FieldBinaryOutlined: FieldBinaryOutlinedIconType = (props, context) => <Ic
 
 FieldBinaryOutlined.displayName = 'FieldBinaryOutlined';
 
-export default FunctionalComponent;
+export default FieldBinaryOutlined;

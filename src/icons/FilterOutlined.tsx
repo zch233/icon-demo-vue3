@@ -13,4 +13,4 @@ const FilterOutlined: FilterOutlinedIconType = (props, context) => <Icon {...{ .
 
 FilterOutlined.displayName = 'FilterOutlined';
 
-export default FunctionalComponent;
+export default FilterOutlined;

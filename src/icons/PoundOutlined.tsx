@@ -13,4 +13,4 @@ const PoundOutlined: PoundOutlinedIconType = (props, context) => <Icon {...{ ...
 
 PoundOutlined.displayName = 'PoundOutlined';
 
-export default FunctionalComponent;
+export default PoundOutlined;

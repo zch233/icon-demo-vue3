@@ -13,4 +13,4 @@ const CiOutlined: CiOutlinedIconType = (props, context) => <Icon {...{ ...props,
 
 CiOutlined.displayName = 'CiOutlined';
 
-export default FunctionalComponent;
+export default CiOutlined;

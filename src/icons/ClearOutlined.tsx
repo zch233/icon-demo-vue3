@@ -13,4 +13,4 @@ const ClearOutlined: ClearOutlinedIconType = (props, context) => <Icon {...{ ...
 
 ClearOutlined.displayName = 'ClearOutlined';
 
-export default FunctionalComponent;
+export default ClearOutlined;

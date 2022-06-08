@@ -13,4 +13,4 @@ const MinusCircleOutlined: MinusCircleOutlinedIconType = (props, context) => <Ic
 
 MinusCircleOutlined.displayName = 'MinusCircleOutlined';
 
-export default FunctionalComponent;
+export default MinusCircleOutlined;

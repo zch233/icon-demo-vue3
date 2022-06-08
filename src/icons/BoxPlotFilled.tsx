@@ -13,4 +13,4 @@ const BoxPlotFilled: BoxPlotFilledIconType = (props, context) => <Icon {...{ ...
 
 BoxPlotFilled.displayName = 'BoxPlotFilled';
 
-export default FunctionalComponent;
+export default BoxPlotFilled;

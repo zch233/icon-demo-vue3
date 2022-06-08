@@ -13,4 +13,4 @@ const DeleteRowOutlined: DeleteRowOutlinedIconType = (props, context) => <Icon {
 
 DeleteRowOutlined.displayName = 'DeleteRowOutlined';
 
-export default FunctionalComponent;
+export default DeleteRowOutlined;

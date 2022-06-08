@@ -13,4 +13,4 @@ const PoweroffOutlined: PoweroffOutlinedIconType = (props, context) => <Icon {..
 
 PoweroffOutlined.displayName = 'PoweroffOutlined';
 
-export default FunctionalComponent;
+export default PoweroffOutlined;

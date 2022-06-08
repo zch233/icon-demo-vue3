@@ -13,4 +13,4 @@ const AlipayOutlined: AlipayOutlinedIconType = (props, context) => <Icon {...{ .
 
 AlipayOutlined.displayName = 'AlipayOutlined';
 
-export default FunctionalComponent;
+export default AlipayOutlined;

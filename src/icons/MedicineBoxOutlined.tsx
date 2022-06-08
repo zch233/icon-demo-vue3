@@ -13,4 +13,4 @@ const MedicineBoxOutlined: MedicineBoxOutlinedIconType = (props, context) => <Ic
 
 MedicineBoxOutlined.displayName = 'MedicineBoxOutlined';
 
-export default FunctionalComponent;
+export default MedicineBoxOutlined;

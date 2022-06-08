@@ -13,4 +13,4 @@ const AppleOutlined: AppleOutlinedIconType = (props, context) => <Icon {...{ ...
 
 AppleOutlined.displayName = 'AppleOutlined';
 
-export default FunctionalComponent;
+export default AppleOutlined;

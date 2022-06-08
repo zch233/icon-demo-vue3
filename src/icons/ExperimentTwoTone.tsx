@@ -13,4 +13,4 @@ const ExperimentTwoTone: ExperimentTwoToneIconType = (props, context) => <Icon {
 
 ExperimentTwoTone.displayName = 'ExperimentTwoTone';
 
-export default FunctionalComponent;
+export default ExperimentTwoTone;

@@ -13,4 +13,4 @@ const BehanceSquareFilled: BehanceSquareFilledIconType = (props, context) => <Ic
 
 BehanceSquareFilled.displayName = 'BehanceSquareFilled';
 
-export default FunctionalComponent;
+export default BehanceSquareFilled;

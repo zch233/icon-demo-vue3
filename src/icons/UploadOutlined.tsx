@@ -13,4 +13,4 @@ const UploadOutlined: UploadOutlinedIconType = (props, context) => <Icon {...{ .
 
 UploadOutlined.displayName = 'UploadOutlined';
 
-export default FunctionalComponent;
+export default UploadOutlined;

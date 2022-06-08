@@ -13,4 +13,4 @@ const MedicineBoxFilled: MedicineBoxFilledIconType = (props, context) => <Icon {
 
 MedicineBoxFilled.displayName = 'MedicineBoxFilled';
 
-export default FunctionalComponent;
+export default MedicineBoxFilled;

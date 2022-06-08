@@ -13,4 +13,4 @@ const MessageTwoTone: MessageTwoToneIconType = (props, context) => <Icon {...{ .
 
 MessageTwoTone.displayName = 'MessageTwoTone';
 
-export default FunctionalComponent;
+export default MessageTwoTone;

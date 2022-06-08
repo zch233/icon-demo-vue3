@@ -13,4 +13,4 @@ const LockFilled: LockFilledIconType = (props, context) => <Icon {...{ ...props,
 
 LockFilled.displayName = 'LockFilled';
 
-export default FunctionalComponent;
+export default LockFilled;

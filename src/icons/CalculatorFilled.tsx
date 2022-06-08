@@ -13,4 +13,4 @@ const CalculatorFilled: CalculatorFilledIconType = (props, context) => <Icon {..
 
 CalculatorFilled.displayName = 'CalculatorFilled';
 
-export default FunctionalComponent;
+export default CalculatorFilled;

@@ -13,4 +13,4 @@ const SaveFilled: SaveFilledIconType = (props, context) => <Icon {...{ ...props,
 
 SaveFilled.displayName = 'SaveFilled';
 
-export default FunctionalComponent;
+export default SaveFilled;

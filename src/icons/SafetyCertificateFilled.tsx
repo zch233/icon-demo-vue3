@@ -13,4 +13,4 @@ const SafetyCertificateFilled: SafetyCertificateFilledIconType = (props, context
 
 SafetyCertificateFilled.displayName = 'SafetyCertificateFilled';
 
-export default FunctionalComponent;
+export default SafetyCertificateFilled;

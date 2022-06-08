@@ -13,4 +13,4 @@ const EnvironmentFilled: EnvironmentFilledIconType = (props, context) => <Icon {
 
 EnvironmentFilled.displayName = 'EnvironmentFilled';
 
-export default FunctionalComponent;
+export default EnvironmentFilled;

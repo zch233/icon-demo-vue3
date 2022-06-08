@@ -13,4 +13,4 @@ const RestOutlined: RestOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 RestOutlined.displayName = 'RestOutlined';
 
-export default FunctionalComponent;
+export default RestOutlined;

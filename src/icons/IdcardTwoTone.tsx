@@ -13,4 +13,4 @@ const IdcardTwoTone: IdcardTwoToneIconType = (props, context) => <Icon {...{ ...
 
 IdcardTwoTone.displayName = 'IdcardTwoTone';
 
-export default FunctionalComponent;
+export default IdcardTwoTone;

@@ -13,4 +13,4 @@ const PieChartOutlined: PieChartOutlinedIconType = (props, context) => <Icon {..
 
 PieChartOutlined.displayName = 'PieChartOutlined';
 
-export default FunctionalComponent;
+export default PieChartOutlined;

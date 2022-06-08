@@ -13,4 +13,4 @@ const EditFilled: EditFilledIconType = (props, context) => <Icon {...{ ...props,
 
 EditFilled.displayName = 'EditFilled';
 
-export default FunctionalComponent;
+export default EditFilled;

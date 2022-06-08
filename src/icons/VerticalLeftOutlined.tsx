@@ -13,4 +13,4 @@ const VerticalLeftOutlined: VerticalLeftOutlinedIconType = (props, context) => <
 
 VerticalLeftOutlined.displayName = 'VerticalLeftOutlined';
 
-export default FunctionalComponent;
+export default VerticalLeftOutlined;

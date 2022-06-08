@@ -13,4 +13,4 @@ const BehanceOutlined: BehanceOutlinedIconType = (props, context) => <Icon {...{
 
 BehanceOutlined.displayName = 'BehanceOutlined';
 
-export default FunctionalComponent;
+export default BehanceOutlined;

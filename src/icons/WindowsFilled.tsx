@@ -13,4 +13,4 @@ const WindowsFilled: WindowsFilledIconType = (props, context) => <Icon {...{ ...
 
 WindowsFilled.displayName = 'WindowsFilled';
 
-export default FunctionalComponent;
+export default WindowsFilled;

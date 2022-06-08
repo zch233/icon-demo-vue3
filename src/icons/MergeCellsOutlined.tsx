@@ -13,4 +13,4 @@ const MergeCellsOutlined: MergeCellsOutlinedIconType = (props, context) => <Icon
 
 MergeCellsOutlined.displayName = 'MergeCellsOutlined';
 
-export default FunctionalComponent;
+export default MergeCellsOutlined;

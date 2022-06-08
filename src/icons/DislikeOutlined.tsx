@@ -13,4 +13,4 @@ const DislikeOutlined: DislikeOutlinedIconType = (props, context) => <Icon {...{
 
 DislikeOutlined.displayName = 'DislikeOutlined';
 
-export default FunctionalComponent;
+export default DislikeOutlined;

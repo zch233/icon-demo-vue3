@@ -13,4 +13,4 @@ const BookOutlined: BookOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 BookOutlined.displayName = 'BookOutlined';
 
-export default FunctionalComponent;
+export default BookOutlined;

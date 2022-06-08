@@ -13,4 +13,4 @@ const MenuOutlined: MenuOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 MenuOutlined.displayName = 'MenuOutlined';
 
-export default FunctionalComponent;
+export default MenuOutlined;

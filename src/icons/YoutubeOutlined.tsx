@@ -13,4 +13,4 @@ const YoutubeOutlined: YoutubeOutlinedIconType = (props, context) => <Icon {...{
 
 YoutubeOutlined.displayName = 'YoutubeOutlined';
 
-export default FunctionalComponent;
+export default YoutubeOutlined;

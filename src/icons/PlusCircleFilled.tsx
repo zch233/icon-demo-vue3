@@ -13,4 +13,4 @@ const PlusCircleFilled: PlusCircleFilledIconType = (props, context) => <Icon {..
 
 PlusCircleFilled.displayName = 'PlusCircleFilled';
 
-export default FunctionalComponent;
+export default PlusCircleFilled;

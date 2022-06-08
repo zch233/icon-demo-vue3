@@ -13,4 +13,4 @@ const PauseCircleFilled: PauseCircleFilledIconType = (props, context) => <Icon {
 
 PauseCircleFilled.displayName = 'PauseCircleFilled';
 
-export default FunctionalComponent;
+export default PauseCircleFilled;

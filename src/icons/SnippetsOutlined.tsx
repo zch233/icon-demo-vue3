@@ -13,4 +13,4 @@ const SnippetsOutlined: SnippetsOutlinedIconType = (props, context) => <Icon {..
 
 SnippetsOutlined.displayName = 'SnippetsOutlined';
 
-export default FunctionalComponent;
+export default SnippetsOutlined;

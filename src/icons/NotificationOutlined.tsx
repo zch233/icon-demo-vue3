@@ -13,4 +13,4 @@ const NotificationOutlined: NotificationOutlinedIconType = (props, context) => <
 
 NotificationOutlined.displayName = 'NotificationOutlined';
 
-export default FunctionalComponent;
+export default NotificationOutlined;

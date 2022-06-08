@@ -13,4 +13,4 @@ const GiftTwoTone: GiftTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 GiftTwoTone.displayName = 'GiftTwoTone';
 
-export default FunctionalComponent;
+export default GiftTwoTone;

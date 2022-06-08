@@ -13,4 +13,4 @@ const ReadOutlined: ReadOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 ReadOutlined.displayName = 'ReadOutlined';
 
-export default FunctionalComponent;
+export default ReadOutlined;

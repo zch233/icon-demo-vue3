@@ -13,4 +13,4 @@ const SendOutlined: SendOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 SendOutlined.displayName = 'SendOutlined';
 
-export default FunctionalComponent;
+export default SendOutlined;

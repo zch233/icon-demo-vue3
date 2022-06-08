@@ -13,4 +13,4 @@ const UnderlineOutlined: UnderlineOutlinedIconType = (props, context) => <Icon {
 
 UnderlineOutlined.displayName = 'UnderlineOutlined';
 
-export default FunctionalComponent;
+export default UnderlineOutlined;

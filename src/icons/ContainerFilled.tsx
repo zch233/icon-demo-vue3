@@ -13,4 +13,4 @@ const ContainerFilled: ContainerFilledIconType = (props, context) => <Icon {...{
 
 ContainerFilled.displayName = 'ContainerFilled';
 
-export default FunctionalComponent;
+export default ContainerFilled;

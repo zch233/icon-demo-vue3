@@ -13,4 +13,4 @@ const CodepenCircleOutlined: CodepenCircleOutlinedIconType = (props, context) =>
 
 CodepenCircleOutlined.displayName = 'CodepenCircleOutlined';
 
-export default FunctionalComponent;
+export default CodepenCircleOutlined;

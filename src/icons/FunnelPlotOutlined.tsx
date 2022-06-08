@@ -13,4 +13,4 @@ const FunnelPlotOutlined: FunnelPlotOutlinedIconType = (props, context) => <Icon
 
 FunnelPlotOutlined.displayName = 'FunnelPlotOutlined';
 
-export default FunctionalComponent;
+export default FunnelPlotOutlined;

@@ -13,4 +13,4 @@ const FlagFilled: FlagFilledIconType = (props, context) => <Icon {...{ ...props,
 
 FlagFilled.displayName = 'FlagFilled';
 
-export default FunctionalComponent;
+export default FlagFilled;

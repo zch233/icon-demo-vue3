@@ -13,4 +13,4 @@ const AlertTwoTone: AlertTwoToneIconType = (props, context) => <Icon {...{ ...pr
 
 AlertTwoTone.displayName = 'AlertTwoTone';
 
-export default FunctionalComponent;
+export default AlertTwoTone;

@@ -13,4 +13,4 @@ const SlackOutlined: SlackOutlinedIconType = (props, context) => <Icon {...{ ...
 
 SlackOutlined.displayName = 'SlackOutlined';
 
-export default FunctionalComponent;
+export default SlackOutlined;

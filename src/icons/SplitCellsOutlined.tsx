@@ -13,4 +13,4 @@ const SplitCellsOutlined: SplitCellsOutlinedIconType = (props, context) => <Icon
 
 SplitCellsOutlined.displayName = 'SplitCellsOutlined';
 
-export default FunctionalComponent;
+export default SplitCellsOutlined;

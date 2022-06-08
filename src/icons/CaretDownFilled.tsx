@@ -13,4 +13,4 @@ const CaretDownFilled: CaretDownFilledIconType = (props, context) => <Icon {...{
 
 CaretDownFilled.displayName = 'CaretDownFilled';
 
-export default FunctionalComponent;
+export default CaretDownFilled;

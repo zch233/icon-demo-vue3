@@ -13,4 +13,4 @@ const ReconciliationFilled: ReconciliationFilledIconType = (props, context) => <
 
 ReconciliationFilled.displayName = 'ReconciliationFilled';
 
-export default FunctionalComponent;
+export default ReconciliationFilled;

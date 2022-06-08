@@ -13,4 +13,4 @@ const CopyrightTwoTone: CopyrightTwoToneIconType = (props, context) => <Icon {..
 
 CopyrightTwoTone.displayName = 'CopyrightTwoTone';
 
-export default FunctionalComponent;
+export default CopyrightTwoTone;

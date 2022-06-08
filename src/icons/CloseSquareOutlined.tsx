@@ -13,4 +13,4 @@ const CloseSquareOutlined: CloseSquareOutlinedIconType = (props, context) => <Ic
 
 CloseSquareOutlined.displayName = 'CloseSquareOutlined';
 
-export default FunctionalComponent;
+export default CloseSquareOutlined;

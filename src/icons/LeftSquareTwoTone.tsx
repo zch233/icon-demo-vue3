@@ -13,4 +13,4 @@ const LeftSquareTwoTone: LeftSquareTwoToneIconType = (props, context) => <Icon {
 
 LeftSquareTwoTone.displayName = 'LeftSquareTwoTone';
 
-export default FunctionalComponent;
+export default LeftSquareTwoTone;

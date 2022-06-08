@@ -13,4 +13,4 @@ const CalendarOutlined: CalendarOutlinedIconType = (props, context) => <Icon {..
 
 CalendarOutlined.displayName = 'CalendarOutlined';
 
-export default FunctionalComponent;
+export default CalendarOutlined;

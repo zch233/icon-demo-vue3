@@ -13,4 +13,4 @@ const EditOutlined: EditOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 EditOutlined.displayName = 'EditOutlined';
 
-export default FunctionalComponent;
+export default EditOutlined;

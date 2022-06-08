@@ -13,4 +13,4 @@ const QqSquareFilled: QqSquareFilledIconType = (props, context) => <Icon {...{ .
 
 QqSquareFilled.displayName = 'QqSquareFilled';
 
-export default FunctionalComponent;
+export default QqSquareFilled;

@@ -13,4 +13,4 @@ const UnlockOutlined: UnlockOutlinedIconType = (props, context) => <Icon {...{ .
 
 UnlockOutlined.displayName = 'UnlockOutlined';
 
-export default FunctionalComponent;
+export default UnlockOutlined;

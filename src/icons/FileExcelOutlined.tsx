@@ -13,4 +13,4 @@ const FileExcelOutlined: FileExcelOutlinedIconType = (props, context) => <Icon {
 
 FileExcelOutlined.displayName = 'FileExcelOutlined';
 
-export default FunctionalComponent;
+export default FileExcelOutlined;

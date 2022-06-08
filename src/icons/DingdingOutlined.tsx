@@ -13,4 +13,4 @@ const DingdingOutlined: DingdingOutlinedIconType = (props, context) => <Icon {..
 
 DingdingOutlined.displayName = 'DingdingOutlined';
 
-export default FunctionalComponent;
+export default DingdingOutlined;

@@ -13,4 +13,4 @@ const FilterFilled: FilterFilledIconType = (props, context) => <Icon {...{ ...pr
 
 FilterFilled.displayName = 'FilterFilled';
 
-export default FunctionalComponent;
+export default FilterFilled;

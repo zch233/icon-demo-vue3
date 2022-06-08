@@ -13,4 +13,4 @@ const GiftOutlined: GiftOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 GiftOutlined.displayName = 'GiftOutlined';
 
-export default FunctionalComponent;
+export default GiftOutlined;

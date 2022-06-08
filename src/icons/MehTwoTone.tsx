@@ -13,4 +13,4 @@ const MehTwoTone: MehTwoToneIconType = (props, context) => <Icon {...{ ...props,
 
 MehTwoTone.displayName = 'MehTwoTone';
 
-export default FunctionalComponent;
+export default MehTwoTone;

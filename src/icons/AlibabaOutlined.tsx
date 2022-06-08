@@ -13,4 +13,4 @@ const AlibabaOutlined: AlibabaOutlinedIconType = (props, context) => <Icon {...{
 
 AlibabaOutlined.displayName = 'AlibabaOutlined';
 
-export default FunctionalComponent;
+export default AlibabaOutlined;

@@ -13,4 +13,4 @@ const UsbFilled: UsbFilledIconType = (props, context) => <Icon {...{ ...props, .
 
 UsbFilled.displayName = 'UsbFilled';
 
-export default FunctionalComponent;
+export default UsbFilled;

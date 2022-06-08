@@ -13,4 +13,4 @@ const ShakeOutlined: ShakeOutlinedIconType = (props, context) => <Icon {...{ ...
 
 ShakeOutlined.displayName = 'ShakeOutlined';
 
-export default FunctionalComponent;
+export default ShakeOutlined;

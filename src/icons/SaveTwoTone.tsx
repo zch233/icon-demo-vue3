@@ -13,4 +13,4 @@ const SaveTwoTone: SaveTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 SaveTwoTone.displayName = 'SaveTwoTone';
 
-export default FunctionalComponent;
+export default SaveTwoTone;

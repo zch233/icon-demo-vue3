@@ -13,4 +13,4 @@ const BookFilled: BookFilledIconType = (props, context) => <Icon {...{ ...props,
 
 BookFilled.displayName = 'BookFilled';
 
-export default FunctionalComponent;
+export default BookFilled;

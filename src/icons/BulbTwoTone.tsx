@@ -13,4 +13,4 @@ const BulbTwoTone: BulbTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 BulbTwoTone.displayName = 'BulbTwoTone';
 
-export default FunctionalComponent;
+export default BulbTwoTone;

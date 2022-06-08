@@ -13,4 +13,4 @@ const PicLeftOutlined: PicLeftOutlinedIconType = (props, context) => <Icon {...{
 
 PicLeftOutlined.displayName = 'PicLeftOutlined';
 
-export default FunctionalComponent;
+export default PicLeftOutlined;

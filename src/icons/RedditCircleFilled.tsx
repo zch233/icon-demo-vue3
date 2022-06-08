@@ -13,4 +13,4 @@ const RedditCircleFilled: RedditCircleFilledIconType = (props, context) => <Icon
 
 RedditCircleFilled.displayName = 'RedditCircleFilled';
 
-export default FunctionalComponent;
+export default RedditCircleFilled;

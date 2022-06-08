@@ -13,4 +13,4 @@ const DropboxCircleFilled: DropboxCircleFilledIconType = (props, context) => <Ic
 
 DropboxCircleFilled.displayName = 'DropboxCircleFilled';
 
-export default FunctionalComponent;
+export default DropboxCircleFilled;

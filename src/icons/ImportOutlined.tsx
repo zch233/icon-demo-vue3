@@ -13,4 +13,4 @@ const ImportOutlined: ImportOutlinedIconType = (props, context) => <Icon {...{ .
 
 ImportOutlined.displayName = 'ImportOutlined';
 
-export default FunctionalComponent;
+export default ImportOutlined;

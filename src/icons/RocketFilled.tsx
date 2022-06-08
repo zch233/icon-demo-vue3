@@ -13,4 +13,4 @@ const RocketFilled: RocketFilledIconType = (props, context) => <Icon {...{ ...pr
 
 RocketFilled.displayName = 'RocketFilled';
 
-export default FunctionalComponent;
+export default RocketFilled;

@@ -13,4 +13,4 @@ const AlignLeftOutlined: AlignLeftOutlinedIconType = (props, context) => <Icon {
 
 AlignLeftOutlined.displayName = 'AlignLeftOutlined';
 
-export default FunctionalComponent;
+export default AlignLeftOutlined;

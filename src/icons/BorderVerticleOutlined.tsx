@@ -13,4 +13,4 @@ const BorderVerticleOutlined: BorderVerticleOutlinedIconType = (props, context) 
 
 BorderVerticleOutlined.displayName = 'BorderVerticleOutlined';
 
-export default FunctionalComponent;
+export default BorderVerticleOutlined;

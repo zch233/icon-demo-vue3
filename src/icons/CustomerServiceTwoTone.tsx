@@ -13,4 +13,4 @@ const CustomerServiceTwoTone: CustomerServiceTwoToneIconType = (props, context) 
 
 CustomerServiceTwoTone.displayName = 'CustomerServiceTwoTone';
 
-export default FunctionalComponent;
+export default CustomerServiceTwoTone;

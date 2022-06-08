@@ -13,4 +13,4 @@ const PullRequestOutlined: PullRequestOutlinedIconType = (props, context) => <Ic
 
 PullRequestOutlined.displayName = 'PullRequestOutlined';
 
-export default FunctionalComponent;
+export default PullRequestOutlined;

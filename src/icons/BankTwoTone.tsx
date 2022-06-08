@@ -13,4 +13,4 @@ const BankTwoTone: BankTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 BankTwoTone.displayName = 'BankTwoTone';
 
-export default FunctionalComponent;
+export default BankTwoTone;

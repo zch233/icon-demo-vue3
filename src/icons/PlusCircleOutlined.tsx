@@ -13,4 +13,4 @@ const PlusCircleOutlined: PlusCircleOutlinedIconType = (props, context) => <Icon
 
 PlusCircleOutlined.displayName = 'PlusCircleOutlined';
 
-export default FunctionalComponent;
+export default PlusCircleOutlined;

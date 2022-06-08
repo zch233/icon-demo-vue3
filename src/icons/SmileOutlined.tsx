@@ -13,4 +13,4 @@ const SmileOutlined: SmileOutlinedIconType = (props, context) => <Icon {...{ ...
 
 SmileOutlined.displayName = 'SmileOutlined';
 
-export default FunctionalComponent;
+export default SmileOutlined;

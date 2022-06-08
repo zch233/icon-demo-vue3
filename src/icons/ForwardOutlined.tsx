@@ -13,4 +13,4 @@ const ForwardOutlined: ForwardOutlinedIconType = (props, context) => <Icon {...{
 
 ForwardOutlined.displayName = 'ForwardOutlined';
 
-export default FunctionalComponent;
+export default ForwardOutlined;

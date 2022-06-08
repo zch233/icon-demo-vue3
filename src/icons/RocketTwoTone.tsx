@@ -13,4 +13,4 @@ const RocketTwoTone: RocketTwoToneIconType = (props, context) => <Icon {...{ ...
 
 RocketTwoTone.displayName = 'RocketTwoTone';
 
-export default FunctionalComponent;
+export default RocketTwoTone;

@@ -13,4 +13,4 @@ const CarOutlined: CarOutlinedIconType = (props, context) => <Icon {...{ ...prop
 
 CarOutlined.displayName = 'CarOutlined';
 
-export default FunctionalComponent;
+export default CarOutlined;

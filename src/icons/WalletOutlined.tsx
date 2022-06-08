@@ -13,4 +13,4 @@ const WalletOutlined: WalletOutlinedIconType = (props, context) => <Icon {...{ .
 
 WalletOutlined.displayName = 'WalletOutlined';
 
-export default FunctionalComponent;
+export default WalletOutlined;

@@ -13,4 +13,4 @@ const BorderlessTableOutlined: BorderlessTableOutlinedIconType = (props, context
 
 BorderlessTableOutlined.displayName = 'BorderlessTableOutlined';
 
-export default FunctionalComponent;
+export default BorderlessTableOutlined;

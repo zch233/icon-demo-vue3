@@ -13,4 +13,4 @@ const LinkedinFilled: LinkedinFilledIconType = (props, context) => <Icon {...{ .
 
 LinkedinFilled.displayName = 'LinkedinFilled';
 
-export default FunctionalComponent;
+export default LinkedinFilled;

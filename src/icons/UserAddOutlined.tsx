@@ -13,4 +13,4 @@ const UserAddOutlined: UserAddOutlinedIconType = (props, context) => <Icon {...{
 
 UserAddOutlined.displayName = 'UserAddOutlined';
 
-export default FunctionalComponent;
+export default UserAddOutlined;

@@ -13,4 +13,4 @@ const CarFilled: CarFilledIconType = (props, context) => <Icon {...{ ...props, .
 
 CarFilled.displayName = 'CarFilled';
 
-export default FunctionalComponent;
+export default CarFilled;

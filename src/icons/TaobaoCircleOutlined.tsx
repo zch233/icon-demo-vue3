@@ -13,4 +13,4 @@ const TaobaoCircleOutlined: TaobaoCircleOutlinedIconType = (props, context) => <
 
 TaobaoCircleOutlined.displayName = 'TaobaoCircleOutlined';
 
-export default FunctionalComponent;
+export default TaobaoCircleOutlined;

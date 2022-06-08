@@ -13,4 +13,4 @@ const PushpinTwoTone: PushpinTwoToneIconType = (props, context) => <Icon {...{ .
 
 PushpinTwoTone.displayName = 'PushpinTwoTone';
 
-export default FunctionalComponent;
+export default PushpinTwoTone;

@@ -13,4 +13,4 @@ const TwitterOutlined: TwitterOutlinedIconType = (props, context) => <Icon {...{
 
 TwitterOutlined.displayName = 'TwitterOutlined';
 
-export default FunctionalComponent;
+export default TwitterOutlined;

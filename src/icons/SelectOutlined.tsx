@@ -13,4 +13,4 @@ const SelectOutlined: SelectOutlinedIconType = (props, context) => <Icon {...{ .
 
 SelectOutlined.displayName = 'SelectOutlined';
 
-export default FunctionalComponent;
+export default SelectOutlined;

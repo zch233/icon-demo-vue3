@@ -13,4 +13,4 @@ const SafetyOutlined: SafetyOutlinedIconType = (props, context) => <Icon {...{ .
 
 SafetyOutlined.displayName = 'SafetyOutlined';
 
-export default FunctionalComponent;
+export default SafetyOutlined;

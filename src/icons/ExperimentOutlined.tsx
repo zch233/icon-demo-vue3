@@ -13,4 +13,4 @@ const ExperimentOutlined: ExperimentOutlinedIconType = (props, context) => <Icon
 
 ExperimentOutlined.displayName = 'ExperimentOutlined';
 
-export default FunctionalComponent;
+export default ExperimentOutlined;

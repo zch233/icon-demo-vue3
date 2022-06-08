@@ -13,4 +13,4 @@ const BellTwoTone: BellTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 BellTwoTone.displayName = 'BellTwoTone';
 
-export default FunctionalComponent;
+export default BellTwoTone;

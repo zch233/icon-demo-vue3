@@ -13,4 +13,4 @@ const GoogleOutlined: GoogleOutlinedIconType = (props, context) => <Icon {...{ .
 
 GoogleOutlined.displayName = 'GoogleOutlined';
 
-export default FunctionalComponent;
+export default GoogleOutlined;

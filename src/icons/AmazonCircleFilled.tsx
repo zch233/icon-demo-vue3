@@ -13,4 +13,4 @@ const AmazonCircleFilled: AmazonCircleFilledIconType = (props, context) => <Icon
 
 AmazonCircleFilled.displayName = 'AmazonCircleFilled';
 
-export default FunctionalComponent;
+export default AmazonCircleFilled;

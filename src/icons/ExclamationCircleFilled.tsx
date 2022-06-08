@@ -13,4 +13,4 @@ const ExclamationCircleFilled: ExclamationCircleFilledIconType = (props, context
 
 ExclamationCircleFilled.displayName = 'ExclamationCircleFilled';
 
-export default FunctionalComponent;
+export default ExclamationCircleFilled;

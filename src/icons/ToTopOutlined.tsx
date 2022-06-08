@@ -13,4 +13,4 @@ const ToTopOutlined: ToTopOutlinedIconType = (props, context) => <Icon {...{ ...
 
 ToTopOutlined.displayName = 'ToTopOutlined';
 
-export default FunctionalComponent;
+export default ToTopOutlined;

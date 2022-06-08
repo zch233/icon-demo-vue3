@@ -13,4 +13,4 @@ const ZoomInOutlined: ZoomInOutlinedIconType = (props, context) => <Icon {...{ .
 
 ZoomInOutlined.displayName = 'ZoomInOutlined';
 
-export default FunctionalComponent;
+export default ZoomInOutlined;

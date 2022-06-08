@@ -13,4 +13,4 @@ const RadiusBottomleftOutlined: RadiusBottomleftOutlinedIconType = (props, conte
 
 RadiusBottomleftOutlined.displayName = 'RadiusBottomleftOutlined';
 
-export default FunctionalComponent;
+export default RadiusBottomleftOutlined;

@@ -13,4 +13,4 @@ const RedditSquareFilled: RedditSquareFilledIconType = (props, context) => <Icon
 
 RedditSquareFilled.displayName = 'RedditSquareFilled';
 
-export default FunctionalComponent;
+export default RedditSquareFilled;

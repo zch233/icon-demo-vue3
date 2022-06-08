@@ -13,4 +13,4 @@ const CloseCircleOutlined: CloseCircleOutlinedIconType = (props, context) => <Ic
 
 CloseCircleOutlined.displayName = 'CloseCircleOutlined';
 
-export default FunctionalComponent;
+export default CloseCircleOutlined;

@@ -13,4 +13,4 @@ const EuroCircleFilled: EuroCircleFilledIconType = (props, context) => <Icon {..
 
 EuroCircleFilled.displayName = 'EuroCircleFilled';
 
-export default FunctionalComponent;
+export default EuroCircleFilled;

@@ -13,4 +13,4 @@ const FileAddOutlined: FileAddOutlinedIconType = (props, context) => <Icon {...{
 
 FileAddOutlined.displayName = 'FileAddOutlined';
 
-export default FunctionalComponent;
+export default FileAddOutlined;

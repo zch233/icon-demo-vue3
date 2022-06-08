@@ -13,4 +13,4 @@ const EyeInvisibleOutlined: EyeInvisibleOutlinedIconType = (props, context) => <
 
 EyeInvisibleOutlined.displayName = 'EyeInvisibleOutlined';
 
-export default FunctionalComponent;
+export default EyeInvisibleOutlined;

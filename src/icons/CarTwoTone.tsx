@@ -13,4 +13,4 @@ const CarTwoTone: CarTwoToneIconType = (props, context) => <Icon {...{ ...props,
 
 CarTwoTone.displayName = 'CarTwoTone';
 
-export default FunctionalComponent;
+export default CarTwoTone;

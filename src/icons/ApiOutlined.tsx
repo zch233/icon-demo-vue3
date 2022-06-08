@@ -13,4 +13,4 @@ const ApiOutlined: ApiOutlinedIconType = (props, context) => <Icon {...{ ...prop
 
 ApiOutlined.displayName = 'ApiOutlined';
 
-export default FunctionalComponent;
+export default ApiOutlined;

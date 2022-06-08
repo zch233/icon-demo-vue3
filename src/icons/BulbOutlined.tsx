@@ -13,4 +13,4 @@ const BulbOutlined: BulbOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 BulbOutlined.displayName = 'BulbOutlined';
 
-export default FunctionalComponent;
+export default BulbOutlined;

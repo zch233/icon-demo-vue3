@@ -13,4 +13,4 @@ const PrinterTwoTone: PrinterTwoToneIconType = (props, context) => <Icon {...{ .
 
 PrinterTwoTone.displayName = 'PrinterTwoTone';
 
-export default FunctionalComponent;
+export default PrinterTwoTone;

@@ -13,4 +13,4 @@ const ProfileOutlined: ProfileOutlinedIconType = (props, context) => <Icon {...{
 
 ProfileOutlined.displayName = 'ProfileOutlined';
 
-export default FunctionalComponent;
+export default ProfileOutlined;

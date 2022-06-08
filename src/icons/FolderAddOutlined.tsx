@@ -13,4 +13,4 @@ const FolderAddOutlined: FolderAddOutlinedIconType = (props, context) => <Icon {
 
 FolderAddOutlined.displayName = 'FolderAddOutlined';
 
-export default FunctionalComponent;
+export default FolderAddOutlined;

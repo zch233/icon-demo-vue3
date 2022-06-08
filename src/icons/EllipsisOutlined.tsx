@@ -13,4 +13,4 @@ const EllipsisOutlined: EllipsisOutlinedIconType = (props, context) => <Icon {..
 
 EllipsisOutlined.displayName = 'EllipsisOutlined';
 
-export default FunctionalComponent;
+export default EllipsisOutlined;

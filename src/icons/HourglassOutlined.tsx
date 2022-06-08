@@ -13,4 +13,4 @@ const HourglassOutlined: HourglassOutlinedIconType = (props, context) => <Icon {
 
 HourglassOutlined.displayName = 'HourglassOutlined';
 
-export default FunctionalComponent;
+export default HourglassOutlined;

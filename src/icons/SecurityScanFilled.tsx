@@ -13,4 +13,4 @@ const SecurityScanFilled: SecurityScanFilledIconType = (props, context) => <Icon
 
 SecurityScanFilled.displayName = 'SecurityScanFilled';
 
-export default FunctionalComponent;
+export default SecurityScanFilled;

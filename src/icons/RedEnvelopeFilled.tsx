@@ -13,4 +13,4 @@ const RedEnvelopeFilled: RedEnvelopeFilledIconType = (props, context) => <Icon {
 
 RedEnvelopeFilled.displayName = 'RedEnvelopeFilled';
 
-export default FunctionalComponent;
+export default RedEnvelopeFilled;

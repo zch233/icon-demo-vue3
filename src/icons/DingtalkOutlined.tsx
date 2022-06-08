@@ -13,4 +13,4 @@ const DingtalkOutlined: DingtalkOutlinedIconType = (props, context) => <Icon {..
 
 DingtalkOutlined.displayName = 'DingtalkOutlined';
 
-export default FunctionalComponent;
+export default DingtalkOutlined;

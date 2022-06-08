@@ -13,4 +13,4 @@ const BarcodeOutlined: BarcodeOutlinedIconType = (props, context) => <Icon {...{
 
 BarcodeOutlined.displayName = 'BarcodeOutlined';
 
-export default FunctionalComponent;
+export default BarcodeOutlined;

@@ -13,4 +13,4 @@ const ApartmentOutlined: ApartmentOutlinedIconType = (props, context) => <Icon {
 
 ApartmentOutlined.displayName = 'ApartmentOutlined';
 
-export default FunctionalComponent;
+export default ApartmentOutlined;

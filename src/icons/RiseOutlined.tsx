@@ -13,4 +13,4 @@ const RiseOutlined: RiseOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 RiseOutlined.displayName = 'RiseOutlined';
 
-export default FunctionalComponent;
+export default RiseOutlined;

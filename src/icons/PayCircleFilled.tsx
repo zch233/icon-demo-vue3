@@ -13,4 +13,4 @@ const PayCircleFilled: PayCircleFilledIconType = (props, context) => <Icon {...{
 
 PayCircleFilled.displayName = 'PayCircleFilled';
 
-export default FunctionalComponent;
+export default PayCircleFilled;

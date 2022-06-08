@@ -13,4 +13,4 @@ const UpSquareOutlined: UpSquareOutlinedIconType = (props, context) => <Icon {..
 
 UpSquareOutlined.displayName = 'UpSquareOutlined';
 
-export default FunctionalComponent;
+export default UpSquareOutlined;

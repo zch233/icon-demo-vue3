@@ -13,4 +13,4 @@ const QrcodeOutlined: QrcodeOutlinedIconType = (props, context) => <Icon {...{ .
 
 QrcodeOutlined.displayName = 'QrcodeOutlined';
 
-export default FunctionalComponent;
+export default QrcodeOutlined;

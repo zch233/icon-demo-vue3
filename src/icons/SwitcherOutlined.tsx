@@ -13,4 +13,4 @@ const SwitcherOutlined: SwitcherOutlinedIconType = (props, context) => <Icon {..
 
 SwitcherOutlined.displayName = 'SwitcherOutlined';
 
-export default FunctionalComponent;
+export default SwitcherOutlined;

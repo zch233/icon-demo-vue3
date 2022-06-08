@@ -13,4 +13,4 @@ const AppleFilled: AppleFilledIconType = (props, context) => <Icon {...{ ...prop
 
 AppleFilled.displayName = 'AppleFilled';
 
-export default FunctionalComponent;
+export default AppleFilled;

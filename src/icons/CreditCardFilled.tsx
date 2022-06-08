@@ -13,4 +13,4 @@ const CreditCardFilled: CreditCardFilledIconType = (props, context) => <Icon {..
 
 CreditCardFilled.displayName = 'CreditCardFilled';
 
-export default FunctionalComponent;
+export default CreditCardFilled;

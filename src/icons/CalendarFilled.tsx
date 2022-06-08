@@ -13,4 +13,4 @@ const CalendarFilled: CalendarFilledIconType = (props, context) => <Icon {...{ .
 
 CalendarFilled.displayName = 'CalendarFilled';
 
-export default FunctionalComponent;
+export default CalendarFilled;

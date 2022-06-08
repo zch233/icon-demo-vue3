@@ -13,4 +13,4 @@ const UndoOutlined: UndoOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 UndoOutlined.displayName = 'UndoOutlined';
 
-export default FunctionalComponent;
+export default UndoOutlined;

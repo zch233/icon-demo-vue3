@@ -13,4 +13,4 @@ const LikeTwoTone: LikeTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 LikeTwoTone.displayName = 'LikeTwoTone';
 
-export default FunctionalComponent;
+export default LikeTwoTone;

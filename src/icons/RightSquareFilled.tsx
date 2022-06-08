@@ -13,4 +13,4 @@ const RightSquareFilled: RightSquareFilledIconType = (props, context) => <Icon {
 
 RightSquareFilled.displayName = 'RightSquareFilled';
 
-export default FunctionalComponent;
+export default RightSquareFilled;

@@ -13,4 +13,4 @@ const EditTwoTone: EditTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 EditTwoTone.displayName = 'EditTwoTone';
 
-export default FunctionalComponent;
+export default EditTwoTone;

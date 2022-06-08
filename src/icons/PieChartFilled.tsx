@@ -13,4 +13,4 @@ const PieChartFilled: PieChartFilledIconType = (props, context) => <Icon {...{ .
 
 PieChartFilled.displayName = 'PieChartFilled';
 
-export default FunctionalComponent;
+export default PieChartFilled;

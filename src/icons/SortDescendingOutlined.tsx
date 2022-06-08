@@ -13,4 +13,4 @@ const SortDescendingOutlined: SortDescendingOutlinedIconType = (props, context) 
 
 SortDescendingOutlined.displayName = 'SortDescendingOutlined';
 
-export default FunctionalComponent;
+export default SortDescendingOutlined;

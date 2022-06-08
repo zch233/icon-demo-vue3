@@ -13,4 +13,4 @@ const StarFilled: StarFilledIconType = (props, context) => <Icon {...{ ...props,
 
 StarFilled.displayName = 'StarFilled';
 
-export default FunctionalComponent;
+export default StarFilled;

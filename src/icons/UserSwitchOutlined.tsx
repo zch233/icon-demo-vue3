@@ -13,4 +13,4 @@ const UserSwitchOutlined: UserSwitchOutlinedIconType = (props, context) => <Icon
 
 UserSwitchOutlined.displayName = 'UserSwitchOutlined';
 
-export default FunctionalComponent;
+export default UserSwitchOutlined;

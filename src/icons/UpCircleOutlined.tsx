@@ -13,4 +13,4 @@ const UpCircleOutlined: UpCircleOutlinedIconType = (props, context) => <Icon {..
 
 UpCircleOutlined.displayName = 'UpCircleOutlined';
 
-export default FunctionalComponent;
+export default UpCircleOutlined;

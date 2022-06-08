@@ -13,4 +13,4 @@ const PauseCircleOutlined: PauseCircleOutlinedIconType = (props, context) => <Ic
 
 PauseCircleOutlined.displayName = 'PauseCircleOutlined';
 
-export default FunctionalComponent;
+export default PauseCircleOutlined;

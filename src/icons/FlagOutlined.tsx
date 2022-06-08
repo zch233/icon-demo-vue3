@@ -13,4 +13,4 @@ const FlagOutlined: FlagOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 FlagOutlined.displayName = 'FlagOutlined';
 
-export default FunctionalComponent;
+export default FlagOutlined;

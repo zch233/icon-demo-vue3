@@ -13,4 +13,4 @@ const PicCenterOutlined: PicCenterOutlinedIconType = (props, context) => <Icon {
 
 PicCenterOutlined.displayName = 'PicCenterOutlined';
 
-export default FunctionalComponent;
+export default PicCenterOutlined;

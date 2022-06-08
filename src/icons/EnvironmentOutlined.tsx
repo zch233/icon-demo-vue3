@@ -13,4 +13,4 @@ const EnvironmentOutlined: EnvironmentOutlinedIconType = (props, context) => <Ic
 
 EnvironmentOutlined.displayName = 'EnvironmentOutlined';
 
-export default FunctionalComponent;
+export default EnvironmentOutlined;

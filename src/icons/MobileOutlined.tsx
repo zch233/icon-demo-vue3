@@ -13,4 +13,4 @@ const MobileOutlined: MobileOutlinedIconType = (props, context) => <Icon {...{ .
 
 MobileOutlined.displayName = 'MobileOutlined';
 
-export default FunctionalComponent;
+export default MobileOutlined;

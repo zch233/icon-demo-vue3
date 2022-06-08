@@ -13,4 +13,4 @@ const FacebookOutlined: FacebookOutlinedIconType = (props, context) => <Icon {..
 
 FacebookOutlined.displayName = 'FacebookOutlined';
 
-export default FunctionalComponent;
+export default FacebookOutlined;

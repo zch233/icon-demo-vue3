@@ -13,4 +13,4 @@ const CoffeeOutlined: CoffeeOutlinedIconType = (props, context) => <Icon {...{ .
 
 CoffeeOutlined.displayName = 'CoffeeOutlined';
 
-export default FunctionalComponent;
+export default CoffeeOutlined;

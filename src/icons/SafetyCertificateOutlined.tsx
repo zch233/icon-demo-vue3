@@ -13,4 +13,4 @@ const SafetyCertificateOutlined: SafetyCertificateOutlinedIconType = (props, con
 
 SafetyCertificateOutlined.displayName = 'SafetyCertificateOutlined';
 
-export default FunctionalComponent;
+export default SafetyCertificateOutlined;

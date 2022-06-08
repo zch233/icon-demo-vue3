@@ -13,4 +13,4 @@ const MobileFilled: MobileFilledIconType = (props, context) => <Icon {...{ ...pr
 
 MobileFilled.displayName = 'MobileFilled';
 
-export default FunctionalComponent;
+export default MobileFilled;

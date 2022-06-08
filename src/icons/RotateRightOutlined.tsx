@@ -13,4 +13,4 @@ const RotateRightOutlined: RotateRightOutlinedIconType = (props, context) => <Ic
 
 RotateRightOutlined.displayName = 'RotateRightOutlined';
 
-export default FunctionalComponent;
+export default RotateRightOutlined;

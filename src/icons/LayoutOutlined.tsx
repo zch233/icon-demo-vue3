@@ -13,4 +13,4 @@ const LayoutOutlined: LayoutOutlinedIconType = (props, context) => <Icon {...{ .
 
 LayoutOutlined.displayName = 'LayoutOutlined';
 
-export default FunctionalComponent;
+export default LayoutOutlined;

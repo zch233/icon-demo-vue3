@@ -13,4 +13,4 @@ const PushpinOutlined: PushpinOutlinedIconType = (props, context) => <Icon {...{
 
 PushpinOutlined.displayName = 'PushpinOutlined';
 
-export default FunctionalComponent;
+export default PushpinOutlined;

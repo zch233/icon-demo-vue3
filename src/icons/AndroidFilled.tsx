@@ -13,4 +13,4 @@ const AndroidFilled: AndroidFilledIconType = (props, context) => <Icon {...{ ...
 
 AndroidFilled.displayName = 'AndroidFilled';
 
-export default FunctionalComponent;
+export default AndroidFilled;

@@ -13,4 +13,4 @@ const ContainerOutlined: ContainerOutlinedIconType = (props, context) => <Icon {
 
 ContainerOutlined.displayName = 'ContainerOutlined';
 
-export default FunctionalComponent;
+export default ContainerOutlined;

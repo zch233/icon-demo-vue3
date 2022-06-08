@@ -13,4 +13,4 @@ const DeliveredProcedureOutlined: DeliveredProcedureOutlinedIconType = (props, c
 
 DeliveredProcedureOutlined.displayName = 'DeliveredProcedureOutlined';
 
-export default FunctionalComponent;
+export default DeliveredProcedureOutlined;

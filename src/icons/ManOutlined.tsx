@@ -13,4 +13,4 @@ const ManOutlined: ManOutlinedIconType = (props, context) => <Icon {...{ ...prop
 
 ManOutlined.displayName = 'ManOutlined';
 
-export default FunctionalComponent;
+export default ManOutlined;

@@ -13,4 +13,4 @@ const AlipayCircleFilled: AlipayCircleFilledIconType = (props, context) => <Icon
 
 AlipayCircleFilled.displayName = 'AlipayCircleFilled';
 
-export default FunctionalComponent;
+export default AlipayCircleFilled;

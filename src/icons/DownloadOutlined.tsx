@@ -13,4 +13,4 @@ const DownloadOutlined: DownloadOutlinedIconType = (props, context) => <Icon {..
 
 DownloadOutlined.displayName = 'DownloadOutlined';
 
-export default FunctionalComponent;
+export default DownloadOutlined;

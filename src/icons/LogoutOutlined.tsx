@@ -13,4 +13,4 @@ const LogoutOutlined: LogoutOutlinedIconType = (props, context) => <Icon {...{ .
 
 LogoutOutlined.displayName = 'LogoutOutlined';
 
-export default FunctionalComponent;
+export default LogoutOutlined;

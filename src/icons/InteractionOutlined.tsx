@@ -13,4 +13,4 @@ const InteractionOutlined: InteractionOutlinedIconType = (props, context) => <Ic
 
 InteractionOutlined.displayName = 'InteractionOutlined';
 
-export default FunctionalComponent;
+export default InteractionOutlined;

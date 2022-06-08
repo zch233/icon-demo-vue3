@@ -13,4 +13,4 @@ const CrownTwoTone: CrownTwoToneIconType = (props, context) => <Icon {...{ ...pr
 
 CrownTwoTone.displayName = 'CrownTwoTone';
 
-export default FunctionalComponent;
+export default CrownTwoTone;

@@ -13,4 +13,4 @@ const BellFilled: BellFilledIconType = (props, context) => <Icon {...{ ...props,
 
 BellFilled.displayName = 'BellFilled';
 
-export default FunctionalComponent;
+export default BellFilled;

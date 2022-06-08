@@ -13,4 +13,4 @@ const SyncOutlined: SyncOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 SyncOutlined.displayName = 'SyncOutlined';
 
-export default FunctionalComponent;
+export default SyncOutlined;

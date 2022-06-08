@@ -13,4 +13,4 @@ const StopOutlined: StopOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 StopOutlined.displayName = 'StopOutlined';
 
-export default FunctionalComponent;
+export default StopOutlined;

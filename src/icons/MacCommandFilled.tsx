@@ -13,4 +13,4 @@ const MacCommandFilled: MacCommandFilledIconType = (props, context) => <Icon {..
 
 MacCommandFilled.displayName = 'MacCommandFilled';
 
-export default FunctionalComponent;
+export default MacCommandFilled;

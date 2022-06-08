@@ -13,4 +13,4 @@ const CarryOutOutlined: CarryOutOutlinedIconType = (props, context) => <Icon {..
 
 CarryOutOutlined.displayName = 'CarryOutOutlined';
 
-export default FunctionalComponent;
+export default CarryOutOutlined;

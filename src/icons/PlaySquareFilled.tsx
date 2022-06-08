@@ -13,4 +13,4 @@ const PlaySquareFilled: PlaySquareFilledIconType = (props, context) => <Icon {..
 
 PlaySquareFilled.displayName = 'PlaySquareFilled';
 
-export default FunctionalComponent;
+export default PlaySquareFilled;

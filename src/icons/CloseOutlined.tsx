@@ -13,4 +13,4 @@ const CloseOutlined: CloseOutlinedIconType = (props, context) => <Icon {...{ ...
 
 CloseOutlined.displayName = 'CloseOutlined';
 
-export default FunctionalComponent;
+export default CloseOutlined;

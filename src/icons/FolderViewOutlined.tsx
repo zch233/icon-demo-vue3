@@ -13,4 +13,4 @@ const FolderViewOutlined: FolderViewOutlinedIconType = (props, context) => <Icon
 
 FolderViewOutlined.displayName = 'FolderViewOutlined';
 
-export default FunctionalComponent;
+export default FolderViewOutlined;

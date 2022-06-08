@@ -13,4 +13,4 @@ const EnterOutlined: EnterOutlinedIconType = (props, context) => <Icon {...{ ...
 
 EnterOutlined.displayName = 'EnterOutlined';
 
-export default FunctionalComponent;
+export default EnterOutlined;

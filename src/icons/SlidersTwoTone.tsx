@@ -13,4 +13,4 @@ const SlidersTwoTone: SlidersTwoToneIconType = (props, context) => <Icon {...{ .
 
 SlidersTwoTone.displayName = 'SlidersTwoTone';
 
-export default FunctionalComponent;
+export default SlidersTwoTone;

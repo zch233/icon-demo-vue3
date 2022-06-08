@@ -13,4 +13,4 @@ const FormatPainterOutlined: FormatPainterOutlinedIconType = (props, context) =>
 
 FormatPainterOutlined.displayName = 'FormatPainterOutlined';
 
-export default FunctionalComponent;
+export default FormatPainterOutlined;

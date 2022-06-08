@@ -13,4 +13,4 @@ const QuestionCircleFilled: QuestionCircleFilledIconType = (props, context) => <
 
 QuestionCircleFilled.displayName = 'QuestionCircleFilled';
 
-export default FunctionalComponent;
+export default QuestionCircleFilled;

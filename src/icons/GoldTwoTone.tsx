@@ -13,4 +13,4 @@ const GoldTwoTone: GoldTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 GoldTwoTone.displayName = 'GoldTwoTone';
 
-export default FunctionalComponent;
+export default GoldTwoTone;

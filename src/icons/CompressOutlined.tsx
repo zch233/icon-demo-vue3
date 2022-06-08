@@ -13,4 +13,4 @@ const CompressOutlined: CompressOutlinedIconType = (props, context) => <Icon {..
 
 CompressOutlined.displayName = 'CompressOutlined';
 
-export default FunctionalComponent;
+export default CompressOutlined;

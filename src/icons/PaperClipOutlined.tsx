@@ -13,4 +13,4 @@ const PaperClipOutlined: PaperClipOutlinedIconType = (props, context) => <Icon {
 
 PaperClipOutlined.displayName = 'PaperClipOutlined';
 
-export default FunctionalComponent;
+export default PaperClipOutlined;

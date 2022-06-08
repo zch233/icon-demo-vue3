@@ -13,4 +13,4 @@ const NodeCollapseOutlined: NodeCollapseOutlinedIconType = (props, context) => <
 
 NodeCollapseOutlined.displayName = 'NodeCollapseOutlined';
 
-export default FunctionalComponent;
+export default NodeCollapseOutlined;

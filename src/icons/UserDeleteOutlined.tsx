@@ -13,4 +13,4 @@ const UserDeleteOutlined: UserDeleteOutlinedIconType = (props, context) => <Icon
 
 UserDeleteOutlined.displayName = 'UserDeleteOutlined';
 
-export default FunctionalComponent;
+export default UserDeleteOutlined;

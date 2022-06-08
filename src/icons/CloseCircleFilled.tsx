@@ -13,4 +13,4 @@ const CloseCircleFilled: CloseCircleFilledIconType = (props, context) => <Icon {
 
 CloseCircleFilled.displayName = 'CloseCircleFilled';
 
-export default FunctionalComponent;
+export default CloseCircleFilled;

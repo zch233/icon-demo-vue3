@@ -13,4 +13,4 @@ const IdcardOutlined: IdcardOutlinedIconType = (props, context) => <Icon {...{ .
 
 IdcardOutlined.displayName = 'IdcardOutlined';
 
-export default FunctionalComponent;
+export default IdcardOutlined;

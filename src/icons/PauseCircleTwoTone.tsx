@@ -13,4 +13,4 @@ const PauseCircleTwoTone: PauseCircleTwoToneIconType = (props, context) => <Icon
 
 PauseCircleTwoTone.displayName = 'PauseCircleTwoTone';
 
-export default FunctionalComponent;
+export default PauseCircleTwoTone;

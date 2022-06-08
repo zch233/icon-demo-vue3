@@ -13,4 +13,4 @@ const SkinOutlined: SkinOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 SkinOutlined.displayName = 'SkinOutlined';
 
-export default FunctionalComponent;
+export default SkinOutlined;

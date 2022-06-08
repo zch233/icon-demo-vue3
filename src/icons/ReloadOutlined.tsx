@@ -13,4 +13,4 @@ const ReloadOutlined: ReloadOutlinedIconType = (props, context) => <Icon {...{ .
 
 ReloadOutlined.displayName = 'ReloadOutlined';
 
-export default FunctionalComponent;
+export default ReloadOutlined;

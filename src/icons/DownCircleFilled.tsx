@@ -13,4 +13,4 @@ const DownCircleFilled: DownCircleFilledIconType = (props, context) => <Icon {..
 
 DownCircleFilled.displayName = 'DownCircleFilled';
 
-export default FunctionalComponent;
+export default DownCircleFilled;

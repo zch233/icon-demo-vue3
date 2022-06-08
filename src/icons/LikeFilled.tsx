@@ -13,4 +13,4 @@ const LikeFilled: LikeFilledIconType = (props, context) => <Icon {...{ ...props,
 
 LikeFilled.displayName = 'LikeFilled';
 
-export default FunctionalComponent;
+export default LikeFilled;

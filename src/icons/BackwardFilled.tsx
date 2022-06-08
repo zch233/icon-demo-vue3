@@ -13,4 +13,4 @@ const BackwardFilled: BackwardFilledIconType = (props, context) => <Icon {...{ .
 
 BackwardFilled.displayName = 'BackwardFilled';
 
-export default FunctionalComponent;
+export default BackwardFilled;

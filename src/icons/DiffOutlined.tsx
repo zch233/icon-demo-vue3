@@ -13,4 +13,4 @@ const DiffOutlined: DiffOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 DiffOutlined.displayName = 'DiffOutlined';
 
-export default FunctionalComponent;
+export default DiffOutlined;

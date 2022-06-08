@@ -13,4 +13,4 @@ const SaveOutlined: SaveOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 SaveOutlined.displayName = 'SaveOutlined';
 
-export default FunctionalComponent;
+export default SaveOutlined;

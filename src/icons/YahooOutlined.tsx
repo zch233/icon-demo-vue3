@@ -13,4 +13,4 @@ const YahooOutlined: YahooOutlinedIconType = (props, context) => <Icon {...{ ...
 
 YahooOutlined.displayName = 'YahooOutlined';
 
-export default FunctionalComponent;
+export default YahooOutlined;

@@ -13,4 +13,4 @@ const AppstoreAddOutlined: AppstoreAddOutlinedIconType = (props, context) => <Ic
 
 AppstoreAddOutlined.displayName = 'AppstoreAddOutlined';
 
-export default FunctionalComponent;
+export default AppstoreAddOutlined;

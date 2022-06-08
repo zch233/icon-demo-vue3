@@ -13,4 +13,4 @@ const SlackCircleFilled: SlackCircleFilledIconType = (props, context) => <Icon {
 
 SlackCircleFilled.displayName = 'SlackCircleFilled';
 
-export default FunctionalComponent;
+export default SlackCircleFilled;

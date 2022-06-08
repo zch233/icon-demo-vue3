@@ -13,4 +13,4 @@ const CameraOutlined: CameraOutlinedIconType = (props, context) => <Icon {...{ .
 
 CameraOutlined.displayName = 'CameraOutlined';
 
-export default FunctionalComponent;
+export default CameraOutlined;

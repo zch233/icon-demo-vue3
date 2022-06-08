@@ -13,4 +13,4 @@ const CompassTwoTone: CompassTwoToneIconType = (props, context) => <Icon {...{ .
 
 CompassTwoTone.displayName = 'CompassTwoTone';
 
-export default FunctionalComponent;
+export default CompassTwoTone;

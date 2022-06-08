@@ -13,4 +13,4 @@ const StarOutlined: StarOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 StarOutlined.displayName = 'StarOutlined';
 
-export default FunctionalComponent;
+export default StarOutlined;

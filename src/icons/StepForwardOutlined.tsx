@@ -13,4 +13,4 @@ const StepForwardOutlined: StepForwardOutlinedIconType = (props, context) => <Ic
 
 StepForwardOutlined.displayName = 'StepForwardOutlined';
 
-export default FunctionalComponent;
+export default StepForwardOutlined;

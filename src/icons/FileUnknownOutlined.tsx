@@ -13,4 +13,4 @@ const FileUnknownOutlined: FileUnknownOutlinedIconType = (props, context) => <Ic
 
 FileUnknownOutlined.displayName = 'FileUnknownOutlined';
 
-export default FunctionalComponent;
+export default FileUnknownOutlined;

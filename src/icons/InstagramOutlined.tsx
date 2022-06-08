@@ -13,4 +13,4 @@ const InstagramOutlined: InstagramOutlinedIconType = (props, context) => <Icon {
 
 InstagramOutlined.displayName = 'InstagramOutlined';
 
-export default FunctionalComponent;
+export default InstagramOutlined;

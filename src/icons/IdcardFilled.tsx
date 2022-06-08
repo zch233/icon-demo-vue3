@@ -13,4 +13,4 @@ const IdcardFilled: IdcardFilledIconType = (props, context) => <Icon {...{ ...pr
 
 IdcardFilled.displayName = 'IdcardFilled';
 
-export default FunctionalComponent;
+export default IdcardFilled;

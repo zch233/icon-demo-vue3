@@ -13,4 +13,4 @@ const LayoutFilled: LayoutFilledIconType = (props, context) => <Icon {...{ ...pr
 
 LayoutFilled.displayName = 'LayoutFilled';
 
-export default FunctionalComponent;
+export default LayoutFilled;

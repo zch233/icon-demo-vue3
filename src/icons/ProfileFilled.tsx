@@ -13,4 +13,4 @@ const ProfileFilled: ProfileFilledIconType = (props, context) => <Icon {...{ ...
 
 ProfileFilled.displayName = 'ProfileFilled';
 
-export default FunctionalComponent;
+export default ProfileFilled;

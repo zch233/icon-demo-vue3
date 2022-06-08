@@ -13,4 +13,4 @@ const AccountBookOutlined: AccountBookOutlinedIconType = (props, context) => <Ic
 
 AccountBookOutlined.displayName = 'AccountBookOutlined';
 
-export default FunctionalComponent;
+export default AccountBookOutlined;

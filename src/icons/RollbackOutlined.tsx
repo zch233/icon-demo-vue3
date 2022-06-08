@@ -13,4 +13,4 @@ const RollbackOutlined: RollbackOutlinedIconType = (props, context) => <Icon {..
 
 RollbackOutlined.displayName = 'RollbackOutlined';
 
-export default FunctionalComponent;
+export default RollbackOutlined;

@@ -13,4 +13,4 @@ const AlertOutlined: AlertOutlinedIconType = (props, context) => <Icon {...{ ...
 
 AlertOutlined.displayName = 'AlertOutlined';
 
-export default FunctionalComponent;
+export default AlertOutlined;

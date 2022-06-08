@@ -13,4 +13,4 @@ const CaretRightOutlined: CaretRightOutlinedIconType = (props, context) => <Icon
 
 CaretRightOutlined.displayName = 'CaretRightOutlined';
 
-export default FunctionalComponent;
+export default CaretRightOutlined;

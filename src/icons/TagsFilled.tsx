@@ -13,4 +13,4 @@ const TagsFilled: TagsFilledIconType = (props, context) => <Icon {...{ ...props,
 
 TagsFilled.displayName = 'TagsFilled';
 
-export default FunctionalComponent;
+export default TagsFilled;

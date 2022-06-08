@@ -13,4 +13,4 @@ const QuestionCircleTwoTone: QuestionCircleTwoToneIconType = (props, context) =>
 
 QuestionCircleTwoTone.displayName = 'QuestionCircleTwoTone';
 
-export default FunctionalComponent;
+export default QuestionCircleTwoTone;

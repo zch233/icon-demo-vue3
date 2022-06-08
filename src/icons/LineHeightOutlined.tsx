@@ -13,4 +13,4 @@ const LineHeightOutlined: LineHeightOutlinedIconType = (props, context) => <Icon
 
 LineHeightOutlined.displayName = 'LineHeightOutlined';
 
-export default FunctionalComponent;
+export default LineHeightOutlined;

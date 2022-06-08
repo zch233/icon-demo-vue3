@@ -13,4 +13,4 @@ const EuroOutlined: EuroOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 EuroOutlined.displayName = 'EuroOutlined';
 
-export default FunctionalComponent;
+export default EuroOutlined;

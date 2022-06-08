@@ -13,4 +13,4 @@ const TaobaoSquareFilled: TaobaoSquareFilledIconType = (props, context) => <Icon
 
 TaobaoSquareFilled.displayName = 'TaobaoSquareFilled';
 
-export default FunctionalComponent;
+export default TaobaoSquareFilled;

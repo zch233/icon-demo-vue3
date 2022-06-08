@@ -13,4 +13,4 @@ const ApiFilled: ApiFilledIconType = (props, context) => <Icon {...{ ...props, .
 
 ApiFilled.displayName = 'ApiFilled';
 
-export default FunctionalComponent;
+export default ApiFilled;

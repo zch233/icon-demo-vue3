@@ -13,4 +13,4 @@ const FileExcelTwoTone: FileExcelTwoToneIconType = (props, context) => <Icon {..
 
 FileExcelTwoTone.displayName = 'FileExcelTwoTone';
 
-export default FunctionalComponent;
+export default FileExcelTwoTone;

@@ -13,4 +13,4 @@ const FilePptFilled: FilePptFilledIconType = (props, context) => <Icon {...{ ...
 
 FilePptFilled.displayName = 'FilePptFilled';
 
-export default FunctionalComponent;
+export default FilePptFilled;

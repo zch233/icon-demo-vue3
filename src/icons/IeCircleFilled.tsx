@@ -13,4 +13,4 @@ const IeCircleFilled: IeCircleFilledIconType = (props, context) => <Icon {...{ .
 
 IeCircleFilled.displayName = 'IeCircleFilled';
 
-export default FunctionalComponent;
+export default IeCircleFilled;

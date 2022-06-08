@@ -13,4 +13,4 @@ const TaobaoOutlined: TaobaoOutlinedIconType = (props, context) => <Icon {...{ .
 
 TaobaoOutlined.displayName = 'TaobaoOutlined';
 
-export default FunctionalComponent;
+export default TaobaoOutlined;

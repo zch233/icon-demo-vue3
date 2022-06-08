@@ -13,4 +13,4 @@ const SmileTwoTone: SmileTwoToneIconType = (props, context) => <Icon {...{ ...pr
 
 SmileTwoTone.displayName = 'SmileTwoTone';
 
-export default FunctionalComponent;
+export default SmileTwoTone;

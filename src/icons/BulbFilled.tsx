@@ -13,4 +13,4 @@ const BulbFilled: BulbFilledIconType = (props, context) => <Icon {...{ ...props,
 
 BulbFilled.displayName = 'BulbFilled';
 
-export default FunctionalComponent;
+export default BulbFilled;

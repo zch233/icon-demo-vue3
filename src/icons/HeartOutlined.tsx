@@ -13,4 +13,4 @@ const HeartOutlined: HeartOutlinedIconType = (props, context) => <Icon {...{ ...
 
 HeartOutlined.displayName = 'HeartOutlined';
 
-export default FunctionalComponent;
+export default HeartOutlined;

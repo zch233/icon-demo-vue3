@@ -13,4 +13,4 @@ const CarryOutFilled: CarryOutFilledIconType = (props, context) => <Icon {...{ .
 
 CarryOutFilled.displayName = 'CarryOutFilled';
 
-export default FunctionalComponent;
+export default CarryOutFilled;

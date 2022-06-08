@@ -13,4 +13,4 @@ const BugTwoTone: BugTwoToneIconType = (props, context) => <Icon {...{ ...props,
 
 BugTwoTone.displayName = 'BugTwoTone';
 
-export default FunctionalComponent;
+export default BugTwoTone;

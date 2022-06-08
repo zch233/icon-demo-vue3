@@ -13,4 +13,4 @@ const FastBackwardFilled: FastBackwardFilledIconType = (props, context) => <Icon
 
 FastBackwardFilled.displayName = 'FastBackwardFilled';
 
-export default FunctionalComponent;
+export default FastBackwardFilled;

@@ -13,4 +13,4 @@ const DiffTwoTone: DiffTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 DiffTwoTone.displayName = 'DiffTwoTone';
 
-export default FunctionalComponent;
+export default DiffTwoTone;

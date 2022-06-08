@@ -13,4 +13,4 @@ const ArrowUpOutlined: ArrowUpOutlinedIconType = (props, context) => <Icon {...{
 
 ArrowUpOutlined.displayName = 'ArrowUpOutlined';
 
-export default FunctionalComponent;
+export default ArrowUpOutlined;

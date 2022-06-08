@@ -13,4 +13,4 @@ const HistoryOutlined: HistoryOutlinedIconType = (props, context) => <Icon {...{
 
 HistoryOutlined.displayName = 'HistoryOutlined';
 
-export default FunctionalComponent;
+export default HistoryOutlined;

@@ -13,4 +13,4 @@ const DiffFilled: DiffFilledIconType = (props, context) => <Icon {...{ ...props,
 
 DiffFilled.displayName = 'DiffFilled';
 
-export default FunctionalComponent;
+export default DiffFilled;

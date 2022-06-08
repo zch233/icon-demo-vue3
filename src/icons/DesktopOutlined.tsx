@@ -13,4 +13,4 @@ const DesktopOutlined: DesktopOutlinedIconType = (props, context) => <Icon {...{
 
 DesktopOutlined.displayName = 'DesktopOutlined';
 
-export default FunctionalComponent;
+export default DesktopOutlined;

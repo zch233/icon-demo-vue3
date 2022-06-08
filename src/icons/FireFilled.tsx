@@ -13,4 +13,4 @@ const FireFilled: FireFilledIconType = (props, context) => <Icon {...{ ...props,
 
 FireFilled.displayName = 'FireFilled';
 
-export default FunctionalComponent;
+export default FireFilled;

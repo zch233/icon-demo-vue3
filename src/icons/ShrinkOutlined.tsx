@@ -13,4 +13,4 @@ const ShrinkOutlined: ShrinkOutlinedIconType = (props, context) => <Icon {...{ .
 
 ShrinkOutlined.displayName = 'ShrinkOutlined';
 
-export default FunctionalComponent;
+export default ShrinkOutlined;

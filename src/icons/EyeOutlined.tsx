@@ -13,4 +13,4 @@ const EyeOutlined: EyeOutlinedIconType = (props, context) => <Icon {...{ ...prop
 
 EyeOutlined.displayName = 'EyeOutlined';
 
-export default FunctionalComponent;
+export default EyeOutlined;

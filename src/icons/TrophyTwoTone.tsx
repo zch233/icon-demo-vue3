@@ -13,4 +13,4 @@ const TrophyTwoTone: TrophyTwoToneIconType = (props, context) => <Icon {...{ ...
 
 TrophyTwoTone.displayName = 'TrophyTwoTone';
 
-export default FunctionalComponent;
+export default TrophyTwoTone;

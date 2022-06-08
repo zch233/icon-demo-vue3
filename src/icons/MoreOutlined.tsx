@@ -13,4 +13,4 @@ const MoreOutlined: MoreOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 MoreOutlined.displayName = 'MoreOutlined';
 
-export default FunctionalComponent;
+export default MoreOutlined;

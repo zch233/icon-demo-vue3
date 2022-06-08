@@ -13,4 +13,4 @@ const CopyTwoTone: CopyTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 CopyTwoTone.displayName = 'CopyTwoTone';
 
-export default FunctionalComponent;
+export default CopyTwoTone;

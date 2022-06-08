@@ -13,4 +13,4 @@ const PhoneFilled: PhoneFilledIconType = (props, context) => <Icon {...{ ...prop
 
 PhoneFilled.displayName = 'PhoneFilled';
 
-export default FunctionalComponent;
+export default PhoneFilled;

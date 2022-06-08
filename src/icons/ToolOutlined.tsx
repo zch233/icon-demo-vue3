@@ -13,4 +13,4 @@ const ToolOutlined: ToolOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 ToolOutlined.displayName = 'ToolOutlined';
 
-export default FunctionalComponent;
+export default ToolOutlined;

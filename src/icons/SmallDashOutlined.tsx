@@ -13,4 +13,4 @@ const SmallDashOutlined: SmallDashOutlinedIconType = (props, context) => <Icon {
 
 SmallDashOutlined.displayName = 'SmallDashOutlined';
 
-export default FunctionalComponent;
+export default SmallDashOutlined;

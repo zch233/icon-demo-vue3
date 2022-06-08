@@ -13,4 +13,4 @@ const SlidersFilled: SlidersFilledIconType = (props, context) => <Icon {...{ ...
 
 SlidersFilled.displayName = 'SlidersFilled';
 
-export default FunctionalComponent;
+export default SlidersFilled;

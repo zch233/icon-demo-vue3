@@ -13,4 +13,4 @@ const FileExclamationOutlined: FileExclamationOutlinedIconType = (props, context
 
 FileExclamationOutlined.displayName = 'FileExclamationOutlined';
 
-export default FunctionalComponent;
+export default FileExclamationOutlined;

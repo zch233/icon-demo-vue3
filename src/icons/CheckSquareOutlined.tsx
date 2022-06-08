@@ -13,4 +13,4 @@ const CheckSquareOutlined: CheckSquareOutlinedIconType = (props, context) => <Ic
 
 CheckSquareOutlined.displayName = 'CheckSquareOutlined';
 
-export default FunctionalComponent;
+export default CheckSquareOutlined;

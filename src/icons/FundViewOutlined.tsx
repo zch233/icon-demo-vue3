@@ -13,4 +13,4 @@ const FundViewOutlined: FundViewOutlinedIconType = (props, context) => <Icon {..
 
 FundViewOutlined.displayName = 'FundViewOutlined';
 
-export default FunctionalComponent;
+export default FundViewOutlined;

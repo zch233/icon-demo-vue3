@@ -13,4 +13,4 @@ const YoutubeFilled: YoutubeFilledIconType = (props, context) => <Icon {...{ ...
 
 YoutubeFilled.displayName = 'YoutubeFilled';
 
-export default FunctionalComponent;
+export default YoutubeFilled;

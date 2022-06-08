@@ -13,4 +13,4 @@ const SettingTwoTone: SettingTwoToneIconType = (props, context) => <Icon {...{ .
 
 SettingTwoTone.displayName = 'SettingTwoTone';
 
-export default FunctionalComponent;
+export default SettingTwoTone;

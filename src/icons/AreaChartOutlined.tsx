@@ -13,4 +13,4 @@ const AreaChartOutlined: AreaChartOutlinedIconType = (props, context) => <Icon {
 
 AreaChartOutlined.displayName = 'AreaChartOutlined';
 
-export default FunctionalComponent;
+export default AreaChartOutlined;

@@ -13,4 +13,4 @@ const LoadingOutlined: LoadingOutlinedIconType = (props, context) => <Icon {...{
 
 LoadingOutlined.displayName = 'LoadingOutlined';
 
-export default FunctionalComponent;
+export default LoadingOutlined;

@@ -13,4 +13,4 @@ const CiCircleFilled: CiCircleFilledIconType = (props, context) => <Icon {...{ .
 
 CiCircleFilled.displayName = 'CiCircleFilled';
 
-export default FunctionalComponent;
+export default CiCircleFilled;

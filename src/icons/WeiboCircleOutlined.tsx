@@ -13,4 +13,4 @@ const WeiboCircleOutlined: WeiboCircleOutlinedIconType = (props, context) => <Ic
 
 WeiboCircleOutlined.displayName = 'WeiboCircleOutlined';
 
-export default FunctionalComponent;
+export default WeiboCircleOutlined;

@@ -13,4 +13,4 @@ const CiCircleOutlined: CiCircleOutlinedIconType = (props, context) => <Icon {..
 
 CiCircleOutlined.displayName = 'CiCircleOutlined';
 
-export default FunctionalComponent;
+export default CiCircleOutlined;

@@ -13,4 +13,4 @@ const TagOutlined: TagOutlinedIconType = (props, context) => <Icon {...{ ...prop
 
 TagOutlined.displayName = 'TagOutlined';
 
-export default FunctionalComponent;
+export default TagOutlined;

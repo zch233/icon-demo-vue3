@@ -13,4 +13,4 @@ const NumberOutlined: NumberOutlinedIconType = (props, context) => <Icon {...{ .
 
 NumberOutlined.displayName = 'NumberOutlined';
 
-export default FunctionalComponent;
+export default NumberOutlined;

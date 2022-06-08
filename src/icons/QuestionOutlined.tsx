@@ -13,4 +13,4 @@ const QuestionOutlined: QuestionOutlinedIconType = (props, context) => <Icon {..
 
 QuestionOutlined.displayName = 'QuestionOutlined';
 
-export default FunctionalComponent;
+export default QuestionOutlined;

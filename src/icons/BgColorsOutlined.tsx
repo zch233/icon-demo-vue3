@@ -13,4 +13,4 @@ const BgColorsOutlined: BgColorsOutlinedIconType = (props, context) => <Icon {..
 
 BgColorsOutlined.displayName = 'BgColorsOutlined';
 
-export default FunctionalComponent;
+export default BgColorsOutlined;

@@ -13,4 +13,4 @@ const AudioFilled: AudioFilledIconType = (props, context) => <Icon {...{ ...prop
 
 AudioFilled.displayName = 'AudioFilled';
 
-export default FunctionalComponent;
+export default AudioFilled;

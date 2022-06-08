@@ -13,4 +13,4 @@ const BlockOutlined: BlockOutlinedIconType = (props, context) => <Icon {...{ ...
 
 BlockOutlined.displayName = 'BlockOutlined';
 
-export default FunctionalComponent;
+export default BlockOutlined;

@@ -13,4 +13,4 @@ const FolderAddFilled: FolderAddFilledIconType = (props, context) => <Icon {...{
 
 FolderAddFilled.displayName = 'FolderAddFilled';
 
-export default FunctionalComponent;
+export default FolderAddFilled;

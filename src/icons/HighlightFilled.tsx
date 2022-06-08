@@ -13,4 +13,4 @@ const HighlightFilled: HighlightFilledIconType = (props, context) => <Icon {...{
 
 HighlightFilled.displayName = 'HighlightFilled';
 
-export default FunctionalComponent;
+export default HighlightFilled;

@@ -13,4 +13,4 @@ const BankFilled: BankFilledIconType = (props, context) => <Icon {...{ ...props,
 
 BankFilled.displayName = 'BankFilled';
 
-export default FunctionalComponent;
+export default BankFilled;

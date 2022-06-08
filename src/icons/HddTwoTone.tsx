@@ -13,4 +13,4 @@ const HddTwoTone: HddTwoToneIconType = (props, context) => <Icon {...{ ...props,
 
 HddTwoTone.displayName = 'HddTwoTone';
 
-export default FunctionalComponent;
+export default HddTwoTone;

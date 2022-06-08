@@ -13,4 +13,4 @@ const ZhihuOutlined: ZhihuOutlinedIconType = (props, context) => <Icon {...{ ...
 
 ZhihuOutlined.displayName = 'ZhihuOutlined';
 
-export default FunctionalComponent;
+export default ZhihuOutlined;

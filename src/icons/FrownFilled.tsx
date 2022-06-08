@@ -13,4 +13,4 @@ const FrownFilled: FrownFilledIconType = (props, context) => <Icon {...{ ...prop
 
 FrownFilled.displayName = 'FrownFilled';
 
-export default FunctionalComponent;
+export default FrownFilled;

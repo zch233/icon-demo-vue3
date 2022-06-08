@@ -13,4 +13,4 @@ const SnippetsFilled: SnippetsFilledIconType = (props, context) => <Icon {...{ .
 
 SnippetsFilled.displayName = 'SnippetsFilled';
 
-export default FunctionalComponent;
+export default SnippetsFilled;

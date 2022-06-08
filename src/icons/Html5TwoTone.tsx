@@ -13,4 +13,4 @@ const Html5TwoTone: Html5TwoToneIconType = (props, context) => <Icon {...{ ...pr
 
 Html5TwoTone.displayName = 'Html5TwoTone';
 
-export default FunctionalComponent;
+export default Html5TwoTone;

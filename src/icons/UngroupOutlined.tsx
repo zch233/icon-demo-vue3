@@ -13,4 +13,4 @@ const UngroupOutlined: UngroupOutlinedIconType = (props, context) => <Icon {...{
 
 UngroupOutlined.displayName = 'UngroupOutlined';
 
-export default FunctionalComponent;
+export default UngroupOutlined;

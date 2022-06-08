@@ -13,4 +13,4 @@ const LayoutTwoTone: LayoutTwoToneIconType = (props, context) => <Icon {...{ ...
 
 LayoutTwoTone.displayName = 'LayoutTwoTone';
 
-export default FunctionalComponent;
+export default LayoutTwoTone;

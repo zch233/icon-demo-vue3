@@ -13,4 +13,4 @@ const NodeExpandOutlined: NodeExpandOutlinedIconType = (props, context) => <Icon
 
 NodeExpandOutlined.displayName = 'NodeExpandOutlined';
 
-export default FunctionalComponent;
+export default NodeExpandOutlined;

@@ -13,4 +13,4 @@ const BugFilled: BugFilledIconType = (props, context) => <Icon {...{ ...props, .
 
 BugFilled.displayName = 'BugFilled';
 
-export default FunctionalComponent;
+export default BugFilled;

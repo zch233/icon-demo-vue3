@@ -13,4 +13,4 @@ const HourglassTwoTone: HourglassTwoToneIconType = (props, context) => <Icon {..
 
 HourglassTwoTone.displayName = 'HourglassTwoTone';
 
-export default FunctionalComponent;
+export default HourglassTwoTone;

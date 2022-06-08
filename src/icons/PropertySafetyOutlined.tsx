@@ -13,4 +13,4 @@ const PropertySafetyOutlined: PropertySafetyOutlinedIconType = (props, context) 
 
 PropertySafetyOutlined.displayName = 'PropertySafetyOutlined';
 
-export default FunctionalComponent;
+export default PropertySafetyOutlined;

@@ -13,4 +13,4 @@ const FileSearchOutlined: FileSearchOutlinedIconType = (props, context) => <Icon
 
 FileSearchOutlined.displayName = 'FileSearchOutlined';
 
-export default FunctionalComponent;
+export default FileSearchOutlined;

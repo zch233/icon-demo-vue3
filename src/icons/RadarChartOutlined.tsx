@@ -13,4 +13,4 @@ const RadarChartOutlined: RadarChartOutlinedIconType = (props, context) => <Icon
 
 RadarChartOutlined.displayName = 'RadarChartOutlined';
 
-export default FunctionalComponent;
+export default RadarChartOutlined;

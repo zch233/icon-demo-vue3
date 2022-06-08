@@ -13,4 +13,4 @@ const SecurityScanTwoTone: SecurityScanTwoToneIconType = (props, context) => <Ic
 
 SecurityScanTwoTone.displayName = 'SecurityScanTwoTone';
 
-export default FunctionalComponent;
+export default SecurityScanTwoTone;

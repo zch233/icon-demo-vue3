@@ -13,4 +13,4 @@ const FundOutlined: FundOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 FundOutlined.displayName = 'FundOutlined';
 
-export default FunctionalComponent;
+export default FundOutlined;

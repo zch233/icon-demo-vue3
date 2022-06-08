@@ -13,4 +13,4 @@ const FieldNumberOutlined: FieldNumberOutlinedIconType = (props, context) => <Ic
 
 FieldNumberOutlined.displayName = 'FieldNumberOutlined';
 
-export default FunctionalComponent;
+export default FieldNumberOutlined;

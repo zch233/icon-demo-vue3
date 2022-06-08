@@ -13,4 +13,4 @@ const WeiboSquareFilled: WeiboSquareFilledIconType = (props, context) => <Icon {
 
 WeiboSquareFilled.displayName = 'WeiboSquareFilled';
 
-export default FunctionalComponent;
+export default WeiboSquareFilled;

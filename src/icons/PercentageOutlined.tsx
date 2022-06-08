@@ -13,4 +13,4 @@ const PercentageOutlined: PercentageOutlinedIconType = (props, context) => <Icon
 
 PercentageOutlined.displayName = 'PercentageOutlined';
 
-export default FunctionalComponent;
+export default PercentageOutlined;

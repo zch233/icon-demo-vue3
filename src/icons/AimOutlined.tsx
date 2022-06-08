@@ -13,4 +13,4 @@ const AimOutlined: AimOutlinedIconType = (props, context) => <Icon {...{ ...prop
 
 AimOutlined.displayName = 'AimOutlined';
 
-export default FunctionalComponent;
+export default AimOutlined;

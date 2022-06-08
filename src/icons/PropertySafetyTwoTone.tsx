@@ -13,4 +13,4 @@ const PropertySafetyTwoTone: PropertySafetyTwoToneIconType = (props, context) =>
 
 PropertySafetyTwoTone.displayName = 'PropertySafetyTwoTone';
 
-export default FunctionalComponent;
+export default PropertySafetyTwoTone;

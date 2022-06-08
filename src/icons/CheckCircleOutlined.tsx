@@ -13,4 +13,4 @@ const CheckCircleOutlined: CheckCircleOutlinedIconType = (props, context) => <Ic
 
 CheckCircleOutlined.displayName = 'CheckCircleOutlined';
 
-export default FunctionalComponent;
+export default CheckCircleOutlined;

@@ -13,4 +13,4 @@ const SkinTwoTone: SkinTwoToneIconType = (props, context) => <Icon {...{ ...prop
 
 SkinTwoTone.displayName = 'SkinTwoTone';
 
-export default FunctionalComponent;
+export default SkinTwoTone;

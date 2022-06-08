@@ -13,4 +13,4 @@ const FieldStringOutlined: FieldStringOutlinedIconType = (props, context) => <Ic
 
 FieldStringOutlined.displayName = 'FieldStringOutlined';
 
-export default FunctionalComponent;
+export default FieldStringOutlined;

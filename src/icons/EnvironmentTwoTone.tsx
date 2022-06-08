@@ -13,4 +13,4 @@ const EnvironmentTwoTone: EnvironmentTwoToneIconType = (props, context) => <Icon
 
 EnvironmentTwoTone.displayName = 'EnvironmentTwoTone';
 
-export default FunctionalComponent;
+export default EnvironmentTwoTone;

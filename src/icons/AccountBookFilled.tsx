@@ -13,4 +13,4 @@ const AccountBookFilled: AccountBookFilledIconType = (props, context) => <Icon {
 
 AccountBookFilled.displayName = 'AccountBookFilled';
 
-export default FunctionalComponent;
+export default AccountBookFilled;

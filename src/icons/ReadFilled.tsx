@@ -13,4 +13,4 @@ const ReadFilled: ReadFilledIconType = (props, context) => <Icon {...{ ...props,
 
 ReadFilled.displayName = 'ReadFilled';
 
-export default FunctionalComponent;
+export default ReadFilled;

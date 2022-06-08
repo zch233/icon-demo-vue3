@@ -13,4 +13,4 @@ const CodepenOutlined: CodepenOutlinedIconType = (props, context) => <Icon {...{
 
 CodepenOutlined.displayName = 'CodepenOutlined';
 
-export default FunctionalComponent;
+export default CodepenOutlined;

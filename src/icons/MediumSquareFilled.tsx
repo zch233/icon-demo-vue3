@@ -13,4 +13,4 @@ const MediumSquareFilled: MediumSquareFilledIconType = (props, context) => <Icon
 
 MediumSquareFilled.displayName = 'MediumSquareFilled';
 
-export default FunctionalComponent;
+export default MediumSquareFilled;

@@ -13,4 +13,4 @@ const SlackSquareOutlined: SlackSquareOutlinedIconType = (props, context) => <Ic
 
 SlackSquareOutlined.displayName = 'SlackSquareOutlined';
 
-export default FunctionalComponent;
+export default SlackSquareOutlined;

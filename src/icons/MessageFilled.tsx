@@ -13,4 +13,4 @@ const MessageFilled: MessageFilledIconType = (props, context) => <Icon {...{ ...
 
 MessageFilled.displayName = 'MessageFilled';
 
-export default FunctionalComponent;
+export default MessageFilled;

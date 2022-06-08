@@ -13,4 +13,4 @@ const UsbTwoTone: UsbTwoToneIconType = (props, context) => <Icon {...{ ...props,
 
 UsbTwoTone.displayName = 'UsbTwoTone';
 
-export default FunctionalComponent;
+export default UsbTwoTone;

@@ -13,4 +13,4 @@ const CloudFilled: CloudFilledIconType = (props, context) => <Icon {...{ ...prop
 
 CloudFilled.displayName = 'CloudFilled';
 
-export default FunctionalComponent;
+export default CloudFilled;

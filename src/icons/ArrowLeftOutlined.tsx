@@ -13,4 +13,4 @@ const ArrowLeftOutlined: ArrowLeftOutlinedIconType = (props, context) => <Icon {
 
 ArrowLeftOutlined.displayName = 'ArrowLeftOutlined';
 
-export default FunctionalComponent;
+export default ArrowLeftOutlined;

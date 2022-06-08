@@ -13,4 +13,4 @@ const AmazonOutlined: AmazonOutlinedIconType = (props, context) => <Icon {...{ .
 
 AmazonOutlined.displayName = 'AmazonOutlined';
 
-export default FunctionalComponent;
+export default AmazonOutlined;

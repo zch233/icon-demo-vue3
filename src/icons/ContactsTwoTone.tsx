@@ -13,4 +13,4 @@ const ContactsTwoTone: ContactsTwoToneIconType = (props, context) => <Icon {...{
 
 ContactsTwoTone.displayName = 'ContactsTwoTone';
 
-export default FunctionalComponent;
+export default ContactsTwoTone;

@@ -13,4 +13,4 @@ const InfoCircleFilled: InfoCircleFilledIconType = (props, context) => <Icon {..
 
 InfoCircleFilled.displayName = 'InfoCircleFilled';
 
-export default FunctionalComponent;
+export default InfoCircleFilled;

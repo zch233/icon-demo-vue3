@@ -13,4 +13,4 @@ const FileMarkdownTwoTone: FileMarkdownTwoToneIconType = (props, context) => <Ic
 
 FileMarkdownTwoTone.displayName = 'FileMarkdownTwoTone';
 
-export default FunctionalComponent;
+export default FileMarkdownTwoTone;

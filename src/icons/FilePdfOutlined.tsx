@@ -13,4 +13,4 @@ const FilePdfOutlined: FilePdfOutlinedIconType = (props, context) => <Icon {...{
 
 FilePdfOutlined.displayName = 'FilePdfOutlined';
 
-export default FunctionalComponent;
+export default FilePdfOutlined;

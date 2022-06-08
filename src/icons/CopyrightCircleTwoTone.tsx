@@ -13,4 +13,4 @@ const CopyrightCircleTwoTone: CopyrightCircleTwoToneIconType = (props, context) 
 
 CopyrightCircleTwoTone.displayName = 'CopyrightCircleTwoTone';
 
-export default FunctionalComponent;
+export default CopyrightCircleTwoTone;

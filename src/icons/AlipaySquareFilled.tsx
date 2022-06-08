@@ -13,4 +13,4 @@ const AlipaySquareFilled: AlipaySquareFilledIconType = (props, context) => <Icon
 
 AlipaySquareFilled.displayName = 'AlipaySquareFilled';
 
-export default FunctionalComponent;
+export default AlipaySquareFilled;

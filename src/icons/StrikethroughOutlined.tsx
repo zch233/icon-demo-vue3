@@ -13,4 +13,4 @@ const StrikethroughOutlined: StrikethroughOutlinedIconType = (props, context) =>
 
 StrikethroughOutlined.displayName = 'StrikethroughOutlined';
 
-export default FunctionalComponent;
+export default StrikethroughOutlined;

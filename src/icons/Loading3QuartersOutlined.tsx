@@ -13,4 +13,4 @@ const Loading3QuartersOutlined: Loading3QuartersOutlinedIconType = (props, conte
 
 Loading3QuartersOutlined.displayName = 'Loading3QuartersOutlined';
 
-export default FunctionalComponent;
+export default Loading3QuartersOutlined;

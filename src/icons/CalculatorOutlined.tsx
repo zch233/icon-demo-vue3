@@ -13,4 +13,4 @@ const CalculatorOutlined: CalculatorOutlinedIconType = (props, context) => <Icon
 
 CalculatorOutlined.displayName = 'CalculatorOutlined';
 
-export default FunctionalComponent;
+export default CalculatorOutlined;

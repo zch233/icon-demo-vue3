@@ -13,4 +13,4 @@ const AudioTwoTone: AudioTwoToneIconType = (props, context) => <Icon {...{ ...pr
 
 AudioTwoTone.displayName = 'AudioTwoTone';
 
-export default FunctionalComponent;
+export default AudioTwoTone;

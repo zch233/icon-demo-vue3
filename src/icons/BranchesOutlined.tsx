@@ -13,4 +13,4 @@ const BranchesOutlined: BranchesOutlinedIconType = (props, context) => <Icon {..
 
 BranchesOutlined.displayName = 'BranchesOutlined';
 
-export default FunctionalComponent;
+export default BranchesOutlined;

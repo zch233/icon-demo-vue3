@@ -13,4 +13,4 @@ const AuditOutlined: AuditOutlinedIconType = (props, context) => <Icon {...{ ...
 
 AuditOutlined.displayName = 'AuditOutlined';
 
-export default FunctionalComponent;
+export default AuditOutlined;

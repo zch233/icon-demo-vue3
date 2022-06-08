@@ -13,4 +13,4 @@ const ChromeFilled: ChromeFilledIconType = (props, context) => <Icon {...{ ...pr
 
 ChromeFilled.displayName = 'ChromeFilled';
 
-export default FunctionalComponent;
+export default ChromeFilled;

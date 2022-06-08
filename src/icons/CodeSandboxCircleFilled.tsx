@@ -13,4 +13,4 @@ const CodeSandboxCircleFilled: CodeSandboxCircleFilledIconType = (props, context
 
 CodeSandboxCircleFilled.displayName = 'CodeSandboxCircleFilled';
 
-export default FunctionalComponent;
+export default CodeSandboxCircleFilled;

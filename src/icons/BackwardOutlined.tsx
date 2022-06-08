@@ -13,4 +13,4 @@ const BackwardOutlined: BackwardOutlinedIconType = (props, context) => <Icon {..
 
 BackwardOutlined.displayName = 'BackwardOutlined';
 
-export default FunctionalComponent;
+export default BackwardOutlined;

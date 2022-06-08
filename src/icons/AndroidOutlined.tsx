@@ -13,4 +13,4 @@ const AndroidOutlined: AndroidOutlinedIconType = (props, context) => <Icon {...{
 
 AndroidOutlined.displayName = 'AndroidOutlined';
 
-export default FunctionalComponent;
+export default AndroidOutlined;

@@ -13,4 +13,4 @@ const PictureFilled: PictureFilledIconType = (props, context) => <Icon {...{ ...
 
 PictureFilled.displayName = 'PictureFilled';
 
-export default FunctionalComponent;
+export default PictureFilled;

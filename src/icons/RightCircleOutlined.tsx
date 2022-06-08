@@ -13,4 +13,4 @@ const RightCircleOutlined: RightCircleOutlinedIconType = (props, context) => <Ic
 
 RightCircleOutlined.displayName = 'RightCircleOutlined';
 
-export default FunctionalComponent;
+export default RightCircleOutlined;

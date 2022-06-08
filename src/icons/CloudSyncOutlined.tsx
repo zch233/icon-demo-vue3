@@ -13,4 +13,4 @@ const CloudSyncOutlined: CloudSyncOutlinedIconType = (props, context) => <Icon {
 
 CloudSyncOutlined.displayName = 'CloudSyncOutlined';
 
-export default FunctionalComponent;
+export default CloudSyncOutlined;

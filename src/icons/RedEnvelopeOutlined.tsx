@@ -13,4 +13,4 @@ const RedEnvelopeOutlined: RedEnvelopeOutlinedIconType = (props, context) => <Ic
 
 RedEnvelopeOutlined.displayName = 'RedEnvelopeOutlined';
 
-export default FunctionalComponent;
+export default RedEnvelopeOutlined;

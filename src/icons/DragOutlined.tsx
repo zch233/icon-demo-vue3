@@ -13,4 +13,4 @@ const DragOutlined: DragOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 DragOutlined.displayName = 'DragOutlined';
 
-export default FunctionalComponent;
+export default DragOutlined;

@@ -13,4 +13,4 @@ const DashboardTwoTone: DashboardTwoToneIconType = (props, context) => <Icon {..
 
 DashboardTwoTone.displayName = 'DashboardTwoTone';
 
-export default FunctionalComponent;
+export default DashboardTwoTone;

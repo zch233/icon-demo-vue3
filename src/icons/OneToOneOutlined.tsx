@@ -13,4 +13,4 @@ const OneToOneOutlined: OneToOneOutlinedIconType = (props, context) => <Icon {..
 
 OneToOneOutlined.displayName = 'OneToOneOutlined';
 
-export default FunctionalComponent;
+export default OneToOneOutlined;

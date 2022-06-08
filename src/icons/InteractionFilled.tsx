@@ -13,4 +13,4 @@ const InteractionFilled: InteractionFilledIconType = (props, context) => <Icon {
 
 InteractionFilled.displayName = 'InteractionFilled';
 
-export default FunctionalComponent;
+export default InteractionFilled;

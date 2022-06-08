@@ -13,4 +13,4 @@ const GatewayOutlined: GatewayOutlinedIconType = (props, context) => <Icon {...{
 
 GatewayOutlined.displayName = 'GatewayOutlined';
 
-export default FunctionalComponent;
+export default GatewayOutlined;

@@ -13,4 +13,4 @@ const SubnodeOutlined: SubnodeOutlinedIconType = (props, context) => <Icon {...{
 
 SubnodeOutlined.displayName = 'SubnodeOutlined';
 
-export default FunctionalComponent;
+export default SubnodeOutlined;

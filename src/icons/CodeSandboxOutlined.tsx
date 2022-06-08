@@ -13,4 +13,4 @@ const CodeSandboxOutlined: CodeSandboxOutlinedIconType = (props, context) => <Ic
 
 CodeSandboxOutlined.displayName = 'CodeSandboxOutlined';
 
-export default FunctionalComponent;
+export default CodeSandboxOutlined;

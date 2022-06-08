@@ -13,4 +13,4 @@ const InfoOutlined: InfoOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 InfoOutlined.displayName = 'InfoOutlined';
 
-export default FunctionalComponent;
+export default InfoOutlined;

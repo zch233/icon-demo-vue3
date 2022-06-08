@@ -13,4 +13,4 @@ const AntDesignOutlined: AntDesignOutlinedIconType = (props, context) => <Icon {
 
 AntDesignOutlined.displayName = 'AntDesignOutlined';
 
-export default FunctionalComponent;
+export default AntDesignOutlined;

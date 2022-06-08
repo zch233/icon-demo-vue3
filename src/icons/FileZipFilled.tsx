@@ -13,4 +13,4 @@ const FileZipFilled: FileZipFilledIconType = (props, context) => <Icon {...{ ...
 
 FileZipFilled.displayName = 'FileZipFilled';
 
-export default FunctionalComponent;
+export default FileZipFilled;

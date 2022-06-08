@@ -13,4 +13,4 @@ const DatabaseTwoTone: DatabaseTwoToneIconType = (props, context) => <Icon {...{
 
 DatabaseTwoTone.displayName = 'DatabaseTwoTone';
 
-export default FunctionalComponent;
+export default DatabaseTwoTone;

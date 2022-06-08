@@ -13,4 +13,4 @@ const PlayCircleTwoTone: PlayCircleTwoToneIconType = (props, context) => <Icon {
 
 PlayCircleTwoTone.displayName = 'PlayCircleTwoTone';
 
-export default FunctionalComponent;
+export default PlayCircleTwoTone;

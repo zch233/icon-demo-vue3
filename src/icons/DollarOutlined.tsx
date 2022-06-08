@@ -13,4 +13,4 @@ const DollarOutlined: DollarOutlinedIconType = (props, context) => <Icon {...{ .
 
 DollarOutlined.displayName = 'DollarOutlined';
 
-export default FunctionalComponent;
+export default DollarOutlined;

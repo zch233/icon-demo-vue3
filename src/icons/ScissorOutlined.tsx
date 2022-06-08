@@ -13,4 +13,4 @@ const ScissorOutlined: ScissorOutlinedIconType = (props, context) => <Icon {...{
 
 ScissorOutlined.displayName = 'ScissorOutlined';
 
-export default FunctionalComponent;
+export default ScissorOutlined;

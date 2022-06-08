@@ -13,4 +13,4 @@ const CopyrightCircleFilled: CopyrightCircleFilledIconType = (props, context) =>
 
 CopyrightCircleFilled.displayName = 'CopyrightCircleFilled';
 
-export default FunctionalComponent;
+export default CopyrightCircleFilled;

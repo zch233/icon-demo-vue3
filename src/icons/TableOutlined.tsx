@@ -13,4 +13,4 @@ const TableOutlined: TableOutlinedIconType = (props, context) => <Icon {...{ ...
 
 TableOutlined.displayName = 'TableOutlined';
 
-export default FunctionalComponent;
+export default TableOutlined;

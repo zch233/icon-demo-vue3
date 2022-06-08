@@ -13,4 +13,4 @@ const UnorderedListOutlined: UnorderedListOutlinedIconType = (props, context) =>
 
 UnorderedListOutlined.displayName = 'UnorderedListOutlined';
 
-export default FunctionalComponent;
+export default UnorderedListOutlined;

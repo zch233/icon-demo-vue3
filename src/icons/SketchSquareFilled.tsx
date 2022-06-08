@@ -13,4 +13,4 @@ const SketchSquareFilled: SketchSquareFilledIconType = (props, context) => <Icon
 
 SketchSquareFilled.displayName = 'SketchSquareFilled';
 
-export default FunctionalComponent;
+export default SketchSquareFilled;

@@ -13,4 +13,4 @@ const DashboardFilled: DashboardFilledIconType = (props, context) => <Icon {...{
 
 DashboardFilled.displayName = 'DashboardFilled';
 
-export default FunctionalComponent;
+export default DashboardFilled;

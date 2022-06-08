@@ -13,4 +13,4 @@ const SkypeOutlined: SkypeOutlinedIconType = (props, context) => <Icon {...{ ...
 
 SkypeOutlined.displayName = 'SkypeOutlined';
 
-export default FunctionalComponent;
+export default SkypeOutlined;

@@ -13,4 +13,4 @@ const ClockCircleOutlined: ClockCircleOutlinedIconType = (props, context) => <Ic
 
 ClockCircleOutlined.displayName = 'ClockCircleOutlined';
 
-export default FunctionalComponent;
+export default ClockCircleOutlined;

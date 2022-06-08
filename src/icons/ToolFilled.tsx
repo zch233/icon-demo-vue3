@@ -13,4 +13,4 @@ const ToolFilled: ToolFilledIconType = (props, context) => <Icon {...{ ...props,
 
 ToolFilled.displayName = 'ToolFilled';
 
-export default FunctionalComponent;
+export default ToolFilled;

@@ -13,4 +13,4 @@ const HomeFilled: HomeFilledIconType = (props, context) => <Icon {...{ ...props,
 
 HomeFilled.displayName = 'HomeFilled';
 
-export default FunctionalComponent;
+export default HomeFilled;

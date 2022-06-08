@@ -13,4 +13,4 @@ const SkinFilled: SkinFilledIconType = (props, context) => <Icon {...{ ...props,
 
 SkinFilled.displayName = 'SkinFilled';
 
-export default FunctionalComponent;
+export default SkinFilled;

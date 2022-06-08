@@ -13,4 +13,4 @@ const KeyOutlined: KeyOutlinedIconType = (props, context) => <Icon {...{ ...prop
 
 KeyOutlined.displayName = 'KeyOutlined';
 
-export default FunctionalComponent;
+export default KeyOutlined;

@@ -13,4 +13,4 @@ const InsertRowLeftOutlined: InsertRowLeftOutlinedIconType = (props, context) =>
 
 InsertRowLeftOutlined.displayName = 'InsertRowLeftOutlined';
 
-export default FunctionalComponent;
+export default InsertRowLeftOutlined;

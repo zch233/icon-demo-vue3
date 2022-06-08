@@ -13,4 +13,4 @@ const PartitionOutlined: PartitionOutlinedIconType = (props, context) => <Icon {
 
 PartitionOutlined.displayName = 'PartitionOutlined';
 
-export default FunctionalComponent;
+export default PartitionOutlined;

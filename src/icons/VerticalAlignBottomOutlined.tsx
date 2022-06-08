@@ -13,4 +13,4 @@ const VerticalAlignBottomOutlined: VerticalAlignBottomOutlinedIconType = (props,
 
 VerticalAlignBottomOutlined.displayName = 'VerticalAlignBottomOutlined';
 
-export default FunctionalComponent;
+export default VerticalAlignBottomOutlined;

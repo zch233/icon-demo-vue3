@@ -13,4 +13,4 @@ const AudioMutedOutlined: AudioMutedOutlinedIconType = (props, context) => <Icon
 
 AudioMutedOutlined.displayName = 'AudioMutedOutlined';
 
-export default FunctionalComponent;
+export default AudioMutedOutlined;

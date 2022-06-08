@@ -13,4 +13,4 @@ const FileExclamationFilled: FileExclamationFilledIconType = (props, context) =>
 
 FileExclamationFilled.displayName = 'FileExclamationFilled';
 
-export default FunctionalComponent;
+export default FileExclamationFilled;

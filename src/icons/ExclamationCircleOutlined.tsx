@@ -13,4 +13,4 @@ const ExclamationCircleOutlined: ExclamationCircleOutlinedIconType = (props, con
 
 ExclamationCircleOutlined.displayName = 'ExclamationCircleOutlined';
 
-export default FunctionalComponent;
+export default ExclamationCircleOutlined;

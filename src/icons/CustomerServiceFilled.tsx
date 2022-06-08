@@ -13,4 +13,4 @@ const CustomerServiceFilled: CustomerServiceFilledIconType = (props, context) =>
 
 CustomerServiceFilled.displayName = 'CustomerServiceFilled';
 
-export default FunctionalComponent;
+export default CustomerServiceFilled;

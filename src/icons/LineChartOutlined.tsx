@@ -13,4 +13,4 @@ const LineChartOutlined: LineChartOutlinedIconType = (props, context) => <Icon {
 
 LineChartOutlined.displayName = 'LineChartOutlined';
 
-export default FunctionalComponent;
+export default LineChartOutlined;

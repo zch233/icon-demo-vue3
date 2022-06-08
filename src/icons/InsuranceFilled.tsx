@@ -13,4 +13,4 @@ const InsuranceFilled: InsuranceFilledIconType = (props, context) => <Icon {...{
 
 InsuranceFilled.displayName = 'InsuranceFilled';
 
-export default FunctionalComponent;
+export default InsuranceFilled;

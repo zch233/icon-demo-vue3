@@ -13,4 +13,4 @@ const ThunderboltFilled: ThunderboltFilledIconType = (props, context) => <Icon {
 
 ThunderboltFilled.displayName = 'ThunderboltFilled';
 
-export default FunctionalComponent;
+export default ThunderboltFilled;

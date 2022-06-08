@@ -13,4 +13,4 @@ const YuqueOutlined: YuqueOutlinedIconType = (props, context) => <Icon {...{ ...
 
 YuqueOutlined.displayName = 'YuqueOutlined';
 
-export default FunctionalComponent;
+export default YuqueOutlined;

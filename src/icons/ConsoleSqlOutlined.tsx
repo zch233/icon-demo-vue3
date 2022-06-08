@@ -13,4 +13,4 @@ const ConsoleSqlOutlined: ConsoleSqlOutlinedIconType = (props, context) => <Icon
 
 ConsoleSqlOutlined.displayName = 'ConsoleSqlOutlined';
 
-export default FunctionalComponent;
+export default ConsoleSqlOutlined;

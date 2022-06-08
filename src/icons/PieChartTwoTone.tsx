@@ -13,4 +13,4 @@ const PieChartTwoTone: PieChartTwoToneIconType = (props, context) => <Icon {...{
 
 PieChartTwoTone.displayName = 'PieChartTwoTone';
 
-export default FunctionalComponent;
+export default PieChartTwoTone;

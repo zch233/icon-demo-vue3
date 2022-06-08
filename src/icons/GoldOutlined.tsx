@@ -13,4 +13,4 @@ const GoldOutlined: GoldOutlinedIconType = (props, context) => <Icon {...{ ...pr
 
 GoldOutlined.displayName = 'GoldOutlined';
 
-export default FunctionalComponent;
+export default GoldOutlined;

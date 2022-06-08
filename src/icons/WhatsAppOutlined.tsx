@@ -13,4 +13,4 @@ const WhatsAppOutlined: WhatsAppOutlinedIconType = (props, context) => <Icon {..
 
 WhatsAppOutlined.displayName = 'WhatsAppOutlined';
 
-export default FunctionalComponent;
+export default WhatsAppOutlined;

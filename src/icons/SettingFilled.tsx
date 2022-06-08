@@ -13,4 +13,4 @@ const SettingFilled: SettingFilledIconType = (props, context) => <Icon {...{ ...
 
 SettingFilled.displayName = 'SettingFilled';
 
-export default FunctionalComponent;
+export default SettingFilled;
