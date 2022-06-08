@@ -1,6 +1,6 @@
 import { FunctionalComponent, h, HTMLAttributes } from 'vue';
 import { AbstractNode, IconDefinition } from '@ant-design/icons-svg/es/types';
-import './style.less';
+import { useInsertStyles } from '../utils';
 
 export interface IconProps extends HTMLAttributes {
     spin?: boolean;
@@ -50,6 +50,7 @@ const Icon: FunctionalComponent<IconProps> = (props, context) => {
               }
             : undefined),
     };
+    useInsertStyles();
     return icon ? (
         <span role='img' aria-label={name} {...restProps} class={classResult} style={styleResult}>
             {generate(icon.icon as AbstractNode, `gupoIcon-svg-${icon.name}`, {
