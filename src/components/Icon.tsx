@@ -7,7 +7,7 @@ export interface IconProps extends HTMLAttributes {
     rotate?: number;
     size?: number;
     icon?: IconDefinition;
-    name: string;
+    name?: string;
 }
 
 const Icon: FunctionalComponent<IconProps> = (props, context) => {
