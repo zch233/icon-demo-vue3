@@ -1,6 +1,6 @@
 {
-  "name": "@zch233/icon-vue3",
-  "version": "0.0.1",
+  "name": "icon-vue3",
+  "version": "0.0.9",
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "files": [
@@ -8,6 +8,7 @@
     "es/*"
   ],
   "sideEffects": false,
+  "license": "MIT",
   "scripts": {
     "serve": "vite",
     "serve:stage": "vite serve --mode staging",
@@ -30,13 +31,15 @@
     "generate": "rimraf src/icons && ts-node scripts/index.ts",
     "compile:es": "tsc --project tsconfig.build.json --module esnext --outDir es",
     "compile:lib": "tsc --project tsconfig.build.json --module commonjs --outDir lib",
-    "compile": "cross-env NODE_ENV=production && yarn compile:es && yarn compile:lib"
+    "compile": "cross-env NODE_ENV=production && yarn compile:es && yarn compile:lib",
+    "compile1": "vc-tools run compile"
   },
   "dependencies": {
     "@ant-design/icons-svg": "4.2.1",
     "vue": "3.2.33"
   },
   "devDependencies": {
+    "@ant-design-vue/tools": "^3.1.2",
     "@commitlint/cli": "16.2.3",
     "@commitlint/config-conventional": "16.2.1",
     "@ls-lint/ls-lint": "1.11.0",
