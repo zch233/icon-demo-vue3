@@ -33,7 +33,7 @@ const ${svgIdentifier}: ${svgIdentifier}IconType = (props, context) => <Icon {..
 
 ${svgIdentifier}.displayName = '${svgIdentifier}';
 
-export default FunctionalComponent;
+export default ${svgIdentifier};
                 `.trim()
             );
         })
