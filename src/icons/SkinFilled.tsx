@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import SkinFilledSvg from '@ant-design/icons-svg/lib/asn/SkinFilled';
 
 export interface SkinFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const SkinFilled: SkinFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={SkinFilledSvg} />
-    ;
+const SkinFilled: SkinFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SkinFilledSvg} />;
 
 SkinFilled.displayName = 'SkinFilled';
 

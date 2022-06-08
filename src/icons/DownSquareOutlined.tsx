@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import DownSquareOutlinedSvg from '@ant-design/icons-svg/lib/asn/DownSquareOutlined';
 
 export interface DownSquareOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const DownSquareOutlined: DownSquareOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={DownSquareOutlinedSvg} />
-    ;
+const DownSquareOutlined: DownSquareOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DownSquareOutlinedSvg} />;
 
 DownSquareOutlined.displayName = 'DownSquareOutlined';
 

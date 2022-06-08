@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import CopyOutlinedSvg from '@ant-design/icons-svg/lib/asn/CopyOutlined';
 
 export interface CopyOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const CopyOutlined: CopyOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={CopyOutlinedSvg} />
-    ;
+const CopyOutlined: CopyOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CopyOutlinedSvg} />;
 
 CopyOutlined.displayName = 'CopyOutlined';
 

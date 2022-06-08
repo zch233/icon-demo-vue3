@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import BehanceSquareOutlinedSvg from '@ant-design/icons-svg/lib/asn/BehanceSquareOutlined';
 
 export interface BehanceSquareOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const BehanceSquareOutlined: BehanceSquareOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={BehanceSquareOutlinedSvg} />
-    ;
+const BehanceSquareOutlined: BehanceSquareOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BehanceSquareOutlinedSvg} />;
 
 BehanceSquareOutlined.displayName = 'BehanceSquareOutlined';
 

@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import FileWordOutlinedSvg from '@ant-design/icons-svg/lib/asn/FileWordOutlined';
 
 export interface FileWordOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const FileWordOutlined: FileWordOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={FileWordOutlinedSvg} />
-    ;
+const FileWordOutlined: FileWordOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FileWordOutlinedSvg} />;
 
 FileWordOutlined.displayName = 'FileWordOutlined';
 

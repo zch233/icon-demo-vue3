@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import FolderFilledSvg from '@ant-design/icons-svg/lib/asn/FolderFilled';
 
 export interface FolderFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const FolderFilled: FolderFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={FolderFilledSvg} />
-    ;
+const FolderFilled: FolderFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FolderFilledSvg} />;
 
 FolderFilled.displayName = 'FolderFilled';
 

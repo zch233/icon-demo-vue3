@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import DislikeOutlinedSvg from '@ant-design/icons-svg/lib/asn/DislikeOutlined';
 
 export interface DislikeOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const DislikeOutlined: DislikeOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={DislikeOutlinedSvg} />
-    ;
+const DislikeOutlined: DislikeOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DislikeOutlinedSvg} />;
 
 DislikeOutlined.displayName = 'DislikeOutlined';
 

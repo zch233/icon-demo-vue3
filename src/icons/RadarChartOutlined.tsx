@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import RadarChartOutlinedSvg from '@ant-design/icons-svg/lib/asn/RadarChartOutlined';
 
 export interface RadarChartOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const RadarChartOutlined: RadarChartOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={RadarChartOutlinedSvg} />
-    ;
+const RadarChartOutlined: RadarChartOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RadarChartOutlinedSvg} />;
 
 RadarChartOutlined.displayName = 'RadarChartOutlined';
 

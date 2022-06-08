@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import TabletTwoToneSvg from '@ant-design/icons-svg/lib/asn/TabletTwoTone';
 
 export interface TabletTwoToneIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const TabletTwoTone: TabletTwoToneIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={TabletTwoToneSvg} />
-    ;
+const TabletTwoTone: TabletTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TabletTwoToneSvg} />;
 
 TabletTwoTone.displayName = 'TabletTwoTone';
 

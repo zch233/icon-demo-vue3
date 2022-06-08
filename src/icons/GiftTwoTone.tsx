@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import GiftTwoToneSvg from '@ant-design/icons-svg/lib/asn/GiftTwoTone';
 
 export interface GiftTwoToneIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const GiftTwoTone: GiftTwoToneIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={GiftTwoToneSvg} />
-    ;
+const GiftTwoTone: GiftTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GiftTwoToneSvg} />;
 
 GiftTwoTone.displayName = 'GiftTwoTone';
 

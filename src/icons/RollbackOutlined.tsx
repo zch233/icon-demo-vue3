@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import RollbackOutlinedSvg from '@ant-design/icons-svg/lib/asn/RollbackOutlined';
 
 export interface RollbackOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const RollbackOutlined: RollbackOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={RollbackOutlinedSvg} />
-    ;
+const RollbackOutlined: RollbackOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RollbackOutlinedSvg} />;
 
 RollbackOutlined.displayName = 'RollbackOutlined';
 

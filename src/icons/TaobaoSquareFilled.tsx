@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import TaobaoSquareFilledSvg from '@ant-design/icons-svg/lib/asn/TaobaoSquareFilled';
 
 export interface TaobaoSquareFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const TaobaoSquareFilled: TaobaoSquareFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={TaobaoSquareFilledSvg} />
-    ;
+const TaobaoSquareFilled: TaobaoSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TaobaoSquareFilledSvg} />;
 
 TaobaoSquareFilled.displayName = 'TaobaoSquareFilled';
 

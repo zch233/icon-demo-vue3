@@ -1,9 +1,12 @@
 {
-  "name": "@zch-icon/vue3",
-  "private": true,
+  "name": "@zch233/icon-vue3",
   "version": "0.0.1",
   "main": "./lib/index.js",
   "module": "./es/index.js",
+  "files": [
+    "lib/*",
+    "es/*"
+  ],
   "sideEffects": false,
   "scripts": {
     "serve": "vite",
@@ -25,7 +28,9 @@
     "pre-commit:lint-staged": "lint-staged",
     "prepare": "husky install",
     "generate": "rimraf src/icons && ts-node scripts/index.ts",
-    "compile": "vc-tools run compile"
+    "compile:es": "tsc --project tsconfig.build.json --module esnext --outDir es",
+    "compile:lib": "tsc --project tsconfig.build.json --module commonjs --outDir lib",
+    "compile": "cross-env NODE_ENV=production && yarn compile:es && yarn compile:lib"
   },
   "dependencies": {
     "@ant-design/icons-svg": "4.2.1",
@@ -43,6 +48,7 @@
     "@vitejs/plugin-vue-jsx": "1.3.10",
     "autoprefixer": "10.4.2",
     "commitizen": "4.2.4",
+    "cross-env": "^7.0.3",
     "cz-conventional-changelog": "3.3.0",
     "cz-customizable": "6.3.0",
     "eslint": "8.12.0",
@@ -68,7 +74,6 @@
     "typescript": "4.5.4",
     "unplugin-auto-import": "^0.7.1",
     "unplugin-vue-components": "^0.19.5",
-    "vc-tools": "3.0.0",
     "vite": "2.9.5",
     "vite-plugin-compression": "0.5.1",
     "vite-plugin-html": "3.0.6",

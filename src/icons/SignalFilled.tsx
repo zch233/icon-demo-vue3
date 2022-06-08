@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import SignalFilledSvg from '@ant-design/icons-svg/lib/asn/SignalFilled';
 
 export interface SignalFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const SignalFilled: SignalFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={SignalFilledSvg} />
-    ;
+const SignalFilled: SignalFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SignalFilledSvg} />;
 
 SignalFilled.displayName = 'SignalFilled';
 

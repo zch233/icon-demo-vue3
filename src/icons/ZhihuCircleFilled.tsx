@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import ZhihuCircleFilledSvg from '@ant-design/icons-svg/lib/asn/ZhihuCircleFilled';
 
 export interface ZhihuCircleFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const ZhihuCircleFilled: ZhihuCircleFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={ZhihuCircleFilledSvg} />
-    ;
+const ZhihuCircleFilled: ZhihuCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ZhihuCircleFilledSvg} />;
 
 ZhihuCircleFilled.displayName = 'ZhihuCircleFilled';
 

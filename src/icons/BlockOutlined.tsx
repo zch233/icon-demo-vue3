@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import BlockOutlinedSvg from '@ant-design/icons-svg/lib/asn/BlockOutlined';
 
 export interface BlockOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const BlockOutlined: BlockOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={BlockOutlinedSvg} />
-    ;
+const BlockOutlined: BlockOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BlockOutlinedSvg} />;
 
 BlockOutlined.displayName = 'BlockOutlined';
 

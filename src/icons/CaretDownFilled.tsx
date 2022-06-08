@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import CaretDownFilledSvg from '@ant-design/icons-svg/lib/asn/CaretDownFilled';
 
 export interface CaretDownFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const CaretDownFilled: CaretDownFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={CaretDownFilledSvg} />
-    ;
+const CaretDownFilled: CaretDownFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CaretDownFilledSvg} />;
 
 CaretDownFilled.displayName = 'CaretDownFilled';
 

@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import SaveOutlinedSvg from '@ant-design/icons-svg/lib/asn/SaveOutlined';
 
 export interface SaveOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const SaveOutlined: SaveOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={SaveOutlinedSvg} />
-    ;
+const SaveOutlined: SaveOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SaveOutlinedSvg} />;
 
 SaveOutlined.displayName = 'SaveOutlined';
 

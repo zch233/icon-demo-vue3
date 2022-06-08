@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import ReconciliationTwoToneSvg from '@ant-design/icons-svg/lib/asn/ReconciliationTwoTone';
 
 export interface ReconciliationTwoToneIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const ReconciliationTwoTone: ReconciliationTwoToneIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={ReconciliationTwoToneSvg} />
-    ;
+const ReconciliationTwoTone: ReconciliationTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ReconciliationTwoToneSvg} />;
 
 ReconciliationTwoTone.displayName = 'ReconciliationTwoTone';
 

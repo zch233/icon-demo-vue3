@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import DingtalkSquareFilledSvg from '@ant-design/icons-svg/lib/asn/DingtalkSquareFilled';
 
 export interface DingtalkSquareFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const DingtalkSquareFilled: DingtalkSquareFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={DingtalkSquareFilledSvg} />
-    ;
+const DingtalkSquareFilled: DingtalkSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DingtalkSquareFilledSvg} />;
 
 DingtalkSquareFilled.displayName = 'DingtalkSquareFilled';
 

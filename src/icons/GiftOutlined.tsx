@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import GiftOutlinedSvg from '@ant-design/icons-svg/lib/asn/GiftOutlined';
 
 export interface GiftOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const GiftOutlined: GiftOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={GiftOutlinedSvg} />
-    ;
+const GiftOutlined: GiftOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GiftOutlinedSvg} />;
 
 GiftOutlined.displayName = 'GiftOutlined';
 

@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import ForkOutlinedSvg from '@ant-design/icons-svg/lib/asn/ForkOutlined';
 
 export interface ForkOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const ForkOutlined: ForkOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={ForkOutlinedSvg} />
-    ;
+const ForkOutlined: ForkOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ForkOutlinedSvg} />;
 
 ForkOutlined.displayName = 'ForkOutlined';
 

@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import LeftCircleTwoToneSvg from '@ant-design/icons-svg/lib/asn/LeftCircleTwoTone';
 
 export interface LeftCircleTwoToneIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const LeftCircleTwoTone: LeftCircleTwoToneIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={LeftCircleTwoToneSvg} />
-    ;
+const LeftCircleTwoTone: LeftCircleTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={LeftCircleTwoToneSvg} />;
 
 LeftCircleTwoTone.displayName = 'LeftCircleTwoTone';
 

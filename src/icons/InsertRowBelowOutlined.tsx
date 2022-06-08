@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import InsertRowBelowOutlinedSvg from '@ant-design/icons-svg/lib/asn/InsertRowBelowOutlined';
 
 export interface InsertRowBelowOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const InsertRowBelowOutlined: InsertRowBelowOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={InsertRowBelowOutlinedSvg} />
-    ;
+const InsertRowBelowOutlined: InsertRowBelowOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={InsertRowBelowOutlinedSvg} />;
 
 InsertRowBelowOutlined.displayName = 'InsertRowBelowOutlined';
 

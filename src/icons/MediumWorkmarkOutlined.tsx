@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import MediumWorkmarkOutlinedSvg from '@ant-design/icons-svg/lib/asn/MediumWorkmarkOutlined';
 
 export interface MediumWorkmarkOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const MediumWorkmarkOutlined: MediumWorkmarkOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={MediumWorkmarkOutlinedSvg} />
-    ;
+const MediumWorkmarkOutlined: MediumWorkmarkOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MediumWorkmarkOutlinedSvg} />;
 
 MediumWorkmarkOutlined.displayName = 'MediumWorkmarkOutlined';
 

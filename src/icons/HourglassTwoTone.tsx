@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import HourglassTwoToneSvg from '@ant-design/icons-svg/lib/asn/HourglassTwoTone';
 
 export interface HourglassTwoToneIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const HourglassTwoTone: HourglassTwoToneIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={HourglassTwoToneSvg} />
-    ;
+const HourglassTwoTone: HourglassTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={HourglassTwoToneSvg} />;
 
 HourglassTwoTone.displayName = 'HourglassTwoTone';
 

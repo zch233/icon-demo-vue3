@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import SlackCircleFilledSvg from '@ant-design/icons-svg/lib/asn/SlackCircleFilled';
 
 export interface SlackCircleFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const SlackCircleFilled: SlackCircleFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={SlackCircleFilledSvg} />
-    ;
+const SlackCircleFilled: SlackCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SlackCircleFilledSvg} />;
 
 SlackCircleFilled.displayName = 'SlackCircleFilled';
 

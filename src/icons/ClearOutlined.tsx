@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import ClearOutlinedSvg from '@ant-design/icons-svg/lib/asn/ClearOutlined';
 
 export interface ClearOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const ClearOutlined: ClearOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={ClearOutlinedSvg} />
-    ;
+const ClearOutlined: ClearOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ClearOutlinedSvg} />;
 
 ClearOutlined.displayName = 'ClearOutlined';
 

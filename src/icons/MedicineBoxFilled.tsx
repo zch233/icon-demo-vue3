@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import MedicineBoxFilledSvg from '@ant-design/icons-svg/lib/asn/MedicineBoxFilled';
 
 export interface MedicineBoxFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const MedicineBoxFilled: MedicineBoxFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={MedicineBoxFilledSvg} />
-    ;
+const MedicineBoxFilled: MedicineBoxFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MedicineBoxFilledSvg} />;
 
 MedicineBoxFilled.displayName = 'MedicineBoxFilled';
 

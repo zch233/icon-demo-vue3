@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import ClockCircleFilledSvg from '@ant-design/icons-svg/lib/asn/ClockCircleFilled';
 
 export interface ClockCircleFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const ClockCircleFilled: ClockCircleFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={ClockCircleFilledSvg} />
-    ;
+const ClockCircleFilled: ClockCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ClockCircleFilledSvg} />;
 
 ClockCircleFilled.displayName = 'ClockCircleFilled';
 

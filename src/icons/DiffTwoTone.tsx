@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import DiffTwoToneSvg from '@ant-design/icons-svg/lib/asn/DiffTwoTone';
 
 export interface DiffTwoToneIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const DiffTwoTone: DiffTwoToneIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={DiffTwoToneSvg} />
-    ;
+const DiffTwoTone: DiffTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DiffTwoToneSvg} />;
 
 DiffTwoTone.displayName = 'DiffTwoTone';
 

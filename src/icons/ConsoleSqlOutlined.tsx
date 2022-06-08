@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import ConsoleSqlOutlinedSvg from '@ant-design/icons-svg/lib/asn/ConsoleSqlOutlined';
 
 export interface ConsoleSqlOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const ConsoleSqlOutlined: ConsoleSqlOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={ConsoleSqlOutlinedSvg} />
-    ;
+const ConsoleSqlOutlined: ConsoleSqlOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ConsoleSqlOutlinedSvg} />;
 
 ConsoleSqlOutlined.displayName = 'ConsoleSqlOutlined';
 

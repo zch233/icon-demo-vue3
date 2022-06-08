@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import QqOutlinedSvg from '@ant-design/icons-svg/lib/asn/QqOutlined';
 
 export interface QqOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const QqOutlined: QqOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={QqOutlinedSvg} />
-    ;
+const QqOutlined: QqOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={QqOutlinedSvg} />;
 
 QqOutlined.displayName = 'QqOutlined';
 

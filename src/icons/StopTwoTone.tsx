@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import StopTwoToneSvg from '@ant-design/icons-svg/lib/asn/StopTwoTone';
 
 export interface StopTwoToneIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const StopTwoTone: StopTwoToneIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={StopTwoToneSvg} />
-    ;
+const StopTwoTone: StopTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={StopTwoToneSvg} />;
 
 StopTwoTone.displayName = 'StopTwoTone';
 

@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import FullscreenExitOutlinedSvg from '@ant-design/icons-svg/lib/asn/FullscreenExitOutlined';
 
 export interface FullscreenExitOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const FullscreenExitOutlined: FullscreenExitOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={FullscreenExitOutlinedSvg} />
-    ;
+const FullscreenExitOutlined: FullscreenExitOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FullscreenExitOutlinedSvg} />;
 
 FullscreenExitOutlined.displayName = 'FullscreenExitOutlined';
 

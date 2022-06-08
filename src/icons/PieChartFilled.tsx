@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import PieChartFilledSvg from '@ant-design/icons-svg/lib/asn/PieChartFilled';
 
 export interface PieChartFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const PieChartFilled: PieChartFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={PieChartFilledSvg} />
-    ;
+const PieChartFilled: PieChartFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PieChartFilledSvg} />;
 
 PieChartFilled.displayName = 'PieChartFilled';
 

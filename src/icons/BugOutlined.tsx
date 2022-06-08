@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import BugOutlinedSvg from '@ant-design/icons-svg/lib/asn/BugOutlined';
 
 export interface BugOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const BugOutlined: BugOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={BugOutlinedSvg} />
-    ;
+const BugOutlined: BugOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BugOutlinedSvg} />;
 
 BugOutlined.displayName = 'BugOutlined';
 

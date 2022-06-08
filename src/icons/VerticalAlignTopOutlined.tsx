@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import VerticalAlignTopOutlinedSvg from '@ant-design/icons-svg/lib/asn/VerticalAlignTopOutlined';
 
 export interface VerticalAlignTopOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const VerticalAlignTopOutlined: VerticalAlignTopOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={VerticalAlignTopOutlinedSvg} />
-    ;
+const VerticalAlignTopOutlined: VerticalAlignTopOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={VerticalAlignTopOutlinedSvg} />;
 
 VerticalAlignTopOutlined.displayName = 'VerticalAlignTopOutlined';
 

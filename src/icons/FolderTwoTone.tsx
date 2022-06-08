@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import FolderTwoToneSvg from '@ant-design/icons-svg/lib/asn/FolderTwoTone';
 
 export interface FolderTwoToneIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const FolderTwoTone: FolderTwoToneIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={FolderTwoToneSvg} />
-    ;
+const FolderTwoTone: FolderTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FolderTwoToneSvg} />;
 
 FolderTwoTone.displayName = 'FolderTwoTone';
 

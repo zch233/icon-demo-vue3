@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import CompassOutlinedSvg from '@ant-design/icons-svg/lib/asn/CompassOutlined';
 
 export interface CompassOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const CompassOutlined: CompassOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={CompassOutlinedSvg} />
-    ;
+const CompassOutlined: CompassOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CompassOutlinedSvg} />;
 
 CompassOutlined.displayName = 'CompassOutlined';
 

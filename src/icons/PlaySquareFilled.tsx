@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import PlaySquareFilledSvg from '@ant-design/icons-svg/lib/asn/PlaySquareFilled';
 
 export interface PlaySquareFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const PlaySquareFilled: PlaySquareFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={PlaySquareFilledSvg} />
-    ;
+const PlaySquareFilled: PlaySquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PlaySquareFilledSvg} />;
 
 PlaySquareFilled.displayName = 'PlaySquareFilled';
 

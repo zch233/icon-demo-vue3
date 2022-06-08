@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import SmallDashOutlinedSvg from '@ant-design/icons-svg/lib/asn/SmallDashOutlined';
 
 export interface SmallDashOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const SmallDashOutlined: SmallDashOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={SmallDashOutlinedSvg} />
-    ;
+const SmallDashOutlined: SmallDashOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SmallDashOutlinedSvg} />;
 
 SmallDashOutlined.displayName = 'SmallDashOutlined';
 

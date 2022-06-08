@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import ThunderboltOutlinedSvg from '@ant-design/icons-svg/lib/asn/ThunderboltOutlined';
 
 export interface ThunderboltOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const ThunderboltOutlined: ThunderboltOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={ThunderboltOutlinedSvg} />
-    ;
+const ThunderboltOutlined: ThunderboltOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ThunderboltOutlinedSvg} />;
 
 ThunderboltOutlined.displayName = 'ThunderboltOutlined';
 

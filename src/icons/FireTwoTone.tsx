@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import FireTwoToneSvg from '@ant-design/icons-svg/lib/asn/FireTwoTone';
 
 export interface FireTwoToneIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const FireTwoTone: FireTwoToneIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={FireTwoToneSvg} />
-    ;
+const FireTwoTone: FireTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FireTwoToneSvg} />;
 
 FireTwoTone.displayName = 'FireTwoTone';
 

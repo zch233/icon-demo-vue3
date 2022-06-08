@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import ShareAltOutlinedSvg from '@ant-design/icons-svg/lib/asn/ShareAltOutlined';
 
 export interface ShareAltOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const ShareAltOutlined: ShareAltOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={ShareAltOutlinedSvg} />
-    ;
+const ShareAltOutlined: ShareAltOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ShareAltOutlinedSvg} />;
 
 ShareAltOutlined.displayName = 'ShareAltOutlined';
 

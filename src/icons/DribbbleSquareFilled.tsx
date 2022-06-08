@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import DribbbleSquareFilledSvg from '@ant-design/icons-svg/lib/asn/DribbbleSquareFilled';
 
 export interface DribbbleSquareFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const DribbbleSquareFilled: DribbbleSquareFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={DribbbleSquareFilledSvg} />
-    ;
+const DribbbleSquareFilled: DribbbleSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DribbbleSquareFilledSvg} />;
 
 DribbbleSquareFilled.displayName = 'DribbbleSquareFilled';
 

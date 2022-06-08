@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import ExclamationOutlinedSvg from '@ant-design/icons-svg/lib/asn/ExclamationOutlined';
 
 export interface ExclamationOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const ExclamationOutlined: ExclamationOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={ExclamationOutlinedSvg} />
-    ;
+const ExclamationOutlined: ExclamationOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ExclamationOutlinedSvg} />;
 
 ExclamationOutlined.displayName = 'ExclamationOutlined';
 

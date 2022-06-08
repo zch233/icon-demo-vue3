@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import CommentOutlinedSvg from '@ant-design/icons-svg/lib/asn/CommentOutlined';
 
 export interface CommentOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const CommentOutlined: CommentOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={CommentOutlinedSvg} />
-    ;
+const CommentOutlined: CommentOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CommentOutlinedSvg} />;
 
 CommentOutlined.displayName = 'CommentOutlined';
 

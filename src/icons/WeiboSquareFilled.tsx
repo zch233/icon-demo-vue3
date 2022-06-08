@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import WeiboSquareFilledSvg from '@ant-design/icons-svg/lib/asn/WeiboSquareFilled';
 
 export interface WeiboSquareFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const WeiboSquareFilled: WeiboSquareFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={WeiboSquareFilledSvg} />
-    ;
+const WeiboSquareFilled: WeiboSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={WeiboSquareFilledSvg} />;
 
 WeiboSquareFilled.displayName = 'WeiboSquareFilled';
 

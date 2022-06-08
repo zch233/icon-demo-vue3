@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import RedEnvelopeFilledSvg from '@ant-design/icons-svg/lib/asn/RedEnvelopeFilled';
 
 export interface RedEnvelopeFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const RedEnvelopeFilled: RedEnvelopeFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={RedEnvelopeFilledSvg} />
-    ;
+const RedEnvelopeFilled: RedEnvelopeFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RedEnvelopeFilledSvg} />;
 
 RedEnvelopeFilled.displayName = 'RedEnvelopeFilled';
 

@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import PauseCircleOutlinedSvg from '@ant-design/icons-svg/lib/asn/PauseCircleOutlined';
 
 export interface PauseCircleOutlinedIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const PauseCircleOutlined: PauseCircleOutlinedIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={PauseCircleOutlinedSvg} />
-    ;
+const PauseCircleOutlined: PauseCircleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PauseCircleOutlinedSvg} />;
 
 PauseCircleOutlined.displayName = 'PauseCircleOutlined';
 

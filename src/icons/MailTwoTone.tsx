@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import MailTwoToneSvg from '@ant-design/icons-svg/lib/asn/MailTwoTone';
 
 export interface MailTwoToneIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const MailTwoTone: MailTwoToneIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={MailTwoToneSvg} />
-    ;
+const MailTwoTone: MailTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MailTwoToneSvg} />;
 
 MailTwoTone.displayName = 'MailTwoTone';
 

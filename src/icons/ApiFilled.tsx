@@ -2,17 +2,14 @@
 // 不要手动修改！！！
 
 import { FunctionalComponent } from 'vue';
-import Icon from '../components/Icon.vue';
-import {IconProps} from '../components/utils'
+import Icon, { IconProps } from '../components/Icon';
 import ApiFilledSvg from '@ant-design/icons-svg/lib/asn/ApiFilled';
 
 export interface ApiFilledIconType extends FunctionalComponent<IconProps> {
-  displayName: string;
+    displayName: string;
 }
 
-const ApiFilled: ApiFilledIconType = (props, context) => 
-    <Icon {...{ ...props, ...context.attrs }} icon={ApiFilledSvg} />
-    ;
+const ApiFilled: ApiFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ApiFilledSvg} />;
 
 ApiFilled.displayName = 'ApiFilled';
 
