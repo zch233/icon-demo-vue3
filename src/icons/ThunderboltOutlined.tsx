@@ -9,7 +9,7 @@ export interface ThunderboltOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const ThunderboltOutlined: ThunderboltOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ThunderboltOutlinedSvg} />;
+const ThunderboltOutlined: ThunderboltOutlinedIconType = (props, context) => <Icon name='ThunderboltOutlined' {...{ ...props, ...context.attrs }} icon={ThunderboltOutlinedSvg} />;
 
 ThunderboltOutlined.displayName = 'ThunderboltOutlined';
 

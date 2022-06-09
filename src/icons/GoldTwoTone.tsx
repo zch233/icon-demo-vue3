@@ -9,7 +9,7 @@ export interface GoldTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const GoldTwoTone: GoldTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GoldTwoToneSvg} />;
+const GoldTwoTone: GoldTwoToneIconType = (props, context) => <Icon name='GoldTwoTone' {...{ ...props, ...context.attrs }} icon={GoldTwoToneSvg} />;
 
 GoldTwoTone.displayName = 'GoldTwoTone';
 

@@ -9,7 +9,7 @@ export interface TrademarkCircleTwoToneIconType extends FunctionalComponent<Icon
     displayName: string;
 }
 
-const TrademarkCircleTwoTone: TrademarkCircleTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TrademarkCircleTwoToneSvg} />;
+const TrademarkCircleTwoTone: TrademarkCircleTwoToneIconType = (props, context) => <Icon name='TrademarkCircleTwoTone' {...{ ...props, ...context.attrs }} icon={TrademarkCircleTwoToneSvg} />;
 
 TrademarkCircleTwoTone.displayName = 'TrademarkCircleTwoTone';
 

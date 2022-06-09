@@ -9,7 +9,7 @@ export interface LogoutOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const LogoutOutlined: LogoutOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={LogoutOutlinedSvg} />;
+const LogoutOutlined: LogoutOutlinedIconType = (props, context) => <Icon name='LogoutOutlined' {...{ ...props, ...context.attrs }} icon={LogoutOutlinedSvg} />;
 
 LogoutOutlined.displayName = 'LogoutOutlined';
 

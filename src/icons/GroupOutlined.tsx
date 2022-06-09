@@ -9,7 +9,7 @@ export interface GroupOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const GroupOutlined: GroupOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GroupOutlinedSvg} />;
+const GroupOutlined: GroupOutlinedIconType = (props, context) => <Icon name='GroupOutlined' {...{ ...props, ...context.attrs }} icon={GroupOutlinedSvg} />;
 
 GroupOutlined.displayName = 'GroupOutlined';
 

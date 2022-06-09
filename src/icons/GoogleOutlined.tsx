@@ -9,7 +9,7 @@ export interface GoogleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const GoogleOutlined: GoogleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GoogleOutlinedSvg} />;
+const GoogleOutlined: GoogleOutlinedIconType = (props, context) => <Icon name='GoogleOutlined' {...{ ...props, ...context.attrs }} icon={GoogleOutlinedSvg} />;
 
 GoogleOutlined.displayName = 'GoogleOutlined';
 

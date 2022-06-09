@@ -9,7 +9,7 @@ export interface ScissorOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const ScissorOutlined: ScissorOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ScissorOutlinedSvg} />;
+const ScissorOutlined: ScissorOutlinedIconType = (props, context) => <Icon name='ScissorOutlined' {...{ ...props, ...context.attrs }} icon={ScissorOutlinedSvg} />;
 
 ScissorOutlined.displayName = 'ScissorOutlined';
 

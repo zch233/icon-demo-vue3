@@ -9,7 +9,7 @@ export interface SwitcherTwoToneIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const SwitcherTwoTone: SwitcherTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SwitcherTwoToneSvg} />;
+const SwitcherTwoTone: SwitcherTwoToneIconType = (props, context) => <Icon name='SwitcherTwoTone' {...{ ...props, ...context.attrs }} icon={SwitcherTwoToneSvg} />;
 
 SwitcherTwoTone.displayName = 'SwitcherTwoTone';
 

@@ -9,7 +9,7 @@ export interface DropboxOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const DropboxOutlined: DropboxOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DropboxOutlinedSvg} />;
+const DropboxOutlined: DropboxOutlinedIconType = (props, context) => <Icon name='DropboxOutlined' {...{ ...props, ...context.attrs }} icon={DropboxOutlinedSvg} />;
 
 DropboxOutlined.displayName = 'DropboxOutlined';
 

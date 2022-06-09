@@ -9,7 +9,7 @@ export interface CheckCircleFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const CheckCircleFilled: CheckCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CheckCircleFilledSvg} />;
+const CheckCircleFilled: CheckCircleFilledIconType = (props, context) => <Icon name='CheckCircleFilled' {...{ ...props, ...context.attrs }} icon={CheckCircleFilledSvg} />;
 
 CheckCircleFilled.displayName = 'CheckCircleFilled';
 

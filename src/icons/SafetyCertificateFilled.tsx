@@ -9,7 +9,7 @@ export interface SafetyCertificateFilledIconType extends FunctionalComponent<Ico
     displayName: string;
 }
 
-const SafetyCertificateFilled: SafetyCertificateFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SafetyCertificateFilledSvg} />;
+const SafetyCertificateFilled: SafetyCertificateFilledIconType = (props, context) => <Icon name='SafetyCertificateFilled' {...{ ...props, ...context.attrs }} icon={SafetyCertificateFilledSvg} />;
 
 SafetyCertificateFilled.displayName = 'SafetyCertificateFilled';
 

@@ -9,7 +9,7 @@ export interface CopyrightCircleOutlinedIconType extends FunctionalComponent<Ico
     displayName: string;
 }
 
-const CopyrightCircleOutlined: CopyrightCircleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CopyrightCircleOutlinedSvg} />;
+const CopyrightCircleOutlined: CopyrightCircleOutlinedIconType = (props, context) => <Icon name='CopyrightCircleOutlined' {...{ ...props, ...context.attrs }} icon={CopyrightCircleOutlinedSvg} />;
 
 CopyrightCircleOutlined.displayName = 'CopyrightCircleOutlined';
 

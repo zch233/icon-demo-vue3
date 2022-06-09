@@ -9,7 +9,7 @@ export interface KeyOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const KeyOutlined: KeyOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={KeyOutlinedSvg} />;
+const KeyOutlined: KeyOutlinedIconType = (props, context) => <Icon name='KeyOutlined' {...{ ...props, ...context.attrs }} icon={KeyOutlinedSvg} />;
 
 KeyOutlined.displayName = 'KeyOutlined';
 

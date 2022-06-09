@@ -9,7 +9,7 @@ export interface CompassFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CompassFilled: CompassFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CompassFilledSvg} />;
+const CompassFilled: CompassFilledIconType = (props, context) => <Icon name='CompassFilled' {...{ ...props, ...context.attrs }} icon={CompassFilledSvg} />;
 
 CompassFilled.displayName = 'CompassFilled';
 

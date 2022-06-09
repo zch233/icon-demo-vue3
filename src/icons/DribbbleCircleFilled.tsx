@@ -9,7 +9,7 @@ export interface DribbbleCircleFilledIconType extends FunctionalComponent<IconPr
     displayName: string;
 }
 
-const DribbbleCircleFilled: DribbbleCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DribbbleCircleFilledSvg} />;
+const DribbbleCircleFilled: DribbbleCircleFilledIconType = (props, context) => <Icon name='DribbbleCircleFilled' {...{ ...props, ...context.attrs }} icon={DribbbleCircleFilledSvg} />;
 
 DribbbleCircleFilled.displayName = 'DribbbleCircleFilled';
 

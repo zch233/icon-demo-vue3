@@ -9,7 +9,7 @@ export interface AuditOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const AuditOutlined: AuditOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AuditOutlinedSvg} />;
+const AuditOutlined: AuditOutlinedIconType = (props, context) => <Icon name='AuditOutlined' {...{ ...props, ...context.attrs }} icon={AuditOutlinedSvg} />;
 
 AuditOutlined.displayName = 'AuditOutlined';
 

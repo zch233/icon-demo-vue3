@@ -9,7 +9,7 @@ export interface CaretDownFilledIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const CaretDownFilled: CaretDownFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CaretDownFilledSvg} />;
+const CaretDownFilled: CaretDownFilledIconType = (props, context) => <Icon name='CaretDownFilled' {...{ ...props, ...context.attrs }} icon={CaretDownFilledSvg} />;
 
 CaretDownFilled.displayName = 'CaretDownFilled';
 

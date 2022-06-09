@@ -9,7 +9,7 @@ export interface WarningFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const WarningFilled: WarningFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={WarningFilledSvg} />;
+const WarningFilled: WarningFilledIconType = (props, context) => <Icon name='WarningFilled' {...{ ...props, ...context.attrs }} icon={WarningFilledSvg} />;
 
 WarningFilled.displayName = 'WarningFilled';
 

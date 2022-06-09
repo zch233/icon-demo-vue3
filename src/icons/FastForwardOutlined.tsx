@@ -9,7 +9,7 @@ export interface FastForwardOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const FastForwardOutlined: FastForwardOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FastForwardOutlinedSvg} />;
+const FastForwardOutlined: FastForwardOutlinedIconType = (props, context) => <Icon name='FastForwardOutlined' {...{ ...props, ...context.attrs }} icon={FastForwardOutlinedSvg} />;
 
 FastForwardOutlined.displayName = 'FastForwardOutlined';
 

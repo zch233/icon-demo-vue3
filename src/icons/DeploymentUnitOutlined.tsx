@@ -9,7 +9,7 @@ export interface DeploymentUnitOutlinedIconType extends FunctionalComponent<Icon
     displayName: string;
 }
 
-const DeploymentUnitOutlined: DeploymentUnitOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DeploymentUnitOutlinedSvg} />;
+const DeploymentUnitOutlined: DeploymentUnitOutlinedIconType = (props, context) => <Icon name='DeploymentUnitOutlined' {...{ ...props, ...context.attrs }} icon={DeploymentUnitOutlinedSvg} />;
 
 DeploymentUnitOutlined.displayName = 'DeploymentUnitOutlined';
 

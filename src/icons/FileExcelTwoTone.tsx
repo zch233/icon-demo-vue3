@@ -9,7 +9,7 @@ export interface FileExcelTwoToneIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const FileExcelTwoTone: FileExcelTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FileExcelTwoToneSvg} />;
+const FileExcelTwoTone: FileExcelTwoToneIconType = (props, context) => <Icon name='FileExcelTwoTone' {...{ ...props, ...context.attrs }} icon={FileExcelTwoToneSvg} />;
 
 FileExcelTwoTone.displayName = 'FileExcelTwoTone';
 

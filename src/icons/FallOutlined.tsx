@@ -9,7 +9,7 @@ export interface FallOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const FallOutlined: FallOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FallOutlinedSvg} />;
+const FallOutlined: FallOutlinedIconType = (props, context) => <Icon name='FallOutlined' {...{ ...props, ...context.attrs }} icon={FallOutlinedSvg} />;
 
 FallOutlined.displayName = 'FallOutlined';
 

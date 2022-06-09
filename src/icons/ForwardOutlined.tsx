@@ -9,7 +9,7 @@ export interface ForwardOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const ForwardOutlined: ForwardOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ForwardOutlinedSvg} />;
+const ForwardOutlined: ForwardOutlinedIconType = (props, context) => <Icon name='ForwardOutlined' {...{ ...props, ...context.attrs }} icon={ForwardOutlinedSvg} />;
 
 ForwardOutlined.displayName = 'ForwardOutlined';
 

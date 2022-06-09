@@ -9,7 +9,7 @@ export interface ScheduleOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const ScheduleOutlined: ScheduleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ScheduleOutlinedSvg} />;
+const ScheduleOutlined: ScheduleOutlinedIconType = (props, context) => <Icon name='ScheduleOutlined' {...{ ...props, ...context.attrs }} icon={ScheduleOutlinedSvg} />;
 
 ScheduleOutlined.displayName = 'ScheduleOutlined';
 

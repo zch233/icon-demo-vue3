@@ -9,7 +9,7 @@ export interface PayCircleFilledIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const PayCircleFilled: PayCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PayCircleFilledSvg} />;
+const PayCircleFilled: PayCircleFilledIconType = (props, context) => <Icon name='PayCircleFilled' {...{ ...props, ...context.attrs }} icon={PayCircleFilledSvg} />;
 
 PayCircleFilled.displayName = 'PayCircleFilled';
 

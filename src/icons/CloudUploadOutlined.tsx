@@ -9,7 +9,7 @@ export interface CloudUploadOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const CloudUploadOutlined: CloudUploadOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CloudUploadOutlinedSvg} />;
+const CloudUploadOutlined: CloudUploadOutlinedIconType = (props, context) => <Icon name='CloudUploadOutlined' {...{ ...props, ...context.attrs }} icon={CloudUploadOutlinedSvg} />;
 
 CloudUploadOutlined.displayName = 'CloudUploadOutlined';
 

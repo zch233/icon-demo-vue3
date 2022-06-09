@@ -9,7 +9,7 @@ export interface MacCommandFilledIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const MacCommandFilled: MacCommandFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MacCommandFilledSvg} />;
+const MacCommandFilled: MacCommandFilledIconType = (props, context) => <Icon name='MacCommandFilled' {...{ ...props, ...context.attrs }} icon={MacCommandFilledSvg} />;
 
 MacCommandFilled.displayName = 'MacCommandFilled';
 

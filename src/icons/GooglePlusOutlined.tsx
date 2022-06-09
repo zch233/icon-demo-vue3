@@ -9,7 +9,7 @@ export interface GooglePlusOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const GooglePlusOutlined: GooglePlusOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GooglePlusOutlinedSvg} />;
+const GooglePlusOutlined: GooglePlusOutlinedIconType = (props, context) => <Icon name='GooglePlusOutlined' {...{ ...props, ...context.attrs }} icon={GooglePlusOutlinedSvg} />;
 
 GooglePlusOutlined.displayName = 'GooglePlusOutlined';
 

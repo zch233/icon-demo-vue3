@@ -9,7 +9,7 @@ export interface LayoutOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const LayoutOutlined: LayoutOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={LayoutOutlinedSvg} />;
+const LayoutOutlined: LayoutOutlinedIconType = (props, context) => <Icon name='LayoutOutlined' {...{ ...props, ...context.attrs }} icon={LayoutOutlinedSvg} />;
 
 LayoutOutlined.displayName = 'LayoutOutlined';
 

@@ -9,7 +9,7 @@ export interface AndroidFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const AndroidFilled: AndroidFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AndroidFilledSvg} />;
+const AndroidFilled: AndroidFilledIconType = (props, context) => <Icon name='AndroidFilled' {...{ ...props, ...context.attrs }} icon={AndroidFilledSvg} />;
 
 AndroidFilled.displayName = 'AndroidFilled';
 

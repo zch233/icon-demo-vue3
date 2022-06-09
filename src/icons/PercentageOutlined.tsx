@@ -9,7 +9,7 @@ export interface PercentageOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const PercentageOutlined: PercentageOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PercentageOutlinedSvg} />;
+const PercentageOutlined: PercentageOutlinedIconType = (props, context) => <Icon name='PercentageOutlined' {...{ ...props, ...context.attrs }} icon={PercentageOutlinedSvg} />;
 
 PercentageOutlined.displayName = 'PercentageOutlined';
 

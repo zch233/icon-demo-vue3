@@ -9,7 +9,7 @@ export interface EuroOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const EuroOutlined: EuroOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={EuroOutlinedSvg} />;
+const EuroOutlined: EuroOutlinedIconType = (props, context) => <Icon name='EuroOutlined' {...{ ...props, ...context.attrs }} icon={EuroOutlinedSvg} />;
 
 EuroOutlined.displayName = 'EuroOutlined';
 

@@ -9,7 +9,7 @@ export interface HddFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const HddFilled: HddFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={HddFilledSvg} />;
+const HddFilled: HddFilledIconType = (props, context) => <Icon name='HddFilled' {...{ ...props, ...context.attrs }} icon={HddFilledSvg} />;
 
 HddFilled.displayName = 'HddFilled';
 

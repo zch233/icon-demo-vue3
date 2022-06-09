@@ -9,7 +9,7 @@ export interface TagFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const TagFilled: TagFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TagFilledSvg} />;
+const TagFilled: TagFilledIconType = (props, context) => <Icon name='TagFilled' {...{ ...props, ...context.attrs }} icon={TagFilledSvg} />;
 
 TagFilled.displayName = 'TagFilled';
 

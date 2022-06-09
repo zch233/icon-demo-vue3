@@ -9,7 +9,7 @@ export interface LoginOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const LoginOutlined: LoginOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={LoginOutlinedSvg} />;
+const LoginOutlined: LoginOutlinedIconType = (props, context) => <Icon name='LoginOutlined' {...{ ...props, ...context.attrs }} icon={LoginOutlinedSvg} />;
 
 LoginOutlined.displayName = 'LoginOutlined';
 

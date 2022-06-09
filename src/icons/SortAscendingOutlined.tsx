@@ -9,7 +9,7 @@ export interface SortAscendingOutlinedIconType extends FunctionalComponent<IconP
     displayName: string;
 }
 
-const SortAscendingOutlined: SortAscendingOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SortAscendingOutlinedSvg} />;
+const SortAscendingOutlined: SortAscendingOutlinedIconType = (props, context) => <Icon name='SortAscendingOutlined' {...{ ...props, ...context.attrs }} icon={SortAscendingOutlinedSvg} />;
 
 SortAscendingOutlined.displayName = 'SortAscendingOutlined';
 

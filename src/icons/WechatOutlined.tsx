@@ -9,7 +9,7 @@ export interface WechatOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const WechatOutlined: WechatOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={WechatOutlinedSvg} />;
+const WechatOutlined: WechatOutlinedIconType = (props, context) => <Icon name='WechatOutlined' {...{ ...props, ...context.attrs }} icon={WechatOutlinedSvg} />;
 
 WechatOutlined.displayName = 'WechatOutlined';
 

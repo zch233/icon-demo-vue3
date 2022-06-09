@@ -1,6 +1,6 @@
-import { FunctionalComponent, h, HTMLAttributes } from 'vue';
+import { FunctionalComponent, HTMLAttributes } from 'vue';
 import { AbstractNode, IconDefinition } from '@ant-design/icons-svg/es/types';
-import { useInsertStyles } from '../utils';
+import { generateSvgNode, useInsertStyles } from "../utils";
 
 export interface IconProps extends HTMLAttributes {
     spin?: boolean;
@@ -19,24 +19,7 @@ const Icon: FunctionalComponent<IconProps> = (props, context) => {
         'gupoIcon-spin': spin,
         [`gupoIcon-svg-${name}`]: !!name,
     };
-    const generate = (node: AbstractNode, key: string, rootProps?: { [key: string]: any } | false): any => {
-        if (!rootProps) {
-            return h(
-                node.tag,
-                { key, ...node.attrs },
-                (node.children || []).map((child, index) => generate(child, `${key}-${node.tag}-${index}`))
-            );
-        }
-        return h(
-            node.tag,
-            {
-                key,
-                ...rootProps,
-                ...node.attrs,
-            },
-            (node.children || []).map((child, index) => generate(child, `${key}-${node.tag}-${index}`))
-        );
-    };
+
     const styleResult = {
         ...(rotate
             ? {
@@ -53,7 +36,7 @@ const Icon: FunctionalComponent<IconProps> = (props, context) => {
     useInsertStyles();
     return icon ? (
         <span role='img' aria-label={name} {...restProps} class={classResult} style={styleResult}>
-            {generate(icon.icon as AbstractNode, `gupoIcon-svg-${icon.name}`, {
+            {generateSvgNode(icon.icon as AbstractNode, `gupoIcon-svg-${icon.name}`, {
                 class: 'gupoIcon-icon',
                 'data-icon': icon.name,
             })}

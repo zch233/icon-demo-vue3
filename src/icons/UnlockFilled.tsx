@@ -9,7 +9,7 @@ export interface UnlockFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const UnlockFilled: UnlockFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={UnlockFilledSvg} />;
+const UnlockFilled: UnlockFilledIconType = (props, context) => <Icon name='UnlockFilled' {...{ ...props, ...context.attrs }} icon={UnlockFilledSvg} />;
 
 UnlockFilled.displayName = 'UnlockFilled';
 

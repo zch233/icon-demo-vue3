@@ -9,7 +9,7 @@ export interface HeartFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const HeartFilled: HeartFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={HeartFilledSvg} />;
+const HeartFilled: HeartFilledIconType = (props, context) => <Icon name='HeartFilled' {...{ ...props, ...context.attrs }} icon={HeartFilledSvg} />;
 
 HeartFilled.displayName = 'HeartFilled';
 

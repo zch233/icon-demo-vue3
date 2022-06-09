@@ -9,7 +9,7 @@ export interface SnippetsFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const SnippetsFilled: SnippetsFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SnippetsFilledSvg} />;
+const SnippetsFilled: SnippetsFilledIconType = (props, context) => <Icon name='SnippetsFilled' {...{ ...props, ...context.attrs }} icon={SnippetsFilledSvg} />;
 
 SnippetsFilled.displayName = 'SnippetsFilled';
 

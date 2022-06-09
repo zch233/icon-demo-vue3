@@ -9,7 +9,7 @@ export interface BugFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const BugFilled: BugFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BugFilledSvg} />;
+const BugFilled: BugFilledIconType = (props, context) => <Icon name='BugFilled' {...{ ...props, ...context.attrs }} icon={BugFilledSvg} />;
 
 BugFilled.displayName = 'BugFilled';
 

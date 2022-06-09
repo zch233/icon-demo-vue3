@@ -9,7 +9,7 @@ export interface ItalicOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ItalicOutlined: ItalicOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ItalicOutlinedSvg} />;
+const ItalicOutlined: ItalicOutlinedIconType = (props, context) => <Icon name='ItalicOutlined' {...{ ...props, ...context.attrs }} icon={ItalicOutlinedSvg} />;
 
 ItalicOutlined.displayName = 'ItalicOutlined';
 

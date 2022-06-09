@@ -9,7 +9,7 @@ export interface BoxPlotOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const BoxPlotOutlined: BoxPlotOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BoxPlotOutlinedSvg} />;
+const BoxPlotOutlined: BoxPlotOutlinedIconType = (props, context) => <Icon name='BoxPlotOutlined' {...{ ...props, ...context.attrs }} icon={BoxPlotOutlinedSvg} />;
 
 BoxPlotOutlined.displayName = 'BoxPlotOutlined';
 

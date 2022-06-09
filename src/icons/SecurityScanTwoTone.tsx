@@ -9,7 +9,7 @@ export interface SecurityScanTwoToneIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const SecurityScanTwoTone: SecurityScanTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SecurityScanTwoToneSvg} />;
+const SecurityScanTwoTone: SecurityScanTwoToneIconType = (props, context) => <Icon name='SecurityScanTwoTone' {...{ ...props, ...context.attrs }} icon={SecurityScanTwoToneSvg} />;
 
 SecurityScanTwoTone.displayName = 'SecurityScanTwoTone';
 

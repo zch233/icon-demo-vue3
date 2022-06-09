@@ -9,7 +9,7 @@ export interface EuroCircleFilledIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const EuroCircleFilled: EuroCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={EuroCircleFilledSvg} />;
+const EuroCircleFilled: EuroCircleFilledIconType = (props, context) => <Icon name='EuroCircleFilled' {...{ ...props, ...context.attrs }} icon={EuroCircleFilledSvg} />;
 
 EuroCircleFilled.displayName = 'EuroCircleFilled';
 

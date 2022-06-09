@@ -9,7 +9,7 @@ export interface FieldNumberOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const FieldNumberOutlined: FieldNumberOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FieldNumberOutlinedSvg} />;
+const FieldNumberOutlined: FieldNumberOutlinedIconType = (props, context) => <Icon name='FieldNumberOutlined' {...{ ...props, ...context.attrs }} icon={FieldNumberOutlinedSvg} />;
 
 FieldNumberOutlined.displayName = 'FieldNumberOutlined';
 

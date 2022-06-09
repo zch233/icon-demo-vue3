@@ -9,7 +9,7 @@ export interface DingtalkOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const DingtalkOutlined: DingtalkOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DingtalkOutlinedSvg} />;
+const DingtalkOutlined: DingtalkOutlinedIconType = (props, context) => <Icon name='DingtalkOutlined' {...{ ...props, ...context.attrs }} icon={DingtalkOutlinedSvg} />;
 
 DingtalkOutlined.displayName = 'DingtalkOutlined';
 

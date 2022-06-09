@@ -9,7 +9,7 @@ export interface RedEnvelopeOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const RedEnvelopeOutlined: RedEnvelopeOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RedEnvelopeOutlinedSvg} />;
+const RedEnvelopeOutlined: RedEnvelopeOutlinedIconType = (props, context) => <Icon name='RedEnvelopeOutlined' {...{ ...props, ...context.attrs }} icon={RedEnvelopeOutlinedSvg} />;
 
 RedEnvelopeOutlined.displayName = 'RedEnvelopeOutlined';
 

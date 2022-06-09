@@ -9,7 +9,7 @@ export interface HomeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const HomeOutlined: HomeOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={HomeOutlinedSvg} />;
+const HomeOutlined: HomeOutlinedIconType = (props, context) => <Icon name='HomeOutlined' {...{ ...props, ...context.attrs }} icon={HomeOutlinedSvg} />;
 
 HomeOutlined.displayName = 'HomeOutlined';
 

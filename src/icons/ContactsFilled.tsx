@@ -9,7 +9,7 @@ export interface ContactsFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ContactsFilled: ContactsFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ContactsFilledSvg} />;
+const ContactsFilled: ContactsFilledIconType = (props, context) => <Icon name='ContactsFilled' {...{ ...props, ...context.attrs }} icon={ContactsFilledSvg} />;
 
 ContactsFilled.displayName = 'ContactsFilled';
 

@@ -9,7 +9,7 @@ export interface DashOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const DashOutlined: DashOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DashOutlinedSvg} />;
+const DashOutlined: DashOutlinedIconType = (props, context) => <Icon name='DashOutlined' {...{ ...props, ...context.attrs }} icon={DashOutlinedSvg} />;
 
 DashOutlined.displayName = 'DashOutlined';
 

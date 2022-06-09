@@ -9,7 +9,7 @@ export interface RedEnvelopeFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const RedEnvelopeFilled: RedEnvelopeFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RedEnvelopeFilledSvg} />;
+const RedEnvelopeFilled: RedEnvelopeFilledIconType = (props, context) => <Icon name='RedEnvelopeFilled' {...{ ...props, ...context.attrs }} icon={RedEnvelopeFilledSvg} />;
 
 RedEnvelopeFilled.displayName = 'RedEnvelopeFilled';
 

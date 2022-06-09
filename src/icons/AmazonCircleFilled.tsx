@@ -9,7 +9,7 @@ export interface AmazonCircleFilledIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const AmazonCircleFilled: AmazonCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AmazonCircleFilledSvg} />;
+const AmazonCircleFilled: AmazonCircleFilledIconType = (props, context) => <Icon name='AmazonCircleFilled' {...{ ...props, ...context.attrs }} icon={AmazonCircleFilledSvg} />;
 
 AmazonCircleFilled.displayName = 'AmazonCircleFilled';
 

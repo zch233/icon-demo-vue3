@@ -9,7 +9,7 @@ export interface Html5FilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const Html5Filled: Html5FilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={Html5FilledSvg} />;
+const Html5Filled: Html5FilledIconType = (props, context) => <Icon name='Html5Filled' {...{ ...props, ...context.attrs }} icon={Html5FilledSvg} />;
 
 Html5Filled.displayName = 'Html5Filled';
 

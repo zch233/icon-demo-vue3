@@ -9,7 +9,7 @@ export interface FolderViewOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const FolderViewOutlined: FolderViewOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FolderViewOutlinedSvg} />;
+const FolderViewOutlined: FolderViewOutlinedIconType = (props, context) => <Icon name='FolderViewOutlined' {...{ ...props, ...context.attrs }} icon={FolderViewOutlinedSvg} />;
 
 FolderViewOutlined.displayName = 'FolderViewOutlined';
 

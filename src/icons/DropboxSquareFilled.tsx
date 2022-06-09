@@ -9,7 +9,7 @@ export interface DropboxSquareFilledIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const DropboxSquareFilled: DropboxSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DropboxSquareFilledSvg} />;
+const DropboxSquareFilled: DropboxSquareFilledIconType = (props, context) => <Icon name='DropboxSquareFilled' {...{ ...props, ...context.attrs }} icon={DropboxSquareFilledSvg} />;
 
 DropboxSquareFilled.displayName = 'DropboxSquareFilled';
 

@@ -9,7 +9,7 @@ export interface SettingOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const SettingOutlined: SettingOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SettingOutlinedSvg} />;
+const SettingOutlined: SettingOutlinedIconType = (props, context) => <Icon name='SettingOutlined' {...{ ...props, ...context.attrs }} icon={SettingOutlinedSvg} />;
 
 SettingOutlined.displayName = 'SettingOutlined';
 

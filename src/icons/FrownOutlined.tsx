@@ -9,7 +9,7 @@ export interface FrownOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const FrownOutlined: FrownOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FrownOutlinedSvg} />;
+const FrownOutlined: FrownOutlinedIconType = (props, context) => <Icon name='FrownOutlined' {...{ ...props, ...context.attrs }} icon={FrownOutlinedSvg} />;
 
 FrownOutlined.displayName = 'FrownOutlined';
 

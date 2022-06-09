@@ -9,7 +9,7 @@ export interface SlackSquareFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const SlackSquareFilled: SlackSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SlackSquareFilledSvg} />;
+const SlackSquareFilled: SlackSquareFilledIconType = (props, context) => <Icon name='SlackSquareFilled' {...{ ...props, ...context.attrs }} icon={SlackSquareFilledSvg} />;
 
 SlackSquareFilled.displayName = 'SlackSquareFilled';
 

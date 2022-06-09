@@ -9,7 +9,7 @@ export interface ZoomOutOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const ZoomOutOutlined: ZoomOutOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ZoomOutOutlinedSvg} />;
+const ZoomOutOutlined: ZoomOutOutlinedIconType = (props, context) => <Icon name='ZoomOutOutlined' {...{ ...props, ...context.attrs }} icon={ZoomOutOutlinedSvg} />;
 
 ZoomOutOutlined.displayName = 'ZoomOutOutlined';
 

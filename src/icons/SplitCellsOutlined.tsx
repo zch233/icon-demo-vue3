@@ -9,7 +9,7 @@ export interface SplitCellsOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const SplitCellsOutlined: SplitCellsOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SplitCellsOutlinedSvg} />;
+const SplitCellsOutlined: SplitCellsOutlinedIconType = (props, context) => <Icon name='SplitCellsOutlined' {...{ ...props, ...context.attrs }} icon={SplitCellsOutlinedSvg} />;
 
 SplitCellsOutlined.displayName = 'SplitCellsOutlined';
 

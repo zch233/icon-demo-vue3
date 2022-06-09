@@ -9,7 +9,7 @@ export interface ShopFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ShopFilled: ShopFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ShopFilledSvg} />;
+const ShopFilled: ShopFilledIconType = (props, context) => <Icon name='ShopFilled' {...{ ...props, ...context.attrs }} icon={ShopFilledSvg} />;
 
 ShopFilled.displayName = 'ShopFilled';
 

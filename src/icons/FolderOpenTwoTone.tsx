@@ -9,7 +9,7 @@ export interface FolderOpenTwoToneIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const FolderOpenTwoTone: FolderOpenTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FolderOpenTwoToneSvg} />;
+const FolderOpenTwoTone: FolderOpenTwoToneIconType = (props, context) => <Icon name='FolderOpenTwoTone' {...{ ...props, ...context.attrs }} icon={FolderOpenTwoToneSvg} />;
 
 FolderOpenTwoTone.displayName = 'FolderOpenTwoTone';
 

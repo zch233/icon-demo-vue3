@@ -9,7 +9,7 @@ export interface InteractionOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const InteractionOutlined: InteractionOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={InteractionOutlinedSvg} />;
+const InteractionOutlined: InteractionOutlinedIconType = (props, context) => <Icon name='InteractionOutlined' {...{ ...props, ...context.attrs }} icon={InteractionOutlinedSvg} />;
 
 InteractionOutlined.displayName = 'InteractionOutlined';
 

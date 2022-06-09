@@ -9,7 +9,7 @@ export interface CloseSquareFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const CloseSquareFilled: CloseSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CloseSquareFilledSvg} />;
+const CloseSquareFilled: CloseSquareFilledIconType = (props, context) => <Icon name='CloseSquareFilled' {...{ ...props, ...context.attrs }} icon={CloseSquareFilledSvg} />;
 
 CloseSquareFilled.displayName = 'CloseSquareFilled';
 

@@ -9,7 +9,7 @@ export interface DropboxCircleFilledIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const DropboxCircleFilled: DropboxCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DropboxCircleFilledSvg} />;
+const DropboxCircleFilled: DropboxCircleFilledIconType = (props, context) => <Icon name='DropboxCircleFilled' {...{ ...props, ...context.attrs }} icon={DropboxCircleFilledSvg} />;
 
 DropboxCircleFilled.displayName = 'DropboxCircleFilled';
 

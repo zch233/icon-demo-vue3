@@ -9,7 +9,7 @@ export interface FunnelPlotTwoToneIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const FunnelPlotTwoTone: FunnelPlotTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FunnelPlotTwoToneSvg} />;
+const FunnelPlotTwoTone: FunnelPlotTwoToneIconType = (props, context) => <Icon name='FunnelPlotTwoTone' {...{ ...props, ...context.attrs }} icon={FunnelPlotTwoToneSvg} />;
 
 FunnelPlotTwoTone.displayName = 'FunnelPlotTwoTone';
 

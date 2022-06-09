@@ -9,7 +9,7 @@ export interface GifOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const GifOutlined: GifOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GifOutlinedSvg} />;
+const GifOutlined: GifOutlinedIconType = (props, context) => <Icon name='GifOutlined' {...{ ...props, ...context.attrs }} icon={GifOutlinedSvg} />;
 
 GifOutlined.displayName = 'GifOutlined';
 

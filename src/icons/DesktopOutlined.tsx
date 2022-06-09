@@ -9,7 +9,7 @@ export interface DesktopOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const DesktopOutlined: DesktopOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DesktopOutlinedSvg} />;
+const DesktopOutlined: DesktopOutlinedIconType = (props, context) => <Icon name='DesktopOutlined' {...{ ...props, ...context.attrs }} icon={DesktopOutlinedSvg} />;
 
 DesktopOutlined.displayName = 'DesktopOutlined';
 

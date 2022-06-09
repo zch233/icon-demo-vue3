@@ -9,7 +9,7 @@ export interface TrademarkCircleOutlinedIconType extends FunctionalComponent<Ico
     displayName: string;
 }
 
-const TrademarkCircleOutlined: TrademarkCircleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TrademarkCircleOutlinedSvg} />;
+const TrademarkCircleOutlined: TrademarkCircleOutlinedIconType = (props, context) => <Icon name='TrademarkCircleOutlined' {...{ ...props, ...context.attrs }} icon={TrademarkCircleOutlinedSvg} />;
 
 TrademarkCircleOutlined.displayName = 'TrademarkCircleOutlined';
 

@@ -9,7 +9,7 @@ export interface HistoryOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const HistoryOutlined: HistoryOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={HistoryOutlinedSvg} />;
+const HistoryOutlined: HistoryOutlinedIconType = (props, context) => <Icon name='HistoryOutlined' {...{ ...props, ...context.attrs }} icon={HistoryOutlinedSvg} />;
 
 HistoryOutlined.displayName = 'HistoryOutlined';
 

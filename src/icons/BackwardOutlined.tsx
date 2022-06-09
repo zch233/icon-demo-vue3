@@ -9,7 +9,7 @@ export interface BackwardOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const BackwardOutlined: BackwardOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BackwardOutlinedSvg} />;
+const BackwardOutlined: BackwardOutlinedIconType = (props, context) => <Icon name='BackwardOutlined' {...{ ...props, ...context.attrs }} icon={BackwardOutlinedSvg} />;
 
 BackwardOutlined.displayName = 'BackwardOutlined';
 

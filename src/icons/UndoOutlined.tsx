@@ -9,7 +9,7 @@ export interface UndoOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const UndoOutlined: UndoOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={UndoOutlinedSvg} />;
+const UndoOutlined: UndoOutlinedIconType = (props, context) => <Icon name='UndoOutlined' {...{ ...props, ...context.attrs }} icon={UndoOutlinedSvg} />;
 
 UndoOutlined.displayName = 'UndoOutlined';
 

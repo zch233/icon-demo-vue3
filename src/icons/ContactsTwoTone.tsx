@@ -9,7 +9,7 @@ export interface ContactsTwoToneIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const ContactsTwoTone: ContactsTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ContactsTwoToneSvg} />;
+const ContactsTwoTone: ContactsTwoToneIconType = (props, context) => <Icon name='ContactsTwoTone' {...{ ...props, ...context.attrs }} icon={ContactsTwoToneSvg} />;
 
 ContactsTwoTone.displayName = 'ContactsTwoTone';
 

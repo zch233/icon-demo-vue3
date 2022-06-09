@@ -9,7 +9,7 @@ export interface TaobaoCircleFilledIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const TaobaoCircleFilled: TaobaoCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TaobaoCircleFilledSvg} />;
+const TaobaoCircleFilled: TaobaoCircleFilledIconType = (props, context) => <Icon name='TaobaoCircleFilled' {...{ ...props, ...context.attrs }} icon={TaobaoCircleFilledSvg} />;
 
 TaobaoCircleFilled.displayName = 'TaobaoCircleFilled';
 

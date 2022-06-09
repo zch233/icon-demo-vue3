@@ -9,7 +9,7 @@ export interface MinusSquareTwoToneIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const MinusSquareTwoTone: MinusSquareTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MinusSquareTwoToneSvg} />;
+const MinusSquareTwoTone: MinusSquareTwoToneIconType = (props, context) => <Icon name='MinusSquareTwoTone' {...{ ...props, ...context.attrs }} icon={MinusSquareTwoToneSvg} />;
 
 MinusSquareTwoTone.displayName = 'MinusSquareTwoTone';
 

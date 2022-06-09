@@ -9,7 +9,7 @@ export interface MailTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const MailTwoTone: MailTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MailTwoToneSvg} />;
+const MailTwoTone: MailTwoToneIconType = (props, context) => <Icon name='MailTwoTone' {...{ ...props, ...context.attrs }} icon={MailTwoToneSvg} />;
 
 MailTwoTone.displayName = 'MailTwoTone';
 

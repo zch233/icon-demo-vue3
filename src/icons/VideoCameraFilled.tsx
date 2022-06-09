@@ -9,7 +9,7 @@ export interface VideoCameraFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const VideoCameraFilled: VideoCameraFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={VideoCameraFilledSvg} />;
+const VideoCameraFilled: VideoCameraFilledIconType = (props, context) => <Icon name='VideoCameraFilled' {...{ ...props, ...context.attrs }} icon={VideoCameraFilledSvg} />;
 
 VideoCameraFilled.displayName = 'VideoCameraFilled';
 

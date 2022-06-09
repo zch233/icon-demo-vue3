@@ -9,7 +9,7 @@ export interface Loading3QuartersOutlinedIconType extends FunctionalComponent<Ic
     displayName: string;
 }
 
-const Loading3QuartersOutlined: Loading3QuartersOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={Loading3QuartersOutlinedSvg} />;
+const Loading3QuartersOutlined: Loading3QuartersOutlinedIconType = (props, context) => <Icon name='Loading3QuartersOutlined' {...{ ...props, ...context.attrs }} icon={Loading3QuartersOutlinedSvg} />;
 
 Loading3QuartersOutlined.displayName = 'Loading3QuartersOutlined';
 

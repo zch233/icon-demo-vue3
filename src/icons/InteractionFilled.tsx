@@ -9,7 +9,7 @@ export interface InteractionFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const InteractionFilled: InteractionFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={InteractionFilledSvg} />;
+const InteractionFilled: InteractionFilledIconType = (props, context) => <Icon name='InteractionFilled' {...{ ...props, ...context.attrs }} icon={InteractionFilledSvg} />;
 
 InteractionFilled.displayName = 'InteractionFilled';
 

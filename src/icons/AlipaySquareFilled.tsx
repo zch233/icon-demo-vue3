@@ -9,7 +9,7 @@ export interface AlipaySquareFilledIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const AlipaySquareFilled: AlipaySquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AlipaySquareFilledSvg} />;
+const AlipaySquareFilled: AlipaySquareFilledIconType = (props, context) => <Icon name='AlipaySquareFilled' {...{ ...props, ...context.attrs }} icon={AlipaySquareFilledSvg} />;
 
 AlipaySquareFilled.displayName = 'AlipaySquareFilled';
 

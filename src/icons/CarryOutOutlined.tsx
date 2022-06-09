@@ -9,7 +9,7 @@ export interface CarryOutOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const CarryOutOutlined: CarryOutOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CarryOutOutlinedSvg} />;
+const CarryOutOutlined: CarryOutOutlinedIconType = (props, context) => <Icon name='CarryOutOutlined' {...{ ...props, ...context.attrs }} icon={CarryOutOutlinedSvg} />;
 
 CarryOutOutlined.displayName = 'CarryOutOutlined';
 

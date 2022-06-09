@@ -9,7 +9,7 @@ export interface InsuranceOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const InsuranceOutlined: InsuranceOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={InsuranceOutlinedSvg} />;
+const InsuranceOutlined: InsuranceOutlinedIconType = (props, context) => <Icon name='InsuranceOutlined' {...{ ...props, ...context.attrs }} icon={InsuranceOutlinedSvg} />;
 
 InsuranceOutlined.displayName = 'InsuranceOutlined';
 

@@ -9,7 +9,7 @@ export interface SaveFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const SaveFilled: SaveFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SaveFilledSvg} />;
+const SaveFilled: SaveFilledIconType = (props, context) => <Icon name='SaveFilled' {...{ ...props, ...context.attrs }} icon={SaveFilledSvg} />;
 
 SaveFilled.displayName = 'SaveFilled';
 

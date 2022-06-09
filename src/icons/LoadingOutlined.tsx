@@ -9,7 +9,7 @@ export interface LoadingOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const LoadingOutlined: LoadingOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={LoadingOutlinedSvg} />;
+const LoadingOutlined: LoadingOutlinedIconType = (props, context) => <Icon name='LoadingOutlined' {...{ ...props, ...context.attrs }} icon={LoadingOutlinedSvg} />;
 
 LoadingOutlined.displayName = 'LoadingOutlined';
 

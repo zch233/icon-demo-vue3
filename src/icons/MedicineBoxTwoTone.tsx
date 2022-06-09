@@ -9,7 +9,7 @@ export interface MedicineBoxTwoToneIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const MedicineBoxTwoTone: MedicineBoxTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MedicineBoxTwoToneSvg} />;
+const MedicineBoxTwoTone: MedicineBoxTwoToneIconType = (props, context) => <Icon name='MedicineBoxTwoTone' {...{ ...props, ...context.attrs }} icon={MedicineBoxTwoToneSvg} />;
 
 MedicineBoxTwoTone.displayName = 'MedicineBoxTwoTone';
 

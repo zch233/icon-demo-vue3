@@ -9,7 +9,7 @@ export interface AppstoreAddOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const AppstoreAddOutlined: AppstoreAddOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AppstoreAddOutlinedSvg} />;
+const AppstoreAddOutlined: AppstoreAddOutlinedIconType = (props, context) => <Icon name='AppstoreAddOutlined' {...{ ...props, ...context.attrs }} icon={AppstoreAddOutlinedSvg} />;
 
 AppstoreAddOutlined.displayName = 'AppstoreAddOutlined';
 

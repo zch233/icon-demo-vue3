@@ -9,7 +9,7 @@ export interface CheckSquareTwoToneIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const CheckSquareTwoTone: CheckSquareTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CheckSquareTwoToneSvg} />;
+const CheckSquareTwoTone: CheckSquareTwoToneIconType = (props, context) => <Icon name='CheckSquareTwoTone' {...{ ...props, ...context.attrs }} icon={CheckSquareTwoToneSvg} />;
 
 CheckSquareTwoTone.displayName = 'CheckSquareTwoTone';
 

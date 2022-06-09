@@ -9,7 +9,7 @@ export interface PullRequestOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const PullRequestOutlined: PullRequestOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PullRequestOutlinedSvg} />;
+const PullRequestOutlined: PullRequestOutlinedIconType = (props, context) => <Icon name='PullRequestOutlined' {...{ ...props, ...context.attrs }} icon={PullRequestOutlinedSvg} />;
 
 PullRequestOutlined.displayName = 'PullRequestOutlined';
 

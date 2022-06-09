@@ -9,7 +9,7 @@ export interface ExclamationCircleFilledIconType extends FunctionalComponent<Ico
     displayName: string;
 }
 
-const ExclamationCircleFilled: ExclamationCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ExclamationCircleFilledSvg} />;
+const ExclamationCircleFilled: ExclamationCircleFilledIconType = (props, context) => <Icon name='ExclamationCircleFilled' {...{ ...props, ...context.attrs }} icon={ExclamationCircleFilledSvg} />;
 
 ExclamationCircleFilled.displayName = 'ExclamationCircleFilled';
 

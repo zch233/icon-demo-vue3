@@ -9,7 +9,7 @@ export interface FunnelPlotOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const FunnelPlotOutlined: FunnelPlotOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FunnelPlotOutlinedSvg} />;
+const FunnelPlotOutlined: FunnelPlotOutlinedIconType = (props, context) => <Icon name='FunnelPlotOutlined' {...{ ...props, ...context.attrs }} icon={FunnelPlotOutlinedSvg} />;
 
 FunnelPlotOutlined.displayName = 'FunnelPlotOutlined';
 

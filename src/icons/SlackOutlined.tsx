@@ -9,7 +9,7 @@ export interface SlackOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const SlackOutlined: SlackOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SlackOutlinedSvg} />;
+const SlackOutlined: SlackOutlinedIconType = (props, context) => <Icon name='SlackOutlined' {...{ ...props, ...context.attrs }} icon={SlackOutlinedSvg} />;
 
 SlackOutlined.displayName = 'SlackOutlined';
 

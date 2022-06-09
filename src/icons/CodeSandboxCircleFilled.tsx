@@ -9,7 +9,7 @@ export interface CodeSandboxCircleFilledIconType extends FunctionalComponent<Ico
     displayName: string;
 }
 
-const CodeSandboxCircleFilled: CodeSandboxCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CodeSandboxCircleFilledSvg} />;
+const CodeSandboxCircleFilled: CodeSandboxCircleFilledIconType = (props, context) => <Icon name='CodeSandboxCircleFilled' {...{ ...props, ...context.attrs }} icon={CodeSandboxCircleFilledSvg} />;
 
 CodeSandboxCircleFilled.displayName = 'CodeSandboxCircleFilled';
 

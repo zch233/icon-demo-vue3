@@ -9,7 +9,7 @@ export interface AudioMutedOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const AudioMutedOutlined: AudioMutedOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AudioMutedOutlinedSvg} />;
+const AudioMutedOutlined: AudioMutedOutlinedIconType = (props, context) => <Icon name='AudioMutedOutlined' {...{ ...props, ...context.attrs }} icon={AudioMutedOutlinedSvg} />;
 
 AudioMutedOutlined.displayName = 'AudioMutedOutlined';
 

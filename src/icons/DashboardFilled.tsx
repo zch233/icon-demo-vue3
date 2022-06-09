@@ -9,7 +9,7 @@ export interface DashboardFilledIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const DashboardFilled: DashboardFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DashboardFilledSvg} />;
+const DashboardFilled: DashboardFilledIconType = (props, context) => <Icon name='DashboardFilled' {...{ ...props, ...context.attrs }} icon={DashboardFilledSvg} />;
 
 DashboardFilled.displayName = 'DashboardFilled';
 

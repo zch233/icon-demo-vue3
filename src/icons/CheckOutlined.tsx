@@ -9,7 +9,7 @@ export interface CheckOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CheckOutlined: CheckOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CheckOutlinedSvg} />;
+const CheckOutlined: CheckOutlinedIconType = (props, context) => <Icon name='CheckOutlined' {...{ ...props, ...context.attrs }} icon={CheckOutlinedSvg} />;
 
 CheckOutlined.displayName = 'CheckOutlined';
 

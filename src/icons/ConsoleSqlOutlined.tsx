@@ -9,7 +9,7 @@ export interface ConsoleSqlOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const ConsoleSqlOutlined: ConsoleSqlOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ConsoleSqlOutlinedSvg} />;
+const ConsoleSqlOutlined: ConsoleSqlOutlinedIconType = (props, context) => <Icon name='ConsoleSqlOutlined' {...{ ...props, ...context.attrs }} icon={ConsoleSqlOutlinedSvg} />;
 
 ConsoleSqlOutlined.displayName = 'ConsoleSqlOutlined';
 

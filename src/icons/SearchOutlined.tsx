@@ -9,7 +9,7 @@ export interface SearchOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const SearchOutlined: SearchOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SearchOutlinedSvg} />;
+const SearchOutlined: SearchOutlinedIconType = (props, context) => <Icon name='SearchOutlined' {...{ ...props, ...context.attrs }} icon={SearchOutlinedSvg} />;
 
 SearchOutlined.displayName = 'SearchOutlined';
 

@@ -9,7 +9,7 @@ export interface HourglassTwoToneIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const HourglassTwoTone: HourglassTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={HourglassTwoToneSvg} />;
+const HourglassTwoTone: HourglassTwoToneIconType = (props, context) => <Icon name='HourglassTwoTone' {...{ ...props, ...context.attrs }} icon={HourglassTwoToneSvg} />;
 
 HourglassTwoTone.displayName = 'HourglassTwoTone';
 

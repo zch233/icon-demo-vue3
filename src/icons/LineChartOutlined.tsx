@@ -9,7 +9,7 @@ export interface LineChartOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const LineChartOutlined: LineChartOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={LineChartOutlinedSvg} />;
+const LineChartOutlined: LineChartOutlinedIconType = (props, context) => <Icon name='LineChartOutlined' {...{ ...props, ...context.attrs }} icon={LineChartOutlinedSvg} />;
 
 LineChartOutlined.displayName = 'LineChartOutlined';
 

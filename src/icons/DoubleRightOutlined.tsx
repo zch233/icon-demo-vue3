@@ -9,7 +9,7 @@ export interface DoubleRightOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const DoubleRightOutlined: DoubleRightOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DoubleRightOutlinedSvg} />;
+const DoubleRightOutlined: DoubleRightOutlinedIconType = (props, context) => <Icon name='DoubleRightOutlined' {...{ ...props, ...context.attrs }} icon={DoubleRightOutlinedSvg} />;
 
 DoubleRightOutlined.displayName = 'DoubleRightOutlined';
 

@@ -9,7 +9,7 @@ export interface PieChartTwoToneIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const PieChartTwoTone: PieChartTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PieChartTwoToneSvg} />;
+const PieChartTwoTone: PieChartTwoToneIconType = (props, context) => <Icon name='PieChartTwoTone' {...{ ...props, ...context.attrs }} icon={PieChartTwoToneSvg} />;
 
 PieChartTwoTone.displayName = 'PieChartTwoTone';
 

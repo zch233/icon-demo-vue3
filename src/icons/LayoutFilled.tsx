@@ -9,7 +9,7 @@ export interface LayoutFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const LayoutFilled: LayoutFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={LayoutFilledSvg} />;
+const LayoutFilled: LayoutFilledIconType = (props, context) => <Icon name='LayoutFilled' {...{ ...props, ...context.attrs }} icon={LayoutFilledSvg} />;
 
 LayoutFilled.displayName = 'LayoutFilled';
 

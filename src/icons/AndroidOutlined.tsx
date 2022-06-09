@@ -9,7 +9,7 @@ export interface AndroidOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const AndroidOutlined: AndroidOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AndroidOutlinedSvg} />;
+const AndroidOutlined: AndroidOutlinedIconType = (props, context) => <Icon name='AndroidOutlined' {...{ ...props, ...context.attrs }} icon={AndroidOutlinedSvg} />;
 
 AndroidOutlined.displayName = 'AndroidOutlined';
 

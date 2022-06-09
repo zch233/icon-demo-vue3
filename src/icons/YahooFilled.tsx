@@ -9,7 +9,7 @@ export interface YahooFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const YahooFilled: YahooFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={YahooFilledSvg} />;
+const YahooFilled: YahooFilledIconType = (props, context) => <Icon name='YahooFilled' {...{ ...props, ...context.attrs }} icon={YahooFilledSvg} />;
 
 YahooFilled.displayName = 'YahooFilled';
 

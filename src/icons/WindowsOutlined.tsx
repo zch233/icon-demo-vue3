@@ -9,7 +9,7 @@ export interface WindowsOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const WindowsOutlined: WindowsOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={WindowsOutlinedSvg} />;
+const WindowsOutlined: WindowsOutlinedIconType = (props, context) => <Icon name='WindowsOutlined' {...{ ...props, ...context.attrs }} icon={WindowsOutlinedSvg} />;
 
 WindowsOutlined.displayName = 'WindowsOutlined';
 

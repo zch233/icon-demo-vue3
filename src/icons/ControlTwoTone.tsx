@@ -9,7 +9,7 @@ export interface ControlTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ControlTwoTone: ControlTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ControlTwoToneSvg} />;
+const ControlTwoTone: ControlTwoToneIconType = (props, context) => <Icon name='ControlTwoTone' {...{ ...props, ...context.attrs }} icon={ControlTwoToneSvg} />;
 
 ControlTwoTone.displayName = 'ControlTwoTone';
 

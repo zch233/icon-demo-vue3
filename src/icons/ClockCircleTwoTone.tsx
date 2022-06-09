@@ -9,7 +9,7 @@ export interface ClockCircleTwoToneIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const ClockCircleTwoTone: ClockCircleTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ClockCircleTwoToneSvg} />;
+const ClockCircleTwoTone: ClockCircleTwoToneIconType = (props, context) => <Icon name='ClockCircleTwoTone' {...{ ...props, ...context.attrs }} icon={ClockCircleTwoToneSvg} />;
 
 ClockCircleTwoTone.displayName = 'ClockCircleTwoTone';
 

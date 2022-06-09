@@ -9,7 +9,7 @@ export interface Html5TwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const Html5TwoTone: Html5TwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={Html5TwoToneSvg} />;
+const Html5TwoTone: Html5TwoToneIconType = (props, context) => <Icon name='Html5TwoTone' {...{ ...props, ...context.attrs }} icon={Html5TwoToneSvg} />;
 
 Html5TwoTone.displayName = 'Html5TwoTone';
 

@@ -9,7 +9,7 @@ export interface AreaChartOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const AreaChartOutlined: AreaChartOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AreaChartOutlinedSvg} />;
+const AreaChartOutlined: AreaChartOutlinedIconType = (props, context) => <Icon name='AreaChartOutlined' {...{ ...props, ...context.attrs }} icon={AreaChartOutlinedSvg} />;
 
 AreaChartOutlined.displayName = 'AreaChartOutlined';
 

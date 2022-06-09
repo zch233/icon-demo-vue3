@@ -9,7 +9,7 @@ export interface SnippetsOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const SnippetsOutlined: SnippetsOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SnippetsOutlinedSvg} />;
+const SnippetsOutlined: SnippetsOutlinedIconType = (props, context) => <Icon name='SnippetsOutlined' {...{ ...props, ...context.attrs }} icon={SnippetsOutlinedSvg} />;
 
 SnippetsOutlined.displayName = 'SnippetsOutlined';
 

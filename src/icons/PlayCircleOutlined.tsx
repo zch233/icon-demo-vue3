@@ -9,7 +9,7 @@ export interface PlayCircleOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const PlayCircleOutlined: PlayCircleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PlayCircleOutlinedSvg} />;
+const PlayCircleOutlined: PlayCircleOutlinedIconType = (props, context) => <Icon name='PlayCircleOutlined' {...{ ...props, ...context.attrs }} icon={PlayCircleOutlinedSvg} />;
 
 PlayCircleOutlined.displayName = 'PlayCircleOutlined';
 

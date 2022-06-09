@@ -9,7 +9,7 @@ export interface EnvironmentOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const EnvironmentOutlined: EnvironmentOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={EnvironmentOutlinedSvg} />;
+const EnvironmentOutlined: EnvironmentOutlinedIconType = (props, context) => <Icon name='EnvironmentOutlined' {...{ ...props, ...context.attrs }} icon={EnvironmentOutlinedSvg} />;
 
 EnvironmentOutlined.displayName = 'EnvironmentOutlined';
 

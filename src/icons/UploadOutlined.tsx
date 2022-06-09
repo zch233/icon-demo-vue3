@@ -9,7 +9,7 @@ export interface UploadOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const UploadOutlined: UploadOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={UploadOutlinedSvg} />;
+const UploadOutlined: UploadOutlinedIconType = (props, context) => <Icon name='UploadOutlined' {...{ ...props, ...context.attrs }} icon={UploadOutlinedSvg} />;
 
 UploadOutlined.displayName = 'UploadOutlined';
 

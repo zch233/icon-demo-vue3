@@ -9,7 +9,7 @@ export interface BehanceSquareOutlinedIconType extends FunctionalComponent<IconP
     displayName: string;
 }
 
-const BehanceSquareOutlined: BehanceSquareOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BehanceSquareOutlinedSvg} />;
+const BehanceSquareOutlined: BehanceSquareOutlinedIconType = (props, context) => <Icon name='BehanceSquareOutlined' {...{ ...props, ...context.attrs }} icon={BehanceSquareOutlinedSvg} />;
 
 BehanceSquareOutlined.displayName = 'BehanceSquareOutlined';
 

@@ -9,7 +9,7 @@ export interface FormatPainterOutlinedIconType extends FunctionalComponent<IconP
     displayName: string;
 }
 
-const FormatPainterOutlined: FormatPainterOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FormatPainterOutlinedSvg} />;
+const FormatPainterOutlined: FormatPainterOutlinedIconType = (props, context) => <Icon name='FormatPainterOutlined' {...{ ...props, ...context.attrs }} icon={FormatPainterOutlinedSvg} />;
 
 FormatPainterOutlined.displayName = 'FormatPainterOutlined';
 

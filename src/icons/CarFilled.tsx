@@ -9,7 +9,7 @@ export interface CarFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CarFilled: CarFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CarFilledSvg} />;
+const CarFilled: CarFilledIconType = (props, context) => <Icon name='CarFilled' {...{ ...props, ...context.attrs }} icon={CarFilledSvg} />;
 
 CarFilled.displayName = 'CarFilled';
 

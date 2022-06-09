@@ -9,7 +9,7 @@ export interface ReadOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ReadOutlined: ReadOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ReadOutlinedSvg} />;
+const ReadOutlined: ReadOutlinedIconType = (props, context) => <Icon name='ReadOutlined' {...{ ...props, ...context.attrs }} icon={ReadOutlinedSvg} />;
 
 ReadOutlined.displayName = 'ReadOutlined';
 

@@ -9,7 +9,7 @@ export interface PoundCircleTwoToneIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const PoundCircleTwoTone: PoundCircleTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PoundCircleTwoToneSvg} />;
+const PoundCircleTwoTone: PoundCircleTwoToneIconType = (props, context) => <Icon name='PoundCircleTwoTone' {...{ ...props, ...context.attrs }} icon={PoundCircleTwoToneSvg} />;
 
 PoundCircleTwoTone.displayName = 'PoundCircleTwoTone';
 

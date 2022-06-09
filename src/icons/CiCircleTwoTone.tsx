@@ -9,7 +9,7 @@ export interface CiCircleTwoToneIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const CiCircleTwoTone: CiCircleTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CiCircleTwoToneSvg} />;
+const CiCircleTwoTone: CiCircleTwoToneIconType = (props, context) => <Icon name='CiCircleTwoTone' {...{ ...props, ...context.attrs }} icon={CiCircleTwoToneSvg} />;
 
 CiCircleTwoTone.displayName = 'CiCircleTwoTone';
 

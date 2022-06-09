@@ -9,7 +9,7 @@ export interface BorderBottomOutlinedIconType extends FunctionalComponent<IconPr
     displayName: string;
 }
 
-const BorderBottomOutlined: BorderBottomOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BorderBottomOutlinedSvg} />;
+const BorderBottomOutlined: BorderBottomOutlinedIconType = (props, context) => <Icon name='BorderBottomOutlined' {...{ ...props, ...context.attrs }} icon={BorderBottomOutlinedSvg} />;
 
 BorderBottomOutlined.displayName = 'BorderBottomOutlined';
 

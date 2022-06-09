@@ -9,7 +9,7 @@ export interface StopFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const StopFilled: StopFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={StopFilledSvg} />;
+const StopFilled: StopFilledIconType = (props, context) => <Icon name='StopFilled' {...{ ...props, ...context.attrs }} icon={StopFilledSvg} />;
 
 StopFilled.displayName = 'StopFilled';
 

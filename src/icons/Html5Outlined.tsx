@@ -9,7 +9,7 @@ export interface Html5OutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const Html5Outlined: Html5OutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={Html5OutlinedSvg} />;
+const Html5Outlined: Html5OutlinedIconType = (props, context) => <Icon name='Html5Outlined' {...{ ...props, ...context.attrs }} icon={Html5OutlinedSvg} />;
 
 Html5Outlined.displayName = 'Html5Outlined';
 

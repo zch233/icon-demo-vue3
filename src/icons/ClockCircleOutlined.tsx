@@ -9,7 +9,7 @@ export interface ClockCircleOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const ClockCircleOutlined: ClockCircleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ClockCircleOutlinedSvg} />;
+const ClockCircleOutlined: ClockCircleOutlinedIconType = (props, context) => <Icon name='ClockCircleOutlined' {...{ ...props, ...context.attrs }} icon={ClockCircleOutlinedSvg} />;
 
 ClockCircleOutlined.displayName = 'ClockCircleOutlined';
 

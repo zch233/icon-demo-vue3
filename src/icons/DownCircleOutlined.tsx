@@ -9,7 +9,7 @@ export interface DownCircleOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const DownCircleOutlined: DownCircleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DownCircleOutlinedSvg} />;
+const DownCircleOutlined: DownCircleOutlinedIconType = (props, context) => <Icon name='DownCircleOutlined' {...{ ...props, ...context.attrs }} icon={DownCircleOutlinedSvg} />;
 
 DownCircleOutlined.displayName = 'DownCircleOutlined';
 

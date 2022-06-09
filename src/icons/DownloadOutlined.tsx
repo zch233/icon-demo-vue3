@@ -9,7 +9,7 @@ export interface DownloadOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const DownloadOutlined: DownloadOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DownloadOutlinedSvg} />;
+const DownloadOutlined: DownloadOutlinedIconType = (props, context) => <Icon name='DownloadOutlined' {...{ ...props, ...context.attrs }} icon={DownloadOutlinedSvg} />;
 
 DownloadOutlined.displayName = 'DownloadOutlined';
 

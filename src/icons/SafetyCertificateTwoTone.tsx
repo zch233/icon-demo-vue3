@@ -9,7 +9,7 @@ export interface SafetyCertificateTwoToneIconType extends FunctionalComponent<Ic
     displayName: string;
 }
 
-const SafetyCertificateTwoTone: SafetyCertificateTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SafetyCertificateTwoToneSvg} />;
+const SafetyCertificateTwoTone: SafetyCertificateTwoToneIconType = (props, context) => <Icon name='SafetyCertificateTwoTone' {...{ ...props, ...context.attrs }} icon={SafetyCertificateTwoToneSvg} />;
 
 SafetyCertificateTwoTone.displayName = 'SafetyCertificateTwoTone';
 

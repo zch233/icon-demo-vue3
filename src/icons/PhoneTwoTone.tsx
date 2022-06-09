@@ -9,7 +9,7 @@ export interface PhoneTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const PhoneTwoTone: PhoneTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PhoneTwoToneSvg} />;
+const PhoneTwoTone: PhoneTwoToneIconType = (props, context) => <Icon name='PhoneTwoTone' {...{ ...props, ...context.attrs }} icon={PhoneTwoToneSvg} />;
 
 PhoneTwoTone.displayName = 'PhoneTwoTone';
 

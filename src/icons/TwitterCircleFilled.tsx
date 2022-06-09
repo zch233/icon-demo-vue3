@@ -9,7 +9,7 @@ export interface TwitterCircleFilledIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const TwitterCircleFilled: TwitterCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TwitterCircleFilledSvg} />;
+const TwitterCircleFilled: TwitterCircleFilledIconType = (props, context) => <Icon name='TwitterCircleFilled' {...{ ...props, ...context.attrs }} icon={TwitterCircleFilledSvg} />;
 
 TwitterCircleFilled.displayName = 'TwitterCircleFilled';
 

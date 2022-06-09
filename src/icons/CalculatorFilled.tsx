@@ -9,7 +9,7 @@ export interface CalculatorFilledIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const CalculatorFilled: CalculatorFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CalculatorFilledSvg} />;
+const CalculatorFilled: CalculatorFilledIconType = (props, context) => <Icon name='CalculatorFilled' {...{ ...props, ...context.attrs }} icon={CalculatorFilledSvg} />;
 
 CalculatorFilled.displayName = 'CalculatorFilled';
 

@@ -9,7 +9,7 @@ export interface FileGifOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const FileGifOutlined: FileGifOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FileGifOutlinedSvg} />;
+const FileGifOutlined: FileGifOutlinedIconType = (props, context) => <Icon name='FileGifOutlined' {...{ ...props, ...context.attrs }} icon={FileGifOutlinedSvg} />;
 
 FileGifOutlined.displayName = 'FileGifOutlined';
 

@@ -9,7 +9,7 @@ export interface ExceptionOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const ExceptionOutlined: ExceptionOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ExceptionOutlinedSvg} />;
+const ExceptionOutlined: ExceptionOutlinedIconType = (props, context) => <Icon name='ExceptionOutlined' {...{ ...props, ...context.attrs }} icon={ExceptionOutlinedSvg} />;
 
 ExceptionOutlined.displayName = 'ExceptionOutlined';
 

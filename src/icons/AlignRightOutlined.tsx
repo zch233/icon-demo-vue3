@@ -9,7 +9,7 @@ export interface AlignRightOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const AlignRightOutlined: AlignRightOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AlignRightOutlinedSvg} />;
+const AlignRightOutlined: AlignRightOutlinedIconType = (props, context) => <Icon name='AlignRightOutlined' {...{ ...props, ...context.attrs }} icon={AlignRightOutlinedSvg} />;
 
 AlignRightOutlined.displayName = 'AlignRightOutlined';
 

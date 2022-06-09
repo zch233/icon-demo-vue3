@@ -9,7 +9,7 @@ export interface ClearOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ClearOutlined: ClearOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ClearOutlinedSvg} />;
+const ClearOutlined: ClearOutlinedIconType = (props, context) => <Icon name='ClearOutlined' {...{ ...props, ...context.attrs }} icon={ClearOutlinedSvg} />;
 
 ClearOutlined.displayName = 'ClearOutlined';
 

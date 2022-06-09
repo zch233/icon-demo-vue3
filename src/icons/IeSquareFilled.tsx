@@ -9,7 +9,7 @@ export interface IeSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IeSquareFilled: IeSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={IeSquareFilledSvg} />;
+const IeSquareFilled: IeSquareFilledIconType = (props, context) => <Icon name='IeSquareFilled' {...{ ...props, ...context.attrs }} icon={IeSquareFilledSvg} />;
 
 IeSquareFilled.displayName = 'IeSquareFilled';
 

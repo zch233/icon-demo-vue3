@@ -9,7 +9,7 @@ export interface CloseOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CloseOutlined: CloseOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CloseOutlinedSvg} />;
+const CloseOutlined: CloseOutlinedIconType = (props, context) => <Icon name='CloseOutlined' {...{ ...props, ...context.attrs }} icon={CloseOutlinedSvg} />;
 
 CloseOutlined.displayName = 'CloseOutlined';
 

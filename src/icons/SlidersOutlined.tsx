@@ -9,7 +9,7 @@ export interface SlidersOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const SlidersOutlined: SlidersOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SlidersOutlinedSvg} />;
+const SlidersOutlined: SlidersOutlinedIconType = (props, context) => <Icon name='SlidersOutlined' {...{ ...props, ...context.attrs }} icon={SlidersOutlinedSvg} />;
 
 SlidersOutlined.displayName = 'SlidersOutlined';
 

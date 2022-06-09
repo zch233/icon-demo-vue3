@@ -9,7 +9,7 @@ export interface ExclamationCircleTwoToneIconType extends FunctionalComponent<Ic
     displayName: string;
 }
 
-const ExclamationCircleTwoTone: ExclamationCircleTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ExclamationCircleTwoToneSvg} />;
+const ExclamationCircleTwoTone: ExclamationCircleTwoToneIconType = (props, context) => <Icon name='ExclamationCircleTwoTone' {...{ ...props, ...context.attrs }} icon={ExclamationCircleTwoToneSvg} />;
 
 ExclamationCircleTwoTone.displayName = 'ExclamationCircleTwoTone';
 

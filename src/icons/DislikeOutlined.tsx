@@ -9,7 +9,7 @@ export interface DislikeOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const DislikeOutlined: DislikeOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DislikeOutlinedSvg} />;
+const DislikeOutlined: DislikeOutlinedIconType = (props, context) => <Icon name='DislikeOutlined' {...{ ...props, ...context.attrs }} icon={DislikeOutlinedSvg} />;
 
 DislikeOutlined.displayName = 'DislikeOutlined';
 

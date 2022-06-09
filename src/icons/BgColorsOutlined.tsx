@@ -9,7 +9,7 @@ export interface BgColorsOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const BgColorsOutlined: BgColorsOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BgColorsOutlinedSvg} />;
+const BgColorsOutlined: BgColorsOutlinedIconType = (props, context) => <Icon name='BgColorsOutlined' {...{ ...props, ...context.attrs }} icon={BgColorsOutlinedSvg} />;
 
 BgColorsOutlined.displayName = 'BgColorsOutlined';
 

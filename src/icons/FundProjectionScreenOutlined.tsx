@@ -9,7 +9,7 @@ export interface FundProjectionScreenOutlinedIconType extends FunctionalComponen
     displayName: string;
 }
 
-const FundProjectionScreenOutlined: FundProjectionScreenOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FundProjectionScreenOutlinedSvg} />;
+const FundProjectionScreenOutlined: FundProjectionScreenOutlinedIconType = (props, context) => <Icon name='FundProjectionScreenOutlined' {...{ ...props, ...context.attrs }} icon={FundProjectionScreenOutlinedSvg} />;
 
 FundProjectionScreenOutlined.displayName = 'FundProjectionScreenOutlined';
 

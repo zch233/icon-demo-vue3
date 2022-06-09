@@ -9,7 +9,7 @@ export interface TagTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const TagTwoTone: TagTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TagTwoToneSvg} />;
+const TagTwoTone: TagTwoToneIconType = (props, context) => <Icon name='TagTwoTone' {...{ ...props, ...context.attrs }} icon={TagTwoToneSvg} />;
 
 TagTwoTone.displayName = 'TagTwoTone';
 

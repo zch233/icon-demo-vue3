@@ -9,7 +9,7 @@ export interface CodeSandboxOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const CodeSandboxOutlined: CodeSandboxOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CodeSandboxOutlinedSvg} />;
+const CodeSandboxOutlined: CodeSandboxOutlinedIconType = (props, context) => <Icon name='CodeSandboxOutlined' {...{ ...props, ...context.attrs }} icon={CodeSandboxOutlinedSvg} />;
 
 CodeSandboxOutlined.displayName = 'CodeSandboxOutlined';
 

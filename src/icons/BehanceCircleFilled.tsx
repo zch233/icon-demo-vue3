@@ -9,7 +9,7 @@ export interface BehanceCircleFilledIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const BehanceCircleFilled: BehanceCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BehanceCircleFilledSvg} />;
+const BehanceCircleFilled: BehanceCircleFilledIconType = (props, context) => <Icon name='BehanceCircleFilled' {...{ ...props, ...context.attrs }} icon={BehanceCircleFilledSvg} />;
 
 BehanceCircleFilled.displayName = 'BehanceCircleFilled';
 

@@ -9,7 +9,7 @@ export interface IeCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IeCircleFilled: IeCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={IeCircleFilledSvg} />;
+const IeCircleFilled: IeCircleFilledIconType = (props, context) => <Icon name='IeCircleFilled' {...{ ...props, ...context.attrs }} icon={IeCircleFilledSvg} />;
 
 IeCircleFilled.displayName = 'IeCircleFilled';
 

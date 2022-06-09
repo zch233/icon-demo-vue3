@@ -9,7 +9,7 @@ export interface IdcardTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IdcardTwoTone: IdcardTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={IdcardTwoToneSvg} />;
+const IdcardTwoTone: IdcardTwoToneIconType = (props, context) => <Icon name='IdcardTwoTone' {...{ ...props, ...context.attrs }} icon={IdcardTwoToneSvg} />;
 
 IdcardTwoTone.displayName = 'IdcardTwoTone';
 

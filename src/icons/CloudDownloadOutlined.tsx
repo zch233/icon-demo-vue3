@@ -9,7 +9,7 @@ export interface CloudDownloadOutlinedIconType extends FunctionalComponent<IconP
     displayName: string;
 }
 
-const CloudDownloadOutlined: CloudDownloadOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CloudDownloadOutlinedSvg} />;
+const CloudDownloadOutlined: CloudDownloadOutlinedIconType = (props, context) => <Icon name='CloudDownloadOutlined' {...{ ...props, ...context.attrs }} icon={CloudDownloadOutlinedSvg} />;
 
 CloudDownloadOutlined.displayName = 'CloudDownloadOutlined';
 

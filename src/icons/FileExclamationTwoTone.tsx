@@ -9,7 +9,7 @@ export interface FileExclamationTwoToneIconType extends FunctionalComponent<Icon
     displayName: string;
 }
 
-const FileExclamationTwoTone: FileExclamationTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FileExclamationTwoToneSvg} />;
+const FileExclamationTwoTone: FileExclamationTwoToneIconType = (props, context) => <Icon name='FileExclamationTwoTone' {...{ ...props, ...context.attrs }} icon={FileExclamationTwoToneSvg} />;
 
 FileExclamationTwoTone.displayName = 'FileExclamationTwoTone';
 

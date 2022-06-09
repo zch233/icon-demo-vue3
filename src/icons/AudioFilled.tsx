@@ -9,7 +9,7 @@ export interface AudioFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const AudioFilled: AudioFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AudioFilledSvg} />;
+const AudioFilled: AudioFilledIconType = (props, context) => <Icon name='AudioFilled' {...{ ...props, ...context.attrs }} icon={AudioFilledSvg} />;
 
 AudioFilled.displayName = 'AudioFilled';
 

@@ -9,7 +9,7 @@ export interface InstagramOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const InstagramOutlined: InstagramOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={InstagramOutlinedSvg} />;
+const InstagramOutlined: InstagramOutlinedIconType = (props, context) => <Icon name='InstagramOutlined' {...{ ...props, ...context.attrs }} icon={InstagramOutlinedSvg} />;
 
 InstagramOutlined.displayName = 'InstagramOutlined';
 

@@ -9,7 +9,7 @@ export interface InsertRowAboveOutlinedIconType extends FunctionalComponent<Icon
     displayName: string;
 }
 
-const InsertRowAboveOutlined: InsertRowAboveOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={InsertRowAboveOutlinedSvg} />;
+const InsertRowAboveOutlined: InsertRowAboveOutlinedIconType = (props, context) => <Icon name='InsertRowAboveOutlined' {...{ ...props, ...context.attrs }} icon={InsertRowAboveOutlinedSvg} />;
 
 InsertRowAboveOutlined.displayName = 'InsertRowAboveOutlined';
 

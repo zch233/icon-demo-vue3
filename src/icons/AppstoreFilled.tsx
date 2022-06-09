@@ -9,7 +9,7 @@ export interface AppstoreFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const AppstoreFilled: AppstoreFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AppstoreFilledSvg} />;
+const AppstoreFilled: AppstoreFilledIconType = (props, context) => <Icon name='AppstoreFilled' {...{ ...props, ...context.attrs }} icon={AppstoreFilledSvg} />;
 
 AppstoreFilled.displayName = 'AppstoreFilled';
 

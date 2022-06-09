@@ -9,7 +9,7 @@ export interface FacebookOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const FacebookOutlined: FacebookOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FacebookOutlinedSvg} />;
+const FacebookOutlined: FacebookOutlinedIconType = (props, context) => <Icon name='FacebookOutlined' {...{ ...props, ...context.attrs }} icon={FacebookOutlinedSvg} />;
 
 FacebookOutlined.displayName = 'FacebookOutlined';
 

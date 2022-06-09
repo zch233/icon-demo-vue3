@@ -9,7 +9,7 @@ export interface FileMarkdownOutlinedIconType extends FunctionalComponent<IconPr
     displayName: string;
 }
 
-const FileMarkdownOutlined: FileMarkdownOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FileMarkdownOutlinedSvg} />;
+const FileMarkdownOutlined: FileMarkdownOutlinedIconType = (props, context) => <Icon name='FileMarkdownOutlined' {...{ ...props, ...context.attrs }} icon={FileMarkdownOutlinedSvg} />;
 
 FileMarkdownOutlined.displayName = 'FileMarkdownOutlined';
 

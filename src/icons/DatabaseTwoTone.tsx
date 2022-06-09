@@ -9,7 +9,7 @@ export interface DatabaseTwoToneIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const DatabaseTwoTone: DatabaseTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DatabaseTwoToneSvg} />;
+const DatabaseTwoTone: DatabaseTwoToneIconType = (props, context) => <Icon name='DatabaseTwoTone' {...{ ...props, ...context.attrs }} icon={DatabaseTwoToneSvg} />;
 
 DatabaseTwoTone.displayName = 'DatabaseTwoTone';
 

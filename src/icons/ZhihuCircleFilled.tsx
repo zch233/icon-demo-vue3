@@ -9,7 +9,7 @@ export interface ZhihuCircleFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const ZhihuCircleFilled: ZhihuCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ZhihuCircleFilledSvg} />;
+const ZhihuCircleFilled: ZhihuCircleFilledIconType = (props, context) => <Icon name='ZhihuCircleFilled' {...{ ...props, ...context.attrs }} icon={ZhihuCircleFilledSvg} />;
 
 ZhihuCircleFilled.displayName = 'ZhihuCircleFilled';
 

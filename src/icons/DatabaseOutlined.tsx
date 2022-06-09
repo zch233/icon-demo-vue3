@@ -9,7 +9,7 @@ export interface DatabaseOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const DatabaseOutlined: DatabaseOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DatabaseOutlinedSvg} />;
+const DatabaseOutlined: DatabaseOutlinedIconType = (props, context) => <Icon name='DatabaseOutlined' {...{ ...props, ...context.attrs }} icon={DatabaseOutlinedSvg} />;
 
 DatabaseOutlined.displayName = 'DatabaseOutlined';
 

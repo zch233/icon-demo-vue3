@@ -9,7 +9,7 @@ export interface CreditCardTwoToneIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const CreditCardTwoTone: CreditCardTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CreditCardTwoToneSvg} />;
+const CreditCardTwoTone: CreditCardTwoToneIconType = (props, context) => <Icon name='CreditCardTwoTone' {...{ ...props, ...context.attrs }} icon={CreditCardTwoToneSvg} />;
 
 CreditCardTwoTone.displayName = 'CreditCardTwoTone';
 

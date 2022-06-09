@@ -9,7 +9,7 @@ export interface DeliveredProcedureOutlinedIconType extends FunctionalComponent<
     displayName: string;
 }
 
-const DeliveredProcedureOutlined: DeliveredProcedureOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DeliveredProcedureOutlinedSvg} />;
+const DeliveredProcedureOutlined: DeliveredProcedureOutlinedIconType = (props, context) => <Icon name='DeliveredProcedureOutlined' {...{ ...props, ...context.attrs }} icon={DeliveredProcedureOutlinedSvg} />;
 
 DeliveredProcedureOutlined.displayName = 'DeliveredProcedureOutlined';
 

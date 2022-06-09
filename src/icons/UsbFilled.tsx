@@ -9,7 +9,7 @@ export interface UsbFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const UsbFilled: UsbFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={UsbFilledSvg} />;
+const UsbFilled: UsbFilledIconType = (props, context) => <Icon name='UsbFilled' {...{ ...props, ...context.attrs }} icon={UsbFilledSvg} />;
 
 UsbFilled.displayName = 'UsbFilled';
 

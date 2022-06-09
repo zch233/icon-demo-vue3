@@ -9,7 +9,7 @@ export interface BorderlessTableOutlinedIconType extends FunctionalComponent<Ico
     displayName: string;
 }
 
-const BorderlessTableOutlined: BorderlessTableOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BorderlessTableOutlinedSvg} />;
+const BorderlessTableOutlined: BorderlessTableOutlinedIconType = (props, context) => <Icon name='BorderlessTableOutlined' {...{ ...props, ...context.attrs }} icon={BorderlessTableOutlinedSvg} />;
 
 BorderlessTableOutlined.displayName = 'BorderlessTableOutlined';
 

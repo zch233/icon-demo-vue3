@@ -9,7 +9,7 @@ export interface AppstoreTwoToneIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const AppstoreTwoTone: AppstoreTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AppstoreTwoToneSvg} />;
+const AppstoreTwoTone: AppstoreTwoToneIconType = (props, context) => <Icon name='AppstoreTwoTone' {...{ ...props, ...context.attrs }} icon={AppstoreTwoToneSvg} />;
 
 AppstoreTwoTone.displayName = 'AppstoreTwoTone';
 

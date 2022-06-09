@@ -9,7 +9,7 @@ export interface FileExclamationFilledIconType extends FunctionalComponent<IconP
     displayName: string;
 }
 
-const FileExclamationFilled: FileExclamationFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FileExclamationFilledSvg} />;
+const FileExclamationFilled: FileExclamationFilledIconType = (props, context) => <Icon name='FileExclamationFilled' {...{ ...props, ...context.attrs }} icon={FileExclamationFilledSvg} />;
 
 FileExclamationFilled.displayName = 'FileExclamationFilled';
 

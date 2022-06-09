@@ -9,7 +9,7 @@ export interface OrderedListOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const OrderedListOutlined: OrderedListOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={OrderedListOutlinedSvg} />;
+const OrderedListOutlined: OrderedListOutlinedIconType = (props, context) => <Icon name='OrderedListOutlined' {...{ ...props, ...context.attrs }} icon={OrderedListOutlinedSvg} />;
 
 OrderedListOutlined.displayName = 'OrderedListOutlined';
 

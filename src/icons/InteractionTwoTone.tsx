@@ -9,7 +9,7 @@ export interface InteractionTwoToneIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const InteractionTwoTone: InteractionTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={InteractionTwoToneSvg} />;
+const InteractionTwoTone: InteractionTwoToneIconType = (props, context) => <Icon name='InteractionTwoTone' {...{ ...props, ...context.attrs }} icon={InteractionTwoToneSvg} />;
 
 InteractionTwoTone.displayName = 'InteractionTwoTone';
 

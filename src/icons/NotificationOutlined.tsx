@@ -9,7 +9,7 @@ export interface NotificationOutlinedIconType extends FunctionalComponent<IconPr
     displayName: string;
 }
 
-const NotificationOutlined: NotificationOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={NotificationOutlinedSvg} />;
+const NotificationOutlined: NotificationOutlinedIconType = (props, context) => <Icon name='NotificationOutlined' {...{ ...props, ...context.attrs }} icon={NotificationOutlinedSvg} />;
 
 NotificationOutlined.displayName = 'NotificationOutlined';
 

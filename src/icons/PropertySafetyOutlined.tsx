@@ -9,7 +9,7 @@ export interface PropertySafetyOutlinedIconType extends FunctionalComponent<Icon
     displayName: string;
 }
 
-const PropertySafetyOutlined: PropertySafetyOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PropertySafetyOutlinedSvg} />;
+const PropertySafetyOutlined: PropertySafetyOutlinedIconType = (props, context) => <Icon name='PropertySafetyOutlined' {...{ ...props, ...context.attrs }} icon={PropertySafetyOutlinedSvg} />;
 
 PropertySafetyOutlined.displayName = 'PropertySafetyOutlined';
 

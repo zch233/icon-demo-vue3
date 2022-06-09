@@ -9,7 +9,7 @@ export interface FormatPainterFilledIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const FormatPainterFilled: FormatPainterFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FormatPainterFilledSvg} />;
+const FormatPainterFilled: FormatPainterFilledIconType = (props, context) => <Icon name='FormatPainterFilled' {...{ ...props, ...context.attrs }} icon={FormatPainterFilledSvg} />;
 
 FormatPainterFilled.displayName = 'FormatPainterFilled';
 

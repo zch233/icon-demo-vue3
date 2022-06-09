@@ -9,7 +9,7 @@ export interface DownSquareFilledIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const DownSquareFilled: DownSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DownSquareFilledSvg} />;
+const DownSquareFilled: DownSquareFilledIconType = (props, context) => <Icon name='DownSquareFilled' {...{ ...props, ...context.attrs }} icon={DownSquareFilledSvg} />;
 
 DownSquareFilled.displayName = 'DownSquareFilled';
 

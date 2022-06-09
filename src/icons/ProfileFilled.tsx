@@ -9,7 +9,7 @@ export interface ProfileFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ProfileFilled: ProfileFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ProfileFilledSvg} />;
+const ProfileFilled: ProfileFilledIconType = (props, context) => <Icon name='ProfileFilled' {...{ ...props, ...context.attrs }} icon={ProfileFilledSvg} />;
 
 ProfileFilled.displayName = 'ProfileFilled';
 

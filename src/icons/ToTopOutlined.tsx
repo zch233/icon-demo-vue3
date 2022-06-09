@@ -9,7 +9,7 @@ export interface ToTopOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ToTopOutlined: ToTopOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ToTopOutlinedSvg} />;
+const ToTopOutlined: ToTopOutlinedIconType = (props, context) => <Icon name='ToTopOutlined' {...{ ...props, ...context.attrs }} icon={ToTopOutlinedSvg} />;
 
 ToTopOutlined.displayName = 'ToTopOutlined';
 

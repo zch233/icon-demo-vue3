@@ -9,7 +9,7 @@ export interface VerticalAlignMiddleOutlinedIconType extends FunctionalComponent
     displayName: string;
 }
 
-const VerticalAlignMiddleOutlined: VerticalAlignMiddleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={VerticalAlignMiddleOutlinedSvg} />;
+const VerticalAlignMiddleOutlined: VerticalAlignMiddleOutlinedIconType = (props, context) => <Icon name='VerticalAlignMiddleOutlined' {...{ ...props, ...context.attrs }} icon={VerticalAlignMiddleOutlinedSvg} />;
 
 VerticalAlignMiddleOutlined.displayName = 'VerticalAlignMiddleOutlined';
 

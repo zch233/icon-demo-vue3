@@ -9,7 +9,7 @@ export interface NotificationFilledIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const NotificationFilled: NotificationFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={NotificationFilledSvg} />;
+const NotificationFilled: NotificationFilledIconType = (props, context) => <Icon name='NotificationFilled' {...{ ...props, ...context.attrs }} icon={NotificationFilledSvg} />;
 
 NotificationFilled.displayName = 'NotificationFilled';
 

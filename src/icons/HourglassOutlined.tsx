@@ -9,7 +9,7 @@ export interface HourglassOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const HourglassOutlined: HourglassOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={HourglassOutlinedSvg} />;
+const HourglassOutlined: HourglassOutlinedIconType = (props, context) => <Icon name='HourglassOutlined' {...{ ...props, ...context.attrs }} icon={HourglassOutlinedSvg} />;
 
 HourglassOutlined.displayName = 'HourglassOutlined';
 

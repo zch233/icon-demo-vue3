@@ -9,7 +9,7 @@ export interface EyeInvisibleOutlinedIconType extends FunctionalComponent<IconPr
     displayName: string;
 }
 
-const EyeInvisibleOutlined: EyeInvisibleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={EyeInvisibleOutlinedSvg} />;
+const EyeInvisibleOutlined: EyeInvisibleOutlinedIconType = (props, context) => <Icon name='EyeInvisibleOutlined' {...{ ...props, ...context.attrs }} icon={EyeInvisibleOutlinedSvg} />;
 
 EyeInvisibleOutlined.displayName = 'EyeInvisibleOutlined';
 

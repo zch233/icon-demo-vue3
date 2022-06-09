@@ -9,7 +9,7 @@ export interface FilePptTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const FilePptTwoTone: FilePptTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FilePptTwoToneSvg} />;
+const FilePptTwoTone: FilePptTwoToneIconType = (props, context) => <Icon name='FilePptTwoTone' {...{ ...props, ...context.attrs }} icon={FilePptTwoToneSvg} />;
 
 FilePptTwoTone.displayName = 'FilePptTwoTone';
 

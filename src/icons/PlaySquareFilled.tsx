@@ -9,7 +9,7 @@ export interface PlaySquareFilledIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const PlaySquareFilled: PlaySquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PlaySquareFilledSvg} />;
+const PlaySquareFilled: PlaySquareFilledIconType = (props, context) => <Icon name='PlaySquareFilled' {...{ ...props, ...context.attrs }} icon={PlaySquareFilledSvg} />;
 
 PlaySquareFilled.displayName = 'PlaySquareFilled';
 

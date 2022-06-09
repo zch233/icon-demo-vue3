@@ -9,7 +9,7 @@ export interface CarryOutTwoToneIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const CarryOutTwoTone: CarryOutTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CarryOutTwoToneSvg} />;
+const CarryOutTwoTone: CarryOutTwoToneIconType = (props, context) => <Icon name='CarryOutTwoTone' {...{ ...props, ...context.attrs }} icon={CarryOutTwoToneSvg} />;
 
 CarryOutTwoTone.displayName = 'CarryOutTwoTone';
 

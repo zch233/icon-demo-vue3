@@ -9,7 +9,7 @@ export interface LeftSquareTwoToneIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const LeftSquareTwoTone: LeftSquareTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={LeftSquareTwoToneSvg} />;
+const LeftSquareTwoTone: LeftSquareTwoToneIconType = (props, context) => <Icon name='LeftSquareTwoTone' {...{ ...props, ...context.attrs }} icon={LeftSquareTwoToneSvg} />;
 
 LeftSquareTwoTone.displayName = 'LeftSquareTwoTone';
 

@@ -9,7 +9,7 @@ export interface StrikethroughOutlinedIconType extends FunctionalComponent<IconP
     displayName: string;
 }
 
-const StrikethroughOutlined: StrikethroughOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={StrikethroughOutlinedSvg} />;
+const StrikethroughOutlined: StrikethroughOutlinedIconType = (props, context) => <Icon name='StrikethroughOutlined' {...{ ...props, ...context.attrs }} icon={StrikethroughOutlinedSvg} />;
 
 StrikethroughOutlined.displayName = 'StrikethroughOutlined';
 

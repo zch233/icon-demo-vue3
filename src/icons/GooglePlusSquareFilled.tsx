@@ -9,7 +9,7 @@ export interface GooglePlusSquareFilledIconType extends FunctionalComponent<Icon
     displayName: string;
 }
 
-const GooglePlusSquareFilled: GooglePlusSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GooglePlusSquareFilledSvg} />;
+const GooglePlusSquareFilled: GooglePlusSquareFilledIconType = (props, context) => <Icon name='GooglePlusSquareFilled' {...{ ...props, ...context.attrs }} icon={GooglePlusSquareFilledSvg} />;
 
 GooglePlusSquareFilled.displayName = 'GooglePlusSquareFilled';
 

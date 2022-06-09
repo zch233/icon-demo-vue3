@@ -9,7 +9,7 @@ export interface CalendarOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const CalendarOutlined: CalendarOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CalendarOutlinedSvg} />;
+const CalendarOutlined: CalendarOutlinedIconType = (props, context) => <Icon name='CalendarOutlined' {...{ ...props, ...context.attrs }} icon={CalendarOutlinedSvg} />;
 
 CalendarOutlined.displayName = 'CalendarOutlined';
 

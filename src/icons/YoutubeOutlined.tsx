@@ -9,7 +9,7 @@ export interface YoutubeOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const YoutubeOutlined: YoutubeOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={YoutubeOutlinedSvg} />;
+const YoutubeOutlined: YoutubeOutlinedIconType = (props, context) => <Icon name='YoutubeOutlined' {...{ ...props, ...context.attrs }} icon={YoutubeOutlinedSvg} />;
 
 YoutubeOutlined.displayName = 'YoutubeOutlined';
 

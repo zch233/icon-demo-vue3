@@ -9,7 +9,7 @@ export interface CreditCardOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const CreditCardOutlined: CreditCardOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CreditCardOutlinedSvg} />;
+const CreditCardOutlined: CreditCardOutlinedIconType = (props, context) => <Icon name='CreditCardOutlined' {...{ ...props, ...context.attrs }} icon={CreditCardOutlinedSvg} />;
 
 CreditCardOutlined.displayName = 'CreditCardOutlined';
 

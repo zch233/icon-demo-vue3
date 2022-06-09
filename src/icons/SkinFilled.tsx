@@ -9,7 +9,7 @@ export interface SkinFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const SkinFilled: SkinFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SkinFilledSvg} />;
+const SkinFilled: SkinFilledIconType = (props, context) => <Icon name='SkinFilled' {...{ ...props, ...context.attrs }} icon={SkinFilledSvg} />;
 
 SkinFilled.displayName = 'SkinFilled';
 

@@ -9,7 +9,7 @@ export interface AntDesignOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const AntDesignOutlined: AntDesignOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AntDesignOutlinedSvg} />;
+const AntDesignOutlined: AntDesignOutlinedIconType = (props, context) => <Icon name='AntDesignOutlined' {...{ ...props, ...context.attrs }} icon={AntDesignOutlinedSvg} />;
 
 AntDesignOutlined.displayName = 'AntDesignOutlined';
 

@@ -9,7 +9,7 @@ export interface RadarChartOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const RadarChartOutlined: RadarChartOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RadarChartOutlinedSvg} />;
+const RadarChartOutlined: RadarChartOutlinedIconType = (props, context) => <Icon name='RadarChartOutlined' {...{ ...props, ...context.attrs }} icon={RadarChartOutlinedSvg} />;
 
 RadarChartOutlined.displayName = 'RadarChartOutlined';
 

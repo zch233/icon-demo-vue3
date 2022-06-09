@@ -9,7 +9,7 @@ export interface AliyunOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const AliyunOutlined: AliyunOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AliyunOutlinedSvg} />;
+const AliyunOutlined: AliyunOutlinedIconType = (props, context) => <Icon name='AliyunOutlined' {...{ ...props, ...context.attrs }} icon={AliyunOutlinedSvg} />;
 
 AliyunOutlined.displayName = 'AliyunOutlined';
 

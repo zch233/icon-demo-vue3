@@ -9,7 +9,7 @@ export interface MergeCellsOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const MergeCellsOutlined: MergeCellsOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MergeCellsOutlinedSvg} />;
+const MergeCellsOutlined: MergeCellsOutlinedIconType = (props, context) => <Icon name='MergeCellsOutlined' {...{ ...props, ...context.attrs }} icon={MergeCellsOutlinedSvg} />;
 
 MergeCellsOutlined.displayName = 'MergeCellsOutlined';
 

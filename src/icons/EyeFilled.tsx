@@ -9,7 +9,7 @@ export interface EyeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const EyeFilled: EyeFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={EyeFilledSvg} />;
+const EyeFilled: EyeFilledIconType = (props, context) => <Icon name='EyeFilled' {...{ ...props, ...context.attrs }} icon={EyeFilledSvg} />;
 
 EyeFilled.displayName = 'EyeFilled';
 

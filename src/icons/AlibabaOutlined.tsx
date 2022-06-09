@@ -9,7 +9,7 @@ export interface AlibabaOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const AlibabaOutlined: AlibabaOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AlibabaOutlinedSvg} />;
+const AlibabaOutlined: AlibabaOutlinedIconType = (props, context) => <Icon name='AlibabaOutlined' {...{ ...props, ...context.attrs }} icon={AlibabaOutlinedSvg} />;
 
 AlibabaOutlined.displayName = 'AlibabaOutlined';
 

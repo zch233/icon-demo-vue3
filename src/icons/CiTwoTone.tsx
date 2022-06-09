@@ -9,7 +9,7 @@ export interface CiTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CiTwoTone: CiTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CiTwoToneSvg} />;
+const CiTwoTone: CiTwoToneIconType = (props, context) => <Icon name='CiTwoTone' {...{ ...props, ...context.attrs }} icon={CiTwoToneSvg} />;
 
 CiTwoTone.displayName = 'CiTwoTone';
 

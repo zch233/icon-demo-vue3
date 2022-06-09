@@ -9,7 +9,7 @@ export interface NumberOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const NumberOutlined: NumberOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={NumberOutlinedSvg} />;
+const NumberOutlined: NumberOutlinedIconType = (props, context) => <Icon name='NumberOutlined' {...{ ...props, ...context.attrs }} icon={NumberOutlinedSvg} />;
 
 NumberOutlined.displayName = 'NumberOutlined';
 

@@ -9,7 +9,7 @@ export interface CompassOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const CompassOutlined: CompassOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CompassOutlinedSvg} />;
+const CompassOutlined: CompassOutlinedIconType = (props, context) => <Icon name='CompassOutlined' {...{ ...props, ...context.attrs }} icon={CompassOutlinedSvg} />;
 
 CompassOutlined.displayName = 'CompassOutlined';
 

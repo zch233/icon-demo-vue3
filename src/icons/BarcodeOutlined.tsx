@@ -9,7 +9,7 @@ export interface BarcodeOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const BarcodeOutlined: BarcodeOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BarcodeOutlinedSvg} />;
+const BarcodeOutlined: BarcodeOutlinedIconType = (props, context) => <Icon name='BarcodeOutlined' {...{ ...props, ...context.attrs }} icon={BarcodeOutlinedSvg} />;
 
 BarcodeOutlined.displayName = 'BarcodeOutlined';
 

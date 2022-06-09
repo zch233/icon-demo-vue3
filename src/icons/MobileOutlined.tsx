@@ -9,7 +9,7 @@ export interface MobileOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const MobileOutlined: MobileOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MobileOutlinedSvg} />;
+const MobileOutlined: MobileOutlinedIconType = (props, context) => <Icon name='MobileOutlined' {...{ ...props, ...context.attrs }} icon={MobileOutlinedSvg} />;
 
 MobileOutlined.displayName = 'MobileOutlined';
 

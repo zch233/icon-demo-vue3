@@ -9,7 +9,7 @@ export interface OneToOneOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const OneToOneOutlined: OneToOneOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={OneToOneOutlinedSvg} />;
+const OneToOneOutlined: OneToOneOutlinedIconType = (props, context) => <Icon name='OneToOneOutlined' {...{ ...props, ...context.attrs }} icon={OneToOneOutlinedSvg} />;
 
 OneToOneOutlined.displayName = 'OneToOneOutlined';
 

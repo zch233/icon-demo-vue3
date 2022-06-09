@@ -9,7 +9,7 @@ export interface FullscreenOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const FullscreenOutlined: FullscreenOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FullscreenOutlinedSvg} />;
+const FullscreenOutlined: FullscreenOutlinedIconType = (props, context) => <Icon name='FullscreenOutlined' {...{ ...props, ...context.attrs }} icon={FullscreenOutlinedSvg} />;
 
 FullscreenOutlined.displayName = 'FullscreenOutlined';
 

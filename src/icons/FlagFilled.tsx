@@ -9,7 +9,7 @@ export interface FlagFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const FlagFilled: FlagFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FlagFilledSvg} />;
+const FlagFilled: FlagFilledIconType = (props, context) => <Icon name='FlagFilled' {...{ ...props, ...context.attrs }} icon={FlagFilledSvg} />;
 
 FlagFilled.displayName = 'FlagFilled';
 

@@ -9,7 +9,7 @@ export interface CalendarTwoToneIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const CalendarTwoTone: CalendarTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CalendarTwoToneSvg} />;
+const CalendarTwoTone: CalendarTwoToneIconType = (props, context) => <Icon name='CalendarTwoTone' {...{ ...props, ...context.attrs }} icon={CalendarTwoToneSvg} />;
 
 CalendarTwoTone.displayName = 'CalendarTwoTone';
 

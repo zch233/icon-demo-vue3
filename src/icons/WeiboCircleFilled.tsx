@@ -9,7 +9,7 @@ export interface WeiboCircleFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const WeiboCircleFilled: WeiboCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={WeiboCircleFilledSvg} />;
+const WeiboCircleFilled: WeiboCircleFilledIconType = (props, context) => <Icon name='WeiboCircleFilled' {...{ ...props, ...context.attrs }} icon={WeiboCircleFilledSvg} />;
 
 WeiboCircleFilled.displayName = 'WeiboCircleFilled';
 

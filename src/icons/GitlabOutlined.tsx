@@ -9,7 +9,7 @@ export interface GitlabOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const GitlabOutlined: GitlabOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GitlabOutlinedSvg} />;
+const GitlabOutlined: GitlabOutlinedIconType = (props, context) => <Icon name='GitlabOutlined' {...{ ...props, ...context.attrs }} icon={GitlabOutlinedSvg} />;
 
 GitlabOutlined.displayName = 'GitlabOutlined';
 

@@ -9,7 +9,7 @@ export interface RedEnvelopeTwoToneIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const RedEnvelopeTwoTone: RedEnvelopeTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RedEnvelopeTwoToneSvg} />;
+const RedEnvelopeTwoTone: RedEnvelopeTwoToneIconType = (props, context) => <Icon name='RedEnvelopeTwoTone' {...{ ...props, ...context.attrs }} icon={RedEnvelopeTwoToneSvg} />;
 
 RedEnvelopeTwoTone.displayName = 'RedEnvelopeTwoTone';
 

@@ -9,7 +9,7 @@ export interface BranchesOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const BranchesOutlined: BranchesOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BranchesOutlinedSvg} />;
+const BranchesOutlined: BranchesOutlinedIconType = (props, context) => <Icon name='BranchesOutlined' {...{ ...props, ...context.attrs }} icon={BranchesOutlinedSvg} />;
 
 BranchesOutlined.displayName = 'BranchesOutlined';
 

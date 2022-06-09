@@ -9,7 +9,7 @@ export interface WhatsAppOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const WhatsAppOutlined: WhatsAppOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={WhatsAppOutlinedSvg} />;
+const WhatsAppOutlined: WhatsAppOutlinedIconType = (props, context) => <Icon name='WhatsAppOutlined' {...{ ...props, ...context.attrs }} icon={WhatsAppOutlinedSvg} />;
 
 WhatsAppOutlined.displayName = 'WhatsAppOutlined';
 

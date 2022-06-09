@@ -9,7 +9,7 @@ export interface FastBackwardOutlinedIconType extends FunctionalComponent<IconPr
     displayName: string;
 }
 
-const FastBackwardOutlined: FastBackwardOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FastBackwardOutlinedSvg} />;
+const FastBackwardOutlined: FastBackwardOutlinedIconType = (props, context) => <Icon name='FastBackwardOutlined' {...{ ...props, ...context.attrs }} icon={FastBackwardOutlinedSvg} />;
 
 FastBackwardOutlined.displayName = 'FastBackwardOutlined';
 

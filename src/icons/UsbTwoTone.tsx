@@ -9,7 +9,7 @@ export interface UsbTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const UsbTwoTone: UsbTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={UsbTwoToneSvg} />;
+const UsbTwoTone: UsbTwoToneIconType = (props, context) => <Icon name='UsbTwoTone' {...{ ...props, ...context.attrs }} icon={UsbTwoToneSvg} />;
 
 UsbTwoTone.displayName = 'UsbTwoTone';
 

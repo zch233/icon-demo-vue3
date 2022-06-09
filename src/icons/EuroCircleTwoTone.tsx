@@ -9,7 +9,7 @@ export interface EuroCircleTwoToneIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const EuroCircleTwoTone: EuroCircleTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={EuroCircleTwoToneSvg} />;
+const EuroCircleTwoTone: EuroCircleTwoToneIconType = (props, context) => <Icon name='EuroCircleTwoTone' {...{ ...props, ...context.attrs }} icon={EuroCircleTwoToneSvg} />;
 
 EuroCircleTwoTone.displayName = 'EuroCircleTwoTone';
 

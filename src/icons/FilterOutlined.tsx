@@ -9,7 +9,7 @@ export interface FilterOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const FilterOutlined: FilterOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FilterOutlinedSvg} />;
+const FilterOutlined: FilterOutlinedIconType = (props, context) => <Icon name='FilterOutlined' {...{ ...props, ...context.attrs }} icon={FilterOutlinedSvg} />;
 
 FilterOutlined.displayName = 'FilterOutlined';
 

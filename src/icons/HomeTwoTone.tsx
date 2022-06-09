@@ -9,7 +9,7 @@ export interface HomeTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const HomeTwoTone: HomeTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={HomeTwoToneSvg} />;
+const HomeTwoTone: HomeTwoToneIconType = (props, context) => <Icon name='HomeTwoTone' {...{ ...props, ...context.attrs }} icon={HomeTwoToneSvg} />;
 
 HomeTwoTone.displayName = 'HomeTwoTone';
 

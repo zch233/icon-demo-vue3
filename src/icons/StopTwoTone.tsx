@@ -9,7 +9,7 @@ export interface StopTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const StopTwoTone: StopTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={StopTwoToneSvg} />;
+const StopTwoTone: StopTwoToneIconType = (props, context) => <Icon name='StopTwoTone' {...{ ...props, ...context.attrs }} icon={StopTwoToneSvg} />;
 
 StopTwoTone.displayName = 'StopTwoTone';
 

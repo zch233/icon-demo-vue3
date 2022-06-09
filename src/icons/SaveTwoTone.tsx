@@ -9,7 +9,7 @@ export interface SaveTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const SaveTwoTone: SaveTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SaveTwoToneSvg} />;
+const SaveTwoTone: SaveTwoToneIconType = (props, context) => <Icon name='SaveTwoTone' {...{ ...props, ...context.attrs }} icon={SaveTwoToneSvg} />;
 
 SaveTwoTone.displayName = 'SaveTwoTone';
 

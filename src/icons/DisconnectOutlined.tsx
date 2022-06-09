@@ -9,7 +9,7 @@ export interface DisconnectOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const DisconnectOutlined: DisconnectOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DisconnectOutlinedSvg} />;
+const DisconnectOutlined: DisconnectOutlinedIconType = (props, context) => <Icon name='DisconnectOutlined' {...{ ...props, ...context.attrs }} icon={DisconnectOutlinedSvg} />;
 
 DisconnectOutlined.displayName = 'DisconnectOutlined';
 

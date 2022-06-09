@@ -9,7 +9,7 @@ export interface FullscreenExitOutlinedIconType extends FunctionalComponent<Icon
     displayName: string;
 }
 
-const FullscreenExitOutlined: FullscreenExitOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FullscreenExitOutlinedSvg} />;
+const FullscreenExitOutlined: FullscreenExitOutlinedIconType = (props, context) => <Icon name='FullscreenExitOutlined' {...{ ...props, ...context.attrs }} icon={FullscreenExitOutlinedSvg} />;
 
 FullscreenExitOutlined.displayName = 'FullscreenExitOutlined';
 

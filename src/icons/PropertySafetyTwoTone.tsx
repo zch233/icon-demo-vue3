@@ -9,7 +9,7 @@ export interface PropertySafetyTwoToneIconType extends FunctionalComponent<IconP
     displayName: string;
 }
 
-const PropertySafetyTwoTone: PropertySafetyTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PropertySafetyTwoToneSvg} />;
+const PropertySafetyTwoTone: PropertySafetyTwoToneIconType = (props, context) => <Icon name='PropertySafetyTwoTone' {...{ ...props, ...context.attrs }} icon={PropertySafetyTwoToneSvg} />;
 
 PropertySafetyTwoTone.displayName = 'PropertySafetyTwoTone';
 

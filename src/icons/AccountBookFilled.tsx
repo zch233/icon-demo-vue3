@@ -9,7 +9,7 @@ export interface AccountBookFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const AccountBookFilled: AccountBookFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AccountBookFilledSvg} />;
+const AccountBookFilled: AccountBookFilledIconType = (props, context) => <Icon name='AccountBookFilled' {...{ ...props, ...context.attrs }} icon={AccountBookFilledSvg} />;
 
 AccountBookFilled.displayName = 'AccountBookFilled';
 

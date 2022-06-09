@@ -9,7 +9,7 @@ export interface CarryOutFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CarryOutFilled: CarryOutFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CarryOutFilledSvg} />;
+const CarryOutFilled: CarryOutFilledIconType = (props, context) => <Icon name='CarryOutFilled' {...{ ...props, ...context.attrs }} icon={CarryOutFilledSvg} />;
 
 CarryOutFilled.displayName = 'CarryOutFilled';
 

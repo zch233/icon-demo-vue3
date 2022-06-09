@@ -9,7 +9,7 @@ export interface GithubFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const GithubFilled: GithubFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GithubFilledSvg} />;
+const GithubFilled: GithubFilledIconType = (props, context) => <Icon name='GithubFilled' {...{ ...props, ...context.attrs }} icon={GithubFilledSvg} />;
 
 GithubFilled.displayName = 'GithubFilled';
 

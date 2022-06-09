@@ -9,7 +9,7 @@ export interface ScheduleTwoToneIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const ScheduleTwoTone: ScheduleTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ScheduleTwoToneSvg} />;
+const ScheduleTwoTone: ScheduleTwoToneIconType = (props, context) => <Icon name='ScheduleTwoTone' {...{ ...props, ...context.attrs }} icon={ScheduleTwoToneSvg} />;
 
 ScheduleTwoTone.displayName = 'ScheduleTwoTone';
 

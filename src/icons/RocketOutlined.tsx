@@ -9,7 +9,7 @@ export interface RocketOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const RocketOutlined: RocketOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RocketOutlinedSvg} />;
+const RocketOutlined: RocketOutlinedIconType = (props, context) => <Icon name='RocketOutlined' {...{ ...props, ...context.attrs }} icon={RocketOutlinedSvg} />;
 
 RocketOutlined.displayName = 'RocketOutlined';
 

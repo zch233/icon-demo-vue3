@@ -9,7 +9,7 @@ export interface GoogleSquareFilledIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const GoogleSquareFilled: GoogleSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GoogleSquareFilledSvg} />;
+const GoogleSquareFilled: GoogleSquareFilledIconType = (props, context) => <Icon name='GoogleSquareFilled' {...{ ...props, ...context.attrs }} icon={GoogleSquareFilledSvg} />;
 
 GoogleSquareFilled.displayName = 'GoogleSquareFilled';
 

@@ -9,7 +9,7 @@ export interface DeleteOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const DeleteOutlined: DeleteOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DeleteOutlinedSvg} />;
+const DeleteOutlined: DeleteOutlinedIconType = (props, context) => <Icon name='DeleteOutlined' {...{ ...props, ...context.attrs }} icon={DeleteOutlinedSvg} />;
 
 DeleteOutlined.displayName = 'DeleteOutlined';
 

@@ -9,7 +9,7 @@ export interface HighlightFilledIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const HighlightFilled: HighlightFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={HighlightFilledSvg} />;
+const HighlightFilled: HighlightFilledIconType = (props, context) => <Icon name='HighlightFilled' {...{ ...props, ...context.attrs }} icon={HighlightFilledSvg} />;
 
 HighlightFilled.displayName = 'HighlightFilled';
 

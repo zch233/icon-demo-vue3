@@ -9,7 +9,7 @@ export interface RetweetOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const RetweetOutlined: RetweetOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RetweetOutlinedSvg} />;
+const RetweetOutlined: RetweetOutlinedIconType = (props, context) => <Icon name='RetweetOutlined' {...{ ...props, ...context.attrs }} icon={RetweetOutlinedSvg} />;
 
 RetweetOutlined.displayName = 'RetweetOutlined';
 

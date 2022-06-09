@@ -9,7 +9,7 @@ export interface AliwangwangFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const AliwangwangFilled: AliwangwangFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AliwangwangFilledSvg} />;
+const AliwangwangFilled: AliwangwangFilledIconType = (props, context) => <Icon name='AliwangwangFilled' {...{ ...props, ...context.attrs }} icon={AliwangwangFilledSvg} />;
 
 AliwangwangFilled.displayName = 'AliwangwangFilled';
 

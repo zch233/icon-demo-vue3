@@ -9,7 +9,7 @@ export interface ReadFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ReadFilled: ReadFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ReadFilledSvg} />;
+const ReadFilled: ReadFilledIconType = (props, context) => <Icon name='ReadFilled' {...{ ...props, ...context.attrs }} icon={ReadFilledSvg} />;
 
 ReadFilled.displayName = 'ReadFilled';
 

@@ -9,7 +9,7 @@ export interface CheckSquareFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const CheckSquareFilled: CheckSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CheckSquareFilledSvg} />;
+const CheckSquareFilled: CheckSquareFilledIconType = (props, context) => <Icon name='CheckSquareFilled' {...{ ...props, ...context.attrs }} icon={CheckSquareFilledSvg} />;
 
 CheckSquareFilled.displayName = 'CheckSquareFilled';
 

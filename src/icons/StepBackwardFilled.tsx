@@ -9,7 +9,7 @@ export interface StepBackwardFilledIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const StepBackwardFilled: StepBackwardFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={StepBackwardFilledSvg} />;
+const StepBackwardFilled: StepBackwardFilledIconType = (props, context) => <Icon name='StepBackwardFilled' {...{ ...props, ...context.attrs }} icon={StepBackwardFilledSvg} />;
 
 StepBackwardFilled.displayName = 'StepBackwardFilled';
 

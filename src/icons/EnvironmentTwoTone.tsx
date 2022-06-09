@@ -9,7 +9,7 @@ export interface EnvironmentTwoToneIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const EnvironmentTwoTone: EnvironmentTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={EnvironmentTwoToneSvg} />;
+const EnvironmentTwoTone: EnvironmentTwoToneIconType = (props, context) => <Icon name='EnvironmentTwoTone' {...{ ...props, ...context.attrs }} icon={EnvironmentTwoToneSvg} />;
 
 EnvironmentTwoTone.displayName = 'EnvironmentTwoTone';
 

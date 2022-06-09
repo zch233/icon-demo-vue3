@@ -9,7 +9,7 @@ export interface LinkedinOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const LinkedinOutlined: LinkedinOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={LinkedinOutlinedSvg} />;
+const LinkedinOutlined: LinkedinOutlinedIconType = (props, context) => <Icon name='LinkedinOutlined' {...{ ...props, ...context.attrs }} icon={LinkedinOutlinedSvg} />;
 
 LinkedinOutlined.displayName = 'LinkedinOutlined';
 

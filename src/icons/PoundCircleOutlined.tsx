@@ -9,7 +9,7 @@ export interface PoundCircleOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const PoundCircleOutlined: PoundCircleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PoundCircleOutlinedSvg} />;
+const PoundCircleOutlined: PoundCircleOutlinedIconType = (props, context) => <Icon name='PoundCircleOutlined' {...{ ...props, ...context.attrs }} icon={PoundCircleOutlinedSvg} />;
 
 PoundCircleOutlined.displayName = 'PoundCircleOutlined';
 

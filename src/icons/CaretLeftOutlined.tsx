@@ -9,7 +9,7 @@ export interface CaretLeftOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const CaretLeftOutlined: CaretLeftOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CaretLeftOutlinedSvg} />;
+const CaretLeftOutlined: CaretLeftOutlinedIconType = (props, context) => <Icon name='CaretLeftOutlined' {...{ ...props, ...context.attrs }} icon={CaretLeftOutlinedSvg} />;
 
 CaretLeftOutlined.displayName = 'CaretLeftOutlined';
 

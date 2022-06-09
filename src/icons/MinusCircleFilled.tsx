@@ -9,7 +9,7 @@ export interface MinusCircleFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const MinusCircleFilled: MinusCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MinusCircleFilledSvg} />;
+const MinusCircleFilled: MinusCircleFilledIconType = (props, context) => <Icon name='MinusCircleFilled' {...{ ...props, ...context.attrs }} icon={MinusCircleFilledSvg} />;
 
 MinusCircleFilled.displayName = 'MinusCircleFilled';
 

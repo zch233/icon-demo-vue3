@@ -9,7 +9,7 @@ export interface AccountBookOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const AccountBookOutlined: AccountBookOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AccountBookOutlinedSvg} />;
+const AccountBookOutlined: AccountBookOutlinedIconType = (props, context) => <Icon name='AccountBookOutlined' {...{ ...props, ...context.attrs }} icon={AccountBookOutlinedSvg} />;
 
 AccountBookOutlined.displayName = 'AccountBookOutlined';
 

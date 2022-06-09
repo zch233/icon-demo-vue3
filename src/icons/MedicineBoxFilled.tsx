@@ -9,7 +9,7 @@ export interface MedicineBoxFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const MedicineBoxFilled: MedicineBoxFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MedicineBoxFilledSvg} />;
+const MedicineBoxFilled: MedicineBoxFilledIconType = (props, context) => <Icon name='MedicineBoxFilled' {...{ ...props, ...context.attrs }} icon={MedicineBoxFilledSvg} />;
 
 MedicineBoxFilled.displayName = 'MedicineBoxFilled';
 

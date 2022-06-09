@@ -9,7 +9,7 @@ export interface PauseCircleFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const PauseCircleFilled: PauseCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PauseCircleFilledSvg} />;
+const PauseCircleFilled: PauseCircleFilledIconType = (props, context) => <Icon name='PauseCircleFilled' {...{ ...props, ...context.attrs }} icon={PauseCircleFilledSvg} />;
 
 PauseCircleFilled.displayName = 'PauseCircleFilled';
 

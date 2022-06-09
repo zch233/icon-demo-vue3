@@ -9,7 +9,7 @@ export interface BellOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const BellOutlined: BellOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BellOutlinedSvg} />;
+const BellOutlined: BellOutlinedIconType = (props, context) => <Icon name='BellOutlined' {...{ ...props, ...context.attrs }} icon={BellOutlinedSvg} />;
 
 BellOutlined.displayName = 'BellOutlined';
 

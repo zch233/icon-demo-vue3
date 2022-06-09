@@ -9,7 +9,7 @@ export interface ForwardFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ForwardFilled: ForwardFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ForwardFilledSvg} />;
+const ForwardFilled: ForwardFilledIconType = (props, context) => <Icon name='ForwardFilled' {...{ ...props, ...context.attrs }} icon={ForwardFilledSvg} />;
 
 ForwardFilled.displayName = 'ForwardFilled';
 

@@ -9,7 +9,7 @@ export interface DatabaseFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const DatabaseFilled: DatabaseFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DatabaseFilledSvg} />;
+const DatabaseFilled: DatabaseFilledIconType = (props, context) => <Icon name='DatabaseFilled' {...{ ...props, ...context.attrs }} icon={DatabaseFilledSvg} />;
 
 DatabaseFilled.displayName = 'DatabaseFilled';
 

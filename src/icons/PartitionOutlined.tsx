@@ -9,7 +9,7 @@ export interface PartitionOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const PartitionOutlined: PartitionOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PartitionOutlinedSvg} />;
+const PartitionOutlined: PartitionOutlinedIconType = (props, context) => <Icon name='PartitionOutlined' {...{ ...props, ...context.attrs }} icon={PartitionOutlinedSvg} />;
 
 PartitionOutlined.displayName = 'PartitionOutlined';
 

@@ -9,7 +9,7 @@ export interface IdcardFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IdcardFilled: IdcardFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={IdcardFilledSvg} />;
+const IdcardFilled: IdcardFilledIconType = (props, context) => <Icon name='IdcardFilled' {...{ ...props, ...context.attrs }} icon={IdcardFilledSvg} />;
 
 IdcardFilled.displayName = 'IdcardFilled';
 

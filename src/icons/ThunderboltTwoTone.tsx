@@ -9,7 +9,7 @@ export interface ThunderboltTwoToneIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const ThunderboltTwoTone: ThunderboltTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ThunderboltTwoToneSvg} />;
+const ThunderboltTwoTone: ThunderboltTwoToneIconType = (props, context) => <Icon name='ThunderboltTwoTone' {...{ ...props, ...context.attrs }} icon={ThunderboltTwoToneSvg} />;
 
 ThunderboltTwoTone.displayName = 'ThunderboltTwoTone';
 

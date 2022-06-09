@@ -9,7 +9,7 @@ export interface DollarCircleFilledIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const DollarCircleFilled: DollarCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DollarCircleFilledSvg} />;
+const DollarCircleFilled: DollarCircleFilledIconType = (props, context) => <Icon name='DollarCircleFilled' {...{ ...props, ...context.attrs }} icon={DollarCircleFilledSvg} />;
 
 DollarCircleFilled.displayName = 'DollarCircleFilled';
 

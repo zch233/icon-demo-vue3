@@ -9,7 +9,7 @@ export interface ClusterOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const ClusterOutlined: ClusterOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ClusterOutlinedSvg} />;
+const ClusterOutlined: ClusterOutlinedIconType = (props, context) => <Icon name='ClusterOutlined' {...{ ...props, ...context.attrs }} icon={ClusterOutlinedSvg} />;
 
 ClusterOutlined.displayName = 'ClusterOutlined';
 

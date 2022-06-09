@@ -9,7 +9,7 @@ export interface PrinterOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const PrinterOutlined: PrinterOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PrinterOutlinedSvg} />;
+const PrinterOutlined: PrinterOutlinedIconType = (props, context) => <Icon name='PrinterOutlined' {...{ ...props, ...context.attrs }} icon={PrinterOutlinedSvg} />;
 
 PrinterOutlined.displayName = 'PrinterOutlined';
 

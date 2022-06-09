@@ -9,7 +9,7 @@ export interface YuqueOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const YuqueOutlined: YuqueOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={YuqueOutlinedSvg} />;
+const YuqueOutlined: YuqueOutlinedIconType = (props, context) => <Icon name='YuqueOutlined' {...{ ...props, ...context.attrs }} icon={YuqueOutlinedSvg} />;
 
 YuqueOutlined.displayName = 'YuqueOutlined';
 

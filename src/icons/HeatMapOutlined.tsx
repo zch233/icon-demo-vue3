@@ -9,7 +9,7 @@ export interface HeatMapOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const HeatMapOutlined: HeatMapOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={HeatMapOutlinedSvg} />;
+const HeatMapOutlined: HeatMapOutlinedIconType = (props, context) => <Icon name='HeatMapOutlined' {...{ ...props, ...context.attrs }} icon={HeatMapOutlinedSvg} />;
 
 HeatMapOutlined.displayName = 'HeatMapOutlined';
 

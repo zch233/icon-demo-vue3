@@ -9,7 +9,7 @@ export interface UserSwitchOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const UserSwitchOutlined: UserSwitchOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={UserSwitchOutlinedSvg} />;
+const UserSwitchOutlined: UserSwitchOutlinedIconType = (props, context) => <Icon name='UserSwitchOutlined' {...{ ...props, ...context.attrs }} icon={UserSwitchOutlinedSvg} />;
 
 UserSwitchOutlined.displayName = 'UserSwitchOutlined';
 

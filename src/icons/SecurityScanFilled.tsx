@@ -9,7 +9,7 @@ export interface SecurityScanFilledIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const SecurityScanFilled: SecurityScanFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SecurityScanFilledSvg} />;
+const SecurityScanFilled: SecurityScanFilledIconType = (props, context) => <Icon name='SecurityScanFilled' {...{ ...props, ...context.attrs }} icon={SecurityScanFilledSvg} />;
 
 SecurityScanFilled.displayName = 'SecurityScanFilled';
 

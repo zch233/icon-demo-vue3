@@ -9,7 +9,7 @@ export interface YahooOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const YahooOutlined: YahooOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={YahooOutlinedSvg} />;
+const YahooOutlined: YahooOutlinedIconType = (props, context) => <Icon name='YahooOutlined' {...{ ...props, ...context.attrs }} icon={YahooOutlinedSvg} />;
 
 YahooOutlined.displayName = 'YahooOutlined';
 

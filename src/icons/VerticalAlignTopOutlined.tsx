@@ -9,7 +9,7 @@ export interface VerticalAlignTopOutlinedIconType extends FunctionalComponent<Ic
     displayName: string;
 }
 
-const VerticalAlignTopOutlined: VerticalAlignTopOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={VerticalAlignTopOutlinedSvg} />;
+const VerticalAlignTopOutlined: VerticalAlignTopOutlinedIconType = (props, context) => <Icon name='VerticalAlignTopOutlined' {...{ ...props, ...context.attrs }} icon={VerticalAlignTopOutlinedSvg} />;
 
 VerticalAlignTopOutlined.displayName = 'VerticalAlignTopOutlined';
 

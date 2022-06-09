@@ -9,7 +9,7 @@ export interface DeleteColumnOutlinedIconType extends FunctionalComponent<IconPr
     displayName: string;
 }
 
-const DeleteColumnOutlined: DeleteColumnOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DeleteColumnOutlinedSvg} />;
+const DeleteColumnOutlined: DeleteColumnOutlinedIconType = (props, context) => <Icon name='DeleteColumnOutlined' {...{ ...props, ...context.attrs }} icon={DeleteColumnOutlinedSvg} />;
 
 DeleteColumnOutlined.displayName = 'DeleteColumnOutlined';
 

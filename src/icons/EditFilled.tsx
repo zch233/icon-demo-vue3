@@ -9,7 +9,7 @@ export interface EditFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const EditFilled: EditFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={EditFilledSvg} />;
+const EditFilled: EditFilledIconType = (props, context) => <Icon name='EditFilled' {...{ ...props, ...context.attrs }} icon={EditFilledSvg} />;
 
 EditFilled.displayName = 'EditFilled';
 

@@ -9,7 +9,7 @@ export interface RightSquareTwoToneIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const RightSquareTwoTone: RightSquareTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RightSquareTwoToneSvg} />;
+const RightSquareTwoTone: RightSquareTwoToneIconType = (props, context) => <Icon name='RightSquareTwoTone' {...{ ...props, ...context.attrs }} icon={RightSquareTwoToneSvg} />;
 
 RightSquareTwoTone.displayName = 'RightSquareTwoTone';
 

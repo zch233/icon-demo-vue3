@@ -9,7 +9,7 @@ export interface SmallDashOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const SmallDashOutlined: SmallDashOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SmallDashOutlinedSvg} />;
+const SmallDashOutlined: SmallDashOutlinedIconType = (props, context) => <Icon name='SmallDashOutlined' {...{ ...props, ...context.attrs }} icon={SmallDashOutlinedSvg} />;
 
 SmallDashOutlined.displayName = 'SmallDashOutlined';
 

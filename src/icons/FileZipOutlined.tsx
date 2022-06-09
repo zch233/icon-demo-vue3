@@ -9,7 +9,7 @@ export interface FileZipOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const FileZipOutlined: FileZipOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FileZipOutlinedSvg} />;
+const FileZipOutlined: FileZipOutlinedIconType = (props, context) => <Icon name='FileZipOutlined' {...{ ...props, ...context.attrs }} icon={FileZipOutlinedSvg} />;
 
 FileZipOutlined.displayName = 'FileZipOutlined';
 

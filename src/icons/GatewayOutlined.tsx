@@ -9,7 +9,7 @@ export interface GatewayOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const GatewayOutlined: GatewayOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GatewayOutlinedSvg} />;
+const GatewayOutlined: GatewayOutlinedIconType = (props, context) => <Icon name='GatewayOutlined' {...{ ...props, ...context.attrs }} icon={GatewayOutlinedSvg} />;
 
 GatewayOutlined.displayName = 'GatewayOutlined';
 

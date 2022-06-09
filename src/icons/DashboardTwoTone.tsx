@@ -9,7 +9,7 @@ export interface DashboardTwoToneIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const DashboardTwoTone: DashboardTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DashboardTwoToneSvg} />;
+const DashboardTwoTone: DashboardTwoToneIconType = (props, context) => <Icon name='DashboardTwoTone' {...{ ...props, ...context.attrs }} icon={DashboardTwoToneSvg} />;
 
 DashboardTwoTone.displayName = 'DashboardTwoTone';
 

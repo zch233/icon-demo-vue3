@@ -9,7 +9,7 @@ export interface GlobalOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const GlobalOutlined: GlobalOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GlobalOutlinedSvg} />;
+const GlobalOutlined: GlobalOutlinedIconType = (props, context) => <Icon name='GlobalOutlined' {...{ ...props, ...context.attrs }} icon={GlobalOutlinedSvg} />;
 
 GlobalOutlined.displayName = 'GlobalOutlined';
 

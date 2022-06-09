@@ -9,7 +9,7 @@ export interface FieldTimeOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const FieldTimeOutlined: FieldTimeOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FieldTimeOutlinedSvg} />;
+const FieldTimeOutlined: FieldTimeOutlinedIconType = (props, context) => <Icon name='FieldTimeOutlined' {...{ ...props, ...context.attrs }} icon={FieldTimeOutlinedSvg} />;
 
 FieldTimeOutlined.displayName = 'FieldTimeOutlined';
 

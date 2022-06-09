@@ -9,7 +9,7 @@ export interface CameraOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CameraOutlined: CameraOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CameraOutlinedSvg} />;
+const CameraOutlined: CameraOutlinedIconType = (props, context) => <Icon name='CameraOutlined' {...{ ...props, ...context.attrs }} icon={CameraOutlinedSvg} />;
 
 CameraOutlined.displayName = 'CameraOutlined';
 

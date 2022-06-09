@@ -9,7 +9,7 @@ export interface HighlightTwoToneIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const HighlightTwoTone: HighlightTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={HighlightTwoToneSvg} />;
+const HighlightTwoTone: HighlightTwoToneIconType = (props, context) => <Icon name='HighlightTwoTone' {...{ ...props, ...context.attrs }} icon={HighlightTwoToneSvg} />;
 
 HighlightTwoTone.displayName = 'HighlightTwoTone';
 

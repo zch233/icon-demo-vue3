@@ -9,7 +9,7 @@ export interface CodepenCircleOutlinedIconType extends FunctionalComponent<IconP
     displayName: string;
 }
 
-const CodepenCircleOutlined: CodepenCircleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CodepenCircleOutlinedSvg} />;
+const CodepenCircleOutlined: CodepenCircleOutlinedIconType = (props, context) => <Icon name='CodepenCircleOutlined' {...{ ...props, ...context.attrs }} icon={CodepenCircleOutlinedSvg} />;
 
 CodepenCircleOutlined.displayName = 'CodepenCircleOutlined';
 

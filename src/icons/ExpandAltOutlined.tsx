@@ -9,7 +9,7 @@ export interface ExpandAltOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const ExpandAltOutlined: ExpandAltOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ExpandAltOutlinedSvg} />;
+const ExpandAltOutlined: ExpandAltOutlinedIconType = (props, context) => <Icon name='ExpandAltOutlined' {...{ ...props, ...context.attrs }} icon={ExpandAltOutlinedSvg} />;
 
 ExpandAltOutlined.displayName = 'ExpandAltOutlined';
 

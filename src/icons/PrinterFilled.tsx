@@ -9,7 +9,7 @@ export interface PrinterFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const PrinterFilled: PrinterFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PrinterFilledSvg} />;
+const PrinterFilled: PrinterFilledIconType = (props, context) => <Icon name='PrinterFilled' {...{ ...props, ...context.attrs }} icon={PrinterFilledSvg} />;
 
 PrinterFilled.displayName = 'PrinterFilled';
 

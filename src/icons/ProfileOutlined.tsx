@@ -9,7 +9,7 @@ export interface ProfileOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const ProfileOutlined: ProfileOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ProfileOutlinedSvg} />;
+const ProfileOutlined: ProfileOutlinedIconType = (props, context) => <Icon name='ProfileOutlined' {...{ ...props, ...context.attrs }} icon={ProfileOutlinedSvg} />;
 
 ProfileOutlined.displayName = 'ProfileOutlined';
 

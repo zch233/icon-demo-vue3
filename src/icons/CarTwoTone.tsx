@@ -9,7 +9,7 @@ export interface CarTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CarTwoTone: CarTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CarTwoToneSvg} />;
+const CarTwoTone: CarTwoToneIconType = (props, context) => <Icon name='CarTwoTone' {...{ ...props, ...context.attrs }} icon={CarTwoToneSvg} />;
 
 CarTwoTone.displayName = 'CarTwoTone';
 

@@ -9,7 +9,7 @@ export interface UnorderedListOutlinedIconType extends FunctionalComponent<IconP
     displayName: string;
 }
 
-const UnorderedListOutlined: UnorderedListOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={UnorderedListOutlinedSvg} />;
+const UnorderedListOutlined: UnorderedListOutlinedIconType = (props, context) => <Icon name='UnorderedListOutlined' {...{ ...props, ...context.attrs }} icon={UnorderedListOutlinedSvg} />;
 
 UnorderedListOutlined.displayName = 'UnorderedListOutlined';
 

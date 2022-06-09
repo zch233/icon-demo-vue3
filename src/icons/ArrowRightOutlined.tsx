@@ -9,7 +9,7 @@ export interface ArrowRightOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const ArrowRightOutlined: ArrowRightOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ArrowRightOutlinedSvg} />;
+const ArrowRightOutlined: ArrowRightOutlinedIconType = (props, context) => <Icon name='ArrowRightOutlined' {...{ ...props, ...context.attrs }} icon={ArrowRightOutlinedSvg} />;
 
 ArrowRightOutlined.displayName = 'ArrowRightOutlined';
 

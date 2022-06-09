@@ -1,6 +1,6 @@
 {
   "name": "icon-vue3",
-  "version": "0.0.9",
+  "version": "0.0.16",
   "main": "./lib/index.js",
   "module": "./es/index.js",
   "files": [
@@ -29,10 +29,7 @@
     "pre-commit:lint-staged": "lint-staged",
     "prepare": "husky install",
     "generate": "rimraf src/icons && ts-node scripts/index.ts",
-    "compile:es": "tsc --project tsconfig.build.json --module esnext --outDir es",
-    "compile:lib": "tsc --project tsconfig.build.json --module commonjs --outDir lib",
-    "compile": "cross-env NODE_ENV=production && yarn compile:es && yarn compile:lib",
-    "compile1": "vc-tools run compile"
+    "compile": "vc-tools run compile"
   },
   "dependencies": {
     "@ant-design/icons-svg": "4.2.1",

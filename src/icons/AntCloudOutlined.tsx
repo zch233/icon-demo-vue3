@@ -9,7 +9,7 @@ export interface AntCloudOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const AntCloudOutlined: AntCloudOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AntCloudOutlinedSvg} />;
+const AntCloudOutlined: AntCloudOutlinedIconType = (props, context) => <Icon name='AntCloudOutlined' {...{ ...props, ...context.attrs }} icon={AntCloudOutlinedSvg} />;
 
 AntCloudOutlined.displayName = 'AntCloudOutlined';
 

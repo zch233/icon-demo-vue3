@@ -9,7 +9,7 @@ export interface VerticalRightOutlinedIconType extends FunctionalComponent<IconP
     displayName: string;
 }
 
-const VerticalRightOutlined: VerticalRightOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={VerticalRightOutlinedSvg} />;
+const VerticalRightOutlined: VerticalRightOutlinedIconType = (props, context) => <Icon name='VerticalRightOutlined' {...{ ...props, ...context.attrs }} icon={VerticalRightOutlinedSvg} />;
 
 VerticalRightOutlined.displayName = 'VerticalRightOutlined';
 

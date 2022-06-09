@@ -9,7 +9,7 @@ export interface TabletTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const TabletTwoTone: TabletTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TabletTwoToneSvg} />;
+const TabletTwoTone: TabletTwoToneIconType = (props, context) => <Icon name='TabletTwoTone' {...{ ...props, ...context.attrs }} icon={TabletTwoToneSvg} />;
 
 TabletTwoTone.displayName = 'TabletTwoTone';
 

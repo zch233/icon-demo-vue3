@@ -9,7 +9,7 @@ export interface QrcodeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const QrcodeOutlined: QrcodeOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={QrcodeOutlinedSvg} />;
+const QrcodeOutlined: QrcodeOutlinedIconType = (props, context) => <Icon name='QrcodeOutlined' {...{ ...props, ...context.attrs }} icon={QrcodeOutlinedSvg} />;
 
 QrcodeOutlined.displayName = 'QrcodeOutlined';
 

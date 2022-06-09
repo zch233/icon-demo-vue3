@@ -9,7 +9,7 @@ export interface FacebookFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const FacebookFilled: FacebookFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FacebookFilledSvg} />;
+const FacebookFilled: FacebookFilledIconType = (props, context) => <Icon name='FacebookFilled' {...{ ...props, ...context.attrs }} icon={FacebookFilledSvg} />;
 
 FacebookFilled.displayName = 'FacebookFilled';
 

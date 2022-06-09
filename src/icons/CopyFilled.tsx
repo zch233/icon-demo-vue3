@@ -9,7 +9,7 @@ export interface CopyFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CopyFilled: CopyFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CopyFilledSvg} />;
+const CopyFilled: CopyFilledIconType = (props, context) => <Icon name='CopyFilled' {...{ ...props, ...context.attrs }} icon={CopyFilledSvg} />;
 
 CopyFilled.displayName = 'CopyFilled';
 

@@ -9,7 +9,7 @@ export interface InstagramFilledIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const InstagramFilled: InstagramFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={InstagramFilledSvg} />;
+const InstagramFilled: InstagramFilledIconType = (props, context) => <Icon name='InstagramFilled' {...{ ...props, ...context.attrs }} icon={InstagramFilledSvg} />;
 
 InstagramFilled.displayName = 'InstagramFilled';
 

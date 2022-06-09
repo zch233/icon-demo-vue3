@@ -9,7 +9,7 @@ export interface ColumnWidthOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const ColumnWidthOutlined: ColumnWidthOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ColumnWidthOutlinedSvg} />;
+const ColumnWidthOutlined: ColumnWidthOutlinedIconType = (props, context) => <Icon name='ColumnWidthOutlined' {...{ ...props, ...context.attrs }} icon={ColumnWidthOutlinedSvg} />;
 
 ColumnWidthOutlined.displayName = 'ColumnWidthOutlined';
 

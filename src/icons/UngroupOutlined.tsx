@@ -9,7 +9,7 @@ export interface UngroupOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const UngroupOutlined: UngroupOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={UngroupOutlinedSvg} />;
+const UngroupOutlined: UngroupOutlinedIconType = (props, context) => <Icon name='UngroupOutlined' {...{ ...props, ...context.attrs }} icon={UngroupOutlinedSvg} />;
 
 UngroupOutlined.displayName = 'UngroupOutlined';
 

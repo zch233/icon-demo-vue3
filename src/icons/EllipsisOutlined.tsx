@@ -9,7 +9,7 @@ export interface EllipsisOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const EllipsisOutlined: EllipsisOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={EllipsisOutlinedSvg} />;
+const EllipsisOutlined: EllipsisOutlinedIconType = (props, context) => <Icon name='EllipsisOutlined' {...{ ...props, ...context.attrs }} icon={EllipsisOutlinedSvg} />;
 
 EllipsisOutlined.displayName = 'EllipsisOutlined';
 

@@ -9,7 +9,7 @@ export interface ExclamationOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const ExclamationOutlined: ExclamationOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ExclamationOutlinedSvg} />;
+const ExclamationOutlined: ExclamationOutlinedIconType = (props, context) => <Icon name='ExclamationOutlined' {...{ ...props, ...context.attrs }} icon={ExclamationOutlinedSvg} />;
 
 ExclamationOutlined.displayName = 'ExclamationOutlined';
 

@@ -9,7 +9,7 @@ export interface ColumnHeightOutlinedIconType extends FunctionalComponent<IconPr
     displayName: string;
 }
 
-const ColumnHeightOutlined: ColumnHeightOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ColumnHeightOutlinedSvg} />;
+const ColumnHeightOutlined: ColumnHeightOutlinedIconType = (props, context) => <Icon name='ColumnHeightOutlined' {...{ ...props, ...context.attrs }} icon={ColumnHeightOutlinedSvg} />;
 
 ColumnHeightOutlined.displayName = 'ColumnHeightOutlined';
 

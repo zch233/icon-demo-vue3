@@ -9,7 +9,7 @@ export interface TrademarkOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const TrademarkOutlined: TrademarkOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TrademarkOutlinedSvg} />;
+const TrademarkOutlined: TrademarkOutlinedIconType = (props, context) => <Icon name='TrademarkOutlined' {...{ ...props, ...context.attrs }} icon={TrademarkOutlinedSvg} />;
 
 TrademarkOutlined.displayName = 'TrademarkOutlined';
 

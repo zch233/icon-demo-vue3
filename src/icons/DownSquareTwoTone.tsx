@@ -9,7 +9,7 @@ export interface DownSquareTwoToneIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const DownSquareTwoTone: DownSquareTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DownSquareTwoToneSvg} />;
+const DownSquareTwoTone: DownSquareTwoToneIconType = (props, context) => <Icon name='DownSquareTwoTone' {...{ ...props, ...context.attrs }} icon={DownSquareTwoToneSvg} />;
 
 DownSquareTwoTone.displayName = 'DownSquareTwoTone';
 

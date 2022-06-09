@@ -9,7 +9,7 @@ export interface ShrinkOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ShrinkOutlined: ShrinkOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ShrinkOutlinedSvg} />;
+const ShrinkOutlined: ShrinkOutlinedIconType = (props, context) => <Icon name='ShrinkOutlined' {...{ ...props, ...context.attrs }} icon={ShrinkOutlinedSvg} />;
 
 ShrinkOutlined.displayName = 'ShrinkOutlined';
 

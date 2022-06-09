@@ -9,7 +9,7 @@ export interface WeiboOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const WeiboOutlined: WeiboOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={WeiboOutlinedSvg} />;
+const WeiboOutlined: WeiboOutlinedIconType = (props, context) => <Icon name='WeiboOutlined' {...{ ...props, ...context.attrs }} icon={WeiboOutlinedSvg} />;
 
 WeiboOutlined.displayName = 'WeiboOutlined';
 

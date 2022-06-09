@@ -9,7 +9,7 @@ export interface VerifiedOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const VerifiedOutlined: VerifiedOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={VerifiedOutlinedSvg} />;
+const VerifiedOutlined: VerifiedOutlinedIconType = (props, context) => <Icon name='VerifiedOutlined' {...{ ...props, ...context.attrs }} icon={VerifiedOutlinedSvg} />;
 
 VerifiedOutlined.displayName = 'VerifiedOutlined';
 

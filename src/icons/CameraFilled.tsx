@@ -9,7 +9,7 @@ export interface CameraFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CameraFilled: CameraFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CameraFilledSvg} />;
+const CameraFilled: CameraFilledIconType = (props, context) => <Icon name='CameraFilled' {...{ ...props, ...context.attrs }} icon={CameraFilledSvg} />;
 
 CameraFilled.displayName = 'CameraFilled';
 

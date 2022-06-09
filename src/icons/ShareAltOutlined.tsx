@@ -9,7 +9,7 @@ export interface ShareAltOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const ShareAltOutlined: ShareAltOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ShareAltOutlinedSvg} />;
+const ShareAltOutlined: ShareAltOutlinedIconType = (props, context) => <Icon name='ShareAltOutlined' {...{ ...props, ...context.attrs }} icon={ShareAltOutlinedSvg} />;
 
 ShareAltOutlined.displayName = 'ShareAltOutlined';
 

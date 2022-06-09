@@ -9,7 +9,7 @@ export interface ApiTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ApiTwoTone: ApiTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ApiTwoToneSvg} />;
+const ApiTwoTone: ApiTwoToneIconType = (props, context) => <Icon name='ApiTwoTone' {...{ ...props, ...context.attrs }} icon={ApiTwoToneSvg} />;
 
 ApiTwoTone.displayName = 'ApiTwoTone';
 

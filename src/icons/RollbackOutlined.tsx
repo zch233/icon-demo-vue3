@@ -9,7 +9,7 @@ export interface RollbackOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const RollbackOutlined: RollbackOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RollbackOutlinedSvg} />;
+const RollbackOutlined: RollbackOutlinedIconType = (props, context) => <Icon name='RollbackOutlined' {...{ ...props, ...context.attrs }} icon={RollbackOutlinedSvg} />;
 
 RollbackOutlined.displayName = 'RollbackOutlined';
 

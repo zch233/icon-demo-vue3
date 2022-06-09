@@ -9,7 +9,7 @@ export interface TwitterOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const TwitterOutlined: TwitterOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TwitterOutlinedSvg} />;
+const TwitterOutlined: TwitterOutlinedIconType = (props, context) => <Icon name='TwitterOutlined' {...{ ...props, ...context.attrs }} icon={TwitterOutlinedSvg} />;
 
 TwitterOutlined.displayName = 'TwitterOutlined';
 

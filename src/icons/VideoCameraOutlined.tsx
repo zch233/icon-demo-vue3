@@ -9,7 +9,7 @@ export interface VideoCameraOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const VideoCameraOutlined: VideoCameraOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={VideoCameraOutlinedSvg} />;
+const VideoCameraOutlined: VideoCameraOutlinedIconType = (props, context) => <Icon name='VideoCameraOutlined' {...{ ...props, ...context.attrs }} icon={VideoCameraOutlinedSvg} />;
 
 VideoCameraOutlined.displayName = 'VideoCameraOutlined';
 

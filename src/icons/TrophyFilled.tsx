@@ -9,7 +9,7 @@ export interface TrophyFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const TrophyFilled: TrophyFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TrophyFilledSvg} />;
+const TrophyFilled: TrophyFilledIconType = (props, context) => <Icon name='TrophyFilled' {...{ ...props, ...context.attrs }} icon={TrophyFilledSvg} />;
 
 TrophyFilled.displayName = 'TrophyFilled';
 

@@ -9,7 +9,7 @@ export interface SkypeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const SkypeOutlined: SkypeOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SkypeOutlinedSvg} />;
+const SkypeOutlined: SkypeOutlinedIconType = (props, context) => <Icon name='SkypeOutlined' {...{ ...props, ...context.attrs }} icon={SkypeOutlinedSvg} />;
 
 SkypeOutlined.displayName = 'SkypeOutlined';
 

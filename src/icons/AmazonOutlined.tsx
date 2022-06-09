@@ -9,7 +9,7 @@ export interface AmazonOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const AmazonOutlined: AmazonOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AmazonOutlinedSvg} />;
+const AmazonOutlined: AmazonOutlinedIconType = (props, context) => <Icon name='AmazonOutlined' {...{ ...props, ...context.attrs }} icon={AmazonOutlinedSvg} />;
 
 AmazonOutlined.displayName = 'AmazonOutlined';
 

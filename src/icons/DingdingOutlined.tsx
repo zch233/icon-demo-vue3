@@ -9,7 +9,7 @@ export interface DingdingOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const DingdingOutlined: DingdingOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DingdingOutlinedSvg} />;
+const DingdingOutlined: DingdingOutlinedIconType = (props, context) => <Icon name='DingdingOutlined' {...{ ...props, ...context.attrs }} icon={DingdingOutlinedSvg} />;
 
 DingdingOutlined.displayName = 'DingdingOutlined';
 

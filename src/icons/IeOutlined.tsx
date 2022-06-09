@@ -9,7 +9,7 @@ export interface IeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IeOutlined: IeOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={IeOutlinedSvg} />;
+const IeOutlined: IeOutlinedIconType = (props, context) => <Icon name='IeOutlined' {...{ ...props, ...context.attrs }} icon={IeOutlinedSvg} />;
 
 IeOutlined.displayName = 'IeOutlined';
 

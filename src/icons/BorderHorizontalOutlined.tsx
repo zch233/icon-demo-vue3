@@ -9,7 +9,7 @@ export interface BorderHorizontalOutlinedIconType extends FunctionalComponent<Ic
     displayName: string;
 }
 
-const BorderHorizontalOutlined: BorderHorizontalOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BorderHorizontalOutlinedSvg} />;
+const BorderHorizontalOutlined: BorderHorizontalOutlinedIconType = (props, context) => <Icon name='BorderHorizontalOutlined' {...{ ...props, ...context.attrs }} icon={BorderHorizontalOutlinedSvg} />;
 
 BorderHorizontalOutlined.displayName = 'BorderHorizontalOutlined';
 

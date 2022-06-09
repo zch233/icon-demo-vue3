@@ -9,7 +9,7 @@ export interface CheckCircleOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const CheckCircleOutlined: CheckCircleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CheckCircleOutlinedSvg} />;
+const CheckCircleOutlined: CheckCircleOutlinedIconType = (props, context) => <Icon name='CheckCircleOutlined' {...{ ...props, ...context.attrs }} icon={CheckCircleOutlinedSvg} />;
 
 CheckCircleOutlined.displayName = 'CheckCircleOutlined';
 

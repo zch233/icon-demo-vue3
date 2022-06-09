@@ -9,7 +9,7 @@ export interface CloudTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CloudTwoTone: CloudTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CloudTwoToneSvg} />;
+const CloudTwoTone: CloudTwoToneIconType = (props, context) => <Icon name='CloudTwoTone' {...{ ...props, ...context.attrs }} icon={CloudTwoToneSvg} />;
 
 CloudTwoTone.displayName = 'CloudTwoTone';
 

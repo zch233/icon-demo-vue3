@@ -9,7 +9,7 @@ export interface FontSizeOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const FontSizeOutlined: FontSizeOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FontSizeOutlinedSvg} />;
+const FontSizeOutlined: FontSizeOutlinedIconType = (props, context) => <Icon name='FontSizeOutlined' {...{ ...props, ...context.attrs }} icon={FontSizeOutlinedSvg} />;
 
 FontSizeOutlined.displayName = 'FontSizeOutlined';
 

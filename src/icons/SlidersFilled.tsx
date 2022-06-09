@@ -9,7 +9,7 @@ export interface SlidersFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const SlidersFilled: SlidersFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SlidersFilledSvg} />;
+const SlidersFilled: SlidersFilledIconType = (props, context) => <Icon name='SlidersFilled' {...{ ...props, ...context.attrs }} icon={SlidersFilledSvg} />;
 
 SlidersFilled.displayName = 'SlidersFilled';
 

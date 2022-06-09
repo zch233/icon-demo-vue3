@@ -9,7 +9,7 @@ export interface MailOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const MailOutlined: MailOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MailOutlinedSvg} />;
+const MailOutlined: MailOutlinedIconType = (props, context) => <Icon name='MailOutlined' {...{ ...props, ...context.attrs }} icon={MailOutlinedSvg} />;
 
 MailOutlined.displayName = 'MailOutlined';
 

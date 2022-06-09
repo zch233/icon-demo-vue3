@@ -9,7 +9,7 @@ export interface DribbbleSquareFilledIconType extends FunctionalComponent<IconPr
     displayName: string;
 }
 
-const DribbbleSquareFilled: DribbbleSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DribbbleSquareFilledSvg} />;
+const DribbbleSquareFilled: DribbbleSquareFilledIconType = (props, context) => <Icon name='DribbbleSquareFilled' {...{ ...props, ...context.attrs }} icon={DribbbleSquareFilledSvg} />;
 
 DribbbleSquareFilled.displayName = 'DribbbleSquareFilled';
 

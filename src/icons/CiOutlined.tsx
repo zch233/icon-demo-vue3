@@ -9,7 +9,7 @@ export interface CiOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CiOutlined: CiOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CiOutlinedSvg} />;
+const CiOutlined: CiOutlinedIconType = (props, context) => <Icon name='CiOutlined' {...{ ...props, ...context.attrs }} icon={CiOutlinedSvg} />;
 
 CiOutlined.displayName = 'CiOutlined';
 

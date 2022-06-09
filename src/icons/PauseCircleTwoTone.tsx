@@ -9,7 +9,7 @@ export interface PauseCircleTwoToneIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const PauseCircleTwoTone: PauseCircleTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PauseCircleTwoToneSvg} />;
+const PauseCircleTwoTone: PauseCircleTwoToneIconType = (props, context) => <Icon name='PauseCircleTwoTone' {...{ ...props, ...context.attrs }} icon={PauseCircleTwoToneSvg} />;
 
 PauseCircleTwoTone.displayName = 'PauseCircleTwoTone';
 

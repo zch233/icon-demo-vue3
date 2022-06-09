@@ -9,7 +9,7 @@ export interface RadiusBottomleftOutlinedIconType extends FunctionalComponent<Ic
     displayName: string;
 }
 
-const RadiusBottomleftOutlined: RadiusBottomleftOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RadiusBottomleftOutlinedSvg} />;
+const RadiusBottomleftOutlined: RadiusBottomleftOutlinedIconType = (props, context) => <Icon name='RadiusBottomleftOutlined' {...{ ...props, ...context.attrs }} icon={RadiusBottomleftOutlinedSvg} />;
 
 RadiusBottomleftOutlined.displayName = 'RadiusBottomleftOutlined';
 

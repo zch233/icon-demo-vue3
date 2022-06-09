@@ -9,7 +9,7 @@ export interface LinkedinFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const LinkedinFilled: LinkedinFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={LinkedinFilledSvg} />;
+const LinkedinFilled: LinkedinFilledIconType = (props, context) => <Icon name='LinkedinFilled' {...{ ...props, ...context.attrs }} icon={LinkedinFilledSvg} />;
 
 LinkedinFilled.displayName = 'LinkedinFilled';
 

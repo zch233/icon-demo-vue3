@@ -9,7 +9,7 @@ export interface ToolFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ToolFilled: ToolFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ToolFilledSvg} />;
+const ToolFilled: ToolFilledIconType = (props, context) => <Icon name='ToolFilled' {...{ ...props, ...context.attrs }} icon={ToolFilledSvg} />;
 
 ToolFilled.displayName = 'ToolFilled';
 

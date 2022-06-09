@@ -9,7 +9,7 @@ export interface QuestionOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const QuestionOutlined: QuestionOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={QuestionOutlinedSvg} />;
+const QuestionOutlined: QuestionOutlinedIconType = (props, context) => <Icon name='QuestionOutlined' {...{ ...props, ...context.attrs }} icon={QuestionOutlinedSvg} />;
 
 QuestionOutlined.displayName = 'QuestionOutlined';
 

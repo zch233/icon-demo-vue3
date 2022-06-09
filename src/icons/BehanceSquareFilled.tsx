@@ -9,7 +9,7 @@ export interface BehanceSquareFilledIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const BehanceSquareFilled: BehanceSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BehanceSquareFilledSvg} />;
+const BehanceSquareFilled: BehanceSquareFilledIconType = (props, context) => <Icon name='BehanceSquareFilled' {...{ ...props, ...context.attrs }} icon={BehanceSquareFilledSvg} />;
 
 BehanceSquareFilled.displayName = 'BehanceSquareFilled';
 

@@ -9,7 +9,7 @@ export interface AppleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const AppleOutlined: AppleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AppleOutlinedSvg} />;
+const AppleOutlined: AppleOutlinedIconType = (props, context) => <Icon name='AppleOutlined' {...{ ...props, ...context.attrs }} icon={AppleOutlinedSvg} />;
 
 AppleOutlined.displayName = 'AppleOutlined';
 

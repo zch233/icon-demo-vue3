@@ -9,7 +9,7 @@ export interface GithubOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const GithubOutlined: GithubOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GithubOutlinedSvg} />;
+const GithubOutlined: GithubOutlinedIconType = (props, context) => <Icon name='GithubOutlined' {...{ ...props, ...context.attrs }} icon={GithubOutlinedSvg} />;
 
 GithubOutlined.displayName = 'GithubOutlined';
 

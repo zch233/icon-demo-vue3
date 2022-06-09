@@ -9,7 +9,7 @@ export interface AmazonSquareFilledIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const AmazonSquareFilled: AmazonSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AmazonSquareFilledSvg} />;
+const AmazonSquareFilled: AmazonSquareFilledIconType = (props, context) => <Icon name='AmazonSquareFilled' {...{ ...props, ...context.attrs }} icon={AmazonSquareFilledSvg} />;
 
 AmazonSquareFilled.displayName = 'AmazonSquareFilled';
 

@@ -9,7 +9,7 @@ export interface BellTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const BellTwoTone: BellTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BellTwoToneSvg} />;
+const BellTwoTone: BellTwoToneIconType = (props, context) => <Icon name='BellTwoTone' {...{ ...props, ...context.attrs }} icon={BellTwoToneSvg} />;
 
 BellTwoTone.displayName = 'BellTwoTone';
 

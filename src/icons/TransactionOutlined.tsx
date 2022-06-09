@@ -9,7 +9,7 @@ export interface TransactionOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const TransactionOutlined: TransactionOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TransactionOutlinedSvg} />;
+const TransactionOutlined: TransactionOutlinedIconType = (props, context) => <Icon name='TransactionOutlined' {...{ ...props, ...context.attrs }} icon={TransactionOutlinedSvg} />;
 
 TransactionOutlined.displayName = 'TransactionOutlined';
 

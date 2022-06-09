@@ -9,7 +9,7 @@ export interface CompressOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const CompressOutlined: CompressOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CompressOutlinedSvg} />;
+const CompressOutlined: CompressOutlinedIconType = (props, context) => <Icon name='CompressOutlined' {...{ ...props, ...context.attrs }} icon={CompressOutlinedSvg} />;
 
 CompressOutlined.displayName = 'CompressOutlined';
 

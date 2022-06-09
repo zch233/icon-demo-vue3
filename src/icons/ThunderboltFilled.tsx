@@ -9,7 +9,7 @@ export interface ThunderboltFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const ThunderboltFilled: ThunderboltFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ThunderboltFilledSvg} />;
+const ThunderboltFilled: ThunderboltFilledIconType = (props, context) => <Icon name='ThunderboltFilled' {...{ ...props, ...context.attrs }} icon={ThunderboltFilledSvg} />;
 
 ThunderboltFilled.displayName = 'ThunderboltFilled';
 

@@ -9,7 +9,7 @@ export interface FilterTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const FilterTwoTone: FilterTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FilterTwoToneSvg} />;
+const FilterTwoTone: FilterTwoToneIconType = (props, context) => <Icon name='FilterTwoTone' {...{ ...props, ...context.attrs }} icon={FilterTwoToneSvg} />;
 
 FilterTwoTone.displayName = 'FilterTwoTone';
 

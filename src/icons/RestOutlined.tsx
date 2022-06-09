@@ -9,7 +9,7 @@ export interface RestOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const RestOutlined: RestOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RestOutlinedSvg} />;
+const RestOutlined: RestOutlinedIconType = (props, context) => <Icon name='RestOutlined' {...{ ...props, ...context.attrs }} icon={RestOutlinedSvg} />;
 
 RestOutlined.displayName = 'RestOutlined';
 

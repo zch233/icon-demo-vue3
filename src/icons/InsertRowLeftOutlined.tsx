@@ -9,7 +9,7 @@ export interface InsertRowLeftOutlinedIconType extends FunctionalComponent<IconP
     displayName: string;
 }
 
-const InsertRowLeftOutlined: InsertRowLeftOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={InsertRowLeftOutlinedSvg} />;
+const InsertRowLeftOutlined: InsertRowLeftOutlinedIconType = (props, context) => <Icon name='InsertRowLeftOutlined' {...{ ...props, ...context.attrs }} icon={InsertRowLeftOutlinedSvg} />;
 
 InsertRowLeftOutlined.displayName = 'InsertRowLeftOutlined';
 

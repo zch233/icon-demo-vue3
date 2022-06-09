@@ -29,7 +29,7 @@ export interface ${svgIdentifier}IconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const ${svgIdentifier}: ${svgIdentifier}IconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={${svgIdentifier}Svg} />;
+const ${svgIdentifier}: ${svgIdentifier}IconType = (props, context) => <Icon name='${svgIdentifier}' {...{ ...props, ...context.attrs }} icon={${svgIdentifier}Svg} />;
 
 ${svgIdentifier}.displayName = '${svgIdentifier}';
 

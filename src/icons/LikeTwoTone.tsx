@@ -9,7 +9,7 @@ export interface LikeTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const LikeTwoTone: LikeTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={LikeTwoToneSvg} />;
+const LikeTwoTone: LikeTwoToneIconType = (props, context) => <Icon name='LikeTwoTone' {...{ ...props, ...context.attrs }} icon={LikeTwoToneSvg} />;
 
 LikeTwoTone.displayName = 'LikeTwoTone';
 

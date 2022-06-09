@@ -9,7 +9,7 @@ export interface PrinterTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const PrinterTwoTone: PrinterTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PrinterTwoToneSvg} />;
+const PrinterTwoTone: PrinterTwoToneIconType = (props, context) => <Icon name='PrinterTwoTone' {...{ ...props, ...context.attrs }} icon={PrinterTwoToneSvg} />;
 
 PrinterTwoTone.displayName = 'PrinterTwoTone';
 

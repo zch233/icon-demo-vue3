@@ -9,7 +9,7 @@ export interface LaptopOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const LaptopOutlined: LaptopOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={LaptopOutlinedSvg} />;
+const LaptopOutlined: LaptopOutlinedIconType = (props, context) => <Icon name='LaptopOutlined' {...{ ...props, ...context.attrs }} icon={LaptopOutlinedSvg} />;
 
 LaptopOutlined.displayName = 'LaptopOutlined';
 

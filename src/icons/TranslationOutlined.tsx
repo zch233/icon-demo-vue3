@@ -9,7 +9,7 @@ export interface TranslationOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const TranslationOutlined: TranslationOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TranslationOutlinedSvg} />;
+const TranslationOutlined: TranslationOutlinedIconType = (props, context) => <Icon name='TranslationOutlined' {...{ ...props, ...context.attrs }} icon={TranslationOutlinedSvg} />;
 
 TranslationOutlined.displayName = 'TranslationOutlined';
 

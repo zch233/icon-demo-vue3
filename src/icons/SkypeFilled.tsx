@@ -9,7 +9,7 @@ export interface SkypeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const SkypeFilled: SkypeFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SkypeFilledSvg} />;
+const SkypeFilled: SkypeFilledIconType = (props, context) => <Icon name='SkypeFilled' {...{ ...props, ...context.attrs }} icon={SkypeFilledSvg} />;
 
 SkypeFilled.displayName = 'SkypeFilled';
 

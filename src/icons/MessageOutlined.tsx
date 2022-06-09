@@ -9,7 +9,7 @@ export interface MessageOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const MessageOutlined: MessageOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MessageOutlinedSvg} />;
+const MessageOutlined: MessageOutlinedIconType = (props, context) => <Icon name='MessageOutlined' {...{ ...props, ...context.attrs }} icon={MessageOutlinedSvg} />;
 
 MessageOutlined.displayName = 'MessageOutlined';
 

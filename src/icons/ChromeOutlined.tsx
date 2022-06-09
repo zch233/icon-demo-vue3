@@ -9,7 +9,7 @@ export interface ChromeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ChromeOutlined: ChromeOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ChromeOutlinedSvg} />;
+const ChromeOutlined: ChromeOutlinedIconType = (props, context) => <Icon name='ChromeOutlined' {...{ ...props, ...context.attrs }} icon={ChromeOutlinedSvg} />;
 
 ChromeOutlined.displayName = 'ChromeOutlined';
 

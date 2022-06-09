@@ -1,5 +1,6 @@
-import { nextTick } from 'vue';
+import { h, nextTick } from "vue";
 import insertCss from './insert-css';
+import { AbstractNode } from "@ant-design/icons-svg/es/types";
 
 export const iconStyles = `
 .gupoIcon {
@@ -71,4 +72,23 @@ export const useInsertStyles = (styleStr: string = iconStyles): void => {
             cssInjectedFlag = true;
         }
     });
+};
+
+export const generateSvgNode = (node: AbstractNode, key: string, rootProps?: { [key: string]: any } | false): any => {
+    if (!rootProps) {
+        return h(
+            node.tag,
+            { key, ...node.attrs },
+            (node.children || []).map((child, index) => generateSvgNode(child, `${key}-${node.tag}-${index}`))
+        );
+    }
+    return h(
+        node.tag,
+        {
+            key,
+            ...rootProps,
+            ...node.attrs,
+        },
+        (node.children || []).map((child, index) => generateSvgNode(child, `${key}-${node.tag}-${index}`))
+    );
 };

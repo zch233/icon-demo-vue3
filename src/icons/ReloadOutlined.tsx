@@ -9,7 +9,7 @@ export interface ReloadOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ReloadOutlined: ReloadOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ReloadOutlinedSvg} />;
+const ReloadOutlined: ReloadOutlinedIconType = (props, context) => <Icon name='ReloadOutlined' {...{ ...props, ...context.attrs }} icon={ReloadOutlinedSvg} />;
 
 ReloadOutlined.displayName = 'ReloadOutlined';
 

@@ -9,7 +9,7 @@ export interface UnlockOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const UnlockOutlined: UnlockOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={UnlockOutlinedSvg} />;
+const UnlockOutlined: UnlockOutlinedIconType = (props, context) => <Icon name='UnlockOutlined' {...{ ...props, ...context.attrs }} icon={UnlockOutlinedSvg} />;
 
 UnlockOutlined.displayName = 'UnlockOutlined';
 

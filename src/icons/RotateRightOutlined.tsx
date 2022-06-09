@@ -9,7 +9,7 @@ export interface RotateRightOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const RotateRightOutlined: RotateRightOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RotateRightOutlinedSvg} />;
+const RotateRightOutlined: RotateRightOutlinedIconType = (props, context) => <Icon name='RotateRightOutlined' {...{ ...props, ...context.attrs }} icon={RotateRightOutlinedSvg} />;
 
 RotateRightOutlined.displayName = 'RotateRightOutlined';
 

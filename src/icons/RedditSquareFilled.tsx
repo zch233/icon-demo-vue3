@@ -9,7 +9,7 @@ export interface RedditSquareFilledIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const RedditSquareFilled: RedditSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RedditSquareFilledSvg} />;
+const RedditSquareFilled: RedditSquareFilledIconType = (props, context) => <Icon name='RedditSquareFilled' {...{ ...props, ...context.attrs }} icon={RedditSquareFilledSvg} />;
 
 RedditSquareFilled.displayName = 'RedditSquareFilled';
 

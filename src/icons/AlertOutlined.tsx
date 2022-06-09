@@ -9,7 +9,7 @@ export interface AlertOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const AlertOutlined: AlertOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AlertOutlinedSvg} />;
+const AlertOutlined: AlertOutlinedIconType = (props, context) => <Icon name='AlertOutlined' {...{ ...props, ...context.attrs }} icon={AlertOutlinedSvg} />;
 
 AlertOutlined.displayName = 'AlertOutlined';
 

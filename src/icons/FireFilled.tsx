@@ -9,7 +9,7 @@ export interface FireFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const FireFilled: FireFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FireFilledSvg} />;
+const FireFilled: FireFilledIconType = (props, context) => <Icon name='FireFilled' {...{ ...props, ...context.attrs }} icon={FireFilledSvg} />;
 
 FireFilled.displayName = 'FireFilled';
 

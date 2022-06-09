@@ -9,7 +9,7 @@ export interface SketchSquareFilledIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const SketchSquareFilled: SketchSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SketchSquareFilledSvg} />;
+const SketchSquareFilled: SketchSquareFilledIconType = (props, context) => <Icon name='SketchSquareFilled' {...{ ...props, ...context.attrs }} icon={SketchSquareFilledSvg} />;
 
 SketchSquareFilled.displayName = 'SketchSquareFilled';
 

@@ -9,7 +9,7 @@ export interface VideoCameraTwoToneIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const VideoCameraTwoTone: VideoCameraTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={VideoCameraTwoToneSvg} />;
+const VideoCameraTwoTone: VideoCameraTwoToneIconType = (props, context) => <Icon name='VideoCameraTwoTone' {...{ ...props, ...context.attrs }} icon={VideoCameraTwoToneSvg} />;
 
 VideoCameraTwoTone.displayName = 'VideoCameraTwoTone';
 

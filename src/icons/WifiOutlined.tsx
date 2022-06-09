@@ -9,7 +9,7 @@ export interface WifiOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const WifiOutlined: WifiOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={WifiOutlinedSvg} />;
+const WifiOutlined: WifiOutlinedIconType = (props, context) => <Icon name='WifiOutlined' {...{ ...props, ...context.attrs }} icon={WifiOutlinedSvg} />;
 
 WifiOutlined.displayName = 'WifiOutlined';
 

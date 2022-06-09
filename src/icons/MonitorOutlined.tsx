@@ -9,7 +9,7 @@ export interface MonitorOutlinedIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const MonitorOutlined: MonitorOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MonitorOutlinedSvg} />;
+const MonitorOutlined: MonitorOutlinedIconType = (props, context) => <Icon name='MonitorOutlined' {...{ ...props, ...context.attrs }} icon={MonitorOutlinedSvg} />;
 
 MonitorOutlined.displayName = 'MonitorOutlined';
 

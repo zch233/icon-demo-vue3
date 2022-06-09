@@ -9,7 +9,7 @@ export interface DollarCircleTwoToneIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const DollarCircleTwoTone: DollarCircleTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DollarCircleTwoToneSvg} />;
+const DollarCircleTwoTone: DollarCircleTwoToneIconType = (props, context) => <Icon name='DollarCircleTwoTone' {...{ ...props, ...context.attrs }} icon={DollarCircleTwoToneSvg} />;
 
 DollarCircleTwoTone.displayName = 'DollarCircleTwoTone';
 

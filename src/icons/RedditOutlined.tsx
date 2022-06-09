@@ -9,7 +9,7 @@ export interface RedditOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const RedditOutlined: RedditOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RedditOutlinedSvg} />;
+const RedditOutlined: RedditOutlinedIconType = (props, context) => <Icon name='RedditOutlined' {...{ ...props, ...context.attrs }} icon={RedditOutlinedSvg} />;
 
 RedditOutlined.displayName = 'RedditOutlined';
 

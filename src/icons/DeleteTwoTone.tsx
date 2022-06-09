@@ -9,7 +9,7 @@ export interface DeleteTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const DeleteTwoTone: DeleteTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DeleteTwoToneSvg} />;
+const DeleteTwoTone: DeleteTwoToneIconType = (props, context) => <Icon name='DeleteTwoTone' {...{ ...props, ...context.attrs }} icon={DeleteTwoToneSvg} />;
 
 DeleteTwoTone.displayName = 'DeleteTwoTone';
 

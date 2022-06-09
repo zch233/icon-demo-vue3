@@ -9,7 +9,7 @@ export interface BoxPlotTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const BoxPlotTwoTone: BoxPlotTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BoxPlotTwoToneSvg} />;
+const BoxPlotTwoTone: BoxPlotTwoToneIconType = (props, context) => <Icon name='BoxPlotTwoTone' {...{ ...props, ...context.attrs }} icon={BoxPlotTwoToneSvg} />;
 
 BoxPlotTwoTone.displayName = 'BoxPlotTwoTone';
 

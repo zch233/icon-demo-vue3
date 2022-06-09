@@ -9,7 +9,7 @@ export interface BackwardFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const BackwardFilled: BackwardFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={BackwardFilledSvg} />;
+const BackwardFilled: BackwardFilledIconType = (props, context) => <Icon name='BackwardFilled' {...{ ...props, ...context.attrs }} icon={BackwardFilledSvg} />;
 
 BackwardFilled.displayName = 'BackwardFilled';
 

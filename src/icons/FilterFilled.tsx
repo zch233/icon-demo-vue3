@@ -9,7 +9,7 @@ export interface FilterFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const FilterFilled: FilterFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FilterFilledSvg} />;
+const FilterFilled: FilterFilledIconType = (props, context) => <Icon name='FilterFilled' {...{ ...props, ...context.attrs }} icon={FilterFilledSvg} />;
 
 FilterFilled.displayName = 'FilterFilled';
 

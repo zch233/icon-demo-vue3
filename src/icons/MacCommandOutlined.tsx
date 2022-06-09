@@ -9,7 +9,7 @@ export interface MacCommandOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const MacCommandOutlined: MacCommandOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MacCommandOutlinedSvg} />;
+const MacCommandOutlined: MacCommandOutlinedIconType = (props, context) => <Icon name='MacCommandOutlined' {...{ ...props, ...context.attrs }} icon={MacCommandOutlinedSvg} />;
 
 MacCommandOutlined.displayName = 'MacCommandOutlined';
 

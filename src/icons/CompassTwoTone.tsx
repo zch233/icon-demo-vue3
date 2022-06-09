@@ -9,7 +9,7 @@ export interface CompassTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CompassTwoTone: CompassTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CompassTwoToneSvg} />;
+const CompassTwoTone: CompassTwoToneIconType = (props, context) => <Icon name='CompassTwoTone' {...{ ...props, ...context.attrs }} icon={CompassTwoToneSvg} />;
 
 CompassTwoTone.displayName = 'CompassTwoTone';
 

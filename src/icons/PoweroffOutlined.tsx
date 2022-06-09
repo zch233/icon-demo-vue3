@@ -9,7 +9,7 @@ export interface PoweroffOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const PoweroffOutlined: PoweroffOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PoweroffOutlinedSvg} />;
+const PoweroffOutlined: PoweroffOutlinedIconType = (props, context) => <Icon name='PoweroffOutlined' {...{ ...props, ...context.attrs }} icon={PoweroffOutlinedSvg} />;
 
 PoweroffOutlined.displayName = 'PoweroffOutlined';
 

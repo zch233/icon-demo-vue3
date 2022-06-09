@@ -9,7 +9,7 @@ export interface PlusCircleOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const PlusCircleOutlined: PlusCircleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PlusCircleOutlinedSvg} />;
+const PlusCircleOutlined: PlusCircleOutlinedIconType = (props, context) => <Icon name='PlusCircleOutlined' {...{ ...props, ...context.attrs }} icon={PlusCircleOutlinedSvg} />;
 
 PlusCircleOutlined.displayName = 'PlusCircleOutlined';
 

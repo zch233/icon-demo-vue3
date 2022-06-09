@@ -9,7 +9,7 @@ export interface UsergroupDeleteOutlinedIconType extends FunctionalComponent<Ico
     displayName: string;
 }
 
-const UsergroupDeleteOutlined: UsergroupDeleteOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={UsergroupDeleteOutlinedSvg} />;
+const UsergroupDeleteOutlined: UsergroupDeleteOutlinedIconType = (props, context) => <Icon name='UsergroupDeleteOutlined' {...{ ...props, ...context.attrs }} icon={UsergroupDeleteOutlinedSvg} />;
 
 UsergroupDeleteOutlined.displayName = 'UsergroupDeleteOutlined';
 

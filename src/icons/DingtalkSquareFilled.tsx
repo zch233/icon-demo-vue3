@@ -9,7 +9,7 @@ export interface DingtalkSquareFilledIconType extends FunctionalComponent<IconPr
     displayName: string;
 }
 
-const DingtalkSquareFilled: DingtalkSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={DingtalkSquareFilledSvg} />;
+const DingtalkSquareFilled: DingtalkSquareFilledIconType = (props, context) => <Icon name='DingtalkSquareFilled' {...{ ...props, ...context.attrs }} icon={DingtalkSquareFilledSvg} />;
 
 DingtalkSquareFilled.displayName = 'DingtalkSquareFilled';
 

@@ -9,7 +9,7 @@ export interface FundFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const FundFilled: FundFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FundFilledSvg} />;
+const FundFilled: FundFilledIconType = (props, context) => <Icon name='FundFilled' {...{ ...props, ...context.attrs }} icon={FundFilledSvg} />;
 
 FundFilled.displayName = 'FundFilled';
 

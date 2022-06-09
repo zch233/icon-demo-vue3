@@ -9,7 +9,7 @@ export interface FileUnknownFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const FileUnknownFilled: FileUnknownFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FileUnknownFilledSvg} />;
+const FileUnknownFilled: FileUnknownFilledIconType = (props, context) => <Icon name='FileUnknownFilled' {...{ ...props, ...context.attrs }} icon={FileUnknownFilledSvg} />;
 
 FileUnknownFilled.displayName = 'FileUnknownFilled';
 

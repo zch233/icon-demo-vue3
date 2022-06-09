@@ -9,7 +9,7 @@ export interface ApiOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const ApiOutlined: ApiOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ApiOutlinedSvg} />;
+const ApiOutlined: ApiOutlinedIconType = (props, context) => <Icon name='ApiOutlined' {...{ ...props, ...context.attrs }} icon={ApiOutlinedSvg} />;
 
 ApiOutlined.displayName = 'ApiOutlined';
 

@@ -9,7 +9,7 @@ export interface FolderOpenOutlinedIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const FolderOpenOutlined: FolderOpenOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FolderOpenOutlinedSvg} />;
+const FolderOpenOutlined: FolderOpenOutlinedIconType = (props, context) => <Icon name='FolderOpenOutlined' {...{ ...props, ...context.attrs }} icon={FolderOpenOutlinedSvg} />;
 
 FolderOpenOutlined.displayName = 'FolderOpenOutlined';
 

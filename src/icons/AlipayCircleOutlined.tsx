@@ -9,7 +9,7 @@ export interface AlipayCircleOutlinedIconType extends FunctionalComponent<IconPr
     displayName: string;
 }
 
-const AlipayCircleOutlined: AlipayCircleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AlipayCircleOutlinedSvg} />;
+const AlipayCircleOutlined: AlipayCircleOutlinedIconType = (props, context) => <Icon name='AlipayCircleOutlined' {...{ ...props, ...context.attrs }} icon={AlipayCircleOutlinedSvg} />;
 
 AlipayCircleOutlined.displayName = 'AlipayCircleOutlined';
 

@@ -9,7 +9,7 @@ export interface CalendarFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const CalendarFilled: CalendarFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CalendarFilledSvg} />;
+const CalendarFilled: CalendarFilledIconType = (props, context) => <Icon name='CalendarFilled' {...{ ...props, ...context.attrs }} icon={CalendarFilledSvg} />;
 
 CalendarFilled.displayName = 'CalendarFilled';
 

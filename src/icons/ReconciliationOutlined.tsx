@@ -9,7 +9,7 @@ export interface ReconciliationOutlinedIconType extends FunctionalComponent<Icon
     displayName: string;
 }
 
-const ReconciliationOutlined: ReconciliationOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ReconciliationOutlinedSvg} />;
+const ReconciliationOutlined: ReconciliationOutlinedIconType = (props, context) => <Icon name='ReconciliationOutlined' {...{ ...props, ...context.attrs }} icon={ReconciliationOutlinedSvg} />;
 
 ReconciliationOutlined.displayName = 'ReconciliationOutlined';
 

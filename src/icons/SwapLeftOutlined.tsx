@@ -9,7 +9,7 @@ export interface SwapLeftOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const SwapLeftOutlined: SwapLeftOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SwapLeftOutlinedSvg} />;
+const SwapLeftOutlined: SwapLeftOutlinedIconType = (props, context) => <Icon name='SwapLeftOutlined' {...{ ...props, ...context.attrs }} icon={SwapLeftOutlinedSvg} />;
 
 SwapLeftOutlined.displayName = 'SwapLeftOutlined';
 

@@ -9,7 +9,7 @@ export interface CiCircleOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const CiCircleOutlined: CiCircleOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CiCircleOutlinedSvg} />;
+const CiCircleOutlined: CiCircleOutlinedIconType = (props, context) => <Icon name='CiCircleOutlined' {...{ ...props, ...context.attrs }} icon={CiCircleOutlinedSvg} />;
 
 CiCircleOutlined.displayName = 'CiCircleOutlined';
 

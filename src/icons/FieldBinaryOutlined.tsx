@@ -9,7 +9,7 @@ export interface FieldBinaryOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const FieldBinaryOutlined: FieldBinaryOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FieldBinaryOutlinedSvg} />;
+const FieldBinaryOutlined: FieldBinaryOutlinedIconType = (props, context) => <Icon name='FieldBinaryOutlined' {...{ ...props, ...context.attrs }} icon={FieldBinaryOutlinedSvg} />;
 
 FieldBinaryOutlined.displayName = 'FieldBinaryOutlined';
 

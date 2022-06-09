@@ -9,7 +9,7 @@ export interface TwitterSquareFilledIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const TwitterSquareFilled: TwitterSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={TwitterSquareFilledSvg} />;
+const TwitterSquareFilled: TwitterSquareFilledIconType = (props, context) => <Icon name='TwitterSquareFilled' {...{ ...props, ...context.attrs }} icon={TwitterSquareFilledSvg} />;
 
 TwitterSquareFilled.displayName = 'TwitterSquareFilled';
 

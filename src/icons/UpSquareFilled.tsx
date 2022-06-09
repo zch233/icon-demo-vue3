@@ -9,7 +9,7 @@ export interface UpSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const UpSquareFilled: UpSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={UpSquareFilledSvg} />;
+const UpSquareFilled: UpSquareFilledIconType = (props, context) => <Icon name='UpSquareFilled' {...{ ...props, ...context.attrs }} icon={UpSquareFilledSvg} />;
 
 UpSquareFilled.displayName = 'UpSquareFilled';
 

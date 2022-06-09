@@ -9,7 +9,7 @@ export interface PaperClipOutlinedIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const PaperClipOutlined: PaperClipOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PaperClipOutlinedSvg} />;
+const PaperClipOutlined: PaperClipOutlinedIconType = (props, context) => <Icon name='PaperClipOutlined' {...{ ...props, ...context.attrs }} icon={PaperClipOutlinedSvg} />;
 
 PaperClipOutlined.displayName = 'PaperClipOutlined';
 

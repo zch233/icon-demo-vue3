@@ -9,7 +9,7 @@ export interface LeftCircleFilledIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const LeftCircleFilled: LeftCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={LeftCircleFilledSvg} />;
+const LeftCircleFilled: LeftCircleFilledIconType = (props, context) => <Icon name='LeftCircleFilled' {...{ ...props, ...context.attrs }} icon={LeftCircleFilledSvg} />;
 
 LeftCircleFilled.displayName = 'LeftCircleFilled';
 

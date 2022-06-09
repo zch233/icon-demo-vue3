@@ -9,7 +9,7 @@ export interface CustomerServiceTwoToneIconType extends FunctionalComponent<Icon
     displayName: string;
 }
 
-const CustomerServiceTwoTone: CustomerServiceTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CustomerServiceTwoToneSvg} />;
+const CustomerServiceTwoTone: CustomerServiceTwoToneIconType = (props, context) => <Icon name='CustomerServiceTwoTone' {...{ ...props, ...context.attrs }} icon={CustomerServiceTwoToneSvg} />;
 
 CustomerServiceTwoTone.displayName = 'CustomerServiceTwoTone';
 

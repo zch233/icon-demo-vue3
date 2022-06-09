@@ -9,7 +9,7 @@ export interface SlidersTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const SlidersTwoTone: SlidersTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SlidersTwoToneSvg} />;
+const SlidersTwoTone: SlidersTwoToneIconType = (props, context) => <Icon name='SlidersTwoTone' {...{ ...props, ...context.attrs }} icon={SlidersTwoToneSvg} />;
 
 SlidersTwoTone.displayName = 'SlidersTwoTone';
 

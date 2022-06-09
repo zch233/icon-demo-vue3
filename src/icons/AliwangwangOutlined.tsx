@@ -9,7 +9,7 @@ export interface AliwangwangOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const AliwangwangOutlined: AliwangwangOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={AliwangwangOutlinedSvg} />;
+const AliwangwangOutlined: AliwangwangOutlinedIconType = (props, context) => <Icon name='AliwangwangOutlined' {...{ ...props, ...context.attrs }} icon={AliwangwangOutlinedSvg} />;
 
 AliwangwangOutlined.displayName = 'AliwangwangOutlined';
 

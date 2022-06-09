@@ -9,7 +9,7 @@ export interface CalculatorTwoToneIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const CalculatorTwoTone: CalculatorTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CalculatorTwoToneSvg} />;
+const CalculatorTwoTone: CalculatorTwoToneIconType = (props, context) => <Icon name='CalculatorTwoTone' {...{ ...props, ...context.attrs }} icon={CalculatorTwoToneSvg} />;
 
 CalculatorTwoTone.displayName = 'CalculatorTwoTone';
 

@@ -9,7 +9,7 @@ export interface HolderOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const HolderOutlined: HolderOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={HolderOutlinedSvg} />;
+const HolderOutlined: HolderOutlinedIconType = (props, context) => <Icon name='HolderOutlined' {...{ ...props, ...context.attrs }} icon={HolderOutlinedSvg} />;
 
 HolderOutlined.displayName = 'HolderOutlined';
 

@@ -9,7 +9,7 @@ export interface FileZipTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const FileZipTwoTone: FileZipTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={FileZipTwoToneSvg} />;
+const FileZipTwoTone: FileZipTwoToneIconType = (props, context) => <Icon name='FileZipTwoTone' {...{ ...props, ...context.attrs }} icon={FileZipTwoToneSvg} />;
 
 FileZipTwoTone.displayName = 'FileZipTwoTone';
 

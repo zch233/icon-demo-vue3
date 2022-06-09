@@ -9,7 +9,7 @@ export interface CloseCircleTwoToneIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const CloseCircleTwoTone: CloseCircleTwoToneIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={CloseCircleTwoToneSvg} />;
+const CloseCircleTwoTone: CloseCircleTwoToneIconType = (props, context) => <Icon name='CloseCircleTwoTone' {...{ ...props, ...context.attrs }} icon={CloseCircleTwoToneSvg} />;
 
 CloseCircleTwoTone.displayName = 'CloseCircleTwoTone';
 

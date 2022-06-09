@@ -9,7 +9,7 @@ export interface SecurityScanOutlinedIconType extends FunctionalComponent<IconPr
     displayName: string;
 }
 
-const SecurityScanOutlined: SecurityScanOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={SecurityScanOutlinedSvg} />;
+const SecurityScanOutlined: SecurityScanOutlinedIconType = (props, context) => <Icon name='SecurityScanOutlined' {...{ ...props, ...context.attrs }} icon={SecurityScanOutlinedSvg} />;
 
 SecurityScanOutlined.displayName = 'SecurityScanOutlined';
 

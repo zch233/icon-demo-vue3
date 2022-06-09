@@ -9,7 +9,7 @@ export interface RightSquareFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const RightSquareFilled: RightSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RightSquareFilledSvg} />;
+const RightSquareFilled: RightSquareFilledIconType = (props, context) => <Icon name='RightSquareFilled' {...{ ...props, ...context.attrs }} icon={RightSquareFilledSvg} />;
 
 RightSquareFilled.displayName = 'RightSquareFilled';
 

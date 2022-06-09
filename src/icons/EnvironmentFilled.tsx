@@ -9,7 +9,7 @@ export interface EnvironmentFilledIconType extends FunctionalComponent<IconProps
     displayName: string;
 }
 
-const EnvironmentFilled: EnvironmentFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={EnvironmentFilledSvg} />;
+const EnvironmentFilled: EnvironmentFilledIconType = (props, context) => <Icon name='EnvironmentFilled' {...{ ...props, ...context.attrs }} icon={EnvironmentFilledSvg} />;
 
 EnvironmentFilled.displayName = 'EnvironmentFilled';
 

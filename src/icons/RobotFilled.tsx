@@ -9,7 +9,7 @@ export interface RobotFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const RobotFilled: RobotFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={RobotFilledSvg} />;
+const RobotFilled: RobotFilledIconType = (props, context) => <Icon name='RobotFilled' {...{ ...props, ...context.attrs }} icon={RobotFilledSvg} />;
 
 RobotFilled.displayName = 'RobotFilled';
 

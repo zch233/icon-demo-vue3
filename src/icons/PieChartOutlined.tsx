@@ -9,7 +9,7 @@ export interface PieChartOutlinedIconType extends FunctionalComponent<IconProps>
     displayName: string;
 }
 
-const PieChartOutlined: PieChartOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={PieChartOutlinedSvg} />;
+const PieChartOutlined: PieChartOutlinedIconType = (props, context) => <Icon name='PieChartOutlined' {...{ ...props, ...context.attrs }} icon={PieChartOutlinedSvg} />;
 
 PieChartOutlined.displayName = 'PieChartOutlined';
 

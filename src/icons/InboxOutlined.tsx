@@ -9,7 +9,7 @@ export interface InboxOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const InboxOutlined: InboxOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={InboxOutlinedSvg} />;
+const InboxOutlined: InboxOutlinedIconType = (props, context) => <Icon name='InboxOutlined' {...{ ...props, ...context.attrs }} icon={InboxOutlinedSvg} />;
 
 InboxOutlined.displayName = 'InboxOutlined';
 

@@ -9,7 +9,7 @@ export interface GoogleCircleFilledIconType extends FunctionalComponent<IconProp
     displayName: string;
 }
 
-const GoogleCircleFilled: GoogleCircleFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={GoogleCircleFilledSvg} />;
+const GoogleCircleFilled: GoogleCircleFilledIconType = (props, context) => <Icon name='GoogleCircleFilled' {...{ ...props, ...context.attrs }} icon={GoogleCircleFilledSvg} />;
 
 GoogleCircleFilled.displayName = 'GoogleCircleFilled';
 

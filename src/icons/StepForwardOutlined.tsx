@@ -9,7 +9,7 @@ export interface StepForwardOutlinedIconType extends FunctionalComponent<IconPro
     displayName: string;
 }
 
-const StepForwardOutlined: StepForwardOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={StepForwardOutlinedSvg} />;
+const StepForwardOutlined: StepForwardOutlinedIconType = (props, context) => <Icon name='StepForwardOutlined' {...{ ...props, ...context.attrs }} icon={StepForwardOutlinedSvg} />;
 
 StepForwardOutlined.displayName = 'StepForwardOutlined';
 

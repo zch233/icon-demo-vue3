@@ -9,7 +9,7 @@ export interface QqSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const QqSquareFilled: QqSquareFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={QqSquareFilledSvg} />;
+const QqSquareFilled: QqSquareFilledIconType = (props, context) => <Icon name='QqSquareFilled' {...{ ...props, ...context.attrs }} icon={QqSquareFilledSvg} />;
 
 QqSquareFilled.displayName = 'QqSquareFilled';
 

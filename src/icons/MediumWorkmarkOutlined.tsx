@@ -9,7 +9,7 @@ export interface MediumWorkmarkOutlinedIconType extends FunctionalComponent<Icon
     displayName: string;
 }
 
-const MediumWorkmarkOutlined: MediumWorkmarkOutlinedIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={MediumWorkmarkOutlinedSvg} />;
+const MediumWorkmarkOutlined: MediumWorkmarkOutlinedIconType = (props, context) => <Icon name='MediumWorkmarkOutlined' {...{ ...props, ...context.attrs }} icon={MediumWorkmarkOutlinedSvg} />;
 
 MediumWorkmarkOutlined.displayName = 'MediumWorkmarkOutlined';
 

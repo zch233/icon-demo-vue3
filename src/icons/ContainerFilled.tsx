@@ -9,7 +9,7 @@ export interface ContainerFilledIconType extends FunctionalComponent<IconProps> 
     displayName: string;
 }
 
-const ContainerFilled: ContainerFilledIconType = (props, context) => <Icon {...{ ...props, ...context.attrs }} icon={ContainerFilledSvg} />;
+const ContainerFilled: ContainerFilledIconType = (props, context) => <Icon name='ContainerFilled' {...{ ...props, ...context.attrs }} icon={ContainerFilledSvg} />;
 
 ContainerFilled.displayName = 'ContainerFilled';
 
