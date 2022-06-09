@@ -1,5 +1,6 @@
 // GENERATE BY ./scripts/generate.ts
 // 不要手动修改！！！
+
 export { default as IconAccountBookFilled } from './IconAccountBookFilled';
 export { default as IconAlertFilled } from './IconAlertFilled';
 export { default as IconAlipayCircleFilled } from './IconAlipayCircleFilled';

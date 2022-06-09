@@ -1,5 +1,6 @@
 // GENERATE BY ./scripts/generate.ts
 // 不要手动修改！！！
+
 export { default as IconAccountBookOutlined } from './IconAccountBookOutlined';
 export { default as IconAimOutlined } from './IconAimOutlined';
 export { default as IconAlertOutlined } from './IconAlertOutlined';
