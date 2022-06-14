@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import UnorderedListOutlinedSvg from '@ant-design/icons-svg/es/asn/UnorderedListOutlined';
+import UnorderedListOutlinedSvg from 'icon-base/es/asn/UnorderedListOutlined';
 
 export interface UnorderedListOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

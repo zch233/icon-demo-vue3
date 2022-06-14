@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import SafetyCertificateFilledSvg from '@ant-design/icons-svg/es/asn/SafetyCertificateFilled';
+import SafetyCertificateFilledSvg from 'icon-base/es/asn/SafetyCertificateFilled';
 
 export interface SafetyCertificateFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import AndroidFilledSvg from '@ant-design/icons-svg/es/asn/AndroidFilled';
+import AndroidFilledSvg from 'icon-base/es/asn/AndroidFilled';
 
 export interface AndroidFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

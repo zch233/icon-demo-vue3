@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import HeartFilledSvg from '@ant-design/icons-svg/es/asn/HeartFilled';
+import HeartFilledSvg from 'icon-base/es/asn/HeartFilled';
 
 export interface HeartFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

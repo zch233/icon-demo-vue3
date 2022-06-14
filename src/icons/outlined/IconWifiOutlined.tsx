@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import WifiOutlinedSvg from '@ant-design/icons-svg/es/asn/WifiOutlined';
+import WifiOutlinedSvg from 'icon-base/es/asn/WifiOutlined';
 
 export interface WifiOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

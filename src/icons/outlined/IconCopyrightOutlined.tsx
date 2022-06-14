@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CopyrightOutlinedSvg from '@ant-design/icons-svg/es/asn/CopyrightOutlined';
+import CopyrightOutlinedSvg from 'icon-base/es/asn/CopyrightOutlined';
 
 export interface CopyrightOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

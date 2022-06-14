@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import TaobaoSquareFilledSvg from '@ant-design/icons-svg/es/asn/TaobaoSquareFilled';
+import TaobaoSquareFilledSvg from 'icon-base/es/asn/TaobaoSquareFilled';
 
 export interface TaobaoSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

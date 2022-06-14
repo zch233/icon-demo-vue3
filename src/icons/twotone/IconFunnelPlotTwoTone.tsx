@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import FunnelPlotTwoToneSvg from '@ant-design/icons-svg/es/asn/FunnelPlotTwoTone';
+import FunnelPlotTwoToneSvg from 'icon-base/es/asn/FunnelPlotTwoTone';
 
 export interface FunnelPlotTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

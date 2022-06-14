@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import RadiusBottomrightOutlinedSvg from '@ant-design/icons-svg/es/asn/RadiusBottomrightOutlined';
+import RadiusBottomrightOutlinedSvg from 'icon-base/es/asn/RadiusBottomrightOutlined';
 
 export interface RadiusBottomrightOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ColumnHeightOutlinedSvg from '@ant-design/icons-svg/es/asn/ColumnHeightOutlined';
+import ColumnHeightOutlinedSvg from 'icon-base/es/asn/ColumnHeightOutlined';
 
 export interface ColumnHeightOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

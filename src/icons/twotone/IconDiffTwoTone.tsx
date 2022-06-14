@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import DiffTwoToneSvg from '@ant-design/icons-svg/es/asn/DiffTwoTone';
+import DiffTwoToneSvg from 'icon-base/es/asn/DiffTwoTone';
 
 export interface DiffTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

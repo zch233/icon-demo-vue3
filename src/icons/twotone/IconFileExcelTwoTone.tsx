@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import FileExcelTwoToneSvg from '@ant-design/icons-svg/es/asn/FileExcelTwoTone';
+import FileExcelTwoToneSvg from 'icon-base/es/asn/FileExcelTwoTone';
 
 export interface FileExcelTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import QuestionCircleTwoToneSvg from '@ant-design/icons-svg/es/asn/QuestionCircleTwoTone';
+import QuestionCircleTwoToneSvg from 'icon-base/es/asn/QuestionCircleTwoTone';
 
 export interface QuestionCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

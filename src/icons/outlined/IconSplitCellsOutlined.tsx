@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import SplitCellsOutlinedSvg from '@ant-design/icons-svg/es/asn/SplitCellsOutlined';
+import SplitCellsOutlinedSvg from 'icon-base/es/asn/SplitCellsOutlined';
 
 export interface SplitCellsOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

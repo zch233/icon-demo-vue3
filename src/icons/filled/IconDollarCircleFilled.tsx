@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import DollarCircleFilledSvg from '@ant-design/icons-svg/es/asn/DollarCircleFilled';
+import DollarCircleFilledSvg from 'icon-base/es/asn/DollarCircleFilled';
 
 export interface DollarCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

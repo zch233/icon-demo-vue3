@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import GooglePlusSquareFilledSvg from '@ant-design/icons-svg/es/asn/GooglePlusSquareFilled';
+import GooglePlusSquareFilledSvg from 'icon-base/es/asn/GooglePlusSquareFilled';
 
 export interface GooglePlusSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CompassTwoToneSvg from '@ant-design/icons-svg/es/asn/CompassTwoTone';
+import CompassTwoToneSvg from 'icon-base/es/asn/CompassTwoTone';
 
 export interface CompassTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

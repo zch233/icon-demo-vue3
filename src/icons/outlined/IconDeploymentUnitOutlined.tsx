@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import DeploymentUnitOutlinedSvg from '@ant-design/icons-svg/es/asn/DeploymentUnitOutlined';
+import DeploymentUnitOutlinedSvg from 'icon-base/es/asn/DeploymentUnitOutlined';
 
 export interface DeploymentUnitOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

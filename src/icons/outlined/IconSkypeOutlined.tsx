@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import SkypeOutlinedSvg from '@ant-design/icons-svg/es/asn/SkypeOutlined';
+import SkypeOutlinedSvg from 'icon-base/es/asn/SkypeOutlined';
 
 export interface SkypeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

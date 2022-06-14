@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import RetweetOutlinedSvg from '@ant-design/icons-svg/es/asn/RetweetOutlined';
+import RetweetOutlinedSvg from 'icon-base/es/asn/RetweetOutlined';
 
 export interface RetweetOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

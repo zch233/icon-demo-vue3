@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import BehanceSquareFilledSvg from '@ant-design/icons-svg/es/asn/BehanceSquareFilled';
+import BehanceSquareFilledSvg from 'icon-base/es/asn/BehanceSquareFilled';
 
 export interface BehanceSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

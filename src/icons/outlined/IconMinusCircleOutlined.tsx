@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import MinusCircleOutlinedSvg from '@ant-design/icons-svg/es/asn/MinusCircleOutlined';
+import MinusCircleOutlinedSvg from 'icon-base/es/asn/MinusCircleOutlined';
 
 export interface MinusCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

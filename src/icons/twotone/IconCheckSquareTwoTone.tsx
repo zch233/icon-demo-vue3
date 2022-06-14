@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CheckSquareTwoToneSvg from '@ant-design/icons-svg/es/asn/CheckSquareTwoTone';
+import CheckSquareTwoToneSvg from 'icon-base/es/asn/CheckSquareTwoTone';
 
 export interface CheckSquareTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

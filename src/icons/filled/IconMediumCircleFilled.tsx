@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import MediumCircleFilledSvg from '@ant-design/icons-svg/es/asn/MediumCircleFilled';
+import MediumCircleFilledSvg from 'icon-base/es/asn/MediumCircleFilled';
 
 export interface MediumCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

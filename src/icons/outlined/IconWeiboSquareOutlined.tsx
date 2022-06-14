@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import WeiboSquareOutlinedSvg from '@ant-design/icons-svg/es/asn/WeiboSquareOutlined';
+import WeiboSquareOutlinedSvg from 'icon-base/es/asn/WeiboSquareOutlined';
 
 export interface WeiboSquareOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

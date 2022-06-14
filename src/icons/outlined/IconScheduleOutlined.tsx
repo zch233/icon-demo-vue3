@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ScheduleOutlinedSvg from '@ant-design/icons-svg/es/asn/ScheduleOutlined';
+import ScheduleOutlinedSvg from 'icon-base/es/asn/ScheduleOutlined';
 
 export interface ScheduleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

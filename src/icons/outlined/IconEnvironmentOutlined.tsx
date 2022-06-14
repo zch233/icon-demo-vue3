@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import EnvironmentOutlinedSvg from '@ant-design/icons-svg/es/asn/EnvironmentOutlined';
+import EnvironmentOutlinedSvg from 'icon-base/es/asn/EnvironmentOutlined';
 
 export interface EnvironmentOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

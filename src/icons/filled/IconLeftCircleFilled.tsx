@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import LeftCircleFilledSvg from '@ant-design/icons-svg/es/asn/LeftCircleFilled';
+import LeftCircleFilledSvg from 'icon-base/es/asn/LeftCircleFilled';
 
 export interface LeftCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import MobileFilledSvg from '@ant-design/icons-svg/es/asn/MobileFilled';
+import MobileFilledSvg from 'icon-base/es/asn/MobileFilled';
 
 export interface MobileFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

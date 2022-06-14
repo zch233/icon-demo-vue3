@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import UsbFilledSvg from '@ant-design/icons-svg/es/asn/UsbFilled';
+import UsbFilledSvg from 'icon-base/es/asn/UsbFilled';
 
 export interface UsbFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

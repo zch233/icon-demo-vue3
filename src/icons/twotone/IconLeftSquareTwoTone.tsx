@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import LeftSquareTwoToneSvg from '@ant-design/icons-svg/es/asn/LeftSquareTwoTone';
+import LeftSquareTwoToneSvg from 'icon-base/es/asn/LeftSquareTwoTone';
 
 export interface LeftSquareTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import DashboardOutlinedSvg from '@ant-design/icons-svg/es/asn/DashboardOutlined';
+import DashboardOutlinedSvg from 'icon-base/es/asn/DashboardOutlined';
 
 export interface DashboardOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

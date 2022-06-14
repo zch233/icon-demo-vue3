@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import QqSquareFilledSvg from '@ant-design/icons-svg/es/asn/QqSquareFilled';
+import QqSquareFilledSvg from 'icon-base/es/asn/QqSquareFilled';
 
 export interface QqSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

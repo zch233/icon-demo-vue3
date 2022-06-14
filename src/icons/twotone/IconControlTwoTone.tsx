@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ControlTwoToneSvg from '@ant-design/icons-svg/es/asn/ControlTwoTone';
+import ControlTwoToneSvg from 'icon-base/es/asn/ControlTwoTone';
 
 export interface ControlTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

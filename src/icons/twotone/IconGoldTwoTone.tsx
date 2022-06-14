@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import GoldTwoToneSvg from '@ant-design/icons-svg/es/asn/GoldTwoTone';
+import GoldTwoToneSvg from 'icon-base/es/asn/GoldTwoTone';
 
 export interface GoldTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import HourglassOutlinedSvg from '@ant-design/icons-svg/es/asn/HourglassOutlined';
+import HourglassOutlinedSvg from 'icon-base/es/asn/HourglassOutlined';
 
 export interface HourglassOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

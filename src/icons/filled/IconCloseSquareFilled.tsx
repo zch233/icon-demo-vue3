@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CloseSquareFilledSvg from '@ant-design/icons-svg/es/asn/CloseSquareFilled';
+import CloseSquareFilledSvg from 'icon-base/es/asn/CloseSquareFilled';
 
 export interface CloseSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

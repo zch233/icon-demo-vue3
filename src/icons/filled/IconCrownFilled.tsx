@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CrownFilledSvg from '@ant-design/icons-svg/es/asn/CrownFilled';
+import CrownFilledSvg from 'icon-base/es/asn/CrownFilled';
 
 export interface CrownFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

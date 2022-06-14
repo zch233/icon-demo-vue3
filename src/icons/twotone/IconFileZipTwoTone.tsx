@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import FileZipTwoToneSvg from '@ant-design/icons-svg/es/asn/FileZipTwoTone';
+import FileZipTwoToneSvg from 'icon-base/es/asn/FileZipTwoTone';
 
 export interface FileZipTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

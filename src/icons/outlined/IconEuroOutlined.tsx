@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import EuroOutlinedSvg from '@ant-design/icons-svg/es/asn/EuroOutlined';
+import EuroOutlinedSvg from 'icon-base/es/asn/EuroOutlined';
 
 export interface EuroOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

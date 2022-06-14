@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import TagsOutlinedSvg from '@ant-design/icons-svg/es/asn/TagsOutlined';
+import TagsOutlinedSvg from 'icon-base/es/asn/TagsOutlined';
 
 export interface TagsOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

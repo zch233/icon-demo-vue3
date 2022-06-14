@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import GoldenFilledSvg from '@ant-design/icons-svg/es/asn/GoldenFilled';
+import GoldenFilledSvg from 'icon-base/es/asn/GoldenFilled';
 
 export interface GoldenFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

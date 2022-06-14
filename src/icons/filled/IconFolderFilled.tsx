@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import FolderFilledSvg from '@ant-design/icons-svg/es/asn/FolderFilled';
+import FolderFilledSvg from 'icon-base/es/asn/FolderFilled';
 
 export interface FolderFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

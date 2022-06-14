@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import UnlockFilledSvg from '@ant-design/icons-svg/es/asn/UnlockFilled';
+import UnlockFilledSvg from 'icon-base/es/asn/UnlockFilled';
 
 export interface UnlockFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

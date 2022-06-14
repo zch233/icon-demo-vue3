@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import WalletTwoToneSvg from '@ant-design/icons-svg/es/asn/WalletTwoTone';
+import WalletTwoToneSvg from 'icon-base/es/asn/WalletTwoTone';
 
 export interface WalletTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CompressOutlinedSvg from '@ant-design/icons-svg/es/asn/CompressOutlined';
+import CompressOutlinedSvg from 'icon-base/es/asn/CompressOutlined';
 
 export interface CompressOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

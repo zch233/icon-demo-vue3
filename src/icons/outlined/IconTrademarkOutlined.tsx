@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import TrademarkOutlinedSvg from '@ant-design/icons-svg/es/asn/TrademarkOutlined';
+import TrademarkOutlinedSvg from 'icon-base/es/asn/TrademarkOutlined';
 
 export interface TrademarkOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

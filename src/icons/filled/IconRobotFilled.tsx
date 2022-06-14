@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import RobotFilledSvg from '@ant-design/icons-svg/es/asn/RobotFilled';
+import RobotFilledSvg from 'icon-base/es/asn/RobotFilled';
 
 export interface RobotFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

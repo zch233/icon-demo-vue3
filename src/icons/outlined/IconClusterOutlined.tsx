@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ClusterOutlinedSvg from '@ant-design/icons-svg/es/asn/ClusterOutlined';
+import ClusterOutlinedSvg from 'icon-base/es/asn/ClusterOutlined';
 
 export interface ClusterOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

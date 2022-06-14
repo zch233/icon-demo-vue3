@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import MehFilledSvg from '@ant-design/icons-svg/es/asn/MehFilled';
+import MehFilledSvg from 'icon-base/es/asn/MehFilled';
 
 export interface MehFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CaretLeftOutlinedSvg from '@ant-design/icons-svg/es/asn/CaretLeftOutlined';
+import CaretLeftOutlinedSvg from 'icon-base/es/asn/CaretLeftOutlined';
 
 export interface CaretLeftOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

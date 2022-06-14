@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import RightSquareFilledSvg from '@ant-design/icons-svg/es/asn/RightSquareFilled';
+import RightSquareFilledSvg from 'icon-base/es/asn/RightSquareFilled';
 
 export interface RightSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

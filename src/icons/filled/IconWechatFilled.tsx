@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import WechatFilledSvg from '@ant-design/icons-svg/es/asn/WechatFilled';
+import WechatFilledSvg from 'icon-base/es/asn/WechatFilled';
 
 export interface WechatFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

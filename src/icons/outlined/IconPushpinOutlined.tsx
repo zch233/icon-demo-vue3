@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import PushpinOutlinedSvg from '@ant-design/icons-svg/es/asn/PushpinOutlined';
+import PushpinOutlinedSvg from 'icon-base/es/asn/PushpinOutlined';
 
 export interface PushpinOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

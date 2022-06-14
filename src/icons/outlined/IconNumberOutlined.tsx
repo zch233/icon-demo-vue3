@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import NumberOutlinedSvg from '@ant-design/icons-svg/es/asn/NumberOutlined';
+import NumberOutlinedSvg from 'icon-base/es/asn/NumberOutlined';
 
 export interface NumberOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

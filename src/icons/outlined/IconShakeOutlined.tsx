@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ShakeOutlinedSvg from '@ant-design/icons-svg/es/asn/ShakeOutlined';
+import ShakeOutlinedSvg from 'icon-base/es/asn/ShakeOutlined';
 
 export interface ShakeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

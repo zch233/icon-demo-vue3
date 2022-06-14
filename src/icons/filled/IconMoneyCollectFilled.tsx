@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import MoneyCollectFilledSvg from '@ant-design/icons-svg/es/asn/MoneyCollectFilled';
+import MoneyCollectFilledSvg from 'icon-base/es/asn/MoneyCollectFilled';
 
 export interface MoneyCollectFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CloseSquareTwoToneSvg from '@ant-design/icons-svg/es/asn/CloseSquareTwoTone';
+import CloseSquareTwoToneSvg from 'icon-base/es/asn/CloseSquareTwoTone';
 
 export interface CloseSquareTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CodeSandboxOutlinedSvg from '@ant-design/icons-svg/es/asn/CodeSandboxOutlined';
+import CodeSandboxOutlinedSvg from 'icon-base/es/asn/CodeSandboxOutlined';
 
 export interface CodeSandboxOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

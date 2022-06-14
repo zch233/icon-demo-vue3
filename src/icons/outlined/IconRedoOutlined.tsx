@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import RedoOutlinedSvg from '@ant-design/icons-svg/es/asn/RedoOutlined';
+import RedoOutlinedSvg from 'icon-base/es/asn/RedoOutlined';
 
 export interface RedoOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

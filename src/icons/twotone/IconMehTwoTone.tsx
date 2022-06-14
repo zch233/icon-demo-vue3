@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import MehTwoToneSvg from '@ant-design/icons-svg/es/asn/MehTwoTone';
+import MehTwoToneSvg from 'icon-base/es/asn/MehTwoTone';
 
 export interface MehTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

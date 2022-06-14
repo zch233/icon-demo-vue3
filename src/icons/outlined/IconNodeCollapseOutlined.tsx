@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import NodeCollapseOutlinedSvg from '@ant-design/icons-svg/es/asn/NodeCollapseOutlined';
+import NodeCollapseOutlinedSvg from 'icon-base/es/asn/NodeCollapseOutlined';
 
 export interface NodeCollapseOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

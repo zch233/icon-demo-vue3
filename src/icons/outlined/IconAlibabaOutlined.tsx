@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import AlibabaOutlinedSvg from '@ant-design/icons-svg/es/asn/AlibabaOutlined';
+import AlibabaOutlinedSvg from 'icon-base/es/asn/AlibabaOutlined';
 
 export interface AlibabaOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

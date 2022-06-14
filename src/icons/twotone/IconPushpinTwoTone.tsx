@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import PushpinTwoToneSvg from '@ant-design/icons-svg/es/asn/PushpinTwoTone';
+import PushpinTwoToneSvg from 'icon-base/es/asn/PushpinTwoTone';
 
 export interface PushpinTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import SlidersFilledSvg from '@ant-design/icons-svg/es/asn/SlidersFilled';
+import SlidersFilledSvg from 'icon-base/es/asn/SlidersFilled';
 
 export interface SlidersFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

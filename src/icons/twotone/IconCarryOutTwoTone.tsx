@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CarryOutTwoToneSvg from '@ant-design/icons-svg/es/asn/CarryOutTwoTone';
+import CarryOutTwoToneSvg from 'icon-base/es/asn/CarryOutTwoTone';
 
 export interface CarryOutTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

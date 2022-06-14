@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ReconciliationTwoToneSvg from '@ant-design/icons-svg/es/asn/ReconciliationTwoTone';
+import ReconciliationTwoToneSvg from 'icon-base/es/asn/ReconciliationTwoTone';
 
 export interface ReconciliationTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

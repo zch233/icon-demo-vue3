@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import DiffFilledSvg from '@ant-design/icons-svg/es/asn/DiffFilled';
+import DiffFilledSvg from 'icon-base/es/asn/DiffFilled';
 
 export interface DiffFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import YuqueOutlinedSvg from '@ant-design/icons-svg/es/asn/YuqueOutlined';
+import YuqueOutlinedSvg from 'icon-base/es/asn/YuqueOutlined';
 
 export interface YuqueOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

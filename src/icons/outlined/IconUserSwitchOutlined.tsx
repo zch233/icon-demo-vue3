@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import UserSwitchOutlinedSvg from '@ant-design/icons-svg/es/asn/UserSwitchOutlined';
+import UserSwitchOutlinedSvg from 'icon-base/es/asn/UserSwitchOutlined';
 
 export interface UserSwitchOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

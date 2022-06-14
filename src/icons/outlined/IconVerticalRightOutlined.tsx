@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import VerticalRightOutlinedSvg from '@ant-design/icons-svg/es/asn/VerticalRightOutlined';
+import VerticalRightOutlinedSvg from 'icon-base/es/asn/VerticalRightOutlined';
 
 export interface VerticalRightOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

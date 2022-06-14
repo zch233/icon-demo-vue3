@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import RadarChartOutlinedSvg from '@ant-design/icons-svg/es/asn/RadarChartOutlined';
+import RadarChartOutlinedSvg from 'icon-base/es/asn/RadarChartOutlined';
 
 export interface RadarChartOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

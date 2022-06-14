@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import DashboardFilledSvg from '@ant-design/icons-svg/es/asn/DashboardFilled';
+import DashboardFilledSvg from 'icon-base/es/asn/DashboardFilled';
 
 export interface DashboardFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

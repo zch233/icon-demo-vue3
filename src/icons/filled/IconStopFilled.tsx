@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import StopFilledSvg from '@ant-design/icons-svg/es/asn/StopFilled';
+import StopFilledSvg from 'icon-base/es/asn/StopFilled';
 
 export interface StopFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

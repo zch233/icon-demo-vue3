@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import HeatMapOutlinedSvg from '@ant-design/icons-svg/es/asn/HeatMapOutlined';
+import HeatMapOutlinedSvg from 'icon-base/es/asn/HeatMapOutlined';
 
 export interface HeatMapOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

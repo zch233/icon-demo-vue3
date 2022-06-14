@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import AliyunOutlinedSvg from '@ant-design/icons-svg/es/asn/AliyunOutlined';
+import AliyunOutlinedSvg from 'icon-base/es/asn/AliyunOutlined';
 
 export interface AliyunOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

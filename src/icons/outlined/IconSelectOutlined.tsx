@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import SelectOutlinedSvg from '@ant-design/icons-svg/es/asn/SelectOutlined';
+import SelectOutlinedSvg from 'icon-base/es/asn/SelectOutlined';
 
 export interface SelectOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

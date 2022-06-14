@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CreditCardFilledSvg from '@ant-design/icons-svg/es/asn/CreditCardFilled';
+import CreditCardFilledSvg from 'icon-base/es/asn/CreditCardFilled';
 
 export interface CreditCardFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

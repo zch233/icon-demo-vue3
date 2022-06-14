@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import FastBackwardOutlinedSvg from '@ant-design/icons-svg/es/asn/FastBackwardOutlined';
+import FastBackwardOutlinedSvg from 'icon-base/es/asn/FastBackwardOutlined';
 
 export interface FastBackwardOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

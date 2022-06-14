@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import FileExclamationFilledSvg from '@ant-design/icons-svg/es/asn/FileExclamationFilled';
+import FileExclamationFilledSvg from 'icon-base/es/asn/FileExclamationFilled';
 
 export interface FileExclamationFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

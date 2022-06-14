@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import FacebookFilledSvg from '@ant-design/icons-svg/es/asn/FacebookFilled';
+import FacebookFilledSvg from 'icon-base/es/asn/FacebookFilled';
 
 export interface FacebookFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

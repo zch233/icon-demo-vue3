@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import StarFilledSvg from '@ant-design/icons-svg/es/asn/StarFilled';
+import StarFilledSvg from 'icon-base/es/asn/StarFilled';
 
 export interface StarFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

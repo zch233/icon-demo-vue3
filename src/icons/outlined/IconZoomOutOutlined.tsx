@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ZoomOutOutlinedSvg from '@ant-design/icons-svg/es/asn/ZoomOutOutlined';
+import ZoomOutOutlinedSvg from 'icon-base/es/asn/ZoomOutOutlined';
 
 export interface ZoomOutOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

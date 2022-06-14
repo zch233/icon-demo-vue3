@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CopyrightCircleFilledSvg from '@ant-design/icons-svg/es/asn/CopyrightCircleFilled';
+import CopyrightCircleFilledSvg from 'icon-base/es/asn/CopyrightCircleFilled';
 
 export interface CopyrightCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

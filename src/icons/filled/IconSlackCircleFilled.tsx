@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import SlackCircleFilledSvg from '@ant-design/icons-svg/es/asn/SlackCircleFilled';
+import SlackCircleFilledSvg from 'icon-base/es/asn/SlackCircleFilled';
 
 export interface SlackCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

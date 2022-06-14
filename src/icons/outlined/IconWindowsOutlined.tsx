@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import WindowsOutlinedSvg from '@ant-design/icons-svg/es/asn/WindowsOutlined';
+import WindowsOutlinedSvg from 'icon-base/es/asn/WindowsOutlined';
 
 export interface WindowsOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

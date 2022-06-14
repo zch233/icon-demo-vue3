@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import BorderlessTableOutlinedSvg from '@ant-design/icons-svg/es/asn/BorderlessTableOutlined';
+import BorderlessTableOutlinedSvg from 'icon-base/es/asn/BorderlessTableOutlined';
 
 export interface BorderlessTableOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

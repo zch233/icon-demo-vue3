@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import HddFilledSvg from '@ant-design/icons-svg/es/asn/HddFilled';
+import HddFilledSvg from 'icon-base/es/asn/HddFilled';
 
 export interface HddFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

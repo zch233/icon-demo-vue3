@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ZhihuCircleFilledSvg from '@ant-design/icons-svg/es/asn/ZhihuCircleFilled';
+import ZhihuCircleFilledSvg from 'icon-base/es/asn/ZhihuCircleFilled';
 
 export interface ZhihuCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

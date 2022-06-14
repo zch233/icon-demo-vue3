@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import FundProjectionScreenOutlinedSvg from '@ant-design/icons-svg/es/asn/FundProjectionScreenOutlined';
+import FundProjectionScreenOutlinedSvg from 'icon-base/es/asn/FundProjectionScreenOutlined';
 
 export interface FundProjectionScreenOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

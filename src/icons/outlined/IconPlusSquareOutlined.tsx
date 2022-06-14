@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import PlusSquareOutlinedSvg from '@ant-design/icons-svg/es/asn/PlusSquareOutlined';
+import PlusSquareOutlinedSvg from 'icon-base/es/asn/PlusSquareOutlined';
 
 export interface PlusSquareOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

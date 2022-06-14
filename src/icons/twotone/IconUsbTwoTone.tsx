@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import UsbTwoToneSvg from '@ant-design/icons-svg/es/asn/UsbTwoTone';
+import UsbTwoToneSvg from 'icon-base/es/asn/UsbTwoTone';
 
 export interface UsbTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

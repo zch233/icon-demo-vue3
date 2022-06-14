@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import DeleteFilledSvg from '@ant-design/icons-svg/es/asn/DeleteFilled';
+import DeleteFilledSvg from 'icon-base/es/asn/DeleteFilled';
 
 export interface DeleteFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import UnlockTwoToneSvg from '@ant-design/icons-svg/es/asn/UnlockTwoTone';
+import UnlockTwoToneSvg from 'icon-base/es/asn/UnlockTwoTone';
 
 export interface UnlockTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

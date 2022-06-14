@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import StepForwardOutlinedSvg from '@ant-design/icons-svg/es/asn/StepForwardOutlined';
+import StepForwardOutlinedSvg from 'icon-base/es/asn/StepForwardOutlined';
 
 export interface StepForwardOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

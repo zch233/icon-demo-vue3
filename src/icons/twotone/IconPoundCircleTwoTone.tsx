@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import PoundCircleTwoToneSvg from '@ant-design/icons-svg/es/asn/PoundCircleTwoTone';
+import PoundCircleTwoToneSvg from 'icon-base/es/asn/PoundCircleTwoTone';
 
 export interface PoundCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

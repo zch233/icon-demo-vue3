@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import FolderViewOutlinedSvg from '@ant-design/icons-svg/es/asn/FolderViewOutlined';
+import FolderViewOutlinedSvg from 'icon-base/es/asn/FolderViewOutlined';
 
 export interface FolderViewOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

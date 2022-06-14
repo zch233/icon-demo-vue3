@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import YahooOutlinedSvg from '@ant-design/icons-svg/es/asn/YahooOutlined';
+import YahooOutlinedSvg from 'icon-base/es/asn/YahooOutlined';
 
 export interface YahooOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

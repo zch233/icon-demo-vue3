@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CameraTwoToneSvg from '@ant-design/icons-svg/es/asn/CameraTwoTone';
+import CameraTwoToneSvg from 'icon-base/es/asn/CameraTwoTone';
 
 export interface CameraTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

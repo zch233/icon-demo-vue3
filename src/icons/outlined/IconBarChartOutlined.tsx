@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import BarChartOutlinedSvg from '@ant-design/icons-svg/es/asn/BarChartOutlined';
+import BarChartOutlinedSvg from 'icon-base/es/asn/BarChartOutlined';
 
 export interface BarChartOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

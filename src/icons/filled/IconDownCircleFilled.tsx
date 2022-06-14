@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import DownCircleFilledSvg from '@ant-design/icons-svg/es/asn/DownCircleFilled';
+import DownCircleFilledSvg from 'icon-base/es/asn/DownCircleFilled';
 
 export interface DownCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

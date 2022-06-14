@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import Html5TwoToneSvg from '@ant-design/icons-svg/es/asn/Html5TwoTone';
+import Html5TwoToneSvg from 'icon-base/es/asn/Html5TwoTone';
 
 export interface Html5TwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

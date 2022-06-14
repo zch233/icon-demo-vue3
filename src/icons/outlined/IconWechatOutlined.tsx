@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import WechatOutlinedSvg from '@ant-design/icons-svg/es/asn/WechatOutlined';
+import WechatOutlinedSvg from 'icon-base/es/asn/WechatOutlined';
 
 export interface WechatOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

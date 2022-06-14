@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ZhihuOutlinedSvg from '@ant-design/icons-svg/es/asn/ZhihuOutlined';
+import ZhihuOutlinedSvg from 'icon-base/es/asn/ZhihuOutlined';
 
 export interface ZhihuOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

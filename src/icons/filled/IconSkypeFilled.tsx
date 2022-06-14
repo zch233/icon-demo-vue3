@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import SkypeFilledSvg from '@ant-design/icons-svg/es/asn/SkypeFilled';
+import SkypeFilledSvg from 'icon-base/es/asn/SkypeFilled';
 
 export interface SkypeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

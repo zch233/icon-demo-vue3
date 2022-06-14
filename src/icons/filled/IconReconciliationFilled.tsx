@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ReconciliationFilledSvg from '@ant-design/icons-svg/es/asn/ReconciliationFilled';
+import ReconciliationFilledSvg from 'icon-base/es/asn/ReconciliationFilled';
 
 export interface ReconciliationFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

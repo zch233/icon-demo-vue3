@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import UnlockOutlinedSvg from '@ant-design/icons-svg/es/asn/UnlockOutlined';
+import UnlockOutlinedSvg from 'icon-base/es/asn/UnlockOutlined';
 
 export interface UnlockOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

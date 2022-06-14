@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import CodeFilledSvg from '@ant-design/icons-svg/es/asn/CodeFilled';
+import CodeFilledSvg from 'icon-base/es/asn/CodeFilled';
 
 export interface CodeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

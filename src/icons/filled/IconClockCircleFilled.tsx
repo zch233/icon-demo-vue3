@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ClockCircleFilledSvg from '@ant-design/icons-svg/es/asn/ClockCircleFilled';
+import ClockCircleFilledSvg from 'icon-base/es/asn/ClockCircleFilled';
 
 export interface ClockCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

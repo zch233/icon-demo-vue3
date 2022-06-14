@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import QuestionCircleOutlinedSvg from '@ant-design/icons-svg/es/asn/QuestionCircleOutlined';
+import QuestionCircleOutlinedSvg from 'icon-base/es/asn/QuestionCircleOutlined';
 
 export interface QuestionCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

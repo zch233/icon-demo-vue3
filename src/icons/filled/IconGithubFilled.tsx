@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import GithubFilledSvg from '@ant-design/icons-svg/es/asn/GithubFilled';
+import GithubFilledSvg from 'icon-base/es/asn/GithubFilled';
 
 export interface GithubFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

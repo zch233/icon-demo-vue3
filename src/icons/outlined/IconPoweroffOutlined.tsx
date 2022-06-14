@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import PoweroffOutlinedSvg from '@ant-design/icons-svg/es/asn/PoweroffOutlined';
+import PoweroffOutlinedSvg from 'icon-base/es/asn/PoweroffOutlined';
 
 export interface PoweroffOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

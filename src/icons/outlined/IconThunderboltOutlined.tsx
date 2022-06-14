@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ThunderboltOutlinedSvg from '@ant-design/icons-svg/es/asn/ThunderboltOutlined';
+import ThunderboltOutlinedSvg from 'icon-base/es/asn/ThunderboltOutlined';
 
 export interface ThunderboltOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

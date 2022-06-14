@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ArrowDownOutlinedSvg from '@ant-design/icons-svg/es/asn/ArrowDownOutlined';
+import ArrowDownOutlinedSvg from 'icon-base/es/asn/ArrowDownOutlined';
 
 export interface ArrowDownOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

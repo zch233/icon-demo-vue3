@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import IssuesCloseOutlinedSvg from '@ant-design/icons-svg/es/asn/IssuesCloseOutlined';
+import IssuesCloseOutlinedSvg from 'icon-base/es/asn/IssuesCloseOutlined';
 
 export interface IssuesCloseOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

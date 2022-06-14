@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import FallOutlinedSvg from '@ant-design/icons-svg/es/asn/FallOutlined';
+import FallOutlinedSvg from 'icon-base/es/asn/FallOutlined';
 
 export interface FallOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

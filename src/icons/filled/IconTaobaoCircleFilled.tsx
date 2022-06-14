@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import TaobaoCircleFilledSvg from '@ant-design/icons-svg/es/asn/TaobaoCircleFilled';
+import TaobaoCircleFilledSvg from 'icon-base/es/asn/TaobaoCircleFilled';
 
 export interface TaobaoCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

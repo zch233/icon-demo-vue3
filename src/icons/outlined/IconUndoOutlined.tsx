@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import UndoOutlinedSvg from '@ant-design/icons-svg/es/asn/UndoOutlined';
+import UndoOutlinedSvg from 'icon-base/es/asn/UndoOutlined';
 
 export interface UndoOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

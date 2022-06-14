@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import DislikeTwoToneSvg from '@ant-design/icons-svg/es/asn/DislikeTwoTone';
+import DislikeTwoToneSvg from 'icon-base/es/asn/DislikeTwoTone';
 
 export interface DislikeTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

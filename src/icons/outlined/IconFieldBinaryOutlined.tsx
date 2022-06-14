@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import FieldBinaryOutlinedSvg from '@ant-design/icons-svg/es/asn/FieldBinaryOutlined';
+import FieldBinaryOutlinedSvg from 'icon-base/es/asn/FieldBinaryOutlined';
 
 export interface FieldBinaryOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

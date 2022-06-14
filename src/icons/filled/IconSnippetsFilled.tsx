@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import SnippetsFilledSvg from '@ant-design/icons-svg/es/asn/SnippetsFilled';
+import SnippetsFilledSvg from 'icon-base/es/asn/SnippetsFilled';
 
 export interface SnippetsFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

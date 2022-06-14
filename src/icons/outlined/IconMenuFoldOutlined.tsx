@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import MenuFoldOutlinedSvg from '@ant-design/icons-svg/es/asn/MenuFoldOutlined';
+import MenuFoldOutlinedSvg from 'icon-base/es/asn/MenuFoldOutlined';
 
 export interface MenuFoldOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

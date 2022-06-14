@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import SwitcherTwoToneSvg from '@ant-design/icons-svg/es/asn/SwitcherTwoTone';
+import SwitcherTwoToneSvg from 'icon-base/es/asn/SwitcherTwoTone';
 
 export interface SwitcherTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

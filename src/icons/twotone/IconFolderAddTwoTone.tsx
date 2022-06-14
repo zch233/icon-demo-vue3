@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import FolderAddTwoToneSvg from '@ant-design/icons-svg/es/asn/FolderAddTwoTone';
+import FolderAddTwoToneSvg from 'icon-base/es/asn/FolderAddTwoTone';
 
 export interface FolderAddTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;

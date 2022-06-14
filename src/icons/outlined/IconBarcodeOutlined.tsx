@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import BarcodeOutlinedSvg from '@ant-design/icons-svg/es/asn/BarcodeOutlined';
+import BarcodeOutlinedSvg from 'icon-base/es/asn/BarcodeOutlined';
 
 export interface BarcodeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

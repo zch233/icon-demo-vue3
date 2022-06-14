@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import WhatsAppOutlinedSvg from '@ant-design/icons-svg/es/asn/WhatsAppOutlined';
+import WhatsAppOutlinedSvg from 'icon-base/es/asn/WhatsAppOutlined';
 
 export interface WhatsAppOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import DribbbleCircleFilledSvg from '@ant-design/icons-svg/es/asn/DribbbleCircleFilled';
+import DribbbleCircleFilledSvg from 'icon-base/es/asn/DribbbleCircleFilled';
 
 export interface DribbbleCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;

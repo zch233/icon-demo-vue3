@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import MedicineBoxOutlinedSvg from '@ant-design/icons-svg/es/asn/MedicineBoxOutlined';
+import MedicineBoxOutlinedSvg from 'icon-base/es/asn/MedicineBoxOutlined';
 
 export interface MedicineBoxOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;

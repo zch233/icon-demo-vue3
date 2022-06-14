@@ -3,7 +3,7 @@
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import RedEnvelopeFilledSvg from '@ant-design/icons-svg/es/asn/RedEnvelopeFilled';
+import RedEnvelopeFilledSvg from 'icon-base/es/asn/RedEnvelopeFilled';
 
 export interface RedEnvelopeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
