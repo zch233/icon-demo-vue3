@@ -1,4 +1,4 @@
-import * as allIconDefs from '@ant-design/icons-svg';
+import * as allIconDefs from 'icon-base';
 import * as path from 'path';
 import * as fs from 'fs';
 import { promisify } from 'util';
@@ -24,7 +24,7 @@ ${codeRemark}
 
 import { FunctionalComponent } from 'vue';
 import Icon, { IconProps } from '../../components/Icon';
-import ${svgIdentifier}Svg from '@ant-design/icons-svg/es/asn/${svgIdentifier}';
+import ${svgIdentifier}Svg from 'icon-base/es/asn/${svgIdentifier}';
 
 export interface ${svgIdentifier}IconType extends FunctionalComponent<IconProps> {
     displayName: string;

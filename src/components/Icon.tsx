@@ -1,5 +1,5 @@
 import { FunctionalComponent, HTMLAttributes } from 'vue';
-import { AbstractNode, IconDefinition } from '@ant-design/icons-svg/es/types';
+import { AbstractNode, IconDefinition } from 'icon-base/es/types';
 import { generateSvgNode, useInsertStyles } from '../utils';
 import { generate as generateColor } from '@ant-design/colors';
 

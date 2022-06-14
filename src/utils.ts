@@ -1,6 +1,6 @@
-import { h, nextTick } from "vue";
+import { h, nextTick } from 'vue';
 import insertCss from './insert-css';
-import { AbstractNode } from "@ant-design/icons-svg/es/types";
+import { AbstractNode } from 'icon-base/es/types';
 
 export const iconStyles = `
 .gupoIcon {
