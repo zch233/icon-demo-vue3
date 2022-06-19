@@ -7,6 +7,7 @@ export interface IconProps extends HTMLAttributes {
     spin?: boolean;
     rotate?: number;
     size?: number;
+    color?: string;
     icon?: IconDefinition;
     name?: string;
     primaryColor?: string; // only for two-tone
@@ -48,7 +49,7 @@ const Icon: FunctionalComponent<IconProps> = (props, context) => {
         const color = primaryColor || '#1890ff';
         target = {
             ...target,
-            icon: target.icon(color, secondaryColor ? generateColor(secondaryColor)[0] : generateColor(color)[0]),
+            icon: target.icon(color, secondaryColor || generateColor(color)[0])
         };
     }
     return target ? (
