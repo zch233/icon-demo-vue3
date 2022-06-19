@@ -49,7 +49,7 @@ const Icon: FunctionalComponent<IconProps> = (props, context) => {
         const color = primaryColor || '#1890ff';
         target = {
             ...target,
-            icon: target.icon(color, secondaryColor || generateColor(color)[0])
+            icon: target.icon(color, secondaryColor || generateColor(color)[0]),
         };
     }
     return target ? (
