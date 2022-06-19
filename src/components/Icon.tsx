@@ -15,7 +15,7 @@ export interface IconProps extends HTMLAttributes {
 
 const Icon: FunctionalComponent<IconProps> = (props, context) => {
     const { attrs, slots } = context;
-    const { spin, rotate, size, icon, name, primaryColor, secondaryColor, ...restProps } = { ...props, ...attrs };
+    const { spin, rotate, size, icon, name, color, primaryColor, secondaryColor, ...restProps } = { ...props, ...attrs };
     const children = slots.default && slots.default();
     const classResult = {
         gupoIcon: true,
@@ -33,6 +33,11 @@ const Icon: FunctionalComponent<IconProps> = (props, context) => {
         ...(size
             ? {
                   fontSize: `${size}px`,
+              }
+            : undefined),
+        ...(color
+            ? {
+                  color,
               }
             : undefined),
     };
