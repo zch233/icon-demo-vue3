@@ -23,13 +23,11 @@ export const createFromIconfont = (options: CustomIconOptions): FunctionalCompon
     return (props, context) => {
         const { icon, prefix, ...restProps } = { ...extraCommonProps, ...props, ...context.attrs };
         return (
-            <>
-                <Icon {...restProps} name={icon}>
-                    <svg class='gupoIcon-icon' aria-hidden='true'>
-                        <use xlinkHref={`#${prefix || 'icon'}-${icon}`} />
-                    </svg>
-                </Icon>
-            </>
+            <Icon {...restProps} name={icon}>
+                <svg class='gupoIcon-icon' aria-hidden='true'>
+                    <use xlinkHref={`#${prefix || 'icon'}-${icon}`} />
+                </svg>
+            </Icon>
         );
     };
 };
