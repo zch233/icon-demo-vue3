@@ -1,6 +1,6 @@
 {
     "name": "icon-vue3",
-    "version": "0.0.31",
+    "version": "0.0.32",
     "main": "./lib/index.js",
     "module": "./es/index.js",
     "files": [
@@ -33,7 +33,7 @@
     },
     "dependencies": {
         "@ant-design/colors": "^6.0.0",
-        "icon-base": "^0.0.6",
+        "icon-base": "^0.0.7",
         "vue": "3.2.33"
     },
     "devDependencies": {
