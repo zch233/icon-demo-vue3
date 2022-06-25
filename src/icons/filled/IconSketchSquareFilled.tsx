@@ -14,5 +14,7 @@ const IconSketchSquareFilled: SketchSquareFilledIconType = (props, context) => (
 );
 
 IconSketchSquareFilled.displayName = 'IconSketchSquareFilled';
+IconSketchSquareFilled.theme = 'filled';
+IconSketchSquareFilled.originName = 'sketch-square';
 
 export default IconSketchSquareFilled;

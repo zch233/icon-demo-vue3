@@ -14,5 +14,7 @@ const IconInfoCircleOutlined: InfoCircleOutlinedIconType = (props, context) => (
 );
 
 IconInfoCircleOutlined.displayName = 'IconInfoCircleOutlined';
+IconInfoCircleOutlined.theme = 'outlined';
+IconInfoCircleOutlined.originName = 'info-circle';
 
 export default IconInfoCircleOutlined;

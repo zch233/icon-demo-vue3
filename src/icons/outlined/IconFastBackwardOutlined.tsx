@@ -14,5 +14,7 @@ const IconFastBackwardOutlined: FastBackwardOutlinedIconType = (props, context) 
 );
 
 IconFastBackwardOutlined.displayName = 'IconFastBackwardOutlined';
+IconFastBackwardOutlined.theme = 'outlined';
+IconFastBackwardOutlined.originName = 'fast-backward';
 
 export default IconFastBackwardOutlined;

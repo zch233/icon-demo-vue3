@@ -9,10 +9,10 @@ export interface EyeTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconEyeTwoTone: EyeTwoToneIconType = (props, context) => (
-    <Icon name='EyeTwoTone' {...{ ...props, ...context.attrs }} icon={EyeTwoToneSvg} />
-);
+const IconEyeTwoTone: EyeTwoToneIconType = (props, context) => <Icon name='EyeTwoTone' {...{ ...props, ...context.attrs }} icon={EyeTwoToneSvg} />;
 
 IconEyeTwoTone.displayName = 'IconEyeTwoTone';
+IconEyeTwoTone.theme = 'twotone';
+IconEyeTwoTone.originName = 'eye';
 
 export default IconEyeTwoTone;

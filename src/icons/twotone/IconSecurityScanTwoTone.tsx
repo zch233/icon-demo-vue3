@@ -14,5 +14,7 @@ const IconSecurityScanTwoTone: SecurityScanTwoToneIconType = (props, context) =>
 );
 
 IconSecurityScanTwoTone.displayName = 'IconSecurityScanTwoTone';
+IconSecurityScanTwoTone.theme = 'twotone';
+IconSecurityScanTwoTone.originName = 'security-scan';
 
 export default IconSecurityScanTwoTone;

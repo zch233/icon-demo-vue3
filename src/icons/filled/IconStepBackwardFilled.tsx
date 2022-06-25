@@ -14,5 +14,7 @@ const IconStepBackwardFilled: StepBackwardFilledIconType = (props, context) => (
 );
 
 IconStepBackwardFilled.displayName = 'IconStepBackwardFilled';
+IconStepBackwardFilled.theme = 'filled';
+IconStepBackwardFilled.originName = 'step-backward';
 
 export default IconStepBackwardFilled;

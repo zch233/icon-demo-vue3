@@ -9,10 +9,10 @@ export interface LayoutFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconLayoutFilled: LayoutFilledIconType = (props, context) => (
-    <Icon name='LayoutFilled' {...{ ...props, ...context.attrs }} icon={LayoutFilledSvg} />
-);
+const IconLayoutFilled: LayoutFilledIconType = (props, context) => <Icon name='LayoutFilled' {...{ ...props, ...context.attrs }} icon={LayoutFilledSvg} />;
 
 IconLayoutFilled.displayName = 'IconLayoutFilled';
+IconLayoutFilled.theme = 'filled';
+IconLayoutFilled.originName = 'layout';
 
 export default IconLayoutFilled;

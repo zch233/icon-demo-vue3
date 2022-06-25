@@ -9,10 +9,10 @@ export interface BlockOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBlockOutlined: BlockOutlinedIconType = (props, context) => (
-    <Icon name='BlockOutlined' {...{ ...props, ...context.attrs }} icon={BlockOutlinedSvg} />
-);
+const IconBlockOutlined: BlockOutlinedIconType = (props, context) => <Icon name='BlockOutlined' {...{ ...props, ...context.attrs }} icon={BlockOutlinedSvg} />;
 
 IconBlockOutlined.displayName = 'IconBlockOutlined';
+IconBlockOutlined.theme = 'outlined';
+IconBlockOutlined.originName = 'block';
 
 export default IconBlockOutlined;

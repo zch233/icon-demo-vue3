@@ -14,5 +14,7 @@ const IconTrophyOutlined: TrophyOutlinedIconType = (props, context) => (
 );
 
 IconTrophyOutlined.displayName = 'IconTrophyOutlined';
+IconTrophyOutlined.theme = 'outlined';
+IconTrophyOutlined.originName = 'trophy';
 
 export default IconTrophyOutlined;

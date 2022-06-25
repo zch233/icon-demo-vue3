@@ -14,5 +14,7 @@ const IconPictureOutlined: PictureOutlinedIconType = (props, context) => (
 );
 
 IconPictureOutlined.displayName = 'IconPictureOutlined';
+IconPictureOutlined.theme = 'outlined';
+IconPictureOutlined.originName = 'picture';
 
 export default IconPictureOutlined;

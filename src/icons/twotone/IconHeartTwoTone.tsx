@@ -9,10 +9,10 @@ export interface HeartTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconHeartTwoTone: HeartTwoToneIconType = (props, context) => (
-    <Icon name='HeartTwoTone' {...{ ...props, ...context.attrs }} icon={HeartTwoToneSvg} />
-);
+const IconHeartTwoTone: HeartTwoToneIconType = (props, context) => <Icon name='HeartTwoTone' {...{ ...props, ...context.attrs }} icon={HeartTwoToneSvg} />;
 
 IconHeartTwoTone.displayName = 'IconHeartTwoTone';
+IconHeartTwoTone.theme = 'twotone';
+IconHeartTwoTone.originName = 'heart';
 
 export default IconHeartTwoTone;

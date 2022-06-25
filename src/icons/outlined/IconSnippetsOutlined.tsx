@@ -14,5 +14,7 @@ const IconSnippetsOutlined: SnippetsOutlinedIconType = (props, context) => (
 );
 
 IconSnippetsOutlined.displayName = 'IconSnippetsOutlined';
+IconSnippetsOutlined.theme = 'outlined';
+IconSnippetsOutlined.originName = 'snippets';
 
 export default IconSnippetsOutlined;

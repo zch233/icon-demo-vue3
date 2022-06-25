@@ -14,5 +14,7 @@ const IconDoubleRightOutlined: DoubleRightOutlinedIconType = (props, context) =>
 );
 
 IconDoubleRightOutlined.displayName = 'IconDoubleRightOutlined';
+IconDoubleRightOutlined.theme = 'outlined';
+IconDoubleRightOutlined.originName = 'double-right';
 
 export default IconDoubleRightOutlined;

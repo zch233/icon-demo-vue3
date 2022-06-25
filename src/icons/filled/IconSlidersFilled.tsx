@@ -9,10 +9,10 @@ export interface SlidersFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconSlidersFilled: SlidersFilledIconType = (props, context) => (
-    <Icon name='SlidersFilled' {...{ ...props, ...context.attrs }} icon={SlidersFilledSvg} />
-);
+const IconSlidersFilled: SlidersFilledIconType = (props, context) => <Icon name='SlidersFilled' {...{ ...props, ...context.attrs }} icon={SlidersFilledSvg} />;
 
 IconSlidersFilled.displayName = 'IconSlidersFilled';
+IconSlidersFilled.theme = 'filled';
+IconSlidersFilled.originName = 'sliders';
 
 export default IconSlidersFilled;

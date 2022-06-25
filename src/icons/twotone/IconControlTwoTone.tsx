@@ -14,5 +14,7 @@ const IconControlTwoTone: ControlTwoToneIconType = (props, context) => (
 );
 
 IconControlTwoTone.displayName = 'IconControlTwoTone';
+IconControlTwoTone.theme = 'twotone';
+IconControlTwoTone.originName = 'control';
 
 export default IconControlTwoTone;

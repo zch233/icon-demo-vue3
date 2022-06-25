@@ -14,5 +14,7 @@ const IconInsertRowLeftOutlined: InsertRowLeftOutlinedIconType = (props, context
 );
 
 IconInsertRowLeftOutlined.displayName = 'IconInsertRowLeftOutlined';
+IconInsertRowLeftOutlined.theme = 'outlined';
+IconInsertRowLeftOutlined.originName = 'insert-row-left';
 
 export default IconInsertRowLeftOutlined;

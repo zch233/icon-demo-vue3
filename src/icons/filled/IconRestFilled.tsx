@@ -9,10 +9,10 @@ export interface RestFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconRestFilled: RestFilledIconType = (props, context) => (
-    <Icon name='RestFilled' {...{ ...props, ...context.attrs }} icon={RestFilledSvg} />
-);
+const IconRestFilled: RestFilledIconType = (props, context) => <Icon name='RestFilled' {...{ ...props, ...context.attrs }} icon={RestFilledSvg} />;
 
 IconRestFilled.displayName = 'IconRestFilled';
+IconRestFilled.theme = 'filled';
+IconRestFilled.originName = 'rest';
 
 export default IconRestFilled;

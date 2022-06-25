@@ -9,10 +9,10 @@ export interface SoundFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconSoundFilled: SoundFilledIconType = (props, context) => (
-    <Icon name='SoundFilled' {...{ ...props, ...context.attrs }} icon={SoundFilledSvg} />
-);
+const IconSoundFilled: SoundFilledIconType = (props, context) => <Icon name='SoundFilled' {...{ ...props, ...context.attrs }} icon={SoundFilledSvg} />;
 
 IconSoundFilled.displayName = 'IconSoundFilled';
+IconSoundFilled.theme = 'filled';
+IconSoundFilled.originName = 'sound';
 
 export default IconSoundFilled;

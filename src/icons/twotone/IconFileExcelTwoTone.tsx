@@ -14,5 +14,7 @@ const IconFileExcelTwoTone: FileExcelTwoToneIconType = (props, context) => (
 );
 
 IconFileExcelTwoTone.displayName = 'IconFileExcelTwoTone';
+IconFileExcelTwoTone.theme = 'twotone';
+IconFileExcelTwoTone.originName = 'file-excel';
 
 export default IconFileExcelTwoTone;

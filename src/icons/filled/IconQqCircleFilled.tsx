@@ -14,5 +14,7 @@ const IconQqCircleFilled: QqCircleFilledIconType = (props, context) => (
 );
 
 IconQqCircleFilled.displayName = 'IconQqCircleFilled';
+IconQqCircleFilled.theme = 'filled';
+IconQqCircleFilled.originName = 'qq-circle';
 
 export default IconQqCircleFilled;

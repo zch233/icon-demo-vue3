@@ -14,5 +14,7 @@ const IconWeiboSquareOutlined: WeiboSquareOutlinedIconType = (props, context) =>
 );
 
 IconWeiboSquareOutlined.displayName = 'IconWeiboSquareOutlined';
+IconWeiboSquareOutlined.theme = 'outlined';
+IconWeiboSquareOutlined.originName = 'weibo-square';
 
 export default IconWeiboSquareOutlined;

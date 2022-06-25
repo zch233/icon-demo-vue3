@@ -14,5 +14,7 @@ const IconReconciliationTwoTone: ReconciliationTwoToneIconType = (props, context
 );
 
 IconReconciliationTwoTone.displayName = 'IconReconciliationTwoTone';
+IconReconciliationTwoTone.theme = 'twotone';
+IconReconciliationTwoTone.originName = 'reconciliation';
 
 export default IconReconciliationTwoTone;

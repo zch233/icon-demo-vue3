@@ -14,5 +14,7 @@ const IconFileZipOutlined: FileZipOutlinedIconType = (props, context) => (
 );
 
 IconFileZipOutlined.displayName = 'IconFileZipOutlined';
+IconFileZipOutlined.theme = 'outlined';
+IconFileZipOutlined.originName = 'file-zip';
 
 export default IconFileZipOutlined;

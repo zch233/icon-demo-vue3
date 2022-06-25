@@ -14,5 +14,7 @@ const IconFolderAddFilled: FolderAddFilledIconType = (props, context) => (
 );
 
 IconFolderAddFilled.displayName = 'IconFolderAddFilled';
+IconFolderAddFilled.theme = 'filled';
+IconFolderAddFilled.originName = 'folder-add';
 
 export default IconFolderAddFilled;

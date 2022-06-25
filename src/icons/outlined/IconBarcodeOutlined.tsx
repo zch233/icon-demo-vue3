@@ -14,5 +14,7 @@ const IconBarcodeOutlined: BarcodeOutlinedIconType = (props, context) => (
 );
 
 IconBarcodeOutlined.displayName = 'IconBarcodeOutlined';
+IconBarcodeOutlined.theme = 'outlined';
+IconBarcodeOutlined.originName = 'barcode';
 
 export default IconBarcodeOutlined;

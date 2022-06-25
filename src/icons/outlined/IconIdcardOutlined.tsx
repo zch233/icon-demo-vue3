@@ -14,5 +14,7 @@ const IconIdcardOutlined: IdcardOutlinedIconType = (props, context) => (
 );
 
 IconIdcardOutlined.displayName = 'IconIdcardOutlined';
+IconIdcardOutlined.theme = 'outlined';
+IconIdcardOutlined.originName = 'idcard';
 
 export default IconIdcardOutlined;

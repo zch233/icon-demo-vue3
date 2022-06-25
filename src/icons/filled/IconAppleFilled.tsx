@@ -9,10 +9,10 @@ export interface AppleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconAppleFilled: AppleFilledIconType = (props, context) => (
-    <Icon name='AppleFilled' {...{ ...props, ...context.attrs }} icon={AppleFilledSvg} />
-);
+const IconAppleFilled: AppleFilledIconType = (props, context) => <Icon name='AppleFilled' {...{ ...props, ...context.attrs }} icon={AppleFilledSvg} />;
 
 IconAppleFilled.displayName = 'IconAppleFilled';
+IconAppleFilled.theme = 'filled';
+IconAppleFilled.originName = 'apple';
 
 export default IconAppleFilled;

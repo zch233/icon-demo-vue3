@@ -14,5 +14,7 @@ const IconBoxPlotTwoTone: BoxPlotTwoToneIconType = (props, context) => (
 );
 
 IconBoxPlotTwoTone.displayName = 'IconBoxPlotTwoTone';
+IconBoxPlotTwoTone.theme = 'twotone';
+IconBoxPlotTwoTone.originName = 'box-plot';
 
 export default IconBoxPlotTwoTone;

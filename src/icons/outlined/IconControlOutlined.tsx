@@ -14,5 +14,7 @@ const IconControlOutlined: ControlOutlinedIconType = (props, context) => (
 );
 
 IconControlOutlined.displayName = 'IconControlOutlined';
+IconControlOutlined.theme = 'outlined';
+IconControlOutlined.originName = 'control';
 
 export default IconControlOutlined;

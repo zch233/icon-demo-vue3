@@ -14,5 +14,7 @@ const IconLinkedinFilled: LinkedinFilledIconType = (props, context) => (
 );
 
 IconLinkedinFilled.displayName = 'IconLinkedinFilled';
+IconLinkedinFilled.theme = 'filled';
+IconLinkedinFilled.originName = 'linkedin';
 
 export default IconLinkedinFilled;

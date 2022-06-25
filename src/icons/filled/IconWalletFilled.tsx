@@ -9,10 +9,10 @@ export interface WalletFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconWalletFilled: WalletFilledIconType = (props, context) => (
-    <Icon name='WalletFilled' {...{ ...props, ...context.attrs }} icon={WalletFilledSvg} />
-);
+const IconWalletFilled: WalletFilledIconType = (props, context) => <Icon name='WalletFilled' {...{ ...props, ...context.attrs }} icon={WalletFilledSvg} />;
 
 IconWalletFilled.displayName = 'IconWalletFilled';
+IconWalletFilled.theme = 'filled';
+IconWalletFilled.originName = 'wallet';
 
 export default IconWalletFilled;

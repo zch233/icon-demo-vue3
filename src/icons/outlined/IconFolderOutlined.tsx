@@ -14,5 +14,7 @@ const IconFolderOutlined: FolderOutlinedIconType = (props, context) => (
 );
 
 IconFolderOutlined.displayName = 'IconFolderOutlined';
+IconFolderOutlined.theme = 'outlined';
+IconFolderOutlined.originName = 'folder';
 
 export default IconFolderOutlined;

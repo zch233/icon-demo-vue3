@@ -14,5 +14,7 @@ const IconCiCircleFilled: CiCircleFilledIconType = (props, context) => (
 );
 
 IconCiCircleFilled.displayName = 'IconCiCircleFilled';
+IconCiCircleFilled.theme = 'filled';
+IconCiCircleFilled.originName = 'ci-circle';
 
 export default IconCiCircleFilled;

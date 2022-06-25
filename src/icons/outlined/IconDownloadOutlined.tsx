@@ -14,5 +14,7 @@ const IconDownloadOutlined: DownloadOutlinedIconType = (props, context) => (
 );
 
 IconDownloadOutlined.displayName = 'IconDownloadOutlined';
+IconDownloadOutlined.theme = 'outlined';
+IconDownloadOutlined.originName = 'download';
 
 export default IconDownloadOutlined;

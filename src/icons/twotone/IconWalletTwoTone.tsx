@@ -9,10 +9,10 @@ export interface WalletTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconWalletTwoTone: WalletTwoToneIconType = (props, context) => (
-    <Icon name='WalletTwoTone' {...{ ...props, ...context.attrs }} icon={WalletTwoToneSvg} />
-);
+const IconWalletTwoTone: WalletTwoToneIconType = (props, context) => <Icon name='WalletTwoTone' {...{ ...props, ...context.attrs }} icon={WalletTwoToneSvg} />;
 
 IconWalletTwoTone.displayName = 'IconWalletTwoTone';
+IconWalletTwoTone.theme = 'twotone';
+IconWalletTwoTone.originName = 'wallet';
 
 export default IconWalletTwoTone;

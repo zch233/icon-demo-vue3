@@ -14,5 +14,7 @@ const IconDropboxCircleFilled: DropboxCircleFilledIconType = (props, context) =>
 );
 
 IconDropboxCircleFilled.displayName = 'IconDropboxCircleFilled';
+IconDropboxCircleFilled.theme = 'filled';
+IconDropboxCircleFilled.originName = 'dropbox-circle';
 
 export default IconDropboxCircleFilled;

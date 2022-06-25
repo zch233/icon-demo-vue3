@@ -14,5 +14,7 @@ const IconQuestionCircleFilled: QuestionCircleFilledIconType = (props, context) 
 );
 
 IconQuestionCircleFilled.displayName = 'IconQuestionCircleFilled';
+IconQuestionCircleFilled.theme = 'filled';
+IconQuestionCircleFilled.originName = 'question-circle';
 
 export default IconQuestionCircleFilled;

@@ -14,5 +14,7 @@ const IconAmazonCircleFilled: AmazonCircleFilledIconType = (props, context) => (
 );
 
 IconAmazonCircleFilled.displayName = 'IconAmazonCircleFilled';
+IconAmazonCircleFilled.theme = 'filled';
+IconAmazonCircleFilled.originName = 'amazon-circle';
 
 export default IconAmazonCircleFilled;

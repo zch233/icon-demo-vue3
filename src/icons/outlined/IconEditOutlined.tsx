@@ -9,10 +9,10 @@ export interface EditOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconEditOutlined: EditOutlinedIconType = (props, context) => (
-    <Icon name='EditOutlined' {...{ ...props, ...context.attrs }} icon={EditOutlinedSvg} />
-);
+const IconEditOutlined: EditOutlinedIconType = (props, context) => <Icon name='EditOutlined' {...{ ...props, ...context.attrs }} icon={EditOutlinedSvg} />;
 
 IconEditOutlined.displayName = 'IconEditOutlined';
+IconEditOutlined.theme = 'outlined';
+IconEditOutlined.originName = 'edit';
 
 export default IconEditOutlined;

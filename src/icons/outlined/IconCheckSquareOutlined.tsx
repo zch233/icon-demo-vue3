@@ -14,5 +14,7 @@ const IconCheckSquareOutlined: CheckSquareOutlinedIconType = (props, context) =>
 );
 
 IconCheckSquareOutlined.displayName = 'IconCheckSquareOutlined';
+IconCheckSquareOutlined.theme = 'outlined';
+IconCheckSquareOutlined.originName = 'check-square';
 
 export default IconCheckSquareOutlined;

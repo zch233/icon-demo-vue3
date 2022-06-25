@@ -14,5 +14,7 @@ const IconPoundCircleFilled: PoundCircleFilledIconType = (props, context) => (
 );
 
 IconPoundCircleFilled.displayName = 'IconPoundCircleFilled';
+IconPoundCircleFilled.theme = 'filled';
+IconPoundCircleFilled.originName = 'pound-circle';
 
 export default IconPoundCircleFilled;

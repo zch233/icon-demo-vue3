@@ -14,5 +14,7 @@ const IconLayoutOutlined: LayoutOutlinedIconType = (props, context) => (
 );
 
 IconLayoutOutlined.displayName = 'IconLayoutOutlined';
+IconLayoutOutlined.theme = 'outlined';
+IconLayoutOutlined.originName = 'layout';
 
 export default IconLayoutOutlined;

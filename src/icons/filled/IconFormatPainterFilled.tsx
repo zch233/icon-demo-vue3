@@ -14,5 +14,7 @@ const IconFormatPainterFilled: FormatPainterFilledIconType = (props, context) =>
 );
 
 IconFormatPainterFilled.displayName = 'IconFormatPainterFilled';
+IconFormatPainterFilled.theme = 'filled';
+IconFormatPainterFilled.originName = 'format-painter';
 
 export default IconFormatPainterFilled;

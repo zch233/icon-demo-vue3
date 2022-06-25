@@ -14,5 +14,7 @@ const IconDashboardOutlined: DashboardOutlinedIconType = (props, context) => (
 );
 
 IconDashboardOutlined.displayName = 'IconDashboardOutlined';
+IconDashboardOutlined.theme = 'outlined';
+IconDashboardOutlined.originName = 'dashboard';
 
 export default IconDashboardOutlined;

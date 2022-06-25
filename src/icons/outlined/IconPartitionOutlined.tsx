@@ -14,5 +14,7 @@ const IconPartitionOutlined: PartitionOutlinedIconType = (props, context) => (
 );
 
 IconPartitionOutlined.displayName = 'IconPartitionOutlined';
+IconPartitionOutlined.theme = 'outlined';
+IconPartitionOutlined.originName = 'partition';
 
 export default IconPartitionOutlined;

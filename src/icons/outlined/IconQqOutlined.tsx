@@ -9,10 +9,10 @@ export interface QqOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconQqOutlined: QqOutlinedIconType = (props, context) => (
-    <Icon name='QqOutlined' {...{ ...props, ...context.attrs }} icon={QqOutlinedSvg} />
-);
+const IconQqOutlined: QqOutlinedIconType = (props, context) => <Icon name='QqOutlined' {...{ ...props, ...context.attrs }} icon={QqOutlinedSvg} />;
 
 IconQqOutlined.displayName = 'IconQqOutlined';
+IconQqOutlined.theme = 'outlined';
+IconQqOutlined.originName = 'qq';
 
 export default IconQqOutlined;

@@ -14,5 +14,7 @@ const IconFunctionOutlined: FunctionOutlinedIconType = (props, context) => (
 );
 
 IconFunctionOutlined.displayName = 'IconFunctionOutlined';
+IconFunctionOutlined.theme = 'outlined';
+IconFunctionOutlined.originName = 'function';
 
 export default IconFunctionOutlined;

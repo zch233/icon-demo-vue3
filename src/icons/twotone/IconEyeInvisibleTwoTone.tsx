@@ -14,5 +14,7 @@ const IconEyeInvisibleTwoTone: EyeInvisibleTwoToneIconType = (props, context) =>
 );
 
 IconEyeInvisibleTwoTone.displayName = 'IconEyeInvisibleTwoTone';
+IconEyeInvisibleTwoTone.theme = 'twotone';
+IconEyeInvisibleTwoTone.originName = 'eye-invisible';
 
 export default IconEyeInvisibleTwoTone;

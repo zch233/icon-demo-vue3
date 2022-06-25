@@ -9,10 +9,10 @@ export interface DiffOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconDiffOutlined: DiffOutlinedIconType = (props, context) => (
-    <Icon name='DiffOutlined' {...{ ...props, ...context.attrs }} icon={DiffOutlinedSvg} />
-);
+const IconDiffOutlined: DiffOutlinedIconType = (props, context) => <Icon name='DiffOutlined' {...{ ...props, ...context.attrs }} icon={DiffOutlinedSvg} />;
 
 IconDiffOutlined.displayName = 'IconDiffOutlined';
+IconDiffOutlined.theme = 'outlined';
+IconDiffOutlined.originName = 'diff';
 
 export default IconDiffOutlined;

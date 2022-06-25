@@ -14,5 +14,7 @@ const IconUpSquareTwoTone: UpSquareTwoToneIconType = (props, context) => (
 );
 
 IconUpSquareTwoTone.displayName = 'IconUpSquareTwoTone';
+IconUpSquareTwoTone.theme = 'twotone';
+IconUpSquareTwoTone.originName = 'up-square';
 
 export default IconUpSquareTwoTone;

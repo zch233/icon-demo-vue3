@@ -14,5 +14,7 @@ const IconPlayCircleTwoTone: PlayCircleTwoToneIconType = (props, context) => (
 );
 
 IconPlayCircleTwoTone.displayName = 'IconPlayCircleTwoTone';
+IconPlayCircleTwoTone.theme = 'twotone';
+IconPlayCircleTwoTone.originName = 'play-circle';
 
 export default IconPlayCircleTwoTone;

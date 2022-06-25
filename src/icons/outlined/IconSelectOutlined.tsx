@@ -14,5 +14,7 @@ const IconSelectOutlined: SelectOutlinedIconType = (props, context) => (
 );
 
 IconSelectOutlined.displayName = 'IconSelectOutlined';
+IconSelectOutlined.theme = 'outlined';
+IconSelectOutlined.originName = 'select';
 
 export default IconSelectOutlined;

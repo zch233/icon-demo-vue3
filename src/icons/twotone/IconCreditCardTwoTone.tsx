@@ -14,5 +14,7 @@ const IconCreditCardTwoTone: CreditCardTwoToneIconType = (props, context) => (
 );
 
 IconCreditCardTwoTone.displayName = 'IconCreditCardTwoTone';
+IconCreditCardTwoTone.theme = 'twotone';
+IconCreditCardTwoTone.originName = 'credit-card';
 
 export default IconCreditCardTwoTone;

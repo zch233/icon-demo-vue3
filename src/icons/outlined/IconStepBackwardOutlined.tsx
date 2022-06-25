@@ -14,5 +14,7 @@ const IconStepBackwardOutlined: StepBackwardOutlinedIconType = (props, context) 
 );
 
 IconStepBackwardOutlined.displayName = 'IconStepBackwardOutlined';
+IconStepBackwardOutlined.theme = 'outlined';
+IconStepBackwardOutlined.originName = 'step-backward';
 
 export default IconStepBackwardOutlined;

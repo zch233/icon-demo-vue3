@@ -14,5 +14,7 @@ const IconFullscreenExitOutlined: FullscreenExitOutlinedIconType = (props, conte
 );
 
 IconFullscreenExitOutlined.displayName = 'IconFullscreenExitOutlined';
+IconFullscreenExitOutlined.theme = 'outlined';
+IconFullscreenExitOutlined.originName = 'fullscreen-exit';
 
 export default IconFullscreenExitOutlined;

@@ -14,5 +14,7 @@ const IconRightCircleOutlined: RightCircleOutlinedIconType = (props, context) =>
 );
 
 IconRightCircleOutlined.displayName = 'IconRightCircleOutlined';
+IconRightCircleOutlined.theme = 'outlined';
+IconRightCircleOutlined.originName = 'right-circle';
 
 export default IconRightCircleOutlined;

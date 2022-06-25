@@ -14,5 +14,7 @@ const IconCiCircleTwoTone: CiCircleTwoToneIconType = (props, context) => (
 );
 
 IconCiCircleTwoTone.displayName = 'IconCiCircleTwoTone';
+IconCiCircleTwoTone.theme = 'twotone';
+IconCiCircleTwoTone.originName = 'ci-circle';
 
 export default IconCiCircleTwoTone;

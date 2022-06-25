@@ -14,5 +14,7 @@ const IconShareAltOutlined: ShareAltOutlinedIconType = (props, context) => (
 );
 
 IconShareAltOutlined.displayName = 'IconShareAltOutlined';
+IconShareAltOutlined.theme = 'outlined';
+IconShareAltOutlined.originName = 'share-alt';
 
 export default IconShareAltOutlined;

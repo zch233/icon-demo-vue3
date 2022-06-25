@@ -14,5 +14,7 @@ const IconPlusSquareFilled: PlusSquareFilledIconType = (props, context) => (
 );
 
 IconPlusSquareFilled.displayName = 'IconPlusSquareFilled';
+IconPlusSquareFilled.theme = 'filled';
+IconPlusSquareFilled.originName = 'plus-square';
 
 export default IconPlusSquareFilled;

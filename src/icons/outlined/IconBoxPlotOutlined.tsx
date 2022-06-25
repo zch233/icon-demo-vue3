@@ -14,5 +14,7 @@ const IconBoxPlotOutlined: BoxPlotOutlinedIconType = (props, context) => (
 );
 
 IconBoxPlotOutlined.displayName = 'IconBoxPlotOutlined';
+IconBoxPlotOutlined.theme = 'outlined';
+IconBoxPlotOutlined.originName = 'box-plot';
 
 export default IconBoxPlotOutlined;

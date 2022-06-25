@@ -9,10 +9,10 @@ export interface BookFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBookFilled: BookFilledIconType = (props, context) => (
-    <Icon name='BookFilled' {...{ ...props, ...context.attrs }} icon={BookFilledSvg} />
-);
+const IconBookFilled: BookFilledIconType = (props, context) => <Icon name='BookFilled' {...{ ...props, ...context.attrs }} icon={BookFilledSvg} />;
 
 IconBookFilled.displayName = 'IconBookFilled';
+IconBookFilled.theme = 'filled';
+IconBookFilled.originName = 'book';
 
 export default IconBookFilled;

@@ -14,5 +14,7 @@ const IconPoundCircleOutlined: PoundCircleOutlinedIconType = (props, context) =>
 );
 
 IconPoundCircleOutlined.displayName = 'IconPoundCircleOutlined';
+IconPoundCircleOutlined.theme = 'outlined';
+IconPoundCircleOutlined.originName = 'pound-circle';
 
 export default IconPoundCircleOutlined;

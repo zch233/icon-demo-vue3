@@ -14,5 +14,7 @@ const IconCopyrightCircleTwoTone: CopyrightCircleTwoToneIconType = (props, conte
 );
 
 IconCopyrightCircleTwoTone.displayName = 'IconCopyrightCircleTwoTone';
+IconCopyrightCircleTwoTone.theme = 'twotone';
+IconCopyrightCircleTwoTone.originName = 'copyright-circle';
 
 export default IconCopyrightCircleTwoTone;

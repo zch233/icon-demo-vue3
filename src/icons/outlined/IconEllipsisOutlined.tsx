@@ -14,5 +14,7 @@ const IconEllipsisOutlined: EllipsisOutlinedIconType = (props, context) => (
 );
 
 IconEllipsisOutlined.displayName = 'IconEllipsisOutlined';
+IconEllipsisOutlined.theme = 'outlined';
+IconEllipsisOutlined.originName = 'ellipsis';
 
 export default IconEllipsisOutlined;

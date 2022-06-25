@@ -14,5 +14,7 @@ const IconFileTextTwoTone: FileTextTwoToneIconType = (props, context) => (
 );
 
 IconFileTextTwoTone.displayName = 'IconFileTextTwoTone';
+IconFileTextTwoTone.theme = 'twotone';
+IconFileTextTwoTone.originName = 'file-text';
 
 export default IconFileTextTwoTone;

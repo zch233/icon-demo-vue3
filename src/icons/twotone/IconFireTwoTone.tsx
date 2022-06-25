@@ -9,10 +9,10 @@ export interface FireTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconFireTwoTone: FireTwoToneIconType = (props, context) => (
-    <Icon name='FireTwoTone' {...{ ...props, ...context.attrs }} icon={FireTwoToneSvg} />
-);
+const IconFireTwoTone: FireTwoToneIconType = (props, context) => <Icon name='FireTwoTone' {...{ ...props, ...context.attrs }} icon={FireTwoToneSvg} />;
 
 IconFireTwoTone.displayName = 'IconFireTwoTone';
+IconFireTwoTone.theme = 'twotone';
+IconFireTwoTone.originName = 'fire';
 
 export default IconFireTwoTone;

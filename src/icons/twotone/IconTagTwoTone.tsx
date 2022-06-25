@@ -9,10 +9,10 @@ export interface TagTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconTagTwoTone: TagTwoToneIconType = (props, context) => (
-    <Icon name='TagTwoTone' {...{ ...props, ...context.attrs }} icon={TagTwoToneSvg} />
-);
+const IconTagTwoTone: TagTwoToneIconType = (props, context) => <Icon name='TagTwoTone' {...{ ...props, ...context.attrs }} icon={TagTwoToneSvg} />;
 
 IconTagTwoTone.displayName = 'IconTagTwoTone';
+IconTagTwoTone.theme = 'twotone';
+IconTagTwoTone.originName = 'tag';
 
 export default IconTagTwoTone;

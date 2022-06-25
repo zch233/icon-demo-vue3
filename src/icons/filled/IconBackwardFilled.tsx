@@ -14,5 +14,7 @@ const IconBackwardFilled: BackwardFilledIconType = (props, context) => (
 );
 
 IconBackwardFilled.displayName = 'IconBackwardFilled';
+IconBackwardFilled.theme = 'filled';
+IconBackwardFilled.originName = 'backward';
 
 export default IconBackwardFilled;

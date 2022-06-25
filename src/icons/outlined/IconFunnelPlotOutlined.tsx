@@ -14,5 +14,7 @@ const IconFunnelPlotOutlined: FunnelPlotOutlinedIconType = (props, context) => (
 );
 
 IconFunnelPlotOutlined.displayName = 'IconFunnelPlotOutlined';
+IconFunnelPlotOutlined.theme = 'outlined';
+IconFunnelPlotOutlined.originName = 'funnel-plot';
 
 export default IconFunnelPlotOutlined;

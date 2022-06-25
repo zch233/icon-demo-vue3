@@ -14,5 +14,7 @@ const IconPushpinOutlined: PushpinOutlinedIconType = (props, context) => (
 );
 
 IconPushpinOutlined.displayName = 'IconPushpinOutlined';
+IconPushpinOutlined.theme = 'outlined';
+IconPushpinOutlined.originName = 'pushpin';
 
 export default IconPushpinOutlined;

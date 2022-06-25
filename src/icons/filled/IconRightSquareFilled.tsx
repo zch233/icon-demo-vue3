@@ -14,5 +14,7 @@ const IconRightSquareFilled: RightSquareFilledIconType = (props, context) => (
 );
 
 IconRightSquareFilled.displayName = 'IconRightSquareFilled';
+IconRightSquareFilled.theme = 'filled';
+IconRightSquareFilled.originName = 'right-square';
 
 export default IconRightSquareFilled;

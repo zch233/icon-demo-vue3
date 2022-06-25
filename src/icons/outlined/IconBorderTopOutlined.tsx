@@ -14,5 +14,7 @@ const IconBorderTopOutlined: BorderTopOutlinedIconType = (props, context) => (
 );
 
 IconBorderTopOutlined.displayName = 'IconBorderTopOutlined';
+IconBorderTopOutlined.theme = 'outlined';
+IconBorderTopOutlined.originName = 'border-top';
 
 export default IconBorderTopOutlined;

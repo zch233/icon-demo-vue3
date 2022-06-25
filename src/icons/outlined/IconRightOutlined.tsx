@@ -9,10 +9,10 @@ export interface RightOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconRightOutlined: RightOutlinedIconType = (props, context) => (
-    <Icon name='RightOutlined' {...{ ...props, ...context.attrs }} icon={RightOutlinedSvg} />
-);
+const IconRightOutlined: RightOutlinedIconType = (props, context) => <Icon name='RightOutlined' {...{ ...props, ...context.attrs }} icon={RightOutlinedSvg} />;
 
 IconRightOutlined.displayName = 'IconRightOutlined';
+IconRightOutlined.theme = 'outlined';
+IconRightOutlined.originName = 'right';
 
 export default IconRightOutlined;

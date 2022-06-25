@@ -14,5 +14,7 @@ const IconRightCircleTwoTone: RightCircleTwoToneIconType = (props, context) => (
 );
 
 IconRightCircleTwoTone.displayName = 'IconRightCircleTwoTone';
+IconRightCircleTwoTone.theme = 'twotone';
+IconRightCircleTwoTone.originName = 'right-circle';
 
 export default IconRightCircleTwoTone;

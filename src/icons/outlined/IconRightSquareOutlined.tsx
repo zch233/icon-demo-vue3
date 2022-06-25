@@ -14,5 +14,7 @@ const IconRightSquareOutlined: RightSquareOutlinedIconType = (props, context) =>
 );
 
 IconRightSquareOutlined.displayName = 'IconRightSquareOutlined';
+IconRightSquareOutlined.theme = 'outlined';
+IconRightSquareOutlined.originName = 'right-square';
 
 export default IconRightSquareOutlined;

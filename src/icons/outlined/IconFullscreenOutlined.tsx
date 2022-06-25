@@ -14,5 +14,7 @@ const IconFullscreenOutlined: FullscreenOutlinedIconType = (props, context) => (
 );
 
 IconFullscreenOutlined.displayName = 'IconFullscreenOutlined';
+IconFullscreenOutlined.theme = 'outlined';
+IconFullscreenOutlined.originName = 'fullscreen';
 
 export default IconFullscreenOutlined;

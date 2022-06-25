@@ -14,5 +14,7 @@ const IconRadiusSettingOutlined: RadiusSettingOutlinedIconType = (props, context
 );
 
 IconRadiusSettingOutlined.displayName = 'IconRadiusSettingOutlined';
+IconRadiusSettingOutlined.theme = 'outlined';
+IconRadiusSettingOutlined.originName = 'radius-setting';
 
 export default IconRadiusSettingOutlined;

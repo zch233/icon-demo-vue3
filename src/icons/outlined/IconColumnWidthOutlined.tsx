@@ -14,5 +14,7 @@ const IconColumnWidthOutlined: ColumnWidthOutlinedIconType = (props, context) =>
 );
 
 IconColumnWidthOutlined.displayName = 'IconColumnWidthOutlined';
+IconColumnWidthOutlined.theme = 'outlined';
+IconColumnWidthOutlined.originName = 'column-width';
 
 export default IconColumnWidthOutlined;

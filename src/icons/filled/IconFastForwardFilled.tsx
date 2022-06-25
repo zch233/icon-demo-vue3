@@ -14,5 +14,7 @@ const IconFastForwardFilled: FastForwardFilledIconType = (props, context) => (
 );
 
 IconFastForwardFilled.displayName = 'IconFastForwardFilled';
+IconFastForwardFilled.theme = 'filled';
+IconFastForwardFilled.originName = 'fast-forward';
 
 export default IconFastForwardFilled;

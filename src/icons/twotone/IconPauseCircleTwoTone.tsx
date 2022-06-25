@@ -14,5 +14,7 @@ const IconPauseCircleTwoTone: PauseCircleTwoToneIconType = (props, context) => (
 );
 
 IconPauseCircleTwoTone.displayName = 'IconPauseCircleTwoTone';
+IconPauseCircleTwoTone.theme = 'twotone';
+IconPauseCircleTwoTone.originName = 'pause-circle';
 
 export default IconPauseCircleTwoTone;

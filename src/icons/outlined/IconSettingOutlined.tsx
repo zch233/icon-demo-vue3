@@ -14,5 +14,7 @@ const IconSettingOutlined: SettingOutlinedIconType = (props, context) => (
 );
 
 IconSettingOutlined.displayName = 'IconSettingOutlined';
+IconSettingOutlined.theme = 'outlined';
+IconSettingOutlined.originName = 'setting';
 
 export default IconSettingOutlined;

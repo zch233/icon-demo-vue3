@@ -9,10 +9,10 @@ export interface BankTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBankTwoTone: BankTwoToneIconType = (props, context) => (
-    <Icon name='BankTwoTone' {...{ ...props, ...context.attrs }} icon={BankTwoToneSvg} />
-);
+const IconBankTwoTone: BankTwoToneIconType = (props, context) => <Icon name='BankTwoTone' {...{ ...props, ...context.attrs }} icon={BankTwoToneSvg} />;
 
 IconBankTwoTone.displayName = 'IconBankTwoTone';
+IconBankTwoTone.theme = 'twotone';
+IconBankTwoTone.originName = 'bank';
 
 export default IconBankTwoTone;

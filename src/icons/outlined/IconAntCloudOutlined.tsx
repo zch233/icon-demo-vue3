@@ -14,5 +14,7 @@ const IconAntCloudOutlined: AntCloudOutlinedIconType = (props, context) => (
 );
 
 IconAntCloudOutlined.displayName = 'IconAntCloudOutlined';
+IconAntCloudOutlined.theme = 'outlined';
+IconAntCloudOutlined.originName = 'ant-cloud';
 
 export default IconAntCloudOutlined;

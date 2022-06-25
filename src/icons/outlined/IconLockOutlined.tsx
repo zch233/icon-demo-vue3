@@ -9,10 +9,10 @@ export interface LockOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconLockOutlined: LockOutlinedIconType = (props, context) => (
-    <Icon name='LockOutlined' {...{ ...props, ...context.attrs }} icon={LockOutlinedSvg} />
-);
+const IconLockOutlined: LockOutlinedIconType = (props, context) => <Icon name='LockOutlined' {...{ ...props, ...context.attrs }} icon={LockOutlinedSvg} />;
 
 IconLockOutlined.displayName = 'IconLockOutlined';
+IconLockOutlined.theme = 'outlined';
+IconLockOutlined.originName = 'lock';
 
 export default IconLockOutlined;

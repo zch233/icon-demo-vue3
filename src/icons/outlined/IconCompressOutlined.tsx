@@ -14,5 +14,7 @@ const IconCompressOutlined: CompressOutlinedIconType = (props, context) => (
 );
 
 IconCompressOutlined.displayName = 'IconCompressOutlined';
+IconCompressOutlined.theme = 'outlined';
+IconCompressOutlined.originName = 'compress';
 
 export default IconCompressOutlined;

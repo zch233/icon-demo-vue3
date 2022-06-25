@@ -14,5 +14,7 @@ const IconBarChartOutlined: BarChartOutlinedIconType = (props, context) => (
 );
 
 IconBarChartOutlined.displayName = 'IconBarChartOutlined';
+IconBarChartOutlined.theme = 'outlined';
+IconBarChartOutlined.originName = 'bar-chart';
 
 export default IconBarChartOutlined;

@@ -14,5 +14,7 @@ const IconNodeIndexOutlined: NodeIndexOutlinedIconType = (props, context) => (
 );
 
 IconNodeIndexOutlined.displayName = 'IconNodeIndexOutlined';
+IconNodeIndexOutlined.theme = 'outlined';
+IconNodeIndexOutlined.originName = 'node-index';
 
 export default IconNodeIndexOutlined;

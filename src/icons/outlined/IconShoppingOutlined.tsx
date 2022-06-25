@@ -14,5 +14,7 @@ const IconShoppingOutlined: ShoppingOutlinedIconType = (props, context) => (
 );
 
 IconShoppingOutlined.displayName = 'IconShoppingOutlined';
+IconShoppingOutlined.theme = 'outlined';
+IconShoppingOutlined.originName = 'shopping';
 
 export default IconShoppingOutlined;

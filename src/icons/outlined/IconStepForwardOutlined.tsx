@@ -14,5 +14,7 @@ const IconStepForwardOutlined: StepForwardOutlinedIconType = (props, context) =>
 );
 
 IconStepForwardOutlined.displayName = 'IconStepForwardOutlined';
+IconStepForwardOutlined.theme = 'outlined';
+IconStepForwardOutlined.originName = 'step-forward';
 
 export default IconStepForwardOutlined;

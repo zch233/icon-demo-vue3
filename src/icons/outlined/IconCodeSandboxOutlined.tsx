@@ -14,5 +14,7 @@ const IconCodeSandboxOutlined: CodeSandboxOutlinedIconType = (props, context) =>
 );
 
 IconCodeSandboxOutlined.displayName = 'IconCodeSandboxOutlined';
+IconCodeSandboxOutlined.theme = 'outlined';
+IconCodeSandboxOutlined.originName = 'code-sandbox';
 
 export default IconCodeSandboxOutlined;

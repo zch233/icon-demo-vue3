@@ -14,5 +14,7 @@ const IconEyeInvisibleFilled: EyeInvisibleFilledIconType = (props, context) => (
 );
 
 IconEyeInvisibleFilled.displayName = 'IconEyeInvisibleFilled';
+IconEyeInvisibleFilled.theme = 'filled';
+IconEyeInvisibleFilled.originName = 'eye-invisible';
 
 export default IconEyeInvisibleFilled;

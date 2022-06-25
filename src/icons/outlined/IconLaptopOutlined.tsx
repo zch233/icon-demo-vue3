@@ -14,5 +14,7 @@ const IconLaptopOutlined: LaptopOutlinedIconType = (props, context) => (
 );
 
 IconLaptopOutlined.displayName = 'IconLaptopOutlined';
+IconLaptopOutlined.theme = 'outlined';
+IconLaptopOutlined.originName = 'laptop';
 
 export default IconLaptopOutlined;

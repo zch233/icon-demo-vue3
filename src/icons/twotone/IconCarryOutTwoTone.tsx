@@ -14,5 +14,7 @@ const IconCarryOutTwoTone: CarryOutTwoToneIconType = (props, context) => (
 );
 
 IconCarryOutTwoTone.displayName = 'IconCarryOutTwoTone';
+IconCarryOutTwoTone.theme = 'twotone';
+IconCarryOutTwoTone.originName = 'carry-out';
 
 export default IconCarryOutTwoTone;

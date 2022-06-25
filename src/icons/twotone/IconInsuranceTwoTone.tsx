@@ -14,5 +14,7 @@ const IconInsuranceTwoTone: InsuranceTwoToneIconType = (props, context) => (
 );
 
 IconInsuranceTwoTone.displayName = 'IconInsuranceTwoTone';
+IconInsuranceTwoTone.theme = 'twotone';
+IconInsuranceTwoTone.originName = 'insurance';
 
 export default IconInsuranceTwoTone;

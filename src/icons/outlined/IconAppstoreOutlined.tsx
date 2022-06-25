@@ -14,5 +14,7 @@ const IconAppstoreOutlined: AppstoreOutlinedIconType = (props, context) => (
 );
 
 IconAppstoreOutlined.displayName = 'IconAppstoreOutlined';
+IconAppstoreOutlined.theme = 'outlined';
+IconAppstoreOutlined.originName = 'appstore';
 
 export default IconAppstoreOutlined;

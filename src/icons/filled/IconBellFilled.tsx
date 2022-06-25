@@ -9,10 +9,10 @@ export interface BellFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBellFilled: BellFilledIconType = (props, context) => (
-    <Icon name='BellFilled' {...{ ...props, ...context.attrs }} icon={BellFilledSvg} />
-);
+const IconBellFilled: BellFilledIconType = (props, context) => <Icon name='BellFilled' {...{ ...props, ...context.attrs }} icon={BellFilledSvg} />;
 
 IconBellFilled.displayName = 'IconBellFilled';
+IconBellFilled.theme = 'filled';
+IconBellFilled.originName = 'bell';
 
 export default IconBellFilled;

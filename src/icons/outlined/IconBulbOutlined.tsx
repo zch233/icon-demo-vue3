@@ -9,10 +9,10 @@ export interface BulbOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBulbOutlined: BulbOutlinedIconType = (props, context) => (
-    <Icon name='BulbOutlined' {...{ ...props, ...context.attrs }} icon={BulbOutlinedSvg} />
-);
+const IconBulbOutlined: BulbOutlinedIconType = (props, context) => <Icon name='BulbOutlined' {...{ ...props, ...context.attrs }} icon={BulbOutlinedSvg} />;
 
 IconBulbOutlined.displayName = 'IconBulbOutlined';
+IconBulbOutlined.theme = 'outlined';
+IconBulbOutlined.originName = 'bulb';
 
 export default IconBulbOutlined;

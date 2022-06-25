@@ -14,5 +14,7 @@ const IconFastForwardOutlined: FastForwardOutlinedIconType = (props, context) =>
 );
 
 IconFastForwardOutlined.displayName = 'IconFastForwardOutlined';
+IconFastForwardOutlined.theme = 'outlined';
+IconFastForwardOutlined.originName = 'fast-forward';
 
 export default IconFastForwardOutlined;

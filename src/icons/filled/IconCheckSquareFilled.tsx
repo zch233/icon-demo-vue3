@@ -14,5 +14,7 @@ const IconCheckSquareFilled: CheckSquareFilledIconType = (props, context) => (
 );
 
 IconCheckSquareFilled.displayName = 'IconCheckSquareFilled';
+IconCheckSquareFilled.theme = 'filled';
+IconCheckSquareFilled.originName = 'check-square';
 
 export default IconCheckSquareFilled;

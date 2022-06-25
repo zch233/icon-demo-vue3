@@ -14,5 +14,7 @@ const IconPicLeftOutlined: PicLeftOutlinedIconType = (props, context) => (
 );
 
 IconPicLeftOutlined.displayName = 'IconPicLeftOutlined';
+IconPicLeftOutlined.theme = 'outlined';
+IconPicLeftOutlined.originName = 'pic-left';
 
 export default IconPicLeftOutlined;

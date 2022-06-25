@@ -9,10 +9,10 @@ export interface BugFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBugFilled: BugFilledIconType = (props, context) => (
-    <Icon name='BugFilled' {...{ ...props, ...context.attrs }} icon={BugFilledSvg} />
-);
+const IconBugFilled: BugFilledIconType = (props, context) => <Icon name='BugFilled' {...{ ...props, ...context.attrs }} icon={BugFilledSvg} />;
 
 IconBugFilled.displayName = 'IconBugFilled';
+IconBugFilled.theme = 'filled';
+IconBugFilled.originName = 'bug';
 
 export default IconBugFilled;

@@ -14,5 +14,7 @@ const IconPlaySquareTwoTone: PlaySquareTwoToneIconType = (props, context) => (
 );
 
 IconPlaySquareTwoTone.displayName = 'IconPlaySquareTwoTone';
+IconPlaySquareTwoTone.theme = 'twotone';
+IconPlaySquareTwoTone.originName = 'play-square';
 
 export default IconPlaySquareTwoTone;

@@ -14,5 +14,7 @@ const IconDribbbleSquareOutlined: DribbbleSquareOutlinedIconType = (props, conte
 );
 
 IconDribbbleSquareOutlined.displayName = 'IconDribbbleSquareOutlined';
+IconDribbbleSquareOutlined.theme = 'outlined';
+IconDribbbleSquareOutlined.originName = 'dribbble-square';
 
 export default IconDribbbleSquareOutlined;

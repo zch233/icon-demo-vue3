@@ -14,5 +14,7 @@ const IconPlaySquareOutlined: PlaySquareOutlinedIconType = (props, context) => (
 );
 
 IconPlaySquareOutlined.displayName = 'IconPlaySquareOutlined';
+IconPlaySquareOutlined.theme = 'outlined';
+IconPlaySquareOutlined.originName = 'play-square';
 
 export default IconPlaySquareOutlined;

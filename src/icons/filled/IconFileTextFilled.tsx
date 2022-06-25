@@ -14,5 +14,7 @@ const IconFileTextFilled: FileTextFilledIconType = (props, context) => (
 );
 
 IconFileTextFilled.displayName = 'IconFileTextFilled';
+IconFileTextFilled.theme = 'filled';
+IconFileTextFilled.originName = 'file-text';
 
 export default IconFileTextFilled;

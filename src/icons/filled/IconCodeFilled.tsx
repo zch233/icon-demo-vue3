@@ -9,10 +9,10 @@ export interface CodeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconCodeFilled: CodeFilledIconType = (props, context) => (
-    <Icon name='CodeFilled' {...{ ...props, ...context.attrs }} icon={CodeFilledSvg} />
-);
+const IconCodeFilled: CodeFilledIconType = (props, context) => <Icon name='CodeFilled' {...{ ...props, ...context.attrs }} icon={CodeFilledSvg} />;
 
 IconCodeFilled.displayName = 'IconCodeFilled';
+IconCodeFilled.theme = 'filled';
+IconCodeFilled.originName = 'code';
 
 export default IconCodeFilled;

@@ -14,5 +14,7 @@ const IconDingdingOutlined: DingdingOutlinedIconType = (props, context) => (
 );
 
 IconDingdingOutlined.displayName = 'IconDingdingOutlined';
+IconDingdingOutlined.theme = 'outlined';
+IconDingdingOutlined.originName = 'dingding';
 
 export default IconDingdingOutlined;

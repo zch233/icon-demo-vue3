@@ -9,10 +9,10 @@ export interface CarOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconCarOutlined: CarOutlinedIconType = (props, context) => (
-    <Icon name='CarOutlined' {...{ ...props, ...context.attrs }} icon={CarOutlinedSvg} />
-);
+const IconCarOutlined: CarOutlinedIconType = (props, context) => <Icon name='CarOutlined' {...{ ...props, ...context.attrs }} icon={CarOutlinedSvg} />;
 
 IconCarOutlined.displayName = 'IconCarOutlined';
+IconCarOutlined.theme = 'outlined';
+IconCarOutlined.originName = 'car';
 
 export default IconCarOutlined;

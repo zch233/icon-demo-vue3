@@ -14,5 +14,7 @@ const IconGoogleCircleFilled: GoogleCircleFilledIconType = (props, context) => (
 );
 
 IconGoogleCircleFilled.displayName = 'IconGoogleCircleFilled';
+IconGoogleCircleFilled.theme = 'filled';
+IconGoogleCircleFilled.originName = 'google-circle';
 
 export default IconGoogleCircleFilled;

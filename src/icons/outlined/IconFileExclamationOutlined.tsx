@@ -14,5 +14,7 @@ const IconFileExclamationOutlined: FileExclamationOutlinedIconType = (props, con
 );
 
 IconFileExclamationOutlined.displayName = 'IconFileExclamationOutlined';
+IconFileExclamationOutlined.theme = 'outlined';
+IconFileExclamationOutlined.originName = 'file-exclamation';
 
 export default IconFileExclamationOutlined;

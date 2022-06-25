@@ -14,5 +14,7 @@ const IconSwitcherFilled: SwitcherFilledIconType = (props, context) => (
 );
 
 IconSwitcherFilled.displayName = 'IconSwitcherFilled';
+IconSwitcherFilled.theme = 'filled';
+IconSwitcherFilled.originName = 'switcher';
 
 export default IconSwitcherFilled;

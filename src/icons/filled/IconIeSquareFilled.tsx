@@ -14,5 +14,7 @@ const IconIeSquareFilled: IeSquareFilledIconType = (props, context) => (
 );
 
 IconIeSquareFilled.displayName = 'IconIeSquareFilled';
+IconIeSquareFilled.theme = 'filled';
+IconIeSquareFilled.originName = 'ie-square';
 
 export default IconIeSquareFilled;

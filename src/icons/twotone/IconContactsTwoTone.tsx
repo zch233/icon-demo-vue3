@@ -14,5 +14,7 @@ const IconContactsTwoTone: ContactsTwoToneIconType = (props, context) => (
 );
 
 IconContactsTwoTone.displayName = 'IconContactsTwoTone';
+IconContactsTwoTone.theme = 'twotone';
+IconContactsTwoTone.originName = 'contacts';
 
 export default IconContactsTwoTone;

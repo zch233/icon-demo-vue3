@@ -14,5 +14,7 @@ const IconWindowsOutlined: WindowsOutlinedIconType = (props, context) => (
 );
 
 IconWindowsOutlined.displayName = 'IconWindowsOutlined';
+IconWindowsOutlined.theme = 'outlined';
+IconWindowsOutlined.originName = 'windows';
 
 export default IconWindowsOutlined;

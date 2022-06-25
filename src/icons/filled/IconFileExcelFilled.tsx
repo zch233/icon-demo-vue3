@@ -14,5 +14,7 @@ const IconFileExcelFilled: FileExcelFilledIconType = (props, context) => (
 );
 
 IconFileExcelFilled.displayName = 'IconFileExcelFilled';
+IconFileExcelFilled.theme = 'filled';
+IconFileExcelFilled.originName = 'file-excel';
 
 export default IconFileExcelFilled;

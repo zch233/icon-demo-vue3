@@ -14,5 +14,7 @@ const IconCaretDownFilled: CaretDownFilledIconType = (props, context) => (
 );
 
 IconCaretDownFilled.displayName = 'IconCaretDownFilled';
+IconCaretDownFilled.theme = 'filled';
+IconCaretDownFilled.originName = 'caret-down';
 
 export default IconCaretDownFilled;

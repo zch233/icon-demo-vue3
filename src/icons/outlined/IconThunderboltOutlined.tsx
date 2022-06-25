@@ -14,5 +14,7 @@ const IconThunderboltOutlined: ThunderboltOutlinedIconType = (props, context) =>
 );
 
 IconThunderboltOutlined.displayName = 'IconThunderboltOutlined';
+IconThunderboltOutlined.theme = 'outlined';
+IconThunderboltOutlined.originName = 'thunderbolt';
 
 export default IconThunderboltOutlined;

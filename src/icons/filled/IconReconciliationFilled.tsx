@@ -14,5 +14,7 @@ const IconReconciliationFilled: ReconciliationFilledIconType = (props, context) 
 );
 
 IconReconciliationFilled.displayName = 'IconReconciliationFilled';
+IconReconciliationFilled.theme = 'filled';
+IconReconciliationFilled.originName = 'reconciliation';
 
 export default IconReconciliationFilled;

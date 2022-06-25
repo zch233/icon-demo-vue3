@@ -14,5 +14,7 @@ const IconMenuFoldOutlined: MenuFoldOutlinedIconType = (props, context) => (
 );
 
 IconMenuFoldOutlined.displayName = 'IconMenuFoldOutlined';
+IconMenuFoldOutlined.theme = 'outlined';
+IconMenuFoldOutlined.originName = 'menu-fold';
 
 export default IconMenuFoldOutlined;

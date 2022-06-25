@@ -14,5 +14,7 @@ const IconAmazonOutlined: AmazonOutlinedIconType = (props, context) => (
 );
 
 IconAmazonOutlined.displayName = 'IconAmazonOutlined';
+IconAmazonOutlined.theme = 'outlined';
+IconAmazonOutlined.originName = 'amazon';
 
 export default IconAmazonOutlined;

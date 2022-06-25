@@ -9,10 +9,10 @@ export interface StarTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconStarTwoTone: StarTwoToneIconType = (props, context) => (
-    <Icon name='StarTwoTone' {...{ ...props, ...context.attrs }} icon={StarTwoToneSvg} />
-);
+const IconStarTwoTone: StarTwoToneIconType = (props, context) => <Icon name='StarTwoTone' {...{ ...props, ...context.attrs }} icon={StarTwoToneSvg} />;
 
 IconStarTwoTone.displayName = 'IconStarTwoTone';
+IconStarTwoTone.theme = 'twotone';
+IconStarTwoTone.originName = 'star';
 
 export default IconStarTwoTone;

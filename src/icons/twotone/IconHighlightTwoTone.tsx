@@ -14,5 +14,7 @@ const IconHighlightTwoTone: HighlightTwoToneIconType = (props, context) => (
 );
 
 IconHighlightTwoTone.displayName = 'IconHighlightTwoTone';
+IconHighlightTwoTone.theme = 'twotone';
+IconHighlightTwoTone.originName = 'highlight';
 
 export default IconHighlightTwoTone;

@@ -9,10 +9,10 @@ export interface SoundTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconSoundTwoTone: SoundTwoToneIconType = (props, context) => (
-    <Icon name='SoundTwoTone' {...{ ...props, ...context.attrs }} icon={SoundTwoToneSvg} />
-);
+const IconSoundTwoTone: SoundTwoToneIconType = (props, context) => <Icon name='SoundTwoTone' {...{ ...props, ...context.attrs }} icon={SoundTwoToneSvg} />;
 
 IconSoundTwoTone.displayName = 'IconSoundTwoTone';
+IconSoundTwoTone.theme = 'twotone';
+IconSoundTwoTone.originName = 'sound';
 
 export default IconSoundTwoTone;

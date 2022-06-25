@@ -14,5 +14,7 @@ const IconClockCircleFilled: ClockCircleFilledIconType = (props, context) => (
 );
 
 IconClockCircleFilled.displayName = 'IconClockCircleFilled';
+IconClockCircleFilled.theme = 'filled';
+IconClockCircleFilled.originName = 'clock-circle';
 
 export default IconClockCircleFilled;

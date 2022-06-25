@@ -14,5 +14,7 @@ const IconConsoleSqlOutlined: ConsoleSqlOutlinedIconType = (props, context) => (
 );
 
 IconConsoleSqlOutlined.displayName = 'IconConsoleSqlOutlined';
+IconConsoleSqlOutlined.theme = 'outlined';
+IconConsoleSqlOutlined.originName = 'console-sql';
 
 export default IconConsoleSqlOutlined;

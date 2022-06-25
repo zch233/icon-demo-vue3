@@ -14,5 +14,7 @@ const IconPlusSquareOutlined: PlusSquareOutlinedIconType = (props, context) => (
 );
 
 IconPlusSquareOutlined.displayName = 'IconPlusSquareOutlined';
+IconPlusSquareOutlined.theme = 'outlined';
+IconPlusSquareOutlined.originName = 'plus-square';
 
 export default IconPlusSquareOutlined;

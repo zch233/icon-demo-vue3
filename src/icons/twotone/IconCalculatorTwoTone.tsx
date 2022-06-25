@@ -14,5 +14,7 @@ const IconCalculatorTwoTone: CalculatorTwoToneIconType = (props, context) => (
 );
 
 IconCalculatorTwoTone.displayName = 'IconCalculatorTwoTone';
+IconCalculatorTwoTone.theme = 'twotone';
+IconCalculatorTwoTone.originName = 'calculator';
 
 export default IconCalculatorTwoTone;

@@ -14,5 +14,7 @@ const IconMessageTwoTone: MessageTwoToneIconType = (props, context) => (
 );
 
 IconMessageTwoTone.displayName = 'IconMessageTwoTone';
+IconMessageTwoTone.theme = 'twotone';
+IconMessageTwoTone.originName = 'message';
 
 export default IconMessageTwoTone;

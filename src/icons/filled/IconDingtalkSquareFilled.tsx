@@ -14,5 +14,7 @@ const IconDingtalkSquareFilled: DingtalkSquareFilledIconType = (props, context) 
 );
 
 IconDingtalkSquareFilled.displayName = 'IconDingtalkSquareFilled';
+IconDingtalkSquareFilled.theme = 'filled';
+IconDingtalkSquareFilled.originName = 'dingtalk-square';
 
 export default IconDingtalkSquareFilled;

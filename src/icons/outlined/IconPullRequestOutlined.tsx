@@ -14,5 +14,7 @@ const IconPullRequestOutlined: PullRequestOutlinedIconType = (props, context) =>
 );
 
 IconPullRequestOutlined.displayName = 'IconPullRequestOutlined';
+IconPullRequestOutlined.theme = 'outlined';
+IconPullRequestOutlined.originName = 'pull-request';
 
 export default IconPullRequestOutlined;

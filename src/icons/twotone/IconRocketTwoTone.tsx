@@ -9,10 +9,10 @@ export interface RocketTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconRocketTwoTone: RocketTwoToneIconType = (props, context) => (
-    <Icon name='RocketTwoTone' {...{ ...props, ...context.attrs }} icon={RocketTwoToneSvg} />
-);
+const IconRocketTwoTone: RocketTwoToneIconType = (props, context) => <Icon name='RocketTwoTone' {...{ ...props, ...context.attrs }} icon={RocketTwoToneSvg} />;
 
 IconRocketTwoTone.displayName = 'IconRocketTwoTone';
+IconRocketTwoTone.theme = 'twotone';
+IconRocketTwoTone.originName = 'rocket';
 
 export default IconRocketTwoTone;

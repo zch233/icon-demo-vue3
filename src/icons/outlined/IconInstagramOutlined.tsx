@@ -14,5 +14,7 @@ const IconInstagramOutlined: InstagramOutlinedIconType = (props, context) => (
 );
 
 IconInstagramOutlined.displayName = 'IconInstagramOutlined';
+IconInstagramOutlined.theme = 'outlined';
+IconInstagramOutlined.originName = 'instagram';
 
 export default IconInstagramOutlined;

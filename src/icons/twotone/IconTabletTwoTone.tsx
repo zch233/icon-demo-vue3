@@ -9,10 +9,10 @@ export interface TabletTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconTabletTwoTone: TabletTwoToneIconType = (props, context) => (
-    <Icon name='TabletTwoTone' {...{ ...props, ...context.attrs }} icon={TabletTwoToneSvg} />
-);
+const IconTabletTwoTone: TabletTwoToneIconType = (props, context) => <Icon name='TabletTwoTone' {...{ ...props, ...context.attrs }} icon={TabletTwoToneSvg} />;
 
 IconTabletTwoTone.displayName = 'IconTabletTwoTone';
+IconTabletTwoTone.theme = 'twotone';
+IconTabletTwoTone.originName = 'tablet';
 
 export default IconTabletTwoTone;

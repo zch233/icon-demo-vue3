@@ -14,5 +14,7 @@ const IconAliwangwangFilled: AliwangwangFilledIconType = (props, context) => (
 );
 
 IconAliwangwangFilled.displayName = 'IconAliwangwangFilled';
+IconAliwangwangFilled.theme = 'filled';
+IconAliwangwangFilled.originName = 'aliwangwang';
 
 export default IconAliwangwangFilled;

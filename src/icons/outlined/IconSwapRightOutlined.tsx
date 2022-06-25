@@ -14,5 +14,7 @@ const IconSwapRightOutlined: SwapRightOutlinedIconType = (props, context) => (
 );
 
 IconSwapRightOutlined.displayName = 'IconSwapRightOutlined';
+IconSwapRightOutlined.theme = 'outlined';
+IconSwapRightOutlined.originName = 'swap-right';
 
 export default IconSwapRightOutlined;

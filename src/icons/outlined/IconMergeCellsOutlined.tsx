@@ -14,5 +14,7 @@ const IconMergeCellsOutlined: MergeCellsOutlinedIconType = (props, context) => (
 );
 
 IconMergeCellsOutlined.displayName = 'IconMergeCellsOutlined';
+IconMergeCellsOutlined.theme = 'outlined';
+IconMergeCellsOutlined.originName = 'merge-cells';
 
 export default IconMergeCellsOutlined;

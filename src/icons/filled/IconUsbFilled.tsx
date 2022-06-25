@@ -9,10 +9,10 @@ export interface UsbFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconUsbFilled: UsbFilledIconType = (props, context) => (
-    <Icon name='UsbFilled' {...{ ...props, ...context.attrs }} icon={UsbFilledSvg} />
-);
+const IconUsbFilled: UsbFilledIconType = (props, context) => <Icon name='UsbFilled' {...{ ...props, ...context.attrs }} icon={UsbFilledSvg} />;
 
 IconUsbFilled.displayName = 'IconUsbFilled';
+IconUsbFilled.theme = 'filled';
+IconUsbFilled.originName = 'usb';
 
 export default IconUsbFilled;

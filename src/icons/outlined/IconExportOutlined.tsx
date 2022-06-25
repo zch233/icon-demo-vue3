@@ -14,5 +14,7 @@ const IconExportOutlined: ExportOutlinedIconType = (props, context) => (
 );
 
 IconExportOutlined.displayName = 'IconExportOutlined';
+IconExportOutlined.theme = 'outlined';
+IconExportOutlined.originName = 'export';
 
 export default IconExportOutlined;

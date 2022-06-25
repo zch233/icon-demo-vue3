@@ -14,5 +14,7 @@ const IconFunnelPlotTwoTone: FunnelPlotTwoToneIconType = (props, context) => (
 );
 
 IconFunnelPlotTwoTone.displayName = 'IconFunnelPlotTwoTone';
+IconFunnelPlotTwoTone.theme = 'twotone';
+IconFunnelPlotTwoTone.originName = 'funnel-plot';
 
 export default IconFunnelPlotTwoTone;

@@ -14,5 +14,7 @@ const IconRollbackOutlined: RollbackOutlinedIconType = (props, context) => (
 );
 
 IconRollbackOutlined.displayName = 'IconRollbackOutlined';
+IconRollbackOutlined.theme = 'outlined';
+IconRollbackOutlined.originName = 'rollback';
 
 export default IconRollbackOutlined;

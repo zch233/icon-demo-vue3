@@ -14,5 +14,7 @@ const IconProjectOutlined: ProjectOutlinedIconType = (props, context) => (
 );
 
 IconProjectOutlined.displayName = 'IconProjectOutlined';
+IconProjectOutlined.theme = 'outlined';
+IconProjectOutlined.originName = 'project';
 
 export default IconProjectOutlined;

@@ -14,5 +14,7 @@ const IconDeliveredProcedureOutlined: DeliveredProcedureOutlinedIconType = (prop
 );
 
 IconDeliveredProcedureOutlined.displayName = 'IconDeliveredProcedureOutlined';
+IconDeliveredProcedureOutlined.theme = 'outlined';
+IconDeliveredProcedureOutlined.originName = 'delivered-procedure';
 
 export default IconDeliveredProcedureOutlined;

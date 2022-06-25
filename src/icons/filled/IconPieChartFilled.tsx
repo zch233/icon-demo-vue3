@@ -14,5 +14,7 @@ const IconPieChartFilled: PieChartFilledIconType = (props, context) => (
 );
 
 IconPieChartFilled.displayName = 'IconPieChartFilled';
+IconPieChartFilled.theme = 'filled';
+IconPieChartFilled.originName = 'pie-chart';
 
 export default IconPieChartFilled;

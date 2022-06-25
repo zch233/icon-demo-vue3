@@ -14,5 +14,7 @@ const IconFilePptOutlined: FilePptOutlinedIconType = (props, context) => (
 );
 
 IconFilePptOutlined.displayName = 'IconFilePptOutlined';
+IconFilePptOutlined.theme = 'outlined';
+IconFilePptOutlined.originName = 'file-ppt';
 
 export default IconFilePptOutlined;

@@ -14,5 +14,7 @@ const IconCreditCardFilled: CreditCardFilledIconType = (props, context) => (
 );
 
 IconCreditCardFilled.displayName = 'IconCreditCardFilled';
+IconCreditCardFilled.theme = 'filled';
+IconCreditCardFilled.originName = 'credit-card';
 
 export default IconCreditCardFilled;

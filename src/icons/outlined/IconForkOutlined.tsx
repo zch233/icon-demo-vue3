@@ -9,10 +9,10 @@ export interface ForkOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconForkOutlined: ForkOutlinedIconType = (props, context) => (
-    <Icon name='ForkOutlined' {...{ ...props, ...context.attrs }} icon={ForkOutlinedSvg} />
-);
+const IconForkOutlined: ForkOutlinedIconType = (props, context) => <Icon name='ForkOutlined' {...{ ...props, ...context.attrs }} icon={ForkOutlinedSvg} />;
 
 IconForkOutlined.displayName = 'IconForkOutlined';
+IconForkOutlined.theme = 'outlined';
+IconForkOutlined.originName = 'fork';
 
 export default IconForkOutlined;

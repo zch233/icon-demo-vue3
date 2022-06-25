@@ -14,5 +14,7 @@ const IconCheckCircleFilled: CheckCircleFilledIconType = (props, context) => (
 );
 
 IconCheckCircleFilled.displayName = 'IconCheckCircleFilled';
+IconCheckCircleFilled.theme = 'filled';
+IconCheckCircleFilled.originName = 'check-circle';
 
 export default IconCheckCircleFilled;

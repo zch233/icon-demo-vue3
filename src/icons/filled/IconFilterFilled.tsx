@@ -9,10 +9,10 @@ export interface FilterFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconFilterFilled: FilterFilledIconType = (props, context) => (
-    <Icon name='FilterFilled' {...{ ...props, ...context.attrs }} icon={FilterFilledSvg} />
-);
+const IconFilterFilled: FilterFilledIconType = (props, context) => <Icon name='FilterFilled' {...{ ...props, ...context.attrs }} icon={FilterFilledSvg} />;
 
 IconFilterFilled.displayName = 'IconFilterFilled';
+IconFilterFilled.theme = 'filled';
+IconFilterFilled.originName = 'filter';
 
 export default IconFilterFilled;

@@ -14,5 +14,7 @@ const IconMinusCircleTwoTone: MinusCircleTwoToneIconType = (props, context) => (
 );
 
 IconMinusCircleTwoTone.displayName = 'IconMinusCircleTwoTone';
+IconMinusCircleTwoTone.theme = 'twotone';
+IconMinusCircleTwoTone.originName = 'minus-circle';
 
 export default IconMinusCircleTwoTone;

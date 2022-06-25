@@ -14,5 +14,7 @@ const IconBorderInnerOutlined: BorderInnerOutlinedIconType = (props, context) =>
 );
 
 IconBorderInnerOutlined.displayName = 'IconBorderInnerOutlined';
+IconBorderInnerOutlined.theme = 'outlined';
+IconBorderInnerOutlined.originName = 'border-inner';
 
 export default IconBorderInnerOutlined;

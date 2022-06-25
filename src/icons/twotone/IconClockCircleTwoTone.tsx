@@ -14,5 +14,7 @@ const IconClockCircleTwoTone: ClockCircleTwoToneIconType = (props, context) => (
 );
 
 IconClockCircleTwoTone.displayName = 'IconClockCircleTwoTone';
+IconClockCircleTwoTone.theme = 'twotone';
+IconClockCircleTwoTone.originName = 'clock-circle';
 
 export default IconClockCircleTwoTone;

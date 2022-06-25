@@ -14,5 +14,7 @@ const IconMediumSquareFilled: MediumSquareFilledIconType = (props, context) => (
 );
 
 IconMediumSquareFilled.displayName = 'IconMediumSquareFilled';
+IconMediumSquareFilled.theme = 'filled';
+IconMediumSquareFilled.originName = 'medium-square';
 
 export default IconMediumSquareFilled;

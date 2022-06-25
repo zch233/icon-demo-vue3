@@ -14,5 +14,7 @@ const IconFileWordOutlined: FileWordOutlinedIconType = (props, context) => (
 );
 
 IconFileWordOutlined.displayName = 'IconFileWordOutlined';
+IconFileWordOutlined.theme = 'outlined';
+IconFileWordOutlined.originName = 'file-word';
 
 export default IconFileWordOutlined;

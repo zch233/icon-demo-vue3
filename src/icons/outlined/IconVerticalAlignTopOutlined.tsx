@@ -14,5 +14,7 @@ const IconVerticalAlignTopOutlined: VerticalAlignTopOutlinedIconType = (props, c
 );
 
 IconVerticalAlignTopOutlined.displayName = 'IconVerticalAlignTopOutlined';
+IconVerticalAlignTopOutlined.theme = 'outlined';
+IconVerticalAlignTopOutlined.originName = 'vertical-align-top';
 
 export default IconVerticalAlignTopOutlined;

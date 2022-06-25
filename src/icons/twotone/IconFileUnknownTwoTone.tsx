@@ -14,5 +14,7 @@ const IconFileUnknownTwoTone: FileUnknownTwoToneIconType = (props, context) => (
 );
 
 IconFileUnknownTwoTone.displayName = 'IconFileUnknownTwoTone';
+IconFileUnknownTwoTone.theme = 'twotone';
+IconFileUnknownTwoTone.originName = 'file-unknown';
 
 export default IconFileUnknownTwoTone;

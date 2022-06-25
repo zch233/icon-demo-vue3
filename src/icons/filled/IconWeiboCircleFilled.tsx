@@ -14,5 +14,7 @@ const IconWeiboCircleFilled: WeiboCircleFilledIconType = (props, context) => (
 );
 
 IconWeiboCircleFilled.displayName = 'IconWeiboCircleFilled';
+IconWeiboCircleFilled.theme = 'filled';
+IconWeiboCircleFilled.originName = 'weibo-circle';
 
 export default IconWeiboCircleFilled;

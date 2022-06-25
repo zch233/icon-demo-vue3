@@ -14,5 +14,7 @@ const IconMinusSquareFilled: MinusSquareFilledIconType = (props, context) => (
 );
 
 IconMinusSquareFilled.displayName = 'IconMinusSquareFilled';
+IconMinusSquareFilled.theme = 'filled';
+IconMinusSquareFilled.originName = 'minus-square';
 
 export default IconMinusSquareFilled;

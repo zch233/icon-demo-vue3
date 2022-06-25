@@ -14,5 +14,7 @@ const IconCarryOutOutlined: CarryOutOutlinedIconType = (props, context) => (
 );
 
 IconCarryOutOutlined.displayName = 'IconCarryOutOutlined';
+IconCarryOutOutlined.theme = 'outlined';
+IconCarryOutOutlined.originName = 'carry-out';
 
 export default IconCarryOutOutlined;

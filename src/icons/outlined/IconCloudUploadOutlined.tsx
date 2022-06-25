@@ -14,5 +14,7 @@ const IconCloudUploadOutlined: CloudUploadOutlinedIconType = (props, context) =>
 );
 
 IconCloudUploadOutlined.displayName = 'IconCloudUploadOutlined';
+IconCloudUploadOutlined.theme = 'outlined';
+IconCloudUploadOutlined.originName = 'cloud-upload';
 
 export default IconCloudUploadOutlined;

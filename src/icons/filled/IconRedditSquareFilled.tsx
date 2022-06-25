@@ -14,5 +14,7 @@ const IconRedditSquareFilled: RedditSquareFilledIconType = (props, context) => (
 );
 
 IconRedditSquareFilled.displayName = 'IconRedditSquareFilled';
+IconRedditSquareFilled.theme = 'filled';
+IconRedditSquareFilled.originName = 'reddit-square';
 
 export default IconRedditSquareFilled;

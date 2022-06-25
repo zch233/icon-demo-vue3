@@ -14,5 +14,7 @@ const IconPropertySafetyTwoTone: PropertySafetyTwoToneIconType = (props, context
 );
 
 IconPropertySafetyTwoTone.displayName = 'IconPropertySafetyTwoTone';
+IconPropertySafetyTwoTone.theme = 'twotone';
+IconPropertySafetyTwoTone.originName = 'property-safety';
 
 export default IconPropertySafetyTwoTone;

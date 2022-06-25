@@ -14,5 +14,7 @@ const IconFileProtectOutlined: FileProtectOutlinedIconType = (props, context) =>
 );
 
 IconFileProtectOutlined.displayName = 'IconFileProtectOutlined';
+IconFileProtectOutlined.theme = 'outlined';
+IconFileProtectOutlined.originName = 'file-protect';
 
 export default IconFileProtectOutlined;

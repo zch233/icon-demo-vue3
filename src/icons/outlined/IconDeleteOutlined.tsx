@@ -14,5 +14,7 @@ const IconDeleteOutlined: DeleteOutlinedIconType = (props, context) => (
 );
 
 IconDeleteOutlined.displayName = 'IconDeleteOutlined';
+IconDeleteOutlined.theme = 'outlined';
+IconDeleteOutlined.originName = 'delete';
 
 export default IconDeleteOutlined;

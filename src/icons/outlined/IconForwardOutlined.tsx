@@ -14,5 +14,7 @@ const IconForwardOutlined: ForwardOutlinedIconType = (props, context) => (
 );
 
 IconForwardOutlined.displayName = 'IconForwardOutlined';
+IconForwardOutlined.theme = 'outlined';
+IconForwardOutlined.originName = 'forward';
 
 export default IconForwardOutlined;

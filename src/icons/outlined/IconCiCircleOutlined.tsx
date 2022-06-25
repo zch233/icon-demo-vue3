@@ -14,5 +14,7 @@ const IconCiCircleOutlined: CiCircleOutlinedIconType = (props, context) => (
 );
 
 IconCiCircleOutlined.displayName = 'IconCiCircleOutlined';
+IconCiCircleOutlined.theme = 'outlined';
+IconCiCircleOutlined.originName = 'ci-circle';
 
 export default IconCiCircleOutlined;

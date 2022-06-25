@@ -14,5 +14,7 @@ const IconMediumCircleFilled: MediumCircleFilledIconType = (props, context) => (
 );
 
 IconMediumCircleFilled.displayName = 'IconMediumCircleFilled';
+IconMediumCircleFilled.theme = 'filled';
+IconMediumCircleFilled.originName = 'medium-circle';
 
 export default IconMediumCircleFilled;

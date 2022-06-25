@@ -14,5 +14,7 @@ const IconGooglePlusOutlined: GooglePlusOutlinedIconType = (props, context) => (
 );
 
 IconGooglePlusOutlined.displayName = 'IconGooglePlusOutlined';
+IconGooglePlusOutlined.theme = 'outlined';
+IconGooglePlusOutlined.originName = 'google-plus';
 
 export default IconGooglePlusOutlined;

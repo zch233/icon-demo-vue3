@@ -9,10 +9,10 @@ export interface UsbOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconUsbOutlined: UsbOutlinedIconType = (props, context) => (
-    <Icon name='UsbOutlined' {...{ ...props, ...context.attrs }} icon={UsbOutlinedSvg} />
-);
+const IconUsbOutlined: UsbOutlinedIconType = (props, context) => <Icon name='UsbOutlined' {...{ ...props, ...context.attrs }} icon={UsbOutlinedSvg} />;
 
 IconUsbOutlined.displayName = 'IconUsbOutlined';
+IconUsbOutlined.theme = 'outlined';
+IconUsbOutlined.originName = 'usb';
 
 export default IconUsbOutlined;

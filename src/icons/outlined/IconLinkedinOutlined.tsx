@@ -14,5 +14,7 @@ const IconLinkedinOutlined: LinkedinOutlinedIconType = (props, context) => (
 );
 
 IconLinkedinOutlined.displayName = 'IconLinkedinOutlined';
+IconLinkedinOutlined.theme = 'outlined';
+IconLinkedinOutlined.originName = 'linkedin';
 
 export default IconLinkedinOutlined;

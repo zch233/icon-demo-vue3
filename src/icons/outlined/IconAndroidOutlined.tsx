@@ -14,5 +14,7 @@ const IconAndroidOutlined: AndroidOutlinedIconType = (props, context) => (
 );
 
 IconAndroidOutlined.displayName = 'IconAndroidOutlined';
+IconAndroidOutlined.theme = 'outlined';
+IconAndroidOutlined.originName = 'android';
 
 export default IconAndroidOutlined;

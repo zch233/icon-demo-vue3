@@ -14,5 +14,7 @@ const IconFileImageOutlined: FileImageOutlinedIconType = (props, context) => (
 );
 
 IconFileImageOutlined.displayName = 'IconFileImageOutlined';
+IconFileImageOutlined.theme = 'outlined';
+IconFileImageOutlined.originName = 'file-image';
 
 export default IconFileImageOutlined;

@@ -14,5 +14,7 @@ const IconShrinkOutlined: ShrinkOutlinedIconType = (props, context) => (
 );
 
 IconShrinkOutlined.displayName = 'IconShrinkOutlined';
+IconShrinkOutlined.theme = 'outlined';
+IconShrinkOutlined.originName = 'shrink';
 
 export default IconShrinkOutlined;

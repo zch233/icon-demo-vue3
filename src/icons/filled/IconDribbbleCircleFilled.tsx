@@ -14,5 +14,7 @@ const IconDribbbleCircleFilled: DribbbleCircleFilledIconType = (props, context) 
 );
 
 IconDribbbleCircleFilled.displayName = 'IconDribbbleCircleFilled';
+IconDribbbleCircleFilled.theme = 'filled';
+IconDribbbleCircleFilled.originName = 'dribbble-circle';
 
 export default IconDribbbleCircleFilled;

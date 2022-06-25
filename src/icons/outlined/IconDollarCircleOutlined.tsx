@@ -14,5 +14,7 @@ const IconDollarCircleOutlined: DollarCircleOutlinedIconType = (props, context) 
 );
 
 IconDollarCircleOutlined.displayName = 'IconDollarCircleOutlined';
+IconDollarCircleOutlined.theme = 'outlined';
+IconDollarCircleOutlined.originName = 'dollar-circle';
 
 export default IconDollarCircleOutlined;

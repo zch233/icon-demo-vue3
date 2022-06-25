@@ -9,10 +9,10 @@ export interface Html5TwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconHtml5TwoTone: Html5TwoToneIconType = (props, context) => (
-    <Icon name='Html5TwoTone' {...{ ...props, ...context.attrs }} icon={Html5TwoToneSvg} />
-);
+const IconHtml5TwoTone: Html5TwoToneIconType = (props, context) => <Icon name='Html5TwoTone' {...{ ...props, ...context.attrs }} icon={Html5TwoToneSvg} />;
 
 IconHtml5TwoTone.displayName = 'IconHtml5TwoTone';
+IconHtml5TwoTone.theme = 'twotone';
+IconHtml5TwoTone.originName = 'html5';
 
 export default IconHtml5TwoTone;

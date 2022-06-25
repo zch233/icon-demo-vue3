@@ -14,5 +14,7 @@ const IconLeftCircleTwoTone: LeftCircleTwoToneIconType = (props, context) => (
 );
 
 IconLeftCircleTwoTone.displayName = 'IconLeftCircleTwoTone';
+IconLeftCircleTwoTone.theme = 'twotone';
+IconLeftCircleTwoTone.originName = 'left-circle';
 
 export default IconLeftCircleTwoTone;

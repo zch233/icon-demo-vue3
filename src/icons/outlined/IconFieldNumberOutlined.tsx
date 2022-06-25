@@ -14,5 +14,7 @@ const IconFieldNumberOutlined: FieldNumberOutlinedIconType = (props, context) =>
 );
 
 IconFieldNumberOutlined.displayName = 'IconFieldNumberOutlined';
+IconFieldNumberOutlined.theme = 'outlined';
+IconFieldNumberOutlined.originName = 'field-number';
 
 export default IconFieldNumberOutlined;

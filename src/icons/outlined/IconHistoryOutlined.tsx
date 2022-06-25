@@ -14,5 +14,7 @@ const IconHistoryOutlined: HistoryOutlinedIconType = (props, context) => (
 );
 
 IconHistoryOutlined.displayName = 'IconHistoryOutlined';
+IconHistoryOutlined.theme = 'outlined';
+IconHistoryOutlined.originName = 'history';
 
 export default IconHistoryOutlined;

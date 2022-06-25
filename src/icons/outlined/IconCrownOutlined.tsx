@@ -9,10 +9,10 @@ export interface CrownOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconCrownOutlined: CrownOutlinedIconType = (props, context) => (
-    <Icon name='CrownOutlined' {...{ ...props, ...context.attrs }} icon={CrownOutlinedSvg} />
-);
+const IconCrownOutlined: CrownOutlinedIconType = (props, context) => <Icon name='CrownOutlined' {...{ ...props, ...context.attrs }} icon={CrownOutlinedSvg} />;
 
 IconCrownOutlined.displayName = 'IconCrownOutlined';
+IconCrownOutlined.theme = 'outlined';
+IconCrownOutlined.originName = 'crown';
 
 export default IconCrownOutlined;

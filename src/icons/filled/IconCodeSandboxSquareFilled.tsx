@@ -14,5 +14,7 @@ const IconCodeSandboxSquareFilled: CodeSandboxSquareFilledIconType = (props, con
 );
 
 IconCodeSandboxSquareFilled.displayName = 'IconCodeSandboxSquareFilled';
+IconCodeSandboxSquareFilled.theme = 'filled';
+IconCodeSandboxSquareFilled.originName = 'code-sandbox-square';
 
 export default IconCodeSandboxSquareFilled;

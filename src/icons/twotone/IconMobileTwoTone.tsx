@@ -9,10 +9,10 @@ export interface MobileTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconMobileTwoTone: MobileTwoToneIconType = (props, context) => (
-    <Icon name='MobileTwoTone' {...{ ...props, ...context.attrs }} icon={MobileTwoToneSvg} />
-);
+const IconMobileTwoTone: MobileTwoToneIconType = (props, context) => <Icon name='MobileTwoTone' {...{ ...props, ...context.attrs }} icon={MobileTwoToneSvg} />;
 
 IconMobileTwoTone.displayName = 'IconMobileTwoTone';
+IconMobileTwoTone.theme = 'twotone';
+IconMobileTwoTone.originName = 'mobile';
 
 export default IconMobileTwoTone;

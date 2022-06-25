@@ -14,5 +14,7 @@ const IconAudioMutedOutlined: AudioMutedOutlinedIconType = (props, context) => (
 );
 
 IconAudioMutedOutlined.displayName = 'IconAudioMutedOutlined';
+IconAudioMutedOutlined.theme = 'outlined';
+IconAudioMutedOutlined.originName = 'audio-muted';
 
 export default IconAudioMutedOutlined;

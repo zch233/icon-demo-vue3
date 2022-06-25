@@ -9,10 +9,10 @@ export interface SwapOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconSwapOutlined: SwapOutlinedIconType = (props, context) => (
-    <Icon name='SwapOutlined' {...{ ...props, ...context.attrs }} icon={SwapOutlinedSvg} />
-);
+const IconSwapOutlined: SwapOutlinedIconType = (props, context) => <Icon name='SwapOutlined' {...{ ...props, ...context.attrs }} icon={SwapOutlinedSvg} />;
 
 IconSwapOutlined.displayName = 'IconSwapOutlined';
+IconSwapOutlined.theme = 'outlined';
+IconSwapOutlined.originName = 'swap';
 
 export default IconSwapOutlined;

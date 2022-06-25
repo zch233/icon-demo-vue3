@@ -14,5 +14,7 @@ const IconPlusSquareTwoTone: PlusSquareTwoToneIconType = (props, context) => (
 );
 
 IconPlusSquareTwoTone.displayName = 'IconPlusSquareTwoTone';
+IconPlusSquareTwoTone.theme = 'twotone';
+IconPlusSquareTwoTone.originName = 'plus-square';
 
 export default IconPlusSquareTwoTone;

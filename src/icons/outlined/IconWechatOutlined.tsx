@@ -14,5 +14,7 @@ const IconWechatOutlined: WechatOutlinedIconType = (props, context) => (
 );
 
 IconWechatOutlined.displayName = 'IconWechatOutlined';
+IconWechatOutlined.theme = 'outlined';
+IconWechatOutlined.originName = 'wechat';
 
 export default IconWechatOutlined;

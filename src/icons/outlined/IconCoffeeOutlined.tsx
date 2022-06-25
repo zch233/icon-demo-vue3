@@ -14,5 +14,7 @@ const IconCoffeeOutlined: CoffeeOutlinedIconType = (props, context) => (
 );
 
 IconCoffeeOutlined.displayName = 'IconCoffeeOutlined';
+IconCoffeeOutlined.theme = 'outlined';
+IconCoffeeOutlined.originName = 'coffee';
 
 export default IconCoffeeOutlined;

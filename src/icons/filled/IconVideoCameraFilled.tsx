@@ -14,5 +14,7 @@ const IconVideoCameraFilled: VideoCameraFilledIconType = (props, context) => (
 );
 
 IconVideoCameraFilled.displayName = 'IconVideoCameraFilled';
+IconVideoCameraFilled.theme = 'filled';
+IconVideoCameraFilled.originName = 'video-camera';
 
 export default IconVideoCameraFilled;

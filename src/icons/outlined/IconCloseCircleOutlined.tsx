@@ -14,5 +14,7 @@ const IconCloseCircleOutlined: CloseCircleOutlinedIconType = (props, context) =>
 );
 
 IconCloseCircleOutlined.displayName = 'IconCloseCircleOutlined';
+IconCloseCircleOutlined.theme = 'outlined';
+IconCloseCircleOutlined.originName = 'close-circle';
 
 export default IconCloseCircleOutlined;

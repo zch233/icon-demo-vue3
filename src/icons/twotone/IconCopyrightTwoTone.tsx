@@ -14,5 +14,7 @@ const IconCopyrightTwoTone: CopyrightTwoToneIconType = (props, context) => (
 );
 
 IconCopyrightTwoTone.displayName = 'IconCopyrightTwoTone';
+IconCopyrightTwoTone.theme = 'twotone';
+IconCopyrightTwoTone.originName = 'copyright';
 
 export default IconCopyrightTwoTone;

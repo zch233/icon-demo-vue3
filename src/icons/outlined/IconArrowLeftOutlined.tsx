@@ -14,5 +14,7 @@ const IconArrowLeftOutlined: ArrowLeftOutlinedIconType = (props, context) => (
 );
 
 IconArrowLeftOutlined.displayName = 'IconArrowLeftOutlined';
+IconArrowLeftOutlined.theme = 'outlined';
+IconArrowLeftOutlined.originName = 'arrow-left';
 
 export default IconArrowLeftOutlined;

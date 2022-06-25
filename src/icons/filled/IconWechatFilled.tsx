@@ -9,10 +9,10 @@ export interface WechatFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconWechatFilled: WechatFilledIconType = (props, context) => (
-    <Icon name='WechatFilled' {...{ ...props, ...context.attrs }} icon={WechatFilledSvg} />
-);
+const IconWechatFilled: WechatFilledIconType = (props, context) => <Icon name='WechatFilled' {...{ ...props, ...context.attrs }} icon={WechatFilledSvg} />;
 
 IconWechatFilled.displayName = 'IconWechatFilled';
+IconWechatFilled.theme = 'filled';
+IconWechatFilled.originName = 'wechat';
 
 export default IconWechatFilled;

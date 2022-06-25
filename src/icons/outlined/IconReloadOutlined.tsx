@@ -14,5 +14,7 @@ const IconReloadOutlined: ReloadOutlinedIconType = (props, context) => (
 );
 
 IconReloadOutlined.displayName = 'IconReloadOutlined';
+IconReloadOutlined.theme = 'outlined';
+IconReloadOutlined.originName = 'reload';
 
 export default IconReloadOutlined;

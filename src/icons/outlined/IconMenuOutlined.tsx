@@ -9,10 +9,10 @@ export interface MenuOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconMenuOutlined: MenuOutlinedIconType = (props, context) => (
-    <Icon name='MenuOutlined' {...{ ...props, ...context.attrs }} icon={MenuOutlinedSvg} />
-);
+const IconMenuOutlined: MenuOutlinedIconType = (props, context) => <Icon name='MenuOutlined' {...{ ...props, ...context.attrs }} icon={MenuOutlinedSvg} />;
 
 IconMenuOutlined.displayName = 'IconMenuOutlined';
+IconMenuOutlined.theme = 'outlined';
+IconMenuOutlined.originName = 'menu';
 
 export default IconMenuOutlined;

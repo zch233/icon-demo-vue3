@@ -14,5 +14,7 @@ const IconDingtalkCircleFilled: DingtalkCircleFilledIconType = (props, context) 
 );
 
 IconDingtalkCircleFilled.displayName = 'IconDingtalkCircleFilled';
+IconDingtalkCircleFilled.theme = 'filled';
+IconDingtalkCircleFilled.originName = 'dingtalk-circle';
 
 export default IconDingtalkCircleFilled;

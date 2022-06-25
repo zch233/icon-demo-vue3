@@ -9,10 +9,10 @@ export interface GitlabFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconGitlabFilled: GitlabFilledIconType = (props, context) => (
-    <Icon name='GitlabFilled' {...{ ...props, ...context.attrs }} icon={GitlabFilledSvg} />
-);
+const IconGitlabFilled: GitlabFilledIconType = (props, context) => <Icon name='GitlabFilled' {...{ ...props, ...context.attrs }} icon={GitlabFilledSvg} />;
 
 IconGitlabFilled.displayName = 'IconGitlabFilled';
+IconGitlabFilled.theme = 'filled';
+IconGitlabFilled.originName = 'gitlab';
 
 export default IconGitlabFilled;

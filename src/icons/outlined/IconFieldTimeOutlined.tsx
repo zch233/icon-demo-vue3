@@ -14,5 +14,7 @@ const IconFieldTimeOutlined: FieldTimeOutlinedIconType = (props, context) => (
 );
 
 IconFieldTimeOutlined.displayName = 'IconFieldTimeOutlined';
+IconFieldTimeOutlined.theme = 'outlined';
+IconFieldTimeOutlined.originName = 'field-time';
 
 export default IconFieldTimeOutlined;

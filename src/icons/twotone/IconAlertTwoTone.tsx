@@ -9,10 +9,10 @@ export interface AlertTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconAlertTwoTone: AlertTwoToneIconType = (props, context) => (
-    <Icon name='AlertTwoTone' {...{ ...props, ...context.attrs }} icon={AlertTwoToneSvg} />
-);
+const IconAlertTwoTone: AlertTwoToneIconType = (props, context) => <Icon name='AlertTwoTone' {...{ ...props, ...context.attrs }} icon={AlertTwoToneSvg} />;
 
 IconAlertTwoTone.displayName = 'IconAlertTwoTone';
+IconAlertTwoTone.theme = 'twotone';
+IconAlertTwoTone.originName = 'alert';
 
 export default IconAlertTwoTone;

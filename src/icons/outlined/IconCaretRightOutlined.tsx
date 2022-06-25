@@ -14,5 +14,7 @@ const IconCaretRightOutlined: CaretRightOutlinedIconType = (props, context) => (
 );
 
 IconCaretRightOutlined.displayName = 'IconCaretRightOutlined';
+IconCaretRightOutlined.theme = 'outlined';
+IconCaretRightOutlined.originName = 'caret-right';
 
 export default IconCaretRightOutlined;

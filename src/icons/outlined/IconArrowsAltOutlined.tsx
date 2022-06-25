@@ -14,5 +14,7 @@ const IconArrowsAltOutlined: ArrowsAltOutlinedIconType = (props, context) => (
 );
 
 IconArrowsAltOutlined.displayName = 'IconArrowsAltOutlined';
+IconArrowsAltOutlined.theme = 'outlined';
+IconArrowsAltOutlined.originName = 'arrows-alt';
 
 export default IconArrowsAltOutlined;

@@ -14,5 +14,7 @@ const IconGatewayOutlined: GatewayOutlinedIconType = (props, context) => (
 );
 
 IconGatewayOutlined.displayName = 'IconGatewayOutlined';
+IconGatewayOutlined.theme = 'outlined';
+IconGatewayOutlined.originName = 'gateway';
 
 export default IconGatewayOutlined;

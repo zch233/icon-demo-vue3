@@ -14,5 +14,7 @@ const IconGithubOutlined: GithubOutlinedIconType = (props, context) => (
 );
 
 IconGithubOutlined.displayName = 'IconGithubOutlined';
+IconGithubOutlined.theme = 'outlined';
+IconGithubOutlined.originName = 'github';
 
 export default IconGithubOutlined;

@@ -14,5 +14,7 @@ const IconCloseCircleTwoTone: CloseCircleTwoToneIconType = (props, context) => (
 );
 
 IconCloseCircleTwoTone.displayName = 'IconCloseCircleTwoTone';
+IconCloseCircleTwoTone.theme = 'twotone';
+IconCloseCircleTwoTone.originName = 'close-circle';
 
 export default IconCloseCircleTwoTone;

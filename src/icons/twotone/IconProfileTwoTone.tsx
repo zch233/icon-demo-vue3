@@ -14,5 +14,7 @@ const IconProfileTwoTone: ProfileTwoToneIconType = (props, context) => (
 );
 
 IconProfileTwoTone.displayName = 'IconProfileTwoTone';
+IconProfileTwoTone.theme = 'twotone';
+IconProfileTwoTone.originName = 'profile';
 
 export default IconProfileTwoTone;

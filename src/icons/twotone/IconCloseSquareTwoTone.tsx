@@ -14,5 +14,7 @@ const IconCloseSquareTwoTone: CloseSquareTwoToneIconType = (props, context) => (
 );
 
 IconCloseSquareTwoTone.displayName = 'IconCloseSquareTwoTone';
+IconCloseSquareTwoTone.theme = 'twotone';
+IconCloseSquareTwoTone.originName = 'close-square';
 
 export default IconCloseSquareTwoTone;

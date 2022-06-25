@@ -14,5 +14,7 @@ const IconTrademarkCircleFilled: TrademarkCircleFilledIconType = (props, context
 );
 
 IconTrademarkCircleFilled.displayName = 'IconTrademarkCircleFilled';
+IconTrademarkCircleFilled.theme = 'filled';
+IconTrademarkCircleFilled.originName = 'trademark-circle';
 
 export default IconTrademarkCircleFilled;

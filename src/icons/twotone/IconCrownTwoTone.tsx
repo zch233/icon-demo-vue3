@@ -9,10 +9,10 @@ export interface CrownTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconCrownTwoTone: CrownTwoToneIconType = (props, context) => (
-    <Icon name='CrownTwoTone' {...{ ...props, ...context.attrs }} icon={CrownTwoToneSvg} />
-);
+const IconCrownTwoTone: CrownTwoToneIconType = (props, context) => <Icon name='CrownTwoTone' {...{ ...props, ...context.attrs }} icon={CrownTwoToneSvg} />;
 
 IconCrownTwoTone.displayName = 'IconCrownTwoTone';
+IconCrownTwoTone.theme = 'twotone';
+IconCrownTwoTone.originName = 'crown';
 
 export default IconCrownTwoTone;

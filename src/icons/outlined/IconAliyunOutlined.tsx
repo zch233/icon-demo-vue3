@@ -14,5 +14,7 @@ const IconAliyunOutlined: AliyunOutlinedIconType = (props, context) => (
 );
 
 IconAliyunOutlined.displayName = 'IconAliyunOutlined';
+IconAliyunOutlined.theme = 'outlined';
+IconAliyunOutlined.originName = 'aliyun';
 
 export default IconAliyunOutlined;

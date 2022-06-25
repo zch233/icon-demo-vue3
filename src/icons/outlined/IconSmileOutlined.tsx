@@ -9,10 +9,10 @@ export interface SmileOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconSmileOutlined: SmileOutlinedIconType = (props, context) => (
-    <Icon name='SmileOutlined' {...{ ...props, ...context.attrs }} icon={SmileOutlinedSvg} />
-);
+const IconSmileOutlined: SmileOutlinedIconType = (props, context) => <Icon name='SmileOutlined' {...{ ...props, ...context.attrs }} icon={SmileOutlinedSvg} />;
 
 IconSmileOutlined.displayName = 'IconSmileOutlined';
+IconSmileOutlined.theme = 'outlined';
+IconSmileOutlined.originName = 'smile';
 
 export default IconSmileOutlined;

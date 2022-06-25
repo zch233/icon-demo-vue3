@@ -14,5 +14,7 @@ const IconDashboardFilled: DashboardFilledIconType = (props, context) => (
 );
 
 IconDashboardFilled.displayName = 'IconDashboardFilled';
+IconDashboardFilled.theme = 'filled';
+IconDashboardFilled.originName = 'dashboard';
 
 export default IconDashboardFilled;

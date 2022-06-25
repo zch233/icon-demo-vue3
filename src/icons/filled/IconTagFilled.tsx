@@ -9,10 +9,10 @@ export interface TagFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconTagFilled: TagFilledIconType = (props, context) => (
-    <Icon name='TagFilled' {...{ ...props, ...context.attrs }} icon={TagFilledSvg} />
-);
+const IconTagFilled: TagFilledIconType = (props, context) => <Icon name='TagFilled' {...{ ...props, ...context.attrs }} icon={TagFilledSvg} />;
 
 IconTagFilled.displayName = 'IconTagFilled';
+IconTagFilled.theme = 'filled';
+IconTagFilled.originName = 'tag';
 
 export default IconTagFilled;

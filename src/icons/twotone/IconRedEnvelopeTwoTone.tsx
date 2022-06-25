@@ -14,5 +14,7 @@ const IconRedEnvelopeTwoTone: RedEnvelopeTwoToneIconType = (props, context) => (
 );
 
 IconRedEnvelopeTwoTone.displayName = 'IconRedEnvelopeTwoTone';
+IconRedEnvelopeTwoTone.theme = 'twotone';
+IconRedEnvelopeTwoTone.originName = 'red-envelope';
 
 export default IconRedEnvelopeTwoTone;

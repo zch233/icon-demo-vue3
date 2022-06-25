@@ -14,5 +14,7 @@ const IconExperimentTwoTone: ExperimentTwoToneIconType = (props, context) => (
 );
 
 IconExperimentTwoTone.displayName = 'IconExperimentTwoTone';
+IconExperimentTwoTone.theme = 'twotone';
+IconExperimentTwoTone.originName = 'experiment';
 
 export default IconExperimentTwoTone;

@@ -14,5 +14,7 @@ const IconDesktopOutlined: DesktopOutlinedIconType = (props, context) => (
 );
 
 IconDesktopOutlined.displayName = 'IconDesktopOutlined';
+IconDesktopOutlined.theme = 'outlined';
+IconDesktopOutlined.originName = 'desktop';
 
 export default IconDesktopOutlined;

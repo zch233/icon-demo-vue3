@@ -14,5 +14,7 @@ const IconLogoutOutlined: LogoutOutlinedIconType = (props, context) => (
 );
 
 IconLogoutOutlined.displayName = 'IconLogoutOutlined';
+IconLogoutOutlined.theme = 'outlined';
+IconLogoutOutlined.originName = 'logout';
 
 export default IconLogoutOutlined;

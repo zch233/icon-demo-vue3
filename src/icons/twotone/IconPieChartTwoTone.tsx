@@ -14,5 +14,7 @@ const IconPieChartTwoTone: PieChartTwoToneIconType = (props, context) => (
 );
 
 IconPieChartTwoTone.displayName = 'IconPieChartTwoTone';
+IconPieChartTwoTone.theme = 'twotone';
+IconPieChartTwoTone.originName = 'pie-chart';
 
 export default IconPieChartTwoTone;

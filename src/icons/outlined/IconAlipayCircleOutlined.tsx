@@ -14,5 +14,7 @@ const IconAlipayCircleOutlined: AlipayCircleOutlinedIconType = (props, context) 
 );
 
 IconAlipayCircleOutlined.displayName = 'IconAlipayCircleOutlined';
+IconAlipayCircleOutlined.theme = 'outlined';
+IconAlipayCircleOutlined.originName = 'alipay-circle';
 
 export default IconAlipayCircleOutlined;

@@ -14,5 +14,7 @@ const IconBorderVerticleOutlined: BorderVerticleOutlinedIconType = (props, conte
 );
 
 IconBorderVerticleOutlined.displayName = 'IconBorderVerticleOutlined';
+IconBorderVerticleOutlined.theme = 'outlined';
+IconBorderVerticleOutlined.originName = 'border-verticle';
 
 export default IconBorderVerticleOutlined;

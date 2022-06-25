@@ -14,5 +14,7 @@ const IconZhihuSquareFilled: ZhihuSquareFilledIconType = (props, context) => (
 );
 
 IconZhihuSquareFilled.displayName = 'IconZhihuSquareFilled';
+IconZhihuSquareFilled.theme = 'filled';
+IconZhihuSquareFilled.originName = 'zhihu-square';
 
 export default IconZhihuSquareFilled;

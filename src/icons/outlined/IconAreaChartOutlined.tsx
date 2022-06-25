@@ -14,5 +14,7 @@ const IconAreaChartOutlined: AreaChartOutlinedIconType = (props, context) => (
 );
 
 IconAreaChartOutlined.displayName = 'IconAreaChartOutlined';
+IconAreaChartOutlined.theme = 'outlined';
+IconAreaChartOutlined.originName = 'area-chart';
 
 export default IconAreaChartOutlined;

@@ -14,5 +14,7 @@ const IconLeftCircleFilled: LeftCircleFilledIconType = (props, context) => (
 );
 
 IconLeftCircleFilled.displayName = 'IconLeftCircleFilled';
+IconLeftCircleFilled.theme = 'filled';
+IconLeftCircleFilled.originName = 'left-circle';
 
 export default IconLeftCircleFilled;

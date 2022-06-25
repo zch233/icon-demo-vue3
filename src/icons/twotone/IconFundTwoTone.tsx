@@ -9,10 +9,10 @@ export interface FundTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconFundTwoTone: FundTwoToneIconType = (props, context) => (
-    <Icon name='FundTwoTone' {...{ ...props, ...context.attrs }} icon={FundTwoToneSvg} />
-);
+const IconFundTwoTone: FundTwoToneIconType = (props, context) => <Icon name='FundTwoTone' {...{ ...props, ...context.attrs }} icon={FundTwoToneSvg} />;
 
 IconFundTwoTone.displayName = 'IconFundTwoTone';
+IconFundTwoTone.theme = 'twotone';
+IconFundTwoTone.originName = 'fund';
 
 export default IconFundTwoTone;

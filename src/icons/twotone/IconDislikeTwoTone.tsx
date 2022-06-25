@@ -14,5 +14,7 @@ const IconDislikeTwoTone: DislikeTwoToneIconType = (props, context) => (
 );
 
 IconDislikeTwoTone.displayName = 'IconDislikeTwoTone';
+IconDislikeTwoTone.theme = 'twotone';
+IconDislikeTwoTone.originName = 'dislike';
 
 export default IconDislikeTwoTone;

@@ -14,5 +14,7 @@ const IconCodepenCircleFilled: CodepenCircleFilledIconType = (props, context) =>
 );
 
 IconCodepenCircleFilled.displayName = 'IconCodepenCircleFilled';
+IconCodepenCircleFilled.theme = 'filled';
+IconCodepenCircleFilled.originName = 'codepen-circle';
 
 export default IconCodepenCircleFilled;

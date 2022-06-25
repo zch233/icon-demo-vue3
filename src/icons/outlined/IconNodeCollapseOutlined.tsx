@@ -14,5 +14,7 @@ const IconNodeCollapseOutlined: NodeCollapseOutlinedIconType = (props, context) 
 );
 
 IconNodeCollapseOutlined.displayName = 'IconNodeCollapseOutlined';
+IconNodeCollapseOutlined.theme = 'outlined';
+IconNodeCollapseOutlined.originName = 'node-collapse';
 
 export default IconNodeCollapseOutlined;

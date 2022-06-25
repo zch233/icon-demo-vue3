@@ -14,5 +14,7 @@ const IconFileImageFilled: FileImageFilledIconType = (props, context) => (
 );
 
 IconFileImageFilled.displayName = 'IconFileImageFilled';
+IconFileImageFilled.theme = 'filled';
+IconFileImageFilled.originName = 'file-image';
 
 export default IconFileImageFilled;

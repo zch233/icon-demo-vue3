@@ -14,5 +14,7 @@ const IconCloudServerOutlined: CloudServerOutlinedIconType = (props, context) =>
 );
 
 IconCloudServerOutlined.displayName = 'IconCloudServerOutlined';
+IconCloudServerOutlined.theme = 'outlined';
+IconCloudServerOutlined.originName = 'cloud-server';
 
 export default IconCloudServerOutlined;

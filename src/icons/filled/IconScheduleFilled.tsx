@@ -14,5 +14,7 @@ const IconScheduleFilled: ScheduleFilledIconType = (props, context) => (
 );
 
 IconScheduleFilled.displayName = 'IconScheduleFilled';
+IconScheduleFilled.theme = 'filled';
+IconScheduleFilled.originName = 'schedule';
 
 export default IconScheduleFilled;

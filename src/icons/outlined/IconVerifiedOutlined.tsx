@@ -14,5 +14,7 @@ const IconVerifiedOutlined: VerifiedOutlinedIconType = (props, context) => (
 );
 
 IconVerifiedOutlined.displayName = 'IconVerifiedOutlined';
+IconVerifiedOutlined.theme = 'outlined';
+IconVerifiedOutlined.originName = 'verified';
 
 export default IconVerifiedOutlined;

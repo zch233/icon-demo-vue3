@@ -14,5 +14,7 @@ const IconCodepenCircleOutlined: CodepenCircleOutlinedIconType = (props, context
 );
 
 IconCodepenCircleOutlined.displayName = 'IconCodepenCircleOutlined';
+IconCodepenCircleOutlined.theme = 'outlined';
+IconCodepenCircleOutlined.originName = 'codepen-circle';
 
 export default IconCodepenCircleOutlined;

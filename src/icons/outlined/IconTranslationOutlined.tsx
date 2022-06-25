@@ -14,5 +14,7 @@ const IconTranslationOutlined: TranslationOutlinedIconType = (props, context) =>
 );
 
 IconTranslationOutlined.displayName = 'IconTranslationOutlined';
+IconTranslationOutlined.theme = 'outlined';
+IconTranslationOutlined.originName = 'translation';
 
 export default IconTranslationOutlined;

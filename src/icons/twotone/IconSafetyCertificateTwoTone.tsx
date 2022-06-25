@@ -14,5 +14,7 @@ const IconSafetyCertificateTwoTone: SafetyCertificateTwoToneIconType = (props, c
 );
 
 IconSafetyCertificateTwoTone.displayName = 'IconSafetyCertificateTwoTone';
+IconSafetyCertificateTwoTone.theme = 'twotone';
+IconSafetyCertificateTwoTone.originName = 'safety-certificate';
 
 export default IconSafetyCertificateTwoTone;

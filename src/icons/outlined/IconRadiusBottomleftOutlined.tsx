@@ -14,5 +14,7 @@ const IconRadiusBottomleftOutlined: RadiusBottomleftOutlinedIconType = (props, c
 );
 
 IconRadiusBottomleftOutlined.displayName = 'IconRadiusBottomleftOutlined';
+IconRadiusBottomleftOutlined.theme = 'outlined';
+IconRadiusBottomleftOutlined.originName = 'radius-bottomleft';
 
 export default IconRadiusBottomleftOutlined;

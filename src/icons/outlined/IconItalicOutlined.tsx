@@ -14,5 +14,7 @@ const IconItalicOutlined: ItalicOutlinedIconType = (props, context) => (
 );
 
 IconItalicOutlined.displayName = 'IconItalicOutlined';
+IconItalicOutlined.theme = 'outlined';
+IconItalicOutlined.originName = 'italic';
 
 export default IconItalicOutlined;

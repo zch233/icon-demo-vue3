@@ -14,5 +14,7 @@ const IconExclamationCircleTwoTone: ExclamationCircleTwoToneIconType = (props, c
 );
 
 IconExclamationCircleTwoTone.displayName = 'IconExclamationCircleTwoTone';
+IconExclamationCircleTwoTone.theme = 'twotone';
+IconExclamationCircleTwoTone.originName = 'exclamation-circle';
 
 export default IconExclamationCircleTwoTone;

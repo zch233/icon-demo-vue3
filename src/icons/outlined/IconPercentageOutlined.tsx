@@ -14,5 +14,7 @@ const IconPercentageOutlined: PercentageOutlinedIconType = (props, context) => (
 );
 
 IconPercentageOutlined.displayName = 'IconPercentageOutlined';
+IconPercentageOutlined.theme = 'outlined';
+IconPercentageOutlined.originName = 'percentage';
 
 export default IconPercentageOutlined;

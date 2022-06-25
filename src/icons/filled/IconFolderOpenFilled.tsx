@@ -14,5 +14,7 @@ const IconFolderOpenFilled: FolderOpenFilledIconType = (props, context) => (
 );
 
 IconFolderOpenFilled.displayName = 'IconFolderOpenFilled';
+IconFolderOpenFilled.theme = 'filled';
+IconFolderOpenFilled.originName = 'folder-open';
 
 export default IconFolderOpenFilled;

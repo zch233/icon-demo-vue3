@@ -9,10 +9,10 @@ export interface ToolOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconToolOutlined: ToolOutlinedIconType = (props, context) => (
-    <Icon name='ToolOutlined' {...{ ...props, ...context.attrs }} icon={ToolOutlinedSvg} />
-);
+const IconToolOutlined: ToolOutlinedIconType = (props, context) => <Icon name='ToolOutlined' {...{ ...props, ...context.attrs }} icon={ToolOutlinedSvg} />;
 
 IconToolOutlined.displayName = 'IconToolOutlined';
+IconToolOutlined.theme = 'outlined';
+IconToolOutlined.originName = 'tool';
 
 export default IconToolOutlined;

@@ -14,5 +14,7 @@ const IconGoogleSquareFilled: GoogleSquareFilledIconType = (props, context) => (
 );
 
 IconGoogleSquareFilled.displayName = 'IconGoogleSquareFilled';
+IconGoogleSquareFilled.theme = 'filled';
+IconGoogleSquareFilled.originName = 'google-square';
 
 export default IconGoogleSquareFilled;

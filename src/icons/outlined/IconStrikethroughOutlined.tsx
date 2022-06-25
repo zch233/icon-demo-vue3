@@ -14,5 +14,7 @@ const IconStrikethroughOutlined: StrikethroughOutlinedIconType = (props, context
 );
 
 IconStrikethroughOutlined.displayName = 'IconStrikethroughOutlined';
+IconStrikethroughOutlined.theme = 'outlined';
+IconStrikethroughOutlined.originName = 'strikethrough';
 
 export default IconStrikethroughOutlined;

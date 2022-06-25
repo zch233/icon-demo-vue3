@@ -14,5 +14,7 @@ const IconSolutionOutlined: SolutionOutlinedIconType = (props, context) => (
 );
 
 IconSolutionOutlined.displayName = 'IconSolutionOutlined';
+IconSolutionOutlined.theme = 'outlined';
+IconSolutionOutlined.originName = 'solution';
 
 export default IconSolutionOutlined;

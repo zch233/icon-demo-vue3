@@ -14,5 +14,7 @@ const IconProjectTwoTone: ProjectTwoToneIconType = (props, context) => (
 );
 
 IconProjectTwoTone.displayName = 'IconProjectTwoTone';
+IconProjectTwoTone.theme = 'twotone';
+IconProjectTwoTone.originName = 'project';
 
 export default IconProjectTwoTone;

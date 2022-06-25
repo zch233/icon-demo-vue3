@@ -14,5 +14,7 @@ const IconSmallDashOutlined: SmallDashOutlinedIconType = (props, context) => (
 );
 
 IconSmallDashOutlined.displayName = 'IconSmallDashOutlined';
+IconSmallDashOutlined.theme = 'outlined';
+IconSmallDashOutlined.originName = 'small-dash';
 
 export default IconSmallDashOutlined;

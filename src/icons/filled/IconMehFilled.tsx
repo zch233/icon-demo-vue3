@@ -9,10 +9,10 @@ export interface MehFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconMehFilled: MehFilledIconType = (props, context) => (
-    <Icon name='MehFilled' {...{ ...props, ...context.attrs }} icon={MehFilledSvg} />
-);
+const IconMehFilled: MehFilledIconType = (props, context) => <Icon name='MehFilled' {...{ ...props, ...context.attrs }} icon={MehFilledSvg} />;
 
 IconMehFilled.displayName = 'IconMehFilled';
+IconMehFilled.theme = 'filled';
+IconMehFilled.originName = 'meh';
 
 export default IconMehFilled;

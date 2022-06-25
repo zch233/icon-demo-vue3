@@ -14,5 +14,7 @@ const IconFilePptTwoTone: FilePptTwoToneIconType = (props, context) => (
 );
 
 IconFilePptTwoTone.displayName = 'IconFilePptTwoTone';
+IconFilePptTwoTone.theme = 'twotone';
+IconFilePptTwoTone.originName = 'file-ppt';
 
 export default IconFilePptTwoTone;

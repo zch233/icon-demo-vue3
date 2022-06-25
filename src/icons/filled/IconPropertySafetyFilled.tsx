@@ -14,5 +14,7 @@ const IconPropertySafetyFilled: PropertySafetyFilledIconType = (props, context) 
 );
 
 IconPropertySafetyFilled.displayName = 'IconPropertySafetyFilled';
+IconPropertySafetyFilled.theme = 'filled';
+IconPropertySafetyFilled.originName = 'property-safety';
 
 export default IconPropertySafetyFilled;

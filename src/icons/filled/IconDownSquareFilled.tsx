@@ -14,5 +14,7 @@ const IconDownSquareFilled: DownSquareFilledIconType = (props, context) => (
 );
 
 IconDownSquareFilled.displayName = 'IconDownSquareFilled';
+IconDownSquareFilled.theme = 'filled';
+IconDownSquareFilled.originName = 'down-square';
 
 export default IconDownSquareFilled;

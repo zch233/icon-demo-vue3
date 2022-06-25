@@ -14,5 +14,7 @@ const IconLeftCircleOutlined: LeftCircleOutlinedIconType = (props, context) => (
 );
 
 IconLeftCircleOutlined.displayName = 'IconLeftCircleOutlined';
+IconLeftCircleOutlined.theme = 'outlined';
+IconLeftCircleOutlined.originName = 'left-circle';
 
 export default IconLeftCircleOutlined;

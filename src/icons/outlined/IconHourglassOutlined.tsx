@@ -14,5 +14,7 @@ const IconHourglassOutlined: HourglassOutlinedIconType = (props, context) => (
 );
 
 IconHourglassOutlined.displayName = 'IconHourglassOutlined';
+IconHourglassOutlined.theme = 'outlined';
+IconHourglassOutlined.originName = 'hourglass';
 
 export default IconHourglassOutlined;

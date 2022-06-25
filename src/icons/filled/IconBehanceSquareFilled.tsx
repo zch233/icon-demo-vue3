@@ -14,5 +14,7 @@ const IconBehanceSquareFilled: BehanceSquareFilledIconType = (props, context) =>
 );
 
 IconBehanceSquareFilled.displayName = 'IconBehanceSquareFilled';
+IconBehanceSquareFilled.theme = 'filled';
+IconBehanceSquareFilled.originName = 'behance-square';
 
 export default IconBehanceSquareFilled;

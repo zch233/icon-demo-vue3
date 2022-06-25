@@ -14,5 +14,7 @@ const IconTwitterCircleFilled: TwitterCircleFilledIconType = (props, context) =>
 );
 
 IconTwitterCircleFilled.displayName = 'IconTwitterCircleFilled';
+IconTwitterCircleFilled.theme = 'filled';
+IconTwitterCircleFilled.originName = 'twitter-circle';
 
 export default IconTwitterCircleFilled;

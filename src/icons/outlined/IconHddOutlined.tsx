@@ -9,10 +9,10 @@ export interface HddOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconHddOutlined: HddOutlinedIconType = (props, context) => (
-    <Icon name='HddOutlined' {...{ ...props, ...context.attrs }} icon={HddOutlinedSvg} />
-);
+const IconHddOutlined: HddOutlinedIconType = (props, context) => <Icon name='HddOutlined' {...{ ...props, ...context.attrs }} icon={HddOutlinedSvg} />;
 
 IconHddOutlined.displayName = 'IconHddOutlined';
+IconHddOutlined.theme = 'outlined';
+IconHddOutlined.originName = 'hdd';
 
 export default IconHddOutlined;

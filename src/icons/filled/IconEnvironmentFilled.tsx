@@ -14,5 +14,7 @@ const IconEnvironmentFilled: EnvironmentFilledIconType = (props, context) => (
 );
 
 IconEnvironmentFilled.displayName = 'IconEnvironmentFilled';
+IconEnvironmentFilled.theme = 'filled';
+IconEnvironmentFilled.originName = 'environment';
 
 export default IconEnvironmentFilled;

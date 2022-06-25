@@ -14,5 +14,7 @@ const IconSwitcherOutlined: SwitcherOutlinedIconType = (props, context) => (
 );
 
 IconSwitcherOutlined.displayName = 'IconSwitcherOutlined';
+IconSwitcherOutlined.theme = 'outlined';
+IconSwitcherOutlined.originName = 'switcher';
 
 export default IconSwitcherOutlined;

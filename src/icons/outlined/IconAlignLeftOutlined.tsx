@@ -14,5 +14,7 @@ const IconAlignLeftOutlined: AlignLeftOutlinedIconType = (props, context) => (
 );
 
 IconAlignLeftOutlined.displayName = 'IconAlignLeftOutlined';
+IconAlignLeftOutlined.theme = 'outlined';
+IconAlignLeftOutlined.originName = 'align-left';
 
 export default IconAlignLeftOutlined;

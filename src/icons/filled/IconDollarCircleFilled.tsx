@@ -14,5 +14,7 @@ const IconDollarCircleFilled: DollarCircleFilledIconType = (props, context) => (
 );
 
 IconDollarCircleFilled.displayName = 'IconDollarCircleFilled';
+IconDollarCircleFilled.theme = 'filled';
+IconDollarCircleFilled.originName = 'dollar-circle';
 
 export default IconDollarCircleFilled;

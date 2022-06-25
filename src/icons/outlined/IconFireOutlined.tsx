@@ -9,10 +9,10 @@ export interface FireOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconFireOutlined: FireOutlinedIconType = (props, context) => (
-    <Icon name='FireOutlined' {...{ ...props, ...context.attrs }} icon={FireOutlinedSvg} />
-);
+const IconFireOutlined: FireOutlinedIconType = (props, context) => <Icon name='FireOutlined' {...{ ...props, ...context.attrs }} icon={FireOutlinedSvg} />;
 
 IconFireOutlined.displayName = 'IconFireOutlined';
+IconFireOutlined.theme = 'outlined';
+IconFireOutlined.originName = 'fire';
 
 export default IconFireOutlined;

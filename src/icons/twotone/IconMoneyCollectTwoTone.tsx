@@ -14,5 +14,7 @@ const IconMoneyCollectTwoTone: MoneyCollectTwoToneIconType = (props, context) =>
 );
 
 IconMoneyCollectTwoTone.displayName = 'IconMoneyCollectTwoTone';
+IconMoneyCollectTwoTone.theme = 'twotone';
+IconMoneyCollectTwoTone.originName = 'money-collect';
 
 export default IconMoneyCollectTwoTone;

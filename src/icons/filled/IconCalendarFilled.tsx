@@ -14,5 +14,7 @@ const IconCalendarFilled: CalendarFilledIconType = (props, context) => (
 );
 
 IconCalendarFilled.displayName = 'IconCalendarFilled';
+IconCalendarFilled.theme = 'filled';
+IconCalendarFilled.originName = 'calendar';
 
 export default IconCalendarFilled;

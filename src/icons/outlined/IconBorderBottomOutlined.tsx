@@ -14,5 +14,7 @@ const IconBorderBottomOutlined: BorderBottomOutlinedIconType = (props, context) 
 );
 
 IconBorderBottomOutlined.displayName = 'IconBorderBottomOutlined';
+IconBorderBottomOutlined.theme = 'outlined';
+IconBorderBottomOutlined.originName = 'border-bottom';
 
 export default IconBorderBottomOutlined;

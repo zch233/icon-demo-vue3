@@ -14,5 +14,7 @@ const IconDownCircleOutlined: DownCircleOutlinedIconType = (props, context) => (
 );
 
 IconDownCircleOutlined.displayName = 'IconDownCircleOutlined';
+IconDownCircleOutlined.theme = 'outlined';
+IconDownCircleOutlined.originName = 'down-circle';
 
 export default IconDownCircleOutlined;

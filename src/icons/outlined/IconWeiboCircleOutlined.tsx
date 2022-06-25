@@ -14,5 +14,7 @@ const IconWeiboCircleOutlined: WeiboCircleOutlinedIconType = (props, context) =>
 );
 
 IconWeiboCircleOutlined.displayName = 'IconWeiboCircleOutlined';
+IconWeiboCircleOutlined.theme = 'outlined';
+IconWeiboCircleOutlined.originName = 'weibo-circle';
 
 export default IconWeiboCircleOutlined;

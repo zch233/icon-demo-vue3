@@ -14,5 +14,7 @@ const IconLineHeightOutlined: LineHeightOutlinedIconType = (props, context) => (
 );
 
 IconLineHeightOutlined.displayName = 'IconLineHeightOutlined';
+IconLineHeightOutlined.theme = 'outlined';
+IconLineHeightOutlined.originName = 'line-height';
 
 export default IconLineHeightOutlined;

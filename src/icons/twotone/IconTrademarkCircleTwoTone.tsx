@@ -14,5 +14,7 @@ const IconTrademarkCircleTwoTone: TrademarkCircleTwoToneIconType = (props, conte
 );
 
 IconTrademarkCircleTwoTone.displayName = 'IconTrademarkCircleTwoTone';
+IconTrademarkCircleTwoTone.theme = 'twotone';
+IconTrademarkCircleTwoTone.originName = 'trademark-circle';
 
 export default IconTrademarkCircleTwoTone;

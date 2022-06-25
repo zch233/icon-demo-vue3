@@ -14,5 +14,7 @@ const IconBackwardOutlined: BackwardOutlinedIconType = (props, context) => (
 );
 
 IconBackwardOutlined.displayName = 'IconBackwardOutlined';
+IconBackwardOutlined.theme = 'outlined';
+IconBackwardOutlined.originName = 'backward';
 
 export default IconBackwardOutlined;

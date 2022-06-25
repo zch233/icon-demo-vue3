@@ -14,5 +14,7 @@ const IconPlusCircleFilled: PlusCircleFilledIconType = (props, context) => (
 );
 
 IconPlusCircleFilled.displayName = 'IconPlusCircleFilled';
+IconPlusCircleFilled.theme = 'filled';
+IconPlusCircleFilled.originName = 'plus-circle';
 
 export default IconPlusCircleFilled;

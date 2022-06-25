@@ -14,5 +14,7 @@ const IconNodeExpandOutlined: NodeExpandOutlinedIconType = (props, context) => (
 );
 
 IconNodeExpandOutlined.displayName = 'IconNodeExpandOutlined';
+IconNodeExpandOutlined.theme = 'outlined';
+IconNodeExpandOutlined.originName = 'node-expand';
 
 export default IconNodeExpandOutlined;

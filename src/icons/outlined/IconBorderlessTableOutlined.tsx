@@ -14,5 +14,7 @@ const IconBorderlessTableOutlined: BorderlessTableOutlinedIconType = (props, con
 );
 
 IconBorderlessTableOutlined.displayName = 'IconBorderlessTableOutlined';
+IconBorderlessTableOutlined.theme = 'outlined';
+IconBorderlessTableOutlined.originName = 'borderless-table';
 
 export default IconBorderlessTableOutlined;

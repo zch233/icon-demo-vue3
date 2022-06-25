@@ -14,5 +14,7 @@ const IconDeploymentUnitOutlined: DeploymentUnitOutlinedIconType = (props, conte
 );
 
 IconDeploymentUnitOutlined.displayName = 'IconDeploymentUnitOutlined';
+IconDeploymentUnitOutlined.theme = 'outlined';
+IconDeploymentUnitOutlined.originName = 'deployment-unit';
 
 export default IconDeploymentUnitOutlined;

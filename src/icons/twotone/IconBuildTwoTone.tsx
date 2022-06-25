@@ -9,10 +9,10 @@ export interface BuildTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBuildTwoTone: BuildTwoToneIconType = (props, context) => (
-    <Icon name='BuildTwoTone' {...{ ...props, ...context.attrs }} icon={BuildTwoToneSvg} />
-);
+const IconBuildTwoTone: BuildTwoToneIconType = (props, context) => <Icon name='BuildTwoTone' {...{ ...props, ...context.attrs }} icon={BuildTwoToneSvg} />;
 
 IconBuildTwoTone.displayName = 'IconBuildTwoTone';
+IconBuildTwoTone.theme = 'twotone';
+IconBuildTwoTone.originName = 'build';
 
 export default IconBuildTwoTone;

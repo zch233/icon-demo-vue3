@@ -9,10 +9,10 @@ export interface EditTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconEditTwoTone: EditTwoToneIconType = (props, context) => (
-    <Icon name='EditTwoTone' {...{ ...props, ...context.attrs }} icon={EditTwoToneSvg} />
-);
+const IconEditTwoTone: EditTwoToneIconType = (props, context) => <Icon name='EditTwoTone' {...{ ...props, ...context.attrs }} icon={EditTwoToneSvg} />;
 
 IconEditTwoTone.displayName = 'IconEditTwoTone';
+IconEditTwoTone.theme = 'twotone';
+IconEditTwoTone.originName = 'edit';
 
 export default IconEditTwoTone;

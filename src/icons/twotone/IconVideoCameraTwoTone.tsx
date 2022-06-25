@@ -14,5 +14,7 @@ const IconVideoCameraTwoTone: VideoCameraTwoToneIconType = (props, context) => (
 );
 
 IconVideoCameraTwoTone.displayName = 'IconVideoCameraTwoTone';
+IconVideoCameraTwoTone.theme = 'twotone';
+IconVideoCameraTwoTone.originName = 'video-camera';
 
 export default IconVideoCameraTwoTone;

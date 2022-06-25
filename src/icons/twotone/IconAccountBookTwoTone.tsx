@@ -14,5 +14,7 @@ const IconAccountBookTwoTone: AccountBookTwoToneIconType = (props, context) => (
 );
 
 IconAccountBookTwoTone.displayName = 'IconAccountBookTwoTone';
+IconAccountBookTwoTone.theme = 'twotone';
+IconAccountBookTwoTone.originName = 'account-book';
 
 export default IconAccountBookTwoTone;

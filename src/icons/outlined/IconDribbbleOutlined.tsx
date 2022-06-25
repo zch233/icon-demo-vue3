@@ -14,5 +14,7 @@ const IconDribbbleOutlined: DribbbleOutlinedIconType = (props, context) => (
 );
 
 IconDribbbleOutlined.displayName = 'IconDribbbleOutlined';
+IconDribbbleOutlined.theme = 'outlined';
+IconDribbbleOutlined.originName = 'dribbble';
 
 export default IconDribbbleOutlined;

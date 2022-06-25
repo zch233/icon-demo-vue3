@@ -14,5 +14,7 @@ const IconDashboardTwoTone: DashboardTwoToneIconType = (props, context) => (
 );
 
 IconDashboardTwoTone.displayName = 'IconDashboardTwoTone';
+IconDashboardTwoTone.theme = 'twotone';
+IconDashboardTwoTone.originName = 'dashboard';
 
 export default IconDashboardTwoTone;

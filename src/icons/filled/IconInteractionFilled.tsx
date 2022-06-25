@@ -14,5 +14,7 @@ const IconInteractionFilled: InteractionFilledIconType = (props, context) => (
 );
 
 IconInteractionFilled.displayName = 'IconInteractionFilled';
+IconInteractionFilled.theme = 'filled';
+IconInteractionFilled.originName = 'interaction';
 
 export default IconInteractionFilled;

@@ -14,5 +14,7 @@ const IconFolderViewOutlined: FolderViewOutlinedIconType = (props, context) => (
 );
 
 IconFolderViewOutlined.displayName = 'IconFolderViewOutlined';
+IconFolderViewOutlined.theme = 'outlined';
+IconFolderViewOutlined.originName = 'folder-view';
 
 export default IconFolderViewOutlined;

@@ -9,10 +9,10 @@ export interface SyncOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconSyncOutlined: SyncOutlinedIconType = (props, context) => (
-    <Icon name='SyncOutlined' {...{ ...props, ...context.attrs }} icon={SyncOutlinedSvg} />
-);
+const IconSyncOutlined: SyncOutlinedIconType = (props, context) => <Icon name='SyncOutlined' {...{ ...props, ...context.attrs }} icon={SyncOutlinedSvg} />;
 
 IconSyncOutlined.displayName = 'IconSyncOutlined';
+IconSyncOutlined.theme = 'outlined';
+IconSyncOutlined.originName = 'sync';
 
 export default IconSyncOutlined;

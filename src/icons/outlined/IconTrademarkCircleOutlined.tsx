@@ -14,5 +14,7 @@ const IconTrademarkCircleOutlined: TrademarkCircleOutlinedIconType = (props, con
 );
 
 IconTrademarkCircleOutlined.displayName = 'IconTrademarkCircleOutlined';
+IconTrademarkCircleOutlined.theme = 'outlined';
+IconTrademarkCircleOutlined.originName = 'trademark-circle';
 
 export default IconTrademarkCircleOutlined;

@@ -14,5 +14,7 @@ const IconCheckCircleTwoTone: CheckCircleTwoToneIconType = (props, context) => (
 );
 
 IconCheckCircleTwoTone.displayName = 'IconCheckCircleTwoTone';
+IconCheckCircleTwoTone.theme = 'twotone';
+IconCheckCircleTwoTone.originName = 'check-circle';
 
 export default IconCheckCircleTwoTone;

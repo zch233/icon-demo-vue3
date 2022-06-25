@@ -9,10 +9,10 @@ export interface ChromeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconChromeFilled: ChromeFilledIconType = (props, context) => (
-    <Icon name='ChromeFilled' {...{ ...props, ...context.attrs }} icon={ChromeFilledSvg} />
-);
+const IconChromeFilled: ChromeFilledIconType = (props, context) => <Icon name='ChromeFilled' {...{ ...props, ...context.attrs }} icon={ChromeFilledSvg} />;
 
 IconChromeFilled.displayName = 'IconChromeFilled';
+IconChromeFilled.theme = 'filled';
+IconChromeFilled.originName = 'chrome';
 
 export default IconChromeFilled;

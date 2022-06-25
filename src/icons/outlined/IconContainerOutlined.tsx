@@ -14,5 +14,7 @@ const IconContainerOutlined: ContainerOutlinedIconType = (props, context) => (
 );
 
 IconContainerOutlined.displayName = 'IconContainerOutlined';
+IconContainerOutlined.theme = 'outlined';
+IconContainerOutlined.originName = 'container';
 
 export default IconContainerOutlined;

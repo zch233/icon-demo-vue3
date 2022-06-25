@@ -14,5 +14,7 @@ const IconArrowDownOutlined: ArrowDownOutlinedIconType = (props, context) => (
 );
 
 IconArrowDownOutlined.displayName = 'IconArrowDownOutlined';
+IconArrowDownOutlined.theme = 'outlined';
+IconArrowDownOutlined.originName = 'arrow-down';
 
 export default IconArrowDownOutlined;

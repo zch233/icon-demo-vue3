@@ -14,5 +14,7 @@ const IconYoutubeOutlined: YoutubeOutlinedIconType = (props, context) => (
 );
 
 IconYoutubeOutlined.displayName = 'IconYoutubeOutlined';
+IconYoutubeOutlined.theme = 'outlined';
+IconYoutubeOutlined.originName = 'youtube';
 
 export default IconYoutubeOutlined;

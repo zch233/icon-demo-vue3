@@ -14,5 +14,7 @@ const IconTwitterOutlined: TwitterOutlinedIconType = (props, context) => (
 );
 
 IconTwitterOutlined.displayName = 'IconTwitterOutlined';
+IconTwitterOutlined.theme = 'outlined';
+IconTwitterOutlined.originName = 'twitter';
 
 export default IconTwitterOutlined;

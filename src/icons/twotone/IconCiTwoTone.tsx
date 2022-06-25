@@ -9,10 +9,10 @@ export interface CiTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconCiTwoTone: CiTwoToneIconType = (props, context) => (
-    <Icon name='CiTwoTone' {...{ ...props, ...context.attrs }} icon={CiTwoToneSvg} />
-);
+const IconCiTwoTone: CiTwoToneIconType = (props, context) => <Icon name='CiTwoTone' {...{ ...props, ...context.attrs }} icon={CiTwoToneSvg} />;
 
 IconCiTwoTone.displayName = 'IconCiTwoTone';
+IconCiTwoTone.theme = 'twotone';
+IconCiTwoTone.originName = 'ci';
 
 export default IconCiTwoTone;

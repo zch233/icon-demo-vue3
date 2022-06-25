@@ -14,5 +14,7 @@ const IconZoomOutOutlined: ZoomOutOutlinedIconType = (props, context) => (
 );
 
 IconZoomOutOutlined.displayName = 'IconZoomOutOutlined';
+IconZoomOutOutlined.theme = 'outlined';
+IconZoomOutOutlined.originName = 'zoom-out';
 
 export default IconZoomOutOutlined;

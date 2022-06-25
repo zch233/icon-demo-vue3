@@ -14,5 +14,7 @@ const IconNotificationTwoTone: NotificationTwoToneIconType = (props, context) =>
 );
 
 IconNotificationTwoTone.displayName = 'IconNotificationTwoTone';
+IconNotificationTwoTone.theme = 'twotone';
+IconNotificationTwoTone.originName = 'notification';
 
 export default IconNotificationTwoTone;

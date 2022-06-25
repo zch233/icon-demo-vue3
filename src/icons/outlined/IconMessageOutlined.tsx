@@ -14,5 +14,7 @@ const IconMessageOutlined: MessageOutlinedIconType = (props, context) => (
 );
 
 IconMessageOutlined.displayName = 'IconMessageOutlined';
+IconMessageOutlined.theme = 'outlined';
+IconMessageOutlined.originName = 'message';
 
 export default IconMessageOutlined;

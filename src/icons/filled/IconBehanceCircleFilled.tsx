@@ -14,5 +14,7 @@ const IconBehanceCircleFilled: BehanceCircleFilledIconType = (props, context) =>
 );
 
 IconBehanceCircleFilled.displayName = 'IconBehanceCircleFilled';
+IconBehanceCircleFilled.theme = 'filled';
+IconBehanceCircleFilled.originName = 'behance-circle';
 
 export default IconBehanceCircleFilled;

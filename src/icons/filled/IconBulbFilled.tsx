@@ -9,10 +9,10 @@ export interface BulbFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBulbFilled: BulbFilledIconType = (props, context) => (
-    <Icon name='BulbFilled' {...{ ...props, ...context.attrs }} icon={BulbFilledSvg} />
-);
+const IconBulbFilled: BulbFilledIconType = (props, context) => <Icon name='BulbFilled' {...{ ...props, ...context.attrs }} icon={BulbFilledSvg} />;
 
 IconBulbFilled.displayName = 'IconBulbFilled';
+IconBulbFilled.theme = 'filled';
+IconBulbFilled.originName = 'bulb';
 
 export default IconBulbFilled;

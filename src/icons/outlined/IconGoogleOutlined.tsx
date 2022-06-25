@@ -14,5 +14,7 @@ const IconGoogleOutlined: GoogleOutlinedIconType = (props, context) => (
 );
 
 IconGoogleOutlined.displayName = 'IconGoogleOutlined';
+IconGoogleOutlined.theme = 'outlined';
+IconGoogleOutlined.originName = 'google';
 
 export default IconGoogleOutlined;

@@ -14,5 +14,7 @@ const IconFilePdfTwoTone: FilePdfTwoToneIconType = (props, context) => (
 );
 
 IconFilePdfTwoTone.displayName = 'IconFilePdfTwoTone';
+IconFilePdfTwoTone.theme = 'twotone';
+IconFilePdfTwoTone.originName = 'file-pdf';
 
 export default IconFilePdfTwoTone;

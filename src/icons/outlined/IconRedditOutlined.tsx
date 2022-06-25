@@ -14,5 +14,7 @@ const IconRedditOutlined: RedditOutlinedIconType = (props, context) => (
 );
 
 IconRedditOutlined.displayName = 'IconRedditOutlined';
+IconRedditOutlined.theme = 'outlined';
+IconRedditOutlined.originName = 'reddit';
 
 export default IconRedditOutlined;

@@ -14,5 +14,7 @@ const IconCopyrightCircleFilled: CopyrightCircleFilledIconType = (props, context
 );
 
 IconCopyrightCircleFilled.displayName = 'IconCopyrightCircleFilled';
+IconCopyrightCircleFilled.theme = 'filled';
+IconCopyrightCircleFilled.originName = 'copyright-circle';
 
 export default IconCopyrightCircleFilled;

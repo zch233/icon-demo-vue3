@@ -14,5 +14,7 @@ const IconCustomerServiceFilled: CustomerServiceFilledIconType = (props, context
 );
 
 IconCustomerServiceFilled.displayName = 'IconCustomerServiceFilled';
+IconCustomerServiceFilled.theme = 'filled';
+IconCustomerServiceFilled.originName = 'customer-service';
 
 export default IconCustomerServiceFilled;

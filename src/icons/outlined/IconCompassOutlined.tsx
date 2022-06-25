@@ -14,5 +14,7 @@ const IconCompassOutlined: CompassOutlinedIconType = (props, context) => (
 );
 
 IconCompassOutlined.displayName = 'IconCompassOutlined';
+IconCompassOutlined.theme = 'outlined';
+IconCompassOutlined.originName = 'compass';
 
 export default IconCompassOutlined;

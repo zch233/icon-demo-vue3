@@ -14,5 +14,7 @@ const IconCalendarOutlined: CalendarOutlinedIconType = (props, context) => (
 );
 
 IconCalendarOutlined.displayName = 'IconCalendarOutlined';
+IconCalendarOutlined.theme = 'outlined';
+IconCalendarOutlined.originName = 'calendar';
 
 export default IconCalendarOutlined;

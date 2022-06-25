@@ -14,5 +14,7 @@ const IconHeatMapOutlined: HeatMapOutlinedIconType = (props, context) => (
 );
 
 IconHeatMapOutlined.displayName = 'IconHeatMapOutlined';
+IconHeatMapOutlined.theme = 'outlined';
+IconHeatMapOutlined.originName = 'heat-map';
 
 export default IconHeatMapOutlined;

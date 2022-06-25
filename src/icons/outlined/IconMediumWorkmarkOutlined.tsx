@@ -14,5 +14,7 @@ const IconMediumWorkmarkOutlined: MediumWorkmarkOutlinedIconType = (props, conte
 );
 
 IconMediumWorkmarkOutlined.displayName = 'IconMediumWorkmarkOutlined';
+IconMediumWorkmarkOutlined.theme = 'outlined';
+IconMediumWorkmarkOutlined.originName = 'medium-workmark';
 
 export default IconMediumWorkmarkOutlined;

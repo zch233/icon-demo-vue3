@@ -14,5 +14,7 @@ const IconSlidersTwoTone: SlidersTwoToneIconType = (props, context) => (
 );
 
 IconSlidersTwoTone.displayName = 'IconSlidersTwoTone';
+IconSlidersTwoTone.theme = 'twotone';
+IconSlidersTwoTone.originName = 'sliders';
 
 export default IconSlidersTwoTone;

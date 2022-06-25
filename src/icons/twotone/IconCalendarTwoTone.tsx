@@ -14,5 +14,7 @@ const IconCalendarTwoTone: CalendarTwoToneIconType = (props, context) => (
 );
 
 IconCalendarTwoTone.displayName = 'IconCalendarTwoTone';
+IconCalendarTwoTone.theme = 'twotone';
+IconCalendarTwoTone.originName = 'calendar';
 
 export default IconCalendarTwoTone;

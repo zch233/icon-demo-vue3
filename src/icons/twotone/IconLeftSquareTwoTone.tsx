@@ -14,5 +14,7 @@ const IconLeftSquareTwoTone: LeftSquareTwoToneIconType = (props, context) => (
 );
 
 IconLeftSquareTwoTone.displayName = 'IconLeftSquareTwoTone';
+IconLeftSquareTwoTone.theme = 'twotone';
+IconLeftSquareTwoTone.originName = 'left-square';
 
 export default IconLeftSquareTwoTone;

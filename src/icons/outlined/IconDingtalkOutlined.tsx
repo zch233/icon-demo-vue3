@@ -14,5 +14,7 @@ const IconDingtalkOutlined: DingtalkOutlinedIconType = (props, context) => (
 );
 
 IconDingtalkOutlined.displayName = 'IconDingtalkOutlined';
+IconDingtalkOutlined.theme = 'outlined';
+IconDingtalkOutlined.originName = 'dingtalk';
 
 export default IconDingtalkOutlined;

@@ -14,5 +14,7 @@ const IconAppstoreTwoTone: AppstoreTwoToneIconType = (props, context) => (
 );
 
 IconAppstoreTwoTone.displayName = 'IconAppstoreTwoTone';
+IconAppstoreTwoTone.theme = 'twotone';
+IconAppstoreTwoTone.originName = 'appstore';
 
 export default IconAppstoreTwoTone;

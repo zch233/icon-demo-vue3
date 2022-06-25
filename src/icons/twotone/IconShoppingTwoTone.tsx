@@ -14,5 +14,7 @@ const IconShoppingTwoTone: ShoppingTwoToneIconType = (props, context) => (
 );
 
 IconShoppingTwoTone.displayName = 'IconShoppingTwoTone';
+IconShoppingTwoTone.theme = 'twotone';
+IconShoppingTwoTone.originName = 'shopping';
 
 export default IconShoppingTwoTone;

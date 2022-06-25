@@ -14,5 +14,7 @@ const IconFileAddOutlined: FileAddOutlinedIconType = (props, context) => (
 );
 
 IconFileAddOutlined.displayName = 'IconFileAddOutlined';
+IconFileAddOutlined.theme = 'outlined';
+IconFileAddOutlined.originName = 'file-add';
 
 export default IconFileAddOutlined;

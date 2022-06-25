@@ -14,5 +14,7 @@ const IconDatabaseFilled: DatabaseFilledIconType = (props, context) => (
 );
 
 IconDatabaseFilled.displayName = 'IconDatabaseFilled';
+IconDatabaseFilled.theme = 'filled';
+IconDatabaseFilled.originName = 'database';
 
 export default IconDatabaseFilled;

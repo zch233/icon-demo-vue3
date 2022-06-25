@@ -14,5 +14,7 @@ const IconUsergroupDeleteOutlined: UsergroupDeleteOutlinedIconType = (props, con
 );
 
 IconUsergroupDeleteOutlined.displayName = 'IconUsergroupDeleteOutlined';
+IconUsergroupDeleteOutlined.theme = 'outlined';
+IconUsergroupDeleteOutlined.originName = 'usergroup-delete';
 
 export default IconUsergroupDeleteOutlined;

@@ -14,5 +14,7 @@ const IconAliwangwangOutlined: AliwangwangOutlinedIconType = (props, context) =>
 );
 
 IconAliwangwangOutlined.displayName = 'IconAliwangwangOutlined';
+IconAliwangwangOutlined.theme = 'outlined';
+IconAliwangwangOutlined.originName = 'aliwangwang';
 
 export default IconAliwangwangOutlined;

@@ -14,5 +14,7 @@ const IconIssuesCloseOutlined: IssuesCloseOutlinedIconType = (props, context) =>
 );
 
 IconIssuesCloseOutlined.displayName = 'IconIssuesCloseOutlined';
+IconIssuesCloseOutlined.theme = 'outlined';
+IconIssuesCloseOutlined.originName = 'issues-close';
 
 export default IconIssuesCloseOutlined;

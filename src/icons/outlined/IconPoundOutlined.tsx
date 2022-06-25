@@ -9,10 +9,10 @@ export interface PoundOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconPoundOutlined: PoundOutlinedIconType = (props, context) => (
-    <Icon name='PoundOutlined' {...{ ...props, ...context.attrs }} icon={PoundOutlinedSvg} />
-);
+const IconPoundOutlined: PoundOutlinedIconType = (props, context) => <Icon name='PoundOutlined' {...{ ...props, ...context.attrs }} icon={PoundOutlinedSvg} />;
 
 IconPoundOutlined.displayName = 'IconPoundOutlined';
+IconPoundOutlined.theme = 'outlined';
+IconPoundOutlined.originName = 'pound';
 
 export default IconPoundOutlined;

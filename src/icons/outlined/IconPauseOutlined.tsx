@@ -9,10 +9,10 @@ export interface PauseOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconPauseOutlined: PauseOutlinedIconType = (props, context) => (
-    <Icon name='PauseOutlined' {...{ ...props, ...context.attrs }} icon={PauseOutlinedSvg} />
-);
+const IconPauseOutlined: PauseOutlinedIconType = (props, context) => <Icon name='PauseOutlined' {...{ ...props, ...context.attrs }} icon={PauseOutlinedSvg} />;
 
 IconPauseOutlined.displayName = 'IconPauseOutlined';
+IconPauseOutlined.theme = 'outlined';
+IconPauseOutlined.originName = 'pause';
 
 export default IconPauseOutlined;

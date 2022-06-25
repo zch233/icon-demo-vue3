@@ -14,5 +14,7 @@ const IconPlaySquareFilled: PlaySquareFilledIconType = (props, context) => (
 );
 
 IconPlaySquareFilled.displayName = 'IconPlaySquareFilled';
+IconPlaySquareFilled.theme = 'filled';
+IconPlaySquareFilled.originName = 'play-square';
 
 export default IconPlaySquareFilled;

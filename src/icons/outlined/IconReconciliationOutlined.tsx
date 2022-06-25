@@ -14,5 +14,7 @@ const IconReconciliationOutlined: ReconciliationOutlinedIconType = (props, conte
 );
 
 IconReconciliationOutlined.displayName = 'IconReconciliationOutlined';
+IconReconciliationOutlined.theme = 'outlined';
+IconReconciliationOutlined.originName = 'reconciliation';
 
 export default IconReconciliationOutlined;

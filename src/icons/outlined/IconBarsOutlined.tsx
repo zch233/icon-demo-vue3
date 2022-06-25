@@ -9,10 +9,10 @@ export interface BarsOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBarsOutlined: BarsOutlinedIconType = (props, context) => (
-    <Icon name='BarsOutlined' {...{ ...props, ...context.attrs }} icon={BarsOutlinedSvg} />
-);
+const IconBarsOutlined: BarsOutlinedIconType = (props, context) => <Icon name='BarsOutlined' {...{ ...props, ...context.attrs }} icon={BarsOutlinedSvg} />;
 
 IconBarsOutlined.displayName = 'IconBarsOutlined';
+IconBarsOutlined.theme = 'outlined';
+IconBarsOutlined.originName = 'bars';
 
 export default IconBarsOutlined;

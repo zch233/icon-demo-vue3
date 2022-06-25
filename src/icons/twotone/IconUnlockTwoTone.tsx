@@ -9,10 +9,10 @@ export interface UnlockTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconUnlockTwoTone: UnlockTwoToneIconType = (props, context) => (
-    <Icon name='UnlockTwoTone' {...{ ...props, ...context.attrs }} icon={UnlockTwoToneSvg} />
-);
+const IconUnlockTwoTone: UnlockTwoToneIconType = (props, context) => <Icon name='UnlockTwoTone' {...{ ...props, ...context.attrs }} icon={UnlockTwoToneSvg} />;
 
 IconUnlockTwoTone.displayName = 'IconUnlockTwoTone';
+IconUnlockTwoTone.theme = 'twotone';
+IconUnlockTwoTone.originName = 'unlock';
 
 export default IconUnlockTwoTone;

@@ -9,10 +9,10 @@ export interface StopTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconStopTwoTone: StopTwoToneIconType = (props, context) => (
-    <Icon name='StopTwoTone' {...{ ...props, ...context.attrs }} icon={StopTwoToneSvg} />
-);
+const IconStopTwoTone: StopTwoToneIconType = (props, context) => <Icon name='StopTwoTone' {...{ ...props, ...context.attrs }} icon={StopTwoToneSvg} />;
 
 IconStopTwoTone.displayName = 'IconStopTwoTone';
+IconStopTwoTone.theme = 'twotone';
+IconStopTwoTone.originName = 'stop';
 
 export default IconStopTwoTone;

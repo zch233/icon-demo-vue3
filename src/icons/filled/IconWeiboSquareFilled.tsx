@@ -14,5 +14,7 @@ const IconWeiboSquareFilled: WeiboSquareFilledIconType = (props, context) => (
 );
 
 IconWeiboSquareFilled.displayName = 'IconWeiboSquareFilled';
+IconWeiboSquareFilled.theme = 'filled';
+IconWeiboSquareFilled.originName = 'weibo-square';
 
 export default IconWeiboSquareFilled;

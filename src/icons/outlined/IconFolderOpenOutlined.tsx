@@ -14,5 +14,7 @@ const IconFolderOpenOutlined: FolderOpenOutlinedIconType = (props, context) => (
 );
 
 IconFolderOpenOutlined.displayName = 'IconFolderOpenOutlined';
+IconFolderOpenOutlined.theme = 'outlined';
+IconFolderOpenOutlined.originName = 'folder-open';
 
 export default IconFolderOpenOutlined;

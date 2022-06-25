@@ -14,5 +14,7 @@ const IconFileJpgOutlined: FileJpgOutlinedIconType = (props, context) => (
 );
 
 IconFileJpgOutlined.displayName = 'IconFileJpgOutlined';
+IconFileJpgOutlined.theme = 'outlined';
+IconFileJpgOutlined.originName = 'file-jpg';
 
 export default IconFileJpgOutlined;

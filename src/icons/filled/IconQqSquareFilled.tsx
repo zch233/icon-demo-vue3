@@ -14,5 +14,7 @@ const IconQqSquareFilled: QqSquareFilledIconType = (props, context) => (
 );
 
 IconQqSquareFilled.displayName = 'IconQqSquareFilled';
+IconQqSquareFilled.theme = 'filled';
+IconQqSquareFilled.originName = 'qq-square';
 
 export default IconQqSquareFilled;

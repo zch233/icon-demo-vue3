@@ -9,10 +9,10 @@ export interface FundFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconFundFilled: FundFilledIconType = (props, context) => (
-    <Icon name='FundFilled' {...{ ...props, ...context.attrs }} icon={FundFilledSvg} />
-);
+const IconFundFilled: FundFilledIconType = (props, context) => <Icon name='FundFilled' {...{ ...props, ...context.attrs }} icon={FundFilledSvg} />;
 
 IconFundFilled.displayName = 'IconFundFilled';
+IconFundFilled.theme = 'filled';
+IconFundFilled.originName = 'fund';
 
 export default IconFundFilled;

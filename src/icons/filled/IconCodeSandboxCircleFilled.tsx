@@ -14,5 +14,7 @@ const IconCodeSandboxCircleFilled: CodeSandboxCircleFilledIconType = (props, con
 );
 
 IconCodeSandboxCircleFilled.displayName = 'IconCodeSandboxCircleFilled';
+IconCodeSandboxCircleFilled.theme = 'filled';
+IconCodeSandboxCircleFilled.originName = 'code-sandbox-circle';
 
 export default IconCodeSandboxCircleFilled;

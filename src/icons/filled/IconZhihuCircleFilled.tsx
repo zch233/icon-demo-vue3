@@ -14,5 +14,7 @@ const IconZhihuCircleFilled: ZhihuCircleFilledIconType = (props, context) => (
 );
 
 IconZhihuCircleFilled.displayName = 'IconZhihuCircleFilled';
+IconZhihuCircleFilled.theme = 'filled';
+IconZhihuCircleFilled.originName = 'zhihu-circle';
 
 export default IconZhihuCircleFilled;

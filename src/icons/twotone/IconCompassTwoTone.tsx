@@ -14,5 +14,7 @@ const IconCompassTwoTone: CompassTwoToneIconType = (props, context) => (
 );
 
 IconCompassTwoTone.displayName = 'IconCompassTwoTone';
+IconCompassTwoTone.theme = 'twotone';
+IconCompassTwoTone.originName = 'compass';
 
 export default IconCompassTwoTone;

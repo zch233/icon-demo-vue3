@@ -14,5 +14,7 @@ const IconUpCircleFilled: UpCircleFilledIconType = (props, context) => (
 );
 
 IconUpCircleFilled.displayName = 'IconUpCircleFilled';
+IconUpCircleFilled.theme = 'filled';
+IconUpCircleFilled.originName = 'up-circle';
 
 export default IconUpCircleFilled;

@@ -14,5 +14,7 @@ const IconAccountBookFilled: AccountBookFilledIconType = (props, context) => (
 );
 
 IconAccountBookFilled.displayName = 'IconAccountBookFilled';
+IconAccountBookFilled.theme = 'filled';
+IconAccountBookFilled.originName = 'account-book';
 
 export default IconAccountBookFilled;

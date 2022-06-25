@@ -14,5 +14,7 @@ const IconPoweroffOutlined: PoweroffOutlinedIconType = (props, context) => (
 );
 
 IconPoweroffOutlined.displayName = 'IconPoweroffOutlined';
+IconPoweroffOutlined.theme = 'outlined';
+IconPoweroffOutlined.originName = 'poweroff';
 
 export default IconPoweroffOutlined;

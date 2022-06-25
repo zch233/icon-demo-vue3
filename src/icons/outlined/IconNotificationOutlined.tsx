@@ -14,5 +14,7 @@ const IconNotificationOutlined: NotificationOutlinedIconType = (props, context) 
 );
 
 IconNotificationOutlined.displayName = 'IconNotificationOutlined';
+IconNotificationOutlined.theme = 'outlined';
+IconNotificationOutlined.originName = 'notification';
 
 export default IconNotificationOutlined;

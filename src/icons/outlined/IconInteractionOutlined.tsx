@@ -14,5 +14,7 @@ const IconInteractionOutlined: InteractionOutlinedIconType = (props, context) =>
 );
 
 IconInteractionOutlined.displayName = 'IconInteractionOutlined';
+IconInteractionOutlined.theme = 'outlined';
+IconInteractionOutlined.originName = 'interaction';
 
 export default IconInteractionOutlined;

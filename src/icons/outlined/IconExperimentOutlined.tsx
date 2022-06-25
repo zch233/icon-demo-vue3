@@ -14,5 +14,7 @@ const IconExperimentOutlined: ExperimentOutlinedIconType = (props, context) => (
 );
 
 IconExperimentOutlined.displayName = 'IconExperimentOutlined';
+IconExperimentOutlined.theme = 'outlined';
+IconExperimentOutlined.originName = 'experiment';
 
 export default IconExperimentOutlined;

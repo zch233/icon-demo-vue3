@@ -14,5 +14,7 @@ const IconDribbbleSquareFilled: DribbbleSquareFilledIconType = (props, context) 
 );
 
 IconDribbbleSquareFilled.displayName = 'IconDribbbleSquareFilled';
+IconDribbbleSquareFilled.theme = 'filled';
+IconDribbbleSquareFilled.originName = 'dribbble-square';
 
 export default IconDribbbleSquareFilled;

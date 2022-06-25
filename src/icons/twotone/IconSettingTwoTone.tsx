@@ -14,5 +14,7 @@ const IconSettingTwoTone: SettingTwoToneIconType = (props, context) => (
 );
 
 IconSettingTwoTone.displayName = 'IconSettingTwoTone';
+IconSettingTwoTone.theme = 'twotone';
+IconSettingTwoTone.originName = 'setting';
 
 export default IconSettingTwoTone;

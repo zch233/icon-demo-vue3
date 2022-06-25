@@ -9,10 +9,10 @@ export interface EnterOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconEnterOutlined: EnterOutlinedIconType = (props, context) => (
-    <Icon name='EnterOutlined' {...{ ...props, ...context.attrs }} icon={EnterOutlinedSvg} />
-);
+const IconEnterOutlined: EnterOutlinedIconType = (props, context) => <Icon name='EnterOutlined' {...{ ...props, ...context.attrs }} icon={EnterOutlinedSvg} />;
 
 IconEnterOutlined.displayName = 'IconEnterOutlined';
+IconEnterOutlined.theme = 'outlined';
+IconEnterOutlined.originName = 'enter';
 
 export default IconEnterOutlined;

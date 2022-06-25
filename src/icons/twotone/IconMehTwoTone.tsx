@@ -9,10 +9,10 @@ export interface MehTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconMehTwoTone: MehTwoToneIconType = (props, context) => (
-    <Icon name='MehTwoTone' {...{ ...props, ...context.attrs }} icon={MehTwoToneSvg} />
-);
+const IconMehTwoTone: MehTwoToneIconType = (props, context) => <Icon name='MehTwoTone' {...{ ...props, ...context.attrs }} icon={MehTwoToneSvg} />;
 
 IconMehTwoTone.displayName = 'IconMehTwoTone';
+IconMehTwoTone.theme = 'twotone';
+IconMehTwoTone.originName = 'meh';
 
 export default IconMehTwoTone;

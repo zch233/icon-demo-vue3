@@ -14,5 +14,7 @@ const IconCodepenOutlined: CodepenOutlinedIconType = (props, context) => (
 );
 
 IconCodepenOutlined.displayName = 'IconCodepenOutlined';
+IconCodepenOutlined.theme = 'outlined';
+IconCodepenOutlined.originName = 'codepen';
 
 export default IconCodepenOutlined;

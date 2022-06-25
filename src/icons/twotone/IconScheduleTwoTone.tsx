@@ -14,5 +14,7 @@ const IconScheduleTwoTone: ScheduleTwoToneIconType = (props, context) => (
 );
 
 IconScheduleTwoTone.displayName = 'IconScheduleTwoTone';
+IconScheduleTwoTone.theme = 'twotone';
+IconScheduleTwoTone.originName = 'schedule';
 
 export default IconScheduleTwoTone;

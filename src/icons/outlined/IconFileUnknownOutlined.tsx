@@ -14,5 +14,7 @@ const IconFileUnknownOutlined: FileUnknownOutlinedIconType = (props, context) =>
 );
 
 IconFileUnknownOutlined.displayName = 'IconFileUnknownOutlined';
+IconFileUnknownOutlined.theme = 'outlined';
+IconFileUnknownOutlined.originName = 'file-unknown';
 
 export default IconFileUnknownOutlined;

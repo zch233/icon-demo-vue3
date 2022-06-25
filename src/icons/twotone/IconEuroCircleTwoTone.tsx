@@ -14,5 +14,7 @@ const IconEuroCircleTwoTone: EuroCircleTwoToneIconType = (props, context) => (
 );
 
 IconEuroCircleTwoTone.displayName = 'IconEuroCircleTwoTone';
+IconEuroCircleTwoTone.theme = 'twotone';
+IconEuroCircleTwoTone.originName = 'euro-circle';
 
 export default IconEuroCircleTwoTone;

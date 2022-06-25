@@ -14,5 +14,7 @@ const IconCustomerServiceOutlined: CustomerServiceOutlinedIconType = (props, con
 );
 
 IconCustomerServiceOutlined.displayName = 'IconCustomerServiceOutlined';
+IconCustomerServiceOutlined.theme = 'outlined';
+IconCustomerServiceOutlined.originName = 'customer-service';
 
 export default IconCustomerServiceOutlined;

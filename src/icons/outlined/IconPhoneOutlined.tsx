@@ -9,10 +9,10 @@ export interface PhoneOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconPhoneOutlined: PhoneOutlinedIconType = (props, context) => (
-    <Icon name='PhoneOutlined' {...{ ...props, ...context.attrs }} icon={PhoneOutlinedSvg} />
-);
+const IconPhoneOutlined: PhoneOutlinedIconType = (props, context) => <Icon name='PhoneOutlined' {...{ ...props, ...context.attrs }} icon={PhoneOutlinedSvg} />;
 
 IconPhoneOutlined.displayName = 'IconPhoneOutlined';
+IconPhoneOutlined.theme = 'outlined';
+IconPhoneOutlined.originName = 'phone';
 
 export default IconPhoneOutlined;

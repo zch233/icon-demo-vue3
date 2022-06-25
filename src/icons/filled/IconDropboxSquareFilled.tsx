@@ -14,5 +14,7 @@ const IconDropboxSquareFilled: DropboxSquareFilledIconType = (props, context) =>
 );
 
 IconDropboxSquareFilled.displayName = 'IconDropboxSquareFilled';
+IconDropboxSquareFilled.theme = 'filled';
+IconDropboxSquareFilled.originName = 'dropbox-square';
 
 export default IconDropboxSquareFilled;

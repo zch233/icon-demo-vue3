@@ -14,5 +14,7 @@ const IconEuroCircleOutlined: EuroCircleOutlinedIconType = (props, context) => (
 );
 
 IconEuroCircleOutlined.displayName = 'IconEuroCircleOutlined';
+IconEuroCircleOutlined.theme = 'outlined';
+IconEuroCircleOutlined.originName = 'euro-circle';
 
 export default IconEuroCircleOutlined;

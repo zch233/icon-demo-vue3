@@ -14,5 +14,7 @@ const IconFolderAddOutlined: FolderAddOutlinedIconType = (props, context) => (
 );
 
 IconFolderAddOutlined.displayName = 'IconFolderAddOutlined';
+IconFolderAddOutlined.theme = 'outlined';
+IconFolderAddOutlined.originName = 'folder-add';
 
 export default IconFolderAddOutlined;

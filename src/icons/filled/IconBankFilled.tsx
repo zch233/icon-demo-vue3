@@ -9,10 +9,10 @@ export interface BankFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBankFilled: BankFilledIconType = (props, context) => (
-    <Icon name='BankFilled' {...{ ...props, ...context.attrs }} icon={BankFilledSvg} />
-);
+const IconBankFilled: BankFilledIconType = (props, context) => <Icon name='BankFilled' {...{ ...props, ...context.attrs }} icon={BankFilledSvg} />;
 
 IconBankFilled.displayName = 'IconBankFilled';
+IconBankFilled.theme = 'filled';
+IconBankFilled.originName = 'bank';
 
 export default IconBankFilled;

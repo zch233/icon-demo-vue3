@@ -9,10 +9,10 @@ export interface ToolFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconToolFilled: ToolFilledIconType = (props, context) => (
-    <Icon name='ToolFilled' {...{ ...props, ...context.attrs }} icon={ToolFilledSvg} />
-);
+const IconToolFilled: ToolFilledIconType = (props, context) => <Icon name='ToolFilled' {...{ ...props, ...context.attrs }} icon={ToolFilledSvg} />;
 
 IconToolFilled.displayName = 'IconToolFilled';
+IconToolFilled.theme = 'filled';
+IconToolFilled.originName = 'tool';
 
 export default IconToolFilled;

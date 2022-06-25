@@ -14,5 +14,7 @@ const IconSwitcherTwoTone: SwitcherTwoToneIconType = (props, context) => (
 );
 
 IconSwitcherTwoTone.displayName = 'IconSwitcherTwoTone';
+IconSwitcherTwoTone.theme = 'twotone';
+IconSwitcherTwoTone.originName = 'switcher';
 
 export default IconSwitcherTwoTone;

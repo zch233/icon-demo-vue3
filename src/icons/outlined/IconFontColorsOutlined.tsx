@@ -14,5 +14,7 @@ const IconFontColorsOutlined: FontColorsOutlinedIconType = (props, context) => (
 );
 
 IconFontColorsOutlined.displayName = 'IconFontColorsOutlined';
+IconFontColorsOutlined.theme = 'outlined';
+IconFontColorsOutlined.originName = 'font-colors';
 
 export default IconFontColorsOutlined;

@@ -14,5 +14,7 @@ const IconCopyrightCircleOutlined: CopyrightCircleOutlinedIconType = (props, con
 );
 
 IconCopyrightCircleOutlined.displayName = 'IconCopyrightCircleOutlined';
+IconCopyrightCircleOutlined.theme = 'outlined';
+IconCopyrightCircleOutlined.originName = 'copyright-circle';
 
 export default IconCopyrightCircleOutlined;

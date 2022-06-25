@@ -14,5 +14,7 @@ const IconLoading3QuartersOutlined: Loading3QuartersOutlinedIconType = (props, c
 );
 
 IconLoading3QuartersOutlined.displayName = 'IconLoading3QuartersOutlined';
+IconLoading3QuartersOutlined.theme = 'outlined';
+IconLoading3QuartersOutlined.originName = 'loading-3-quarters';
 
 export default IconLoading3QuartersOutlined;

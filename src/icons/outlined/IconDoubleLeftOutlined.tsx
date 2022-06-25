@@ -14,5 +14,7 @@ const IconDoubleLeftOutlined: DoubleLeftOutlinedIconType = (props, context) => (
 );
 
 IconDoubleLeftOutlined.displayName = 'IconDoubleLeftOutlined';
+IconDoubleLeftOutlined.theme = 'outlined';
+IconDoubleLeftOutlined.originName = 'double-left';
 
 export default IconDoubleLeftOutlined;

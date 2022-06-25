@@ -14,5 +14,7 @@ const IconFilePdfOutlined: FilePdfOutlinedIconType = (props, context) => (
 );
 
 IconFilePdfOutlined.displayName = 'IconFilePdfOutlined';
+IconFilePdfOutlined.theme = 'outlined';
+IconFilePdfOutlined.originName = 'file-pdf';
 
 export default IconFilePdfOutlined;

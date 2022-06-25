@@ -14,5 +14,7 @@ const IconUnderlineOutlined: UnderlineOutlinedIconType = (props, context) => (
 );
 
 IconUnderlineOutlined.displayName = 'IconUnderlineOutlined';
+IconUnderlineOutlined.theme = 'outlined';
+IconUnderlineOutlined.originName = 'underline';
 
 export default IconUnderlineOutlined;

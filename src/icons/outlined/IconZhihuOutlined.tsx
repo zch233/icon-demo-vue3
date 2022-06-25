@@ -9,10 +9,10 @@ export interface ZhihuOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconZhihuOutlined: ZhihuOutlinedIconType = (props, context) => (
-    <Icon name='ZhihuOutlined' {...{ ...props, ...context.attrs }} icon={ZhihuOutlinedSvg} />
-);
+const IconZhihuOutlined: ZhihuOutlinedIconType = (props, context) => <Icon name='ZhihuOutlined' {...{ ...props, ...context.attrs }} icon={ZhihuOutlinedSvg} />;
 
 IconZhihuOutlined.displayName = 'IconZhihuOutlined';
+IconZhihuOutlined.theme = 'outlined';
+IconZhihuOutlined.originName = 'zhihu';
 
 export default IconZhihuOutlined;

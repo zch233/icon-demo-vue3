@@ -14,5 +14,7 @@ const IconSketchOutlined: SketchOutlinedIconType = (props, context) => (
 );
 
 IconSketchOutlined.displayName = 'IconSketchOutlined';
+IconSketchOutlined.theme = 'outlined';
+IconSketchOutlined.originName = 'sketch';
 
 export default IconSketchOutlined;

@@ -14,5 +14,7 @@ const IconClockCircleOutlined: ClockCircleOutlinedIconType = (props, context) =>
 );
 
 IconClockCircleOutlined.displayName = 'IconClockCircleOutlined';
+IconClockCircleOutlined.theme = 'outlined';
+IconClockCircleOutlined.originName = 'clock-circle';
 
 export default IconClockCircleOutlined;

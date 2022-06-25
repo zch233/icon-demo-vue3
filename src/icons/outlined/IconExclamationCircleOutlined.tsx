@@ -14,5 +14,7 @@ const IconExclamationCircleOutlined: ExclamationCircleOutlinedIconType = (props,
 );
 
 IconExclamationCircleOutlined.displayName = 'IconExclamationCircleOutlined';
+IconExclamationCircleOutlined.theme = 'outlined';
+IconExclamationCircleOutlined.originName = 'exclamation-circle';
 
 export default IconExclamationCircleOutlined;

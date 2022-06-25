@@ -14,5 +14,7 @@ const IconBorderHorizontalOutlined: BorderHorizontalOutlinedIconType = (props, c
 );
 
 IconBorderHorizontalOutlined.displayName = 'IconBorderHorizontalOutlined';
+IconBorderHorizontalOutlined.theme = 'outlined';
+IconBorderHorizontalOutlined.originName = 'border-horizontal';
 
 export default IconBorderHorizontalOutlined;

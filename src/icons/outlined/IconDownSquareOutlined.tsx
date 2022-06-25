@@ -14,5 +14,7 @@ const IconDownSquareOutlined: DownSquareOutlinedIconType = (props, context) => (
 );
 
 IconDownSquareOutlined.displayName = 'IconDownSquareOutlined';
+IconDownSquareOutlined.theme = 'outlined';
+IconDownSquareOutlined.originName = 'down-square';
 
 export default IconDownSquareOutlined;

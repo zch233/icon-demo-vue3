@@ -14,5 +14,7 @@ const IconTaobaoOutlined: TaobaoOutlinedIconType = (props, context) => (
 );
 
 IconTaobaoOutlined.displayName = 'IconTaobaoOutlined';
+IconTaobaoOutlined.theme = 'outlined';
+IconTaobaoOutlined.originName = 'taobao';
 
 export default IconTaobaoOutlined;

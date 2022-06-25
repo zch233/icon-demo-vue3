@@ -9,10 +9,10 @@ export interface YuqueFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconYuqueFilled: YuqueFilledIconType = (props, context) => (
-    <Icon name='YuqueFilled' {...{ ...props, ...context.attrs }} icon={YuqueFilledSvg} />
-);
+const IconYuqueFilled: YuqueFilledIconType = (props, context) => <Icon name='YuqueFilled' {...{ ...props, ...context.attrs }} icon={YuqueFilledSvg} />;
 
 IconYuqueFilled.displayName = 'IconYuqueFilled';
+IconYuqueFilled.theme = 'filled';
+IconYuqueFilled.originName = 'yuque';
 
 export default IconYuqueFilled;

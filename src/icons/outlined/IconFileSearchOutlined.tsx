@@ -14,5 +14,7 @@ const IconFileSearchOutlined: FileSearchOutlinedIconType = (props, context) => (
 );
 
 IconFileSearchOutlined.displayName = 'IconFileSearchOutlined';
+IconFileSearchOutlined.theme = 'outlined';
+IconFileSearchOutlined.originName = 'file-search';
 
 export default IconFileSearchOutlined;

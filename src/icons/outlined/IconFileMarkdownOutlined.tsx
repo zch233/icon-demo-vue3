@@ -14,5 +14,7 @@ const IconFileMarkdownOutlined: FileMarkdownOutlinedIconType = (props, context) 
 );
 
 IconFileMarkdownOutlined.displayName = 'IconFileMarkdownOutlined';
+IconFileMarkdownOutlined.theme = 'outlined';
+IconFileMarkdownOutlined.originName = 'file-markdown';
 
 export default IconFileMarkdownOutlined;

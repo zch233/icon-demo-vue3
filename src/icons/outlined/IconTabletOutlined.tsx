@@ -14,5 +14,7 @@ const IconTabletOutlined: TabletOutlinedIconType = (props, context) => (
 );
 
 IconTabletOutlined.displayName = 'IconTabletOutlined';
+IconTabletOutlined.theme = 'outlined';
+IconTabletOutlined.originName = 'tablet';
 
 export default IconTabletOutlined;

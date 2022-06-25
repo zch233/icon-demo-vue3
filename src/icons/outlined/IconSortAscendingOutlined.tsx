@@ -14,5 +14,7 @@ const IconSortAscendingOutlined: SortAscendingOutlinedIconType = (props, context
 );
 
 IconSortAscendingOutlined.displayName = 'IconSortAscendingOutlined';
+IconSortAscendingOutlined.theme = 'outlined';
+IconSortAscendingOutlined.originName = 'sort-ascending';
 
 export default IconSortAscendingOutlined;

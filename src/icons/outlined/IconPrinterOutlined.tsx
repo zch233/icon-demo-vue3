@@ -14,5 +14,7 @@ const IconPrinterOutlined: PrinterOutlinedIconType = (props, context) => (
 );
 
 IconPrinterOutlined.displayName = 'IconPrinterOutlined';
+IconPrinterOutlined.theme = 'outlined';
+IconPrinterOutlined.originName = 'printer';
 
 export default IconPrinterOutlined;

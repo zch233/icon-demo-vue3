@@ -14,5 +14,7 @@ const IconUnlockOutlined: UnlockOutlinedIconType = (props, context) => (
 );
 
 IconUnlockOutlined.displayName = 'IconUnlockOutlined';
+IconUnlockOutlined.theme = 'outlined';
+IconUnlockOutlined.originName = 'unlock';
 
 export default IconUnlockOutlined;

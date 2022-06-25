@@ -14,5 +14,7 @@ const IconAlipayOutlined: AlipayOutlinedIconType = (props, context) => (
 );
 
 IconAlipayOutlined.displayName = 'IconAlipayOutlined';
+IconAlipayOutlined.theme = 'outlined';
+IconAlipayOutlined.originName = 'alipay';
 
 export default IconAlipayOutlined;

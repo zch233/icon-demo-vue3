@@ -9,10 +9,10 @@ export interface SignalFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconSignalFilled: SignalFilledIconType = (props, context) => (
-    <Icon name='SignalFilled' {...{ ...props, ...context.attrs }} icon={SignalFilledSvg} />
-);
+const IconSignalFilled: SignalFilledIconType = (props, context) => <Icon name='SignalFilled' {...{ ...props, ...context.attrs }} icon={SignalFilledSvg} />;
 
 IconSignalFilled.displayName = 'IconSignalFilled';
+IconSignalFilled.theme = 'filled';
+IconSignalFilled.originName = 'signal';
 
 export default IconSignalFilled;

@@ -14,5 +14,7 @@ const IconQuestionCircleOutlined: QuestionCircleOutlinedIconType = (props, conte
 );
 
 IconQuestionCircleOutlined.displayName = 'IconQuestionCircleOutlined';
+IconQuestionCircleOutlined.theme = 'outlined';
+IconQuestionCircleOutlined.originName = 'question-circle';
 
 export default IconQuestionCircleOutlined;

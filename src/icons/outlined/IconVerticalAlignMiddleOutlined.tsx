@@ -14,5 +14,7 @@ const IconVerticalAlignMiddleOutlined: VerticalAlignMiddleOutlinedIconType = (pr
 );
 
 IconVerticalAlignMiddleOutlined.displayName = 'IconVerticalAlignMiddleOutlined';
+IconVerticalAlignMiddleOutlined.theme = 'outlined';
+IconVerticalAlignMiddleOutlined.originName = 'vertical-align-middle';
 
 export default IconVerticalAlignMiddleOutlined;

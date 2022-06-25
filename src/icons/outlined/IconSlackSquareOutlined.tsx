@@ -14,5 +14,7 @@ const IconSlackSquareOutlined: SlackSquareOutlinedIconType = (props, context) =>
 );
 
 IconSlackSquareOutlined.displayName = 'IconSlackSquareOutlined';
+IconSlackSquareOutlined.theme = 'outlined';
+IconSlackSquareOutlined.originName = 'slack-square';
 
 export default IconSlackSquareOutlined;

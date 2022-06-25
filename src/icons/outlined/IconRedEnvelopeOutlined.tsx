@@ -14,5 +14,7 @@ const IconRedEnvelopeOutlined: RedEnvelopeOutlinedIconType = (props, context) =>
 );
 
 IconRedEnvelopeOutlined.displayName = 'IconRedEnvelopeOutlined';
+IconRedEnvelopeOutlined.theme = 'outlined';
+IconRedEnvelopeOutlined.originName = 'red-envelope';
 
 export default IconRedEnvelopeOutlined;

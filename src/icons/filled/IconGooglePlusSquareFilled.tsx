@@ -14,5 +14,7 @@ const IconGooglePlusSquareFilled: GooglePlusSquareFilledIconType = (props, conte
 );
 
 IconGooglePlusSquareFilled.displayName = 'IconGooglePlusSquareFilled';
+IconGooglePlusSquareFilled.theme = 'filled';
+IconGooglePlusSquareFilled.originName = 'google-plus-square';
 
 export default IconGooglePlusSquareFilled;

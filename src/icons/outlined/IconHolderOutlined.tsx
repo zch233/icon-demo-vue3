@@ -14,5 +14,7 @@ const IconHolderOutlined: HolderOutlinedIconType = (props, context) => (
 );
 
 IconHolderOutlined.displayName = 'IconHolderOutlined';
+IconHolderOutlined.theme = 'outlined';
+IconHolderOutlined.originName = 'holder';
 
 export default IconHolderOutlined;

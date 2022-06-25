@@ -14,5 +14,7 @@ const IconNumberOutlined: NumberOutlinedIconType = (props, context) => (
 );
 
 IconNumberOutlined.displayName = 'IconNumberOutlined';
+IconNumberOutlined.theme = 'outlined';
+IconNumberOutlined.originName = 'number';
 
 export default IconNumberOutlined;

@@ -14,5 +14,7 @@ const IconCloudSyncOutlined: CloudSyncOutlinedIconType = (props, context) => (
 );
 
 IconCloudSyncOutlined.displayName = 'IconCloudSyncOutlined';
+IconCloudSyncOutlined.theme = 'outlined';
+IconCloudSyncOutlined.originName = 'cloud-sync';
 
 export default IconCloudSyncOutlined;

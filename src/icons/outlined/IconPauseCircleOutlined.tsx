@@ -14,5 +14,7 @@ const IconPauseCircleOutlined: PauseCircleOutlinedIconType = (props, context) =>
 );
 
 IconPauseCircleOutlined.displayName = 'IconPauseCircleOutlined';
+IconPauseCircleOutlined.theme = 'outlined';
+IconPauseCircleOutlined.originName = 'pause-circle';
 
 export default IconPauseCircleOutlined;

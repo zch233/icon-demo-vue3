@@ -14,5 +14,7 @@ const IconFundViewOutlined: FundViewOutlinedIconType = (props, context) => (
 );
 
 IconFundViewOutlined.displayName = 'IconFundViewOutlined';
+IconFundViewOutlined.theme = 'outlined';
+IconFundViewOutlined.originName = 'fund-view';
 
 export default IconFundViewOutlined;

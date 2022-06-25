@@ -14,5 +14,7 @@ const IconCustomerServiceTwoTone: CustomerServiceTwoToneIconType = (props, conte
 );
 
 IconCustomerServiceTwoTone.displayName = 'IconCustomerServiceTwoTone';
+IconCustomerServiceTwoTone.theme = 'twotone';
+IconCustomerServiceTwoTone.originName = 'customer-service';
 
 export default IconCustomerServiceTwoTone;

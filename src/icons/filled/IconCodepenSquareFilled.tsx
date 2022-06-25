@@ -14,5 +14,7 @@ const IconCodepenSquareFilled: CodepenSquareFilledIconType = (props, context) =>
 );
 
 IconCodepenSquareFilled.displayName = 'IconCodepenSquareFilled';
+IconCodepenSquareFilled.theme = 'filled';
+IconCodepenSquareFilled.originName = 'codepen-square';
 
 export default IconCodepenSquareFilled;

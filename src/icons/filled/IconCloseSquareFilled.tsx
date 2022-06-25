@@ -14,5 +14,7 @@ const IconCloseSquareFilled: CloseSquareFilledIconType = (props, context) => (
 );
 
 IconCloseSquareFilled.displayName = 'IconCloseSquareFilled';
+IconCloseSquareFilled.theme = 'filled';
+IconCloseSquareFilled.originName = 'close-square';
 
 export default IconCloseSquareFilled;

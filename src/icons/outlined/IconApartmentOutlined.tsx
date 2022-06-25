@@ -14,5 +14,7 @@ const IconApartmentOutlined: ApartmentOutlinedIconType = (props, context) => (
 );
 
 IconApartmentOutlined.displayName = 'IconApartmentOutlined';
+IconApartmentOutlined.theme = 'outlined';
+IconApartmentOutlined.originName = 'apartment';
 
 export default IconApartmentOutlined;

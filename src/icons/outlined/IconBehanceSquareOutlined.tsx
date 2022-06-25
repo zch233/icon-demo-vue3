@@ -14,5 +14,7 @@ const IconBehanceSquareOutlined: BehanceSquareOutlinedIconType = (props, context
 );
 
 IconBehanceSquareOutlined.displayName = 'IconBehanceSquareOutlined';
+IconBehanceSquareOutlined.theme = 'outlined';
+IconBehanceSquareOutlined.originName = 'behance-square';
 
 export default IconBehanceSquareOutlined;

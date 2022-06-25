@@ -14,5 +14,7 @@ const IconFileUnknownFilled: FileUnknownFilledIconType = (props, context) => (
 );
 
 IconFileUnknownFilled.displayName = 'IconFileUnknownFilled';
+IconFileUnknownFilled.theme = 'filled';
+IconFileUnknownFilled.originName = 'file-unknown';
 
 export default IconFileUnknownFilled;

@@ -9,10 +9,10 @@ export interface DiffFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconDiffFilled: DiffFilledIconType = (props, context) => (
-    <Icon name='DiffFilled' {...{ ...props, ...context.attrs }} icon={DiffFilledSvg} />
-);
+const IconDiffFilled: DiffFilledIconType = (props, context) => <Icon name='DiffFilled' {...{ ...props, ...context.attrs }} icon={DiffFilledSvg} />;
 
 IconDiffFilled.displayName = 'IconDiffFilled';
+IconDiffFilled.theme = 'filled';
+IconDiffFilled.originName = 'diff';
 
 export default IconDiffFilled;

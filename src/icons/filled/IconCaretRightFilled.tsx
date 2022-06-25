@@ -14,5 +14,7 @@ const IconCaretRightFilled: CaretRightFilledIconType = (props, context) => (
 );
 
 IconCaretRightFilled.displayName = 'IconCaretRightFilled';
+IconCaretRightFilled.theme = 'filled';
+IconCaretRightFilled.originName = 'caret-right';
 
 export default IconCaretRightFilled;

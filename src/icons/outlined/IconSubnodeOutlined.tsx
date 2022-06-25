@@ -14,5 +14,7 @@ const IconSubnodeOutlined: SubnodeOutlinedIconType = (props, context) => (
 );
 
 IconSubnodeOutlined.displayName = 'IconSubnodeOutlined';
+IconSubnodeOutlined.theme = 'outlined';
+IconSubnodeOutlined.originName = 'subnode';
 
 export default IconSubnodeOutlined;

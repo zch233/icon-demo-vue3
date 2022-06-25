@@ -9,10 +9,10 @@ export interface HomeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconHomeFilled: HomeFilledIconType = (props, context) => (
-    <Icon name='HomeFilled' {...{ ...props, ...context.attrs }} icon={HomeFilledSvg} />
-);
+const IconHomeFilled: HomeFilledIconType = (props, context) => <Icon name='HomeFilled' {...{ ...props, ...context.attrs }} icon={HomeFilledSvg} />;
 
 IconHomeFilled.displayName = 'IconHomeFilled';
+IconHomeFilled.theme = 'filled';
+IconHomeFilled.originName = 'home';
 
 export default IconHomeFilled;

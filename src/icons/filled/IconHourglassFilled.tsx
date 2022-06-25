@@ -14,5 +14,7 @@ const IconHourglassFilled: HourglassFilledIconType = (props, context) => (
 );
 
 IconHourglassFilled.displayName = 'IconHourglassFilled';
+IconHourglassFilled.theme = 'filled';
+IconHourglassFilled.originName = 'hourglass';
 
 export default IconHourglassFilled;

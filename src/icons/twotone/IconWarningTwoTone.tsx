@@ -14,5 +14,7 @@ const IconWarningTwoTone: WarningTwoToneIconType = (props, context) => (
 );
 
 IconWarningTwoTone.displayName = 'IconWarningTwoTone';
+IconWarningTwoTone.theme = 'twotone';
+IconWarningTwoTone.originName = 'warning';
 
 export default IconWarningTwoTone;

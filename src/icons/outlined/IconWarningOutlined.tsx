@@ -14,5 +14,7 @@ const IconWarningOutlined: WarningOutlinedIconType = (props, context) => (
 );
 
 IconWarningOutlined.displayName = 'IconWarningOutlined';
+IconWarningOutlined.theme = 'outlined';
+IconWarningOutlined.originName = 'warning';
 
 export default IconWarningOutlined;

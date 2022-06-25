@@ -14,5 +14,7 @@ const IconSlackCircleFilled: SlackCircleFilledIconType = (props, context) => (
 );
 
 IconSlackCircleFilled.displayName = 'IconSlackCircleFilled';
+IconSlackCircleFilled.theme = 'filled';
+IconSlackCircleFilled.originName = 'slack-circle';
 
 export default IconSlackCircleFilled;

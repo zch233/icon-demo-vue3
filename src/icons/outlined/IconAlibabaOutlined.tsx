@@ -14,5 +14,7 @@ const IconAlibabaOutlined: AlibabaOutlinedIconType = (props, context) => (
 );
 
 IconAlibabaOutlined.displayName = 'IconAlibabaOutlined';
+IconAlibabaOutlined.theme = 'outlined';
+IconAlibabaOutlined.originName = 'alibaba';
 
 export default IconAlibabaOutlined;

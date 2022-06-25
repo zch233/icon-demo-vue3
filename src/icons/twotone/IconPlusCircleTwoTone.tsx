@@ -14,5 +14,7 @@ const IconPlusCircleTwoTone: PlusCircleTwoToneIconType = (props, context) => (
 );
 
 IconPlusCircleTwoTone.displayName = 'IconPlusCircleTwoTone';
+IconPlusCircleTwoTone.theme = 'twotone';
+IconPlusCircleTwoTone.originName = 'plus-circle';
 
 export default IconPlusCircleTwoTone;

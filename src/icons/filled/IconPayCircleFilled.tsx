@@ -14,5 +14,7 @@ const IconPayCircleFilled: PayCircleFilledIconType = (props, context) => (
 );
 
 IconPayCircleFilled.displayName = 'IconPayCircleFilled';
+IconPayCircleFilled.theme = 'filled';
+IconPayCircleFilled.originName = 'pay-circle';
 
 export default IconPayCircleFilled;

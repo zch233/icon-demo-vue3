@@ -14,5 +14,7 @@ const IconScheduleOutlined: ScheduleOutlinedIconType = (props, context) => (
 );
 
 IconScheduleOutlined.displayName = 'IconScheduleOutlined';
+IconScheduleOutlined.theme = 'outlined';
+IconScheduleOutlined.originName = 'schedule';
 
 export default IconScheduleOutlined;

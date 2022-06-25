@@ -14,5 +14,7 @@ const IconMenuUnfoldOutlined: MenuUnfoldOutlinedIconType = (props, context) => (
 );
 
 IconMenuUnfoldOutlined.displayName = 'IconMenuUnfoldOutlined';
+IconMenuUnfoldOutlined.theme = 'outlined';
+IconMenuUnfoldOutlined.originName = 'menu-unfold';
 
 export default IconMenuUnfoldOutlined;

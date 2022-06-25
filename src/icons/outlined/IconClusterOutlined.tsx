@@ -14,5 +14,7 @@ const IconClusterOutlined: ClusterOutlinedIconType = (props, context) => (
 );
 
 IconClusterOutlined.displayName = 'IconClusterOutlined';
+IconClusterOutlined.theme = 'outlined';
+IconClusterOutlined.originName = 'cluster';
 
 export default IconClusterOutlined;

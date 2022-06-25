@@ -9,10 +9,10 @@ export interface WindowsFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconWindowsFilled: WindowsFilledIconType = (props, context) => (
-    <Icon name='WindowsFilled' {...{ ...props, ...context.attrs }} icon={WindowsFilledSvg} />
-);
+const IconWindowsFilled: WindowsFilledIconType = (props, context) => <Icon name='WindowsFilled' {...{ ...props, ...context.attrs }} icon={WindowsFilledSvg} />;
 
 IconWindowsFilled.displayName = 'IconWindowsFilled';
+IconWindowsFilled.theme = 'filled';
+IconWindowsFilled.originName = 'windows';
 
 export default IconWindowsFilled;

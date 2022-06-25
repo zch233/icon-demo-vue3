@@ -14,5 +14,7 @@ const IconDotChartOutlined: DotChartOutlinedIconType = (props, context) => (
 );
 
 IconDotChartOutlined.displayName = 'IconDotChartOutlined';
+IconDotChartOutlined.theme = 'outlined';
+IconDotChartOutlined.originName = 'dot-chart';
 
 export default IconDotChartOutlined;

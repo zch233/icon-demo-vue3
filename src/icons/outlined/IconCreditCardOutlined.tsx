@@ -14,5 +14,7 @@ const IconCreditCardOutlined: CreditCardOutlinedIconType = (props, context) => (
 );
 
 IconCreditCardOutlined.displayName = 'IconCreditCardOutlined';
+IconCreditCardOutlined.theme = 'outlined';
+IconCreditCardOutlined.originName = 'credit-card';
 
 export default IconCreditCardOutlined;

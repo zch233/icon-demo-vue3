@@ -14,5 +14,7 @@ const IconGlobalOutlined: GlobalOutlinedIconType = (props, context) => (
 );
 
 IconGlobalOutlined.displayName = 'IconGlobalOutlined';
+IconGlobalOutlined.theme = 'outlined';
+IconGlobalOutlined.originName = 'global';
 
 export default IconGlobalOutlined;

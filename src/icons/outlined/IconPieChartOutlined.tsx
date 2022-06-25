@@ -14,5 +14,7 @@ const IconPieChartOutlined: PieChartOutlinedIconType = (props, context) => (
 );
 
 IconPieChartOutlined.displayName = 'IconPieChartOutlined';
+IconPieChartOutlined.theme = 'outlined';
+IconPieChartOutlined.originName = 'pie-chart';
 
 export default IconPieChartOutlined;

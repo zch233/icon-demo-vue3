@@ -9,10 +9,10 @@ export interface LockTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconLockTwoTone: LockTwoToneIconType = (props, context) => (
-    <Icon name='LockTwoTone' {...{ ...props, ...context.attrs }} icon={LockTwoToneSvg} />
-);
+const IconLockTwoTone: LockTwoToneIconType = (props, context) => <Icon name='LockTwoTone' {...{ ...props, ...context.attrs }} icon={LockTwoToneSvg} />;
 
 IconLockTwoTone.displayName = 'IconLockTwoTone';
+IconLockTwoTone.theme = 'twotone';
+IconLockTwoTone.originName = 'lock';
 
 export default IconLockTwoTone;

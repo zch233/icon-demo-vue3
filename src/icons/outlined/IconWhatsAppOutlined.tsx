@@ -14,5 +14,7 @@ const IconWhatsAppOutlined: WhatsAppOutlinedIconType = (props, context) => (
 );
 
 IconWhatsAppOutlined.displayName = 'IconWhatsAppOutlined';
+IconWhatsAppOutlined.theme = 'outlined';
+IconWhatsAppOutlined.originName = 'whats-app';
 
 export default IconWhatsAppOutlined;

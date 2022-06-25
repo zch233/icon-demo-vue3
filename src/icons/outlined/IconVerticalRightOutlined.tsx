@@ -14,5 +14,7 @@ const IconVerticalRightOutlined: VerticalRightOutlinedIconType = (props, context
 );
 
 IconVerticalRightOutlined.displayName = 'IconVerticalRightOutlined';
+IconVerticalRightOutlined.theme = 'outlined';
+IconVerticalRightOutlined.originName = 'vertical-right';
 
 export default IconVerticalRightOutlined;

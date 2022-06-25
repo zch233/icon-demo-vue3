@@ -9,10 +9,10 @@ export interface FormOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconFormOutlined: FormOutlinedIconType = (props, context) => (
-    <Icon name='FormOutlined' {...{ ...props, ...context.attrs }} icon={FormOutlinedSvg} />
-);
+const IconFormOutlined: FormOutlinedIconType = (props, context) => <Icon name='FormOutlined' {...{ ...props, ...context.attrs }} icon={FormOutlinedSvg} />;
 
 IconFormOutlined.displayName = 'IconFormOutlined';
+IconFormOutlined.theme = 'outlined';
+IconFormOutlined.originName = 'form';
 
 export default IconFormOutlined;

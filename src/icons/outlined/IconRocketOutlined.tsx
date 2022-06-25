@@ -14,5 +14,7 @@ const IconRocketOutlined: RocketOutlinedIconType = (props, context) => (
 );
 
 IconRocketOutlined.displayName = 'IconRocketOutlined';
+IconRocketOutlined.theme = 'outlined';
+IconRocketOutlined.originName = 'rocket';
 
 export default IconRocketOutlined;

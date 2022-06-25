@@ -14,5 +14,7 @@ const IconPauseCircleFilled: PauseCircleFilledIconType = (props, context) => (
 );
 
 IconPauseCircleFilled.displayName = 'IconPauseCircleFilled';
+IconPauseCircleFilled.theme = 'filled';
+IconPauseCircleFilled.originName = 'pause-circle';
 
 export default IconPauseCircleFilled;

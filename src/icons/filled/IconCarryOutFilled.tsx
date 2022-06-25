@@ -14,5 +14,7 @@ const IconCarryOutFilled: CarryOutFilledIconType = (props, context) => (
 );
 
 IconCarryOutFilled.displayName = 'IconCarryOutFilled';
+IconCarryOutFilled.theme = 'filled';
+IconCarryOutFilled.originName = 'carry-out';
 
 export default IconCarryOutFilled;

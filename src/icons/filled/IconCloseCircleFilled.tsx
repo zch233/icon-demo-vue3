@@ -14,5 +14,7 @@ const IconCloseCircleFilled: CloseCircleFilledIconType = (props, context) => (
 );
 
 IconCloseCircleFilled.displayName = 'IconCloseCircleFilled';
+IconCloseCircleFilled.theme = 'filled';
+IconCloseCircleFilled.originName = 'close-circle';
 
 export default IconCloseCircleFilled;

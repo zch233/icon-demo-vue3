@@ -14,5 +14,7 @@ const IconSecurityScanOutlined: SecurityScanOutlinedIconType = (props, context) 
 );
 
 IconSecurityScanOutlined.displayName = 'IconSecurityScanOutlined';
+IconSecurityScanOutlined.theme = 'outlined';
+IconSecurityScanOutlined.originName = 'security-scan';
 
 export default IconSecurityScanOutlined;

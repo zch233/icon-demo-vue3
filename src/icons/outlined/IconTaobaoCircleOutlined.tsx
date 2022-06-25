@@ -14,5 +14,7 @@ const IconTaobaoCircleOutlined: TaobaoCircleOutlinedIconType = (props, context) 
 );
 
 IconTaobaoCircleOutlined.displayName = 'IconTaobaoCircleOutlined';
+IconTaobaoCircleOutlined.theme = 'outlined';
+IconTaobaoCircleOutlined.originName = 'taobao-circle';
 
 export default IconTaobaoCircleOutlined;

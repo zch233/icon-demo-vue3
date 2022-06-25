@@ -14,5 +14,7 @@ const IconEnvironmentTwoTone: EnvironmentTwoToneIconType = (props, context) => (
 );
 
 IconEnvironmentTwoTone.displayName = 'IconEnvironmentTwoTone';
+IconEnvironmentTwoTone.theme = 'twotone';
+IconEnvironmentTwoTone.originName = 'environment';
 
 export default IconEnvironmentTwoTone;

@@ -14,5 +14,7 @@ const IconDislikeOutlined: DislikeOutlinedIconType = (props, context) => (
 );
 
 IconDislikeOutlined.displayName = 'IconDislikeOutlined';
+IconDislikeOutlined.theme = 'outlined';
+IconDislikeOutlined.originName = 'dislike';
 
 export default IconDislikeOutlined;

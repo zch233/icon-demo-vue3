@@ -14,5 +14,7 @@ const IconUserSwitchOutlined: UserSwitchOutlinedIconType = (props, context) => (
 );
 
 IconUserSwitchOutlined.displayName = 'IconUserSwitchOutlined';
+IconUserSwitchOutlined.theme = 'outlined';
+IconUserSwitchOutlined.originName = 'user-switch';
 
 export default IconUserSwitchOutlined;

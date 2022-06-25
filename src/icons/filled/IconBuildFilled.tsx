@@ -9,10 +9,10 @@ export interface BuildFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBuildFilled: BuildFilledIconType = (props, context) => (
-    <Icon name='BuildFilled' {...{ ...props, ...context.attrs }} icon={BuildFilledSvg} />
-);
+const IconBuildFilled: BuildFilledIconType = (props, context) => <Icon name='BuildFilled' {...{ ...props, ...context.attrs }} icon={BuildFilledSvg} />;
 
 IconBuildFilled.displayName = 'IconBuildFilled';
+IconBuildFilled.theme = 'filled';
+IconBuildFilled.originName = 'build';
 
 export default IconBuildFilled;

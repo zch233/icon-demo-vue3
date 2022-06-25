@@ -14,5 +14,7 @@ const IconExperimentFilled: ExperimentFilledIconType = (props, context) => (
 );
 
 IconExperimentFilled.displayName = 'IconExperimentFilled';
+IconExperimentFilled.theme = 'filled';
+IconExperimentFilled.originName = 'experiment';
 
 export default IconExperimentFilled;

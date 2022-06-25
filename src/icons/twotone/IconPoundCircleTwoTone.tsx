@@ -14,5 +14,7 @@ const IconPoundCircleTwoTone: PoundCircleTwoToneIconType = (props, context) => (
 );
 
 IconPoundCircleTwoTone.displayName = 'IconPoundCircleTwoTone';
+IconPoundCircleTwoTone.theme = 'twotone';
+IconPoundCircleTwoTone.originName = 'pound-circle';
 
 export default IconPoundCircleTwoTone;

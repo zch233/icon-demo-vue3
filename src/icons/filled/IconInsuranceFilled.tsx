@@ -14,5 +14,7 @@ const IconInsuranceFilled: InsuranceFilledIconType = (props, context) => (
 );
 
 IconInsuranceFilled.displayName = 'IconInsuranceFilled';
+IconInsuranceFilled.theme = 'filled';
+IconInsuranceFilled.originName = 'insurance';
 
 export default IconInsuranceFilled;

@@ -14,5 +14,7 @@ const IconDollarOutlined: DollarOutlinedIconType = (props, context) => (
 );
 
 IconDollarOutlined.displayName = 'IconDollarOutlined';
+IconDollarOutlined.theme = 'outlined';
+IconDollarOutlined.originName = 'dollar';
 
 export default IconDollarOutlined;

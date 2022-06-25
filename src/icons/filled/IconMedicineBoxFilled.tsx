@@ -14,5 +14,7 @@ const IconMedicineBoxFilled: MedicineBoxFilledIconType = (props, context) => (
 );
 
 IconMedicineBoxFilled.displayName = 'IconMedicineBoxFilled';
+IconMedicineBoxFilled.theme = 'filled';
+IconMedicineBoxFilled.originName = 'medicine-box';
 
 export default IconMedicineBoxFilled;

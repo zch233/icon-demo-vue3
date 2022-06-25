@@ -14,5 +14,7 @@ const IconBranchesOutlined: BranchesOutlinedIconType = (props, context) => (
 );
 
 IconBranchesOutlined.displayName = 'IconBranchesOutlined';
+IconBranchesOutlined.theme = 'outlined';
+IconBranchesOutlined.originName = 'branches';
 
 export default IconBranchesOutlined;

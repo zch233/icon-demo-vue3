@@ -9,10 +9,10 @@ export interface ScanOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconScanOutlined: ScanOutlinedIconType = (props, context) => (
-    <Icon name='ScanOutlined' {...{ ...props, ...context.attrs }} icon={ScanOutlinedSvg} />
-);
+const IconScanOutlined: ScanOutlinedIconType = (props, context) => <Icon name='ScanOutlined' {...{ ...props, ...context.attrs }} icon={ScanOutlinedSvg} />;
 
 IconScanOutlined.displayName = 'IconScanOutlined';
+IconScanOutlined.theme = 'outlined';
+IconScanOutlined.originName = 'scan';
 
 export default IconScanOutlined;

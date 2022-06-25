@@ -14,5 +14,7 @@ const IconQuestionCircleTwoTone: QuestionCircleTwoToneIconType = (props, context
 );
 
 IconQuestionCircleTwoTone.displayName = 'IconQuestionCircleTwoTone';
+IconQuestionCircleTwoTone.theme = 'twotone';
+IconQuestionCircleTwoTone.originName = 'question-circle';
 
 export default IconQuestionCircleTwoTone;

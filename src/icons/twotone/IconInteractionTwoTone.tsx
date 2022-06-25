@@ -14,5 +14,7 @@ const IconInteractionTwoTone: InteractionTwoToneIconType = (props, context) => (
 );
 
 IconInteractionTwoTone.displayName = 'IconInteractionTwoTone';
+IconInteractionTwoTone.theme = 'twotone';
+IconInteractionTwoTone.originName = 'interaction';
 
 export default IconInteractionTwoTone;

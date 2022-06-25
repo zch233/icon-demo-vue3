@@ -14,5 +14,7 @@ const IconSafetyCertificateOutlined: SafetyCertificateOutlinedIconType = (props,
 );
 
 IconSafetyCertificateOutlined.displayName = 'IconSafetyCertificateOutlined';
+IconSafetyCertificateOutlined.theme = 'outlined';
+IconSafetyCertificateOutlined.originName = 'safety-certificate';
 
 export default IconSafetyCertificateOutlined;

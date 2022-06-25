@@ -14,5 +14,7 @@ const IconContactsFilled: ContactsFilledIconType = (props, context) => (
 );
 
 IconContactsFilled.displayName = 'IconContactsFilled';
+IconContactsFilled.theme = 'filled';
+IconContactsFilled.originName = 'contacts';
 
 export default IconContactsFilled;

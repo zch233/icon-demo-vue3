@@ -14,5 +14,7 @@ const IconCalculatorOutlined: CalculatorOutlinedIconType = (props, context) => (
 );
 
 IconCalculatorOutlined.displayName = 'IconCalculatorOutlined';
+IconCalculatorOutlined.theme = 'outlined';
+IconCalculatorOutlined.originName = 'calculator';
 
 export default IconCalculatorOutlined;

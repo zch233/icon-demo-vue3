@@ -14,5 +14,7 @@ const IconCommentOutlined: CommentOutlinedIconType = (props, context) => (
 );
 
 IconCommentOutlined.displayName = 'IconCommentOutlined';
+IconCommentOutlined.theme = 'outlined';
+IconCommentOutlined.originName = 'comment';
 
 export default IconCommentOutlined;

@@ -14,5 +14,7 @@ const IconDropboxOutlined: DropboxOutlinedIconType = (props, context) => (
 );
 
 IconDropboxOutlined.displayName = 'IconDropboxOutlined';
+IconDropboxOutlined.theme = 'outlined';
+IconDropboxOutlined.originName = 'dropbox';
 
 export default IconDropboxOutlined;

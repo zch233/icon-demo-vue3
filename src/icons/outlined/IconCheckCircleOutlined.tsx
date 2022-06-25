@@ -14,5 +14,7 @@ const IconCheckCircleOutlined: CheckCircleOutlinedIconType = (props, context) =>
 );
 
 IconCheckCircleOutlined.displayName = 'IconCheckCircleOutlined';
+IconCheckCircleOutlined.theme = 'outlined';
+IconCheckCircleOutlined.originName = 'check-circle';
 
 export default IconCheckCircleOutlined;

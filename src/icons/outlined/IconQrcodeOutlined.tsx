@@ -14,5 +14,7 @@ const IconQrcodeOutlined: QrcodeOutlinedIconType = (props, context) => (
 );
 
 IconQrcodeOutlined.displayName = 'IconQrcodeOutlined';
+IconQrcodeOutlined.theme = 'outlined';
+IconQrcodeOutlined.originName = 'qrcode';
 
 export default IconQrcodeOutlined;

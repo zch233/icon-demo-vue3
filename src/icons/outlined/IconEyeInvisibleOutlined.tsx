@@ -14,5 +14,7 @@ const IconEyeInvisibleOutlined: EyeInvisibleOutlinedIconType = (props, context) 
 );
 
 IconEyeInvisibleOutlined.displayName = 'IconEyeInvisibleOutlined';
+IconEyeInvisibleOutlined.theme = 'outlined';
+IconEyeInvisibleOutlined.originName = 'eye-invisible';
 
 export default IconEyeInvisibleOutlined;

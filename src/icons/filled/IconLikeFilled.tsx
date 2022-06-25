@@ -9,10 +9,10 @@ export interface LikeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconLikeFilled: LikeFilledIconType = (props, context) => (
-    <Icon name='LikeFilled' {...{ ...props, ...context.attrs }} icon={LikeFilledSvg} />
-);
+const IconLikeFilled: LikeFilledIconType = (props, context) => <Icon name='LikeFilled' {...{ ...props, ...context.attrs }} icon={LikeFilledSvg} />;
 
 IconLikeFilled.displayName = 'IconLikeFilled';
+IconLikeFilled.theme = 'filled';
+IconLikeFilled.originName = 'like';
 
 export default IconLikeFilled;

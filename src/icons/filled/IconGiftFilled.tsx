@@ -9,10 +9,10 @@ export interface GiftFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconGiftFilled: GiftFilledIconType = (props, context) => (
-    <Icon name='GiftFilled' {...{ ...props, ...context.attrs }} icon={GiftFilledSvg} />
-);
+const IconGiftFilled: GiftFilledIconType = (props, context) => <Icon name='GiftFilled' {...{ ...props, ...context.attrs }} icon={GiftFilledSvg} />;
 
 IconGiftFilled.displayName = 'IconGiftFilled';
+IconGiftFilled.theme = 'filled';
+IconGiftFilled.originName = 'gift';
 
 export default IconGiftFilled;

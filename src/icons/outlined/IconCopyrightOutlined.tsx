@@ -14,5 +14,7 @@ const IconCopyrightOutlined: CopyrightOutlinedIconType = (props, context) => (
 );
 
 IconCopyrightOutlined.displayName = 'IconCopyrightOutlined';
+IconCopyrightOutlined.theme = 'outlined';
+IconCopyrightOutlined.originName = 'copyright';
 
 export default IconCopyrightOutlined;

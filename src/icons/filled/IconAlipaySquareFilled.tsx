@@ -14,5 +14,7 @@ const IconAlipaySquareFilled: AlipaySquareFilledIconType = (props, context) => (
 );
 
 IconAlipaySquareFilled.displayName = 'IconAlipaySquareFilled';
+IconAlipaySquareFilled.theme = 'filled';
+IconAlipaySquareFilled.originName = 'alipay-square';
 
 export default IconAlipaySquareFilled;

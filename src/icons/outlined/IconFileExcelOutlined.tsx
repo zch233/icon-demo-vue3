@@ -14,5 +14,7 @@ const IconFileExcelOutlined: FileExcelOutlinedIconType = (props, context) => (
 );
 
 IconFileExcelOutlined.displayName = 'IconFileExcelOutlined';
+IconFileExcelOutlined.theme = 'outlined';
+IconFileExcelOutlined.originName = 'file-excel';
 
 export default IconFileExcelOutlined;

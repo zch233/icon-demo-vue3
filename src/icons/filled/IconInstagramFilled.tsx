@@ -14,5 +14,7 @@ const IconInstagramFilled: InstagramFilledIconType = (props, context) => (
 );
 
 IconInstagramFilled.displayName = 'IconInstagramFilled';
+IconInstagramFilled.theme = 'filled';
+IconInstagramFilled.originName = 'instagram';
 
 export default IconInstagramFilled;

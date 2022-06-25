@@ -14,5 +14,7 @@ const IconAlipayCircleFilled: AlipayCircleFilledIconType = (props, context) => (
 );
 
 IconAlipayCircleFilled.displayName = 'IconAlipayCircleFilled';
+IconAlipayCircleFilled.theme = 'filled';
+IconAlipayCircleFilled.originName = 'alipay-circle';
 
 export default IconAlipayCircleFilled;

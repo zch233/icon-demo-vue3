@@ -14,5 +14,7 @@ const IconMobileOutlined: MobileOutlinedIconType = (props, context) => (
 );
 
 IconMobileOutlined.displayName = 'IconMobileOutlined';
+IconMobileOutlined.theme = 'outlined';
+IconMobileOutlined.originName = 'mobile';
 
 export default IconMobileOutlined;

@@ -14,5 +14,7 @@ const IconHourglassTwoTone: HourglassTwoToneIconType = (props, context) => (
 );
 
 IconHourglassTwoTone.displayName = 'IconHourglassTwoTone';
+IconHourglassTwoTone.theme = 'twotone';
+IconHourglassTwoTone.originName = 'hourglass';
 
 export default IconHourglassTwoTone;

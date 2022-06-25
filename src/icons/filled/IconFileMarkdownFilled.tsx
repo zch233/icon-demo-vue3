@@ -14,5 +14,7 @@ const IconFileMarkdownFilled: FileMarkdownFilledIconType = (props, context) => (
 );
 
 IconFileMarkdownFilled.displayName = 'IconFileMarkdownFilled';
+IconFileMarkdownFilled.theme = 'filled';
+IconFileMarkdownFilled.originName = 'file-markdown';
 
 export default IconFileMarkdownFilled;

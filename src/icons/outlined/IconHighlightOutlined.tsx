@@ -14,5 +14,7 @@ const IconHighlightOutlined: HighlightOutlinedIconType = (props, context) => (
 );
 
 IconHighlightOutlined.displayName = 'IconHighlightOutlined';
+IconHighlightOutlined.theme = 'outlined';
+IconHighlightOutlined.originName = 'highlight';
 
 export default IconHighlightOutlined;

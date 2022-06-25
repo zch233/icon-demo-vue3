@@ -14,5 +14,7 @@ const IconChromeOutlined: ChromeOutlinedIconType = (props, context) => (
 );
 
 IconChromeOutlined.displayName = 'IconChromeOutlined';
+IconChromeOutlined.theme = 'outlined';
+IconChromeOutlined.originName = 'chrome';
 
 export default IconChromeOutlined;

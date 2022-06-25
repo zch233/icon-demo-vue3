@@ -14,5 +14,7 @@ const IconBgColorsOutlined: BgColorsOutlinedIconType = (props, context) => (
 );
 
 IconBgColorsOutlined.displayName = 'IconBgColorsOutlined';
+IconBgColorsOutlined.theme = 'outlined';
+IconBgColorsOutlined.originName = 'bg-colors';
 
 export default IconBgColorsOutlined;

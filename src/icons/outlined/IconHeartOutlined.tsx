@@ -9,10 +9,10 @@ export interface HeartOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconHeartOutlined: HeartOutlinedIconType = (props, context) => (
-    <Icon name='HeartOutlined' {...{ ...props, ...context.attrs }} icon={HeartOutlinedSvg} />
-);
+const IconHeartOutlined: HeartOutlinedIconType = (props, context) => <Icon name='HeartOutlined' {...{ ...props, ...context.attrs }} icon={HeartOutlinedSvg} />;
 
 IconHeartOutlined.displayName = 'IconHeartOutlined';
+IconHeartOutlined.theme = 'outlined';
+IconHeartOutlined.originName = 'heart';
 
 export default IconHeartOutlined;

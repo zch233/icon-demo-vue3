@@ -14,5 +14,7 @@ const IconUnorderedListOutlined: UnorderedListOutlinedIconType = (props, context
 );
 
 IconUnorderedListOutlined.displayName = 'IconUnorderedListOutlined';
+IconUnorderedListOutlined.theme = 'outlined';
+IconUnorderedListOutlined.originName = 'unordered-list';
 
 export default IconUnorderedListOutlined;

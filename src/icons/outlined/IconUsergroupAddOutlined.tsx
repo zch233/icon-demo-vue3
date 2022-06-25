@@ -14,5 +14,7 @@ const IconUsergroupAddOutlined: UsergroupAddOutlinedIconType = (props, context) 
 );
 
 IconUsergroupAddOutlined.displayName = 'IconUsergroupAddOutlined';
+IconUsergroupAddOutlined.theme = 'outlined';
+IconUsergroupAddOutlined.originName = 'usergroup-add';
 
 export default IconUsergroupAddOutlined;

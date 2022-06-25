@@ -14,5 +14,7 @@ const IconRightSquareTwoTone: RightSquareTwoToneIconType = (props, context) => (
 );
 
 IconRightSquareTwoTone.displayName = 'IconRightSquareTwoTone';
+IconRightSquareTwoTone.theme = 'twotone';
+IconRightSquareTwoTone.originName = 'right-square';
 
 export default IconRightSquareTwoTone;

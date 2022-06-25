@@ -14,5 +14,7 @@ const IconThunderboltTwoTone: ThunderboltTwoToneIconType = (props, context) => (
 );
 
 IconThunderboltTwoTone.displayName = 'IconThunderboltTwoTone';
+IconThunderboltTwoTone.theme = 'twotone';
+IconThunderboltTwoTone.originName = 'thunderbolt';
 
 export default IconThunderboltTwoTone;

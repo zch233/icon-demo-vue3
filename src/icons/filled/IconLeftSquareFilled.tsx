@@ -14,5 +14,7 @@ const IconLeftSquareFilled: LeftSquareFilledIconType = (props, context) => (
 );
 
 IconLeftSquareFilled.displayName = 'IconLeftSquareFilled';
+IconLeftSquareFilled.theme = 'filled';
+IconLeftSquareFilled.originName = 'left-square';
 
 export default IconLeftSquareFilled;

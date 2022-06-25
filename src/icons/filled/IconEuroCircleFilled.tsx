@@ -14,5 +14,7 @@ const IconEuroCircleFilled: EuroCircleFilledIconType = (props, context) => (
 );
 
 IconEuroCircleFilled.displayName = 'IconEuroCircleFilled';
+IconEuroCircleFilled.theme = 'filled';
+IconEuroCircleFilled.originName = 'euro-circle';
 
 export default IconEuroCircleFilled;

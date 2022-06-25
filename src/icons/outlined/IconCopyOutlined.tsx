@@ -9,10 +9,10 @@ export interface CopyOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconCopyOutlined: CopyOutlinedIconType = (props, context) => (
-    <Icon name='CopyOutlined' {...{ ...props, ...context.attrs }} icon={CopyOutlinedSvg} />
-);
+const IconCopyOutlined: CopyOutlinedIconType = (props, context) => <Icon name='CopyOutlined' {...{ ...props, ...context.attrs }} icon={CopyOutlinedSvg} />;
 
 IconCopyOutlined.displayName = 'IconCopyOutlined';
+IconCopyOutlined.theme = 'outlined';
+IconCopyOutlined.originName = 'copy';
 
 export default IconCopyOutlined;

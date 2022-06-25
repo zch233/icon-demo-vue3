@@ -14,5 +14,7 @@ const IconSearchOutlined: SearchOutlinedIconType = (props, context) => (
 );
 
 IconSearchOutlined.displayName = 'IconSearchOutlined';
+IconSearchOutlined.theme = 'outlined';
+IconSearchOutlined.originName = 'search';
 
 export default IconSearchOutlined;

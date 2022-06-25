@@ -9,10 +9,10 @@ export interface LockFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconLockFilled: LockFilledIconType = (props, context) => (
-    <Icon name='LockFilled' {...{ ...props, ...context.attrs }} icon={LockFilledSvg} />
-);
+const IconLockFilled: LockFilledIconType = (props, context) => <Icon name='LockFilled' {...{ ...props, ...context.attrs }} icon={LockFilledSvg} />;
 
 IconLockFilled.displayName = 'IconLockFilled';
+IconLockFilled.theme = 'filled';
+IconLockFilled.originName = 'lock';
 
 export default IconLockFilled;

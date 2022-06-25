@@ -14,5 +14,7 @@ const IconRedEnvelopeFilled: RedEnvelopeFilledIconType = (props, context) => (
 );
 
 IconRedEnvelopeFilled.displayName = 'IconRedEnvelopeFilled';
+IconRedEnvelopeFilled.theme = 'filled';
+IconRedEnvelopeFilled.originName = 'red-envelope';
 
 export default IconRedEnvelopeFilled;

@@ -14,5 +14,7 @@ const IconFileAddTwoTone: FileAddTwoToneIconType = (props, context) => (
 );
 
 IconFileAddTwoTone.displayName = 'IconFileAddTwoTone';
+IconFileAddTwoTone.theme = 'twotone';
+IconFileAddTwoTone.originName = 'file-add';
 
 export default IconFileAddTwoTone;

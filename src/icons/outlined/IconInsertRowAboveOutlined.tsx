@@ -14,5 +14,7 @@ const IconInsertRowAboveOutlined: InsertRowAboveOutlinedIconType = (props, conte
 );
 
 IconInsertRowAboveOutlined.displayName = 'IconInsertRowAboveOutlined';
+IconInsertRowAboveOutlined.theme = 'outlined';
+IconInsertRowAboveOutlined.originName = 'insert-row-above';
 
 export default IconInsertRowAboveOutlined;

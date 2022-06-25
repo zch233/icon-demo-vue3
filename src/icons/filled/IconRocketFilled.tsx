@@ -9,10 +9,10 @@ export interface RocketFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconRocketFilled: RocketFilledIconType = (props, context) => (
-    <Icon name='RocketFilled' {...{ ...props, ...context.attrs }} icon={RocketFilledSvg} />
-);
+const IconRocketFilled: RocketFilledIconType = (props, context) => <Icon name='RocketFilled' {...{ ...props, ...context.attrs }} icon={RocketFilledSvg} />;
 
 IconRocketFilled.displayName = 'IconRocketFilled';
+IconRocketFilled.theme = 'filled';
+IconRocketFilled.originName = 'rocket';
 
 export default IconRocketFilled;

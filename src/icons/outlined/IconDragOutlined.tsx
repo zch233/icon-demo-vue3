@@ -9,10 +9,10 @@ export interface DragOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconDragOutlined: DragOutlinedIconType = (props, context) => (
-    <Icon name='DragOutlined' {...{ ...props, ...context.attrs }} icon={DragOutlinedSvg} />
-);
+const IconDragOutlined: DragOutlinedIconType = (props, context) => <Icon name='DragOutlined' {...{ ...props, ...context.attrs }} icon={DragOutlinedSvg} />;
 
 IconDragOutlined.displayName = 'IconDragOutlined';
+IconDragOutlined.theme = 'outlined';
+IconDragOutlined.originName = 'drag';
 
 export default IconDragOutlined;

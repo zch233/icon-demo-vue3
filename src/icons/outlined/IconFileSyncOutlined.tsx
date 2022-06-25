@@ -14,5 +14,7 @@ const IconFileSyncOutlined: FileSyncOutlinedIconType = (props, context) => (
 );
 
 IconFileSyncOutlined.displayName = 'IconFileSyncOutlined';
+IconFileSyncOutlined.theme = 'outlined';
+IconFileSyncOutlined.originName = 'file-sync';
 
 export default IconFileSyncOutlined;

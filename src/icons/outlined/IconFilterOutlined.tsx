@@ -14,5 +14,7 @@ const IconFilterOutlined: FilterOutlinedIconType = (props, context) => (
 );
 
 IconFilterOutlined.displayName = 'IconFilterOutlined';
+IconFilterOutlined.theme = 'outlined';
+IconFilterOutlined.originName = 'filter';
 
 export default IconFilterOutlined;

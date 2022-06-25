@@ -14,5 +14,7 @@ const IconPlayCircleOutlined: PlayCircleOutlinedIconType = (props, context) => (
 );
 
 IconPlayCircleOutlined.displayName = 'IconPlayCircleOutlined';
+IconPlayCircleOutlined.theme = 'outlined';
+IconPlayCircleOutlined.originName = 'play-circle';
 
 export default IconPlayCircleOutlined;

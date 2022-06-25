@@ -14,5 +14,7 @@ const IconThunderboltFilled: ThunderboltFilledIconType = (props, context) => (
 );
 
 IconThunderboltFilled.displayName = 'IconThunderboltFilled';
+IconThunderboltFilled.theme = 'filled';
+IconThunderboltFilled.originName = 'thunderbolt';
 
 export default IconThunderboltFilled;

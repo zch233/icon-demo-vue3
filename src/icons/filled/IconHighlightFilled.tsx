@@ -14,5 +14,7 @@ const IconHighlightFilled: HighlightFilledIconType = (props, context) => (
 );
 
 IconHighlightFilled.displayName = 'IconHighlightFilled';
+IconHighlightFilled.theme = 'filled';
+IconHighlightFilled.originName = 'highlight';
 
 export default IconHighlightFilled;

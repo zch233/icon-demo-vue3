@@ -14,5 +14,7 @@ const IconFundProjectionScreenOutlined: FundProjectionScreenOutlinedIconType = (
 );
 
 IconFundProjectionScreenOutlined.displayName = 'IconFundProjectionScreenOutlined';
+IconFundProjectionScreenOutlined.theme = 'outlined';
+IconFundProjectionScreenOutlined.originName = 'fund-projection-screen';
 
 export default IconFundProjectionScreenOutlined;

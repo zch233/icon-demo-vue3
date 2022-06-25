@@ -14,5 +14,7 @@ const IconSketchCircleFilled: SketchCircleFilledIconType = (props, context) => (
 );
 
 IconSketchCircleFilled.displayName = 'IconSketchCircleFilled';
+IconSketchCircleFilled.theme = 'filled';
+IconSketchCircleFilled.originName = 'sketch-circle';
 
 export default IconSketchCircleFilled;

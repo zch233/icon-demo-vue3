@@ -14,5 +14,7 @@ const IconMoneyCollectOutlined: MoneyCollectOutlinedIconType = (props, context) 
 );
 
 IconMoneyCollectOutlined.displayName = 'IconMoneyCollectOutlined';
+IconMoneyCollectOutlined.theme = 'outlined';
+IconMoneyCollectOutlined.originName = 'money-collect';
 
 export default IconMoneyCollectOutlined;

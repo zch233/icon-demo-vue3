@@ -14,5 +14,7 @@ const IconDeleteColumnOutlined: DeleteColumnOutlinedIconType = (props, context) 
 );
 
 IconDeleteColumnOutlined.displayName = 'IconDeleteColumnOutlined';
+IconDeleteColumnOutlined.theme = 'outlined';
+IconDeleteColumnOutlined.originName = 'delete-column';
 
 export default IconDeleteColumnOutlined;

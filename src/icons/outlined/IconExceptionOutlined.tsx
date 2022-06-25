@@ -14,5 +14,7 @@ const IconExceptionOutlined: ExceptionOutlinedIconType = (props, context) => (
 );
 
 IconExceptionOutlined.displayName = 'IconExceptionOutlined';
+IconExceptionOutlined.theme = 'outlined';
+IconExceptionOutlined.originName = 'exception';
 
 export default IconExceptionOutlined;

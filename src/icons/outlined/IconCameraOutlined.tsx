@@ -14,5 +14,7 @@ const IconCameraOutlined: CameraOutlinedIconType = (props, context) => (
 );
 
 IconCameraOutlined.displayName = 'IconCameraOutlined';
+IconCameraOutlined.theme = 'outlined';
+IconCameraOutlined.originName = 'camera';
 
 export default IconCameraOutlined;

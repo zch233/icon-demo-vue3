@@ -14,5 +14,7 @@ const IconPaperClipOutlined: PaperClipOutlinedIconType = (props, context) => (
 );
 
 IconPaperClipOutlined.displayName = 'IconPaperClipOutlined';
+IconPaperClipOutlined.theme = 'outlined';
+IconPaperClipOutlined.originName = 'paper-clip';
 
 export default IconPaperClipOutlined;

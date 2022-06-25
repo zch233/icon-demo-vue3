@@ -14,5 +14,7 @@ const IconContainerTwoTone: ContainerTwoToneIconType = (props, context) => (
 );
 
 IconContainerTwoTone.displayName = 'IconContainerTwoTone';
+IconContainerTwoTone.theme = 'twotone';
+IconContainerTwoTone.originName = 'container';
 
 export default IconContainerTwoTone;

@@ -14,5 +14,7 @@ const IconStepForwardFilled: StepForwardFilledIconType = (props, context) => (
 );
 
 IconStepForwardFilled.displayName = 'IconStepForwardFilled';
+IconStepForwardFilled.theme = 'filled';
+IconStepForwardFilled.originName = 'step-forward';
 
 export default IconStepForwardFilled;

@@ -9,10 +9,10 @@ export interface BoxPlotFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBoxPlotFilled: BoxPlotFilledIconType = (props, context) => (
-    <Icon name='BoxPlotFilled' {...{ ...props, ...context.attrs }} icon={BoxPlotFilledSvg} />
-);
+const IconBoxPlotFilled: BoxPlotFilledIconType = (props, context) => <Icon name='BoxPlotFilled' {...{ ...props, ...context.attrs }} icon={BoxPlotFilledSvg} />;
 
 IconBoxPlotFilled.displayName = 'IconBoxPlotFilled';
+IconBoxPlotFilled.theme = 'filled';
+IconBoxPlotFilled.originName = 'box-plot';
 
 export default IconBoxPlotFilled;

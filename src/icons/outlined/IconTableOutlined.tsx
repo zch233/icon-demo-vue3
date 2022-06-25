@@ -9,10 +9,10 @@ export interface TableOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconTableOutlined: TableOutlinedIconType = (props, context) => (
-    <Icon name='TableOutlined' {...{ ...props, ...context.attrs }} icon={TableOutlinedSvg} />
-);
+const IconTableOutlined: TableOutlinedIconType = (props, context) => <Icon name='TableOutlined' {...{ ...props, ...context.attrs }} icon={TableOutlinedSvg} />;
 
 IconTableOutlined.displayName = 'IconTableOutlined';
+IconTableOutlined.theme = 'outlined';
+IconTableOutlined.originName = 'table';
 
 export default IconTableOutlined;

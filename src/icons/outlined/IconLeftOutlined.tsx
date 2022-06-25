@@ -9,10 +9,10 @@ export interface LeftOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconLeftOutlined: LeftOutlinedIconType = (props, context) => (
-    <Icon name='LeftOutlined' {...{ ...props, ...context.attrs }} icon={LeftOutlinedSvg} />
-);
+const IconLeftOutlined: LeftOutlinedIconType = (props, context) => <Icon name='LeftOutlined' {...{ ...props, ...context.attrs }} icon={LeftOutlinedSvg} />;
 
 IconLeftOutlined.displayName = 'IconLeftOutlined';
+IconLeftOutlined.theme = 'outlined';
+IconLeftOutlined.originName = 'left';
 
 export default IconLeftOutlined;

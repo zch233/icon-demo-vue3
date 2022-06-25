@@ -9,10 +9,10 @@ export interface DownOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconDownOutlined: DownOutlinedIconType = (props, context) => (
-    <Icon name='DownOutlined' {...{ ...props, ...context.attrs }} icon={DownOutlinedSvg} />
-);
+const IconDownOutlined: DownOutlinedIconType = (props, context) => <Icon name='DownOutlined' {...{ ...props, ...context.attrs }} icon={DownOutlinedSvg} />;
 
 IconDownOutlined.displayName = 'IconDownOutlined';
+IconDownOutlined.theme = 'outlined';
+IconDownOutlined.originName = 'down';
 
 export default IconDownOutlined;

@@ -14,5 +14,7 @@ const IconFieldBinaryOutlined: FieldBinaryOutlinedIconType = (props, context) =>
 );
 
 IconFieldBinaryOutlined.displayName = 'IconFieldBinaryOutlined';
+IconFieldBinaryOutlined.theme = 'outlined';
+IconFieldBinaryOutlined.originName = 'field-binary';
 
 export default IconFieldBinaryOutlined;

@@ -14,5 +14,7 @@ const IconDollarCircleTwoTone: DollarCircleTwoToneIconType = (props, context) =>
 );
 
 IconDollarCircleTwoTone.displayName = 'IconDollarCircleTwoTone';
+IconDollarCircleTwoTone.theme = 'twotone';
+IconDollarCircleTwoTone.originName = 'dollar-circle';
 
 export default IconDollarCircleTwoTone;

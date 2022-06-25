@@ -14,5 +14,7 @@ const IconMacCommandFilled: MacCommandFilledIconType = (props, context) => (
 );
 
 IconMacCommandFilled.displayName = 'IconMacCommandFilled';
+IconMacCommandFilled.theme = 'filled';
+IconMacCommandFilled.originName = 'mac-command';
 
 export default IconMacCommandFilled;

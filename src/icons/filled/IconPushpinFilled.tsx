@@ -9,10 +9,10 @@ export interface PushpinFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconPushpinFilled: PushpinFilledIconType = (props, context) => (
-    <Icon name='PushpinFilled' {...{ ...props, ...context.attrs }} icon={PushpinFilledSvg} />
-);
+const IconPushpinFilled: PushpinFilledIconType = (props, context) => <Icon name='PushpinFilled' {...{ ...props, ...context.attrs }} icon={PushpinFilledSvg} />;
 
 IconPushpinFilled.displayName = 'IconPushpinFilled';
+IconPushpinFilled.theme = 'filled';
+IconPushpinFilled.originName = 'pushpin';
 
 export default IconPushpinFilled;

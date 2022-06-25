@@ -14,5 +14,7 @@ const IconPropertySafetyOutlined: PropertySafetyOutlinedIconType = (props, conte
 );
 
 IconPropertySafetyOutlined.displayName = 'IconPropertySafetyOutlined';
+IconPropertySafetyOutlined.theme = 'outlined';
+IconPropertySafetyOutlined.originName = 'property-safety';
 
 export default IconPropertySafetyOutlined;

@@ -14,5 +14,7 @@ const IconRadarChartOutlined: RadarChartOutlinedIconType = (props, context) => (
 );
 
 IconRadarChartOutlined.displayName = 'IconRadarChartOutlined';
+IconRadarChartOutlined.theme = 'outlined';
+IconRadarChartOutlined.originName = 'radar-chart';
 
 export default IconRadarChartOutlined;

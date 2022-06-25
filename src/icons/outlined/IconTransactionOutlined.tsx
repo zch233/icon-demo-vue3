@@ -14,5 +14,7 @@ const IconTransactionOutlined: TransactionOutlinedIconType = (props, context) =>
 );
 
 IconTransactionOutlined.displayName = 'IconTransactionOutlined';
+IconTransactionOutlined.theme = 'outlined';
+IconTransactionOutlined.originName = 'transaction';
 
 export default IconTransactionOutlined;

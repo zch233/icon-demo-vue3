@@ -14,5 +14,7 @@ const IconMacCommandOutlined: MacCommandOutlinedIconType = (props, context) => (
 );
 
 IconMacCommandOutlined.displayName = 'IconMacCommandOutlined';
+IconMacCommandOutlined.theme = 'outlined';
+IconMacCommandOutlined.originName = 'mac-command';
 
 export default IconMacCommandOutlined;

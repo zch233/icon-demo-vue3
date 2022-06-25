@@ -14,5 +14,7 @@ const IconPlayCircleFilled: PlayCircleFilledIconType = (props, context) => (
 );
 
 IconPlayCircleFilled.displayName = 'IconPlayCircleFilled';
+IconPlayCircleFilled.theme = 'filled';
+IconPlayCircleFilled.originName = 'play-circle';
 
 export default IconPlayCircleFilled;

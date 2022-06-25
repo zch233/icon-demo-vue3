@@ -14,5 +14,7 @@ const IconVerticalAlignBottomOutlined: VerticalAlignBottomOutlinedIconType = (pr
 );
 
 IconVerticalAlignBottomOutlined.displayName = 'IconVerticalAlignBottomOutlined';
+IconVerticalAlignBottomOutlined.theme = 'outlined';
+IconVerticalAlignBottomOutlined.originName = 'vertical-align-bottom';
 
 export default IconVerticalAlignBottomOutlined;

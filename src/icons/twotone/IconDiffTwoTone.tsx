@@ -9,10 +9,10 @@ export interface DiffTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconDiffTwoTone: DiffTwoToneIconType = (props, context) => (
-    <Icon name='DiffTwoTone' {...{ ...props, ...context.attrs }} icon={DiffTwoToneSvg} />
-);
+const IconDiffTwoTone: DiffTwoToneIconType = (props, context) => <Icon name='DiffTwoTone' {...{ ...props, ...context.attrs }} icon={DiffTwoToneSvg} />;
 
 IconDiffTwoTone.displayName = 'IconDiffTwoTone';
+IconDiffTwoTone.theme = 'twotone';
+IconDiffTwoTone.originName = 'diff';
 
 export default IconDiffTwoTone;

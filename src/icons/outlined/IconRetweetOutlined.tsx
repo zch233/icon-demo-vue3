@@ -14,5 +14,7 @@ const IconRetweetOutlined: RetweetOutlinedIconType = (props, context) => (
 );
 
 IconRetweetOutlined.displayName = 'IconRetweetOutlined';
+IconRetweetOutlined.theme = 'outlined';
+IconRetweetOutlined.originName = 'retweet';
 
 export default IconRetweetOutlined;

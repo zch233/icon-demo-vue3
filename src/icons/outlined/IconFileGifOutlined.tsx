@@ -14,5 +14,7 @@ const IconFileGifOutlined: FileGifOutlinedIconType = (props, context) => (
 );
 
 IconFileGifOutlined.displayName = 'IconFileGifOutlined';
+IconFileGifOutlined.theme = 'outlined';
+IconFileGifOutlined.originName = 'file-gif';
 
 export default IconFileGifOutlined;

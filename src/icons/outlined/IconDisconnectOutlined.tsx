@@ -14,5 +14,7 @@ const IconDisconnectOutlined: DisconnectOutlinedIconType = (props, context) => (
 );
 
 IconDisconnectOutlined.displayName = 'IconDisconnectOutlined';
+IconDisconnectOutlined.theme = 'outlined';
+IconDisconnectOutlined.originName = 'disconnect';
 
 export default IconDisconnectOutlined;

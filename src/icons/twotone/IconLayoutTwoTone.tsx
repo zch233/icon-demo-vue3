@@ -9,10 +9,10 @@ export interface LayoutTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconLayoutTwoTone: LayoutTwoToneIconType = (props, context) => (
-    <Icon name='LayoutTwoTone' {...{ ...props, ...context.attrs }} icon={LayoutTwoToneSvg} />
-);
+const IconLayoutTwoTone: LayoutTwoToneIconType = (props, context) => <Icon name='LayoutTwoTone' {...{ ...props, ...context.attrs }} icon={LayoutTwoToneSvg} />;
 
 IconLayoutTwoTone.displayName = 'IconLayoutTwoTone';
+IconLayoutTwoTone.theme = 'twotone';
+IconLayoutTwoTone.originName = 'layout';
 
 export default IconLayoutTwoTone;

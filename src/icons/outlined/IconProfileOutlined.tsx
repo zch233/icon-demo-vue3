@@ -14,5 +14,7 @@ const IconProfileOutlined: ProfileOutlinedIconType = (props, context) => (
 );
 
 IconProfileOutlined.displayName = 'IconProfileOutlined';
+IconProfileOutlined.theme = 'outlined';
+IconProfileOutlined.originName = 'profile';
 
 export default IconProfileOutlined;

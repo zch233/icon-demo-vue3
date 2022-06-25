@@ -14,5 +14,7 @@ const IconBehanceOutlined: BehanceOutlinedIconType = (props, context) => (
 );
 
 IconBehanceOutlined.displayName = 'IconBehanceOutlined';
+IconBehanceOutlined.theme = 'outlined';
+IconBehanceOutlined.originName = 'behance';
 
 export default IconBehanceOutlined;

@@ -14,5 +14,7 @@ const IconFileExclamationFilled: FileExclamationFilledIconType = (props, context
 );
 
 IconFileExclamationFilled.displayName = 'IconFileExclamationFilled';
+IconFileExclamationFilled.theme = 'filled';
+IconFileExclamationFilled.originName = 'file-exclamation';
 
 export default IconFileExclamationFilled;

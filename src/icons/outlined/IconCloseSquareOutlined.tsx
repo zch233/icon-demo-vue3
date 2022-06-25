@@ -14,5 +14,7 @@ const IconCloseSquareOutlined: CloseSquareOutlinedIconType = (props, context) =>
 );
 
 IconCloseSquareOutlined.displayName = 'IconCloseSquareOutlined';
+IconCloseSquareOutlined.theme = 'outlined';
+IconCloseSquareOutlined.originName = 'close-square';
 
 export default IconCloseSquareOutlined;

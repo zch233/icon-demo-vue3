@@ -9,10 +9,10 @@ export interface CloudFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconCloudFilled: CloudFilledIconType = (props, context) => (
-    <Icon name='CloudFilled' {...{ ...props, ...context.attrs }} icon={CloudFilledSvg} />
-);
+const IconCloudFilled: CloudFilledIconType = (props, context) => <Icon name='CloudFilled' {...{ ...props, ...context.attrs }} icon={CloudFilledSvg} />;
 
 IconCloudFilled.displayName = 'IconCloudFilled';
+IconCloudFilled.theme = 'filled';
+IconCloudFilled.originName = 'cloud';
 
 export default IconCloudFilled;

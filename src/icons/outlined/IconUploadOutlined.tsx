@@ -14,5 +14,7 @@ const IconUploadOutlined: UploadOutlinedIconType = (props, context) => (
 );
 
 IconUploadOutlined.displayName = 'IconUploadOutlined';
+IconUploadOutlined.theme = 'outlined';
+IconUploadOutlined.originName = 'upload';
 
 export default IconUploadOutlined;

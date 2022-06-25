@@ -14,5 +14,7 @@ const IconFileExclamationTwoTone: FileExclamationTwoToneIconType = (props, conte
 );
 
 IconFileExclamationTwoTone.displayName = 'IconFileExclamationTwoTone';
+IconFileExclamationTwoTone.theme = 'twotone';
+IconFileExclamationTwoTone.originName = 'file-exclamation';
 
 export default IconFileExclamationTwoTone;

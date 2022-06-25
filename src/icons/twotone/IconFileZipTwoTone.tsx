@@ -14,5 +14,7 @@ const IconFileZipTwoTone: FileZipTwoToneIconType = (props, context) => (
 );
 
 IconFileZipTwoTone.displayName = 'IconFileZipTwoTone';
+IconFileZipTwoTone.theme = 'twotone';
+IconFileZipTwoTone.originName = 'file-zip';
 
 export default IconFileZipTwoTone;

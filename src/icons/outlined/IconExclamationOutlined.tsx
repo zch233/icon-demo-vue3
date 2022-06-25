@@ -14,5 +14,7 @@ const IconExclamationOutlined: ExclamationOutlinedIconType = (props, context) =>
 );
 
 IconExclamationOutlined.displayName = 'IconExclamationOutlined';
+IconExclamationOutlined.theme = 'outlined';
+IconExclamationOutlined.originName = 'exclamation';
 
 export default IconExclamationOutlined;

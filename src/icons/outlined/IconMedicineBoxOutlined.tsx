@@ -14,5 +14,7 @@ const IconMedicineBoxOutlined: MedicineBoxOutlinedIconType = (props, context) =>
 );
 
 IconMedicineBoxOutlined.displayName = 'IconMedicineBoxOutlined';
+IconMedicineBoxOutlined.theme = 'outlined';
+IconMedicineBoxOutlined.originName = 'medicine-box';
 
 export default IconMedicineBoxOutlined;

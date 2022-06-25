@@ -14,5 +14,7 @@ const IconInsuranceOutlined: InsuranceOutlinedIconType = (props, context) => (
 );
 
 IconInsuranceOutlined.displayName = 'IconInsuranceOutlined';
+IconInsuranceOutlined.theme = 'outlined';
+IconInsuranceOutlined.originName = 'insurance';
 
 export default IconInsuranceOutlined;

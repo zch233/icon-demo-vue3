@@ -14,5 +14,7 @@ const IconImportOutlined: ImportOutlinedIconType = (props, context) => (
 );
 
 IconImportOutlined.displayName = 'IconImportOutlined';
+IconImportOutlined.theme = 'outlined';
+IconImportOutlined.originName = 'import';
 
 export default IconImportOutlined;

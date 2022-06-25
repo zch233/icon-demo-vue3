@@ -9,10 +9,10 @@ export interface DislikeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconDislikeFilled: DislikeFilledIconType = (props, context) => (
-    <Icon name='DislikeFilled' {...{ ...props, ...context.attrs }} icon={DislikeFilledSvg} />
-);
+const IconDislikeFilled: DislikeFilledIconType = (props, context) => <Icon name='DislikeFilled' {...{ ...props, ...context.attrs }} icon={DislikeFilledSvg} />;
 
 IconDislikeFilled.displayName = 'IconDislikeFilled';
+IconDislikeFilled.theme = 'filled';
+IconDislikeFilled.originName = 'dislike';
 
 export default IconDislikeFilled;

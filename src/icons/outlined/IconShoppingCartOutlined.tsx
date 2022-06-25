@@ -14,5 +14,7 @@ const IconShoppingCartOutlined: ShoppingCartOutlinedIconType = (props, context) 
 );
 
 IconShoppingCartOutlined.displayName = 'IconShoppingCartOutlined';
+IconShoppingCartOutlined.theme = 'outlined';
+IconShoppingCartOutlined.originName = 'shopping-cart';
 
 export default IconShoppingCartOutlined;

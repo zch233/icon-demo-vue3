@@ -14,5 +14,7 @@ const IconTaobaoSquareFilled: TaobaoSquareFilledIconType = (props, context) => (
 );
 
 IconTaobaoSquareFilled.displayName = 'IconTaobaoSquareFilled';
+IconTaobaoSquareFilled.theme = 'filled';
+IconTaobaoSquareFilled.originName = 'taobao-square';
 
 export default IconTaobaoSquareFilled;

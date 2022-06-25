@@ -14,5 +14,7 @@ const IconSplitCellsOutlined: SplitCellsOutlinedIconType = (props, context) => (
 );
 
 IconSplitCellsOutlined.displayName = 'IconSplitCellsOutlined';
+IconSplitCellsOutlined.theme = 'outlined';
+IconSplitCellsOutlined.originName = 'split-cells';
 
 export default IconSplitCellsOutlined;

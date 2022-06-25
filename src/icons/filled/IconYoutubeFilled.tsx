@@ -9,10 +9,10 @@ export interface YoutubeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconYoutubeFilled: YoutubeFilledIconType = (props, context) => (
-    <Icon name='YoutubeFilled' {...{ ...props, ...context.attrs }} icon={YoutubeFilledSvg} />
-);
+const IconYoutubeFilled: YoutubeFilledIconType = (props, context) => <Icon name='YoutubeFilled' {...{ ...props, ...context.attrs }} icon={YoutubeFilledSvg} />;
 
 IconYoutubeFilled.displayName = 'IconYoutubeFilled';
+IconYoutubeFilled.theme = 'filled';
+IconYoutubeFilled.originName = 'youtube';
 
 export default IconYoutubeFilled;

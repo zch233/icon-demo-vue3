@@ -14,5 +14,7 @@ const IconContactsOutlined: ContactsOutlinedIconType = (props, context) => (
 );
 
 IconContactsOutlined.displayName = 'IconContactsOutlined';
+IconContactsOutlined.theme = 'outlined';
+IconContactsOutlined.originName = 'contacts';
 
 export default IconContactsOutlined;

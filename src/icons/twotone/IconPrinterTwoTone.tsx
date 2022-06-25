@@ -14,5 +14,7 @@ const IconPrinterTwoTone: PrinterTwoToneIconType = (props, context) => (
 );
 
 IconPrinterTwoTone.displayName = 'IconPrinterTwoTone';
+IconPrinterTwoTone.theme = 'twotone';
+IconPrinterTwoTone.originName = 'printer';
 
 export default IconPrinterTwoTone;

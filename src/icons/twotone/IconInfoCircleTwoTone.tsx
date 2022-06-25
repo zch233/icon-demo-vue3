@@ -14,5 +14,7 @@ const IconInfoCircleTwoTone: InfoCircleTwoToneIconType = (props, context) => (
 );
 
 IconInfoCircleTwoTone.displayName = 'IconInfoCircleTwoTone';
+IconInfoCircleTwoTone.theme = 'twotone';
+IconInfoCircleTwoTone.originName = 'info-circle';
 
 export default IconInfoCircleTwoTone;

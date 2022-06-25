@@ -14,5 +14,7 @@ const IconPicRightOutlined: PicRightOutlinedIconType = (props, context) => (
 );
 
 IconPicRightOutlined.displayName = 'IconPicRightOutlined';
+IconPicRightOutlined.theme = 'outlined';
+IconPicRightOutlined.originName = 'pic-right';
 
 export default IconPicRightOutlined;

@@ -9,10 +9,10 @@ export interface FileZipFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconFileZipFilled: FileZipFilledIconType = (props, context) => (
-    <Icon name='FileZipFilled' {...{ ...props, ...context.attrs }} icon={FileZipFilledSvg} />
-);
+const IconFileZipFilled: FileZipFilledIconType = (props, context) => <Icon name='FileZipFilled' {...{ ...props, ...context.attrs }} icon={FileZipFilledSvg} />;
 
 IconFileZipFilled.displayName = 'IconFileZipFilled';
+IconFileZipFilled.theme = 'filled';
+IconFileZipFilled.originName = 'file-zip';
 
 export default IconFileZipFilled;

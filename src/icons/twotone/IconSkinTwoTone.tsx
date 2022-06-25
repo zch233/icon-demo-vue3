@@ -9,10 +9,10 @@ export interface SkinTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconSkinTwoTone: SkinTwoToneIconType = (props, context) => (
-    <Icon name='SkinTwoTone' {...{ ...props, ...context.attrs }} icon={SkinTwoToneSvg} />
-);
+const IconSkinTwoTone: SkinTwoToneIconType = (props, context) => <Icon name='SkinTwoTone' {...{ ...props, ...context.attrs }} icon={SkinTwoToneSvg} />;
 
 IconSkinTwoTone.displayName = 'IconSkinTwoTone';
+IconSkinTwoTone.theme = 'twotone';
+IconSkinTwoTone.originName = 'skin';
 
 export default IconSkinTwoTone;

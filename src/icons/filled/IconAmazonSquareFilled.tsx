@@ -14,5 +14,7 @@ const IconAmazonSquareFilled: AmazonSquareFilledIconType = (props, context) => (
 );
 
 IconAmazonSquareFilled.displayName = 'IconAmazonSquareFilled';
+IconAmazonSquareFilled.theme = 'filled';
+IconAmazonSquareFilled.originName = 'amazon-square';
 
 export default IconAmazonSquareFilled;

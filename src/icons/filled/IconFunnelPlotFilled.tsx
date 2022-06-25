@@ -14,5 +14,7 @@ const IconFunnelPlotFilled: FunnelPlotFilledIconType = (props, context) => (
 );
 
 IconFunnelPlotFilled.displayName = 'IconFunnelPlotFilled';
+IconFunnelPlotFilled.theme = 'filled';
+IconFunnelPlotFilled.originName = 'funnel-plot';
 
 export default IconFunnelPlotFilled;

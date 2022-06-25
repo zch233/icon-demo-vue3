@@ -14,5 +14,7 @@ const IconUserAddOutlined: UserAddOutlinedIconType = (props, context) => (
 );
 
 IconUserAddOutlined.displayName = 'IconUserAddOutlined';
+IconUserAddOutlined.theme = 'outlined';
+IconUserAddOutlined.originName = 'user-add';
 
 export default IconUserAddOutlined;

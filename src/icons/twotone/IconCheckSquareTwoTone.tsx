@@ -14,5 +14,7 @@ const IconCheckSquareTwoTone: CheckSquareTwoToneIconType = (props, context) => (
 );
 
 IconCheckSquareTwoTone.displayName = 'IconCheckSquareTwoTone';
+IconCheckSquareTwoTone.theme = 'twotone';
+IconCheckSquareTwoTone.originName = 'check-square';
 
 export default IconCheckSquareTwoTone;

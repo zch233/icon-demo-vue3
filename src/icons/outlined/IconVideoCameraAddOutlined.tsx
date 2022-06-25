@@ -14,5 +14,7 @@ const IconVideoCameraAddOutlined: VideoCameraAddOutlinedIconType = (props, conte
 );
 
 IconVideoCameraAddOutlined.displayName = 'IconVideoCameraAddOutlined';
+IconVideoCameraAddOutlined.theme = 'outlined';
+IconVideoCameraAddOutlined.originName = 'video-camera-add';
 
 export default IconVideoCameraAddOutlined;

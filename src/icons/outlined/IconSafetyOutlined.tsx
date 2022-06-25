@@ -14,5 +14,7 @@ const IconSafetyOutlined: SafetyOutlinedIconType = (props, context) => (
 );
 
 IconSafetyOutlined.displayName = 'IconSafetyOutlined';
+IconSafetyOutlined.theme = 'outlined';
+IconSafetyOutlined.originName = 'safety';
 
 export default IconSafetyOutlined;

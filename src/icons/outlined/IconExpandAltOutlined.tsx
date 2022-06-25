@@ -14,5 +14,7 @@ const IconExpandAltOutlined: ExpandAltOutlinedIconType = (props, context) => (
 );
 
 IconExpandAltOutlined.displayName = 'IconExpandAltOutlined';
+IconExpandAltOutlined.theme = 'outlined';
+IconExpandAltOutlined.originName = 'expand-alt';
 
 export default IconExpandAltOutlined;

@@ -14,5 +14,7 @@ const IconFolderAddTwoTone: FolderAddTwoToneIconType = (props, context) => (
 );
 
 IconFolderAddTwoTone.displayName = 'IconFolderAddTwoTone';
+IconFolderAddTwoTone.theme = 'twotone';
+IconFolderAddTwoTone.originName = 'folder-add';
 
 export default IconFolderAddTwoTone;

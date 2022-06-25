@@ -14,5 +14,7 @@ const IconIeCircleFilled: IeCircleFilledIconType = (props, context) => (
 );
 
 IconIeCircleFilled.displayName = 'IconIeCircleFilled';
+IconIeCircleFilled.theme = 'filled';
+IconIeCircleFilled.originName = 'ie-circle';
 
 export default IconIeCircleFilled;

@@ -14,5 +14,7 @@ const IconRadiusUpleftOutlined: RadiusUpleftOutlinedIconType = (props, context) 
 );
 
 IconRadiusUpleftOutlined.displayName = 'IconRadiusUpleftOutlined';
+IconRadiusUpleftOutlined.theme = 'outlined';
+IconRadiusUpleftOutlined.originName = 'radius-upleft';
 
 export default IconRadiusUpleftOutlined;

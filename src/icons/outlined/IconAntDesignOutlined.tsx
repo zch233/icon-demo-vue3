@@ -14,5 +14,7 @@ const IconAntDesignOutlined: AntDesignOutlinedIconType = (props, context) => (
 );
 
 IconAntDesignOutlined.displayName = 'IconAntDesignOutlined';
+IconAntDesignOutlined.theme = 'outlined';
+IconAntDesignOutlined.originName = 'ant-design';
 
 export default IconAntDesignOutlined;

@@ -9,10 +9,10 @@ export interface GoldOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconGoldOutlined: GoldOutlinedIconType = (props, context) => (
-    <Icon name='GoldOutlined' {...{ ...props, ...context.attrs }} icon={GoldOutlinedSvg} />
-);
+const IconGoldOutlined: GoldOutlinedIconType = (props, context) => <Icon name='GoldOutlined' {...{ ...props, ...context.attrs }} icon={GoldOutlinedSvg} />;
 
 IconGoldOutlined.displayName = 'IconGoldOutlined';
+IconGoldOutlined.theme = 'outlined';
+IconGoldOutlined.originName = 'gold';
 
 export default IconGoldOutlined;

@@ -14,5 +14,7 @@ const IconDeleteRowOutlined: DeleteRowOutlinedIconType = (props, context) => (
 );
 
 IconDeleteRowOutlined.displayName = 'IconDeleteRowOutlined';
+IconDeleteRowOutlined.theme = 'outlined';
+IconDeleteRowOutlined.originName = 'delete-row';
 
 export default IconDeleteRowOutlined;

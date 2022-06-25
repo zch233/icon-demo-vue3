@@ -14,5 +14,7 @@ const IconFieldStringOutlined: FieldStringOutlinedIconType = (props, context) =>
 );
 
 IconFieldStringOutlined.displayName = 'IconFieldStringOutlined';
+IconFieldStringOutlined.theme = 'outlined';
+IconFieldStringOutlined.originName = 'field-string';
 
 export default IconFieldStringOutlined;

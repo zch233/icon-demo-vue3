@@ -14,5 +14,7 @@ const IconMoneyCollectFilled: MoneyCollectFilledIconType = (props, context) => (
 );
 
 IconMoneyCollectFilled.displayName = 'IconMoneyCollectFilled';
+IconMoneyCollectFilled.theme = 'filled';
+IconMoneyCollectFilled.originName = 'money-collect';
 
 export default IconMoneyCollectFilled;

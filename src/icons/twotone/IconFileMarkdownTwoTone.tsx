@@ -14,5 +14,7 @@ const IconFileMarkdownTwoTone: FileMarkdownTwoToneIconType = (props, context) =>
 );
 
 IconFileMarkdownTwoTone.displayName = 'IconFileMarkdownTwoTone';
+IconFileMarkdownTwoTone.theme = 'twotone';
+IconFileMarkdownTwoTone.originName = 'file-markdown';
 
 export default IconFileMarkdownTwoTone;

@@ -14,5 +14,7 @@ const IconCalculatorFilled: CalculatorFilledIconType = (props, context) => (
 );
 
 IconCalculatorFilled.displayName = 'IconCalculatorFilled';
+IconCalculatorFilled.theme = 'filled';
+IconCalculatorFilled.originName = 'calculator';
 
 export default IconCalculatorFilled;

@@ -14,5 +14,7 @@ const IconFileImageTwoTone: FileImageTwoToneIconType = (props, context) => (
 );
 
 IconFileImageTwoTone.displayName = 'IconFileImageTwoTone';
+IconFileImageTwoTone.theme = 'twotone';
+IconFileImageTwoTone.originName = 'file-image';
 
 export default IconFileImageTwoTone;

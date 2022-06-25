@@ -14,5 +14,7 @@ const IconSnippetsTwoTone: SnippetsTwoToneIconType = (props, context) => (
 );
 
 IconSnippetsTwoTone.displayName = 'IconSnippetsTwoTone';
+IconSnippetsTwoTone.theme = 'twotone';
+IconSnippetsTwoTone.originName = 'snippets';
 
 export default IconSnippetsTwoTone;

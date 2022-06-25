@@ -14,5 +14,7 @@ const IconPushpinTwoTone: PushpinTwoToneIconType = (props, context) => (
 );
 
 IconPushpinTwoTone.displayName = 'IconPushpinTwoTone';
+IconPushpinTwoTone.theme = 'twotone';
+IconPushpinTwoTone.originName = 'pushpin';
 
 export default IconPushpinTwoTone;

@@ -14,5 +14,7 @@ const IconAlignCenterOutlined: AlignCenterOutlinedIconType = (props, context) =>
 );
 
 IconAlignCenterOutlined.displayName = 'IconAlignCenterOutlined';
+IconAlignCenterOutlined.theme = 'outlined';
+IconAlignCenterOutlined.originName = 'align-center';
 
 export default IconAlignCenterOutlined;

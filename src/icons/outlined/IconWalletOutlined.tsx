@@ -14,5 +14,7 @@ const IconWalletOutlined: WalletOutlinedIconType = (props, context) => (
 );
 
 IconWalletOutlined.displayName = 'IconWalletOutlined';
+IconWalletOutlined.theme = 'outlined';
+IconWalletOutlined.originName = 'wallet';
 
 export default IconWalletOutlined;

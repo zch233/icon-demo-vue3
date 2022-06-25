@@ -14,5 +14,7 @@ const IconSnippetsFilled: SnippetsFilledIconType = (props, context) => (
 );
 
 IconSnippetsFilled.displayName = 'IconSnippetsFilled';
+IconSnippetsFilled.theme = 'filled';
+IconSnippetsFilled.originName = 'snippets';
 
 export default IconSnippetsFilled;

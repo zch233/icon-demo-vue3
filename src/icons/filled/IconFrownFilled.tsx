@@ -9,10 +9,10 @@ export interface FrownFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconFrownFilled: FrownFilledIconType = (props, context) => (
-    <Icon name='FrownFilled' {...{ ...props, ...context.attrs }} icon={FrownFilledSvg} />
-);
+const IconFrownFilled: FrownFilledIconType = (props, context) => <Icon name='FrownFilled' {...{ ...props, ...context.attrs }} icon={FrownFilledSvg} />;
 
 IconFrownFilled.displayName = 'IconFrownFilled';
+IconFrownFilled.theme = 'filled';
+IconFrownFilled.originName = 'frown';
 
 export default IconFrownFilled;

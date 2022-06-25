@@ -14,5 +14,7 @@ const IconInfoCircleFilled: InfoCircleFilledIconType = (props, context) => (
 );
 
 IconInfoCircleFilled.displayName = 'IconInfoCircleFilled';
+IconInfoCircleFilled.theme = 'filled';
+IconInfoCircleFilled.originName = 'info-circle';
 
 export default IconInfoCircleFilled;

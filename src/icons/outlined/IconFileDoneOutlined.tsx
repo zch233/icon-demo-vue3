@@ -14,5 +14,7 @@ const IconFileDoneOutlined: FileDoneOutlinedIconType = (props, context) => (
 );
 
 IconFileDoneOutlined.displayName = 'IconFileDoneOutlined';
+IconFileDoneOutlined.theme = 'outlined';
+IconFileDoneOutlined.originName = 'file-done';
 
 export default IconFileDoneOutlined;

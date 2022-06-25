@@ -14,5 +14,7 @@ const IconSlidersOutlined: SlidersOutlinedIconType = (props, context) => (
 );
 
 IconSlidersOutlined.displayName = 'IconSlidersOutlined';
+IconSlidersOutlined.theme = 'outlined';
+IconSlidersOutlined.originName = 'sliders';
 
 export default IconSlidersOutlined;

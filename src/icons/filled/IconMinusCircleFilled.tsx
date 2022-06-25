@@ -14,5 +14,7 @@ const IconMinusCircleFilled: MinusCircleFilledIconType = (props, context) => (
 );
 
 IconMinusCircleFilled.displayName = 'IconMinusCircleFilled';
+IconMinusCircleFilled.theme = 'filled';
+IconMinusCircleFilled.originName = 'minus-circle';
 
 export default IconMinusCircleFilled;

@@ -9,10 +9,10 @@ export interface GoldenFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconGoldenFilled: GoldenFilledIconType = (props, context) => (
-    <Icon name='GoldenFilled' {...{ ...props, ...context.attrs }} icon={GoldenFilledSvg} />
-);
+const IconGoldenFilled: GoldenFilledIconType = (props, context) => <Icon name='GoldenFilled' {...{ ...props, ...context.attrs }} icon={GoldenFilledSvg} />;
 
 IconGoldenFilled.displayName = 'IconGoldenFilled';
+IconGoldenFilled.theme = 'filled';
+IconGoldenFilled.originName = 'golden';
 
 export default IconGoldenFilled;

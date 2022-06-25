@@ -14,5 +14,7 @@ const IconRedditCircleFilled: RedditCircleFilledIconType = (props, context) => (
 );
 
 IconRedditCircleFilled.displayName = 'IconRedditCircleFilled';
+IconRedditCircleFilled.theme = 'filled';
+IconRedditCircleFilled.originName = 'reddit-circle';
 
 export default IconRedditCircleFilled;

@@ -9,10 +9,10 @@ export interface CopyTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconCopyTwoTone: CopyTwoToneIconType = (props, context) => (
-    <Icon name='CopyTwoTone' {...{ ...props, ...context.attrs }} icon={CopyTwoToneSvg} />
-);
+const IconCopyTwoTone: CopyTwoToneIconType = (props, context) => <Icon name='CopyTwoTone' {...{ ...props, ...context.attrs }} icon={CopyTwoToneSvg} />;
 
 IconCopyTwoTone.displayName = 'IconCopyTwoTone';
+IconCopyTwoTone.theme = 'twotone';
+IconCopyTwoTone.originName = 'copy';
 
 export default IconCopyTwoTone;

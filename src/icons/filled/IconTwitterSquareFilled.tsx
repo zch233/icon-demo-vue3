@@ -14,5 +14,7 @@ const IconTwitterSquareFilled: TwitterSquareFilledIconType = (props, context) =>
 );
 
 IconTwitterSquareFilled.displayName = 'IconTwitterSquareFilled';
+IconTwitterSquareFilled.theme = 'filled';
+IconTwitterSquareFilled.originName = 'twitter-square';
 
 export default IconTwitterSquareFilled;

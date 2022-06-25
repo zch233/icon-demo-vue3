@@ -14,5 +14,7 @@ const IconTaobaoCircleFilled: TaobaoCircleFilledIconType = (props, context) => (
 );
 
 IconTaobaoCircleFilled.displayName = 'IconTaobaoCircleFilled';
+IconTaobaoCircleFilled.theme = 'filled';
+IconTaobaoCircleFilled.originName = 'taobao-circle';
 
 export default IconTaobaoCircleFilled;

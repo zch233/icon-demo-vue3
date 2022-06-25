@@ -14,5 +14,7 @@ const IconFontSizeOutlined: FontSizeOutlinedIconType = (props, context) => (
 );
 
 IconFontSizeOutlined.displayName = 'IconFontSizeOutlined';
+IconFontSizeOutlined.theme = 'outlined';
+IconFontSizeOutlined.originName = 'font-size';
 
 export default IconFontSizeOutlined;

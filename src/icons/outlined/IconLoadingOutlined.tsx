@@ -14,5 +14,7 @@ const IconLoadingOutlined: LoadingOutlinedIconType = (props, context) => (
 );
 
 IconLoadingOutlined.displayName = 'IconLoadingOutlined';
+IconLoadingOutlined.theme = 'outlined';
+IconLoadingOutlined.originName = 'loading';
 
 export default IconLoadingOutlined;

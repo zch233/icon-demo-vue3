@@ -9,10 +9,10 @@ export interface ShakeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconShakeOutlined: ShakeOutlinedIconType = (props, context) => (
-    <Icon name='ShakeOutlined' {...{ ...props, ...context.attrs }} icon={ShakeOutlinedSvg} />
-);
+const IconShakeOutlined: ShakeOutlinedIconType = (props, context) => <Icon name='ShakeOutlined' {...{ ...props, ...context.attrs }} icon={ShakeOutlinedSvg} />;
 
 IconShakeOutlined.displayName = 'IconShakeOutlined';
+IconShakeOutlined.theme = 'outlined';
+IconShakeOutlined.originName = 'shake';
 
 export default IconShakeOutlined;

@@ -14,5 +14,7 @@ const IconPlusCircleOutlined: PlusCircleOutlinedIconType = (props, context) => (
 );
 
 IconPlusCircleOutlined.displayName = 'IconPlusCircleOutlined';
+IconPlusCircleOutlined.theme = 'outlined';
+IconPlusCircleOutlined.originName = 'plus-circle';
 
 export default IconPlusCircleOutlined;

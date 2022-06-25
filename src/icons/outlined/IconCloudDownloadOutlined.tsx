@@ -14,5 +14,7 @@ const IconCloudDownloadOutlined: CloudDownloadOutlinedIconType = (props, context
 );
 
 IconCloudDownloadOutlined.displayName = 'IconCloudDownloadOutlined';
+IconCloudDownloadOutlined.theme = 'outlined';
+IconCloudDownloadOutlined.originName = 'cloud-download';
 
 export default IconCloudDownloadOutlined;

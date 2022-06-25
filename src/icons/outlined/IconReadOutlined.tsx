@@ -9,10 +9,10 @@ export interface ReadOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconReadOutlined: ReadOutlinedIconType = (props, context) => (
-    <Icon name='ReadOutlined' {...{ ...props, ...context.attrs }} icon={ReadOutlinedSvg} />
-);
+const IconReadOutlined: ReadOutlinedIconType = (props, context) => <Icon name='ReadOutlined' {...{ ...props, ...context.attrs }} icon={ReadOutlinedSvg} />;
 
 IconReadOutlined.displayName = 'IconReadOutlined';
+IconReadOutlined.theme = 'outlined';
+IconReadOutlined.originName = 'read';
 
 export default IconReadOutlined;

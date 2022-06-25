@@ -14,5 +14,7 @@ const IconFacebookOutlined: FacebookOutlinedIconType = (props, context) => (
 );
 
 IconFacebookOutlined.displayName = 'IconFacebookOutlined';
+IconFacebookOutlined.theme = 'outlined';
+IconFacebookOutlined.originName = 'facebook';
 
 export default IconFacebookOutlined;

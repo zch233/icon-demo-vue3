@@ -14,5 +14,7 @@ const IconSisternodeOutlined: SisternodeOutlinedIconType = (props, context) => (
 );
 
 IconSisternodeOutlined.displayName = 'IconSisternodeOutlined';
+IconSisternodeOutlined.theme = 'outlined';
+IconSisternodeOutlined.originName = 'sisternode';
 
 export default IconSisternodeOutlined;

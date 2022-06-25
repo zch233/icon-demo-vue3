@@ -14,5 +14,7 @@ const IconMediumOutlined: MediumOutlinedIconType = (props, context) => (
 );
 
 IconMediumOutlined.displayName = 'IconMediumOutlined';
+IconMediumOutlined.theme = 'outlined';
+IconMediumOutlined.originName = 'medium';
 
 export default IconMediumOutlined;

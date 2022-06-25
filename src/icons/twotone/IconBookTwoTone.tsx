@@ -9,10 +9,10 @@ export interface BookTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBookTwoTone: BookTwoToneIconType = (props, context) => (
-    <Icon name='BookTwoTone' {...{ ...props, ...context.attrs }} icon={BookTwoToneSvg} />
-);
+const IconBookTwoTone: BookTwoToneIconType = (props, context) => <Icon name='BookTwoTone' {...{ ...props, ...context.attrs }} icon={BookTwoToneSvg} />;
 
 IconBookTwoTone.displayName = 'IconBookTwoTone';
+IconBookTwoTone.theme = 'twotone';
+IconBookTwoTone.originName = 'book';
 
 export default IconBookTwoTone;

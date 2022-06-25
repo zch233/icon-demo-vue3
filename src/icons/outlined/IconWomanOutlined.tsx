@@ -9,10 +9,10 @@ export interface WomanOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconWomanOutlined: WomanOutlinedIconType = (props, context) => (
-    <Icon name='WomanOutlined' {...{ ...props, ...context.attrs }} icon={WomanOutlinedSvg} />
-);
+const IconWomanOutlined: WomanOutlinedIconType = (props, context) => <Icon name='WomanOutlined' {...{ ...props, ...context.attrs }} icon={WomanOutlinedSvg} />;
 
 IconWomanOutlined.displayName = 'IconWomanOutlined';
+IconWomanOutlined.theme = 'outlined';
+IconWomanOutlined.originName = 'woman';
 
 export default IconWomanOutlined;

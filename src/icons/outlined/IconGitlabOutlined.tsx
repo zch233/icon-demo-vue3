@@ -14,5 +14,7 @@ const IconGitlabOutlined: GitlabOutlinedIconType = (props, context) => (
 );
 
 IconGitlabOutlined.displayName = 'IconGitlabOutlined';
+IconGitlabOutlined.theme = 'outlined';
+IconGitlabOutlined.originName = 'gitlab';
 
 export default IconGitlabOutlined;

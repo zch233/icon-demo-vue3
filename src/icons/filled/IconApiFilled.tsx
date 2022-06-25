@@ -9,10 +9,10 @@ export interface ApiFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconApiFilled: ApiFilledIconType = (props, context) => (
-    <Icon name='ApiFilled' {...{ ...props, ...context.attrs }} icon={ApiFilledSvg} />
-);
+const IconApiFilled: ApiFilledIconType = (props, context) => <Icon name='ApiFilled' {...{ ...props, ...context.attrs }} icon={ApiFilledSvg} />;
 
 IconApiFilled.displayName = 'IconApiFilled';
+IconApiFilled.theme = 'filled';
+IconApiFilled.originName = 'api';
 
 export default IconApiFilled;

@@ -14,5 +14,7 @@ const IconCaretDownOutlined: CaretDownOutlinedIconType = (props, context) => (
 );
 
 IconCaretDownOutlined.displayName = 'IconCaretDownOutlined';
+IconCaretDownOutlined.theme = 'outlined';
+IconCaretDownOutlined.originName = 'caret-down';
 
 export default IconCaretDownOutlined;

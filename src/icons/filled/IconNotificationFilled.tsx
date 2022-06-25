@@ -14,5 +14,7 @@ const IconNotificationFilled: NotificationFilledIconType = (props, context) => (
 );
 
 IconNotificationFilled.displayName = 'IconNotificationFilled';
+IconNotificationFilled.theme = 'filled';
+IconNotificationFilled.originName = 'notification';
 
 export default IconNotificationFilled;

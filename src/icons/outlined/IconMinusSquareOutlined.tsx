@@ -14,5 +14,7 @@ const IconMinusSquareOutlined: MinusSquareOutlinedIconType = (props, context) =>
 );
 
 IconMinusSquareOutlined.displayName = 'IconMinusSquareOutlined';
+IconMinusSquareOutlined.theme = 'outlined';
+IconMinusSquareOutlined.originName = 'minus-square';
 
 export default IconMinusSquareOutlined;

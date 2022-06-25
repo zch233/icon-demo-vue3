@@ -9,10 +9,10 @@ export interface HddTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconHddTwoTone: HddTwoToneIconType = (props, context) => (
-    <Icon name='HddTwoTone' {...{ ...props, ...context.attrs }} icon={HddTwoToneSvg} />
-);
+const IconHddTwoTone: HddTwoToneIconType = (props, context) => <Icon name='HddTwoTone' {...{ ...props, ...context.attrs }} icon={HddTwoToneSvg} />;
 
 IconHddTwoTone.displayName = 'IconHddTwoTone';
+IconHddTwoTone.theme = 'twotone';
+IconHddTwoTone.originName = 'hdd';
 
 export default IconHddTwoTone;

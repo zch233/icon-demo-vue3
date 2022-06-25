@@ -14,5 +14,7 @@ const IconSlackSquareFilled: SlackSquareFilledIconType = (props, context) => (
 );
 
 IconSlackSquareFilled.displayName = 'IconSlackSquareFilled';
+IconSlackSquareFilled.theme = 'filled';
+IconSlackSquareFilled.originName = 'slack-square';
 
 export default IconSlackSquareFilled;

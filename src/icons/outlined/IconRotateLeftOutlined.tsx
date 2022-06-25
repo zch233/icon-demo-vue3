@@ -14,5 +14,7 @@ const IconRotateLeftOutlined: RotateLeftOutlinedIconType = (props, context) => (
 );
 
 IconRotateLeftOutlined.displayName = 'IconRotateLeftOutlined';
+IconRotateLeftOutlined.theme = 'outlined';
+IconRotateLeftOutlined.originName = 'rotate-left';
 
 export default IconRotateLeftOutlined;

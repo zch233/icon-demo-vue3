@@ -14,5 +14,7 @@ const IconFormatPainterOutlined: FormatPainterOutlinedIconType = (props, context
 );
 
 IconFormatPainterOutlined.displayName = 'IconFormatPainterOutlined';
+IconFormatPainterOutlined.theme = 'outlined';
+IconFormatPainterOutlined.originName = 'format-painter';
 
 export default IconFormatPainterOutlined;

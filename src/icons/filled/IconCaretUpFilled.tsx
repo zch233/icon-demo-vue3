@@ -9,10 +9,10 @@ export interface CaretUpFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconCaretUpFilled: CaretUpFilledIconType = (props, context) => (
-    <Icon name='CaretUpFilled' {...{ ...props, ...context.attrs }} icon={CaretUpFilledSvg} />
-);
+const IconCaretUpFilled: CaretUpFilledIconType = (props, context) => <Icon name='CaretUpFilled' {...{ ...props, ...context.attrs }} icon={CaretUpFilledSvg} />;
 
 IconCaretUpFilled.displayName = 'IconCaretUpFilled';
+IconCaretUpFilled.theme = 'filled';
+IconCaretUpFilled.originName = 'caret-up';
 
 export default IconCaretUpFilled;

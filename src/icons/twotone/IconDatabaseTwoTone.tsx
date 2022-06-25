@@ -14,5 +14,7 @@ const IconDatabaseTwoTone: DatabaseTwoToneIconType = (props, context) => (
 );
 
 IconDatabaseTwoTone.displayName = 'IconDatabaseTwoTone';
+IconDatabaseTwoTone.theme = 'twotone';
+IconDatabaseTwoTone.originName = 'database';
 
 export default IconDatabaseTwoTone;

@@ -9,10 +9,10 @@ export interface StarFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconStarFilled: StarFilledIconType = (props, context) => (
-    <Icon name='StarFilled' {...{ ...props, ...context.attrs }} icon={StarFilledSvg} />
-);
+const IconStarFilled: StarFilledIconType = (props, context) => <Icon name='StarFilled' {...{ ...props, ...context.attrs }} icon={StarFilledSvg} />;
 
 IconStarFilled.displayName = 'IconStarFilled';
+IconStarFilled.theme = 'filled';
+IconStarFilled.originName = 'star';
 
 export default IconStarFilled;

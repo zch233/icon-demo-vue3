@@ -14,5 +14,7 @@ const IconPictureTwoTone: PictureTwoToneIconType = (props, context) => (
 );
 
 IconPictureTwoTone.displayName = 'IconPictureTwoTone';
+IconPictureTwoTone.theme = 'twotone';
+IconPictureTwoTone.originName = 'picture';
 
 export default IconPictureTwoTone;

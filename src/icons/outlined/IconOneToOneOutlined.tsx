@@ -14,5 +14,7 @@ const IconOneToOneOutlined: OneToOneOutlinedIconType = (props, context) => (
 );
 
 IconOneToOneOutlined.displayName = 'IconOneToOneOutlined';
+IconOneToOneOutlined.theme = 'outlined';
+IconOneToOneOutlined.originName = 'one-to-one';
 
 export default IconOneToOneOutlined;

@@ -14,5 +14,7 @@ const IconUngroupOutlined: UngroupOutlinedIconType = (props, context) => (
 );
 
 IconUngroupOutlined.displayName = 'IconUngroupOutlined';
+IconUngroupOutlined.theme = 'outlined';
+IconUngroupOutlined.originName = 'ungroup';
 
 export default IconUngroupOutlined;

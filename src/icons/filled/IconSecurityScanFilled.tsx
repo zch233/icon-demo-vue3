@@ -14,5 +14,7 @@ const IconSecurityScanFilled: SecurityScanFilledIconType = (props, context) => (
 );
 
 IconSecurityScanFilled.displayName = 'IconSecurityScanFilled';
+IconSecurityScanFilled.theme = 'filled';
+IconSecurityScanFilled.originName = 'security-scan';
 
 export default IconSecurityScanFilled;

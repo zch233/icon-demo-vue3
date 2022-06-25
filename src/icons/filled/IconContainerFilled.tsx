@@ -14,5 +14,7 @@ const IconContainerFilled: ContainerFilledIconType = (props, context) => (
 );
 
 IconContainerFilled.displayName = 'IconContainerFilled';
+IconContainerFilled.theme = 'filled';
+IconContainerFilled.originName = 'container';
 
 export default IconContainerFilled;

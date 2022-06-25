@@ -14,5 +14,7 @@ const IconPicCenterOutlined: PicCenterOutlinedIconType = (props, context) => (
 );
 
 IconPicCenterOutlined.displayName = 'IconPicCenterOutlined';
+IconPicCenterOutlined.theme = 'outlined';
+IconPicCenterOutlined.originName = 'pic-center';
 
 export default IconPicCenterOutlined;

@@ -14,5 +14,7 @@ const IconDatabaseOutlined: DatabaseOutlinedIconType = (props, context) => (
 );
 
 IconDatabaseOutlined.displayName = 'IconDatabaseOutlined';
+IconDatabaseOutlined.theme = 'outlined';
+IconDatabaseOutlined.originName = 'database';
 
 export default IconDatabaseOutlined;

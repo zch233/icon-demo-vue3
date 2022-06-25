@@ -14,5 +14,7 @@ const IconGooglePlusCircleFilled: GooglePlusCircleFilledIconType = (props, conte
 );
 
 IconGooglePlusCircleFilled.displayName = 'IconGooglePlusCircleFilled';
+IconGooglePlusCircleFilled.theme = 'filled';
+IconGooglePlusCircleFilled.originName = 'google-plus-circle';
 
 export default IconGooglePlusCircleFilled;

@@ -14,5 +14,7 @@ const IconMedicineBoxTwoTone: MedicineBoxTwoToneIconType = (props, context) => (
 );
 
 IconMedicineBoxTwoTone.displayName = 'IconMedicineBoxTwoTone';
+IconMedicineBoxTwoTone.theme = 'twotone';
+IconMedicineBoxTwoTone.originName = 'medicine-box';
 
 export default IconMedicineBoxTwoTone;

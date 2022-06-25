@@ -9,10 +9,10 @@ export interface StopOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconStopOutlined: StopOutlinedIconType = (props, context) => (
-    <Icon name='StopOutlined' {...{ ...props, ...context.attrs }} icon={StopOutlinedSvg} />
-);
+const IconStopOutlined: StopOutlinedIconType = (props, context) => <Icon name='StopOutlined' {...{ ...props, ...context.attrs }} icon={StopOutlinedSvg} />;
 
 IconStopOutlined.displayName = 'IconStopOutlined';
+IconStopOutlined.theme = 'outlined';
+IconStopOutlined.originName = 'stop';
 
 export default IconStopOutlined;

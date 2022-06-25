@@ -14,5 +14,7 @@ const IconFastBackwardFilled: FastBackwardFilledIconType = (props, context) => (
 );
 
 IconFastBackwardFilled.displayName = 'IconFastBackwardFilled';
+IconFastBackwardFilled.theme = 'filled';
+IconFastBackwardFilled.originName = 'fast-backward';
 
 export default IconFastBackwardFilled;

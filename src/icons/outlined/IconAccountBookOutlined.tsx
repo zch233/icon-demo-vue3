@@ -14,5 +14,7 @@ const IconAccountBookOutlined: AccountBookOutlinedIconType = (props, context) =>
 );
 
 IconAccountBookOutlined.displayName = 'IconAccountBookOutlined';
+IconAccountBookOutlined.theme = 'outlined';
+IconAccountBookOutlined.originName = 'account-book';
 
 export default IconAccountBookOutlined;

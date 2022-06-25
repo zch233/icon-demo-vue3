@@ -14,5 +14,7 @@ const IconFolderOpenTwoTone: FolderOpenTwoToneIconType = (props, context) => (
 );
 
 IconFolderOpenTwoTone.displayName = 'IconFolderOpenTwoTone';
+IconFolderOpenTwoTone.theme = 'twotone';
+IconFolderOpenTwoTone.originName = 'folder-open';
 
 export default IconFolderOpenTwoTone;

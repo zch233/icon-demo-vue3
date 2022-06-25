@@ -14,5 +14,7 @@ const IconColumnHeightOutlined: ColumnHeightOutlinedIconType = (props, context) 
 );
 
 IconColumnHeightOutlined.displayName = 'IconColumnHeightOutlined';
+IconColumnHeightOutlined.theme = 'outlined';
+IconColumnHeightOutlined.originName = 'column-height';
 
 export default IconColumnHeightOutlined;

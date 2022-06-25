@@ -14,5 +14,7 @@ const IconTrademarkOutlined: TrademarkOutlinedIconType = (props, context) => (
 );
 
 IconTrademarkOutlined.displayName = 'IconTrademarkOutlined';
+IconTrademarkOutlined.theme = 'outlined';
+IconTrademarkOutlined.originName = 'trademark';
 
 export default IconTrademarkOutlined;

@@ -9,10 +9,10 @@ export interface FilePdfFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconFilePdfFilled: FilePdfFilledIconType = (props, context) => (
-    <Icon name='FilePdfFilled' {...{ ...props, ...context.attrs }} icon={FilePdfFilledSvg} />
-);
+const IconFilePdfFilled: FilePdfFilledIconType = (props, context) => <Icon name='FilePdfFilled' {...{ ...props, ...context.attrs }} icon={FilePdfFilledSvg} />;
 
 IconFilePdfFilled.displayName = 'IconFilePdfFilled';
+IconFilePdfFilled.theme = 'filled';
+IconFilePdfFilled.originName = 'file-pdf';
 
 export default IconFilePdfFilled;

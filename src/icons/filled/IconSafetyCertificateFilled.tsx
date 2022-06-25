@@ -14,5 +14,7 @@ const IconSafetyCertificateFilled: SafetyCertificateFilledIconType = (props, con
 );
 
 IconSafetyCertificateFilled.displayName = 'IconSafetyCertificateFilled';
+IconSafetyCertificateFilled.theme = 'filled';
+IconSafetyCertificateFilled.originName = 'safety-certificate';
 
 export default IconSafetyCertificateFilled;

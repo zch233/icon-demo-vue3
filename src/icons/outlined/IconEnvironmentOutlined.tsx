@@ -14,5 +14,7 @@ const IconEnvironmentOutlined: EnvironmentOutlinedIconType = (props, context) =>
 );
 
 IconEnvironmentOutlined.displayName = 'IconEnvironmentOutlined';
+IconEnvironmentOutlined.theme = 'outlined';
+IconEnvironmentOutlined.originName = 'environment';
 
 export default IconEnvironmentOutlined;

@@ -9,10 +9,10 @@ export interface BulbTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconBulbTwoTone: BulbTwoToneIconType = (props, context) => (
-    <Icon name='BulbTwoTone' {...{ ...props, ...context.attrs }} icon={BulbTwoToneSvg} />
-);
+const IconBulbTwoTone: BulbTwoToneIconType = (props, context) => <Icon name='BulbTwoTone' {...{ ...props, ...context.attrs }} icon={BulbTwoToneSvg} />;
 
 IconBulbTwoTone.displayName = 'IconBulbTwoTone';
+IconBulbTwoTone.theme = 'twotone';
+IconBulbTwoTone.originName = 'bulb';
 
 export default IconBulbTwoTone;

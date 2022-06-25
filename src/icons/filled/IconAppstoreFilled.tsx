@@ -14,5 +14,7 @@ const IconAppstoreFilled: AppstoreFilledIconType = (props, context) => (
 );
 
 IconAppstoreFilled.displayName = 'IconAppstoreFilled';
+IconAppstoreFilled.theme = 'filled';
+IconAppstoreFilled.originName = 'appstore';
 
 export default IconAppstoreFilled;

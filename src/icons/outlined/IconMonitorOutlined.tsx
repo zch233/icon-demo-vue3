@@ -14,5 +14,7 @@ const IconMonitorOutlined: MonitorOutlinedIconType = (props, context) => (
 );
 
 IconMonitorOutlined.displayName = 'IconMonitorOutlined';
+IconMonitorOutlined.theme = 'outlined';
+IconMonitorOutlined.originName = 'monitor';
 
 export default IconMonitorOutlined;

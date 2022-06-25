@@ -14,5 +14,7 @@ const IconExclamationCircleFilled: ExclamationCircleFilledIconType = (props, con
 );
 
 IconExclamationCircleFilled.displayName = 'IconExclamationCircleFilled';
+IconExclamationCircleFilled.theme = 'filled';
+IconExclamationCircleFilled.originName = 'exclamation-circle';
 
 export default IconExclamationCircleFilled;

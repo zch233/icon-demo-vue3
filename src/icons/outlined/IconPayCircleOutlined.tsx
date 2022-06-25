@@ -14,5 +14,7 @@ const IconPayCircleOutlined: PayCircleOutlinedIconType = (props, context) => (
 );
 
 IconPayCircleOutlined.displayName = 'IconPayCircleOutlined';
+IconPayCircleOutlined.theme = 'outlined';
+IconPayCircleOutlined.originName = 'pay-circle';
 
 export default IconPayCircleOutlined;

@@ -14,5 +14,7 @@ const IconOrderedListOutlined: OrderedListOutlinedIconType = (props, context) =>
 );
 
 IconOrderedListOutlined.displayName = 'IconOrderedListOutlined';
+IconOrderedListOutlined.theme = 'outlined';
+IconOrderedListOutlined.originName = 'ordered-list';
 
 export default IconOrderedListOutlined;

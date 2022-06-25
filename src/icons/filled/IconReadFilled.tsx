@@ -9,10 +9,10 @@ export interface ReadFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconReadFilled: ReadFilledIconType = (props, context) => (
-    <Icon name='ReadFilled' {...{ ...props, ...context.attrs }} icon={ReadFilledSvg} />
-);
+const IconReadFilled: ReadFilledIconType = (props, context) => <Icon name='ReadFilled' {...{ ...props, ...context.attrs }} icon={ReadFilledSvg} />;
 
 IconReadFilled.displayName = 'IconReadFilled';
+IconReadFilled.theme = 'filled';
+IconReadFilled.originName = 'read';
 
 export default IconReadFilled;

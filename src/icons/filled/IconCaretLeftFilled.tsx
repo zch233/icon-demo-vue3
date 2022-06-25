@@ -14,5 +14,7 @@ const IconCaretLeftFilled: CaretLeftFilledIconType = (props, context) => (
 );
 
 IconCaretLeftFilled.displayName = 'IconCaretLeftFilled';
+IconCaretLeftFilled.theme = 'filled';
+IconCaretLeftFilled.originName = 'caret-left';
 
 export default IconCaretLeftFilled;

@@ -14,5 +14,7 @@ const IconDownCircleFilled: DownCircleFilledIconType = (props, context) => (
 );
 
 IconDownCircleFilled.displayName = 'IconDownCircleFilled';
+IconDownCircleFilled.theme = 'filled';
+IconDownCircleFilled.originName = 'down-circle';
 
 export default IconDownCircleFilled;

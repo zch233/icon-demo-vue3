@@ -9,10 +9,10 @@ export interface TrophyTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconTrophyTwoTone: TrophyTwoToneIconType = (props, context) => (
-    <Icon name='TrophyTwoTone' {...{ ...props, ...context.attrs }} icon={TrophyTwoToneSvg} />
-);
+const IconTrophyTwoTone: TrophyTwoToneIconType = (props, context) => <Icon name='TrophyTwoTone' {...{ ...props, ...context.attrs }} icon={TrophyTwoToneSvg} />;
 
 IconTrophyTwoTone.displayName = 'IconTrophyTwoTone';
+IconTrophyTwoTone.theme = 'twotone';
+IconTrophyTwoTone.originName = 'trophy';
 
 export default IconTrophyTwoTone;

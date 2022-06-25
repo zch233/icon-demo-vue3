@@ -14,5 +14,7 @@ const IconFacebookFilled: FacebookFilledIconType = (props, context) => (
 );
 
 IconFacebookFilled.displayName = 'IconFacebookFilled';
+IconFacebookFilled.theme = 'filled';
+IconFacebookFilled.originName = 'facebook';
 
 export default IconFacebookFilled;

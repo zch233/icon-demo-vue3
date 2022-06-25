@@ -14,5 +14,7 @@ const IconShoppingFilled: ShoppingFilledIconType = (props, context) => (
 );
 
 IconShoppingFilled.displayName = 'IconShoppingFilled';
+IconShoppingFilled.theme = 'filled';
+IconShoppingFilled.originName = 'shopping';
 
 export default IconShoppingFilled;

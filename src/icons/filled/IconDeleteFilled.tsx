@@ -9,10 +9,10 @@ export interface DeleteFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
 }
 
-const IconDeleteFilled: DeleteFilledIconType = (props, context) => (
-    <Icon name='DeleteFilled' {...{ ...props, ...context.attrs }} icon={DeleteFilledSvg} />
-);
+const IconDeleteFilled: DeleteFilledIconType = (props, context) => <Icon name='DeleteFilled' {...{ ...props, ...context.attrs }} icon={DeleteFilledSvg} />;
 
 IconDeleteFilled.displayName = 'IconDeleteFilled';
+IconDeleteFilled.theme = 'filled';
+IconDeleteFilled.originName = 'delete';
 
 export default IconDeleteFilled;
