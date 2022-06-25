@@ -29,6 +29,8 @@ import ${svgIdentifier}Svg from 'icon-base/es/asn/${svgIdentifier}';
 
 export interface ${svgIdentifier}IconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const ${fileName}: ${svgIdentifier}IconType = (props, context) => (
