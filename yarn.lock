@@ -8258,10 +8258,10 @@ husky@7.0.0:
   resolved "https://registry.npmjs.org/husky/-/husky-7.0.0.tgz#3dbd5d28e76234689ee29bb41e048f28e3e46616"
   integrity sha512-xK7lO0EtSzfFPiw+oQncQVy/XqV7UVVjxBByc+Iv5iK3yhW9boDoWgvZy3OGo48QKg/hUtZkzz0hi2HXa0kn7w==
 
-icon-base@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.npmjs.org/icon-base/-/icon-base-0.0.6.tgz#40ed411339f169d002dd44c53d2f178e4eded759"
-  integrity sha512-fA4TXDbv+kr9fQaRKj4nSBi3zC9C4jox8jA4l0IO+2vXzxL9xvyVh384bgHMDYQJa6Gf4vFOfKvaEvu0rLy4wQ==
+icon-base@^0.0.7:
+  version "0.0.7"
+  resolved "https://registry.npmjs.org/icon-base/-/icon-base-0.0.7.tgz#87e32ab2f8a44421eb46184c4bee7b8dbe3ce828"
+  integrity sha512-pVjLeA8dPmKa5EKIPoYtjof2EpbnRmR620OfD/c0kUKBfx6J40azu5+PbLyc7U/lP0rP3KXP511EPU75Bd3fMw==
 
 iconv-lite@0.4.24, iconv-lite@^0.4.24, iconv-lite@^0.4.4:
   version "0.4.24"
