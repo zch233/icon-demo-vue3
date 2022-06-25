@@ -7,6 +7,8 @@ import InsertRowAboveOutlinedSvg from 'icon-base/es/asn/InsertRowAboveOutlined';
 
 export interface InsertRowAboveOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInsertRowAboveOutlined: InsertRowAboveOutlinedIconType = (props, context) => (

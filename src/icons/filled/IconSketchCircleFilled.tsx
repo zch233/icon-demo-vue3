@@ -7,6 +7,8 @@ import SketchCircleFilledSvg from 'icon-base/es/asn/SketchCircleFilled';
 
 export interface SketchCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSketchCircleFilled: SketchCircleFilledIconType = (props, context) => (

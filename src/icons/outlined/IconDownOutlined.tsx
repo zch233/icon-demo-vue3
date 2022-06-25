@@ -7,6 +7,8 @@ import DownOutlinedSvg from 'icon-base/es/asn/DownOutlined';
 
 export interface DownOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDownOutlined: DownOutlinedIconType = (props, context) => <Icon name='DownOutlined' {...{ ...props, ...context.attrs }} icon={DownOutlinedSvg} />;

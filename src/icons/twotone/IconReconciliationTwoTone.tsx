@@ -7,6 +7,8 @@ import ReconciliationTwoToneSvg from 'icon-base/es/asn/ReconciliationTwoTone';
 
 export interface ReconciliationTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconReconciliationTwoTone: ReconciliationTwoToneIconType = (props, context) => (

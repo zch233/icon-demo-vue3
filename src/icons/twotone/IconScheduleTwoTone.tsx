@@ -7,6 +7,8 @@ import ScheduleTwoToneSvg from 'icon-base/es/asn/ScheduleTwoTone';
 
 export interface ScheduleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconScheduleTwoTone: ScheduleTwoToneIconType = (props, context) => (

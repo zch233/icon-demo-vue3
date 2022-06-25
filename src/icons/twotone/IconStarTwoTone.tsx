@@ -7,6 +7,8 @@ import StarTwoToneSvg from 'icon-base/es/asn/StarTwoTone';
 
 export interface StarTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconStarTwoTone: StarTwoToneIconType = (props, context) => <Icon name='StarTwoTone' {...{ ...props, ...context.attrs }} icon={StarTwoToneSvg} />;

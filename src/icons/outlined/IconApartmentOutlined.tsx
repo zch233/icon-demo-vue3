@@ -7,6 +7,8 @@ import ApartmentOutlinedSvg from 'icon-base/es/asn/ApartmentOutlined';
 
 export interface ApartmentOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconApartmentOutlined: ApartmentOutlinedIconType = (props, context) => (

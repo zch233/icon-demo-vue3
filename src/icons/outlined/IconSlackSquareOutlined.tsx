@@ -7,6 +7,8 @@ import SlackSquareOutlinedSvg from 'icon-base/es/asn/SlackSquareOutlined';
 
 export interface SlackSquareOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSlackSquareOutlined: SlackSquareOutlinedIconType = (props, context) => (

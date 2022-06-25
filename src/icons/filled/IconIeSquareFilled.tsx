@@ -7,6 +7,8 @@ import IeSquareFilledSvg from 'icon-base/es/asn/IeSquareFilled';
 
 export interface IeSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconIeSquareFilled: IeSquareFilledIconType = (props, context) => (

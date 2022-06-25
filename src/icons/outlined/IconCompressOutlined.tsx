@@ -7,6 +7,8 @@ import CompressOutlinedSvg from 'icon-base/es/asn/CompressOutlined';
 
 export interface CompressOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCompressOutlined: CompressOutlinedIconType = (props, context) => (

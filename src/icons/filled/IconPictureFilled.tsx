@@ -7,6 +7,8 @@ import PictureFilledSvg from 'icon-base/es/asn/PictureFilled';
 
 export interface PictureFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPictureFilled: PictureFilledIconType = (props, context) => <Icon name='PictureFilled' {...{ ...props, ...context.attrs }} icon={PictureFilledSvg} />;

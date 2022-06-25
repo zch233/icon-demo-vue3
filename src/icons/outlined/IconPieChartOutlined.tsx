@@ -7,6 +7,8 @@ import PieChartOutlinedSvg from 'icon-base/es/asn/PieChartOutlined';
 
 export interface PieChartOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPieChartOutlined: PieChartOutlinedIconType = (props, context) => (

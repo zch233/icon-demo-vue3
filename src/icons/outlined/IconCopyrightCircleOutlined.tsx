@@ -7,6 +7,8 @@ import CopyrightCircleOutlinedSvg from 'icon-base/es/asn/CopyrightCircleOutlined
 
 export interface CopyrightCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCopyrightCircleOutlined: CopyrightCircleOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import RobotOutlinedSvg from 'icon-base/es/asn/RobotOutlined';
 
 export interface RobotOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRobotOutlined: RobotOutlinedIconType = (props, context) => <Icon name='RobotOutlined' {...{ ...props, ...context.attrs }} icon={RobotOutlinedSvg} />;

@@ -7,6 +7,8 @@ import SketchOutlinedSvg from 'icon-base/es/asn/SketchOutlined';
 
 export interface SketchOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSketchOutlined: SketchOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import LinkedinFilledSvg from 'icon-base/es/asn/LinkedinFilled';
 
 export interface LinkedinFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLinkedinFilled: LinkedinFilledIconType = (props, context) => (

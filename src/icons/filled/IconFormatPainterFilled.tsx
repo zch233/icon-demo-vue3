@@ -7,6 +7,8 @@ import FormatPainterFilledSvg from 'icon-base/es/asn/FormatPainterFilled';
 
 export interface FormatPainterFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFormatPainterFilled: FormatPainterFilledIconType = (props, context) => (

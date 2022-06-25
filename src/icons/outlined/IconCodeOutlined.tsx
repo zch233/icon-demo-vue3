@@ -7,6 +7,8 @@ import CodeOutlinedSvg from 'icon-base/es/asn/CodeOutlined';
 
 export interface CodeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCodeOutlined: CodeOutlinedIconType = (props, context) => <Icon name='CodeOutlined' {...{ ...props, ...context.attrs }} icon={CodeOutlinedSvg} />;

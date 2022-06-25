@@ -7,6 +7,8 @@ import RightCircleFilledSvg from 'icon-base/es/asn/RightCircleFilled';
 
 export interface RightCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRightCircleFilled: RightCircleFilledIconType = (props, context) => (

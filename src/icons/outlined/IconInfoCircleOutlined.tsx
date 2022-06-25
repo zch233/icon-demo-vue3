@@ -7,6 +7,8 @@ import InfoCircleOutlinedSvg from 'icon-base/es/asn/InfoCircleOutlined';
 
 export interface InfoCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInfoCircleOutlined: InfoCircleOutlinedIconType = (props, context) => (

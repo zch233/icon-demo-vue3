@@ -7,6 +7,8 @@ import ToolTwoToneSvg from 'icon-base/es/asn/ToolTwoTone';
 
 export interface ToolTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconToolTwoTone: ToolTwoToneIconType = (props, context) => <Icon name='ToolTwoTone' {...{ ...props, ...context.attrs }} icon={ToolTwoToneSvg} />;

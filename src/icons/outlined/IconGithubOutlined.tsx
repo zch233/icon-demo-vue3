@@ -7,6 +7,8 @@ import GithubOutlinedSvg from 'icon-base/es/asn/GithubOutlined';
 
 export interface GithubOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGithubOutlined: GithubOutlinedIconType = (props, context) => (

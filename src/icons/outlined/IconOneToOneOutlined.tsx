@@ -7,6 +7,8 @@ import OneToOneOutlinedSvg from 'icon-base/es/asn/OneToOneOutlined';
 
 export interface OneToOneOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconOneToOneOutlined: OneToOneOutlinedIconType = (props, context) => (

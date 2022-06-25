@@ -7,6 +7,8 @@ import QuestionCircleOutlinedSvg from 'icon-base/es/asn/QuestionCircleOutlined';
 
 export interface QuestionCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconQuestionCircleOutlined: QuestionCircleOutlinedIconType = (props, context) => (

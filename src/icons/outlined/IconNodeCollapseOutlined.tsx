@@ -7,6 +7,8 @@ import NodeCollapseOutlinedSvg from 'icon-base/es/asn/NodeCollapseOutlined';
 
 export interface NodeCollapseOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconNodeCollapseOutlined: NodeCollapseOutlinedIconType = (props, context) => (

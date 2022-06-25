@@ -7,6 +7,8 @@ import StrikethroughOutlinedSvg from 'icon-base/es/asn/StrikethroughOutlined';
 
 export interface StrikethroughOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconStrikethroughOutlined: StrikethroughOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import DropboxSquareFilledSvg from 'icon-base/es/asn/DropboxSquareFilled';
 
 export interface DropboxSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDropboxSquareFilled: DropboxSquareFilledIconType = (props, context) => (

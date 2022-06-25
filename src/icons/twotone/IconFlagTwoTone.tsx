@@ -7,6 +7,8 @@ import FlagTwoToneSvg from 'icon-base/es/asn/FlagTwoTone';
 
 export interface FlagTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFlagTwoTone: FlagTwoToneIconType = (props, context) => <Icon name='FlagTwoTone' {...{ ...props, ...context.attrs }} icon={FlagTwoToneSvg} />;

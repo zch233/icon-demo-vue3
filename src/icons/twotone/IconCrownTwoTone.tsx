@@ -7,6 +7,8 @@ import CrownTwoToneSvg from 'icon-base/es/asn/CrownTwoTone';
 
 export interface CrownTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCrownTwoTone: CrownTwoToneIconType = (props, context) => <Icon name='CrownTwoTone' {...{ ...props, ...context.attrs }} icon={CrownTwoToneSvg} />;

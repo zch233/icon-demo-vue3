@@ -7,6 +7,8 @@ import BlockOutlinedSvg from 'icon-base/es/asn/BlockOutlined';
 
 export interface BlockOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBlockOutlined: BlockOutlinedIconType = (props, context) => <Icon name='BlockOutlined' {...{ ...props, ...context.attrs }} icon={BlockOutlinedSvg} />;

@@ -7,6 +7,8 @@ import ProjectFilledSvg from 'icon-base/es/asn/ProjectFilled';
 
 export interface ProjectFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconProjectFilled: ProjectFilledIconType = (props, context) => <Icon name='ProjectFilled' {...{ ...props, ...context.attrs }} icon={ProjectFilledSvg} />;

@@ -7,6 +7,8 @@ import DashOutlinedSvg from 'icon-base/es/asn/DashOutlined';
 
 export interface DashOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDashOutlined: DashOutlinedIconType = (props, context) => <Icon name='DashOutlined' {...{ ...props, ...context.attrs }} icon={DashOutlinedSvg} />;

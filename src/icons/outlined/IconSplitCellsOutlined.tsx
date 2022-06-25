@@ -7,6 +7,8 @@ import SplitCellsOutlinedSvg from 'icon-base/es/asn/SplitCellsOutlined';
 
 export interface SplitCellsOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSplitCellsOutlined: SplitCellsOutlinedIconType = (props, context) => (

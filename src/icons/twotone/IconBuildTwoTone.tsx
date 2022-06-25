@@ -7,6 +7,8 @@ import BuildTwoToneSvg from 'icon-base/es/asn/BuildTwoTone';
 
 export interface BuildTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBuildTwoTone: BuildTwoToneIconType = (props, context) => <Icon name='BuildTwoTone' {...{ ...props, ...context.attrs }} icon={BuildTwoToneSvg} />;

@@ -7,6 +7,8 @@ import WarningOutlinedSvg from 'icon-base/es/asn/WarningOutlined';
 
 export interface WarningOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWarningOutlined: WarningOutlinedIconType = (props, context) => (

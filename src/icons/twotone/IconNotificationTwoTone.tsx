@@ -7,6 +7,8 @@ import NotificationTwoToneSvg from 'icon-base/es/asn/NotificationTwoTone';
 
 export interface NotificationTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconNotificationTwoTone: NotificationTwoToneIconType = (props, context) => (

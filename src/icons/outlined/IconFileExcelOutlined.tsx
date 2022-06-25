@@ -7,6 +7,8 @@ import FileExcelOutlinedSvg from 'icon-base/es/asn/FileExcelOutlined';
 
 export interface FileExcelOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileExcelOutlined: FileExcelOutlinedIconType = (props, context) => (

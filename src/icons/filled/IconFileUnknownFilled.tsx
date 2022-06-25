@@ -7,6 +7,8 @@ import FileUnknownFilledSvg from 'icon-base/es/asn/FileUnknownFilled';
 
 export interface FileUnknownFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileUnknownFilled: FileUnknownFilledIconType = (props, context) => (

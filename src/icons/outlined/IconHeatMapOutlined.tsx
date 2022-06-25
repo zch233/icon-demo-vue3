@@ -7,6 +7,8 @@ import HeatMapOutlinedSvg from 'icon-base/es/asn/HeatMapOutlined';
 
 export interface HeatMapOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconHeatMapOutlined: HeatMapOutlinedIconType = (props, context) => (

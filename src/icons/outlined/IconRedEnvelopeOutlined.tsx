@@ -7,6 +7,8 @@ import RedEnvelopeOutlinedSvg from 'icon-base/es/asn/RedEnvelopeOutlined';
 
 export interface RedEnvelopeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRedEnvelopeOutlined: RedEnvelopeOutlinedIconType = (props, context) => (

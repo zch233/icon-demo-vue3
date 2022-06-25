@@ -7,6 +7,8 @@ import EyeInvisibleTwoToneSvg from 'icon-base/es/asn/EyeInvisibleTwoTone';
 
 export interface EyeInvisibleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEyeInvisibleTwoTone: EyeInvisibleTwoToneIconType = (props, context) => (

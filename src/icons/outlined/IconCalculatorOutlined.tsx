@@ -7,6 +7,8 @@ import CalculatorOutlinedSvg from 'icon-base/es/asn/CalculatorOutlined';
 
 export interface CalculatorOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCalculatorOutlined: CalculatorOutlinedIconType = (props, context) => (

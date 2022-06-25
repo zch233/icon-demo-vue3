@@ -7,6 +7,8 @@ import AccountBookOutlinedSvg from 'icon-base/es/asn/AccountBookOutlined';
 
 export interface AccountBookOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAccountBookOutlined: AccountBookOutlinedIconType = (props, context) => (

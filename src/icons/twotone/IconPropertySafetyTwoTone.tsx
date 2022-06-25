@@ -7,6 +7,8 @@ import PropertySafetyTwoToneSvg from 'icon-base/es/asn/PropertySafetyTwoTone';
 
 export interface PropertySafetyTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPropertySafetyTwoTone: PropertySafetyTwoToneIconType = (props, context) => (

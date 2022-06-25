@@ -7,6 +7,8 @@ import CompassOutlinedSvg from 'icon-base/es/asn/CompassOutlined';
 
 export interface CompassOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCompassOutlined: CompassOutlinedIconType = (props, context) => (

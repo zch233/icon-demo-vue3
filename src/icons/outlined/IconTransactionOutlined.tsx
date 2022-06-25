@@ -7,6 +7,8 @@ import TransactionOutlinedSvg from 'icon-base/es/asn/TransactionOutlined';
 
 export interface TransactionOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTransactionOutlined: TransactionOutlinedIconType = (props, context) => (

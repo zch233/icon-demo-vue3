@@ -7,6 +7,8 @@ import AudioTwoToneSvg from 'icon-base/es/asn/AudioTwoTone';
 
 export interface AudioTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAudioTwoTone: AudioTwoToneIconType = (props, context) => <Icon name='AudioTwoTone' {...{ ...props, ...context.attrs }} icon={AudioTwoToneSvg} />;

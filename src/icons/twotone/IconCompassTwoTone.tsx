@@ -7,6 +7,8 @@ import CompassTwoToneSvg from 'icon-base/es/asn/CompassTwoTone';
 
 export interface CompassTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCompassTwoTone: CompassTwoToneIconType = (props, context) => (

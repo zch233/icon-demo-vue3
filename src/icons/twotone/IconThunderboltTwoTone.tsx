@@ -7,6 +7,8 @@ import ThunderboltTwoToneSvg from 'icon-base/es/asn/ThunderboltTwoTone';
 
 export interface ThunderboltTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconThunderboltTwoTone: ThunderboltTwoToneIconType = (props, context) => (

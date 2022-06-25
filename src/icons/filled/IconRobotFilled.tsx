@@ -7,6 +7,8 @@ import RobotFilledSvg from 'icon-base/es/asn/RobotFilled';
 
 export interface RobotFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRobotFilled: RobotFilledIconType = (props, context) => <Icon name='RobotFilled' {...{ ...props, ...context.attrs }} icon={RobotFilledSvg} />;

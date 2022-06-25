@@ -7,6 +7,8 @@ import VerticalAlignMiddleOutlinedSvg from 'icon-base/es/asn/VerticalAlignMiddle
 
 export interface VerticalAlignMiddleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconVerticalAlignMiddleOutlined: VerticalAlignMiddleOutlinedIconType = (props, context) => (

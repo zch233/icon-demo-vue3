@@ -7,6 +7,8 @@ import ZhihuSquareFilledSvg from 'icon-base/es/asn/ZhihuSquareFilled';
 
 export interface ZhihuSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconZhihuSquareFilled: ZhihuSquareFilledIconType = (props, context) => (

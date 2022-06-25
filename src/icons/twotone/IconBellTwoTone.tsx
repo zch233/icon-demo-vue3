@@ -7,6 +7,8 @@ import BellTwoToneSvg from 'icon-base/es/asn/BellTwoTone';
 
 export interface BellTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBellTwoTone: BellTwoToneIconType = (props, context) => <Icon name='BellTwoTone' {...{ ...props, ...context.attrs }} icon={BellTwoToneSvg} />;

@@ -7,6 +7,8 @@ import WindowsFilledSvg from 'icon-base/es/asn/WindowsFilled';
 
 export interface WindowsFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWindowsFilled: WindowsFilledIconType = (props, context) => <Icon name='WindowsFilled' {...{ ...props, ...context.attrs }} icon={WindowsFilledSvg} />;

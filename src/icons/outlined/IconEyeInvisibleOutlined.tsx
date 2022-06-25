@@ -7,6 +7,8 @@ import EyeInvisibleOutlinedSvg from 'icon-base/es/asn/EyeInvisibleOutlined';
 
 export interface EyeInvisibleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEyeInvisibleOutlined: EyeInvisibleOutlinedIconType = (props, context) => (

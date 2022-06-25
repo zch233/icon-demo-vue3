@@ -7,6 +7,8 @@ import WhatsAppOutlinedSvg from 'icon-base/es/asn/WhatsAppOutlined';
 
 export interface WhatsAppOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWhatsAppOutlined: WhatsAppOutlinedIconType = (props, context) => (

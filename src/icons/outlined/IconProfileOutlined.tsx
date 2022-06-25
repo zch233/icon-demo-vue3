@@ -7,6 +7,8 @@ import ProfileOutlinedSvg from 'icon-base/es/asn/ProfileOutlined';
 
 export interface ProfileOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconProfileOutlined: ProfileOutlinedIconType = (props, context) => (

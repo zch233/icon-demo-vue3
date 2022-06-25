@@ -7,6 +7,8 @@ import CodepenOutlinedSvg from 'icon-base/es/asn/CodepenOutlined';
 
 export interface CodepenOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCodepenOutlined: CodepenOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import DatabaseOutlinedSvg from 'icon-base/es/asn/DatabaseOutlined';
 
 export interface DatabaseOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDatabaseOutlined: DatabaseOutlinedIconType = (props, context) => (

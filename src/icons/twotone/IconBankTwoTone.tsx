@@ -7,6 +7,8 @@ import BankTwoToneSvg from 'icon-base/es/asn/BankTwoTone';
 
 export interface BankTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBankTwoTone: BankTwoToneIconType = (props, context) => <Icon name='BankTwoTone' {...{ ...props, ...context.attrs }} icon={BankTwoToneSvg} />;

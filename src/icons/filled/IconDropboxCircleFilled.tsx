@@ -7,6 +7,8 @@ import DropboxCircleFilledSvg from 'icon-base/es/asn/DropboxCircleFilled';
 
 export interface DropboxCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDropboxCircleFilled: DropboxCircleFilledIconType = (props, context) => (

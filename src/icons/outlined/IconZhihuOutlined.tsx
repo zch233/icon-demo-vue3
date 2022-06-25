@@ -7,6 +7,8 @@ import ZhihuOutlinedSvg from 'icon-base/es/asn/ZhihuOutlined';
 
 export interface ZhihuOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconZhihuOutlined: ZhihuOutlinedIconType = (props, context) => <Icon name='ZhihuOutlined' {...{ ...props, ...context.attrs }} icon={ZhihuOutlinedSvg} />;

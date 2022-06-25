@@ -7,6 +7,8 @@ import EditFilledSvg from 'icon-base/es/asn/EditFilled';
 
 export interface EditFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEditFilled: EditFilledIconType = (props, context) => <Icon name='EditFilled' {...{ ...props, ...context.attrs }} icon={EditFilledSvg} />;

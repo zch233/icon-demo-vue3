@@ -7,6 +7,8 @@ import TrophyFilledSvg from 'icon-base/es/asn/TrophyFilled';
 
 export interface TrophyFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTrophyFilled: TrophyFilledIconType = (props, context) => <Icon name='TrophyFilled' {...{ ...props, ...context.attrs }} icon={TrophyFilledSvg} />;

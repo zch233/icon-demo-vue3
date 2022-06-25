@@ -7,6 +7,8 @@ import CodeSandboxOutlinedSvg from 'icon-base/es/asn/CodeSandboxOutlined';
 
 export interface CodeSandboxOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCodeSandboxOutlined: CodeSandboxOutlinedIconType = (props, context) => (

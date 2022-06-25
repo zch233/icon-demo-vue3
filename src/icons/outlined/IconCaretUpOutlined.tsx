@@ -7,6 +7,8 @@ import CaretUpOutlinedSvg from 'icon-base/es/asn/CaretUpOutlined';
 
 export interface CaretUpOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCaretUpOutlined: CaretUpOutlinedIconType = (props, context) => (

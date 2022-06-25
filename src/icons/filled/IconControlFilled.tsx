@@ -7,6 +7,8 @@ import ControlFilledSvg from 'icon-base/es/asn/ControlFilled';
 
 export interface ControlFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconControlFilled: ControlFilledIconType = (props, context) => <Icon name='ControlFilled' {...{ ...props, ...context.attrs }} icon={ControlFilledSvg} />;

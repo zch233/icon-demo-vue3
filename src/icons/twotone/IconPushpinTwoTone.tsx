@@ -7,6 +7,8 @@ import PushpinTwoToneSvg from 'icon-base/es/asn/PushpinTwoTone';
 
 export interface PushpinTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPushpinTwoTone: PushpinTwoToneIconType = (props, context) => (

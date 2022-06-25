@@ -7,6 +7,8 @@ import CalendarTwoToneSvg from 'icon-base/es/asn/CalendarTwoTone';
 
 export interface CalendarTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCalendarTwoTone: CalendarTwoToneIconType = (props, context) => (

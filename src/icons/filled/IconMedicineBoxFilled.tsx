@@ -7,6 +7,8 @@ import MedicineBoxFilledSvg from 'icon-base/es/asn/MedicineBoxFilled';
 
 export interface MedicineBoxFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMedicineBoxFilled: MedicineBoxFilledIconType = (props, context) => (

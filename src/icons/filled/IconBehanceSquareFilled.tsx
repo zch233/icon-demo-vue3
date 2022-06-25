@@ -7,6 +7,8 @@ import BehanceSquareFilledSvg from 'icon-base/es/asn/BehanceSquareFilled';
 
 export interface BehanceSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBehanceSquareFilled: BehanceSquareFilledIconType = (props, context) => (

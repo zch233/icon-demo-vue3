@@ -7,6 +7,8 @@ import MehOutlinedSvg from 'icon-base/es/asn/MehOutlined';
 
 export interface MehOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMehOutlined: MehOutlinedIconType = (props, context) => <Icon name='MehOutlined' {...{ ...props, ...context.attrs }} icon={MehOutlinedSvg} />;

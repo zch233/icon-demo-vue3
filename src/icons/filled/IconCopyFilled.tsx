@@ -7,6 +7,8 @@ import CopyFilledSvg from 'icon-base/es/asn/CopyFilled';
 
 export interface CopyFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCopyFilled: CopyFilledIconType = (props, context) => <Icon name='CopyFilled' {...{ ...props, ...context.attrs }} icon={CopyFilledSvg} />;

@@ -7,6 +7,8 @@ import CheckOutlinedSvg from 'icon-base/es/asn/CheckOutlined';
 
 export interface CheckOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCheckOutlined: CheckOutlinedIconType = (props, context) => <Icon name='CheckOutlined' {...{ ...props, ...context.attrs }} icon={CheckOutlinedSvg} />;

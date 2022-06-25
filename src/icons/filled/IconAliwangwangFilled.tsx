@@ -7,6 +7,8 @@ import AliwangwangFilledSvg from 'icon-base/es/asn/AliwangwangFilled';
 
 export interface AliwangwangFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAliwangwangFilled: AliwangwangFilledIconType = (props, context) => (

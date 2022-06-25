@@ -7,6 +7,8 @@ import SwitcherTwoToneSvg from 'icon-base/es/asn/SwitcherTwoTone';
 
 export interface SwitcherTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSwitcherTwoTone: SwitcherTwoToneIconType = (props, context) => (

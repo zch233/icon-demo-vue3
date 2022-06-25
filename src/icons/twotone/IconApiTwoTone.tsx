@@ -7,6 +7,8 @@ import ApiTwoToneSvg from 'icon-base/es/asn/ApiTwoTone';
 
 export interface ApiTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconApiTwoTone: ApiTwoToneIconType = (props, context) => <Icon name='ApiTwoTone' {...{ ...props, ...context.attrs }} icon={ApiTwoToneSvg} />;

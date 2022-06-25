@@ -7,6 +7,8 @@ import VerticalRightOutlinedSvg from 'icon-base/es/asn/VerticalRightOutlined';
 
 export interface VerticalRightOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconVerticalRightOutlined: VerticalRightOutlinedIconType = (props, context) => (

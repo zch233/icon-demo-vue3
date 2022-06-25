@@ -7,6 +7,8 @@ import ArrowDownOutlinedSvg from 'icon-base/es/asn/ArrowDownOutlined';
 
 export interface ArrowDownOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconArrowDownOutlined: ArrowDownOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import BugTwoToneSvg from 'icon-base/es/asn/BugTwoTone';
 
 export interface BugTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBugTwoTone: BugTwoToneIconType = (props, context) => <Icon name='BugTwoTone' {...{ ...props, ...context.attrs }} icon={BugTwoToneSvg} />;

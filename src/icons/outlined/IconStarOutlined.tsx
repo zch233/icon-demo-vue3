@@ -7,6 +7,8 @@ import StarOutlinedSvg from 'icon-base/es/asn/StarOutlined';
 
 export interface StarOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconStarOutlined: StarOutlinedIconType = (props, context) => <Icon name='StarOutlined' {...{ ...props, ...context.attrs }} icon={StarOutlinedSvg} />;

@@ -7,6 +7,8 @@ import FacebookFilledSvg from 'icon-base/es/asn/FacebookFilled';
 
 export interface FacebookFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFacebookFilled: FacebookFilledIconType = (props, context) => (

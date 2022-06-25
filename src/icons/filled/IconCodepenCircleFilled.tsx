@@ -7,6 +7,8 @@ import CodepenCircleFilledSvg from 'icon-base/es/asn/CodepenCircleFilled';
 
 export interface CodepenCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCodepenCircleFilled: CodepenCircleFilledIconType = (props, context) => (

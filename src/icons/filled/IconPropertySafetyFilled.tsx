@@ -7,6 +7,8 @@ import PropertySafetyFilledSvg from 'icon-base/es/asn/PropertySafetyFilled';
 
 export interface PropertySafetyFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPropertySafetyFilled: PropertySafetyFilledIconType = (props, context) => (

@@ -7,6 +7,8 @@ import CloudServerOutlinedSvg from 'icon-base/es/asn/CloudServerOutlined';
 
 export interface CloudServerOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCloudServerOutlined: CloudServerOutlinedIconType = (props, context) => (

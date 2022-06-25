@@ -7,6 +7,8 @@ import BankFilledSvg from 'icon-base/es/asn/BankFilled';
 
 export interface BankFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBankFilled: BankFilledIconType = (props, context) => <Icon name='BankFilled' {...{ ...props, ...context.attrs }} icon={BankFilledSvg} />;

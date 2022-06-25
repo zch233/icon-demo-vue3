@@ -7,6 +7,8 @@ import CheckSquareFilledSvg from 'icon-base/es/asn/CheckSquareFilled';
 
 export interface CheckSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCheckSquareFilled: CheckSquareFilledIconType = (props, context) => (

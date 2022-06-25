@@ -7,6 +7,8 @@ import GithubFilledSvg from 'icon-base/es/asn/GithubFilled';
 
 export interface GithubFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGithubFilled: GithubFilledIconType = (props, context) => <Icon name='GithubFilled' {...{ ...props, ...context.attrs }} icon={GithubFilledSvg} />;

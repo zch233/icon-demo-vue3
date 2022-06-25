@@ -7,6 +7,8 @@ import ShoppingTwoToneSvg from 'icon-base/es/asn/ShoppingTwoTone';
 
 export interface ShoppingTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconShoppingTwoTone: ShoppingTwoToneIconType = (props, context) => (

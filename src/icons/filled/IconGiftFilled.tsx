@@ -7,6 +7,8 @@ import GiftFilledSvg from 'icon-base/es/asn/GiftFilled';
 
 export interface GiftFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGiftFilled: GiftFilledIconType = (props, context) => <Icon name='GiftFilled' {...{ ...props, ...context.attrs }} icon={GiftFilledSvg} />;

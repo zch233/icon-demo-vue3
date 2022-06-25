@@ -7,6 +7,8 @@ import PlusCircleTwoToneSvg from 'icon-base/es/asn/PlusCircleTwoTone';
 
 export interface PlusCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPlusCircleTwoTone: PlusCircleTwoToneIconType = (props, context) => (

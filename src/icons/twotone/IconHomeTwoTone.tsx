@@ -7,6 +7,8 @@ import HomeTwoToneSvg from 'icon-base/es/asn/HomeTwoTone';
 
 export interface HomeTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconHomeTwoTone: HomeTwoToneIconType = (props, context) => <Icon name='HomeTwoTone' {...{ ...props, ...context.attrs }} icon={HomeTwoToneSvg} />;

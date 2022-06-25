@@ -7,6 +7,8 @@ import ContainerTwoToneSvg from 'icon-base/es/asn/ContainerTwoTone';
 
 export interface ContainerTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconContainerTwoTone: ContainerTwoToneIconType = (props, context) => (

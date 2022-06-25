@@ -7,6 +7,8 @@ import SnippetsOutlinedSvg from 'icon-base/es/asn/SnippetsOutlined';
 
 export interface SnippetsOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSnippetsOutlined: SnippetsOutlinedIconType = (props, context) => (

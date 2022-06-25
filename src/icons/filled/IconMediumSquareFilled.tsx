@@ -7,6 +7,8 @@ import MediumSquareFilledSvg from 'icon-base/es/asn/MediumSquareFilled';
 
 export interface MediumSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMediumSquareFilled: MediumSquareFilledIconType = (props, context) => (

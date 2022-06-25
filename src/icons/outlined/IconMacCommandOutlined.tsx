@@ -7,6 +7,8 @@ import MacCommandOutlinedSvg from 'icon-base/es/asn/MacCommandOutlined';
 
 export interface MacCommandOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMacCommandOutlined: MacCommandOutlinedIconType = (props, context) => (

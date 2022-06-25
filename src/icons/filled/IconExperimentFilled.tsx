@@ -7,6 +7,8 @@ import ExperimentFilledSvg from 'icon-base/es/asn/ExperimentFilled';
 
 export interface ExperimentFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconExperimentFilled: ExperimentFilledIconType = (props, context) => (

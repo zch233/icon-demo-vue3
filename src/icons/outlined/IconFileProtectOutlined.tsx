@@ -7,6 +7,8 @@ import FileProtectOutlinedSvg from 'icon-base/es/asn/FileProtectOutlined';
 
 export interface FileProtectOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileProtectOutlined: FileProtectOutlinedIconType = (props, context) => (

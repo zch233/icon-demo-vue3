@@ -7,6 +7,8 @@ import TaobaoCircleOutlinedSvg from 'icon-base/es/asn/TaobaoCircleOutlined';
 
 export interface TaobaoCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTaobaoCircleOutlined: TaobaoCircleOutlinedIconType = (props, context) => (

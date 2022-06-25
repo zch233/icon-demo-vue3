@@ -7,6 +7,8 @@ import TrophyOutlinedSvg from 'icon-base/es/asn/TrophyOutlined';
 
 export interface TrophyOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTrophyOutlined: TrophyOutlinedIconType = (props, context) => (

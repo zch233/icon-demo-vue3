@@ -7,6 +7,8 @@ import MedicineBoxOutlinedSvg from 'icon-base/es/asn/MedicineBoxOutlined';
 
 export interface MedicineBoxOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMedicineBoxOutlined: MedicineBoxOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import MediumCircleFilledSvg from 'icon-base/es/asn/MediumCircleFilled';
 
 export interface MediumCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMediumCircleFilled: MediumCircleFilledIconType = (props, context) => (

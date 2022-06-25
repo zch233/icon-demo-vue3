@@ -7,6 +7,8 @@ import UserDeleteOutlinedSvg from 'icon-base/es/asn/UserDeleteOutlined';
 
 export interface UserDeleteOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUserDeleteOutlined: UserDeleteOutlinedIconType = (props, context) => (

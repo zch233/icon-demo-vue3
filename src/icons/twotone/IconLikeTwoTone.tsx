@@ -7,6 +7,8 @@ import LikeTwoToneSvg from 'icon-base/es/asn/LikeTwoTone';
 
 export interface LikeTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLikeTwoTone: LikeTwoToneIconType = (props, context) => <Icon name='LikeTwoTone' {...{ ...props, ...context.attrs }} icon={LikeTwoToneSvg} />;

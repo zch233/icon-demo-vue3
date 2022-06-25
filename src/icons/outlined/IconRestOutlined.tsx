@@ -7,6 +7,8 @@ import RestOutlinedSvg from 'icon-base/es/asn/RestOutlined';
 
 export interface RestOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRestOutlined: RestOutlinedIconType = (props, context) => <Icon name='RestOutlined' {...{ ...props, ...context.attrs }} icon={RestOutlinedSvg} />;

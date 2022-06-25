@@ -7,6 +7,8 @@ import PoweroffOutlinedSvg from 'icon-base/es/asn/PoweroffOutlined';
 
 export interface PoweroffOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPoweroffOutlined: PoweroffOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import CloseOutlinedSvg from 'icon-base/es/asn/CloseOutlined';
 
 export interface CloseOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCloseOutlined: CloseOutlinedIconType = (props, context) => <Icon name='CloseOutlined' {...{ ...props, ...context.attrs }} icon={CloseOutlinedSvg} />;

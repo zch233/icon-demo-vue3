@@ -7,6 +7,8 @@ import HighlightFilledSvg from 'icon-base/es/asn/HighlightFilled';
 
 export interface HighlightFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconHighlightFilled: HighlightFilledIconType = (props, context) => (

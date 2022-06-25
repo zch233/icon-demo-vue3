@@ -7,6 +7,8 @@ import PhoneOutlinedSvg from 'icon-base/es/asn/PhoneOutlined';
 
 export interface PhoneOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPhoneOutlined: PhoneOutlinedIconType = (props, context) => <Icon name='PhoneOutlined' {...{ ...props, ...context.attrs }} icon={PhoneOutlinedSvg} />;

@@ -7,6 +7,8 @@ import VideoCameraTwoToneSvg from 'icon-base/es/asn/VideoCameraTwoTone';
 
 export interface VideoCameraTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconVideoCameraTwoTone: VideoCameraTwoToneIconType = (props, context) => (

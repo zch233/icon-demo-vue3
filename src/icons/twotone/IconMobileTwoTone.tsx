@@ -7,6 +7,8 @@ import MobileTwoToneSvg from 'icon-base/es/asn/MobileTwoTone';
 
 export interface MobileTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMobileTwoTone: MobileTwoToneIconType = (props, context) => <Icon name='MobileTwoTone' {...{ ...props, ...context.attrs }} icon={MobileTwoToneSvg} />;

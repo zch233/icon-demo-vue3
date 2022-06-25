@@ -7,6 +7,8 @@ import RightSquareOutlinedSvg from 'icon-base/es/asn/RightSquareOutlined';
 
 export interface RightSquareOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRightSquareOutlined: RightSquareOutlinedIconType = (props, context) => (

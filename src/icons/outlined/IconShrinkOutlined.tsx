@@ -7,6 +7,8 @@ import ShrinkOutlinedSvg from 'icon-base/es/asn/ShrinkOutlined';
 
 export interface ShrinkOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconShrinkOutlined: ShrinkOutlinedIconType = (props, context) => (

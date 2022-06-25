@@ -7,6 +7,8 @@ import ScheduleOutlinedSvg from 'icon-base/es/asn/ScheduleOutlined';
 
 export interface ScheduleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconScheduleOutlined: ScheduleOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import GoldOutlinedSvg from 'icon-base/es/asn/GoldOutlined';
 
 export interface GoldOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGoldOutlined: GoldOutlinedIconType = (props, context) => <Icon name='GoldOutlined' {...{ ...props, ...context.attrs }} icon={GoldOutlinedSvg} />;

@@ -7,6 +7,8 @@ import FullscreenOutlinedSvg from 'icon-base/es/asn/FullscreenOutlined';
 
 export interface FullscreenOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFullscreenOutlined: FullscreenOutlinedIconType = (props, context) => (

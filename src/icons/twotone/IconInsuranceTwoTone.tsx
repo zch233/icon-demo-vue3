@@ -7,6 +7,8 @@ import InsuranceTwoToneSvg from 'icon-base/es/asn/InsuranceTwoTone';
 
 export interface InsuranceTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInsuranceTwoTone: InsuranceTwoToneIconType = (props, context) => (

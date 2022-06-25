@@ -7,6 +7,8 @@ import EyeFilledSvg from 'icon-base/es/asn/EyeFilled';
 
 export interface EyeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEyeFilled: EyeFilledIconType = (props, context) => <Icon name='EyeFilled' {...{ ...props, ...context.attrs }} icon={EyeFilledSvg} />;

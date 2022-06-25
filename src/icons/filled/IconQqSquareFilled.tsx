@@ -7,6 +7,8 @@ import QqSquareFilledSvg from 'icon-base/es/asn/QqSquareFilled';
 
 export interface QqSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconQqSquareFilled: QqSquareFilledIconType = (props, context) => (

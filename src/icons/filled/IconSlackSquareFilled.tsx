@@ -7,6 +7,8 @@ import SlackSquareFilledSvg from 'icon-base/es/asn/SlackSquareFilled';
 
 export interface SlackSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSlackSquareFilled: SlackSquareFilledIconType = (props, context) => (

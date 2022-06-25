@@ -7,6 +7,8 @@ import InfoCircleFilledSvg from 'icon-base/es/asn/InfoCircleFilled';
 
 export interface InfoCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInfoCircleFilled: InfoCircleFilledIconType = (props, context) => (

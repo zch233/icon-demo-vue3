@@ -7,6 +7,8 @@ import LeftCircleOutlinedSvg from 'icon-base/es/asn/LeftCircleOutlined';
 
 export interface LeftCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLeftCircleOutlined: LeftCircleOutlinedIconType = (props, context) => (

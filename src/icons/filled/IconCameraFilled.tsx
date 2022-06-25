@@ -7,6 +7,8 @@ import CameraFilledSvg from 'icon-base/es/asn/CameraFilled';
 
 export interface CameraFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCameraFilled: CameraFilledIconType = (props, context) => <Icon name='CameraFilled' {...{ ...props, ...context.attrs }} icon={CameraFilledSvg} />;

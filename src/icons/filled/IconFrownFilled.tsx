@@ -7,6 +7,8 @@ import FrownFilledSvg from 'icon-base/es/asn/FrownFilled';
 
 export interface FrownFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFrownFilled: FrownFilledIconType = (props, context) => <Icon name='FrownFilled' {...{ ...props, ...context.attrs }} icon={FrownFilledSvg} />;

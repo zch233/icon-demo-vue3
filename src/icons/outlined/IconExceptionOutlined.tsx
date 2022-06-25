@@ -7,6 +7,8 @@ import ExceptionOutlinedSvg from 'icon-base/es/asn/ExceptionOutlined';
 
 export interface ExceptionOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconExceptionOutlined: ExceptionOutlinedIconType = (props, context) => (

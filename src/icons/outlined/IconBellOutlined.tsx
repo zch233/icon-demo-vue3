@@ -7,6 +7,8 @@ import BellOutlinedSvg from 'icon-base/es/asn/BellOutlined';
 
 export interface BellOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBellOutlined: BellOutlinedIconType = (props, context) => <Icon name='BellOutlined' {...{ ...props, ...context.attrs }} icon={BellOutlinedSvg} />;

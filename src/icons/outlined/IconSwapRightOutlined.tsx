@@ -7,6 +7,8 @@ import SwapRightOutlinedSvg from 'icon-base/es/asn/SwapRightOutlined';
 
 export interface SwapRightOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSwapRightOutlined: SwapRightOutlinedIconType = (props, context) => (

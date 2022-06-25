@@ -7,6 +7,8 @@ import BackwardOutlinedSvg from 'icon-base/es/asn/BackwardOutlined';
 
 export interface BackwardOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBackwardOutlined: BackwardOutlinedIconType = (props, context) => (

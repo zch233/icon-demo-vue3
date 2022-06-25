@@ -7,6 +7,8 @@ import BorderLeftOutlinedSvg from 'icon-base/es/asn/BorderLeftOutlined';
 
 export interface BorderLeftOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBorderLeftOutlined: BorderLeftOutlinedIconType = (props, context) => (

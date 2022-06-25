@@ -7,6 +7,8 @@ import DashboardOutlinedSvg from 'icon-base/es/asn/DashboardOutlined';
 
 export interface DashboardOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDashboardOutlined: DashboardOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import DotChartOutlinedSvg from 'icon-base/es/asn/DotChartOutlined';
 
 export interface DotChartOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDotChartOutlined: DotChartOutlinedIconType = (props, context) => (

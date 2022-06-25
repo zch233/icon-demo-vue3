@@ -7,6 +7,8 @@ import SlackOutlinedSvg from 'icon-base/es/asn/SlackOutlined';
 
 export interface SlackOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSlackOutlined: SlackOutlinedIconType = (props, context) => <Icon name='SlackOutlined' {...{ ...props, ...context.attrs }} icon={SlackOutlinedSvg} />;

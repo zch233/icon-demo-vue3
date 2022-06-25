@@ -7,6 +7,8 @@ import UpOutlinedSvg from 'icon-base/es/asn/UpOutlined';
 
 export interface UpOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUpOutlined: UpOutlinedIconType = (props, context) => <Icon name='UpOutlined' {...{ ...props, ...context.attrs }} icon={UpOutlinedSvg} />;

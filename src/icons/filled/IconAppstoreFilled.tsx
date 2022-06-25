@@ -7,6 +7,8 @@ import AppstoreFilledSvg from 'icon-base/es/asn/AppstoreFilled';
 
 export interface AppstoreFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAppstoreFilled: AppstoreFilledIconType = (props, context) => (

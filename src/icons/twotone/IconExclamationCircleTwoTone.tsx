@@ -7,6 +7,8 @@ import ExclamationCircleTwoToneSvg from 'icon-base/es/asn/ExclamationCircleTwoTo
 
 export interface ExclamationCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconExclamationCircleTwoTone: ExclamationCircleTwoToneIconType = (props, context) => (

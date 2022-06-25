@@ -7,6 +7,8 @@ import SmileFilledSvg from 'icon-base/es/asn/SmileFilled';
 
 export interface SmileFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSmileFilled: SmileFilledIconType = (props, context) => <Icon name='SmileFilled' {...{ ...props, ...context.attrs }} icon={SmileFilledSvg} />;

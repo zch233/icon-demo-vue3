@@ -7,6 +7,8 @@ import PullRequestOutlinedSvg from 'icon-base/es/asn/PullRequestOutlined';
 
 export interface PullRequestOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPullRequestOutlined: PullRequestOutlinedIconType = (props, context) => (

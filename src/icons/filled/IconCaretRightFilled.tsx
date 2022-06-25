@@ -7,6 +7,8 @@ import CaretRightFilledSvg from 'icon-base/es/asn/CaretRightFilled';
 
 export interface CaretRightFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCaretRightFilled: CaretRightFilledIconType = (props, context) => (

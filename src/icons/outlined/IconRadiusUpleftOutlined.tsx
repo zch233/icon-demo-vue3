@@ -7,6 +7,8 @@ import RadiusUpleftOutlinedSvg from 'icon-base/es/asn/RadiusUpleftOutlined';
 
 export interface RadiusUpleftOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRadiusUpleftOutlined: RadiusUpleftOutlinedIconType = (props, context) => (

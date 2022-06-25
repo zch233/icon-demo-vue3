@@ -7,6 +7,8 @@ import HourglassTwoToneSvg from 'icon-base/es/asn/HourglassTwoTone';
 
 export interface HourglassTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconHourglassTwoTone: HourglassTwoToneIconType = (props, context) => (

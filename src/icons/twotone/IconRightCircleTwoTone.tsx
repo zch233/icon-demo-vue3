@@ -7,6 +7,8 @@ import RightCircleTwoToneSvg from 'icon-base/es/asn/RightCircleTwoTone';
 
 export interface RightCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRightCircleTwoTone: RightCircleTwoToneIconType = (props, context) => (

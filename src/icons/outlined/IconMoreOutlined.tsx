@@ -7,6 +7,8 @@ import MoreOutlinedSvg from 'icon-base/es/asn/MoreOutlined';
 
 export interface MoreOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMoreOutlined: MoreOutlinedIconType = (props, context) => <Icon name='MoreOutlined' {...{ ...props, ...context.attrs }} icon={MoreOutlinedSvg} />;

@@ -7,6 +7,8 @@ import LoginOutlinedSvg from 'icon-base/es/asn/LoginOutlined';
 
 export interface LoginOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLoginOutlined: LoginOutlinedIconType = (props, context) => <Icon name='LoginOutlined' {...{ ...props, ...context.attrs }} icon={LoginOutlinedSvg} />;

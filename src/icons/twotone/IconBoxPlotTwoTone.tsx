@@ -7,6 +7,8 @@ import BoxPlotTwoToneSvg from 'icon-base/es/asn/BoxPlotTwoTone';
 
 export interface BoxPlotTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBoxPlotTwoTone: BoxPlotTwoToneIconType = (props, context) => (

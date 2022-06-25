@@ -7,6 +7,8 @@ import EyeTwoToneSvg from 'icon-base/es/asn/EyeTwoTone';
 
 export interface EyeTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEyeTwoTone: EyeTwoToneIconType = (props, context) => <Icon name='EyeTwoTone' {...{ ...props, ...context.attrs }} icon={EyeTwoToneSvg} />;

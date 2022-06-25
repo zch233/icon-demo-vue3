@@ -7,6 +7,8 @@ import SecurityScanTwoToneSvg from 'icon-base/es/asn/SecurityScanTwoTone';
 
 export interface SecurityScanTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSecurityScanTwoTone: SecurityScanTwoToneIconType = (props, context) => (

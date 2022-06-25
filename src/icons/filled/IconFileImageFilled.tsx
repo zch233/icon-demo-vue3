@@ -7,6 +7,8 @@ import FileImageFilledSvg from 'icon-base/es/asn/FileImageFilled';
 
 export interface FileImageFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileImageFilled: FileImageFilledIconType = (props, context) => (

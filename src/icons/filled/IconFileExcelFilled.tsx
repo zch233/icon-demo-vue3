@@ -7,6 +7,8 @@ import FileExcelFilledSvg from 'icon-base/es/asn/FileExcelFilled';
 
 export interface FileExcelFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileExcelFilled: FileExcelFilledIconType = (props, context) => (

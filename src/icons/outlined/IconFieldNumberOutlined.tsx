@@ -7,6 +7,8 @@ import FieldNumberOutlinedSvg from 'icon-base/es/asn/FieldNumberOutlined';
 
 export interface FieldNumberOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFieldNumberOutlined: FieldNumberOutlinedIconType = (props, context) => (

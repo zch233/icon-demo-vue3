@@ -7,6 +7,8 @@ import FolderAddOutlinedSvg from 'icon-base/es/asn/FolderAddOutlined';
 
 export interface FolderAddOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFolderAddOutlined: FolderAddOutlinedIconType = (props, context) => (

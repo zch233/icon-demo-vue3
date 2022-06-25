@@ -7,6 +7,8 @@ import RightSquareTwoToneSvg from 'icon-base/es/asn/RightSquareTwoTone';
 
 export interface RightSquareTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRightSquareTwoTone: RightSquareTwoToneIconType = (props, context) => (

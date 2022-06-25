@@ -7,6 +7,8 @@ import CreditCardTwoToneSvg from 'icon-base/es/asn/CreditCardTwoTone';
 
 export interface CreditCardTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCreditCardTwoTone: CreditCardTwoToneIconType = (props, context) => (

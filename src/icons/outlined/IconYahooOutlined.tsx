@@ -7,6 +7,8 @@ import YahooOutlinedSvg from 'icon-base/es/asn/YahooOutlined';
 
 export interface YahooOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconYahooOutlined: YahooOutlinedIconType = (props, context) => <Icon name='YahooOutlined' {...{ ...props, ...context.attrs }} icon={YahooOutlinedSvg} />;

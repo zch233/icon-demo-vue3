@@ -7,6 +7,8 @@ import WomanOutlinedSvg from 'icon-base/es/asn/WomanOutlined';
 
 export interface WomanOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWomanOutlined: WomanOutlinedIconType = (props, context) => <Icon name='WomanOutlined' {...{ ...props, ...context.attrs }} icon={WomanOutlinedSvg} />;

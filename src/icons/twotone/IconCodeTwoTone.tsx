@@ -7,6 +7,8 @@ import CodeTwoToneSvg from 'icon-base/es/asn/CodeTwoTone';
 
 export interface CodeTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCodeTwoTone: CodeTwoToneIconType = (props, context) => <Icon name='CodeTwoTone' {...{ ...props, ...context.attrs }} icon={CodeTwoToneSvg} />;

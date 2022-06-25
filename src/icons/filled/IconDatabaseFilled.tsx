@@ -7,6 +7,8 @@ import DatabaseFilledSvg from 'icon-base/es/asn/DatabaseFilled';
 
 export interface DatabaseFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDatabaseFilled: DatabaseFilledIconType = (props, context) => (

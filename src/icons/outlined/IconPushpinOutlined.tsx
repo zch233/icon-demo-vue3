@@ -7,6 +7,8 @@ import PushpinOutlinedSvg from 'icon-base/es/asn/PushpinOutlined';
 
 export interface PushpinOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPushpinOutlined: PushpinOutlinedIconType = (props, context) => (

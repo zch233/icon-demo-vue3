@@ -7,6 +7,8 @@ import GatewayOutlinedSvg from 'icon-base/es/asn/GatewayOutlined';
 
 export interface GatewayOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGatewayOutlined: GatewayOutlinedIconType = (props, context) => (

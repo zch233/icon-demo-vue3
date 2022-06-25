@@ -7,6 +7,8 @@ import RadiusBottomleftOutlinedSvg from 'icon-base/es/asn/RadiusBottomleftOutlin
 
 export interface RadiusBottomleftOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRadiusBottomleftOutlined: RadiusBottomleftOutlinedIconType = (props, context) => (

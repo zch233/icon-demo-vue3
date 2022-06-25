@@ -7,6 +7,8 @@ import LockFilledSvg from 'icon-base/es/asn/LockFilled';
 
 export interface LockFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLockFilled: LockFilledIconType = (props, context) => <Icon name='LockFilled' {...{ ...props, ...context.attrs }} icon={LockFilledSvg} />;

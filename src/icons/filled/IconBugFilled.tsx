@@ -7,6 +7,8 @@ import BugFilledSvg from 'icon-base/es/asn/BugFilled';
 
 export interface BugFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBugFilled: BugFilledIconType = (props, context) => <Icon name='BugFilled' {...{ ...props, ...context.attrs }} icon={BugFilledSvg} />;

@@ -7,6 +7,8 @@ import PlayCircleOutlinedSvg from 'icon-base/es/asn/PlayCircleOutlined';
 
 export interface PlayCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPlayCircleOutlined: PlayCircleOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import YoutubeFilledSvg from 'icon-base/es/asn/YoutubeFilled';
 
 export interface YoutubeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconYoutubeFilled: YoutubeFilledIconType = (props, context) => <Icon name='YoutubeFilled' {...{ ...props, ...context.attrs }} icon={YoutubeFilledSvg} />;

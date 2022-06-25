@@ -7,6 +7,8 @@ import GiftOutlinedSvg from 'icon-base/es/asn/GiftOutlined';
 
 export interface GiftOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGiftOutlined: GiftOutlinedIconType = (props, context) => <Icon name='GiftOutlined' {...{ ...props, ...context.attrs }} icon={GiftOutlinedSvg} />;

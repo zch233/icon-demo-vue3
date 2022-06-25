@@ -7,6 +7,8 @@ import DashboardFilledSvg from 'icon-base/es/asn/DashboardFilled';
 
 export interface DashboardFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDashboardFilled: DashboardFilledIconType = (props, context) => (

@@ -7,6 +7,8 @@ import StopOutlinedSvg from 'icon-base/es/asn/StopOutlined';
 
 export interface StopOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconStopOutlined: StopOutlinedIconType = (props, context) => <Icon name='StopOutlined' {...{ ...props, ...context.attrs }} icon={StopOutlinedSvg} />;

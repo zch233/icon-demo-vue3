@@ -7,6 +7,8 @@ import HeartOutlinedSvg from 'icon-base/es/asn/HeartOutlined';
 
 export interface HeartOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconHeartOutlined: HeartOutlinedIconType = (props, context) => <Icon name='HeartOutlined' {...{ ...props, ...context.attrs }} icon={HeartOutlinedSvg} />;

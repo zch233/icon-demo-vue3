@@ -7,6 +7,8 @@ import UsbOutlinedSvg from 'icon-base/es/asn/UsbOutlined';
 
 export interface UsbOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUsbOutlined: UsbOutlinedIconType = (props, context) => <Icon name='UsbOutlined' {...{ ...props, ...context.attrs }} icon={UsbOutlinedSvg} />;

@@ -7,6 +7,8 @@ import FileUnknownTwoToneSvg from 'icon-base/es/asn/FileUnknownTwoTone';
 
 export interface FileUnknownTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileUnknownTwoTone: FileUnknownTwoToneIconType = (props, context) => (

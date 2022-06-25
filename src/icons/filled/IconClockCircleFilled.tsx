@@ -7,6 +7,8 @@ import ClockCircleFilledSvg from 'icon-base/es/asn/ClockCircleFilled';
 
 export interface ClockCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconClockCircleFilled: ClockCircleFilledIconType = (props, context) => (

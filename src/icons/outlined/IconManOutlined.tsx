@@ -7,6 +7,8 @@ import ManOutlinedSvg from 'icon-base/es/asn/ManOutlined';
 
 export interface ManOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconManOutlined: ManOutlinedIconType = (props, context) => <Icon name='ManOutlined' {...{ ...props, ...context.attrs }} icon={ManOutlinedSvg} />;

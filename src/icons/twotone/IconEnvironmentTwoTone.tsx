@@ -7,6 +7,8 @@ import EnvironmentTwoToneSvg from 'icon-base/es/asn/EnvironmentTwoTone';
 
 export interface EnvironmentTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEnvironmentTwoTone: EnvironmentTwoToneIconType = (props, context) => (

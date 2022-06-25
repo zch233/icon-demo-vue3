@@ -7,6 +7,8 @@ import DingtalkCircleFilledSvg from 'icon-base/es/asn/DingtalkCircleFilled';
 
 export interface DingtalkCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDingtalkCircleFilled: DingtalkCircleFilledIconType = (props, context) => (

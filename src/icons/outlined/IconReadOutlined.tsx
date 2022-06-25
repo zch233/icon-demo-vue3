@@ -7,6 +7,8 @@ import ReadOutlinedSvg from 'icon-base/es/asn/ReadOutlined';
 
 export interface ReadOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconReadOutlined: ReadOutlinedIconType = (props, context) => <Icon name='ReadOutlined' {...{ ...props, ...context.attrs }} icon={ReadOutlinedSvg} />;

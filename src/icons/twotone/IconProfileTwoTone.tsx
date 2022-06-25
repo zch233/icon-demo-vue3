@@ -7,6 +7,8 @@ import ProfileTwoToneSvg from 'icon-base/es/asn/ProfileTwoTone';
 
 export interface ProfileTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconProfileTwoTone: ProfileTwoToneIconType = (props, context) => (

@@ -7,6 +7,8 @@ import QqCircleFilledSvg from 'icon-base/es/asn/QqCircleFilled';
 
 export interface QqCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconQqCircleFilled: QqCircleFilledIconType = (props, context) => (

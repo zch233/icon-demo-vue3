@@ -7,6 +7,8 @@ import AlertTwoToneSvg from 'icon-base/es/asn/AlertTwoTone';
 
 export interface AlertTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAlertTwoTone: AlertTwoToneIconType = (props, context) => <Icon name='AlertTwoTone' {...{ ...props, ...context.attrs }} icon={AlertTwoToneSvg} />;

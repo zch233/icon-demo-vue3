@@ -7,6 +7,8 @@ import ChromeOutlinedSvg from 'icon-base/es/asn/ChromeOutlined';
 
 export interface ChromeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconChromeOutlined: ChromeOutlinedIconType = (props, context) => (

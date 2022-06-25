@@ -7,6 +7,8 @@ import PieChartTwoToneSvg from 'icon-base/es/asn/PieChartTwoTone';
 
 export interface PieChartTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPieChartTwoTone: PieChartTwoToneIconType = (props, context) => (

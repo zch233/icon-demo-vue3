@@ -7,6 +7,8 @@ import DollarOutlinedSvg from 'icon-base/es/asn/DollarOutlined';
 
 export interface DollarOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDollarOutlined: DollarOutlinedIconType = (props, context) => (

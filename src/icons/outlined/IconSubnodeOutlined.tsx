@@ -7,6 +7,8 @@ import SubnodeOutlinedSvg from 'icon-base/es/asn/SubnodeOutlined';
 
 export interface SubnodeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSubnodeOutlined: SubnodeOutlinedIconType = (props, context) => (

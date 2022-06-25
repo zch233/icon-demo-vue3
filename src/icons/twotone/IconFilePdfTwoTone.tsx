@@ -7,6 +7,8 @@ import FilePdfTwoToneSvg from 'icon-base/es/asn/FilePdfTwoTone';
 
 export interface FilePdfTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFilePdfTwoTone: FilePdfTwoToneIconType = (props, context) => (

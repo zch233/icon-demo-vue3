@@ -7,6 +7,8 @@ import StepForwardFilledSvg from 'icon-base/es/asn/StepForwardFilled';
 
 export interface StepForwardFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconStepForwardFilled: StepForwardFilledIconType = (props, context) => (

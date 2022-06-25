@@ -7,6 +7,8 @@ import BgColorsOutlinedSvg from 'icon-base/es/asn/BgColorsOutlined';
 
 export interface BgColorsOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBgColorsOutlined: BgColorsOutlinedIconType = (props, context) => (

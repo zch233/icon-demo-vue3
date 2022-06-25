@@ -7,6 +7,8 @@ import SecurityScanFilledSvg from 'icon-base/es/asn/SecurityScanFilled';
 
 export interface SecurityScanFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSecurityScanFilled: SecurityScanFilledIconType = (props, context) => (

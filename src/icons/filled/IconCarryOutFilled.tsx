@@ -7,6 +7,8 @@ import CarryOutFilledSvg from 'icon-base/es/asn/CarryOutFilled';
 
 export interface CarryOutFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCarryOutFilled: CarryOutFilledIconType = (props, context) => (

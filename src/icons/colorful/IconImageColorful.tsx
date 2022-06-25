@@ -7,6 +7,8 @@ import ImageColorfulSvg from 'icon-base/es/asn/ImageColorful';
 
 export interface ImageColorfulIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconImageColorful: ImageColorfulIconType = (props, context) => <Icon name='ImageColorful' {...{ ...props, ...context.attrs }} icon={ImageColorfulSvg} />;

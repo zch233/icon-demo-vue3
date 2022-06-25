@@ -7,6 +7,8 @@ import FundFilledSvg from 'icon-base/es/asn/FundFilled';
 
 export interface FundFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFundFilled: FundFilledIconType = (props, context) => <Icon name='FundFilled' {...{ ...props, ...context.attrs }} icon={FundFilledSvg} />;

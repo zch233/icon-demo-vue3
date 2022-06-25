@@ -7,6 +7,8 @@ import WalletOutlinedSvg from 'icon-base/es/asn/WalletOutlined';
 
 export interface WalletOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWalletOutlined: WalletOutlinedIconType = (props, context) => (

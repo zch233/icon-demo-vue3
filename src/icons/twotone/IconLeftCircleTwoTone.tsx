@@ -7,6 +7,8 @@ import LeftCircleTwoToneSvg from 'icon-base/es/asn/LeftCircleTwoTone';
 
 export interface LeftCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLeftCircleTwoTone: LeftCircleTwoToneIconType = (props, context) => (

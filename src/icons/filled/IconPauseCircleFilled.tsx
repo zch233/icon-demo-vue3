@@ -7,6 +7,8 @@ import PauseCircleFilledSvg from 'icon-base/es/asn/PauseCircleFilled';
 
 export interface PauseCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPauseCircleFilled: PauseCircleFilledIconType = (props, context) => (

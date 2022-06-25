@@ -7,6 +7,8 @@ import FilterTwoToneSvg from 'icon-base/es/asn/FilterTwoTone';
 
 export interface FilterTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFilterTwoTone: FilterTwoToneIconType = (props, context) => <Icon name='FilterTwoTone' {...{ ...props, ...context.attrs }} icon={FilterTwoToneSvg} />;

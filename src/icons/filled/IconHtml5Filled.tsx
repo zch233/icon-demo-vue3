@@ -7,6 +7,8 @@ import Html5FilledSvg from 'icon-base/es/asn/Html5Filled';
 
 export interface Html5FilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconHtml5Filled: Html5FilledIconType = (props, context) => <Icon name='Html5Filled' {...{ ...props, ...context.attrs }} icon={Html5FilledSvg} />;

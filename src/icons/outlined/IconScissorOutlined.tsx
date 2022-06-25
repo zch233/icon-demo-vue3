@@ -7,6 +7,8 @@ import ScissorOutlinedSvg from 'icon-base/es/asn/ScissorOutlined';
 
 export interface ScissorOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconScissorOutlined: ScissorOutlinedIconType = (props, context) => (

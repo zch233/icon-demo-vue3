@@ -7,6 +7,8 @@ import CodeFilledSvg from 'icon-base/es/asn/CodeFilled';
 
 export interface CodeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCodeFilled: CodeFilledIconType = (props, context) => <Icon name='CodeFilled' {...{ ...props, ...context.attrs }} icon={CodeFilledSvg} />;

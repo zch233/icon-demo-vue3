@@ -7,6 +7,8 @@ import WindowsOutlinedSvg from 'icon-base/es/asn/WindowsOutlined';
 
 export interface WindowsOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWindowsOutlined: WindowsOutlinedIconType = (props, context) => (

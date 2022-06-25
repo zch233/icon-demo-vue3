@@ -7,6 +7,8 @@ import LeftSquareFilledSvg from 'icon-base/es/asn/LeftSquareFilled';
 
 export interface LeftSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLeftSquareFilled: LeftSquareFilledIconType = (props, context) => (

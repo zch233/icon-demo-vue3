@@ -7,6 +7,8 @@ import LayoutTwoToneSvg from 'icon-base/es/asn/LayoutTwoTone';
 
 export interface LayoutTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLayoutTwoTone: LayoutTwoToneIconType = (props, context) => <Icon name='LayoutTwoTone' {...{ ...props, ...context.attrs }} icon={LayoutTwoToneSvg} />;

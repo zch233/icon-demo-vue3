@@ -7,6 +7,8 @@ import ForwardOutlinedSvg from 'icon-base/es/asn/ForwardOutlined';
 
 export interface ForwardOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconForwardOutlined: ForwardOutlinedIconType = (props, context) => (

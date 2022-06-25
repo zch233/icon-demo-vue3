@@ -7,6 +7,8 @@ import MessageFilledSvg from 'icon-base/es/asn/MessageFilled';
 
 export interface MessageFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMessageFilled: MessageFilledIconType = (props, context) => <Icon name='MessageFilled' {...{ ...props, ...context.attrs }} icon={MessageFilledSvg} />;

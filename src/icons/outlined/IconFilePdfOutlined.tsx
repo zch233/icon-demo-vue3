@@ -7,6 +7,8 @@ import FilePdfOutlinedSvg from 'icon-base/es/asn/FilePdfOutlined';
 
 export interface FilePdfOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFilePdfOutlined: FilePdfOutlinedIconType = (props, context) => (

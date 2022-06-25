@@ -7,6 +7,8 @@ import MinusSquareFilledSvg from 'icon-base/es/asn/MinusSquareFilled';
 
 export interface MinusSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMinusSquareFilled: MinusSquareFilledIconType = (props, context) => (

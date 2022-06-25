@@ -7,6 +7,8 @@ import DownSquareOutlinedSvg from 'icon-base/es/asn/DownSquareOutlined';
 
 export interface DownSquareOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDownSquareOutlined: DownSquareOutlinedIconType = (props, context) => (

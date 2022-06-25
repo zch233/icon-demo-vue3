@@ -7,6 +7,8 @@ import BookTwoToneSvg from 'icon-base/es/asn/BookTwoTone';
 
 export interface BookTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBookTwoTone: BookTwoToneIconType = (props, context) => <Icon name='BookTwoTone' {...{ ...props, ...context.attrs }} icon={BookTwoToneSvg} />;

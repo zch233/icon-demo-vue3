@@ -7,6 +7,8 @@ import PrinterTwoToneSvg from 'icon-base/es/asn/PrinterTwoTone';
 
 export interface PrinterTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPrinterTwoTone: PrinterTwoToneIconType = (props, context) => (

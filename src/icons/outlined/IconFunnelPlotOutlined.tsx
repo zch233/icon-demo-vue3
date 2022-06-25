@@ -7,6 +7,8 @@ import FunnelPlotOutlinedSvg from 'icon-base/es/asn/FunnelPlotOutlined';
 
 export interface FunnelPlotOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFunnelPlotOutlined: FunnelPlotOutlinedIconType = (props, context) => (

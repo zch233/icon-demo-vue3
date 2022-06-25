@@ -7,6 +7,8 @@ import DollarCircleTwoToneSvg from 'icon-base/es/asn/DollarCircleTwoTone';
 
 export interface DollarCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDollarCircleTwoTone: DollarCircleTwoToneIconType = (props, context) => (

@@ -7,6 +7,8 @@ import MailTwoToneSvg from 'icon-base/es/asn/MailTwoTone';
 
 export interface MailTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMailTwoTone: MailTwoToneIconType = (props, context) => <Icon name='MailTwoTone' {...{ ...props, ...context.attrs }} icon={MailTwoToneSvg} />;

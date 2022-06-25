@@ -7,6 +7,8 @@ import FileGifOutlinedSvg from 'icon-base/es/asn/FileGifOutlined';
 
 export interface FileGifOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileGifOutlined: FileGifOutlinedIconType = (props, context) => (

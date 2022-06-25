@@ -7,6 +7,8 @@ import RedditOutlinedSvg from 'icon-base/es/asn/RedditOutlined';
 
 export interface RedditOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRedditOutlined: RedditOutlinedIconType = (props, context) => (

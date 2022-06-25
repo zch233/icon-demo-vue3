@@ -7,6 +7,8 @@ import MediumWorkmarkOutlinedSvg from 'icon-base/es/asn/MediumWorkmarkOutlined';
 
 export interface MediumWorkmarkOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMediumWorkmarkOutlined: MediumWorkmarkOutlinedIconType = (props, context) => (

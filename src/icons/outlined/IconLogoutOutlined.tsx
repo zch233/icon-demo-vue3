@@ -7,6 +7,8 @@ import LogoutOutlinedSvg from 'icon-base/es/asn/LogoutOutlined';
 
 export interface LogoutOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLogoutOutlined: LogoutOutlinedIconType = (props, context) => (

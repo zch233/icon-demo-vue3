@@ -7,6 +7,8 @@ import ThunderboltFilledSvg from 'icon-base/es/asn/ThunderboltFilled';
 
 export interface ThunderboltFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconThunderboltFilled: ThunderboltFilledIconType = (props, context) => (

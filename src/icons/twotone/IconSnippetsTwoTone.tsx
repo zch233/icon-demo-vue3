@@ -7,6 +7,8 @@ import SnippetsTwoToneSvg from 'icon-base/es/asn/SnippetsTwoTone';
 
 export interface SnippetsTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSnippetsTwoTone: SnippetsTwoToneIconType = (props, context) => (

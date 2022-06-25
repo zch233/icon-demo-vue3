@@ -7,6 +7,8 @@ import TabletFilledSvg from 'icon-base/es/asn/TabletFilled';
 
 export interface TabletFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTabletFilled: TabletFilledIconType = (props, context) => <Icon name='TabletFilled' {...{ ...props, ...context.attrs }} icon={TabletFilledSvg} />;

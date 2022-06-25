@@ -7,6 +7,8 @@ import DatabaseTwoToneSvg from 'icon-base/es/asn/DatabaseTwoTone';
 
 export interface DatabaseTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDatabaseTwoTone: DatabaseTwoToneIconType = (props, context) => (

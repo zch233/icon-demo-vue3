@@ -7,6 +7,8 @@ import CopyrightOutlinedSvg from 'icon-base/es/asn/CopyrightOutlined';
 
 export interface CopyrightOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCopyrightOutlined: CopyrightOutlinedIconType = (props, context) => (

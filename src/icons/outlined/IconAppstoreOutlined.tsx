@@ -7,6 +7,8 @@ import AppstoreOutlinedSvg from 'icon-base/es/asn/AppstoreOutlined';
 
 export interface AppstoreOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAppstoreOutlined: AppstoreOutlinedIconType = (props, context) => (

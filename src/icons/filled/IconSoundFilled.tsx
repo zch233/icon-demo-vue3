@@ -7,6 +7,8 @@ import SoundFilledSvg from 'icon-base/es/asn/SoundFilled';
 
 export interface SoundFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSoundFilled: SoundFilledIconType = (props, context) => <Icon name='SoundFilled' {...{ ...props, ...context.attrs }} icon={SoundFilledSvg} />;

@@ -7,6 +7,8 @@ import SettingFilledSvg from 'icon-base/es/asn/SettingFilled';
 
 export interface SettingFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSettingFilled: SettingFilledIconType = (props, context) => <Icon name='SettingFilled' {...{ ...props, ...context.attrs }} icon={SettingFilledSvg} />;

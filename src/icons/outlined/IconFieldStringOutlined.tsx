@@ -7,6 +7,8 @@ import FieldStringOutlinedSvg from 'icon-base/es/asn/FieldStringOutlined';
 
 export interface FieldStringOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFieldStringOutlined: FieldStringOutlinedIconType = (props, context) => (

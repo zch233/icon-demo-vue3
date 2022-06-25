@@ -7,6 +7,8 @@ import MonitorOutlinedSvg from 'icon-base/es/asn/MonitorOutlined';
 
 export interface MonitorOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMonitorOutlined: MonitorOutlinedIconType = (props, context) => (

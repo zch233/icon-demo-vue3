@@ -7,6 +7,8 @@ import BuildFilledSvg from 'icon-base/es/asn/BuildFilled';
 
 export interface BuildFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBuildFilled: BuildFilledIconType = (props, context) => <Icon name='BuildFilled' {...{ ...props, ...context.attrs }} icon={BuildFilledSvg} />;

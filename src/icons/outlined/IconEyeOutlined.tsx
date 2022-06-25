@@ -7,6 +7,8 @@ import EyeOutlinedSvg from 'icon-base/es/asn/EyeOutlined';
 
 export interface EyeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEyeOutlined: EyeOutlinedIconType = (props, context) => <Icon name='EyeOutlined' {...{ ...props, ...context.attrs }} icon={EyeOutlinedSvg} />;

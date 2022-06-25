@@ -7,6 +7,8 @@ import CloudTwoToneSvg from 'icon-base/es/asn/CloudTwoTone';
 
 export interface CloudTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCloudTwoTone: CloudTwoToneIconType = (props, context) => <Icon name='CloudTwoTone' {...{ ...props, ...context.attrs }} icon={CloudTwoToneSvg} />;

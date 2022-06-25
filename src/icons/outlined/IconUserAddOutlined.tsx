@@ -7,6 +7,8 @@ import UserAddOutlinedSvg from 'icon-base/es/asn/UserAddOutlined';
 
 export interface UserAddOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUserAddOutlined: UserAddOutlinedIconType = (props, context) => (

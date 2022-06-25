@@ -7,6 +7,8 @@ import ExclamationOutlinedSvg from 'icon-base/es/asn/ExclamationOutlined';
 
 export interface ExclamationOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconExclamationOutlined: ExclamationOutlinedIconType = (props, context) => (

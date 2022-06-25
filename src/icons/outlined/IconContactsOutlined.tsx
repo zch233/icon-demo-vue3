@@ -7,6 +7,8 @@ import ContactsOutlinedSvg from 'icon-base/es/asn/ContactsOutlined';
 
 export interface ContactsOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconContactsOutlined: ContactsOutlinedIconType = (props, context) => (

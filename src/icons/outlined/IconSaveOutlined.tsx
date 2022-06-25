@@ -7,6 +7,8 @@ import SaveOutlinedSvg from 'icon-base/es/asn/SaveOutlined';
 
 export interface SaveOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSaveOutlined: SaveOutlinedIconType = (props, context) => <Icon name='SaveOutlined' {...{ ...props, ...context.attrs }} icon={SaveOutlinedSvg} />;

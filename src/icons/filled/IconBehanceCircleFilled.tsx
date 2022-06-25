@@ -7,6 +7,8 @@ import BehanceCircleFilledSvg from 'icon-base/es/asn/BehanceCircleFilled';
 
 export interface BehanceCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBehanceCircleFilled: BehanceCircleFilledIconType = (props, context) => (

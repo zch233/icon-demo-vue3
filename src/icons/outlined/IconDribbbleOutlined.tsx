@@ -7,6 +7,8 @@ import DribbbleOutlinedSvg from 'icon-base/es/asn/DribbbleOutlined';
 
 export interface DribbbleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDribbbleOutlined: DribbbleOutlinedIconType = (props, context) => (

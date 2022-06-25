@@ -7,6 +7,8 @@ import BehanceSquareOutlinedSvg from 'icon-base/es/asn/BehanceSquareOutlined';
 
 export interface BehanceSquareOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBehanceSquareOutlined: BehanceSquareOutlinedIconType = (props, context) => (

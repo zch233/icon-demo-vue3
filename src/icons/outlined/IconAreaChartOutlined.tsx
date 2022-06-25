@@ -7,6 +7,8 @@ import AreaChartOutlinedSvg from 'icon-base/es/asn/AreaChartOutlined';
 
 export interface AreaChartOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAreaChartOutlined: AreaChartOutlinedIconType = (props, context) => (

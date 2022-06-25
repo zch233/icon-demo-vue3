@@ -7,6 +7,8 @@ import CloseSquareOutlinedSvg from 'icon-base/es/asn/CloseSquareOutlined';
 
 export interface CloseSquareOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCloseSquareOutlined: CloseSquareOutlinedIconType = (props, context) => (

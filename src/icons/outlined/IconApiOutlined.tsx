@@ -7,6 +7,8 @@ import ApiOutlinedSvg from 'icon-base/es/asn/ApiOutlined';
 
 export interface ApiOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconApiOutlined: ApiOutlinedIconType = (props, context) => <Icon name='ApiOutlined' {...{ ...props, ...context.attrs }} icon={ApiOutlinedSvg} />;

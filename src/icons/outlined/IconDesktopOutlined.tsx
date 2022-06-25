@@ -7,6 +7,8 @@ import DesktopOutlinedSvg from 'icon-base/es/asn/DesktopOutlined';
 
 export interface DesktopOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDesktopOutlined: DesktopOutlinedIconType = (props, context) => (

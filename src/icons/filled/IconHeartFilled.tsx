@@ -7,6 +7,8 @@ import HeartFilledSvg from 'icon-base/es/asn/HeartFilled';
 
 export interface HeartFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconHeartFilled: HeartFilledIconType = (props, context) => <Icon name='HeartFilled' {...{ ...props, ...context.attrs }} icon={HeartFilledSvg} />;

@@ -7,6 +7,8 @@ import NodeIndexOutlinedSvg from 'icon-base/es/asn/NodeIndexOutlined';
 
 export interface NodeIndexOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconNodeIndexOutlined: NodeIndexOutlinedIconType = (props, context) => (

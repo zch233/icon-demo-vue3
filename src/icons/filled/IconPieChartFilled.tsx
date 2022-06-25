@@ -7,6 +7,8 @@ import PieChartFilledSvg from 'icon-base/es/asn/PieChartFilled';
 
 export interface PieChartFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPieChartFilled: PieChartFilledIconType = (props, context) => (

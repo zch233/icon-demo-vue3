@@ -7,6 +7,8 @@ import PushpinFilledSvg from 'icon-base/es/asn/PushpinFilled';
 
 export interface PushpinFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPushpinFilled: PushpinFilledIconType = (props, context) => <Icon name='PushpinFilled' {...{ ...props, ...context.attrs }} icon={PushpinFilledSvg} />;

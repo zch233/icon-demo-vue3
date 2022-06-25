@@ -7,6 +7,8 @@ import SortDescendingOutlinedSvg from 'icon-base/es/asn/SortDescendingOutlined';
 
 export interface SortDescendingOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSortDescendingOutlined: SortDescendingOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import WarningTwoToneSvg from 'icon-base/es/asn/WarningTwoTone';
 
 export interface WarningTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWarningTwoTone: WarningTwoToneIconType = (props, context) => (

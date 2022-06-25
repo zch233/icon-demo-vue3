@@ -7,6 +7,8 @@ import YuqueOutlinedSvg from 'icon-base/es/asn/YuqueOutlined';
 
 export interface YuqueOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconYuqueOutlined: YuqueOutlinedIconType = (props, context) => <Icon name='YuqueOutlined' {...{ ...props, ...context.attrs }} icon={YuqueOutlinedSvg} />;

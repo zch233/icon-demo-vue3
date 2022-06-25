@@ -7,6 +7,8 @@ import VideoCameraFilledSvg from 'icon-base/es/asn/VideoCameraFilled';
 
 export interface VideoCameraFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconVideoCameraFilled: VideoCameraFilledIconType = (props, context) => (

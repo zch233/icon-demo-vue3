@@ -7,6 +7,8 @@ import CloseCircleTwoToneSvg from 'icon-base/es/asn/CloseCircleTwoTone';
 
 export interface CloseCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCloseCircleTwoTone: CloseCircleTwoToneIconType = (props, context) => (

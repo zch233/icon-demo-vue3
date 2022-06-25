@@ -7,6 +7,8 @@ import AudioMutedOutlinedSvg from 'icon-base/es/asn/AudioMutedOutlined';
 
 export interface AudioMutedOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAudioMutedOutlined: AudioMutedOutlinedIconType = (props, context) => (

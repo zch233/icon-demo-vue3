@@ -7,6 +7,8 @@ import DownloadOutlinedSvg from 'icon-base/es/asn/DownloadOutlined';
 
 export interface DownloadOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDownloadOutlined: DownloadOutlinedIconType = (props, context) => (

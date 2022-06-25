@@ -7,6 +7,8 @@ import CalendarOutlinedSvg from 'icon-base/es/asn/CalendarOutlined';
 
 export interface CalendarOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCalendarOutlined: CalendarOutlinedIconType = (props, context) => (

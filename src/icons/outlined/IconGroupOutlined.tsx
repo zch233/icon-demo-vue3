@@ -7,6 +7,8 @@ import GroupOutlinedSvg from 'icon-base/es/asn/GroupOutlined';
 
 export interface GroupOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGroupOutlined: GroupOutlinedIconType = (props, context) => <Icon name='GroupOutlined' {...{ ...props, ...context.attrs }} icon={GroupOutlinedSvg} />;

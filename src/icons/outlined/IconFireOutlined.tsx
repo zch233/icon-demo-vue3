@@ -7,6 +7,8 @@ import FireOutlinedSvg from 'icon-base/es/asn/FireOutlined';
 
 export interface FireOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFireOutlined: FireOutlinedIconType = (props, context) => <Icon name='FireOutlined' {...{ ...props, ...context.attrs }} icon={FireOutlinedSvg} />;

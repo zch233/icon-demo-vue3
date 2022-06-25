@@ -7,6 +7,8 @@ import InfoOutlinedSvg from 'icon-base/es/asn/InfoOutlined';
 
 export interface InfoOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInfoOutlined: InfoOutlinedIconType = (props, context) => <Icon name='InfoOutlined' {...{ ...props, ...context.attrs }} icon={InfoOutlinedSvg} />;

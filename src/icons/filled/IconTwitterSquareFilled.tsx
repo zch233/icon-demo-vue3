@@ -7,6 +7,8 @@ import TwitterSquareFilledSvg from 'icon-base/es/asn/TwitterSquareFilled';
 
 export interface TwitterSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTwitterSquareFilled: TwitterSquareFilledIconType = (props, context) => (

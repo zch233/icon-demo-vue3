@@ -7,6 +7,8 @@ import FolderAddFilledSvg from 'icon-base/es/asn/FolderAddFilled';
 
 export interface FolderAddFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFolderAddFilled: FolderAddFilledIconType = (props, context) => (

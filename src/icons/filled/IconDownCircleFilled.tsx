@@ -7,6 +7,8 @@ import DownCircleFilledSvg from 'icon-base/es/asn/DownCircleFilled';
 
 export interface DownCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDownCircleFilled: DownCircleFilledIconType = (props, context) => (

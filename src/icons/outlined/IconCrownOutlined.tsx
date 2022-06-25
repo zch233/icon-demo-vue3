@@ -7,6 +7,8 @@ import CrownOutlinedSvg from 'icon-base/es/asn/CrownOutlined';
 
 export interface CrownOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCrownOutlined: CrownOutlinedIconType = (props, context) => <Icon name='CrownOutlined' {...{ ...props, ...context.attrs }} icon={CrownOutlinedSvg} />;

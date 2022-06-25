@@ -7,6 +7,8 @@ import IeOutlinedSvg from 'icon-base/es/asn/IeOutlined';
 
 export interface IeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconIeOutlined: IeOutlinedIconType = (props, context) => <Icon name='IeOutlined' {...{ ...props, ...context.attrs }} icon={IeOutlinedSvg} />;

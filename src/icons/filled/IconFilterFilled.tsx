@@ -7,6 +7,8 @@ import FilterFilledSvg from 'icon-base/es/asn/FilterFilled';
 
 export interface FilterFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFilterFilled: FilterFilledIconType = (props, context) => <Icon name='FilterFilled' {...{ ...props, ...context.attrs }} icon={FilterFilledSvg} />;

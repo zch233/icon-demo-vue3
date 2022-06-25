@@ -7,6 +7,8 @@ import EllipsisOutlinedSvg from 'icon-base/es/asn/EllipsisOutlined';
 
 export interface EllipsisOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEllipsisOutlined: EllipsisOutlinedIconType = (props, context) => (

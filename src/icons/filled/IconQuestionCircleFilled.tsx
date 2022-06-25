@@ -7,6 +7,8 @@ import QuestionCircleFilledSvg from 'icon-base/es/asn/QuestionCircleFilled';
 
 export interface QuestionCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconQuestionCircleFilled: QuestionCircleFilledIconType = (props, context) => (

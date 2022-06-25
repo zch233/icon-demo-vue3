@@ -7,6 +7,8 @@ import UpSquareOutlinedSvg from 'icon-base/es/asn/UpSquareOutlined';
 
 export interface UpSquareOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUpSquareOutlined: UpSquareOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import ItalicOutlinedSvg from 'icon-base/es/asn/ItalicOutlined';
 
 export interface ItalicOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconItalicOutlined: ItalicOutlinedIconType = (props, context) => (

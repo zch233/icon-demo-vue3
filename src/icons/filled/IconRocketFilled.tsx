@@ -7,6 +7,8 @@ import RocketFilledSvg from 'icon-base/es/asn/RocketFilled';
 
 export interface RocketFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRocketFilled: RocketFilledIconType = (props, context) => <Icon name='RocketFilled' {...{ ...props, ...context.attrs }} icon={RocketFilledSvg} />;

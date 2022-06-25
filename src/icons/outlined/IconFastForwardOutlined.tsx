@@ -7,6 +7,8 @@ import FastForwardOutlinedSvg from 'icon-base/es/asn/FastForwardOutlined';
 
 export interface FastForwardOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFastForwardOutlined: FastForwardOutlinedIconType = (props, context) => (

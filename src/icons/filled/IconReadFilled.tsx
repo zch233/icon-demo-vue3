@@ -7,6 +7,8 @@ import ReadFilledSvg from 'icon-base/es/asn/ReadFilled';
 
 export interface ReadFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconReadFilled: ReadFilledIconType = (props, context) => <Icon name='ReadFilled' {...{ ...props, ...context.attrs }} icon={ReadFilledSvg} />;

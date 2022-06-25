@@ -7,6 +7,8 @@ import InstagramOutlinedSvg from 'icon-base/es/asn/InstagramOutlined';
 
 export interface InstagramOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInstagramOutlined: InstagramOutlinedIconType = (props, context) => (

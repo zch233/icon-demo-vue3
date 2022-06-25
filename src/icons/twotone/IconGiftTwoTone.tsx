@@ -7,6 +7,8 @@ import GiftTwoToneSvg from 'icon-base/es/asn/GiftTwoTone';
 
 export interface GiftTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGiftTwoTone: GiftTwoToneIconType = (props, context) => <Icon name='GiftTwoTone' {...{ ...props, ...context.attrs }} icon={GiftTwoToneSvg} />;

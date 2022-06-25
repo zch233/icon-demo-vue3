@@ -7,6 +7,8 @@ import ContainerFilledSvg from 'icon-base/es/asn/ContainerFilled';
 
 export interface ContainerFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconContainerFilled: ContainerFilledIconType = (props, context) => (

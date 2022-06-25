@@ -7,6 +7,8 @@ import UngroupOutlinedSvg from 'icon-base/es/asn/UngroupOutlined';
 
 export interface UngroupOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUngroupOutlined: UngroupOutlinedIconType = (props, context) => (

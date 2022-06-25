@@ -7,6 +7,8 @@ import FastBackwardFilledSvg from 'icon-base/es/asn/FastBackwardFilled';
 
 export interface FastBackwardFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFastBackwardFilled: FastBackwardFilledIconType = (props, context) => (

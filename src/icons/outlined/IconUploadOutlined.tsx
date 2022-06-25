@@ -7,6 +7,8 @@ import UploadOutlinedSvg from 'icon-base/es/asn/UploadOutlined';
 
 export interface UploadOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUploadOutlined: UploadOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import PrinterOutlinedSvg from 'icon-base/es/asn/PrinterOutlined';
 
 export interface PrinterOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPrinterOutlined: PrinterOutlinedIconType = (props, context) => (

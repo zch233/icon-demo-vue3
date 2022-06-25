@@ -7,6 +7,8 @@ import WalletFilledSvg from 'icon-base/es/asn/WalletFilled';
 
 export interface WalletFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWalletFilled: WalletFilledIconType = (props, context) => <Icon name='WalletFilled' {...{ ...props, ...context.attrs }} icon={WalletFilledSvg} />;

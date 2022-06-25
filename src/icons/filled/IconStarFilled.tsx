@@ -7,6 +7,8 @@ import StarFilledSvg from 'icon-base/es/asn/StarFilled';
 
 export interface StarFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconStarFilled: StarFilledIconType = (props, context) => <Icon name='StarFilled' {...{ ...props, ...context.attrs }} icon={StarFilledSvg} />;

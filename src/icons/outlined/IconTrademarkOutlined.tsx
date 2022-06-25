@@ -7,6 +7,8 @@ import TrademarkOutlinedSvg from 'icon-base/es/asn/TrademarkOutlined';
 
 export interface TrademarkOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTrademarkOutlined: TrademarkOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import GoldTwoToneSvg from 'icon-base/es/asn/GoldTwoTone';
 
 export interface GoldTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGoldTwoTone: GoldTwoToneIconType = (props, context) => <Icon name='GoldTwoTone' {...{ ...props, ...context.attrs }} icon={GoldTwoToneSvg} />;

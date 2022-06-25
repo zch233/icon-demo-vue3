@@ -7,6 +7,8 @@ import FrownTwoToneSvg from 'icon-base/es/asn/FrownTwoTone';
 
 export interface FrownTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFrownTwoTone: FrownTwoToneIconType = (props, context) => <Icon name='FrownTwoTone' {...{ ...props, ...context.attrs }} icon={FrownTwoToneSvg} />;

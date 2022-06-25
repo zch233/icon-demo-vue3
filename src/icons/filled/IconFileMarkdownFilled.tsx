@@ -7,6 +7,8 @@ import FileMarkdownFilledSvg from 'icon-base/es/asn/FileMarkdownFilled';
 
 export interface FileMarkdownFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileMarkdownFilled: FileMarkdownFilledIconType = (props, context) => (

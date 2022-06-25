@@ -7,6 +7,8 @@ import DiffTwoToneSvg from 'icon-base/es/asn/DiffTwoTone';
 
 export interface DiffTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDiffTwoTone: DiffTwoToneIconType = (props, context) => <Icon name='DiffTwoTone' {...{ ...props, ...context.attrs }} icon={DiffTwoToneSvg} />;

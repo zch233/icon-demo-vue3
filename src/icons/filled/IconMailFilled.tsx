@@ -7,6 +7,8 @@ import MailFilledSvg from 'icon-base/es/asn/MailFilled';
 
 export interface MailFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMailFilled: MailFilledIconType = (props, context) => <Icon name='MailFilled' {...{ ...props, ...context.attrs }} icon={MailFilledSvg} />;

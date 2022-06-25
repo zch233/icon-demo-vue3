@@ -7,6 +7,8 @@ import DislikeOutlinedSvg from 'icon-base/es/asn/DislikeOutlined';
 
 export interface DislikeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDislikeOutlined: DislikeOutlinedIconType = (props, context) => (

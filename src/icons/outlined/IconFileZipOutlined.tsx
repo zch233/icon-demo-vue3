@@ -7,6 +7,8 @@ import FileZipOutlinedSvg from 'icon-base/es/asn/FileZipOutlined';
 
 export interface FileZipOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileZipOutlined: FileZipOutlinedIconType = (props, context) => (

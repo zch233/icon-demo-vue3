@@ -7,6 +7,8 @@ import HomeFilledSvg from 'icon-base/es/asn/HomeFilled';
 
 export interface HomeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconHomeFilled: HomeFilledIconType = (props, context) => <Icon name='HomeFilled' {...{ ...props, ...context.attrs }} icon={HomeFilledSvg} />;

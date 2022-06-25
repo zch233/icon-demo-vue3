@@ -7,6 +7,8 @@ import FileZipFilledSvg from 'icon-base/es/asn/FileZipFilled';
 
 export interface FileZipFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileZipFilled: FileZipFilledIconType = (props, context) => <Icon name='FileZipFilled' {...{ ...props, ...context.attrs }} icon={FileZipFilledSvg} />;

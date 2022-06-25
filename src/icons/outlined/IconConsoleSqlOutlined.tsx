@@ -7,6 +7,8 @@ import ConsoleSqlOutlinedSvg from 'icon-base/es/asn/ConsoleSqlOutlined';
 
 export interface ConsoleSqlOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconConsoleSqlOutlined: ConsoleSqlOutlinedIconType = (props, context) => (

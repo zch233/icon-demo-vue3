@@ -7,6 +7,8 @@ import PicCenterOutlinedSvg from 'icon-base/es/asn/PicCenterOutlined';
 
 export interface PicCenterOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPicCenterOutlined: PicCenterOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import CodeSandboxSquareFilledSvg from 'icon-base/es/asn/CodeSandboxSquareFilled
 
 export interface CodeSandboxSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCodeSandboxSquareFilled: CodeSandboxSquareFilledIconType = (props, context) => (

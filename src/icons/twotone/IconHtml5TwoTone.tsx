@@ -7,6 +7,8 @@ import Html5TwoToneSvg from 'icon-base/es/asn/Html5TwoTone';
 
 export interface Html5TwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconHtml5TwoTone: Html5TwoToneIconType = (props, context) => <Icon name='Html5TwoTone' {...{ ...props, ...context.attrs }} icon={Html5TwoToneSvg} />;

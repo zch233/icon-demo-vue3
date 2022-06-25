@@ -7,6 +7,8 @@ import AntCloudOutlinedSvg from 'icon-base/es/asn/AntCloudOutlined';
 
 export interface AntCloudOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAntCloudOutlined: AntCloudOutlinedIconType = (props, context) => (

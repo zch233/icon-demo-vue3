@@ -7,6 +7,8 @@ import BugOutlinedSvg from 'icon-base/es/asn/BugOutlined';
 
 export interface BugOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBugOutlined: BugOutlinedIconType = (props, context) => <Icon name='BugOutlined' {...{ ...props, ...context.attrs }} icon={BugOutlinedSvg} />;

@@ -7,6 +7,8 @@ import ToTopOutlinedSvg from 'icon-base/es/asn/ToTopOutlined';
 
 export interface ToTopOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconToTopOutlined: ToTopOutlinedIconType = (props, context) => <Icon name='ToTopOutlined' {...{ ...props, ...context.attrs }} icon={ToTopOutlinedSvg} />;

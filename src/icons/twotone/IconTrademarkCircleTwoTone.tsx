@@ -7,6 +7,8 @@ import TrademarkCircleTwoToneSvg from 'icon-base/es/asn/TrademarkCircleTwoTone';
 
 export interface TrademarkCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTrademarkCircleTwoTone: TrademarkCircleTwoToneIconType = (props, context) => (

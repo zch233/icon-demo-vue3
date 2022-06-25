@@ -7,6 +7,8 @@ import LayoutOutlinedSvg from 'icon-base/es/asn/LayoutOutlined';
 
 export interface LayoutOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLayoutOutlined: LayoutOutlinedIconType = (props, context) => (

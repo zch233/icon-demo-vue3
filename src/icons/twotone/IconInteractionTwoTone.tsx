@@ -7,6 +7,8 @@ import InteractionTwoToneSvg from 'icon-base/es/asn/InteractionTwoTone';
 
 export interface InteractionTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInteractionTwoTone: InteractionTwoToneIconType = (props, context) => (

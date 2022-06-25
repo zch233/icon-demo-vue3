@@ -7,6 +7,8 @@ import PauseCircleOutlinedSvg from 'icon-base/es/asn/PauseCircleOutlined';
 
 export interface PauseCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPauseCircleOutlined: PauseCircleOutlinedIconType = (props, context) => (

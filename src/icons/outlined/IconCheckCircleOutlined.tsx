@@ -7,6 +7,8 @@ import CheckCircleOutlinedSvg from 'icon-base/es/asn/CheckCircleOutlined';
 
 export interface CheckCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCheckCircleOutlined: CheckCircleOutlinedIconType = (props, context) => (

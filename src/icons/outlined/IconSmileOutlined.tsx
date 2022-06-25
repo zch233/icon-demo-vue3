@@ -7,6 +7,8 @@ import SmileOutlinedSvg from 'icon-base/es/asn/SmileOutlined';
 
 export interface SmileOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSmileOutlined: SmileOutlinedIconType = (props, context) => <Icon name='SmileOutlined' {...{ ...props, ...context.attrs }} icon={SmileOutlinedSvg} />;

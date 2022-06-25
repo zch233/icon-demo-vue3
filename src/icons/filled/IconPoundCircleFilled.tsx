@@ -7,6 +7,8 @@ import PoundCircleFilledSvg from 'icon-base/es/asn/PoundCircleFilled';
 
 export interface PoundCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPoundCircleFilled: PoundCircleFilledIconType = (props, context) => (

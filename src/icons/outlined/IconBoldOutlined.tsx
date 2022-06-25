@@ -7,6 +7,8 @@ import BoldOutlinedSvg from 'icon-base/es/asn/BoldOutlined';
 
 export interface BoldOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBoldOutlined: BoldOutlinedIconType = (props, context) => <Icon name='BoldOutlined' {...{ ...props, ...context.attrs }} icon={BoldOutlinedSvg} />;

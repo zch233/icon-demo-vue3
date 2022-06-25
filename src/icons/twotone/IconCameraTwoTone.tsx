@@ -7,6 +7,8 @@ import CameraTwoToneSvg from 'icon-base/es/asn/CameraTwoTone';
 
 export interface CameraTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCameraTwoTone: CameraTwoToneIconType = (props, context) => <Icon name='CameraTwoTone' {...{ ...props, ...context.attrs }} icon={CameraTwoToneSvg} />;

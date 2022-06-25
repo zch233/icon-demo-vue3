@@ -7,6 +7,8 @@ import VideoCameraAddOutlinedSvg from 'icon-base/es/asn/VideoCameraAddOutlined';
 
 export interface VideoCameraAddOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconVideoCameraAddOutlined: VideoCameraAddOutlinedIconType = (props, context) => (

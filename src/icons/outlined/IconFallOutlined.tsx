@@ -7,6 +7,8 @@ import FallOutlinedSvg from 'icon-base/es/asn/FallOutlined';
 
 export interface FallOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFallOutlined: FallOutlinedIconType = (props, context) => <Icon name='FallOutlined' {...{ ...props, ...context.attrs }} icon={FallOutlinedSvg} />;

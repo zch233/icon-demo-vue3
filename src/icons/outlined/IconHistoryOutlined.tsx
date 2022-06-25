@@ -7,6 +7,8 @@ import HistoryOutlinedSvg from 'icon-base/es/asn/HistoryOutlined';
 
 export interface HistoryOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconHistoryOutlined: HistoryOutlinedIconType = (props, context) => (

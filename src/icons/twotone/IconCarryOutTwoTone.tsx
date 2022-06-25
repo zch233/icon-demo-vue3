@@ -7,6 +7,8 @@ import CarryOutTwoToneSvg from 'icon-base/es/asn/CarryOutTwoTone';
 
 export interface CarryOutTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCarryOutTwoTone: CarryOutTwoToneIconType = (props, context) => (

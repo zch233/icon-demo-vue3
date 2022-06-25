@@ -7,6 +7,8 @@ import CiOutlinedSvg from 'icon-base/es/asn/CiOutlined';
 
 export interface CiOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCiOutlined: CiOutlinedIconType = (props, context) => <Icon name='CiOutlined' {...{ ...props, ...context.attrs }} icon={CiOutlinedSvg} />;

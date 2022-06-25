@@ -7,6 +7,8 @@ import GoogleOutlinedSvg from 'icon-base/es/asn/GoogleOutlined';
 
 export interface GoogleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGoogleOutlined: GoogleOutlinedIconType = (props, context) => (

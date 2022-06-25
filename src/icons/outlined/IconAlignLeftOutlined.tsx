@@ -7,6 +7,8 @@ import AlignLeftOutlinedSvg from 'icon-base/es/asn/AlignLeftOutlined';
 
 export interface AlignLeftOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAlignLeftOutlined: AlignLeftOutlinedIconType = (props, context) => (

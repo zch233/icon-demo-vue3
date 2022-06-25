@@ -7,6 +7,8 @@ import MedicineBoxTwoToneSvg from 'icon-base/es/asn/MedicineBoxTwoTone';
 
 export interface MedicineBoxTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMedicineBoxTwoTone: MedicineBoxTwoToneIconType = (props, context) => (

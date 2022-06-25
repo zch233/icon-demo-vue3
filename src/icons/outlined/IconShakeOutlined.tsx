@@ -7,6 +7,8 @@ import ShakeOutlinedSvg from 'icon-base/es/asn/ShakeOutlined';
 
 export interface ShakeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconShakeOutlined: ShakeOutlinedIconType = (props, context) => <Icon name='ShakeOutlined' {...{ ...props, ...context.attrs }} icon={ShakeOutlinedSvg} />;

@@ -7,6 +7,8 @@ import CiTwoToneSvg from 'icon-base/es/asn/CiTwoTone';
 
 export interface CiTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCiTwoTone: CiTwoToneIconType = (props, context) => <Icon name='CiTwoTone' {...{ ...props, ...context.attrs }} icon={CiTwoToneSvg} />;

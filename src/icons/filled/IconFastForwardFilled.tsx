@@ -7,6 +7,8 @@ import FastForwardFilledSvg from 'icon-base/es/asn/FastForwardFilled';
 
 export interface FastForwardFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFastForwardFilled: FastForwardFilledIconType = (props, context) => (

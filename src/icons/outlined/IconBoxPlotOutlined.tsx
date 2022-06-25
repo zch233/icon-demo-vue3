@@ -7,6 +7,8 @@ import BoxPlotOutlinedSvg from 'icon-base/es/asn/BoxPlotOutlined';
 
 export interface BoxPlotOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBoxPlotOutlined: BoxPlotOutlinedIconType = (props, context) => (

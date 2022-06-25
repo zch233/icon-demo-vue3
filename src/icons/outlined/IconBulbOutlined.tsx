@@ -7,6 +7,8 @@ import BulbOutlinedSvg from 'icon-base/es/asn/BulbOutlined';
 
 export interface BulbOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBulbOutlined: BulbOutlinedIconType = (props, context) => <Icon name='BulbOutlined' {...{ ...props, ...context.attrs }} icon={BulbOutlinedSvg} />;

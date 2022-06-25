@@ -7,6 +7,8 @@ import EuroCircleTwoToneSvg from 'icon-base/es/asn/EuroCircleTwoTone';
 
 export interface EuroCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEuroCircleTwoTone: EuroCircleTwoToneIconType = (props, context) => (

@@ -7,6 +7,8 @@ import TranslationOutlinedSvg from 'icon-base/es/asn/TranslationOutlined';
 
 export interface TranslationOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTranslationOutlined: TranslationOutlinedIconType = (props, context) => (

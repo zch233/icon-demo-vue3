@@ -7,6 +7,8 @@ import CommentOutlinedSvg from 'icon-base/es/asn/CommentOutlined';
 
 export interface CommentOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCommentOutlined: CommentOutlinedIconType = (props, context) => (

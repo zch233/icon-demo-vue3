@@ -7,6 +7,8 @@ import CiCircleFilledSvg from 'icon-base/es/asn/CiCircleFilled';
 
 export interface CiCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCiCircleFilled: CiCircleFilledIconType = (props, context) => (

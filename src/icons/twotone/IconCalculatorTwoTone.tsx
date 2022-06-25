@@ -7,6 +7,8 @@ import CalculatorTwoToneSvg from 'icon-base/es/asn/CalculatorTwoTone';
 
 export interface CalculatorTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCalculatorTwoTone: CalculatorTwoToneIconType = (props, context) => (

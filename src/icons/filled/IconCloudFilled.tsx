@@ -7,6 +7,8 @@ import CloudFilledSvg from 'icon-base/es/asn/CloudFilled';
 
 export interface CloudFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCloudFilled: CloudFilledIconType = (props, context) => <Icon name='CloudFilled' {...{ ...props, ...context.attrs }} icon={CloudFilledSvg} />;

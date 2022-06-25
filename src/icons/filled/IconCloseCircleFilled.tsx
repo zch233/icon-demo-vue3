@@ -7,6 +7,8 @@ import CloseCircleFilledSvg from 'icon-base/es/asn/CloseCircleFilled';
 
 export interface CloseCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCloseCircleFilled: CloseCircleFilledIconType = (props, context) => (

@@ -7,6 +7,8 @@ import MailOutlinedSvg from 'icon-base/es/asn/MailOutlined';
 
 export interface MailOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMailOutlined: MailOutlinedIconType = (props, context) => <Icon name='MailOutlined' {...{ ...props, ...context.attrs }} icon={MailOutlinedSvg} />;

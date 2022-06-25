@@ -7,6 +7,8 @@ import LockTwoToneSvg from 'icon-base/es/asn/LockTwoTone';
 
 export interface LockTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLockTwoTone: LockTwoToneIconType = (props, context) => <Icon name='LockTwoTone' {...{ ...props, ...context.attrs }} icon={LockTwoToneSvg} />;

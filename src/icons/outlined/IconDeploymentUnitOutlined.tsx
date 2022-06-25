@@ -7,6 +7,8 @@ import DeploymentUnitOutlinedSvg from 'icon-base/es/asn/DeploymentUnitOutlined';
 
 export interface DeploymentUnitOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDeploymentUnitOutlined: DeploymentUnitOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import FileExclamationOutlinedSvg from 'icon-base/es/asn/FileExclamationOutlined
 
 export interface FileExclamationOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileExclamationOutlined: FileExclamationOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import PlayCircleTwoToneSvg from 'icon-base/es/asn/PlayCircleTwoTone';
 
 export interface PlayCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPlayCircleTwoTone: PlayCircleTwoToneIconType = (props, context) => (

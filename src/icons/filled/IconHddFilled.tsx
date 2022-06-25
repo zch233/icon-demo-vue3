@@ -7,6 +7,8 @@ import HddFilledSvg from 'icon-base/es/asn/HddFilled';
 
 export interface HddFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconHddFilled: HddFilledIconType = (props, context) => <Icon name='HddFilled' {...{ ...props, ...context.attrs }} icon={HddFilledSvg} />;

@@ -7,6 +7,8 @@ import ForwardFilledSvg from 'icon-base/es/asn/ForwardFilled';
 
 export interface ForwardFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconForwardFilled: ForwardFilledIconType = (props, context) => <Icon name='ForwardFilled' {...{ ...props, ...context.attrs }} icon={ForwardFilledSvg} />;

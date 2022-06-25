@@ -7,6 +7,8 @@ import BackwardFilledSvg from 'icon-base/es/asn/BackwardFilled';
 
 export interface BackwardFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBackwardFilled: BackwardFilledIconType = (props, context) => (

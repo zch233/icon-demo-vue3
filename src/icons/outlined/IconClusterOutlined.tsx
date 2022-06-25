@@ -7,6 +7,8 @@ import ClusterOutlinedSvg from 'icon-base/es/asn/ClusterOutlined';
 
 export interface ClusterOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconClusterOutlined: ClusterOutlinedIconType = (props, context) => (

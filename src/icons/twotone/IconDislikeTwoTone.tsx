@@ -7,6 +7,8 @@ import DislikeTwoToneSvg from 'icon-base/es/asn/DislikeTwoTone';
 
 export interface DislikeTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDislikeTwoTone: DislikeTwoToneIconType = (props, context) => (

@@ -7,6 +7,8 @@ import RotateLeftOutlinedSvg from 'icon-base/es/asn/RotateLeftOutlined';
 
 export interface RotateLeftOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRotateLeftOutlined: RotateLeftOutlinedIconType = (props, context) => (

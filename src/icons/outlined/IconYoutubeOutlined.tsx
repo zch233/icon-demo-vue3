@@ -7,6 +7,8 @@ import YoutubeOutlinedSvg from 'icon-base/es/asn/YoutubeOutlined';
 
 export interface YoutubeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconYoutubeOutlined: YoutubeOutlinedIconType = (props, context) => (

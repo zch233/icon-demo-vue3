@@ -7,6 +7,8 @@ import TaobaoSquareFilledSvg from 'icon-base/es/asn/TaobaoSquareFilled';
 
 export interface TaobaoSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTaobaoSquareFilled: TaobaoSquareFilledIconType = (props, context) => (

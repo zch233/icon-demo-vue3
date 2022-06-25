@@ -7,6 +7,8 @@ import FlagOutlinedSvg from 'icon-base/es/asn/FlagOutlined';
 
 export interface FlagOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFlagOutlined: FlagOutlinedIconType = (props, context) => <Icon name='FlagOutlined' {...{ ...props, ...context.attrs }} icon={FlagOutlinedSvg} />;

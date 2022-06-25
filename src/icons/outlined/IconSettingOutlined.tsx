@@ -7,6 +7,8 @@ import SettingOutlinedSvg from 'icon-base/es/asn/SettingOutlined';
 
 export interface SettingOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSettingOutlined: SettingOutlinedIconType = (props, context) => (

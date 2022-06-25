@@ -7,6 +7,8 @@ import CompassFilledSvg from 'icon-base/es/asn/CompassFilled';
 
 export interface CompassFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCompassFilled: CompassFilledIconType = (props, context) => <Icon name='CompassFilled' {...{ ...props, ...context.attrs }} icon={CompassFilledSvg} />;

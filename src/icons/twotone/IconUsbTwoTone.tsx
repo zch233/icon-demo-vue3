@@ -7,6 +7,8 @@ import UsbTwoToneSvg from 'icon-base/es/asn/UsbTwoTone';
 
 export interface UsbTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUsbTwoTone: UsbTwoToneIconType = (props, context) => <Icon name='UsbTwoTone' {...{ ...props, ...context.attrs }} icon={UsbTwoToneSvg} />;

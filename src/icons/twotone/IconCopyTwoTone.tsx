@@ -7,6 +7,8 @@ import CopyTwoToneSvg from 'icon-base/es/asn/CopyTwoTone';
 
 export interface CopyTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCopyTwoTone: CopyTwoToneIconType = (props, context) => <Icon name='CopyTwoTone' {...{ ...props, ...context.attrs }} icon={CopyTwoToneSvg} />;

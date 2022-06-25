@@ -7,6 +7,8 @@ import PlaySquareFilledSvg from 'icon-base/es/asn/PlaySquareFilled';
 
 export interface PlaySquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPlaySquareFilled: PlaySquareFilledIconType = (props, context) => (

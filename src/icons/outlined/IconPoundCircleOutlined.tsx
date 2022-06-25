@@ -7,6 +7,8 @@ import PoundCircleOutlinedSvg from 'icon-base/es/asn/PoundCircleOutlined';
 
 export interface PoundCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPoundCircleOutlined: PoundCircleOutlinedIconType = (props, context) => (

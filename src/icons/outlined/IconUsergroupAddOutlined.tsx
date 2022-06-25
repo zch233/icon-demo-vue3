@@ -7,6 +7,8 @@ import UsergroupAddOutlinedSvg from 'icon-base/es/asn/UsergroupAddOutlined';
 
 export interface UsergroupAddOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUsergroupAddOutlined: UsergroupAddOutlinedIconType = (props, context) => (

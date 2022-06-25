@@ -7,6 +7,8 @@ import CopyrightTwoToneSvg from 'icon-base/es/asn/CopyrightTwoTone';
 
 export interface CopyrightTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCopyrightTwoTone: CopyrightTwoToneIconType = (props, context) => (

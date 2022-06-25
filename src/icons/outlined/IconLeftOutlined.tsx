@@ -7,6 +7,8 @@ import LeftOutlinedSvg from 'icon-base/es/asn/LeftOutlined';
 
 export interface LeftOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLeftOutlined: LeftOutlinedIconType = (props, context) => <Icon name='LeftOutlined' {...{ ...props, ...context.attrs }} icon={LeftOutlinedSvg} />;

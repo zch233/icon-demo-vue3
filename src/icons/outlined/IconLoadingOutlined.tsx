@@ -7,6 +7,8 @@ import LoadingOutlinedSvg from 'icon-base/es/asn/LoadingOutlined';
 
 export interface LoadingOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLoadingOutlined: LoadingOutlinedIconType = (props, context) => (

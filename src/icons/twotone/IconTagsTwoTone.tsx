@@ -7,6 +7,8 @@ import TagsTwoToneSvg from 'icon-base/es/asn/TagsTwoTone';
 
 export interface TagsTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTagsTwoTone: TagsTwoToneIconType = (props, context) => <Icon name='TagsTwoTone' {...{ ...props, ...context.attrs }} icon={TagsTwoToneSvg} />;

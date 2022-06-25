@@ -7,6 +7,8 @@ import SelectOutlinedSvg from 'icon-base/es/asn/SelectOutlined';
 
 export interface SelectOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSelectOutlined: SelectOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import SyncOutlinedSvg from 'icon-base/es/asn/SyncOutlined';
 
 export interface SyncOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSyncOutlined: SyncOutlinedIconType = (props, context) => <Icon name='SyncOutlined' {...{ ...props, ...context.attrs }} icon={SyncOutlinedSvg} />;

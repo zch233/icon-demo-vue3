@@ -7,6 +7,8 @@ import ChromeFilledSvg from 'icon-base/es/asn/ChromeFilled';
 
 export interface ChromeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconChromeFilled: ChromeFilledIconType = (props, context) => <Icon name='ChromeFilled' {...{ ...props, ...context.attrs }} icon={ChromeFilledSvg} />;

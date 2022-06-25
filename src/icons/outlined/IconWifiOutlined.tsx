@@ -7,6 +7,8 @@ import WifiOutlinedSvg from 'icon-base/es/asn/WifiOutlined';
 
 export interface WifiOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWifiOutlined: WifiOutlinedIconType = (props, context) => <Icon name='WifiOutlined' {...{ ...props, ...context.attrs }} icon={WifiOutlinedSvg} />;

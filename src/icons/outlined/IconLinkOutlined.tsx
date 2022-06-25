@@ -7,6 +7,8 @@ import LinkOutlinedSvg from 'icon-base/es/asn/LinkOutlined';
 
 export interface LinkOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLinkOutlined: LinkOutlinedIconType = (props, context) => <Icon name='LinkOutlined' {...{ ...props, ...context.attrs }} icon={LinkOutlinedSvg} />;

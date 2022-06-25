@@ -7,6 +7,8 @@ import ControlTwoToneSvg from 'icon-base/es/asn/ControlTwoTone';
 
 export interface ControlTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconControlTwoTone: ControlTwoToneIconType = (props, context) => (

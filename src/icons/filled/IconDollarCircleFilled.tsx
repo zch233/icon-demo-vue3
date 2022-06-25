@@ -7,6 +7,8 @@ import DollarCircleFilledSvg from 'icon-base/es/asn/DollarCircleFilled';
 
 export interface DollarCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDollarCircleFilled: DollarCircleFilledIconType = (props, context) => (

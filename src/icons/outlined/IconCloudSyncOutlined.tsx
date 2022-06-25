@@ -7,6 +7,8 @@ import CloudSyncOutlinedSvg from 'icon-base/es/asn/CloudSyncOutlined';
 
 export interface CloudSyncOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCloudSyncOutlined: CloudSyncOutlinedIconType = (props, context) => (

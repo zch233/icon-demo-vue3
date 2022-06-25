@@ -7,6 +7,8 @@ import ContactsTwoToneSvg from 'icon-base/es/asn/ContactsTwoTone';
 
 export interface ContactsTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconContactsTwoTone: ContactsTwoToneIconType = (props, context) => (

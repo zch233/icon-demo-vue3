@@ -7,6 +7,8 @@ import ClockCircleOutlinedSvg from 'icon-base/es/asn/ClockCircleOutlined';
 
 export interface ClockCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconClockCircleOutlined: ClockCircleOutlinedIconType = (props, context) => (

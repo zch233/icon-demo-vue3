@@ -7,6 +7,8 @@ import ZoomInOutlinedSvg from 'icon-base/es/asn/ZoomInOutlined';
 
 export interface ZoomInOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconZoomInOutlined: ZoomInOutlinedIconType = (props, context) => (

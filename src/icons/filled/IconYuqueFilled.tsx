@@ -7,6 +7,8 @@ import YuqueFilledSvg from 'icon-base/es/asn/YuqueFilled';
 
 export interface YuqueFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconYuqueFilled: YuqueFilledIconType = (props, context) => <Icon name='YuqueFilled' {...{ ...props, ...context.attrs }} icon={YuqueFilledSvg} />;

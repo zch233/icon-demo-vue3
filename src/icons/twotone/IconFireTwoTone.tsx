@@ -7,6 +7,8 @@ import FireTwoToneSvg from 'icon-base/es/asn/FireTwoTone';
 
 export interface FireTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFireTwoTone: FireTwoToneIconType = (props, context) => <Icon name='FireTwoTone' {...{ ...props, ...context.attrs }} icon={FireTwoToneSvg} />;

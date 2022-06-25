@@ -7,6 +7,8 @@ import CalendarFilledSvg from 'icon-base/es/asn/CalendarFilled';
 
 export interface CalendarFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCalendarFilled: CalendarFilledIconType = (props, context) => (

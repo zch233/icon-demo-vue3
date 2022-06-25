@@ -7,6 +7,8 @@ import FileSyncOutlinedSvg from 'icon-base/es/asn/FileSyncOutlined';
 
 export interface FileSyncOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileSyncOutlined: FileSyncOutlinedIconType = (props, context) => (

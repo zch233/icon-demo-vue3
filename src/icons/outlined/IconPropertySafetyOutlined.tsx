@@ -7,6 +7,8 @@ import PropertySafetyOutlinedSvg from 'icon-base/es/asn/PropertySafetyOutlined';
 
 export interface PropertySafetyOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPropertySafetyOutlined: PropertySafetyOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import StockOutlinedSvg from 'icon-base/es/asn/StockOutlined';
 
 export interface StockOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconStockOutlined: StockOutlinedIconType = (props, context) => <Icon name='StockOutlined' {...{ ...props, ...context.attrs }} icon={StockOutlinedSvg} />;

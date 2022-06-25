@@ -7,6 +7,8 @@ import SlackCircleFilledSvg from 'icon-base/es/asn/SlackCircleFilled';
 
 export interface SlackCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSlackCircleFilled: SlackCircleFilledIconType = (props, context) => (

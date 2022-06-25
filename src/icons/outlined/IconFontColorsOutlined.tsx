@@ -7,6 +7,8 @@ import FontColorsOutlinedSvg from 'icon-base/es/asn/FontColorsOutlined';
 
 export interface FontColorsOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFontColorsOutlined: FontColorsOutlinedIconType = (props, context) => (

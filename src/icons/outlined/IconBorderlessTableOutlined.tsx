@@ -7,6 +7,8 @@ import BorderlessTableOutlinedSvg from 'icon-base/es/asn/BorderlessTableOutlined
 
 export interface BorderlessTableOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBorderlessTableOutlined: BorderlessTableOutlinedIconType = (props, context) => (

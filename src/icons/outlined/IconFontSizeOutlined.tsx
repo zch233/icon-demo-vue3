@@ -7,6 +7,8 @@ import FontSizeOutlinedSvg from 'icon-base/es/asn/FontSizeOutlined';
 
 export interface FontSizeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFontSizeOutlined: FontSizeOutlinedIconType = (props, context) => (

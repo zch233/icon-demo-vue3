@@ -7,6 +7,8 @@ import BellFilledSvg from 'icon-base/es/asn/BellFilled';
 
 export interface BellFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBellFilled: BellFilledIconType = (props, context) => <Icon name='BellFilled' {...{ ...props, ...context.attrs }} icon={BellFilledSvg} />;

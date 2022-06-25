@@ -7,6 +7,8 @@ import PayCircleFilledSvg from 'icon-base/es/asn/PayCircleFilled';
 
 export interface PayCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPayCircleFilled: PayCircleFilledIconType = (props, context) => (

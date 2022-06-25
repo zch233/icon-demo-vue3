@@ -7,6 +7,8 @@ import TrophyTwoToneSvg from 'icon-base/es/asn/TrophyTwoTone';
 
 export interface TrophyTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTrophyTwoTone: TrophyTwoToneIconType = (props, context) => <Icon name='TrophyTwoTone' {...{ ...props, ...context.attrs }} icon={TrophyTwoToneSvg} />;

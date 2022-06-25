@@ -7,6 +7,8 @@ import AppleOutlinedSvg from 'icon-base/es/asn/AppleOutlined';
 
 export interface AppleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAppleOutlined: AppleOutlinedIconType = (props, context) => <Icon name='AppleOutlined' {...{ ...props, ...context.attrs }} icon={AppleOutlinedSvg} />;

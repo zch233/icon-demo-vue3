@@ -7,6 +7,8 @@ import GoogleCircleFilledSvg from 'icon-base/es/asn/GoogleCircleFilled';
 
 export interface GoogleCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGoogleCircleFilled: GoogleCircleFilledIconType = (props, context) => (

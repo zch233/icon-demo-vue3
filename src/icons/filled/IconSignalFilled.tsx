@@ -7,6 +7,8 @@ import SignalFilledSvg from 'icon-base/es/asn/SignalFilled';
 
 export interface SignalFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSignalFilled: SignalFilledIconType = (props, context) => <Icon name='SignalFilled' {...{ ...props, ...context.attrs }} icon={SignalFilledSvg} />;

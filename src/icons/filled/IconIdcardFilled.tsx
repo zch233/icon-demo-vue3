@@ -7,6 +7,8 @@ import IdcardFilledSvg from 'icon-base/es/asn/IdcardFilled';
 
 export interface IdcardFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconIdcardFilled: IdcardFilledIconType = (props, context) => <Icon name='IdcardFilled' {...{ ...props, ...context.attrs }} icon={IdcardFilledSvg} />;

@@ -7,6 +7,8 @@ import FormOutlinedSvg from 'icon-base/es/asn/FormOutlined';
 
 export interface FormOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFormOutlined: FormOutlinedIconType = (props, context) => <Icon name='FormOutlined' {...{ ...props, ...context.attrs }} icon={FormOutlinedSvg} />;

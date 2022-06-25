@@ -7,6 +7,8 @@ import AlibabaOutlinedSvg from 'icon-base/es/asn/AlibabaOutlined';
 
 export interface AlibabaOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAlibabaOutlined: AlibabaOutlinedIconType = (props, context) => (

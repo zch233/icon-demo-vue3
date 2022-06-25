@@ -7,6 +7,8 @@ import AlipayOutlinedSvg from 'icon-base/es/asn/AlipayOutlined';
 
 export interface AlipayOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAlipayOutlined: AlipayOutlinedIconType = (props, context) => (

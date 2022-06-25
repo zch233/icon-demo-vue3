@@ -7,6 +7,8 @@ import RocketTwoToneSvg from 'icon-base/es/asn/RocketTwoTone';
 
 export interface RocketTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRocketTwoTone: RocketTwoToneIconType = (props, context) => <Icon name='RocketTwoTone' {...{ ...props, ...context.attrs }} icon={RocketTwoToneSvg} />;

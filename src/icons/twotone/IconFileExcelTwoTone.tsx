@@ -7,6 +7,8 @@ import FileExcelTwoToneSvg from 'icon-base/es/asn/FileExcelTwoTone';
 
 export interface FileExcelTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileExcelTwoTone: FileExcelTwoToneIconType = (props, context) => (

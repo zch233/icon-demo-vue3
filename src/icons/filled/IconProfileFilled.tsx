@@ -7,6 +7,8 @@ import ProfileFilledSvg from 'icon-base/es/asn/ProfileFilled';
 
 export interface ProfileFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconProfileFilled: ProfileFilledIconType = (props, context) => <Icon name='ProfileFilled' {...{ ...props, ...context.attrs }} icon={ProfileFilledSvg} />;

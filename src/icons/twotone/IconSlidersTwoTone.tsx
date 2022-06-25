@@ -7,6 +7,8 @@ import SlidersTwoToneSvg from 'icon-base/es/asn/SlidersTwoTone';
 
 export interface SlidersTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSlidersTwoTone: SlidersTwoToneIconType = (props, context) => (

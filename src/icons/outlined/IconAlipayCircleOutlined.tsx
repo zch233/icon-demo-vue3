@@ -7,6 +7,8 @@ import AlipayCircleOutlinedSvg from 'icon-base/es/asn/AlipayCircleOutlined';
 
 export interface AlipayCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAlipayCircleOutlined: AlipayCircleOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import PauseCircleTwoToneSvg from 'icon-base/es/asn/PauseCircleTwoTone';
 
 export interface PauseCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPauseCircleTwoTone: PauseCircleTwoToneIconType = (props, context) => (

@@ -7,6 +7,8 @@ import WechatOutlinedSvg from 'icon-base/es/asn/WechatOutlined';
 
 export interface WechatOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWechatOutlined: WechatOutlinedIconType = (props, context) => (

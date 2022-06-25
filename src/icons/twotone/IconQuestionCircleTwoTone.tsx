@@ -7,6 +7,8 @@ import QuestionCircleTwoToneSvg from 'icon-base/es/asn/QuestionCircleTwoTone';
 
 export interface QuestionCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconQuestionCircleTwoTone: QuestionCircleTwoToneIconType = (props, context) => (

@@ -7,6 +7,8 @@ import BarcodeOutlinedSvg from 'icon-base/es/asn/BarcodeOutlined';
 
 export interface BarcodeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBarcodeOutlined: BarcodeOutlinedIconType = (props, context) => (

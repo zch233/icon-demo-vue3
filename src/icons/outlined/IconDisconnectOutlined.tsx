@@ -7,6 +7,8 @@ import DisconnectOutlinedSvg from 'icon-base/es/asn/DisconnectOutlined';
 
 export interface DisconnectOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDisconnectOutlined: DisconnectOutlinedIconType = (props, context) => (

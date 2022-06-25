@@ -7,6 +7,8 @@ import LockOutlinedSvg from 'icon-base/es/asn/LockOutlined';
 
 export interface LockOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLockOutlined: LockOutlinedIconType = (props, context) => <Icon name='LockOutlined' {...{ ...props, ...context.attrs }} icon={LockOutlinedSvg} />;

@@ -7,6 +7,8 @@ import UnlockOutlinedSvg from 'icon-base/es/asn/UnlockOutlined';
 
 export interface UnlockOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUnlockOutlined: UnlockOutlinedIconType = (props, context) => (

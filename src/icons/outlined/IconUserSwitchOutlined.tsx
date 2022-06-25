@@ -7,6 +7,8 @@ import UserSwitchOutlinedSvg from 'icon-base/es/asn/UserSwitchOutlined';
 
 export interface UserSwitchOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUserSwitchOutlined: UserSwitchOutlinedIconType = (props, context) => (

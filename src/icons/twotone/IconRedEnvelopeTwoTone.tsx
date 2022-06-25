@@ -7,6 +7,8 @@ import RedEnvelopeTwoToneSvg from 'icon-base/es/asn/RedEnvelopeTwoTone';
 
 export interface RedEnvelopeTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRedEnvelopeTwoTone: RedEnvelopeTwoToneIconType = (props, context) => (

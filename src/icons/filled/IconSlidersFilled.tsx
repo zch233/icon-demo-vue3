@@ -7,6 +7,8 @@ import SlidersFilledSvg from 'icon-base/es/asn/SlidersFilled';
 
 export interface SlidersFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSlidersFilled: SlidersFilledIconType = (props, context) => <Icon name='SlidersFilled' {...{ ...props, ...context.attrs }} icon={SlidersFilledSvg} />;

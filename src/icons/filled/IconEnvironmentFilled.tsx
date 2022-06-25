@@ -7,6 +7,8 @@ import EnvironmentFilledSvg from 'icon-base/es/asn/EnvironmentFilled';
 
 export interface EnvironmentFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEnvironmentFilled: EnvironmentFilledIconType = (props, context) => (

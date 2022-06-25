@@ -7,6 +7,8 @@ import FileZipTwoToneSvg from 'icon-base/es/asn/FileZipTwoTone';
 
 export interface FileZipTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileZipTwoTone: FileZipTwoToneIconType = (props, context) => (

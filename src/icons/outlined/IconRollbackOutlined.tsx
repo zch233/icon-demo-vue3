@@ -7,6 +7,8 @@ import RollbackOutlinedSvg from 'icon-base/es/asn/RollbackOutlined';
 
 export interface RollbackOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRollbackOutlined: RollbackOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import FileDoneOutlinedSvg from 'icon-base/es/asn/FileDoneOutlined';
 
 export interface FileDoneOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileDoneOutlined: FileDoneOutlinedIconType = (props, context) => (

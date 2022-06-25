@@ -7,6 +7,8 @@ import RocketOutlinedSvg from 'icon-base/es/asn/RocketOutlined';
 
 export interface RocketOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRocketOutlined: RocketOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import RadarChartOutlinedSvg from 'icon-base/es/asn/RadarChartOutlined';
 
 export interface RadarChartOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRadarChartOutlined: RadarChartOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import SnippetsFilledSvg from 'icon-base/es/asn/SnippetsFilled';
 
 export interface SnippetsFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSnippetsFilled: SnippetsFilledIconType = (props, context) => (

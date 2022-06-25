@@ -7,6 +7,8 @@ import CarTwoToneSvg from 'icon-base/es/asn/CarTwoTone';
 
 export interface CarTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCarTwoTone: CarTwoToneIconType = (props, context) => <Icon name='CarTwoTone' {...{ ...props, ...context.attrs }} icon={CarTwoToneSvg} />;

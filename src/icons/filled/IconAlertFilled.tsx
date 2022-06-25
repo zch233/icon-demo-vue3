@@ -7,6 +7,8 @@ import AlertFilledSvg from 'icon-base/es/asn/AlertFilled';
 
 export interface AlertFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAlertFilled: AlertFilledIconType = (props, context) => <Icon name='AlertFilled' {...{ ...props, ...context.attrs }} icon={AlertFilledSvg} />;

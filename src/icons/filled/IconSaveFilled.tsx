@@ -7,6 +7,8 @@ import SaveFilledSvg from 'icon-base/es/asn/SaveFilled';
 
 export interface SaveFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSaveFilled: SaveFilledIconType = (props, context) => <Icon name='SaveFilled' {...{ ...props, ...context.attrs }} icon={SaveFilledSvg} />;

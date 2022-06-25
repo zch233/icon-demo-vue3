@@ -7,6 +7,8 @@ import DislikeFilledSvg from 'icon-base/es/asn/DislikeFilled';
 
 export interface DislikeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDislikeFilled: DislikeFilledIconType = (props, context) => <Icon name='DislikeFilled' {...{ ...props, ...context.attrs }} icon={DislikeFilledSvg} />;

@@ -7,6 +7,8 @@ import DingtalkSquareFilledSvg from 'icon-base/es/asn/DingtalkSquareFilled';
 
 export interface DingtalkSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDingtalkSquareFilled: DingtalkSquareFilledIconType = (props, context) => (

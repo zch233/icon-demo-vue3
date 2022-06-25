@@ -7,6 +7,8 @@ import MinusSquareOutlinedSvg from 'icon-base/es/asn/MinusSquareOutlined';
 
 export interface MinusSquareOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMinusSquareOutlined: MinusSquareOutlinedIconType = (props, context) => (

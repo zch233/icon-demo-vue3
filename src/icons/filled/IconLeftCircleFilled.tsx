@@ -7,6 +7,8 @@ import LeftCircleFilledSvg from 'icon-base/es/asn/LeftCircleFilled';
 
 export interface LeftCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLeftCircleFilled: LeftCircleFilledIconType = (props, context) => (

@@ -7,6 +7,8 @@ import DropboxOutlinedSvg from 'icon-base/es/asn/DropboxOutlined';
 
 export interface DropboxOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDropboxOutlined: DropboxOutlinedIconType = (props, context) => (

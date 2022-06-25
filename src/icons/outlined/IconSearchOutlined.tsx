@@ -7,6 +7,8 @@ import SearchOutlinedSvg from 'icon-base/es/asn/SearchOutlined';
 
 export interface SearchOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSearchOutlined: SearchOutlinedIconType = (props, context) => (

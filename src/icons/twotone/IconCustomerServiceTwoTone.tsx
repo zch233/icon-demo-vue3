@@ -7,6 +7,8 @@ import CustomerServiceTwoToneSvg from 'icon-base/es/asn/CustomerServiceTwoTone';
 
 export interface CustomerServiceTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCustomerServiceTwoTone: CustomerServiceTwoToneIconType = (props, context) => (

@@ -7,6 +7,8 @@ import MenuUnfoldOutlinedSvg from 'icon-base/es/asn/MenuUnfoldOutlined';
 
 export interface MenuUnfoldOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMenuUnfoldOutlined: MenuUnfoldOutlinedIconType = (props, context) => (

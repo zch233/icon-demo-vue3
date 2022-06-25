@@ -7,6 +7,8 @@ import MinusSquareTwoToneSvg from 'icon-base/es/asn/MinusSquareTwoTone';
 
 export interface MinusSquareTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMinusSquareTwoTone: MinusSquareTwoToneIconType = (props, context) => (

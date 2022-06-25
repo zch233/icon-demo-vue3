@@ -7,6 +7,8 @@ import CodepenCircleOutlinedSvg from 'icon-base/es/asn/CodepenCircleOutlined';
 
 export interface CodepenCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCodepenCircleOutlined: CodepenCircleOutlinedIconType = (props, context) => (

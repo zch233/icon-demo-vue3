@@ -7,6 +7,8 @@ import ScheduleFilledSvg from 'icon-base/es/asn/ScheduleFilled';
 
 export interface ScheduleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconScheduleFilled: ScheduleFilledIconType = (props, context) => (

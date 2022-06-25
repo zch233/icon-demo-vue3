@@ -7,6 +7,8 @@ import CodepenSquareFilledSvg from 'icon-base/es/asn/CodepenSquareFilled';
 
 export interface CodepenSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCodepenSquareFilled: CodepenSquareFilledIconType = (props, context) => (

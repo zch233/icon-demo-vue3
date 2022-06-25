@@ -7,6 +7,8 @@ import WeiboOutlinedSvg from 'icon-base/es/asn/WeiboOutlined';
 
 export interface WeiboOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWeiboOutlined: WeiboOutlinedIconType = (props, context) => <Icon name='WeiboOutlined' {...{ ...props, ...context.attrs }} icon={WeiboOutlinedSvg} />;

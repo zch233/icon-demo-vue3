@@ -7,6 +7,8 @@ import BranchesOutlinedSvg from 'icon-base/es/asn/BranchesOutlined';
 
 export interface BranchesOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBranchesOutlined: BranchesOutlinedIconType = (props, context) => (

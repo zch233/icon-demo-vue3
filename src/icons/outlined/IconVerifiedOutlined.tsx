@@ -7,6 +7,8 @@ import VerifiedOutlinedSvg from 'icon-base/es/asn/VerifiedOutlined';
 
 export interface VerifiedOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconVerifiedOutlined: VerifiedOutlinedIconType = (props, context) => (

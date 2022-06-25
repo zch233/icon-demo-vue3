@@ -7,6 +7,8 @@ import AlertOutlinedSvg from 'icon-base/es/asn/AlertOutlined';
 
 export interface AlertOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAlertOutlined: AlertOutlinedIconType = (props, context) => <Icon name='AlertOutlined' {...{ ...props, ...context.attrs }} icon={AlertOutlinedSvg} />;

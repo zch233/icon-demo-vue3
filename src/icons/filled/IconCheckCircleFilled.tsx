@@ -7,6 +7,8 @@ import CheckCircleFilledSvg from 'icon-base/es/asn/CheckCircleFilled';
 
 export interface CheckCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCheckCircleFilled: CheckCircleFilledIconType = (props, context) => (

@@ -7,6 +7,8 @@ import IeCircleFilledSvg from 'icon-base/es/asn/IeCircleFilled';
 
 export interface IeCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconIeCircleFilled: IeCircleFilledIconType = (props, context) => (

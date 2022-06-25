@@ -7,6 +7,8 @@ import MenuOutlinedSvg from 'icon-base/es/asn/MenuOutlined';
 
 export interface MenuOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMenuOutlined: MenuOutlinedIconType = (props, context) => <Icon name='MenuOutlined' {...{ ...props, ...context.attrs }} icon={MenuOutlinedSvg} />;

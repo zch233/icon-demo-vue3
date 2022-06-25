@@ -7,6 +7,8 @@ import ExperimentTwoToneSvg from 'icon-base/es/asn/ExperimentTwoTone';
 
 export interface ExperimentTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconExperimentTwoTone: ExperimentTwoToneIconType = (props, context) => (

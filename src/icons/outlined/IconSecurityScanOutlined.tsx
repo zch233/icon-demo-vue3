@@ -7,6 +7,8 @@ import SecurityScanOutlinedSvg from 'icon-base/es/asn/SecurityScanOutlined';
 
 export interface SecurityScanOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSecurityScanOutlined: SecurityScanOutlinedIconType = (props, context) => (

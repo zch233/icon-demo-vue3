@@ -7,6 +7,8 @@ import FacebookOutlinedSvg from 'icon-base/es/asn/FacebookOutlined';
 
 export interface FacebookOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFacebookOutlined: FacebookOutlinedIconType = (props, context) => (

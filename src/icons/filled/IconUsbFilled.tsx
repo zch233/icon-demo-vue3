@@ -7,6 +7,8 @@ import UsbFilledSvg from 'icon-base/es/asn/UsbFilled';
 
 export interface UsbFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUsbFilled: UsbFilledIconType = (props, context) => <Icon name='UsbFilled' {...{ ...props, ...context.attrs }} icon={UsbFilledSvg} />;

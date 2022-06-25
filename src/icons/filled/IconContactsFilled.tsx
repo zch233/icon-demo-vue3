@@ -7,6 +7,8 @@ import ContactsFilledSvg from 'icon-base/es/asn/ContactsFilled';
 
 export interface ContactsFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconContactsFilled: ContactsFilledIconType = (props, context) => (

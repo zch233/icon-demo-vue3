@@ -7,6 +7,8 @@ import ShareAltOutlinedSvg from 'icon-base/es/asn/ShareAltOutlined';
 
 export interface ShareAltOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconShareAltOutlined: ShareAltOutlinedIconType = (props, context) => (

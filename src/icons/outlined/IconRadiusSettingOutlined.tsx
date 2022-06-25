@@ -7,6 +7,8 @@ import RadiusSettingOutlinedSvg from 'icon-base/es/asn/RadiusSettingOutlined';
 
 export interface RadiusSettingOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRadiusSettingOutlined: RadiusSettingOutlinedIconType = (props, context) => (

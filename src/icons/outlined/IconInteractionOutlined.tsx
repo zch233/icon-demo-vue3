@@ -7,6 +7,8 @@ import InteractionOutlinedSvg from 'icon-base/es/asn/InteractionOutlined';
 
 export interface InteractionOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInteractionOutlined: InteractionOutlinedIconType = (props, context) => (

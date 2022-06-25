@@ -7,6 +7,8 @@ import FieldBinaryOutlinedSvg from 'icon-base/es/asn/FieldBinaryOutlined';
 
 export interface FieldBinaryOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFieldBinaryOutlined: FieldBinaryOutlinedIconType = (props, context) => (

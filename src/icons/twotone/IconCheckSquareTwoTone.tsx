@@ -7,6 +7,8 @@ import CheckSquareTwoToneSvg from 'icon-base/es/asn/CheckSquareTwoTone';
 
 export interface CheckSquareTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCheckSquareTwoTone: CheckSquareTwoToneIconType = (props, context) => (

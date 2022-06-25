@@ -7,6 +7,8 @@ import RestFilledSvg from 'icon-base/es/asn/RestFilled';
 
 export interface RestFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRestFilled: RestFilledIconType = (props, context) => <Icon name='RestFilled' {...{ ...props, ...context.attrs }} icon={RestFilledSvg} />;

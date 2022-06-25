@@ -7,6 +7,8 @@ import BookFilledSvg from 'icon-base/es/asn/BookFilled';
 
 export interface BookFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBookFilled: BookFilledIconType = (props, context) => <Icon name='BookFilled' {...{ ...props, ...context.attrs }} icon={BookFilledSvg} />;

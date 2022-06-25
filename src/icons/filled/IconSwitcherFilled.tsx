@@ -7,6 +7,8 @@ import SwitcherFilledSvg from 'icon-base/es/asn/SwitcherFilled';
 
 export interface SwitcherFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSwitcherFilled: SwitcherFilledIconType = (props, context) => (

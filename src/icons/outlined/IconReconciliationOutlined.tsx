@@ -7,6 +7,8 @@ import ReconciliationOutlinedSvg from 'icon-base/es/asn/ReconciliationOutlined';
 
 export interface ReconciliationOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconReconciliationOutlined: ReconciliationOutlinedIconType = (props, context) => (

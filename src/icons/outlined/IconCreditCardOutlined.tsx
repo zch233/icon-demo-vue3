@@ -7,6 +7,8 @@ import CreditCardOutlinedSvg from 'icon-base/es/asn/CreditCardOutlined';
 
 export interface CreditCardOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCreditCardOutlined: CreditCardOutlinedIconType = (props, context) => (

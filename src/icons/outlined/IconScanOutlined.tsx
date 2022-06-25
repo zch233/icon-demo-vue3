@@ -7,6 +7,8 @@ import ScanOutlinedSvg from 'icon-base/es/asn/ScanOutlined';
 
 export interface ScanOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconScanOutlined: ScanOutlinedIconType = (props, context) => <Icon name='ScanOutlined' {...{ ...props, ...context.attrs }} icon={ScanOutlinedSvg} />;

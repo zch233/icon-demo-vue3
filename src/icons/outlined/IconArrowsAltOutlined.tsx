@@ -7,6 +7,8 @@ import ArrowsAltOutlinedSvg from 'icon-base/es/asn/ArrowsAltOutlined';
 
 export interface ArrowsAltOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconArrowsAltOutlined: ArrowsAltOutlinedIconType = (props, context) => (

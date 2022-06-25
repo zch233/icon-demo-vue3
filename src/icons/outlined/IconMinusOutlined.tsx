@@ -7,6 +7,8 @@ import MinusOutlinedSvg from 'icon-base/es/asn/MinusOutlined';
 
 export interface MinusOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMinusOutlined: MinusOutlinedIconType = (props, context) => <Icon name='MinusOutlined' {...{ ...props, ...context.attrs }} icon={MinusOutlinedSvg} />;

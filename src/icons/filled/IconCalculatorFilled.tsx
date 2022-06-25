@@ -7,6 +7,8 @@ import CalculatorFilledSvg from 'icon-base/es/asn/CalculatorFilled';
 
 export interface CalculatorFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCalculatorFilled: CalculatorFilledIconType = (props, context) => (

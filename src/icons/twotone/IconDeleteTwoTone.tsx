@@ -7,6 +7,8 @@ import DeleteTwoToneSvg from 'icon-base/es/asn/DeleteTwoTone';
 
 export interface DeleteTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDeleteTwoTone: DeleteTwoToneIconType = (props, context) => <Icon name='DeleteTwoTone' {...{ ...props, ...context.attrs }} icon={DeleteTwoToneSvg} />;

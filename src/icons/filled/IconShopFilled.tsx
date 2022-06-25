@@ -7,6 +7,8 @@ import ShopFilledSvg from 'icon-base/es/asn/ShopFilled';
 
 export interface ShopFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconShopFilled: ShopFilledIconType = (props, context) => <Icon name='ShopFilled' {...{ ...props, ...context.attrs }} icon={ShopFilledSvg} />;

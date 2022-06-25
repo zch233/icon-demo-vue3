@@ -7,6 +7,8 @@ import EuroOutlinedSvg from 'icon-base/es/asn/EuroOutlined';
 
 export interface EuroOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEuroOutlined: EuroOutlinedIconType = (props, context) => <Icon name='EuroOutlined' {...{ ...props, ...context.attrs }} icon={EuroOutlinedSvg} />;

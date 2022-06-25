@@ -7,6 +7,8 @@ import ForkOutlinedSvg from 'icon-base/es/asn/ForkOutlined';
 
 export interface ForkOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconForkOutlined: ForkOutlinedIconType = (props, context) => <Icon name='ForkOutlined' {...{ ...props, ...context.attrs }} icon={ForkOutlinedSvg} />;

@@ -7,6 +7,8 @@ import ContainerOutlinedSvg from 'icon-base/es/asn/ContainerOutlined';
 
 export interface ContainerOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconContainerOutlined: ContainerOutlinedIconType = (props, context) => (

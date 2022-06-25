@@ -7,6 +7,8 @@ import RedditCircleFilledSvg from 'icon-base/es/asn/RedditCircleFilled';
 
 export interface RedditCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRedditCircleFilled: RedditCircleFilledIconType = (props, context) => (

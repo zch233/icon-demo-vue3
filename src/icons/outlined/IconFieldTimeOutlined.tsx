@@ -7,6 +7,8 @@ import FieldTimeOutlinedSvg from 'icon-base/es/asn/FieldTimeOutlined';
 
 export interface FieldTimeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFieldTimeOutlined: FieldTimeOutlinedIconType = (props, context) => (

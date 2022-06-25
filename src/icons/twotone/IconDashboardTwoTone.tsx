@@ -7,6 +7,8 @@ import DashboardTwoToneSvg from 'icon-base/es/asn/DashboardTwoTone';
 
 export interface DashboardTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDashboardTwoTone: DashboardTwoToneIconType = (props, context) => (

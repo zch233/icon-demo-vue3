@@ -7,6 +7,8 @@ import BankOutlinedSvg from 'icon-base/es/asn/BankOutlined';
 
 export interface BankOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBankOutlined: BankOutlinedIconType = (props, context) => <Icon name='BankOutlined' {...{ ...props, ...context.attrs }} icon={BankOutlinedSvg} />;

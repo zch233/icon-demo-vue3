@@ -7,6 +7,8 @@ import MobileFilledSvg from 'icon-base/es/asn/MobileFilled';
 
 export interface MobileFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMobileFilled: MobileFilledIconType = (props, context) => <Icon name='MobileFilled' {...{ ...props, ...context.attrs }} icon={MobileFilledSvg} />;

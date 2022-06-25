@@ -7,6 +7,8 @@ import SafetyCertificateTwoToneSvg from 'icon-base/es/asn/SafetyCertificateTwoTo
 
 export interface SafetyCertificateTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSafetyCertificateTwoTone: SafetyCertificateTwoToneIconType = (props, context) => (

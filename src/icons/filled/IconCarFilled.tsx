@@ -7,6 +7,8 @@ import CarFilledSvg from 'icon-base/es/asn/CarFilled';
 
 export interface CarFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCarFilled: CarFilledIconType = (props, context) => <Icon name='CarFilled' {...{ ...props, ...context.attrs }} icon={CarFilledSvg} />;

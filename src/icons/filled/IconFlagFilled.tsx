@@ -7,6 +7,8 @@ import FlagFilledSvg from 'icon-base/es/asn/FlagFilled';
 
 export interface FlagFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFlagFilled: FlagFilledIconType = (props, context) => <Icon name='FlagFilled' {...{ ...props, ...context.attrs }} icon={FlagFilledSvg} />;

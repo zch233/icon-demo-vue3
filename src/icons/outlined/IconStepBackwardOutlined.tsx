@@ -7,6 +7,8 @@ import StepBackwardOutlinedSvg from 'icon-base/es/asn/StepBackwardOutlined';
 
 export interface StepBackwardOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconStepBackwardOutlined: StepBackwardOutlinedIconType = (props, context) => (

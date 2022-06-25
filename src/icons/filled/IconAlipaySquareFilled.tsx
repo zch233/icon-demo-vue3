@@ -7,6 +7,8 @@ import AlipaySquareFilledSvg from 'icon-base/es/asn/AlipaySquareFilled';
 
 export interface AlipaySquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAlipaySquareFilled: AlipaySquareFilledIconType = (props, context) => (

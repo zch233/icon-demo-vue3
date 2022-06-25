@@ -7,6 +7,8 @@ import KeyOutlinedSvg from 'icon-base/es/asn/KeyOutlined';
 
 export interface KeyOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconKeyOutlined: KeyOutlinedIconType = (props, context) => <Icon name='KeyOutlined' {...{ ...props, ...context.attrs }} icon={KeyOutlinedSvg} />;

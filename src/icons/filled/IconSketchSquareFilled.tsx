@@ -7,6 +7,8 @@ import SketchSquareFilledSvg from 'icon-base/es/asn/SketchSquareFilled';
 
 export interface SketchSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSketchSquareFilled: SketchSquareFilledIconType = (props, context) => (

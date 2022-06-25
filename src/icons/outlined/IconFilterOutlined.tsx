@@ -7,6 +7,8 @@ import FilterOutlinedSvg from 'icon-base/es/asn/FilterOutlined';
 
 export interface FilterOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFilterOutlined: FilterOutlinedIconType = (props, context) => (

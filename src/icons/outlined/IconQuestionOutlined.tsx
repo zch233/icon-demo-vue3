@@ -7,6 +7,8 @@ import QuestionOutlinedSvg from 'icon-base/es/asn/QuestionOutlined';
 
 export interface QuestionOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconQuestionOutlined: QuestionOutlinedIconType = (props, context) => (

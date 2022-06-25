@@ -7,6 +7,8 @@ import TagsFilledSvg from 'icon-base/es/asn/TagsFilled';
 
 export interface TagsFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTagsFilled: TagsFilledIconType = (props, context) => <Icon name='TagsFilled' {...{ ...props, ...context.attrs }} icon={TagsFilledSvg} />;

@@ -7,6 +7,8 @@ import OrderedListOutlinedSvg from 'icon-base/es/asn/OrderedListOutlined';
 
 export interface OrderedListOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconOrderedListOutlined: OrderedListOutlinedIconType = (props, context) => (

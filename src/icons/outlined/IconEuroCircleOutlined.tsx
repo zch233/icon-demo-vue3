@@ -7,6 +7,8 @@ import EuroCircleOutlinedSvg from 'icon-base/es/asn/EuroCircleOutlined';
 
 export interface EuroCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEuroCircleOutlined: EuroCircleOutlinedIconType = (props, context) => (

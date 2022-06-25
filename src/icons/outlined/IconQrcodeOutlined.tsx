@@ -7,6 +7,8 @@ import QrcodeOutlinedSvg from 'icon-base/es/asn/QrcodeOutlined';
 
 export interface QrcodeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconQrcodeOutlined: QrcodeOutlinedIconType = (props, context) => (

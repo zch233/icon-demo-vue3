@@ -7,6 +7,8 @@ import SkypeFilledSvg from 'icon-base/es/asn/SkypeFilled';
 
 export interface SkypeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSkypeFilled: SkypeFilledIconType = (props, context) => <Icon name='SkypeFilled' {...{ ...props, ...context.attrs }} icon={SkypeFilledSvg} />;

@@ -7,6 +7,8 @@ import ToolOutlinedSvg from 'icon-base/es/asn/ToolOutlined';
 
 export interface ToolOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconToolOutlined: ToolOutlinedIconType = (props, context) => <Icon name='ToolOutlined' {...{ ...props, ...context.attrs }} icon={ToolOutlinedSvg} />;

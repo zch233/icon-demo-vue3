@@ -7,6 +7,8 @@ import FileUnknownOutlinedSvg from 'icon-base/es/asn/FileUnknownOutlined';
 
 export interface FileUnknownOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileUnknownOutlined: FileUnknownOutlinedIconType = (props, context) => (

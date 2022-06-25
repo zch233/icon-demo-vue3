@@ -7,6 +7,8 @@ import CustomerServiceFilledSvg from 'icon-base/es/asn/CustomerServiceFilled';
 
 export interface CustomerServiceFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCustomerServiceFilled: CustomerServiceFilledIconType = (props, context) => (

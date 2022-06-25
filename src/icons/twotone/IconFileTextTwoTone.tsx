@@ -7,6 +7,8 @@ import FileTextTwoToneSvg from 'icon-base/es/asn/FileTextTwoTone';
 
 export interface FileTextTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileTextTwoTone: FileTextTwoToneIconType = (props, context) => (

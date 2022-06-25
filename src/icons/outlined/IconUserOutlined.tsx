@@ -7,6 +7,8 @@ import UserOutlinedSvg from 'icon-base/es/asn/UserOutlined';
 
 export interface UserOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUserOutlined: UserOutlinedIconType = (props, context) => <Icon name='UserOutlined' {...{ ...props, ...context.attrs }} icon={UserOutlinedSvg} />;

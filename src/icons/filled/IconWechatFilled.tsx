@@ -7,6 +7,8 @@ import WechatFilledSvg from 'icon-base/es/asn/WechatFilled';
 
 export interface WechatFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWechatFilled: WechatFilledIconType = (props, context) => <Icon name='WechatFilled' {...{ ...props, ...context.attrs }} icon={WechatFilledSvg} />;

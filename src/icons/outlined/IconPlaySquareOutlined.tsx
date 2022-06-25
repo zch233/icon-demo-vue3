@@ -7,6 +7,8 @@ import PlaySquareOutlinedSvg from 'icon-base/es/asn/PlaySquareOutlined';
 
 export interface PlaySquareOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPlaySquareOutlined: PlaySquareOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import DoubleLeftOutlinedSvg from 'icon-base/es/asn/DoubleLeftOutlined';
 
 export interface DoubleLeftOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDoubleLeftOutlined: DoubleLeftOutlinedIconType = (props, context) => (

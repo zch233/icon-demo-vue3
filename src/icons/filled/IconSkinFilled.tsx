@@ -7,6 +7,8 @@ import SkinFilledSvg from 'icon-base/es/asn/SkinFilled';
 
 export interface SkinFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSkinFilled: SkinFilledIconType = (props, context) => <Icon name='SkinFilled' {...{ ...props, ...context.attrs }} icon={SkinFilledSvg} />;

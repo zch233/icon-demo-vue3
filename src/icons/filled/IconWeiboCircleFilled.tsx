@@ -7,6 +7,8 @@ import WeiboCircleFilledSvg from 'icon-base/es/asn/WeiboCircleFilled';
 
 export interface WeiboCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWeiboCircleFilled: WeiboCircleFilledIconType = (props, context) => (

@@ -7,6 +7,8 @@ import BarChartOutlinedSvg from 'icon-base/es/asn/BarChartOutlined';
 
 export interface BarChartOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBarChartOutlined: BarChartOutlinedIconType = (props, context) => (

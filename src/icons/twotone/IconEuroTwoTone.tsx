@@ -7,6 +7,8 @@ import EuroTwoToneSvg from 'icon-base/es/asn/EuroTwoTone';
 
 export interface EuroTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEuroTwoTone: EuroTwoToneIconType = (props, context) => <Icon name='EuroTwoTone' {...{ ...props, ...context.attrs }} icon={EuroTwoToneSvg} />;

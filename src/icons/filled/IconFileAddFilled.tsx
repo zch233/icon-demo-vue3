@@ -7,6 +7,8 @@ import FileAddFilledSvg from 'icon-base/es/asn/FileAddFilled';
 
 export interface FileAddFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileAddFilled: FileAddFilledIconType = (props, context) => <Icon name='FileAddFilled' {...{ ...props, ...context.attrs }} icon={FileAddFilledSvg} />;

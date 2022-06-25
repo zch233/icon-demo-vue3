@@ -7,6 +7,8 @@ import PicRightOutlinedSvg from 'icon-base/es/asn/PicRightOutlined';
 
 export interface PicRightOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPicRightOutlined: PicRightOutlinedIconType = (props, context) => (

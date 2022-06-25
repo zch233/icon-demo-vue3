@@ -7,6 +7,8 @@ import ClearOutlinedSvg from 'icon-base/es/asn/ClearOutlined';
 
 export interface ClearOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconClearOutlined: ClearOutlinedIconType = (props, context) => <Icon name='ClearOutlined' {...{ ...props, ...context.attrs }} icon={ClearOutlinedSvg} />;

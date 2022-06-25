@@ -7,6 +7,8 @@ import AliwangwangOutlinedSvg from 'icon-base/es/asn/AliwangwangOutlined';
 
 export interface AliwangwangOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAliwangwangOutlined: AliwangwangOutlinedIconType = (props, context) => (

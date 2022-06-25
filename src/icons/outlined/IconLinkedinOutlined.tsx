@@ -7,6 +7,8 @@ import LinkedinOutlinedSvg from 'icon-base/es/asn/LinkedinOutlined';
 
 export interface LinkedinOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLinkedinOutlined: LinkedinOutlinedIconType = (props, context) => (

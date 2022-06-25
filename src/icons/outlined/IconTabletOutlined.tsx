@@ -7,6 +7,8 @@ import TabletOutlinedSvg from 'icon-base/es/asn/TabletOutlined';
 
 export interface TabletOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTabletOutlined: TabletOutlinedIconType = (props, context) => (

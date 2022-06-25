@@ -7,6 +7,8 @@ import PlaySquareTwoToneSvg from 'icon-base/es/asn/PlaySquareTwoTone';
 
 export interface PlaySquareTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPlaySquareTwoTone: PlaySquareTwoToneIconType = (props, context) => (

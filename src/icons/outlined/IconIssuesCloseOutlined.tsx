@@ -7,6 +7,8 @@ import IssuesCloseOutlinedSvg from 'icon-base/es/asn/IssuesCloseOutlined';
 
 export interface IssuesCloseOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconIssuesCloseOutlined: IssuesCloseOutlinedIconType = (props, context) => (

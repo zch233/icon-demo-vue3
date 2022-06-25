@@ -7,6 +7,8 @@ import InsertRowRightOutlinedSvg from 'icon-base/es/asn/InsertRowRightOutlined';
 
 export interface InsertRowRightOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInsertRowRightOutlined: InsertRowRightOutlinedIconType = (props, context) => (

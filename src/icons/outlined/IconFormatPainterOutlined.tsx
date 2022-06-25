@@ -7,6 +7,8 @@ import FormatPainterOutlinedSvg from 'icon-base/es/asn/FormatPainterOutlined';
 
 export interface FormatPainterOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFormatPainterOutlined: FormatPainterOutlinedIconType = (props, context) => (

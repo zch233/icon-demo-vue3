@@ -7,6 +7,8 @@ import CheckCircleTwoToneSvg from 'icon-base/es/asn/CheckCircleTwoTone';
 
 export interface CheckCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCheckCircleTwoTone: CheckCircleTwoToneIconType = (props, context) => (

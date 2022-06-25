@@ -7,6 +7,8 @@ import AndroidOutlinedSvg from 'icon-base/es/asn/AndroidOutlined';
 
 export interface AndroidOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAndroidOutlined: AndroidOutlinedIconType = (props, context) => (

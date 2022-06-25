@@ -7,6 +7,8 @@ import DribbbleCircleFilledSvg from 'icon-base/es/asn/DribbbleCircleFilled';
 
 export interface DribbbleCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDribbbleCircleFilled: DribbbleCircleFilledIconType = (props, context) => (

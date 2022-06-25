@@ -7,6 +7,8 @@ import EnterOutlinedSvg from 'icon-base/es/asn/EnterOutlined';
 
 export interface EnterOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEnterOutlined: EnterOutlinedIconType = (props, context) => <Icon name='EnterOutlined' {...{ ...props, ...context.attrs }} icon={EnterOutlinedSvg} />;

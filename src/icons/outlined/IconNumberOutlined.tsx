@@ -7,6 +7,8 @@ import NumberOutlinedSvg from 'icon-base/es/asn/NumberOutlined';
 
 export interface NumberOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconNumberOutlined: NumberOutlinedIconType = (props, context) => (

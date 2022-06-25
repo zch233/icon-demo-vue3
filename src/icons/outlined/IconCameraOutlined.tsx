@@ -7,6 +7,8 @@ import CameraOutlinedSvg from 'icon-base/es/asn/CameraOutlined';
 
 export interface CameraOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCameraOutlined: CameraOutlinedIconType = (props, context) => (

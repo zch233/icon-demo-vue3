@@ -7,6 +7,8 @@ import TwitterCircleFilledSvg from 'icon-base/es/asn/TwitterCircleFilled';
 
 export interface TwitterCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTwitterCircleFilled: TwitterCircleFilledIconType = (props, context) => (

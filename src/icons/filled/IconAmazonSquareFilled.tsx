@@ -7,6 +7,8 @@ import AmazonSquareFilledSvg from 'icon-base/es/asn/AmazonSquareFilled';
 
 export interface AmazonSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAmazonSquareFilled: AmazonSquareFilledIconType = (props, context) => (

@@ -7,6 +7,8 @@ import WeiboSquareFilledSvg from 'icon-base/es/asn/WeiboSquareFilled';
 
 export interface WeiboSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconWeiboSquareFilled: WeiboSquareFilledIconType = (props, context) => (

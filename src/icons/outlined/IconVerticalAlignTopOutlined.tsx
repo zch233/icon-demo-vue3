@@ -7,6 +7,8 @@ import VerticalAlignTopOutlinedSvg from 'icon-base/es/asn/VerticalAlignTopOutlin
 
 export interface VerticalAlignTopOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconVerticalAlignTopOutlined: VerticalAlignTopOutlinedIconType = (props, context) => (

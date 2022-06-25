@@ -7,6 +7,8 @@ import DribbbleSquareFilledSvg from 'icon-base/es/asn/DribbbleSquareFilled';
 
 export interface DribbbleSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDribbbleSquareFilled: DribbbleSquareFilledIconType = (props, context) => (

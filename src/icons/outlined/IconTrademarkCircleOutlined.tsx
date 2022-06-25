@@ -7,6 +7,8 @@ import TrademarkCircleOutlinedSvg from 'icon-base/es/asn/TrademarkCircleOutlined
 
 export interface TrademarkCircleOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTrademarkCircleOutlined: TrademarkCircleOutlinedIconType = (props, context) => (

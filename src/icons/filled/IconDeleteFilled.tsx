@@ -7,6 +7,8 @@ import DeleteFilledSvg from 'icon-base/es/asn/DeleteFilled';
 
 export interface DeleteFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDeleteFilled: DeleteFilledIconType = (props, context) => <Icon name='DeleteFilled' {...{ ...props, ...context.attrs }} icon={DeleteFilledSvg} />;

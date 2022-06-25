@@ -7,6 +7,8 @@ import PhoneTwoToneSvg from 'icon-base/es/asn/PhoneTwoTone';
 
 export interface PhoneTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPhoneTwoTone: PhoneTwoToneIconType = (props, context) => <Icon name='PhoneTwoTone' {...{ ...props, ...context.attrs }} icon={PhoneTwoToneSvg} />;

@@ -7,6 +7,8 @@ import MessageTwoToneSvg from 'icon-base/es/asn/MessageTwoTone';
 
 export interface MessageTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMessageTwoTone: MessageTwoToneIconType = (props, context) => (

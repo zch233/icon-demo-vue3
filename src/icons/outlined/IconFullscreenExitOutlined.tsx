@@ -7,6 +7,8 @@ import FullscreenExitOutlinedSvg from 'icon-base/es/asn/FullscreenExitOutlined';
 
 export interface FullscreenExitOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFullscreenExitOutlined: FullscreenExitOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import DeleteColumnOutlinedSvg from 'icon-base/es/asn/DeleteColumnOutlined';
 
 export interface DeleteColumnOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDeleteColumnOutlined: DeleteColumnOutlinedIconType = (props, context) => (

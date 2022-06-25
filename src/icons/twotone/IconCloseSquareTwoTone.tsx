@@ -7,6 +7,8 @@ import CloseSquareTwoToneSvg from 'icon-base/es/asn/CloseSquareTwoTone';
 
 export interface CloseSquareTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCloseSquareTwoTone: CloseSquareTwoToneIconType = (props, context) => (

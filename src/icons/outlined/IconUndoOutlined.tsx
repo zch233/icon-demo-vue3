@@ -7,6 +7,8 @@ import UndoOutlinedSvg from 'icon-base/es/asn/UndoOutlined';
 
 export interface UndoOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUndoOutlined: UndoOutlinedIconType = (props, context) => <Icon name='UndoOutlined' {...{ ...props, ...context.attrs }} icon={UndoOutlinedSvg} />;

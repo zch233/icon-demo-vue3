@@ -7,6 +7,8 @@ import SmallDashOutlinedSvg from 'icon-base/es/asn/SmallDashOutlined';
 
 export interface SmallDashOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSmallDashOutlined: SmallDashOutlinedIconType = (props, context) => (

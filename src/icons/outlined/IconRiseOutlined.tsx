@@ -7,6 +7,8 @@ import RiseOutlinedSvg from 'icon-base/es/asn/RiseOutlined';
 
 export interface RiseOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRiseOutlined: RiseOutlinedIconType = (props, context) => <Icon name='RiseOutlined' {...{ ...props, ...context.attrs }} icon={RiseOutlinedSvg} />;

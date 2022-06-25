@@ -7,6 +7,8 @@ import MobileOutlinedSvg from 'icon-base/es/asn/MobileOutlined';
 
 export interface MobileOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMobileOutlined: MobileOutlinedIconType = (props, context) => (

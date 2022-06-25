@@ -7,6 +7,8 @@ import LineHeightOutlinedSvg from 'icon-base/es/asn/LineHeightOutlined';
 
 export interface LineHeightOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLineHeightOutlined: LineHeightOutlinedIconType = (props, context) => (

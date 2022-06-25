@@ -7,6 +7,8 @@ import InteractionFilledSvg from 'icon-base/es/asn/InteractionFilled';
 
 export interface InteractionFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInteractionFilled: InteractionFilledIconType = (props, context) => (

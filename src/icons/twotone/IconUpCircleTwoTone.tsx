@@ -7,6 +7,8 @@ import UpCircleTwoToneSvg from 'icon-base/es/asn/UpCircleTwoTone';
 
 export interface UpCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconUpCircleTwoTone: UpCircleTwoToneIconType = (props, context) => (

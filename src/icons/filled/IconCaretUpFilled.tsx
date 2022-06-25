@@ -7,6 +7,8 @@ import CaretUpFilledSvg from 'icon-base/es/asn/CaretUpFilled';
 
 export interface CaretUpFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCaretUpFilled: CaretUpFilledIconType = (props, context) => <Icon name='CaretUpFilled' {...{ ...props, ...context.attrs }} icon={CaretUpFilledSvg} />;

@@ -7,6 +7,8 @@ import MoneyCollectOutlinedSvg from 'icon-base/es/asn/MoneyCollectOutlined';
 
 export interface MoneyCollectOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMoneyCollectOutlined: MoneyCollectOutlinedIconType = (props, context) => (

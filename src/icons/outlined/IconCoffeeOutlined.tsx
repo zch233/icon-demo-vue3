@@ -7,6 +7,8 @@ import CoffeeOutlinedSvg from 'icon-base/es/asn/CoffeeOutlined';
 
 export interface CoffeeOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCoffeeOutlined: CoffeeOutlinedIconType = (props, context) => (

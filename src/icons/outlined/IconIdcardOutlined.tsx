@@ -7,6 +7,8 @@ import IdcardOutlinedSvg from 'icon-base/es/asn/IdcardOutlined';
 
 export interface IdcardOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconIdcardOutlined: IdcardOutlinedIconType = (props, context) => (

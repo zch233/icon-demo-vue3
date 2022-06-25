@@ -7,6 +7,8 @@ import DownCircleTwoToneSvg from 'icon-base/es/asn/DownCircleTwoTone';
 
 export interface DownCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDownCircleTwoTone: DownCircleTwoToneIconType = (props, context) => (

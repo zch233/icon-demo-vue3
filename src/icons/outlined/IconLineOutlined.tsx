@@ -7,6 +7,8 @@ import LineOutlinedSvg from 'icon-base/es/asn/LineOutlined';
 
 export interface LineOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLineOutlined: LineOutlinedIconType = (props, context) => <Icon name='LineOutlined' {...{ ...props, ...context.attrs }} icon={LineOutlinedSvg} />;

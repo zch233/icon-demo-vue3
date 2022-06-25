@@ -7,6 +7,8 @@ import DownSquareFilledSvg from 'icon-base/es/asn/DownSquareFilled';
 
 export interface DownSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDownSquareFilled: DownSquareFilledIconType = (props, context) => (

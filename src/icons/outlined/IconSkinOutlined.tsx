@@ -7,6 +7,8 @@ import SkinOutlinedSvg from 'icon-base/es/asn/SkinOutlined';
 
 export interface SkinOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSkinOutlined: SkinOutlinedIconType = (props, context) => <Icon name='SkinOutlined' {...{ ...props, ...context.attrs }} icon={SkinOutlinedSvg} />;

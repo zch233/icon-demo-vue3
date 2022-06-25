@@ -7,6 +7,8 @@ import SwitcherOutlinedSvg from 'icon-base/es/asn/SwitcherOutlined';
 
 export interface SwitcherOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSwitcherOutlined: SwitcherOutlinedIconType = (props, context) => (

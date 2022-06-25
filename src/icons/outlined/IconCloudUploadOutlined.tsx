@@ -7,6 +7,8 @@ import CloudUploadOutlinedSvg from 'icon-base/es/asn/CloudUploadOutlined';
 
 export interface CloudUploadOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCloudUploadOutlined: CloudUploadOutlinedIconType = (props, context) => (

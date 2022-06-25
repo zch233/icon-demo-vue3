@@ -7,6 +7,8 @@ import BarsOutlinedSvg from 'icon-base/es/asn/BarsOutlined';
 
 export interface BarsOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBarsOutlined: BarsOutlinedIconType = (props, context) => <Icon name='BarsOutlined' {...{ ...props, ...context.attrs }} icon={BarsOutlinedSvg} />;

@@ -7,6 +7,8 @@ import FileMarkdownOutlinedSvg from 'icon-base/es/asn/FileMarkdownOutlined';
 
 export interface FileMarkdownOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileMarkdownOutlined: FileMarkdownOutlinedIconType = (props, context) => (

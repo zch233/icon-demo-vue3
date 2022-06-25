@@ -7,6 +7,8 @@ import AuditOutlinedSvg from 'icon-base/es/asn/AuditOutlined';
 
 export interface AuditOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAuditOutlined: AuditOutlinedIconType = (props, context) => <Icon name='AuditOutlined' {...{ ...props, ...context.attrs }} icon={AuditOutlinedSvg} />;

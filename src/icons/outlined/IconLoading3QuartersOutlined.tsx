@@ -7,6 +7,8 @@ import Loading3QuartersOutlinedSvg from 'icon-base/es/asn/Loading3QuartersOutlin
 
 export interface Loading3QuartersOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLoading3QuartersOutlined: Loading3QuartersOutlinedIconType = (props, context) => (

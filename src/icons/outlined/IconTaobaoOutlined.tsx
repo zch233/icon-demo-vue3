@@ -7,6 +7,8 @@ import TaobaoOutlinedSvg from 'icon-base/es/asn/TaobaoOutlined';
 
 export interface TaobaoOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTaobaoOutlined: TaobaoOutlinedIconType = (props, context) => (

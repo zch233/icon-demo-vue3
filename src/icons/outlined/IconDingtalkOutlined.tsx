@@ -7,6 +7,8 @@ import DingtalkOutlinedSvg from 'icon-base/es/asn/DingtalkOutlined';
 
 export interface DingtalkOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDingtalkOutlined: DingtalkOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import AccountBookFilledSvg from 'icon-base/es/asn/AccountBookFilled';
 
 export interface AccountBookFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAccountBookFilled: AccountBookFilledIconType = (props, context) => (

@@ -7,6 +7,8 @@ import LayoutFilledSvg from 'icon-base/es/asn/LayoutFilled';
 
 export interface LayoutFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLayoutFilled: LayoutFilledIconType = (props, context) => <Icon name='LayoutFilled' {...{ ...props, ...context.attrs }} icon={LayoutFilledSvg} />;

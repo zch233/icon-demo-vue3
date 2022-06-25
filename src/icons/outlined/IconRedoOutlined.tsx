@@ -7,6 +7,8 @@ import RedoOutlinedSvg from 'icon-base/es/asn/RedoOutlined';
 
 export interface RedoOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRedoOutlined: RedoOutlinedIconType = (props, context) => <Icon name='RedoOutlined' {...{ ...props, ...context.attrs }} icon={RedoOutlinedSvg} />;

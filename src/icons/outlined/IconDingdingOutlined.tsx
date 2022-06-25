@@ -7,6 +7,8 @@ import DingdingOutlinedSvg from 'icon-base/es/asn/DingdingOutlined';
 
 export interface DingdingOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDingdingOutlined: DingdingOutlinedIconType = (props, context) => (

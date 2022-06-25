@@ -7,6 +7,8 @@ import NotificationOutlinedSvg from 'icon-base/es/asn/NotificationOutlined';
 
 export interface NotificationOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconNotificationOutlined: NotificationOutlinedIconType = (props, context) => (

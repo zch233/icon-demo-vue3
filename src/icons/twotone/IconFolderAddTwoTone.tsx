@@ -7,6 +7,8 @@ import FolderAddTwoToneSvg from 'icon-base/es/asn/FolderAddTwoTone';
 
 export interface FolderAddTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFolderAddTwoTone: FolderAddTwoToneIconType = (props, context) => (

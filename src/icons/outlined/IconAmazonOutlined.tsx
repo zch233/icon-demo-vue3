@@ -7,6 +7,8 @@ import AmazonOutlinedSvg from 'icon-base/es/asn/AmazonOutlined';
 
 export interface AmazonOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAmazonOutlined: AmazonOutlinedIconType = (props, context) => (

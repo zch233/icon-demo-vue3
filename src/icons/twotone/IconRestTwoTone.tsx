@@ -7,6 +7,8 @@ import RestTwoToneSvg from 'icon-base/es/asn/RestTwoTone';
 
 export interface RestTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRestTwoTone: RestTwoToneIconType = (props, context) => <Icon name='RestTwoTone' {...{ ...props, ...context.attrs }} icon={RestTwoToneSvg} />;

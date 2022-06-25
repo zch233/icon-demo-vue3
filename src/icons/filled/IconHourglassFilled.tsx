@@ -7,6 +7,8 @@ import HourglassFilledSvg from 'icon-base/es/asn/HourglassFilled';
 
 export interface HourglassFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconHourglassFilled: HourglassFilledIconType = (props, context) => (

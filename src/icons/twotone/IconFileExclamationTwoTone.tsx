@@ -7,6 +7,8 @@ import FileExclamationTwoToneSvg from 'icon-base/es/asn/FileExclamationTwoTone';
 
 export interface FileExclamationTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileExclamationTwoTone: FileExclamationTwoToneIconType = (props, context) => (

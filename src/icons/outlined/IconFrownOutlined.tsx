@@ -7,6 +7,8 @@ import FrownOutlinedSvg from 'icon-base/es/asn/FrownOutlined';
 
 export interface FrownOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFrownOutlined: FrownOutlinedIconType = (props, context) => <Icon name='FrownOutlined' {...{ ...props, ...context.attrs }} icon={FrownOutlinedSvg} />;

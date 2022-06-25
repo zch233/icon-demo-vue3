@@ -7,6 +7,8 @@ import DeliveredProcedureOutlinedSvg from 'icon-base/es/asn/DeliveredProcedureOu
 
 export interface DeliveredProcedureOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDeliveredProcedureOutlined: DeliveredProcedureOutlinedIconType = (props, context) => (

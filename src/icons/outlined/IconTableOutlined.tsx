@@ -7,6 +7,8 @@ import TableOutlinedSvg from 'icon-base/es/asn/TableOutlined';
 
 export interface TableOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTableOutlined: TableOutlinedIconType = (props, context) => <Icon name='TableOutlined' {...{ ...props, ...context.attrs }} icon={TableOutlinedSvg} />;

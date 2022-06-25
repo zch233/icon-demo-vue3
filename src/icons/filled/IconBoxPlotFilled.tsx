@@ -7,6 +7,8 @@ import BoxPlotFilledSvg from 'icon-base/es/asn/BoxPlotFilled';
 
 export interface BoxPlotFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBoxPlotFilled: BoxPlotFilledIconType = (props, context) => <Icon name='BoxPlotFilled' {...{ ...props, ...context.attrs }} icon={BoxPlotFilledSvg} />;

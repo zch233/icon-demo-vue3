@@ -7,6 +7,8 @@ import TeamOutlinedSvg from 'icon-base/es/asn/TeamOutlined';
 
 export interface TeamOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTeamOutlined: TeamOutlinedIconType = (props, context) => <Icon name='TeamOutlined' {...{ ...props, ...context.attrs }} icon={TeamOutlinedSvg} />;

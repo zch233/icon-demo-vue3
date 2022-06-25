@@ -7,6 +7,8 @@ import CopyOutlinedSvg from 'icon-base/es/asn/CopyOutlined';
 
 export interface CopyOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCopyOutlined: CopyOutlinedIconType = (props, context) => <Icon name='CopyOutlined' {...{ ...props, ...context.attrs }} icon={CopyOutlinedSvg} />;

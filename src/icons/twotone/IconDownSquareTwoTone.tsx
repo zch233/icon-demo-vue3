@@ -7,6 +7,8 @@ import DownSquareTwoToneSvg from 'icon-base/es/asn/DownSquareTwoTone';
 
 export interface DownSquareTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconDownSquareTwoTone: DownSquareTwoToneIconType = (props, context) => (

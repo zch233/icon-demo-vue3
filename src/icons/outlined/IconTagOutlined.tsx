@@ -7,6 +7,8 @@ import TagOutlinedSvg from 'icon-base/es/asn/TagOutlined';
 
 export interface TagOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTagOutlined: TagOutlinedIconType = (props, context) => <Icon name='TagOutlined' {...{ ...props, ...context.attrs }} icon={TagOutlinedSvg} />;

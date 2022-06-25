@@ -7,6 +7,8 @@ import MergeCellsOutlinedSvg from 'icon-base/es/asn/MergeCellsOutlined';
 
 export interface MergeCellsOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMergeCellsOutlined: MergeCellsOutlinedIconType = (props, context) => (

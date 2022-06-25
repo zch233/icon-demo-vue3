@@ -7,6 +7,8 @@ import FunnelPlotTwoToneSvg from 'icon-base/es/asn/FunnelPlotTwoTone';
 
 export interface FunnelPlotTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFunnelPlotTwoTone: FunnelPlotTwoToneIconType = (props, context) => (

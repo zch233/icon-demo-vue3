@@ -7,6 +7,8 @@ import ReloadOutlinedSvg from 'icon-base/es/asn/ReloadOutlined';
 
 export interface ReloadOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconReloadOutlined: ReloadOutlinedIconType = (props, context) => (

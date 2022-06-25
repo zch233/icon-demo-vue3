@@ -7,6 +7,8 @@ import ToolFilledSvg from 'icon-base/es/asn/ToolFilled';
 
 export interface ToolFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconToolFilled: ToolFilledIconType = (props, context) => <Icon name='ToolFilled' {...{ ...props, ...context.attrs }} icon={ToolFilledSvg} />;

@@ -7,6 +7,8 @@ import BulbFilledSvg from 'icon-base/es/asn/BulbFilled';
 
 export interface BulbFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconBulbFilled: BulbFilledIconType = (props, context) => <Icon name='BulbFilled' {...{ ...props, ...context.attrs }} icon={BulbFilledSvg} />;

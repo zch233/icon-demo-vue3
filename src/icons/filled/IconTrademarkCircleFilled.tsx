@@ -7,6 +7,8 @@ import TrademarkCircleFilledSvg from 'icon-base/es/asn/TrademarkCircleFilled';
 
 export interface TrademarkCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTrademarkCircleFilled: TrademarkCircleFilledIconType = (props, context) => (

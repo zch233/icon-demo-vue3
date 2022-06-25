@@ -7,6 +7,8 @@ import FileTextOutlinedSvg from 'icon-base/es/asn/FileTextOutlined';
 
 export interface FileTextOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileTextOutlined: FileTextOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import PlusSquareFilledSvg from 'icon-base/es/asn/PlusSquareFilled';
 
 export interface PlusSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPlusSquareFilled: PlusSquareFilledIconType = (props, context) => (

@@ -7,6 +7,8 @@ import YahooFilledSvg from 'icon-base/es/asn/YahooFilled';
 
 export interface YahooFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconYahooFilled: YahooFilledIconType = (props, context) => <Icon name='YahooFilled' {...{ ...props, ...context.attrs }} icon={YahooFilledSvg} />;

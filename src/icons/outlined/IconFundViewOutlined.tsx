@@ -7,6 +7,8 @@ import FundViewOutlinedSvg from 'icon-base/es/asn/FundViewOutlined';
 
 export interface FundViewOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFundViewOutlined: FundViewOutlinedIconType = (props, context) => (

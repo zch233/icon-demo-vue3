@@ -7,6 +7,8 @@ import ExclamationCircleFilledSvg from 'icon-base/es/asn/ExclamationCircleFilled
 
 export interface ExclamationCircleFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconExclamationCircleFilled: ExclamationCircleFilledIconType = (props, context) => (

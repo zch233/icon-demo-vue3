@@ -7,6 +7,8 @@ import InstagramFilledSvg from 'icon-base/es/asn/InstagramFilled';
 
 export interface InstagramFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInstagramFilled: InstagramFilledIconType = (props, context) => (

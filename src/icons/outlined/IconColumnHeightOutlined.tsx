@@ -7,6 +7,8 @@ import ColumnHeightOutlinedSvg from 'icon-base/es/asn/ColumnHeightOutlined';
 
 export interface ColumnHeightOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconColumnHeightOutlined: ColumnHeightOutlinedIconType = (props, context) => (

@@ -7,6 +7,8 @@ import RetweetOutlinedSvg from 'icon-base/es/asn/RetweetOutlined';
 
 export interface RetweetOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRetweetOutlined: RetweetOutlinedIconType = (props, context) => (

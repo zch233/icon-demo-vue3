@@ -7,6 +7,8 @@ import HighlightTwoToneSvg from 'icon-base/es/asn/HighlightTwoTone';
 
 export interface HighlightTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconHighlightTwoTone: HighlightTwoToneIconType = (props, context) => (

@@ -7,6 +7,8 @@ import NotificationFilledSvg from 'icon-base/es/asn/NotificationFilled';
 
 export interface NotificationFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconNotificationFilled: NotificationFilledIconType = (props, context) => (

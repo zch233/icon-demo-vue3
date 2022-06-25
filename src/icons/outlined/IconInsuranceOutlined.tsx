@@ -7,6 +7,8 @@ import InsuranceOutlinedSvg from 'icon-base/es/asn/InsuranceOutlined';
 
 export interface InsuranceOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInsuranceOutlined: InsuranceOutlinedIconType = (props, context) => (

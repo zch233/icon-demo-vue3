@@ -7,6 +7,8 @@ import GoldenFilledSvg from 'icon-base/es/asn/GoldenFilled';
 
 export interface GoldenFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGoldenFilled: GoldenFilledIconType = (props, context) => <Icon name='GoldenFilled' {...{ ...props, ...context.attrs }} icon={GoldenFilledSvg} />;

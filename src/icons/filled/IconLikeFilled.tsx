@@ -7,6 +7,8 @@ import LikeFilledSvg from 'icon-base/es/asn/LikeFilled';
 
 export interface LikeFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconLikeFilled: LikeFilledIconType = (props, context) => <Icon name='LikeFilled' {...{ ...props, ...context.attrs }} icon={LikeFilledSvg} />;

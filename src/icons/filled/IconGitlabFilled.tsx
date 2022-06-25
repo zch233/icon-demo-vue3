@@ -7,6 +7,8 @@ import GitlabFilledSvg from 'icon-base/es/asn/GitlabFilled';
 
 export interface GitlabFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGitlabFilled: GitlabFilledIconType = (props, context) => <Icon name='GitlabFilled' {...{ ...props, ...context.attrs }} icon={GitlabFilledSvg} />;

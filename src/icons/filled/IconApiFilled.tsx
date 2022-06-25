@@ -7,6 +7,8 @@ import ApiFilledSvg from 'icon-base/es/asn/ApiFilled';
 
 export interface ApiFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconApiFilled: ApiFilledIconType = (props, context) => <Icon name='ApiFilled' {...{ ...props, ...context.attrs }} icon={ApiFilledSvg} />;

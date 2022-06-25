@@ -7,6 +7,8 @@ import PoundCircleTwoToneSvg from 'icon-base/es/asn/PoundCircleTwoTone';
 
 export interface PoundCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPoundCircleTwoTone: PoundCircleTwoToneIconType = (props, context) => (

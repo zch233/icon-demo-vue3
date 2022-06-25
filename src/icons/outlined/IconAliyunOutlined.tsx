@@ -7,6 +7,8 @@ import AliyunOutlinedSvg from 'icon-base/es/asn/AliyunOutlined';
 
 export interface AliyunOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconAliyunOutlined: AliyunOutlinedIconType = (props, context) => (

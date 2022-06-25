@@ -7,6 +7,8 @@ import InboxOutlinedSvg from 'icon-base/es/asn/InboxOutlined';
 
 export interface InboxOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInboxOutlined: InboxOutlinedIconType = (props, context) => <Icon name='InboxOutlined' {...{ ...props, ...context.attrs }} icon={InboxOutlinedSvg} />;

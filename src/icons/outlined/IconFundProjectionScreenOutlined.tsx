@@ -7,6 +7,8 @@ import FundProjectionScreenOutlinedSvg from 'icon-base/es/asn/FundProjectionScre
 
 export interface FundProjectionScreenOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFundProjectionScreenOutlined: FundProjectionScreenOutlinedIconType = (props, context) => (

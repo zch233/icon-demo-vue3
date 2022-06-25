@@ -7,6 +7,8 @@ import PaperClipOutlinedSvg from 'icon-base/es/asn/PaperClipOutlined';
 
 export interface PaperClipOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPaperClipOutlined: PaperClipOutlinedIconType = (props, context) => (

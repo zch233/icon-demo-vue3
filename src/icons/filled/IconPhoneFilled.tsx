@@ -7,6 +7,8 @@ import PhoneFilledSvg from 'icon-base/es/asn/PhoneFilled';
 
 export interface PhoneFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPhoneFilled: PhoneFilledIconType = (props, context) => <Icon name='PhoneFilled' {...{ ...props, ...context.attrs }} icon={PhoneFilledSvg} />;

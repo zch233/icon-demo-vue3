@@ -7,6 +7,8 @@ import CarryOutOutlinedSvg from 'icon-base/es/asn/CarryOutOutlined';
 
 export interface CarryOutOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconCarryOutOutlined: CarryOutOutlinedIconType = (props, context) => (

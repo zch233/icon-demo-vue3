@@ -7,6 +7,8 @@ import GooglePlusSquareFilledSvg from 'icon-base/es/asn/GooglePlusSquareFilled';
 
 export interface GooglePlusSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGooglePlusSquareFilled: GooglePlusSquareFilledIconType = (props, context) => (

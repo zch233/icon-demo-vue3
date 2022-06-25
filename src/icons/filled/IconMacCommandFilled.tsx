@@ -7,6 +7,8 @@ import MacCommandFilledSvg from 'icon-base/es/asn/MacCommandFilled';
 
 export interface MacCommandFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMacCommandFilled: MacCommandFilledIconType = (props, context) => (

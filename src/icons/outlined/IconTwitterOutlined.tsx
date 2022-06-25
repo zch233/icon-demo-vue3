@@ -7,6 +7,8 @@ import TwitterOutlinedSvg from 'icon-base/es/asn/TwitterOutlined';
 
 export interface TwitterOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconTwitterOutlined: TwitterOutlinedIconType = (props, context) => (

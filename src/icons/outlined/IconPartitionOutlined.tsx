@@ -7,6 +7,8 @@ import PartitionOutlinedSvg from 'icon-base/es/asn/PartitionOutlined';
 
 export interface PartitionOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconPartitionOutlined: PartitionOutlinedIconType = (props, context) => (

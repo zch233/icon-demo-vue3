@@ -7,6 +7,8 @@ import InfoCircleTwoToneSvg from 'icon-base/es/asn/InfoCircleTwoTone';
 
 export interface InfoCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconInfoCircleTwoTone: InfoCircleTwoToneIconType = (props, context) => (

@@ -7,6 +7,8 @@ import RightSquareFilledSvg from 'icon-base/es/asn/RightSquareFilled';
 
 export interface RightSquareFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconRightSquareFilled: RightSquareFilledIconType = (props, context) => (

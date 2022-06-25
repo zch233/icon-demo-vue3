@@ -7,6 +7,8 @@ import EnvironmentOutlinedSvg from 'icon-base/es/asn/EnvironmentOutlined';
 
 export interface EnvironmentOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconEnvironmentOutlined: EnvironmentOutlinedIconType = (props, context) => (

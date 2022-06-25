@@ -7,6 +7,8 @@ import ClockCircleTwoToneSvg from 'icon-base/es/asn/ClockCircleTwoTone';
 
 export interface ClockCircleTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconClockCircleTwoTone: ClockCircleTwoToneIconType = (props, context) => (

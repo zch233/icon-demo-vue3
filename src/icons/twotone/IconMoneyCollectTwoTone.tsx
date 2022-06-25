@@ -7,6 +7,8 @@ import MoneyCollectTwoToneSvg from 'icon-base/es/asn/MoneyCollectTwoTone';
 
 export interface MoneyCollectTwoToneIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconMoneyCollectTwoTone: MoneyCollectTwoToneIconType = (props, context) => (

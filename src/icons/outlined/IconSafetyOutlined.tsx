@@ -7,6 +7,8 @@ import SafetyOutlinedSvg from 'icon-base/es/asn/SafetyOutlined';
 
 export interface SafetyOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconSafetyOutlined: SafetyOutlinedIconType = (props, context) => (

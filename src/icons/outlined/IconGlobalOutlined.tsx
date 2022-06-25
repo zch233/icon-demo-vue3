@@ -7,6 +7,8 @@ import GlobalOutlinedSvg from 'icon-base/es/asn/GlobalOutlined';
 
 export interface GlobalOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconGlobalOutlined: GlobalOutlinedIconType = (props, context) => (

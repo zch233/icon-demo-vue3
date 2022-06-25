@@ -7,6 +7,8 @@ import FileJpgOutlinedSvg from 'icon-base/es/asn/FileJpgOutlined';
 
 export interface FileJpgOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFileJpgOutlined: FileJpgOutlinedIconType = (props, context) => (

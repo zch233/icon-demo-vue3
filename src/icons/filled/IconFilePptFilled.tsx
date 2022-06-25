@@ -7,6 +7,8 @@ import FilePptFilledSvg from 'icon-base/es/asn/FilePptFilled';
 
 export interface FilePptFilledIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconFilePptFilled: FilePptFilledIconType = (props, context) => <Icon name='FilePptFilled' {...{ ...props, ...context.attrs }} icon={FilePptFilledSvg} />;

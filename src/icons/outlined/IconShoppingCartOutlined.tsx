@@ -7,6 +7,8 @@ import ShoppingCartOutlinedSvg from 'icon-base/es/asn/ShoppingCartOutlined';
 
 export interface ShoppingCartOutlinedIconType extends FunctionalComponent<IconProps> {
     displayName: string;
+    theme: string;
+    originName: string;
 }
 
 const IconShoppingCartOutlined: ShoppingCartOutlinedIconType = (props, context) => (
